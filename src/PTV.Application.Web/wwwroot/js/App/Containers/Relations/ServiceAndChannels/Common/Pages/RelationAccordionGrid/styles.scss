@@ -1,0 +1,55 @@
+@import '../../../../../../Components/Styles/variables';
+@import '../../../../../../Components/Styles/mixins';
+
+.channel-relation-info {
+    border: 1px solid $gray-mid;
+    background-color: #FFFFFF;  
+    margin-bottom: 10px;
+    
+    .header, .body {
+      padding: 10px 20px;
+    }
+
+    .header {
+      background-color: $gray-lightest;
+      border-bottom: 1px solid $gray-mid;
+
+      &-title {
+        margin: 0;
+      }
+    }
+}
+
+/*.service-accordion, .channel-accordion {
+  > .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}*/
+
+.accordion-grid {
+  [class^=status-] {
+    margin: 5px 0;
+  }
+}
+
+.service-accordion {
+  &:first-child {
+    border-top: 1px solid $gray-mid;  
+  }
+
+  border-bottom: 1px solid $gray-mid;
+}
+
+.channel-accordion {
+  ~ .channel-accordion {
+    .channel-accordion-item {
+      border-top: 1px solid $gray-mid;
+    }
+  }
+}
+
+.connection-info {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}

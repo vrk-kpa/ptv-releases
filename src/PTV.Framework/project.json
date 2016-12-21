@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0-*",
+  "description": "PTV.Framework Class Library",
+  "authors": [ "" ],
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [ "dnxcore50", "netcore50" ]
+    }
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.1.0",
+      "type": "platform"
+    },
+    "PTV.Framework.Interfaces": "1.0.0-*",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha2",
+    "Microsoft.Extensions.DependencyModel": "1.1.0",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "System.Xml.XmlSerializer": "4.0.11",
+    "System.Security.Cryptography.Csp": "4.3.0"
+  },
+  "buildOptions": {
+    "copyToOutput": [ "MapServiceRequestBody.xml" ],
+    "embed": [ "MapServiceRequestBody.xml" ]
+  },
+  "publishOptions": {
+    "includeFiles": [
+      "MapServiceRequestBody.xml"
+    ],
+    "include": [
+      "MapServiceRequestBody.xml"
+    ]
+  }
+}

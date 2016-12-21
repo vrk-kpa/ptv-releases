@@ -1,0 +1,152 @@
+﻿[
+    {
+        "code": "Description",
+        "names": [
+            {
+                "Name": "Kuvaus",
+                "language": "fi"
+            },
+            {
+                "Name": "Description",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ShortDescription",
+        "names": [
+            {
+                "Name": "Lyhyt kuvaus",
+                "language": "fi"
+            },
+            {
+                "Name": "ShortDescription",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ServiceUserInstruction",
+        "names": [
+            {
+                "Name": "Toimintaohjeet",
+                "language": "fi"
+            },
+            {
+                "Name": "Service user instruction",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ChargeDescription",
+        "names": [
+            {
+                "Name": "Maksullisuuden kuvaus",
+                "language": "fi"
+            },
+            {
+                "Name": "Charge description",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ChargeTypeAdditionalInfo",
+        "names": [
+            {
+                "Name": "Maksullisuuden",
+                "language": "fi"
+            },
+            {
+                "Name": "Charge type",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ServiceTypeAdditionalInfo",
+        "names": [
+            {
+                "Name": "Velvoitteet",
+                "language": "fi"
+            },
+            {
+                "Name": "Service type",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "TasksAdditionalInfo",
+        "names": [
+            {
+                "Name": "Velvoitteet",
+                "language": "fi"
+            },
+            {
+                "Name": " Obligatory tasks",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "DeadLineAdditionalInfo",
+        "names": [
+            {
+                "Name": "Määräaika",
+                "language": "fi"
+            },
+            {
+                "Name": "DeadLine",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ProcessingTimeAdditionalInfo",
+        "names": [
+            {
+                "Name": "Käsittelyaika",
+                "language": "fi"
+            },
+            {
+                "Name": "Processing time",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ValidityTimeAdditionalInfo",
+        "names": [
+            {
+                "Name": "Voimassaoloaika",
+                "language": "fi"
+            },
+            {
+                "Name": "Validity time",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

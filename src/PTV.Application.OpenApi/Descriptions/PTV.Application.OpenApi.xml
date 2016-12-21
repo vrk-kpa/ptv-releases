@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PTV.Application.OpenApi</name>
+    </assembly>
+    <members>
+        <member name="T:PTV.Application.OpenApi.Attributes.ValidateDateAttribute">
+            <summary>
+            Checks the date query string parameter format.
+            </summary>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.GeneralDescriptionController.Get(System.Nullable{System.DateTime})">
+            <summary>
+            Gets all the statutory service general descriptions within PTV as a list of ids.
+            Descriptions created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <returns>A list of general description ids.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.GeneralDescriptionController.Get(System.String)">
+            <summary>
+            Fetches all the information related to a single statutory service general description.
+            </summary>
+            <param name="id">Guid</param>
+            <returns>Detailed information about a statutory service general description.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.OrganizationController.Get(System.Nullable{System.DateTime},System.Int32)">
+            <summary>
+            Gets all the published organizations within PTV as a list of organization ids.
+            Organizations created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <param name="page">The page number to be fetched.</param>
+            <returns>A list of organization ids.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.OrganizationController.Get(System.String)">
+            <summary>
+            Fetches all the information related to a single organization.
+            </summary>
+            <param name="id">Guid</param>
+            <returns>Detailed information about an organization.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.OrganizationController.Post(PTV.Domain.Model.Models.OpenApi.VmOpenApiOrganizationIn)">
+            <summary>
+            Creates a new organization with the data provided as input.
+            </summary>
+            <param name="request">The organization data.</param>
+            <returns>The created organization.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceChannelController.Get(System.Nullable{System.DateTime})">
+            <summary>
+            Gets all published service channels within PTV as a list of service channel ids.
+            Service channels created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <returns>A list of service channel ids.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceChannelController.Get(System.String)">
+            <summary>
+            Fetches all the information related to a single service channel.
+            </summary>
+            <param name="id">Guid</param>
+            <returns>Detailed information about a service channel.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceChannelController.GetByType(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Gets a list of certain type of published service channels.
+            Service channels created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="type">Service channel type</param>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <returns>Detailed information about certain type of service channels.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceChannelController.GetByOrganizationId(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Gets a list of published service channels for defined organization.
+            Service channels created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="type"></param>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <returns>Detailed information about service channels.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceChannelController.GetByOrganizationIdAndType(System.String,System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Gets a list of certain type of published service channels for defined organization.
+            Service channels created/modified after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="type"></param>
+            <returns>Detailed information about service channels.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceController.Get(System.Nullable{System.DateTime},System.Int32)">
+            <summary>
+            Gets all the published services within PTV as a list of service ids.
+            Services created after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <param name="page">The page number to be fetched.</param>
+            <returns>A list of service ids.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceController.Get(System.String)">
+            <summary>
+            Fetches all the information related to a single service.
+            </summary>
+            <param name="id"></param>
+            <returns>Detailed information about a service.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceController.GetByServiceChannel(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Gets a list of published services for defined service channel.
+            Services joined to service channel after certain date can be fetched by adding date as query string parameter.
+            </summary>
+            <param name="serviceChannelId">Guid</param>
+            <param name="date">Date e.g. 2016-05-27T12:00</param>
+            <returns>Detailed information about a service.</returns>
+        </member>
+        <member name="M:PTV.Application.OpenApi.Controllers.ServiceController.Post(PTV.Domain.Model.Models.OpenApi.VmOpenApiServiceIn)">
+            <summary>
+            Creates a new service with the data provided as input.
+            </summary>
+            <param name="request">The service data.</param>
+            <returns>The created service.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,50 @@
+﻿[
+    {
+        "code": "Phone",
+        "orderNumber":  1,
+        "names": [
+            {
+                "Name": "Puhelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Phone",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Sms",
+        "orderNumber": 2,
+        "names": [
+            {
+                "Name": "Tekstiviesti",
+                "language": "fi"
+            },
+            {
+                "Name": "SMS",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Fax",
+        "orderNumber": 3,
+        "names": [
+            {
+                "Name": "Faksi",
+                "language": "fi"
+            },
+            {
+                "Name": "Fax",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

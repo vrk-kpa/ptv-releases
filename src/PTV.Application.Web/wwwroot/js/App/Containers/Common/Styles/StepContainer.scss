@@ -1,0 +1,68 @@
+@import '../../../Components/Styles/variables';
+@import '../../../Components/Styles/mixins';
+
+.step-container {
+	margin-bottom: 60px;  
+
+	&-actions {
+		margin: 10px 0;
+
+		&-label {
+			margin: 8px 0;
+			float: left;
+		}
+	}
+}
+
+.button-group { 
+	text-align: right;
+	margin-top: 10px;
+
+	& button ~ button {
+		margin-left: 10px;
+	}
+
+	&.centered {
+		text-align: center;
+	}
+
+	&.left-aligned {
+		text-align: left;
+	}
+
+	&.add-item {
+		text-align: left;
+	}
+
+	&.view, &.edit {
+		float: right;
+		margin: 0;
+	}
+}
+
+.item-row {
+	position: relative;
+}
+
+.remove-item { 
+	position: absolute;
+	top: 0;
+	right: -20px;
+}
+
+.readonly {
+	.react-bs-container-body {
+		max-height: none !important;
+	}
+}
+
+.floated-children {
+	.col {
+		float: left;
+		margin-left: 15px;
+
+		.ptv-label {
+			display: block;
+		}
+	}
+}

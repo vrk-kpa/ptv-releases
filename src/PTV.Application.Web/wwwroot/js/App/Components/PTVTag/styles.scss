@@ -1,0 +1,48 @@
+@import '../styles/variables';
+
+.tag-wrap {
+    &.inline {
+        float: left;
+        padding-right: 2px;
+        padding-bottom: 2px;
+    }
+}
+
+.tag-item {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+
+    .wrapped {
+        display: block;
+        overflow: hidden;
+        padding: 3px 8px;
+        text-overflow: ellipsis;
+        border-radius: 2px;
+        background-color: $gray-light;
+    }
+
+    .icon-cross {
+        float: right;
+        cursor: pointer;
+        margin-left: 5px;
+        fill: $gray-alt;
+        transform: scale(0.9);
+    }
+
+    .readonly & {
+        .wrapped {
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+    }
+
+    &.disabled {
+        background-color: $gray-lighter;
+
+        .icon-cross {
+            cursor: default;
+            fill: $gray-mid;
+        }
+    }
+}

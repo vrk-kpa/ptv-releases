@@ -1,0 +1,55 @@
+﻿[
+    {
+        "code": "Service",
+        "names": [
+            {
+                "Name": "Palvelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Service",
+                "language": "en"
+            }
+        ]
+
+    },
+    {
+        "code": "Permission",
+        "names": [
+            {
+                "Name": "Lupa",
+                "language": "fi"
+            },
+            {
+                "Name": "Permission",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "code": "Notice",
+        "names": [
+            {
+                "Name": "Ilmoitus",
+                "language": "fi"
+            },
+            {
+                "Name": "Notice",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "code": "Registration",
+        "names": [
+            {
+                "Name": "Rekisteröinti",
+                "language": "fi"
+            },
+            {
+                "Name": "Registration",
+                "language": "en"
+            }
+        ]
+    }
+]

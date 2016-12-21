@@ -1,0 +1,2018 @@
+[
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12",
+        "Label": "Työnantajan palvelut",
+        "Finnish": "Työnantajan palvelut",
+        "OntologyType": null,
+        "Notation": "P12",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.1",
+                "Label": "Palveluja työnantajalle",
+                "Finnish": "Palveluja työnantajalle",
+                "OntologyType": null,
+                "Notation": "P12.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P12"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.2",
+                "Label": "Henkilöstöhankinta",
+                "Finnish": "Henkilöstöhankinta",
+                "OntologyType": null,
+                "Notation": "P12.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P12"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.3",
+                "Label": "Kotitalous työnantajana",
+                "Finnish": "Kotitalous työnantajana",
+                "OntologyType": null,
+                "Notation": "P12.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P12"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.4",
+                "Label": "Henkilöstön kehittäminen",
+                "Finnish": "Henkilöstön kehittäminen",
+                "OntologyType": null,
+                "Notation": "P12.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P12"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9",
+        "Label": "Hallinto",
+        "Finnish": "Hallinto",
+        "OntologyType": null,
+        "Notation": "P9",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.6",
+                "Label": "Henkilöstöpalvelut",
+                "Finnish": "Henkilöstöpalvelut",
+                "OntologyType": null,
+                "Notation": "P9.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.5",
+                "Label": "Tarkastustoiminta",
+                "Finnish": "Tarkastustoiminta",
+                "OntologyType": null,
+                "Notation": "P9.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.2",
+                "Label": "Päätöksenteko",
+                "Finnish": "Päätöksenteko",
+                "OntologyType": null,
+                "Notation": "P9.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.4",
+                "Label": "Virastopalvelut",
+                "Finnish": "Virastopalvelut",
+                "OntologyType": null,
+                "Notation": "P9.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.1",
+                "Label": "Luvat",
+                "Finnish": "Luvat",
+                "OntologyType": null,
+                "Notation": "P9.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.3",
+                "Label": "Suomen edustustot ulkomailla",
+                "Finnish": "Suomen edustustot ulkomailla",
+                "OntologyType": null,
+                "Notation": "P9.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P9"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27",
+        "Label": "Liikunta ja ulkoilu",
+        "Finnish": "Liikunta ja ulkoilu",
+        "OntologyType": null,
+        "Notation": "P27",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.5",
+                "Label": "Kalastus",
+                "Finnish": "Kalastus",
+                "OntologyType": null,
+                "Notation": "P27.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P27"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.1",
+                "Label": "Liikunta ja urheilu",
+                "Finnish": "Liikunta ja urheilu",
+                "OntologyType": null,
+                "Notation": "P27.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P27"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.4",
+                "Label": "Metsästys",
+                "Finnish": "Metsästys",
+                "OntologyType": null,
+                "Notation": "P27.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P27"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.3",
+                "Label": "Veneily",
+                "Finnish": "Veneily",
+                "OntologyType": null,
+                "Notation": "P27.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P27"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.2",
+                "Label": "Retkeily",
+                "Finnish": "Retkeily",
+                "OntologyType": null,
+                "Notation": "P27.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P27"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P17",
+        "Label": "Matkailu",
+        "Finnish": "Matkailu",
+        "OntologyType": null,
+        "Notation": "P17",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.1",
+                "Label": "Matkailu Suomessa",
+                "Finnish": "Matkailu Suomessa",
+                "OntologyType": null,
+                "Notation": "P17.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P17"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.2",
+                "Label": "Matkailu EU-alueella",
+                "Finnish": "Matkailu EU-alueella",
+                "OntologyType": null,
+                "Notation": "P17.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P17"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.3",
+                "Label": "Matkailu EU-alueen ulkopuolella",
+                "Finnish": "Matkailu EU-alueen ulkopuolella",
+                "OntologyType": null,
+                "Notation": "P17.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P17"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22",
+        "Label": "Maahan- ja maastamuutto",
+        "Finnish": "Maahan- ja maastamuutto",
+        "OntologyType": null,
+        "Notation": "P22",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.7",
+                "Label": "Muuttaminen Suomesta EU:n ulkopuolelle",
+                "Finnish": "Muuttaminen Suomesta EU:n ulkopuolelle",
+                "OntologyType": null,
+                "Notation": "P22.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.1",
+                "Label": "Maahantuloluvat ja asiakirjat",
+                "Finnish": "Maahantuloluvat ja asiakirjat",
+                "OntologyType": null,
+                "Notation": "P22.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.4",
+                "Label": "Kansalaisuuden hakeminen",
+                "Finnish": "Kansalaisuuden hakeminen",
+                "OntologyType": null,
+                "Notation": "P22.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.8",
+                "Label": "Ulkosuomalaiset",
+                "Finnish": "Ulkosuomalaiset",
+                "OntologyType": null,
+                "Notation": "P22.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.5",
+                "Label": "Muuttaminen Suomesta toiseen pohjoismaahan",
+                "Finnish": "Muuttaminen Suomesta toiseen pohjoismaahan",
+                "OntologyType": null,
+                "Notation": "P22.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.2",
+                "Label": "Maahanmuuttajan työskentely ja opiskelu",
+                "Finnish": "Maahanmuuttajan työskentely ja opiskelu",
+                "OntologyType": null,
+                "Notation": "P22.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.9",
+                "Label": "Paluumuutto",
+                "Finnish": "Paluumuutto",
+                "OntologyType": null,
+                "Notation": "P22.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.6",
+                "Label": "Muuttaminen Suomesta toiseen EU-valtioon",
+                "Finnish": "Muuttaminen Suomesta toiseen EU-valtioon",
+                "OntologyType": null,
+                "Notation": "P22.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.3",
+                "Label": "Kielikurssit",
+                "Finnish": "Kielikurssit",
+                "OntologyType": null,
+                "Notation": "P22.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P22"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2",
+        "Label": "Rakennettu ympäristö",
+        "Finnish": "Rakennettu ympäristö",
+        "OntologyType": null,
+        "Notation": "P2",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.5",
+                "Label": "Toimitilat",
+                "Finnish": "Toimitilat",
+                "OntologyType": null,
+                "Notation": "P2.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.2",
+                "Label": "Korjaus- ja energia-avustukset",
+                "Finnish": "Korjaus- ja energia-avustukset",
+                "OntologyType": null,
+                "Notation": "P2.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.1",
+                "Label": "Rakentaminen",
+                "Finnish": "Rakentaminen",
+                "OntologyType": null,
+                "Notation": "P2.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.3",
+                "Label": "Maankäyttö, kaavoitus ja tontit",
+                "Finnish": "Maankäyttö, kaavoitus ja tontit",
+                "OntologyType": null,
+                "Notation": "P2.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.4",
+                "Label": "Kiinteistöt",
+                "Finnish": "Kiinteistöt",
+                "OntologyType": null,
+                "Notation": "P2.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5",
+        "Label": "Terveydenhuolto, sairaanhoito ja ravitsemus",
+        "Finnish": "Terveydenhuolto, sairaanhoito ja ravitsemus",
+        "OntologyType": null,
+        "Notation": "P5",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.14",
+                "Label": "Lääkkeet ja apteekit",
+                "Finnish": "Lääkkeet ja apteekit",
+                "OntologyType": null,
+                "Notation": "P5.14",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.15",
+                "Label": "Vertais- ja vapaaehtoistoiminta",
+                "Finnish": "Vertais- ja vapaaehtoistoiminta",
+                "OntologyType": null,
+                "Notation": "P5.15",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.20",
+                "Label": "Elintarviketurvallisuus",
+                "Finnish": "Elintarviketurvallisuus",
+                "OntologyType": null,
+                "Notation": "P5.20",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.9",
+                "Label": "Koulu- ja opiskelijaterveydenhuolto",
+                "Finnish": "Koulu- ja opiskelijaterveydenhuolto",
+                "OntologyType": null,
+                "Notation": "P5.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.5",
+                "Label": "Ensiapu ja päivystys",
+                "Finnish": "Ensiapu ja päivystys",
+                "OntologyType": null,
+                "Notation": "P5.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.13",
+                "Label": "Kuntoutus",
+                "Finnish": "Kuntoutus",
+                "OntologyType": null,
+                "Notation": "P5.13",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.6",
+                "Label": "Erikoissairaanhoito",
+                "Finnish": "Erikoissairaanhoito",
+                "OntologyType": null,
+                "Notation": "P5.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.18",
+                "Label": "Potilasasiamies ja potilaan oikeudet",
+                "Finnish": "Potilasasiamies ja potilaan oikeudet",
+                "OntologyType": null,
+                "Notation": "P5.18",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.7",
+                "Label": "Päihde- ja mielenterveyspalvelut",
+                "Finnish": "Päihde- ja mielenterveyspalvelut",
+                "OntologyType": null,
+                "Notation": "P5.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.3",
+                "Label": "Rokotukset",
+                "Finnish": "Rokotukset",
+                "OntologyType": null,
+                "Notation": "P5.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.11",
+                "Label": "Itsehoito",
+                "Finnish": "Itsehoito",
+                "OntologyType": null,
+                "Notation": "P5.11",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.19",
+                "Label": "Ravinto",
+                "Finnish": "Ravinto",
+                "OntologyType": null,
+                "Notation": "P5.19",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.8",
+                "Label": "Terveystarkastukset",
+                "Finnish": "Terveystarkastukset",
+                "OntologyType": null,
+                "Notation": "P5.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.4",
+                "Label": "Röntgen, laboratorio ja muut tutkimuspalvelut",
+                "Finnish": "Röntgen, laboratorio ja muut tutkimuspalvelut",
+                "OntologyType": null,
+                "Notation": "P5.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.12",
+                "Label": "Työterveyshuolto",
+                "Finnish": "Työterveyshuolto",
+                "OntologyType": null,
+                "Notation": "P5.12",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.16",
+                "Label": "Terveyden neuvonta- ja ohjauspalvelut",
+                "Finnish": "Terveyden neuvonta- ja ohjauspalvelut",
+                "OntologyType": null,
+                "Notation": "P5.16",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.1",
+                "Label": "Perusterveydenhuolto",
+                "Finnish": "Perusterveydenhuolto",
+                "OntologyType": null,
+                "Notation": "P5.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.17",
+                "Label": "Terveyden tukipalvelut",
+                "Finnish": "Terveyden tukipalvelut",
+                "OntologyType": null,
+                "Notation": "P5.17",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.10",
+                "Label": "Suun ja hampaiden terveydenhuolto",
+                "Finnish": "Suun ja hampaiden terveydenhuolto",
+                "OntologyType": null,
+                "Notation": "P5.10",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.2",
+                "Label": "Neuvolapalvelut",
+                "Finnish": "Neuvolapalvelut",
+                "OntologyType": null,
+                "Notation": "P5.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P5"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16",
+        "Label": "Liikenne",
+        "Finnish": "Liikenne",
+        "OntologyType": null,
+        "Notation": "P16",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.5",
+                "Label": "Joukkoliikenne",
+                "Finnish": "Joukkoliikenne",
+                "OntologyType": null,
+                "Notation": "P16.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.8",
+                "Label": "Vesiliikenne",
+                "Finnish": "Vesiliikenne",
+                "OntologyType": null,
+                "Notation": "P16.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.2",
+                "Label": "Ajo-opetus ja ajoluvat",
+                "Finnish": "Ajo-opetus ja ajoluvat",
+                "OntologyType": null,
+                "Notation": "P16.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.7",
+                "Label": "Tienpito",
+                "Finnish": "Tienpito",
+                "OntologyType": null,
+                "Notation": "P16.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.9",
+                "Label": "Ilmailu",
+                "Finnish": "Ilmailu",
+                "OntologyType": null,
+                "Notation": "P16.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.1",
+                "Label": "Ajoneuvot ja rekisteröinti",
+                "Finnish": "Ajoneuvot ja rekisteröinti",
+                "OntologyType": null,
+                "Notation": "P16.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.4",
+                "Label": "Pysäköinti",
+                "Finnish": "Pysäköinti",
+                "OntologyType": null,
+                "Notation": "P16.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.6",
+                "Label": "Ammattiliikenne",
+                "Finnish": "Ammattiliikenne",
+                "OntologyType": null,
+                "Notation": "P16.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.3",
+                "Label": "Liikenneturvallisuus ja liikennesäännöt",
+                "Finnish": "Liikenneturvallisuus ja liikennesäännöt",
+                "OntologyType": null,
+                "Notation": "P16.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P16"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P21",
+        "Label": "Kuluttaja-asiat",
+        "Finnish": "Kuluttaja-asiat",
+        "OntologyType": null,
+        "Notation": "P21",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.1",
+                "Label": "Kuluttajansuoja",
+                "Finnish": "Kuluttajansuoja",
+                "OntologyType": null,
+                "Notation": "P21.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P21"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.2",
+                "Label": "Vakuutukset",
+                "Finnish": "Vakuutukset",
+                "OntologyType": null,
+                "Notation": "P21.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P21"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11",
+        "Label": "Elinkeinot",
+        "Finnish": "Elinkeinot",
+        "OntologyType": null,
+        "Notation": "P11",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.4",
+                "Label": "Tuote- ja palvelukehitys",
+                "Finnish": "Tuote- ja palvelukehitys",
+                "OntologyType": null,
+                "Notation": "P11.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.7",
+                "Label": "Tuonti ja vienti",
+                "Finnish": "Tuonti ja vienti",
+                "OntologyType": null,
+                "Notation": "P11.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.2",
+                "Label": "Toimialakohtaiset luvat ja velvoitteet",
+                "Finnish": "Toimialakohtaiset luvat ja velvoitteet",
+                "OntologyType": null,
+                "Notation": "P11.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.8",
+                "Label": "Omistajanvaihdos",
+                "Finnish": "Omistajanvaihdos",
+                "OntologyType": null,
+                "Notation": "P11.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.5",
+                "Label": "Yritysyhteistyö ja verkostoituminen",
+                "Finnish": "Yritysyhteistyö ja verkostoituminen",
+                "OntologyType": null,
+                "Notation": "P11.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.1",
+                "Label": "Yrityksen perustaminen",
+                "Finnish": "Yrityksen perustaminen",
+                "OntologyType": null,
+                "Notation": "P11.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.3",
+                "Label": "Liiketoiminnan kehittäminen",
+                "Finnish": "Liiketoiminnan kehittäminen",
+                "OntologyType": null,
+                "Notation": "P11.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.6",
+                "Label": "Kansainvälistymispalvelut",
+                "Finnish": "Kansainvälistymispalvelut",
+                "OntologyType": null,
+                "Notation": "P11.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.9",
+                "Label": "Yritystoiminnan lopettaminen",
+                "Finnish": "Yritystoiminnan lopettaminen",
+                "OntologyType": null,
+                "Notation": "P11.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P11"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14",
+        "Label": "Verotus ja julkinen talous",
+        "Finnish": "Verotus ja julkinen talous",
+        "OntologyType": null,
+        "Notation": "P14",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.4",
+                "Label": "Yritysverotus",
+                "Finnish": "Yritysverotus",
+                "OntologyType": null,
+                "Notation": "P14.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P14"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.5",
+                "Label": "Julkinen talous ja julkiset hankinnat",
+                "Finnish": "Julkinen talous ja julkiset hankinnat",
+                "OntologyType": null,
+                "Notation": "P14.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P14"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.1",
+                "Label": "Henkilöverotus",
+                "Finnish": "Henkilöverotus",
+                "OntologyType": null,
+                "Notation": "P14.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P14"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.2",
+                "Label": "Omaisuuden verotus",
+                "Finnish": "Omaisuuden verotus",
+                "OntologyType": null,
+                "Notation": "P14.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P14"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.3",
+                "Label": "Ajoneuvojen verotus",
+                "Finnish": "Ajoneuvojen verotus",
+                "OntologyType": null,
+                "Notation": "P14.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P14"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1",
+        "Label": "Asuminen",
+        "Finnish": "Asuminen",
+        "OntologyType": null,
+        "Notation": "P1",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.6",
+                "Label": "Muuttaminen Suomen sisällä ja väestötiedot",
+                "Finnish": "Muuttaminen Suomen sisällä ja väestötiedot",
+                "OntologyType": null,
+                "Notation": "P1.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.5",
+                "Label": "Asumisen tuet",
+                "Finnish": "Asumisen tuet",
+                "OntologyType": null,
+                "Notation": "P1.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.2",
+                "Label": "Vuokra-asuminen",
+                "Finnish": "Vuokra-asuminen",
+                "OntologyType": null,
+                "Notation": "P1.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.1",
+                "Label": "Asunnon hankinta",
+                "Finnish": "Asunnon hankinta",
+                "OntologyType": null,
+                "Notation": "P1.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.4",
+                "Label": "Osaomistus- ja asumisoikeusasuminen",
+                "Finnish": "Osaomistus- ja asumisoikeusasuminen",
+                "OntologyType": null,
+                "Notation": "P1.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.3",
+                "Label": "Omistusasuminen",
+                "Finnish": "Omistusasuminen",
+                "OntologyType": null,
+                "Notation": "P1.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10",
+        "Label": "Työ ja työttömyys",
+        "Finnish": "Työ ja työttömyys",
+        "OntologyType": null,
+        "Notation": "P10",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.1",
+                "Label": "Työnhaku ja työpaika",
+                "Finnish": "Työnhaku ja työpaika",
+                "OntologyType": null,
+                "Notation": "P10.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.8",
+                "Label": "Työttömien järjestöt ja vertaistuki",
+                "Finnish": "Työttömien järjestöt ja vertaistuki",
+                "OntologyType": null,
+                "Notation": "P10.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.7",
+                "Label": "Tuettu työllistyminen",
+                "Finnish": "Tuettu työllistyminen",
+                "OntologyType": null,
+                "Notation": "P10.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.6",
+                "Label": "Työttömän tuet ja etuudet",
+                "Finnish": "Työttömän tuet ja etuudet",
+                "OntologyType": null,
+                "Notation": "P10.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.5",
+                "Label": "Työsuojelu",
+                "Finnish": "Työsuojelu",
+                "OntologyType": null,
+                "Notation": "P10.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.4",
+                "Label": "Työkyky ja ammatillinen kuntoutus",
+                "Finnish": "Työkyky ja ammatillinen kuntoutus",
+                "OntologyType": null,
+                "Notation": "P10.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.3",
+                "Label": "Työelämän säännöt ja työehtosopimukset",
+                "Finnish": "Työelämän säännöt ja työehtosopimukset",
+                "OntologyType": null,
+                "Notation": "P10.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.2",
+                "Label": "Ammatinvalinta ja urasuunnittelu",
+                "Finnish": "Ammatinvalinta ja urasuunnittelu",
+                "OntologyType": null,
+                "Notation": "P10.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P10"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8",
+        "Label": "Demokratia",
+        "Finnish": "Demokratia",
+        "OntologyType": null,
+        "Notation": "P8",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.1",
+                "Label": "Puolueet",
+                "Finnish": "Puolueet",
+                "OntologyType": null,
+                "Notation": "P8.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P8"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.2",
+                "Label": "Vaalit",
+                "Finnish": "Vaalit",
+                "OntologyType": null,
+                "Notation": "P8.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P8"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.3",
+                "Label": "Kansalaisvaikuttaminen",
+                "Finnish": "Kansalaisvaikuttaminen",
+                "OntologyType": null,
+                "Notation": "P8.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P8"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.4",
+                "Label": "Kansalaisjärjestöjen toiminta",
+                "Finnish": "Kansalaisjärjestöjen toiminta",
+                "OntologyType": null,
+                "Notation": "P8.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P8"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P26",
+        "Label": "Viestintä",
+        "Finnish": "Viestintä",
+        "OntologyType": null,
+        "Notation": "P26",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.1",
+                "Label": "Joukkoviestimet",
+                "Finnish": "Joukkoviestimet",
+                "OntologyType": null,
+                "Notation": "P26.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P26"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.2",
+                "Label": "Postipalvelut",
+                "Finnish": "Postipalvelut",
+                "OntologyType": null,
+                "Notation": "P26.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P26"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.3",
+                "Label": "Tietoliikenne",
+                "Finnish": "Tietoliikenne",
+                "OntologyType": null,
+                "Notation": "P26.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P26"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25",
+        "Label": "Kulttuuri",
+        "Finnish": "Kulttuuri",
+        "OntologyType": null,
+        "Notation": "P25",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.3",
+                "Label": "Museot",
+                "Finnish": "Museot",
+                "OntologyType": null,
+                "Notation": "P25.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.5",
+                "Label": "Vapaa-ajan palvelut",
+                "Finnish": "Vapaa-ajan palvelut",
+                "OntologyType": null,
+                "Notation": "P25.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.4",
+                "Label": "Arkistot",
+                "Finnish": "Arkistot",
+                "OntologyType": null,
+                "Notation": "P25.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.1",
+                "Label": "Kirjastot ja tietopalvelut",
+                "Finnish": "Kirjastot ja tietopalvelut",
+                "OntologyType": null,
+                "Notation": "P25.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.7",
+                "Label": "Vapaa sivistystyö ja taidekasvatus",
+                "Finnish": "Vapaa sivistystyö ja taidekasvatus",
+                "OntologyType": null,
+                "Notation": "P25.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.6",
+                "Label": "Uskonnot ja elämänkatsomukset",
+                "Finnish": "Uskonnot ja elämänkatsomukset",
+                "OntologyType": null,
+                "Notation": "P25.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.2",
+                "Label": "Taiteet",
+                "Finnish": "Taiteet",
+                "OntologyType": null,
+                "Notation": "P25.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P25"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7",
+        "Label": "Oikeusturva",
+        "Finnish": "Oikeusturva",
+        "OntologyType": null,
+        "Notation": "P7",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.3",
+                "Label": "Oikeusturva ja lainmukaisuus",
+                "Finnish": "Oikeusturva ja lainmukaisuus",
+                "OntologyType": null,
+                "Notation": "P7.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.8",
+                "Label": "Immateriaalioikeudet",
+                "Finnish": "Immateriaalioikeudet",
+                "OntologyType": null,
+                "Notation": "P7.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.2",
+                "Label": "Lait ja asetukset",
+                "Finnish": "Lait ja asetukset",
+                "OntologyType": null,
+                "Notation": "P7.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.1",
+                "Label": "Kansalaisten perusoikeudet",
+                "Finnish": "Kansalaisten perusoikeudet",
+                "OntologyType": null,
+                "Notation": "P7.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.7",
+                "Label": "Vähemmistöt",
+                "Finnish": "Vähemmistöt",
+                "OntologyType": null,
+                "Notation": "P7.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.6",
+                "Label": "Kansalaisuus",
+                "Finnish": "Kansalaisuus",
+                "OntologyType": null,
+                "Notation": "P7.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.9",
+                "Label": "Edunvalvonta",
+                "Finnish": "Edunvalvonta",
+                "OntologyType": null,
+                "Notation": "P7.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.5",
+                "Label": "Tietosuoja ja henkilötiedot",
+                "Finnish": "Tietosuoja ja henkilötiedot",
+                "OntologyType": null,
+                "Notation": "P7.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.4",
+                "Label": "Oikeudenkäynti ja rikosasiat",
+                "Finnish": "Oikeudenkäynti ja rikosasiat",
+                "OntologyType": null,
+                "Notation": "P7.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P7"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4",
+        "Label": "Sosiaalipalvelut",
+        "Finnish": "Sosiaalipalvelut",
+        "OntologyType": null,
+        "Notation": "P4",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.11",
+                "Label": "Toimeentulotuki",
+                "Finnish": "Toimeentulotuki",
+                "OntologyType": null,
+                "Notation": "P4.11",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.2",
+                "Label": "Vanhusten palvelut",
+                "Finnish": "Vanhusten palvelut",
+                "OntologyType": null,
+                "Notation": "P4.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.9",
+                "Label": "Työllistyjän taloudellinen tukiminen",
+                "Finnish": "Työllistyjän taloudellinen tukiminen",
+                "OntologyType": null,
+                "Notation": "P4.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.12",
+                "Label": "Kotouttaminen",
+                "Finnish": "Kotouttaminen",
+                "OntologyType": null,
+                "Notation": "P4.12",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.3",
+                "Label": "Kotihoito, kotipalvelut ja omaishoito",
+                "Finnish": "Kotihoito, kotipalvelut ja omaishoito",
+                "OntologyType": null,
+                "Notation": "P4.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.15",
+                "Label": "Oheis- ja tukipalvelut",
+                "Finnish": "Oheis- ja tukipalvelut",
+                "OntologyType": null,
+                "Notation": "P4.15",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.1",
+                "Label": "Asumispalvelut",
+                "Finnish": "Asumispalvelut",
+                "OntologyType": null,
+                "Notation": "P4.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.13",
+                "Label": "Vertais- ja vapaaehtoistoiminta",
+                "Finnish": "Vertais- ja vapaaehtoistoiminta",
+                "OntologyType": null,
+                "Notation": "P4.13",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.10",
+                "Label": "Koulu- ja opiskelijahuollon sosiaalipalvelut",
+                "Finnish": "Koulu- ja opiskelijahuollon sosiaalipalvelut",
+                "OntologyType": null,
+                "Notation": "P4.10",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.6",
+                "Label": "Henkilökohtainen apu",
+                "Finnish": "Henkilökohtainen apu",
+                "OntologyType": null,
+                "Notation": "P4.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.7",
+                "Label": "Vammaisten perhehoito",
+                "Finnish": "Vammaisten perhehoito",
+                "OntologyType": null,
+                "Notation": "P4.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.4",
+                "Label": "Kotisairaanhoidon tuki",
+                "Finnish": "Kotisairaanhoidon tuki",
+                "OntologyType": null,
+                "Notation": "P4.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.5",
+                "Label": "Vammaisten palvelut",
+                "Finnish": "Vammaisten palvelut",
+                "OntologyType": null,
+                "Notation": "P4.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.14",
+                "Label": "Neuvonta- ja ohjauspalvelut",
+                "Finnish": "Neuvonta- ja ohjauspalvelut",
+                "OntologyType": null,
+                "Notation": "P4.14",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.8",
+                "Label": "Kehitysvammahuolto",
+                "Finnish": "Kehitysvammahuolto",
+                "OntologyType": null,
+                "Notation": "P4.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P4"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15",
+        "Label": "Yksityinen talous ja rahoitus",
+        "Finnish": "Yksityinen talous ja rahoitus",
+        "OntologyType": null,
+        "Notation": "P15",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.4",
+                "Label": "Konkurssi",
+                "Finnish": "Konkurssi",
+                "OntologyType": null,
+                "Notation": "P15.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.7",
+                "Label": "Talletusten ja sijoitusten suoja",
+                "Finnish": "Talletusten ja sijoitusten suoja",
+                "OntologyType": null,
+                "Notation": "P15.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.1",
+                "Label": "Henkilön talous- ja velkaneuvonta",
+                "Finnish": "Henkilön talous- ja velkaneuvonta",
+                "OntologyType": null,
+                "Notation": "P15.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.3",
+                "Label": "Lainat ja luottotiedot",
+                "Finnish": "Lainat ja luottotiedot",
+                "OntologyType": null,
+                "Notation": "P15.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.6",
+                "Label": "Pankit",
+                "Finnish": "Pankit",
+                "OntologyType": null,
+                "Notation": "P15.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.9",
+                "Label": "Rahoitusmarkkinat",
+                "Finnish": "Rahoitusmarkkinat",
+                "OntologyType": null,
+                "Notation": "P15.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.2",
+                "Label": "Yrityksen talous- ja velkaneuvonta",
+                "Finnish": "Yrityksen talous- ja velkaneuvonta",
+                "OntologyType": null,
+                "Notation": "P15.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.5",
+                "Label": "Ulosotto",
+                "Finnish": "Ulosotto",
+                "OntologyType": null,
+                "Notation": "P15.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.8",
+                "Label": "Yritysrahoitus",
+                "Finnish": "Yritysrahoitus",
+                "OntologyType": null,
+                "Notation": "P15.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P15"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P20",
+        "Label": "Järjestys",
+        "Finnish": "Järjestys",
+        "OntologyType": null,
+        "Notation": "P20",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.1",
+                "Label": "Järjestyksen valvonta",
+                "Finnish": "Järjestyksen valvonta",
+                "OntologyType": null,
+                "Notation": "P20.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P20"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.2",
+                "Label": "Tilaisuuksien järjestäminen",
+                "Finnish": "Tilaisuuksien järjestäminen",
+                "OntologyType": null,
+                "Notation": "P20.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P20"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.3",
+                "Label": "Löytötavarat",
+                "Finnish": "Löytötavarat",
+                "OntologyType": null,
+                "Notation": "P20.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P20"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19",
+        "Label": "Turvallisuus",
+        "Finnish": "Turvallisuus",
+        "OntologyType": null,
+        "Notation": "P19",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.5",
+                "Label": "Maanpuolustus",
+                "Finnish": "Maanpuolustus",
+                "OntologyType": null,
+                "Notation": "P19.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.3",
+                "Label": "Hätänumerot ja onnettomuustilanteet",
+                "Finnish": "Hätänumerot ja onnettomuustilanteet",
+                "OntologyType": null,
+                "Notation": "P19.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.7",
+                "Label": "Säteilyturvallisuus",
+                "Finnish": "Säteilyturvallisuus",
+                "OntologyType": null,
+                "Notation": "P19.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.2",
+                "Label": "Väestönsuojelu",
+                "Finnish": "Väestönsuojelu",
+                "OntologyType": null,
+                "Notation": "P19.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.6",
+                "Label": "Rajavalvonta",
+                "Finnish": "Rajavalvonta",
+                "OntologyType": null,
+                "Notation": "P19.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.4",
+                "Label": "Rikostilanteet",
+                "Finnish": "Rikostilanteet",
+                "OntologyType": null,
+                "Notation": "P19.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.1",
+                "Label": "Palo- ja pelastustoiminta",
+                "Finnish": "Palo- ja pelastustoiminta",
+                "OntologyType": null,
+                "Notation": "P19.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P19"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24",
+        "Label": "Luonnonvarat, eläimet ja kasvit",
+        "Finnish": "Luonnonvarat, eläimet ja kasvit",
+        "OntologyType": null,
+        "Notation": "P24",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.1",
+                "Label": "Luonnonvaraiset kasvit ja eläimet",
+                "Finnish": "Luonnonvaraiset kasvit ja eläimet",
+                "OntologyType": null,
+                "Notation": "P24.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.4",
+                "Label": "Elintarviketuotanto",
+                "Finnish": "Elintarviketuotanto",
+                "OntologyType": null,
+                "Notation": "P24.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.2",
+                "Label": "Kasvintuotanto",
+                "Finnish": "Kasvintuotanto",
+                "OntologyType": null,
+                "Notation": "P24.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.5",
+                "Label": "Kotieläimet",
+                "Finnish": "Kotieläimet",
+                "OntologyType": null,
+                "Notation": "P24.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.3",
+                "Label": "Tuotantoeläimet",
+                "Finnish": "Tuotantoeläimet",
+                "OntologyType": null,
+                "Notation": "P24.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.6",
+                "Label": "Eläinlääkäripalvelut",
+                "Finnish": "Eläinlääkäripalvelut",
+                "OntologyType": null,
+                "Notation": "P24.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P24"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6",
+        "Label": "Koulutus",
+        "Finnish": "Koulutus",
+        "OntologyType": null,
+        "Notation": "P6",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.2",
+                "Label": "Perusopetus",
+                "Finnish": "Perusopetus",
+                "OntologyType": null,
+                "Notation": "P6.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.12",
+                "Label": "Yrityskoulutus",
+                "Finnish": "Yrityskoulutus",
+                "OntologyType": null,
+                "Notation": "P6.12",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.10",
+                "Label": "Korkeakoulutus",
+                "Finnish": "Korkeakoulutus",
+                "OntologyType": null,
+                "Notation": "P6.10",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.6",
+                "Label": "Koulutukseen hakeminen",
+                "Finnish": "Koulutukseen hakeminen",
+                "OntologyType": null,
+                "Notation": "P6.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.13",
+                "Label": "Yrittäjäkoulutus",
+                "Finnish": "Yrittäjäkoulutus",
+                "OntologyType": null,
+                "Notation": "P6.13",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.15",
+                "Label": "Opintojen tukeminen",
+                "Finnish": "Opintojen tukeminen",
+                "OntologyType": null,
+                "Notation": "P6.15",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.9",
+                "Label": "Lukiokoulutus",
+                "Finnish": "Lukiokoulutus",
+                "OntologyType": null,
+                "Notation": "P6.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.16",
+                "Label": "Tiede ja tutkimus",
+                "Finnish": "Tiede ja tutkimus",
+                "OntologyType": null,
+                "Notation": "P6.16",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.11",
+                "Label": "Aikuis- ja täydennyskoulutus",
+                "Finnish": "Aikuis- ja täydennyskoulutus",
+                "OntologyType": null,
+                "Notation": "P6.11",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.5",
+                "Label": "Ammatinvalinta ja opintojen ohjaus",
+                "Finnish": "Ammatinvalinta ja opintojen ohjaus",
+                "OntologyType": null,
+                "Notation": "P6.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.8",
+                "Label": "Oppisopimus",
+                "Finnish": "Oppisopimus",
+                "OntologyType": null,
+                "Notation": "P6.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.3",
+                "Label": "Aamu- ja iltapäiväkerhotoiminta",
+                "Finnish": "Aamu- ja iltapäiväkerhotoiminta",
+                "OntologyType": null,
+                "Notation": "P6.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.1",
+                "Label": "Esiopetus",
+                "Finnish": "Esiopetus",
+                "OntologyType": null,
+                "Notation": "P6.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.4",
+                "Label": "Oppilas- ja opiskelijahuolto",
+                "Finnish": "Oppilas- ja opiskelijahuolto",
+                "OntologyType": null,
+                "Notation": "P6.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.14",
+                "Label": "Opiskelu ulkomailla",
+                "Finnish": "Opiskelu ulkomailla",
+                "OntologyType": null,
+                "Notation": "P6.14",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.7",
+                "Label": "Toisen asteen ammatillinen koulutus",
+                "Finnish": "Toisen asteen ammatillinen koulutus",
+                "OntologyType": null,
+                "Notation": "P6.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P6"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P18",
+        "Label": "Kartat",
+        "Finnish": "Kartat",
+        "OntologyType": null,
+        "Notation": "P18",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.1",
+                "Label": "Kartat ja karttapalvelut",
+                "Finnish": "Kartat ja karttapalvelut",
+                "OntologyType": null,
+                "Notation": "P18.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P18"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.2",
+                "Label": "Paikkatietopalvelut",
+                "Finnish": "Paikkatietopalvelut",
+                "OntologyType": null,
+                "Notation": "P18.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P18"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23",
+        "Label": "Ympäristö",
+        "Finnish": "Ympäristö",
+        "OntologyType": null,
+        "Notation": "P23",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.4",
+                "Label": "Ympäristöilmoitukset ja luvat",
+                "Finnish": "Ympäristöilmoitukset ja luvat",
+                "OntologyType": null,
+                "Notation": "P23.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.7",
+                "Label": "Ympäristöterveydenhuolto",
+                "Finnish": "Ympäristöterveydenhuolto",
+                "OntologyType": null,
+                "Notation": "P23.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.1",
+                "Label": "Ympäristön- ja luonnonsuojelu",
+                "Finnish": "Ympäristön- ja luonnonsuojelu",
+                "OntologyType": null,
+                "Notation": "P23.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.5",
+                "Label": "Rakennusperintö ja kulttuuriympäristöt",
+                "Finnish": "Rakennusperintö ja kulttuuriympäristöt",
+                "OntologyType": null,
+                "Notation": "P23.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.2",
+                "Label": "Jätehuolto",
+                "Finnish": "Jätehuolto",
+                "OntologyType": null,
+                "Notation": "P23.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.6",
+                "Label": "Ympäristövalvonta",
+                "Finnish": "Ympäristövalvonta",
+                "OntologyType": null,
+                "Notation": "P23.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.3",
+                "Label": "Vesihuolto",
+                "Finnish": "Vesihuolto",
+                "OntologyType": null,
+                "Notation": "P23.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P23"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13",
+        "Label": "Eläkkeet",
+        "Finnish": "Eläkkeet",
+        "OntologyType": null,
+        "Notation": "P13",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.3",
+                "Label": "Työkyvyttömyyseläke",
+                "Finnish": "Työkyvyttömyyseläke",
+                "OntologyType": null,
+                "Notation": "P13.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P13"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.1",
+                "Label": "Kansaneläke",
+                "Finnish": "Kansaneläke",
+                "OntologyType": null,
+                "Notation": "P13.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P13"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.4",
+                "Label": "Suomalaisen eläketurva ulkomailla",
+                "Finnish": "Suomalaisen eläketurva ulkomailla",
+                "OntologyType": null,
+                "Notation": "P13.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P13"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.2",
+                "Label": "Työeläkkeet",
+                "Finnish": "Työeläkkeet",
+                "OntologyType": null,
+                "Notation": "P13.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P13"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.5",
+                "Label": "Suomessa pysyvästi asuvan ulkomaalaisen eläketurva Suomessa",
+                "Finnish": "Suomessa pysyvästi asuvan ulkomaalaisen eläketurva Suomessa",
+                "OntologyType": null,
+                "Notation": "P13.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P13"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3",
+        "Label": "Perheiden palvelut",
+        "Finnish": "Perheiden palvelut",
+        "OntologyType": null,
+        "Notation": "P3",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.5",
+                "Label": "Perheasioiden sovittelu",
+                "Finnish": "Perheasioiden sovittelu",
+                "OntologyType": null,
+                "Notation": "P3.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.2",
+                "Label": "Lapsen saaminen",
+                "Finnish": "Lapsen saaminen",
+                "OntologyType": null,
+                "Notation": "P3.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.3",
+                "Label": "Isyyden vahvistaminen",
+                "Finnish": "Isyyden vahvistaminen",
+                "OntologyType": null,
+                "Notation": "P3.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.9",
+                "Label": "Lapsen etu ja perheoikeus",
+                "Finnish": "Lapsen etu ja perheoikeus",
+                "OntologyType": null,
+                "Notation": "P3.9",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.10",
+                "Label": "Elatusapu",
+                "Finnish": "Elatusapu",
+                "OntologyType": null,
+                "Notation": "P3.10",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.6",
+                "Label": "Lapsiperheiden sosiaalipalvelut",
+                "Finnish": "Lapsiperheiden sosiaalipalvelut",
+                "OntologyType": null,
+                "Notation": "P3.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.7",
+                "Label": "Kasvatus- ja perheneuvonta",
+                "Finnish": "Kasvatus- ja perheneuvonta",
+                "OntologyType": null,
+                "Notation": "P3.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.4",
+                "Label": "Lasten päivähoito",
+                "Finnish": "Lasten päivähoito",
+                "OntologyType": null,
+                "Notation": "P3.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.8",
+                "Label": "Lastensuojelu",
+                "Finnish": "Lastensuojelu",
+                "OntologyType": null,
+                "Notation": "P3.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.1",
+                "Label": "Parisuhde",
+                "Finnish": "Parisuhde",
+                "OntologyType": null,
+                "Notation": "P3.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:P3"
+            }
+        ],
+        "Broader": null
+    }
+]

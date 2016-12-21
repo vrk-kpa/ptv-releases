@@ -1,0 +1,89 @@
+﻿{
+	"@context": {
+		"skos": "http://www.w3.org/2004/02/skos/core#",
+		"isothes": "http://purl.org/iso25964/skos-thes#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"dct": "http://purl.org/dc/terms/",
+		"dc11": "http://purl.org/dc/elements/1.1/",
+		"uri": "@id",
+		"type": "@type",
+		"lang": "@language",
+		"value": "@value",
+		"graph": "@graph",
+		"label": "rdfs:label",
+		"prefLabel": "skos:prefLabel",
+		"altLabel": "skos:altLabel",
+		"hiddenLabel": "skos:hiddenLabel",
+		"broader": "skos:broader",
+		"narrower": "skos:narrower",
+		"related": "skos:related",
+		"inScheme": "skos:inScheme"
+	},
+	"graph": [{
+		"uri": "http://www.yso.fi/onto/jupo/",
+		"type": "skos:ConceptScheme",
+		"skos:hasTopConcept": {
+			"uri": "http://www.yso.fi/onto/yso/p4205"
+		}
+	},
+	{
+		"uri": "http://www.yso.fi/onto/yso/p15238",
+		"type": "skos:Concept",
+		"broader": {
+			"uri": "http://www.yso.fi/onto/yso/p4205"
+		},
+		"prefLabel": [{
+			"lang": "en",
+			"value": "perdurant"
+		},
+		{
+			"lang": "fi",
+			"value": "muuttuva"
+		},
+		{
+			"lang": "sv",
+			"value": "föränderlig"
+		}]
+	},
+	{
+		"uri": "http://www.yso.fi/onto/yso/p1669",
+		"type": "skos:Concept",
+		"broader": {
+			"uri": "http://www.yso.fi/onto/yso/p4205"
+		},
+		"prefLabel": [{
+			"lang": "fi",
+			"value": "abstrakti"
+		},
+		{
+			"lang": "en",
+			"value": "abstract"
+		},
+		{
+			"lang": "sv",
+			"value": "abstrakt"
+		}]
+	},
+	{
+		"uri": "http://www.yso.fi/onto/yso/p4762",
+		"type": "skos:Concept",
+		"broader": {
+			"uri": "http://www.yso.fi/onto/yso/p4205"
+		},
+        "prefLabel": [
+            {
+                "lang": "en",
+                "value": "endurant"
+            },
+            {
+                "lang": "sv",
+                "value": "bestående"
+            },
+            {
+                "lang": "fi",
+                "value": "pysyvä"
+            }
+        ]
+	}]
+}

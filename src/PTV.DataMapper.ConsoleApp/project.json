@@ -1,0 +1,37 @@
+﻿{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true,
+        "copyToOutput": "appsettings.json"
+    },
+
+    "dependencies": {
+        "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+        "Microsoft.Extensions.Configuration.Json": "1.1.0",
+        "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
+        "Microsoft.Extensions.Logging.Console": "1.1.0",
+        "Microsoft.Extensions.Logging.Debug": "1.1.0",
+        "Microsoft.Extensions.Configuration.Binder": "1.1.0",
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.1.0"
+        },
+        "NLog.Extensions.Logging": "1.0.0-rtm-alpha2",
+        "Microsoft.EntityFrameworkCore": "1.1.0",
+        "PTV.Database.DataAccess": "1.0.0-*",
+        "PTV.Application.Framework": "1.0.0-*",
+        "IdentityModel": "2.0.0-beta3"
+    },
+
+    "frameworks": {
+        "netcoreapp1.1": {
+            "imports": "dnxcore50"
+        }
+    },
+    "publishOptions": {
+        "include": [
+            "appsettings.json"
+        ],
+        "exclude": [ "node_modules" ]
+    }
+}

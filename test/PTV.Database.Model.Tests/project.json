@@ -1,0 +1,31 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "PTV.Database.Model.Tests Class Library",
+  "authors": [ "" ],
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [
+        "dnxcore50",
+        "netcore50"
+      ]
+    }
+  },
+
+  "testRunner": "xunit",
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.1.0",
+      "type": "platform"
+    },
+    "xunit": "2.2.0-beta4-build3444",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "PTV.Database.DataAccess": "1.0.0-*",
+    "PTV.Database.Model": "1.0.0-*",
+    "xunit.runner.visualstudio": "2.2.0-beta4-build1194",
+    "Moq": "4.6.38-alpha",
+    "PTV.Database.DataAccess.Interfaces": "1.0.0-*",
+    "FluentAssertions": "4.17.0",
+    "Microsoft.Extensions.DependencyModel": "1.1.0",
+    "Microsoft.DotNet.InternalAbstractions": "1.0.0"
+  }
+}

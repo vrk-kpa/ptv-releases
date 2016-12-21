@@ -1,0 +1,47 @@
+﻿[
+    {
+        "code": "Draft",
+        "names": [
+            {
+                "Name": "Luonnos",
+                "language": "fi"
+            },
+            {
+                "Name": "Draft",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Published",
+        "names": [
+            {
+                "Name": "Julkaistu",
+                "language": "fi"
+            },
+            {
+                "Name": "Published",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Deleted",
+        "names": [
+            {
+                "Name": "Poistettu",
+                "language": "fi"
+            },
+            {
+                "Name": "Deleted",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

@@ -1,0 +1,40 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Palvelutietovaranto</title>
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <environment names="Development">
+    	<link rel="stylesheet" href="~/css/Layout.css" />
+        @*<link rel="stylesheet" href="~/css/react-select.css"/>*@
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/Layout.css" />
+        @*<link rel="stylesheet" href="~/css/react-select.css" />*@
+        @*      	<link rel="stylesheet" href="~/css/style.min.css" />*@
+    </environment>
+</head>
+<body>
+    @RenderBody()
+    <environment names="Development">
+
+        <script src="~/lib/tether/dist/js/tether.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/lib/svg4everybody/dist/svg4everybody.js"></script>
+        <script>svg4everybody();</script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/lib/tether/dist/js/tether.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/lib/svg4everybody/dist/svg4everybody.js"></script>
+        <script>svg4everybody();</script>
+    </environment>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

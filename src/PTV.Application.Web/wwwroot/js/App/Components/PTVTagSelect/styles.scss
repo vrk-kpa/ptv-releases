@@ -1,0 +1,41 @@
+@import '../styles/variables';
+@import '../styles/react-select';
+
+.tag-select{
+	.Select--multi{
+		.Select-value{
+			color: $gray-dark;
+			margin: 2px 2px 2px 5px;
+			background-color: $gray-light;
+			border-radius:2px;
+			border: none;
+			vertical-align: middle;
+		}
+		.Select-placeholder{
+			//top: 4px;
+		}
+		.Select-value:hover{
+			background-color: #0275d8;
+			color:white;
+		}
+		.Select-value-icon{
+			font-size: 22px;
+			border-right: none;
+			float: right;
+			padding: 0 5px;
+		}
+		.Select-value-icon:hover{
+			background-color:#0275d8;
+			color:white;
+		}
+		.Select-input {
+			height: auto;
+		}
+		.Select-clear-zone{
+			display:none;
+		}
+		.Select-value-label {
+			font-size: 1rem;
+		}
+	}
+}

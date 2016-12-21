@@ -1,0 +1,25 @@
+@import '../styles/variables';
+@import '../styles/react-select';
+
+$inputFieldWidths: (40, 80, 120, 160, 200, 240, 280, 320, 360, 400, 440, 480);
+
+/* css workaround for react-select issue #1127 */
+.limited {
+  @each $w in $inputFieldWidths {
+    &.w#{$w} {
+      width: 100%;
+
+      &.hard {
+        width: #{$w}px;
+      }
+
+      .Select-input {
+        max-width: #{$w}px;
+
+        > input {
+          max-width: 100%;
+        }
+      }
+    }
+  } 
+}

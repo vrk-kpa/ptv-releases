@@ -1,0 +1,69 @@
+﻿[
+    {
+        "code": "State",
+        "names": [
+            {
+                "Name": "Valtio",
+                "language": "fi"
+            },
+            {
+                "Name": "State",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Municipality",
+        "names": [
+            {
+                "Name": "Kunta",
+                "language": "fi"
+            },
+            {
+                "Name": "Municipality",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "code": "RegionalOrganization",
+        "names": [
+            {
+                "Name": "Alueellinen yhteistoimintaorganisaatio",
+                "language": "fi"
+            },
+            {
+                "Name": "Regional organization",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "code": "Organization",
+        "names": [
+            {
+                "Name": "Järjestöt",
+                "language": "fi"
+            },
+            {
+                "Name": "Organization",
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "code": "Company",
+        "names": [
+            {
+                "Name": "Yritykset",
+                "language": "fi"
+            },
+            {
+                "Name": "Company",
+                "language": "en"
+            }
+        ]
+    }
+]

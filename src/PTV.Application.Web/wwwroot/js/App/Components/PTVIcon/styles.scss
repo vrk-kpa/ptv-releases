@@ -1,0 +1,28 @@
+@import '../styles/variables';
+
+.icon-wrap {
+  display: inline-block;
+  vertical-align: text-top;
+  &.action {
+    float: right;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+  svg {
+    &.brand {
+      fill: $brand-blue;
+    }
+  }
+}
+
+.icon-plus {
+  fill: $brand-blue;
+}
+
+.icon-info-circle {
+  margin-left: 10px;
+}
+
+.brand-fill {
+  fill: $brand-blue;
+}

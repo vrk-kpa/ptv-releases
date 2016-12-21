@@ -1,0 +1,46 @@
+﻿[
+    {
+        "code": "Standard",
+        "names": [
+            {
+                "Name": "Normaaliaukioloajat",
+                "language": "fi"
+            },
+            {
+                "Name": "Standard",
+                "language": "en"
+            }
+        ]
+
+
+    },{
+        "code": "Special",
+        "names": [
+            {
+                "Name": "Aukioloaikojen täyttämisohjeet",
+                "language": "fi"
+            },
+            {
+                "Name": "Special",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Exception",
+        "names": [
+            {
+                "Name": "Poikkeusaukioloajat",
+                "language": "fi"
+            },
+            {
+                "Name": "Exception",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

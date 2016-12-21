@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using Microsoft.AspNetCore.Authentication;
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+@using PTV.Application.Web
+
+
+@model UiAppSettings
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section scripts {
+
+<script>
+    @*
+        don't use @Model.something_here to render values for javascript because it will HTML encode the values
+        thats why @Html.Raw(...) is used so that the original string is printed as it was
+    *@
+    function getAccessToken() {
+             return '@Html.Raw(ViewBag.AccessToken)';
+    }
+    function getUserName() {
+            return '@Html.Raw(Model.UserName)';
+    }
+
+    function getUserFirstNameSurname() {
+        return '@Html.Raw(User.FindFirst("Name")?.Value)';
+    }
+
+    function getUserRole() {
+        return '@Html.Raw(User.FindFirst("Role")?.Value)';
+    }
+
+    function getApiUrl() {
+            return '@Html.Raw(Model.CustomApiUrl)';
+    }
+
+    function getEnvironmentType() {
+        return '@Html.Raw(Model.EnvironmentType)';
+    }
+
+    function getStsUrl() {
+        return '@Html.Raw(Model.StsUrl)';
+    }
+
+    function getAppVersion() {
+        return '@ViewData["VersionPrefix"]@ViewData["Version"]';
+    }
+
+</script>
+
+    <environment names="Development">
+
+    @if (Model.IsWebpackDisabled)
+    {
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/bundle/bundle.min.js"></script>
+    }
+    else
+    {
+        <script>
+            const isDevelopment = true;
+        </script>
+    }
+</environment>
+    <environment names="Staging,Production">
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/bundle/bundle.min.js?v=@ViewData["VersionPrefix"]@ViewData["Version"]"></script>
+    </environment>
+
+}
+
+<div id="page-wrapper">
+</div>
+
+

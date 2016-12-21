@@ -1,0 +1,175 @@
+[
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE5",
+        "Label": "Maahanmuuttajana Suomeen",
+        "Finnish": "Maahanmuuttajana Suomeen",
+        "OntologyType": null,
+        "Notation": "KE5",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE12",
+        "Label": "Kuntoutus",
+        "Finnish": "Kuntoutus",
+        "OntologyType": null,
+        "Notation": "KE12",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE10",
+        "Label": "Eläkkeelle siirtyminen",
+        "Finnish": "Eläkkeelle siirtyminen",
+        "OntologyType": null,
+        "Notation": "KE10",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE2",
+        "Label": "Asevelvollisuus",
+        "Finnish": "Asevelvollisuus",
+        "OntologyType": null,
+        "Notation": "KE2",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE14",
+        "Label": "Omaisen kuolema",
+        "Finnish": "Omaisen kuolema",
+        "OntologyType": null,
+        "Notation": "KE14",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE7",
+        "Label": "Avioero",
+        "Finnish": "Avioero",
+        "OntologyType": null,
+        "Notation": "KE7",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1",
+        "Label": "Lapsen saaminen",
+        "Finnish": "Lapsen saaminen",
+        "OntologyType": null,
+        "Notation": "KE1",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1.1",
+                "Label": "Adoptio",
+                "Finnish": "Adoptio",
+                "OntologyType": null,
+                "Notation": "KE1.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4",
+        "Label": "Muuttaminen",
+        "Finnish": "Muuttaminen",
+        "OntologyType": null,
+        "Notation": "KE4",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.1",
+                "Label": "Kotoa muuttaminen",
+                "Finnish": "Kotoa muuttaminen",
+                "OntologyType": null,
+                "Notation": "KE4.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.2",
+                "Label": "Suomen sisällä muuttaminen",
+                "Finnish": "Suomen sisällä muuttaminen",
+                "OntologyType": null,
+                "Notation": "KE4.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.3",
+                "Label": "Suomesta muuttaminen",
+                "Finnish": "Suomesta muuttaminen",
+                "OntologyType": null,
+                "Notation": "KE4.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.4",
+                "Label": "Paluumuutto Suomeen",
+                "Finnish": "Paluumuutto Suomeen",
+                "OntologyType": null,
+                "Notation": "KE4.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE13",
+        "Label": "Omaishoitajana toimiminen",
+        "Finnish": "Omaishoitajana toimiminen",
+        "OntologyType": null,
+        "Notation": "KE13",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE9",
+        "Label": "Velkaantuminen",
+        "Finnish": "Velkaantuminen",
+        "OntologyType": null,
+        "Notation": "KE9",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE11",
+        "Label": "Vakava sairastuminen",
+        "Finnish": "Vakava sairastuminen",
+        "OntologyType": null,
+        "Notation": "KE11",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE6",
+        "Label": "Talon rakentaminen",
+        "Finnish": "Talon rakentaminen",
+        "OntologyType": null,
+        "Notation": "KE6",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE8",
+        "Label": "Työttömäksi jääminen",
+        "Finnish": "Työttömäksi jääminen",
+        "OntologyType": null,
+        "Notation": "KE8",
+        "Narrower": [ ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE3",
+        "Label": "Kokoaikaisen opiskelun aloittaminen",
+        "Finnish": "Kokoaikaisen opiskelun aloittaminen",
+        "OntologyType": null,
+        "Notation": "KE3",
+        "Narrower": [ ],
+        "Broader": null
+    }
+]

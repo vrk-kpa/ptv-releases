@@ -1,0 +1,80 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2016 Population Register Centre (VRK)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+using PTV.Domain.Model.Models.OpenApi;
+using System;
+using System.Collections.Generic;
+
+namespace PTV.Domain.Model.Models.Interfaces
+{
+    public interface IVmOpenApiServiceBase
+    {
+        /// <summary>
+        /// PTV service identifier.
+        /// </summary>
+        Guid? Id { get; set; }
+        /// <summary>
+        /// Service type. Possible values are: Service, Notice, Registration or Permission.
+        /// </summary>
+        string Type { get; set; }
+        /// <summary>
+        /// List of localized service names.
+        /// </summary>
+        IReadOnlyList<VmOpenApiLocalizedListItem> ServiceNames { get; set; }
+        /// <summary>
+        /// List of localized service descriptions.
+        /// </summary>
+        IReadOnlyList<VmOpenApiLocalizedListItem> ServiceDescriptions { get; set; }
+        /// <summary>
+        /// List of service languages.
+        /// </summary>
+        IReadOnlyList<string> Languages { get; set; }
+        /// <summary>
+        /// List of service keywords.
+        /// </summary>
+        IList<VmOpenApiLanguageItem> Keywords { get; set; }
+        /// <summary>
+        /// Service coverage type. Valid values are: Local or Nationwide.
+        /// </summary>
+        string ServiceCoverageType { get; set; }
+        /// <summary>
+        /// List of municipality codes that the service is available for. Used in conjunction with service coverage type Local.
+        /// </summary>
+        IReadOnlyList<string> Municipalities { get; set; }
+        /// <summary>
+        /// Localized service usage requirements (description of requirement).
+        /// </summary>
+        IReadOnlyList<VmOpenApiLanguageItem> Requirements { get; set; }
+        /// <summary>
+        /// Publishing status. Possible values are: Draft, Published, Deleted, Modified or OldPublished.
+        /// </summary>
+        string PublishingStatus { get; set; }
+        /// <summary>
+        /// Service charge type. Possible values are: Charged, Free or Other
+        /// </summary>
+        string ServiceChargeType { get; set; }
+        /// <summary>
+        /// List of localized service additional informations.
+        /// </summary>
+        IReadOnlyList<VmOpenApiLocalizedListItem> ServiceAdditionalInformations { get; set; }
+    }
+}

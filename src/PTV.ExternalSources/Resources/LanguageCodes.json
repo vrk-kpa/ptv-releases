@@ -1,0 +1,357 @@
+[
+  {
+    "code": "am",
+    "fi": "amhara",
+    "english": "Amharic"
+  },
+  {
+    "code": "ar",
+    "fi": "arabia",
+    "english": "Arabic"
+  },
+  {
+    "code": "az",
+    "fi": "azeri",
+    "english": "Azerbaijani"
+  },
+  {
+    "code": "bg",
+    "fi": "bulgaria",
+    "english": "Bulgarian"
+  },
+  {
+    "code": "bn",
+    "fi": "bengali",
+    "english": "Bengali"
+  },
+  {
+    "code": "bs",
+    "fi": "bosnia",
+    "english": "Bosnian"
+  },
+  {
+    "code": "cs",
+    "fi": "tšekki",
+    "english": "Czech"
+  },
+  {
+    "code": "da",
+    "fi": "tanska",
+    "english": "Danish"
+  },
+  {
+    "code": "de",
+    "fi": "saksa",
+    "english": "German"
+  },
+  {
+    "code": "el",
+    "fi": "kreikka",
+    "english": "Greek"
+  },
+  {
+    "code": "en",
+    "fi": "englanti",
+    "english": "English"
+  },
+  {
+    "code": "es",
+    "fi": "espanja",
+    "english": "Spanish"
+  },
+  {
+    "code": "et",
+    "fi": "viro",
+    "english": "Estonian"
+  },
+  {
+    "code": "fa",
+    "fi": "farsi",
+    "english": "Persian"
+  },
+  {
+    "code": "fi",
+    "fi": "suomi",
+    "english": "Finnish"
+  },
+  {
+    "code": "fr",
+    "fi": "ranska",
+    "english": "French"
+  },
+  {
+    "code": "he",
+    "fi": "heprea",
+    "english": "Hebrew"
+  },
+  {
+    "code": "hi",
+    "fi": "hindi",
+    "english": "Hindi"
+  },
+  {
+    "code": "hr",
+    "fi": "kroatia",
+    "english": "Croatian"
+  },
+  {
+    "code": "hu",
+    "fi": "unkari",
+    "english": "Hungarian"
+  },
+  {
+    "code": "hy",
+    "fi": "armenia",
+    "english": "Armenian"
+  },
+  {
+    "code": "id",
+    "fi": "indonesia",
+    "english": "Indonesian"
+  },
+  {
+    "code": "is",
+    "fi": "islanti",
+    "english": "Icelandic"
+  },
+  {
+    "code": "it",
+    "fi": "italia",
+    "english": "Italian"
+  },
+  {
+    "code": "ja",
+    "fi": "japani",
+    "english": "Japanese"
+  },
+  {
+    "code": "ka",
+    "fi": "georgia",
+    "english": "Georgian"
+  },
+  {
+    "code": "kg",
+    "fi": "kongo",
+    "english": "Kongo"
+  },
+  {
+    "code": "kk",
+    "fi": "kazakki",
+    "english": "Kazakh"
+  },
+  {
+    "code": "km",
+    "fi": "keskikhmer",
+    "english": "Khmer"
+  },
+  {
+    "code": "ko",
+    "fi": "korea",
+    "english": "Korean"
+  },
+  {
+    "code": "ku",
+    "fi": "kurdi",
+    "english": "Kurdish"
+  },
+  {
+    "code": "ky",
+    "fi": "kirgiisi",
+    "english": "Kirghiz"
+  },
+  {
+    "code": "ln",
+    "fi": "lingala",
+    "english": "Lingala"
+  },
+  {
+    "code": "lo",
+    "fi": "lao",
+    "english": "Lao"
+  },
+  {
+    "code": "lt",
+    "fi": "liettua",
+    "english": "Lithuanian"
+  },
+  {
+    "code": "lv",
+    "fi": "latvia",
+    "english": "Latvian"
+  },
+  {
+    "code": "mk",
+    "fi": "makedonia",
+    "english": "Macedonian"
+  },
+  {
+    "code": "ms",
+    "fi": "malaiji",
+    "english": "Malay"
+  },
+  {
+    "code": "my",
+    "fi": "burma",
+    "english": "Burmese"
+  },
+  {
+    "code": "ne",
+    "fi": "nepali",
+    "english": "Nepali"
+  },
+  {
+    "code": "nl",
+    "fi": "hollanti",
+    "english": "Dutch"
+  },
+  {
+    "code": "no",
+    "fi": "norja",
+    "english": "Norwegian"
+  },
+  {
+    "code": "pl",
+    "fi": "puola",
+    "english": "Polish"
+  },
+  {
+    "code": "ps",
+    "fi": "paštu",
+    "english": "Pashto"
+  },
+  {
+    "code": "pt",
+    "fi": "portugali",
+    "english": "Portuguese"
+  },
+  {
+    "code": "rn",
+    "fi": "rundi",
+    "english": "Rundi"
+  },
+  {
+    "code": "ro",
+    "fi": "romania",
+    "english": "Romanian"
+  },
+  {
+    "code": "ru",
+    "fi": "venäjä",
+    "english": "Russian"
+  },
+  {
+    "code": "rw",
+    "fi": "ruanda",
+    "english": "Kinyarwanda"
+  },
+  {
+    "code": "se",
+    "fi": "pohjoissaame",
+    "english": "Northern Sami"
+  },
+  {
+    "code": "sh",
+    "fi": "serbokroaatti",
+    "english": "Serbo-Croatian"
+  },
+  {
+    "code": "sk",
+    "fi": "slovakki",
+    "english": "Slovak"
+  },
+  {
+    "code": "sl",
+    "fi": "sloveeni",
+    "english": "Slovenian"
+  },
+  {
+    "code": "so",
+    "fi": "somali",
+    "english": "Somali"
+  },
+  {
+    "code": "sq",
+    "fi": "albania",
+    "english": "Albanian"
+  },
+  {
+    "code": "sr",
+    "fi": "serbia",
+    "english": "Serbian"
+  },
+  {
+    "code": "sv",
+    "fi": "ruotsi",
+    "english": "Swedish"
+  },
+  {
+    "code": "sw",
+    "fi": "swahili",
+    "english": "Swahili"
+  },
+  {
+    "code": "ta",
+    "fi": "tamili",
+    "english": "Tamil"
+  },
+  {
+    "code": "th",
+    "fi": "thai",
+    "english": "Thai"
+  },
+  {
+    "code": "tk",
+    "fi": "turkmeeni",
+    "english": "Turkmen"
+  },
+  {
+    "code": "tl",
+    "fi": "tagalog",
+    "english": "Tagalog"
+  },
+  {
+    "code": "tr",
+    "fi": "turkki",
+    "english": "Turkish"
+  },
+  {
+    "code": "ug",
+    "fi": "uiguuri",
+    "english": "Uighur"
+  },
+  {
+    "code": "uk",
+    "fi": "ukraina",
+    "english": "Ukrainian"
+  },
+  {
+    "code": "ur",
+    "fi": "urdu",
+    "english": "Urdu"
+  },
+  {
+    "code": "uz",
+    "fi": "uzbekki",
+    "english": "Uzbek"
+  },
+  {
+    "code": "vi",
+    "fi": "vietnam",
+    "english": "Vietnamese"
+  },
+  {
+    "code": "wo",
+    "fi": "wolof",
+    "english": "Wolof"
+  },
+  {
+    "code": "zh",
+    "fi": "kiina",
+    "english": "Chinese"
+  },
+  {
+    "code": "sgn-fi",
+    "fi": "viittomakieli",
+    "english": "Finnish Sign Language"
+  }
+]

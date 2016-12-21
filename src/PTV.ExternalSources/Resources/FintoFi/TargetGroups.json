@@ -1,0 +1,290 @@
+﻿[
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1",
+        "type": "skos:Concept",
+        "inScheme": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        },
+        "narrower": [
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.7"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.2"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.5"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.3"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.1"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.6"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.4"
+            }
+        ],
+        "notation": "KR1",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Kansalaiset"
+        },
+        "skos:scopeNote": {
+            "lang": "fi",
+            "value": "Palvelutietovarantoon kuvattavalle palvelulle valitaan Kansalaiset-kohderyhmä, kun palvelun halutaan näkyvän kansalaisen palvelunäkymässä. Saman palvelun voi kytkeä myös Yritykset- ja/tai Viranomaiset-kohderyhmään, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+        },
+        "skos:topConceptOf": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.1",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.1",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Ikäihmiset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.2",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.2",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Lapset ja lapsiperheet"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.3",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.3",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Nuoret"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.4",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.4",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Pitkäaikaissairaat"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.5",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.5",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Ulkosuomalaiset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.6",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.6",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Vammaiset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.7",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+        },
+        "notation": "KR1.7",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Yhdistykset ja yhteisöt"
+        }
+    },
+
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2",
+        "type": "skos:Concept",
+        "inScheme": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        },
+        "narrower": [
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.5"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.3"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.7"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.1"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.4"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.8"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.2"
+            },
+            {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.6"
+            }
+        ],
+        "notation": "KR2",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Yritykset"
+        },
+        "skos:scopeNote": {
+            "lang": "fi",
+            "value": "Palvelutietovarantoon kuvattavalle palvelulle valitaan Yritykset-kohderyhmä, kun palvelun halutaan näkyvän yrityksen palvelunäkymässä. Saman palvelun voi kytkeä myös Kansalaiset- ja/tai Viranomaiset-kohderyhmään, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+        },
+        "skos:topConceptOf": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.1",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.1",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Kansainvälistyvät yritykset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.2",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.2",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Keksijät"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.3",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.3",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Kotimarkkinoilla toimivat yritykset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.4",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.4",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Suomeen ulkomailta tulevat yrittäjät"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.5",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.5",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Suuryritykset"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.6",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.6",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Työnantajat"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.7",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.7",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Yhteisöt"
+        }
+    },
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.8",
+        "type": "skos:Concept",
+        "broader": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+        },
+        "notation": "KR2.8",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Yrityksen perustajat kotimaassa"
+        }
+    },
+
+    {
+        "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR3",
+        "type": "skos:Concept",
+        "inScheme": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        },
+        "notation": "KR3",
+        "prefLabel": {
+            "lang": "fi",
+            "value": "Viranomaiset"
+        },
+        "skos:scopeNote": {
+            "lang": "fi",
+            "value": "Palvelutietovarantoon kuvattavalle palvelulle valitaan Viranomaiset-kohderyhmä, kun palvelun halutaan näkyvän viranomaisen palvelunäkymässä. Saman palvelun voi kytkeä myös Kansalaiset- ja/tai Yritykset-kohderyhmiin, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+        },
+        "skos:topConceptOf": {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KR"
+        }
+    }
+]

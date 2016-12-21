@@ -1,0 +1,2594 @@
+﻿[
+
+
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1",
+            "type": "skos:Concept",
+            "inScheme": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:"
+            },
+            "narrower": [
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.6"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.5"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.2"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.1"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.4"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.3"
+                }
+            ],
+            "notation": "P1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Asuminen"
+            },
+            "skos:topConceptOf": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.1",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Asunnon hankinta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.2",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vuokra-asuminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.3",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Omistusasuminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.4",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Osaomistus- ja asumisoikeusasuminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.5",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Asumisen tuet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.6",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P1"
+            },
+            "notation": "P1.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Muuttaminen Suomen sisällä ja väestötiedot"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2",
+            "type": "skos:Concept",
+            "inScheme": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:"
+            },
+            "narrower": [
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.5"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.2"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.1"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.3"
+                },
+                {
+                    "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.4"
+                }
+            ],
+            "notation": "P2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rakennettu ympäristö"
+            },
+            "skos:topConceptOf": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.1",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            "notation": "P2.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rakentaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.2",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            "notation": "P2.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Korjaus- ja energia-avustukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.3",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            "notation": "P2.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maankäyttö, kaavoitus ja tontit"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.4",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            "notation": "P2.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kiinteistöt"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2.5",
+            "type": "skos:Concept",
+            "broader": {
+                "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P2"
+            },
+            "notation": "P2.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Toimitilat"
+            }
+        },
+
+
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.10" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.1" }
+            ],
+            "notation": "P3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Perheiden palvelut"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Parisuhde"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.10",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Elatusapu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lapsen saaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Isyyden vahvistaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lasten päivähoito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Perheasioiden sovittelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lapsiperheiden sosiaalipalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kasvatus- ja perheneuvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lastensuojelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P3" },
+            "notation": "P3.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lapsen etu ja perheoikeus"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.11" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.12" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.15" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.13" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.10" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.14" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.8" }
+            ],
+            "notation": "P4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Sosiaalipalvelut"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Asumispalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.10",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Koulu- ja opiskelijahuollon sosiaalipalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.11",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.11",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Toimeentulotuki"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.12",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.12",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotouttaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.13",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.13",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vertais- ja vapaaehtoistoiminta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.14",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.14",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Neuvonta- ja ohjauspalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.15",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.15",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oheis- ja tukipalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vanhusten palvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotihoito, kotipalvelut ja omaishoito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotisairaanhoidon tuki"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vammaisten palvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilökohtainen apu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vammaisten perhehoito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kehitysvammahuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P4" },
+            "notation": "P4.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työllistyjän taloudellinen tukiminen"
+            }
+        },
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.14" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.15" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.20" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.13" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.18" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.11" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.19" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.12" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.16" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.17" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.10" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.2" }
+            ],
+            "notation": "P5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Terveydenhuolto, sairaanhoito ja ravitsemus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Perusterveydenhuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.10",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suun ja hampaiden terveydenhuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.11",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.11",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Itsehoito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.12",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.12",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työterveyshuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.13",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.13",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kuntoutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.14",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.14",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lääkkeet ja apteekit"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.15",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.15",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vertais- ja vapaaehtoistoiminta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.16",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.16",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Terveyden neuvonta- ja ohjauspalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.17",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.17",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Terveyden tukipalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.18",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.18",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Potilasasiamies ja potilaan oikeudet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.19",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.19",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ravinto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Neuvolapalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.20",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.20",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Elintarviketurvallisuus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rokotukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Röntgen, laboratorio ja muut tutkimuspalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ensiapu ja päivystys"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Erikoissairaanhoito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Päihde- ja mielenterveyspalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Terveystarkastukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P5" },
+            "notation": "P5.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Koulu- ja opiskelijaterveydenhuolto"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.12" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.13" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.10" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.15" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.16" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.11" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.14" }
+            ],
+            "notation": "P6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Koulutus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Esiopetus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.10",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Korkeakoulutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.11",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.11",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Aikuis- ja täydennyskoulutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.12",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.12",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yrityskoulutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.13",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.13",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yrittäjäkoulutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.14",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.14",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Opiskelu ulkomailla"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.15",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.15",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Opintojen tukeminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.16",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.16",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tiede ja tutkimus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Perusopetus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Aamu- ja iltapäiväkerhotoiminta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oppilas- ja opiskelijahuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ammatinvalinta ja opintojen ohjaus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Koulutukseen hakeminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Toisen asteen ammatillinen koulutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oppisopimus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P6" },
+            "notation": "P6.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lukiokoulutus"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.5" }
+            ],
+            "notation": "P7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oikeusturva"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisten perusoikeudet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lait ja asetukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oikeusturva ja lainmukaisuus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Oikeudenkäynti ja rikosasiat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tietosuoja ja henkilötiedot"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisuus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vähemmistöt"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Immateriaalioikeudet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P7" },
+            "notation": "P7.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Edunvalvonta"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.4" }
+            ],
+            "notation": "P8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Demokratia"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8" },
+            "notation": "P8.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Puolueet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8" },
+            "notation": "P8.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vaalit"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8" },
+            "notation": "P8.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisvaikuttaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P8" },
+            "notation": "P8.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisjärjestöjen toiminta"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.3" }
+            ],
+            "notation": "P9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Hallinto"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Luvat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Päätöksenteko"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suomen edustustot ulkomailla"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Virastopalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tarkastustoiminta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P9" },
+            "notation": "P9.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilöstöpalvelut"
+            }
+        },
+
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.2" }
+            ],
+            "notation": "P10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työ ja työttömyys"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työnhaku ja työpaika"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ammatinvalinta ja urasuunnittelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työelämän säännöt ja työehtosopimukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työkyky ja ammatillinen kuntoutus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työsuojelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työttömän tuet ja etuudet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tuettu työllistyminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P10" },
+            "notation": "P10.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työttömien järjestöt ja vertaistuki"
+            }
+        },
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.9" }
+            ],
+            "notation": "P11",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Elinkeinot"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yrityksen perustaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Toimialakohtaiset luvat ja velvoitteet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Liiketoiminnan kehittäminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tuote- ja palvelukehitys"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yritysyhteistyö ja verkostoituminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansainvälistymispalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tuonti ja vienti"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Omistajanvaihdos"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P11" },
+            "notation": "P11.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yritystoiminnan lopettaminen"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.3" }
+            ],
+            "notation": "P12",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työnantajan palvelut"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12" },
+            "notation": "P12.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Palveluja työnantajalle"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12" },
+            "notation": "P12.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilöstöhankinta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12" },
+            "notation": "P12.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotitalous työnantajana"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P12" },
+            "notation": "P12.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilöstön kehittäminen"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.5" }
+            ],
+            "notation": "P13",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Eläkkeet"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13" },
+            "notation": "P13.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansaneläke"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13" },
+            "notation": "P13.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työeläkkeet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13" },
+            "notation": "P13.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työkyvyttömyyseläke"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13" },
+            "notation": "P13.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suomalaisen eläketurva ulkomailla"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P13" },
+            "notation": "P13.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suomessa pysyvästi asuvan ulkomaalaisen eläketurva Suomessa"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.3" }
+            ],
+            "notation": "P14",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Verotus ja julkinen talous"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14" },
+            "notation": "P14.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilöverotus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14" },
+            "notation": "P14.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Omaisuuden verotus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14" },
+            "notation": "P14.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ajoneuvojen verotus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14" },
+            "notation": "P14.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yritysverotus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P14" },
+            "notation": "P14.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Julkinen talous ja julkiset hankinnat"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.8" }
+            ],
+            "notation": "P15",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yksityinen talous ja rahoitus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Henkilön talous- ja velkaneuvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yrityksen talous- ja velkaneuvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lainat ja luottotiedot"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Konkurssi"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ulosotto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Pankit"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Talletusten ja sijoitusten suoja"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Yritysrahoitus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P15" },
+            "notation": "P15.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rahoitusmarkkinat"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.3" }
+            ],
+            "notation": "P16",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Liikenne"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ajoneuvot ja rekisteröinti"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ajo-opetus ja ajoluvat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Liikenneturvallisuus ja liikennesäännöt"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Pysäköinti"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Joukkoliikenne"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ammattiliikenne"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tienpito"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vesiliikenne"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P16" },
+            "notation": "P16.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ilmailu"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.3" }
+            ],
+            "notation": "P17",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Matkailu"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17" },
+            "notation": "P17.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Matkailu Suomessa"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17" },
+            "notation": "P17.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Matkailu EU-alueella"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P17" },
+            "notation": "P17.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Matkailu EU-alueen ulkopuolella"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.1" }
+            ],
+            "notation": "P18",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kartat"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18" },
+            "notation": "P18.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kartat ja karttapalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P18" },
+            "notation": "P18.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Paikkatietopalvelut"
+            }
+        },
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.1" }
+            ],
+            "notation": "P19",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Turvallisuus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Palo- ja pelastustoiminta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Väestönsuojelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Hätänumerot ja onnettomuustilanteet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rikostilanteet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maanpuolustus"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rajavalvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P19" },
+            "notation": "P19.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Säteilyturvallisuus"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.1" }
+            ],
+            "notation": "P20",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Järjestys"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20" },
+            "notation": "P20.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Järjestyksen valvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20" },
+            "notation": "P20.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tilaisuuksien järjestäminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P20" },
+            "notation": "P20.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Löytötavarat"
+            }
+        },
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.2" }
+            ],
+            "notation": "P21",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kuluttaja-asiat"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21" },
+            "notation": "P21.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kuluttajansuoja"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P21" },
+            "notation": "P21.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vakuutukset"
+            }
+        },
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.3" }
+            ],
+            "notation": "P22",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maahan- ja maastamuutto"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maahantuloluvat ja asiakirjat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maahanmuuttajan työskentely ja opiskelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kielikurssit"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisuuden hakeminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Muuttaminen Suomesta toiseen pohjoismaahan"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Muuttaminen Suomesta toiseen EU-valtioon"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Muuttaminen Suomesta EU:n ulkopuolelle"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.8",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ulkosuomalaiset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22.9",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P22" },
+            "notation": "P22.9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Paluumuutto"
+            }
+        },
+
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.3" }
+            ],
+            "notation": "P23",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ympäristö"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ympäristön- ja luonnonsuojelu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Jätehuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vesihuolto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ympäristöilmoitukset ja luvat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Rakennusperintö ja kulttuuriympäristöt"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ympäristövalvonta"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P23" },
+            "notation": "P23.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Ympäristöterveydenhuolto"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.6" }
+            ],
+            "notation": "P24",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Luonnonvarat, eläimet ja kasvit"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Luonnonvaraiset kasvit ja eläimet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kasvintuotanto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tuotantoeläimet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Elintarviketuotanto"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotieläimet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P24" },
+            "notation": "P24.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Eläinlääkäripalvelut"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.2" }
+            ],
+            "notation": "P25",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kulttuuri"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kirjastot ja tietopalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Taiteet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Museot"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Arkistot"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vapaa-ajan palvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.6",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Uskonnot ja elämänkatsomukset"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25.7",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P25" },
+            "notation": "P25.7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vapaa sivistystyö ja taidekasvatus"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.1" }
+            ],
+            "notation": "P26",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Viestintä"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26" },
+            "notation": "P26.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Joukkoviestimet"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26" },
+            "notation": "P26.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Postipalvelut"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P26" },
+            "notation": "P26.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Tietoliikenne"
+            }
+        },
+
+
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27",
+            "type": "skos:Concept",
+            "inScheme": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "narrower": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.3" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.2" }
+            ],
+            "notation": "P27",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Liikunta ja ulkoilu"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27" },
+            "notation": "P27.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Liikunta ja urheilu"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27" },
+            "notation": "P27.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Retkeily"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27" },
+            "notation": "P27.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Veneily"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27" },
+            "notation": "P27.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Metsästys"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27.5",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:P27" },
+            "notation": "P27.5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kalastus"
+            }
+        }
+    ]

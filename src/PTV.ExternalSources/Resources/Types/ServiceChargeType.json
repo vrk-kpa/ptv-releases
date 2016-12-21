@@ -1,0 +1,47 @@
+﻿[
+    {
+        "code": "Charged",
+        "names": [
+            {
+                "Name": "Maksullinen",
+                "language": "fi"
+            },
+            {
+                "Name": "Charged",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Free",
+        "names": [
+            {
+                "Name": "Maksuton",
+                "language": "fi"
+            },
+            {
+                "Name": "Free",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Other",
+        "names": [
+            {
+                "Name": "Muu",
+                "language": "fi"
+            },
+            {
+                "Name": "Other",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

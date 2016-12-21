@@ -1,0 +1,32 @@
+﻿[
+    {
+        "code": "Responsible",
+        "names": [
+            {
+                "Name": "Vastuutaho",
+                "language": "fi"
+            },
+            {
+                "Name": "Responsible",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Producer",
+        "names": [
+            {
+                "Name": "Tuottaja",
+                "language": "fi"
+            },
+            {
+                "Name": "Producer",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

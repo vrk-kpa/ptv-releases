@@ -1,0 +1,32 @@
+﻿[
+    {
+        "code": "Open",
+        "names": [
+            {
+                "Name": "Avoinna",
+                "language": "fi"
+            },
+            {
+                "Name": "Open",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Closed",
+        "names": [
+            {
+                "Name": "Suljettu",
+                "language": "fi"
+            },
+            {
+                "Name": "Closed",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

@@ -1,0 +1,32 @@
+﻿[
+    {
+        "code": "Visiting",
+        "names": [
+            {
+                "Name": "Avoinna",
+                "language": "fi"
+            },
+            {
+                "Name": "Visiting",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Postal",
+        "names": [
+            {
+                "Name": "Postiosoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Postal",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

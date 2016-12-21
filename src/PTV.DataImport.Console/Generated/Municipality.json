@@ -1,0 +1,1784 @@
+[
+  {
+    "Name": "Akaa",
+    "OrganizationName": "Akaan kaupunki",
+    "BusinessId": "2050864-5",
+    "MunicipalityCode": "020"
+  },
+  {
+    "Name": "Alajärvi",
+    "OrganizationName": "Alajärven kaupunki",
+    "BusinessId": "0177619-3",
+    "MunicipalityCode": "005"
+  },
+  {
+    "Name": "Alavieska",
+    "OrganizationName": "Alavieskan kunta",
+    "BusinessId": "0184674-5",
+    "MunicipalityCode": "009"
+  },
+  {
+    "Name": "Alavus",
+    "OrganizationName": "Alavuden kaupunki",
+    "BusinessId": "0177736-4",
+    "MunicipalityCode": "010"
+  },
+  {
+    "Name": "Asikkala",
+    "OrganizationName": "Asikkalan kunta",
+    "BusinessId": "0145208-4",
+    "MunicipalityCode": "016"
+  },
+  {
+    "Name": "Askola",
+    "OrganizationName": "Askolan kunta",
+    "BusinessId": "9000162-0",
+    "MunicipalityCode": "018"
+  },
+  {
+    "Name": "Aura",
+    "OrganizationName": "Auran kunta",
+    "BusinessId": "0132103-3",
+    "MunicipalityCode": "019"
+  },
+  {
+    "Name": "Enonkoski",
+    "OrganizationName": "Enonkosken kunta",
+    "BusinessId": "0163687-9 ",
+    "MunicipalityCode": "046"
+  },
+  {
+    "Name": "Enontekiö",
+    "OrganizationName": "Enontekiön kunta",
+    "BusinessId": "0190662-1",
+    "MunicipalityCode": "047"
+  },
+  {
+    "Name": "Espoo",
+    "OrganizationName": "Espoon kaupunki",
+    "BusinessId": "0101263-6",
+    "MunicipalityCode": "049"
+  },
+  {
+    "Name": "Eura",
+    "OrganizationName": "Euran kunta",
+    "BusinessId": "0132239-4",
+    "MunicipalityCode": "050"
+  },
+  {
+    "Name": "Eurajoki",
+    "OrganizationName": "Eurajoen kunta",
+    "BusinessId": "0132322-3",
+    "MunicipalityCode": "051"
+  },
+  {
+    "Name": "Evijärvi",
+    "OrganizationName": "Evijärven kunta",
+    "BusinessId": "0177804-1",
+    "MunicipalityCode": "052"
+  },
+  {
+    "Name": "Forssa",
+    "OrganizationName": "Forssan kaupunki",
+    "BusinessId": "0145626-1",
+    "MunicipalityCode": "061"
+  },
+  {
+    "Name": "Haapajärvi",
+    "OrganizationName": "Haapajärven kaupunki",
+    "BusinessId": "0209756-3",
+    "MunicipalityCode": "069"
+  },
+  {
+    "Name": "Haapavesi",
+    "OrganizationName": "Haapaveden kaupunki",
+    "BusinessId": "0184872-4",
+    "MunicipalityCode": "071"
+  },
+  {
+    "Name": "Hailuoto",
+    "OrganizationName": "Hailuodon kunta",
+    "BusinessId": "0184918-8",
+    "MunicipalityCode": "072"
+  },
+  {
+    "Name": "Halsua",
+    "OrganizationName": "Halsuan kunta",
+    "BusinessId": "0177826-0",
+    "MunicipalityCode": "074"
+  },
+  {
+    "Name": "Hamina",
+    "OrganizationName": "Haminan kaupunki",
+    "BusinessId": "0242496-6",
+    "MunicipalityCode": "075"
+  },
+  {
+    "Name": "Hankasalmi",
+    "OrganizationName": "Hankasalmen kunta",
+    "BusinessId": "0174035-0",
+    "MunicipalityCode": "077"
+  },
+  {
+    "Name": "Hanko",
+    "OrganizationName": "Hangon kaupunki",
+    "BusinessId": "0103166-9",
+    "MunicipalityCode": "078"
+  },
+  {
+    "Name": "Harjavalta",
+    "OrganizationName": "Harjavallan kaupunki",
+    "BusinessId": "0132585-1",
+    "MunicipalityCode": "079"
+  },
+  {
+    "Name": "Hartola",
+    "OrganizationName": "Hartolan kunta",
+    "BusinessId": "0163734-5",
+    "MunicipalityCode": "081"
+  },
+  {
+    "Name": "Hattula",
+    "OrganizationName": "Hattulan kunta",
+    "BusinessId": "0145801-3",
+    "MunicipalityCode": "082"
+  },
+  {
+    "Name": "Hausjärvi",
+    "OrganizationName": "Hausjärven kunta",
+    "BusinessId": "0145997-2",
+    "MunicipalityCode": "086"
+  },
+  {
+    "Name": "Heinola",
+    "OrganizationName": "Heinolan kaupunki",
+    "BusinessId": "1068892-9",
+    "MunicipalityCode": "111"
+  },
+  {
+    "Name": "Heinävesi",
+    "OrganizationName": "Heinäveden kunta",
+    "BusinessId": "0164308-3",
+    "MunicipalityCode": "090"
+  },
+  {
+    "Name": "Helsinki",
+    "OrganizationName": "Helsingin kaupunki",
+    "BusinessId": "0201256-6",
+    "MunicipalityCode": "091"
+  },
+  {
+    "Name": "Hirvensalmi",
+    "OrganizationName": "Hirvensalmen kunta",
+    "BusinessId": "0164384-1",
+    "MunicipalityCode": "097"
+  },
+  {
+    "Name": "Hollola",
+    "OrganizationName": "Hollolan kunta",
+    "BusinessId": "0146248-5",
+    "MunicipalityCode": "098"
+  },
+  {
+    "Name": "Honkajoki",
+    "OrganizationName": "Honkajoen kunta",
+    "BusinessId": "0132697-7",
+    "MunicipalityCode": "099"
+  },
+  {
+    "Name": "Huittinen",
+    "OrganizationName": "Huittisten kaupunki",
+    "BusinessId": "0203762-4",
+    "MunicipalityCode": "102"
+  },
+  {
+    "Name": "Humppila",
+    "OrganizationName": "Humppilan kunta",
+    "BusinessId": "0146456-0",
+    "MunicipalityCode": "103"
+  },
+  {
+    "Name": "Hyrynsalmi",
+    "OrganizationName": "Hyrynsalmen kunta",
+    "BusinessId": "0185075-2",
+    "MunicipalityCode": "105"
+  },
+  {
+    "Name": "Hyvinkää",
+    "OrganizationName": "Hyvinkään kaupunki",
+    "BusinessId": "0125866-0",
+    "MunicipalityCode": "106"
+  },
+  {
+    "Name": "Hämeenkyrö",
+    "OrganizationName": "Hämeenkyrön kunta",
+    "BusinessId": "0132947-3",
+    "MunicipalityCode": "108"
+  },
+  {
+    "Name": "Hämeenlinna",
+    "OrganizationName": "Hämeenlinnan kaupunki",
+    "BusinessId": "0146921-4",
+    "MunicipalityCode": "109"
+  },
+  {
+    "Name": "Ii",
+    "OrganizationName": "Iin kunta",
+    "BusinessId": "2054621-1",
+    "MunicipalityCode": "139"
+  },
+  {
+    "Name": "Iisalmi",
+    "OrganizationName": "Iisalmen kaupunki",
+    "BusinessId": "9086071-6",
+    "MunicipalityCode": "140"
+  },
+  {
+    "Name": "Iitti",
+    "OrganizationName": "Iitin kunta",
+    "BusinessId": "0158766-7",
+    "MunicipalityCode": "142"
+  },
+  {
+    "Name": "Ikaalinen",
+    "OrganizationName": "Ikaalisten kaupunki",
+    "BusinessId": "0203797-4",
+    "MunicipalityCode": "143"
+  },
+  {
+    "Name": "Ilmajoki",
+    "OrganizationName": "Ilmajoen kunta",
+    "BusinessId": "0178008-8",
+    "MunicipalityCode": "145"
+  },
+  {
+    "Name": "Ilomantsi",
+    "OrganizationName": "Ilomantsin kunta",
+    "BusinessId": "0167589-4",
+    "MunicipalityCode": "146"
+  },
+  {
+    "Name": "Imatra",
+    "OrganizationName": "Imatran kaupunki",
+    "BusinessId": "0159216-7",
+    "MunicipalityCode": "153"
+  },
+  {
+    "Name": "Inari",
+    "OrganizationName": "Inarin kunta",
+    "BusinessId": "0190758-7",
+    "MunicipalityCode": "148"
+  },
+  {
+    "Name": "Inkoo",
+    "OrganizationName": "Inkoon kunta",
+    "BusinessId": "0126293-4",
+    "MunicipalityCode": "149"
+  },
+  {
+    "Name": "Isojoki",
+    "OrganizationName": "Isojoen kunta",
+    "BusinessId": "0178071-5",
+    "MunicipalityCode": "151"
+  },
+  {
+    "Name": "Isokyrö",
+    "OrganizationName": "Isonkyrön kunta",
+    "BusinessId": "0178131-2",
+    "MunicipalityCode": "152"
+  },
+  {
+    "Name": "Janakkala",
+    "OrganizationName": "Janakkalan kunta",
+    "BusinessId": "0147510-4",
+    "MunicipalityCode": "165"
+  },
+  {
+    "Name": "Joensuu",
+    "OrganizationName": "Joensuun kaupunki",
+    "BusinessId": "0242746-2",
+    "MunicipalityCode": "167"
+  },
+  {
+    "Name": "Jokioinen",
+    "OrganizationName": "Jokioisten kunta",
+    "BusinessId": "0147645-7",
+    "MunicipalityCode": "169"
+  },
+  {
+    "Name": "Joroinen",
+    "OrganizationName": "Joroisten kunta",
+    "BusinessId": "0207112-8",
+    "MunicipalityCode": "171"
+  },
+  {
+    "Name": "Joutsa",
+    "OrganizationName": "Joutsan kunta",
+    "BusinessId": "0174108-9",
+    "MunicipalityCode": "172"
+  },
+  {
+    "Name": "Juankoski",
+    "OrganizationName": "Juankosken kaupunki",
+    "BusinessId": "0170606-4",
+    "MunicipalityCode": "174"
+  },
+  {
+    "Name": "Juuka",
+    "OrganizationName": "Juuan kunta",
+    "BusinessId": "0168654-2",
+    "MunicipalityCode": "176"
+  },
+  {
+    "Name": "Juupajoki",
+    "OrganizationName": "Juupajoen kunta",
+    "BusinessId": "0147705-4",
+    "MunicipalityCode": "177"
+  },
+  {
+    "Name": "Juva",
+    "OrganizationName": "Juvan kunta",
+    "BusinessId": "0164551-3",
+    "MunicipalityCode": "178"
+  },
+  {
+    "Name": "Jyväskylä",
+    "OrganizationName": "Jyväskylän kaupunki",
+    "BusinessId": "0174666-4",
+    "MunicipalityCode": "179"
+  },
+  {
+    "Name": "Jämijärvi",
+    "OrganizationName": "Jämijärven kunta",
+    "BusinessId": "0133127-4",
+    "MunicipalityCode": "181"
+  },
+  {
+    "Name": "Jämsä",
+    "OrganizationName": "Jämsän kaupunki",
+    "BusinessId": "0175622-1",
+    "MunicipalityCode": "182"
+  },
+  {
+    "Name": "Järvenpää",
+    "OrganizationName": "Järvenpään kaupunki",
+    "BusinessId": "0126541-4",
+    "MunicipalityCode": "186"
+  },
+  {
+    "Name": "Kaarina",
+    "OrganizationName": "Kaarinan kaupunki",
+    "BusinessId": "0133226-9",
+    "MunicipalityCode": "202"
+  },
+  {
+    "Name": "Kaavi",
+    "OrganizationName": "Kaavin kunta",
+    "BusinessId": "0170664-6",
+    "MunicipalityCode": "204"
+  },
+  {
+    "Name": "Kajaani",
+    "OrganizationName": "Kajaanin kaupunki",
+    "BusinessId": "0214958-9",
+    "MunicipalityCode": "205"
+  },
+  {
+    "Name": "Kalajoki",
+    "OrganizationName": "Kalajoen kaupunki",
+    "BusinessId": "0185924-7",
+    "MunicipalityCode": "208"
+  },
+  {
+    "Name": "Kangasala",
+    "OrganizationName": "Kangasalan kunta",
+    "BusinessId": "1923299-5",
+    "MunicipalityCode": "211"
+  },
+  {
+    "Name": "Kangasniemi",
+    "OrganizationName": "Kangasniemen kunta",
+    "BusinessId": "0164690-3",
+    "MunicipalityCode": "213"
+  },
+  {
+    "Name": "Kankaanpää",
+    "OrganizationName": "Kankaanpään kaupunki",
+    "BusinessId": "0133596-1",
+    "MunicipalityCode": "214"
+  },
+  {
+    "Name": "Kannonkoski",
+    "OrganizationName": "Kannonkosken kunta",
+    "BusinessId": "0175798-8",
+    "MunicipalityCode": "216"
+  },
+  {
+    "Name": "Kannus",
+    "OrganizationName": "Kannuksen kaupunki",
+    "BusinessId": "0178455-6",
+    "MunicipalityCode": "217"
+  },
+  {
+    "Name": "Karijoki",
+    "OrganizationName": "Karijoen kunta",
+    "BusinessId": "0178498-6",
+    "MunicipalityCode": "218"
+  },
+  {
+    "Name": "Karkkila",
+    "OrganizationName": "Karkkilan kaupunki",
+    "BusinessId": "0127046-7",
+    "MunicipalityCode": "224"
+  },
+  {
+    "Name": "Karstula",
+    "OrganizationName": "Karstulan kunta",
+    "BusinessId": "9094917-1",
+    "MunicipalityCode": "226"
+  },
+  {
+    "Name": "Karvia",
+    "OrganizationName": "Karvian kunta",
+    "BusinessId": "0133735-0",
+    "MunicipalityCode": "230"
+  },
+  {
+    "Name": "Kaskinen",
+    "OrganizationName": "Kaskisten kaupunki",
+    "BusinessId": "0208787-5",
+    "MunicipalityCode": "231"
+  },
+  {
+    "Name": "Kauhajoki",
+    "OrganizationName": "Kauhajoen kaupunki",
+    "BusinessId": "0178718-3",
+    "MunicipalityCode": "232"
+  },
+  {
+    "Name": "Kauhava",
+    "OrganizationName": "Kauhavan kaupunki",
+    "BusinessId": "0208852-8",
+    "MunicipalityCode": "233"
+  },
+  {
+    "Name": "Kauniainen",
+    "OrganizationName": "Kauniaisten kaupunki",
+    "BusinessId": "0203026-2",
+    "MunicipalityCode": "235"
+  },
+  {
+    "Name": "Kaustinen",
+    "OrganizationName": "Kaustisen kunta",
+    "BusinessId": "0178981-6",
+    "MunicipalityCode": "236"
+  },
+  {
+    "Name": "Keitele",
+    "OrganizationName": "Keiteleen kunta",
+    "BusinessId": "0170773-7",
+    "MunicipalityCode": "239"
+  },
+  {
+    "Name": "Kemi",
+    "OrganizationName": "Kemin kaupunki",
+    "BusinessId": "0210427-6",
+    "MunicipalityCode": "240"
+  },
+  {
+    "Name": "Kemijärvi",
+    "OrganizationName": "Kemijärven kaupunki",
+    "BusinessId": "0191717-9",
+    "MunicipalityCode": "320"
+  },
+  {
+    "Name": "Keminmaa",
+    "OrganizationName": "Keminmaan kunta",
+    "BusinessId": "0210469-8",
+    "MunicipalityCode": "241"
+  },
+  {
+    "Name": "Kemiönsaari",
+    "OrganizationName": "Kemiönsaaren kunta",
+    "BusinessId": "0133833-7",
+    "MunicipalityCode": "322"
+  },
+  {
+    "Name": "Kempele",
+    "OrganizationName": "Kempeleen kunta",
+    "BusinessId": "0186002-9",
+    "MunicipalityCode": "244"
+  },
+  {
+    "Name": "Kerava",
+    "OrganizationName": "Keravan kaupunki",
+    "BusinessId": "0127485-5",
+    "MunicipalityCode": "245"
+  },
+  {
+    "Name": "Keuruu",
+    "OrganizationName": "Keuruun kaupunki",
+    "BusinessId": "0208388-2",
+    "MunicipalityCode": "249"
+  },
+  {
+    "Name": "Kihniö",
+    "OrganizationName": "Kihniön kunta",
+    "BusinessId": "0133862-8",
+    "MunicipalityCode": "250"
+  },
+  {
+    "Name": "Kinnula",
+    "OrganizationName": "Kinnulan kunta",
+    "BusinessId": "0242816-6",
+    "MunicipalityCode": "256"
+  },
+  {
+    "Name": "Kirkkonummi",
+    "OrganizationName": "Kirkkonummen kunta",
+    "BusinessId": "0203107-0",
+    "MunicipalityCode": "257"
+  },
+  {
+    "Name": "Kitee",
+    "OrganizationName": "Kiteen kaupunki",
+    "BusinessId": "0168900-6",
+    "MunicipalityCode": "260"
+  },
+  {
+    "Name": "Kittilä",
+    "OrganizationName": "Kittilän kunta",
+    "BusinessId": "0191406-6",
+    "MunicipalityCode": "261"
+  },
+  {
+    "Name": "Kiuruvesi",
+    "OrganizationName": "Kiuruveden kaupunki",
+    "BusinessId": "0170843-0",
+    "MunicipalityCode": "263"
+  },
+  {
+    "Name": "Kivijärvi",
+    "OrganizationName": "Kivijärven kunta",
+    "BusinessId": "0176150-6",
+    "MunicipalityCode": "265"
+  },
+  {
+    "Name": "Kokemäki",
+    "OrganizationName": "Kokemäen kaupunki",
+    "BusinessId": "0203925-9",
+    "MunicipalityCode": "271"
+  },
+  {
+    "Name": "Kokkola",
+    "OrganizationName": "Kokkolan kaupunki",
+    "BusinessId": "0179377-8",
+    "MunicipalityCode": "272"
+  },
+  {
+    "Name": "Kolari",
+    "OrganizationName": "Kolarin kunta",
+    "BusinessId": "0191528-8",
+    "MunicipalityCode": "273"
+  },
+  {
+    "Name": "Konnevesi",
+    "OrganizationName": "Konneveden kunta",
+    "BusinessId": "0176227-7",
+    "MunicipalityCode": "275"
+  },
+  {
+    "Name": "Kontiolahti",
+    "OrganizationName": "Kontiolahden kunta",
+    "BusinessId": "0169048-8",
+    "MunicipalityCode": "276"
+  },
+  {
+    "Name": "Korsnäs",
+    "OrganizationName": "Korsnäsin kunta",
+    "BusinessId": "0179699-5",
+    "MunicipalityCode": "280"
+  },
+  {
+    "Name": "Koski Tl",
+    "OrganizationName": "Kosken Tl kunta",
+    "BusinessId": "0213007-9",
+    "MunicipalityCode": "284"
+  },
+  {
+    "Name": "Kotka",
+    "OrganizationName": "Kotkan kaupunki",
+    "BusinessId": "0160225-7",
+    "MunicipalityCode": "285"
+  },
+  {
+    "Name": "Kouvola",
+    "OrganizationName": "Kouvolan kaupunki",
+    "BusinessId": "0161075-9",
+    "MunicipalityCode": "286"
+  },
+  {
+    "Name": "Kristiinankaupunki",
+    "OrganizationName": "Kristiinankaupungin kaupunki",
+    "BusinessId": "0216509-5",
+    "MunicipalityCode": "287"
+  },
+  {
+    "Name": "Kruunupyy",
+    "OrganizationName": "Kruunupyyn kunta",
+    "BusinessId": "0180065-9",
+    "MunicipalityCode": "288"
+  },
+  {
+    "Name": "Kuhmo",
+    "OrganizationName": "Kuhmon kaupunki",
+    "BusinessId": "0186204-0",
+    "MunicipalityCode": "290"
+  },
+  {
+    "Name": "Kuhmoinen",
+    "OrganizationName": "Kuhmoisten kunta",
+    "BusinessId": "0176357-9",
+    "MunicipalityCode": "291"
+  },
+  {
+    "Name": "Kuopio",
+    "OrganizationName": "Kuopion kaupunki",
+    "BusinessId": "0171450-7",
+    "MunicipalityCode": "297"
+  },
+  {
+    "Name": "Kuortane",
+    "OrganizationName": "Kuortaneen kunta",
+    "BusinessId": "0180117-6",
+    "MunicipalityCode": "300"
+  },
+  {
+    "Name": "Kurikka",
+    "OrganizationName": "Kurikan kaupunki",
+    "BusinessId": "0209046-8",
+    "MunicipalityCode": "301"
+  },
+  {
+    "Name": "Kustavi",
+    "OrganizationName": "Kustavin kunta",
+    "BusinessId": "0134349-4",
+    "MunicipalityCode": "304"
+  },
+  {
+    "Name": "Kuusamo",
+    "OrganizationName": "Kuusamon kaupunki",
+    "BusinessId": "0186418-5",
+    "MunicipalityCode": "305"
+  },
+  {
+    "Name": "Kyyjärvi",
+    "OrganizationName": "Kyyjärven kunta",
+    "BusinessId": "0176410-9",
+    "MunicipalityCode": "312"
+  },
+  {
+    "Name": "Kärkölä",
+    "OrganizationName": "Kärkölän kunta",
+    "BusinessId": "0148268-9",
+    "MunicipalityCode": "316"
+  },
+  {
+    "Name": "Kärsämäki",
+    "OrganizationName": "Kärsämäen kunta",
+    "BusinessId": "0186511-0",
+    "MunicipalityCode": "317"
+  },
+  {
+    "Name": "Lahti",
+    "OrganizationName": "Lahden kaupunki",
+    "BusinessId": "0149669-3",
+    "MunicipalityCode": "398"
+  },
+  {
+    "Name": "Laihia",
+    "OrganizationName": "Laihian kunta",
+    "BusinessId": "0180451-0",
+    "MunicipalityCode": "399"
+  },
+  {
+    "Name": "Laitila",
+    "OrganizationName": "Laitilan kaupunki",
+    "BusinessId": "0134480-9",
+    "MunicipalityCode": "400"
+  },
+  {
+    "Name": "Lapinjärvi",
+    "OrganizationName": "Lapinjärven kunta",
+    "BusinessId": "0203135-3",
+    "MunicipalityCode": "407"
+  },
+  {
+    "Name": "Lapinlahti",
+    "OrganizationName": "Lapinlahden kunta",
+    "BusinessId": "0172127-2",
+    "MunicipalityCode": "402"
+  },
+  {
+    "Name": "Lappajärvi",
+    "OrganizationName": "Lappajärven kunta",
+    "BusinessId": "0180516-9",
+    "MunicipalityCode": "403"
+  },
+  {
+    "Name": "Lappeenranta",
+    "OrganizationName": "Lappeenrannan kaupunki",
+    "BusinessId": "0162193-3",
+    "MunicipalityCode": "405"
+  },
+  {
+    "Name": "Lapua",
+    "OrganizationName": "Lapuan kaupunki",
+    "BusinessId": "0209113-7",
+    "MunicipalityCode": "408"
+  },
+  {
+    "Name": "Laukaa",
+    "OrganizationName": "Laukaan kunta",
+    "BusinessId": "0176478-2",
+    "MunicipalityCode": "410"
+  },
+  {
+    "Name": "Lemi",
+    "OrganizationName": "Lemin kunta",
+    "BusinessId": "0162576-6",
+    "MunicipalityCode": "416"
+  },
+  {
+    "Name": "Lempäälä",
+    "OrganizationName": "Lempäälän kunta",
+    "BusinessId": "0150783-1",
+    "MunicipalityCode": "418"
+  },
+  {
+    "Name": "Leppävirta",
+    "OrganizationName": "Leppävirran kunta",
+    "BusinessId": "0172231-2",
+    "MunicipalityCode": "420"
+  },
+  {
+    "Name": "Lestijärvi",
+    "OrganizationName": "Lestijärven kunta",
+    "BusinessId": "0180774-6",
+    "MunicipalityCode": "421"
+  },
+  {
+    "Name": "Lieksa",
+    "OrganizationName": "Lieksan kaupunki",
+    "BusinessId": "0169321-6",
+    "MunicipalityCode": "422"
+  },
+  {
+    "Name": "Lieto",
+    "OrganizationName": "Liedon kunta",
+    "BusinessId": "0134698-6",
+    "MunicipalityCode": "423"
+  },
+  {
+    "Name": "Liminka",
+    "OrganizationName": "Limingan kunta",
+    "BusinessId": "0186553-2",
+    "MunicipalityCode": "425"
+  },
+  {
+    "Name": "Liperi",
+    "OrganizationName": "Liperin kunta",
+    "BusinessId": "0169583-6",
+    "MunicipalityCode": "426"
+  },
+  {
+    "Name": "Lohja",
+    "OrganizationName": "Lohjan kaupunki",
+    "BusinessId": "1068322-0",
+    "MunicipalityCode": "444"
+  },
+  {
+    "Name": "Loimaa",
+    "OrganizationName": "Loimaan kaupunki",
+    "BusinessId": "1927453-8",
+    "MunicipalityCode": "430"
+  },
+  {
+    "Name": "Loppi",
+    "OrganizationName": "Lopen kunta",
+    "BusinessId": "0150919-1",
+    "MunicipalityCode": "433"
+  },
+  {
+    "Name": "Loviisa",
+    "OrganizationName": "Loviisan kaupunki",
+    "BusinessId": "0203263-9",
+    "MunicipalityCode": "434"
+  },
+  {
+    "Name": "Luhanka",
+    "OrganizationName": "Luhangan kunta",
+    "BusinessId": "0176592-9",
+    "MunicipalityCode": "435"
+  },
+  {
+    "Name": "Lumijoki",
+    "OrganizationName": "Lumijoen kunta",
+    "BusinessId": "0186580-7",
+    "MunicipalityCode": "436"
+  },
+  {
+    "Name": "Luoto",
+    "OrganizationName": "Luodon kunta",
+    "BusinessId": "0180857-0",
+    "MunicipalityCode": "440"
+  },
+  {
+    "Name": "Luumäki",
+    "OrganizationName": "Luumäen kunta",
+    "BusinessId": "0162631-2",
+    "MunicipalityCode": "441"
+  },
+  {
+    "Name": "Luvia",
+    "OrganizationName": "Luvian kunta",
+    "BusinessId": "0135032-8",
+    "MunicipalityCode": "442"
+  },
+  {
+    "Name": "Maalahti",
+    "OrganizationName": "Maalahden kunta",
+    "BusinessId": "0180948-5",
+    "MunicipalityCode": "475"
+  },
+  {
+    "Name": "Marttila",
+    "OrganizationName": "Marttilan kunta",
+    "BusinessId": "0135086-2",
+    "MunicipalityCode": "480"
+  },
+  {
+    "Name": "Masku",
+    "OrganizationName": "Maskun kunta",
+    "BusinessId": "0204064-7",
+    "MunicipalityCode": "481"
+  },
+  {
+    "Name": "Merijärvi",
+    "OrganizationName": "Merijärven kunta",
+    "BusinessId": "0186588-2",
+    "MunicipalityCode": "483"
+  },
+  {
+    "Name": "Merikarvia",
+    "OrganizationName": "Merikarvian kunta",
+    "BusinessId": "0135202-4",
+    "MunicipalityCode": "484"
+  },
+  {
+    "Name": "Miehikkälä",
+    "OrganizationName": "Miehikkälän kunta",
+    "BusinessId": "0162675-0",
+    "MunicipalityCode": "489"
+  },
+  {
+    "Name": "Mikkeli",
+    "OrganizationName": "Mikkelin kaupunki",
+    "BusinessId": "0165116-3",
+    "MunicipalityCode": "491"
+  },
+  {
+    "Name": "Muhos",
+    "OrganizationName": "Muhoksen kunta",
+    "BusinessId": "0186646-3",
+    "MunicipalityCode": "494"
+  },
+  {
+    "Name": "Multia",
+    "OrganizationName": "Multian kunta",
+    "BusinessId": "0208471-1",
+    "MunicipalityCode": "495"
+  },
+  {
+    "Name": "Muonio",
+    "OrganizationName": "Muonion kunta",
+    "BusinessId": "0191824-3",
+    "MunicipalityCode": "498"
+  },
+  {
+    "Name": "Mustasaari",
+    "OrganizationName": "Mustasaaren kunta",
+    "BusinessId": "0181101-6",
+    "MunicipalityCode": "499"
+  },
+  {
+    "Name": "Muurame",
+    "OrganizationName": "Muuramen kunta",
+    "BusinessId": "0176699-9",
+    "MunicipalityCode": "500"
+  },
+  {
+    "Name": "Mynämäki",
+    "OrganizationName": "Mynämäen kunta",
+    "BusinessId": "2048364-4",
+    "MunicipalityCode": "503"
+  },
+  {
+    "Name": "Myrskylä",
+    "OrganizationName": "Myrskylän kunta",
+    "BusinessId": "0203282-3",
+    "MunicipalityCode": "504"
+  },
+  {
+    "Name": "Mäntsälä",
+    "OrganizationName": "Mäntsälän kunta",
+    "BusinessId": "0129261-5",
+    "MunicipalityCode": "505"
+  },
+  {
+    "Name": "Mänttä-Vilppula",
+    "OrganizationName": "Mänttä-Vilppulan kaupunki",
+    "BusinessId": "0157867-2",
+    "MunicipalityCode": "508"
+  },
+  {
+    "Name": "Mäntyharju",
+    "OrganizationName": "Mäntyharjun kunta",
+    "BusinessId": "0165761-0",
+    "MunicipalityCode": "507"
+  },
+  {
+    "Name": "Naantali",
+    "OrganizationName": "Naantalin kaupunki",
+    "BusinessId": "0135457-2",
+    "MunicipalityCode": "529"
+  },
+  {
+    "Name": "Nakkila",
+    "OrganizationName": "Nakkilan kunta",
+    "BusinessId": "0135662-3",
+    "MunicipalityCode": "531"
+  },
+  {
+    "Name": "Nivala",
+    "OrganizationName": "Nivalan kaupunki",
+    "BusinessId": "0186757-0",
+    "MunicipalityCode": "535"
+  },
+  {
+    "Name": "Nokia",
+    "OrganizationName": "Nokian kaupunki",
+    "BusinessId": "0205717-4",
+    "MunicipalityCode": "536"
+  },
+  {
+    "Name": "Nousiainen",
+    "OrganizationName": "Nousiaisten kunta",
+    "BusinessId": "0135821-5",
+    "MunicipalityCode": "538"
+  },
+  {
+    "Name": "Nurmes",
+    "OrganizationName": "Nurmeksen kaupunki",
+    "BusinessId": "0207669-0",
+    "MunicipalityCode": "541"
+  },
+  {
+    "Name": "Nurmijärvi",
+    "OrganizationName": "Nurmijärven kunta",
+    "BusinessId": "9014643-2",
+    "MunicipalityCode": "543"
+  },
+  {
+    "Name": "Närpiö",
+    "OrganizationName": "Närpiön kaupunki",
+    "BusinessId": "0181367-9",
+    "MunicipalityCode": "545"
+  },
+  {
+    "Name": "Orimattila",
+    "OrganizationName": "Orimattilan kaupunki",
+    "BusinessId": "0129920-0",
+    "MunicipalityCode": "560"
+  },
+  {
+    "Name": "Oripää",
+    "OrganizationName": "Oripään kunta",
+    "BusinessId": "0135869-6",
+    "MunicipalityCode": "561"
+  },
+  {
+    "Name": "Orivesi",
+    "OrganizationName": "Oriveden kaupunki",
+    "BusinessId": "0151789-6",
+    "MunicipalityCode": "562"
+  },
+  {
+    "Name": "Oulainen",
+    "OrganizationName": "Oulaisten kaupunki",
+    "BusinessId": "0186852-2",
+    "MunicipalityCode": "563"
+  },
+  {
+    "Name": "Oulu",
+    "OrganizationName": "Oulun kaupunki",
+    "BusinessId": "0187690-1",
+    "MunicipalityCode": "564"
+  },
+  {
+    "Name": "Outokumpu",
+    "OrganizationName": "Outokummun kaupunki",
+    "BusinessId": "0207604-1",
+    "MunicipalityCode": "309"
+  },
+  {
+    "Name": "Padasjoki",
+    "OrganizationName": "Padasjoen kunta",
+    "BusinessId": "0151924-2",
+    "MunicipalityCode": "576"
+  },
+  {
+    "Name": "Paimio",
+    "OrganizationName": "Paimion kaupunki",
+    "BusinessId": "0136169-2",
+    "MunicipalityCode": "577"
+  },
+  {
+    "Name": "Paltamo",
+    "OrganizationName": "Paltamon kunta",
+    "BusinessId": "0188808-0",
+    "MunicipalityCode": "578"
+  },
+  {
+    "Name": "Parainen",
+    "OrganizationName": "Paraisten kaupunki",
+    "BusinessId": "0136082-5",
+    "MunicipalityCode": "445"
+  },
+  {
+    "Name": "Parikkala",
+    "OrganizationName": "Parikkalan kunta",
+    "BusinessId": "1913642-6",
+    "MunicipalityCode": "580"
+  },
+  {
+    "Name": "Parkano",
+    "OrganizationName": "Parkanon kaupunki",
+    "BusinessId": "0136311-0",
+    "MunicipalityCode": "581"
+  },
+  {
+    "Name": "Pedersören kunta",
+    "OrganizationName": "Pedersören kunta",
+    "BusinessId": "0198517-1",
+    "MunicipalityCode": "599"
+  },
+  {
+    "Name": "Pelkosenniemi",
+    "OrganizationName": "Pelkosenniemen kunta",
+    "BusinessId": "0191866-5",
+    "MunicipalityCode": "583"
+  },
+  {
+    "Name": "Pello",
+    "OrganizationName": "Pellon kunta",
+    "BusinessId": "0193729-2",
+    "MunicipalityCode": "854"
+  },
+  {
+    "Name": "Perho",
+    "OrganizationName": "Perhon kunta",
+    "BusinessId": "0181464-7",
+    "MunicipalityCode": "584"
+  },
+  {
+    "Name": "Pertunmaa",
+    "OrganizationName": "Pertunmaan kunta",
+    "BusinessId": "0165867-2",
+    "MunicipalityCode": "588"
+  },
+  {
+    "Name": "Petäjävesi",
+    "OrganizationName": "Petäjäveden kunta",
+    "BusinessId": "0176769-2",
+    "MunicipalityCode": "592"
+  },
+  {
+    "Name": "Pieksämäki",
+    "OrganizationName": "Pieksämäen kaupunki",
+    "BusinessId": "2048903-4",
+    "MunicipalityCode": "593"
+  },
+  {
+    "Name": "Pielavesi",
+    "OrganizationName": "Pielaveden kunta",
+    "BusinessId": "0172446-5",
+    "MunicipalityCode": "595"
+  },
+  {
+    "Name": "Pietarsaari",
+    "OrganizationName": "Pietarsaaren kaupunki",
+    "BusinessId": "0209242-0",
+    "MunicipalityCode": "598"
+  },
+  {
+    "Name": "Pihtipudas",
+    "OrganizationName": "Pihtiputaan kunta",
+    "BusinessId": "0243027-4",
+    "MunicipalityCode": "601"
+  },
+  {
+    "Name": "Pirkkala",
+    "OrganizationName": "Pirkkalan kunta",
+    "BusinessId": "0152084-1",
+    "MunicipalityCode": "604"
+  },
+  {
+    "Name": "Polvijärvi",
+    "OrganizationName": "Polvijärven kunta",
+    "BusinessId": "0169823-6",
+    "MunicipalityCode": "607"
+  },
+  {
+    "Name": "Pomarkku",
+    "OrganizationName": "Pomarkun kunta",
+    "BusinessId": "0136610-0",
+    "MunicipalityCode": "608"
+  },
+  {
+    "Name": "Pori",
+    "OrganizationName": "Porin kaupunki",
+    "BusinessId": "0137323-9",
+    "MunicipalityCode": "609"
+  },
+  {
+    "Name": "Pornainen",
+    "OrganizationName": "Pornaisten kunta",
+    "BusinessId": "0130095-3",
+    "MunicipalityCode": "611"
+  },
+  {
+    "Name": "Porvoo",
+    "OrganizationName": "Porvoon kaupunki",
+    "BusinessId": "1061512-1",
+    "MunicipalityCode": "638"
+  },
+  {
+    "Name": "Posio",
+    "OrganizationName": "Posion kunta",
+    "BusinessId": "0191908-6",
+    "MunicipalityCode": "614"
+  },
+  {
+    "Name": "Pudasjärvi",
+    "OrganizationName": "Pudasjärven kaupunki",
+    "BusinessId": "0188962-2",
+    "MunicipalityCode": "615"
+  },
+  {
+    "Name": "Pukkila",
+    "OrganizationName": "Pukkilan kunta",
+    "BusinessId": "0130729-0",
+    "MunicipalityCode": "616"
+  },
+  {
+    "Name": "Punkalaidun",
+    "OrganizationName": "Punkalaitumen kunta",
+    "BusinessId": "0138037-5",
+    "MunicipalityCode": "619"
+  },
+  {
+    "Name": "Puolanka",
+    "OrganizationName": "Puolangan kunta",
+    "BusinessId": "0189081-8",
+    "MunicipalityCode": "620"
+  },
+  {
+    "Name": "Puumala",
+    "OrganizationName": "Puumalan kunta",
+    "BusinessId": "0166400-1",
+    "MunicipalityCode": "623"
+  },
+  {
+    "Name": "Pyhtää",
+    "OrganizationName": "Pyhtään kunta",
+    "BusinessId": "0162798-0",
+    "MunicipalityCode": "624"
+  },
+  {
+    "Name": "Pyhäjoki",
+    "OrganizationName": "Pyhäjoen kunta",
+    "BusinessId": "0189127-1",
+    "MunicipalityCode": "625"
+  },
+  {
+    "Name": "Pyhäjärvi",
+    "OrganizationName": "Pyhäjärven kaupunki",
+    "BusinessId": "0210261-7",
+    "MunicipalityCode": "626"
+  },
+  {
+    "Name": "Pyhäntä",
+    "OrganizationName": "Pyhännän kunta",
+    "BusinessId": "0189226-6",
+    "MunicipalityCode": "630"
+  },
+  {
+    "Name": "Pyhäranta",
+    "OrganizationName": "Pyhärannan kunta",
+    "BusinessId": "0204403-1",
+    "MunicipalityCode": "631"
+  },
+  {
+    "Name": "Pälkäne",
+    "OrganizationName": "Pälkäneen kunta",
+    "BusinessId": "2050961-3",
+    "MunicipalityCode": "635"
+  },
+  {
+    "Name": "Pöytyä",
+    "OrganizationName": "Pöytyän kunta",
+    "BusinessId": "1929519-5",
+    "MunicipalityCode": "636"
+  },
+  {
+    "Name": "Raahe",
+    "OrganizationName": "Raahen kaupunki",
+    "BusinessId": "1791817-6",
+    "MunicipalityCode": "678"
+  },
+  {
+    "Name": "Raasepori",
+    "OrganizationName": "Raaseporin kaupunki",
+    "BusinessId": "0131297-0",
+    "MunicipalityCode": "710"
+  },
+  {
+    "Name": "Raisio",
+    "OrganizationName": "Raision kaupunki",
+    "BusinessId": "0204428-5",
+    "MunicipalityCode": "680"
+  },
+  {
+    "Name": "Rantasalmi",
+    "OrganizationName": "Rantasalmen kunta",
+    "BusinessId": "0166507-1",
+    "MunicipalityCode": "681"
+  },
+  {
+    "Name": "Ranua",
+    "OrganizationName": "Ranuan kunta",
+    "BusinessId": "0191974-8",
+    "MunicipalityCode": "683"
+  },
+  {
+    "Name": "Rauma",
+    "OrganizationName": "Rauman kaupunki",
+    "BusinessId": "0138780-9",
+    "MunicipalityCode": "684"
+  },
+  {
+    "Name": "Rautalampi",
+    "OrganizationName": "Rautalammin kunta",
+    "BusinessId": "0172586-3",
+    "MunicipalityCode": "686"
+  },
+  {
+    "Name": "Rautavaara",
+    "OrganizationName": "Rautavaaran kunta",
+    "BusinessId": "0172646-0",
+    "MunicipalityCode": "687"
+  },
+  {
+    "Name": "Rautjärvi",
+    "OrganizationName": "Rautjärven kunta",
+    "BusinessId": "0206951-1",
+    "MunicipalityCode": "689"
+  },
+  {
+    "Name": "Reisjärvi",
+    "OrganizationName": "Reisjärven kunta",
+    "BusinessId": "0189548-3",
+    "MunicipalityCode": "691"
+  },
+  {
+    "Name": "Riihimäki",
+    "OrganizationName": "Riihimäen kaupunki",
+    "BusinessId": "0152563-4",
+    "MunicipalityCode": "694"
+  },
+  {
+    "Name": "Ristijärvi",
+    "OrganizationName": "Ristijärven kunta",
+    "BusinessId": "0189576-6",
+    "MunicipalityCode": "697"
+  },
+  {
+    "Name": "Rovaniemi",
+    "OrganizationName": "Rovaniemen kaupunki",
+    "BusinessId": "1978283-1",
+    "MunicipalityCode": "698"
+  },
+  {
+    "Name": "Ruokolahti",
+    "OrganizationName": "Ruokolahden kunta",
+    "BusinessId": "0163013-5",
+    "MunicipalityCode": "700"
+  },
+  {
+    "Name": "Ruovesi",
+    "OrganizationName": "Ruoveden kunta",
+    "BusinessId": "0152842-1",
+    "MunicipalityCode": "702"
+  },
+  {
+    "Name": "Rusko",
+    "OrganizationName": "Ruskon kunta",
+    "BusinessId": "0204524-5",
+    "MunicipalityCode": "704"
+  },
+  {
+    "Name": "Rääkkylä",
+    "OrganizationName": "Rääkkylän kunta",
+    "BusinessId": "0169967-7",
+    "MunicipalityCode": "707"
+  },
+  {
+    "Name": "Saarijärvi",
+    "OrganizationName": "Saarijärven kaupunki",
+    "BusinessId": "0176975-1",
+    "MunicipalityCode": "729"
+  },
+  {
+    "Name": "Salla",
+    "OrganizationName": "Sallan kunta",
+    "BusinessId": "0192936-4",
+    "MunicipalityCode": "732"
+  },
+  {
+    "Name": "Salo",
+    "OrganizationName": "Salon kaupunki",
+    "BusinessId": "0139533-1",
+    "MunicipalityCode": "734"
+  },
+  {
+    "Name": "Sastamala",
+    "OrganizationName": "Sastamalan kaupunki",
+    "BusinessId": "0144411-3",
+    "MunicipalityCode": "790"
+  },
+  {
+    "Name": "Sauvo",
+    "OrganizationName": "Sauvon kunta",
+    "BusinessId": "9038213-6",
+    "MunicipalityCode": "738"
+  },
+  {
+    "Name": "Savitaipale",
+    "OrganizationName": "Savitaipaleen kunta",
+    "BusinessId": "0163109-0",
+    "MunicipalityCode": "739"
+  },
+  {
+    "Name": "Savonlinna",
+    "OrganizationName": "Savonlinnan kaupunki",
+    "BusinessId": "0166906-4",
+    "MunicipalityCode": "740"
+  },
+  {
+    "Name": "Savukoski",
+    "OrganizationName": "Savukosken kunta",
+    "BusinessId": "0210704-7",
+    "MunicipalityCode": "742"
+  },
+  {
+    "Name": "Seinäjoki",
+    "OrganizationName": "Seinäjoen kaupunki",
+    "BusinessId": "1928736-3",
+    "MunicipalityCode": "743"
+  },
+  {
+    "Name": "Sievi",
+    "OrganizationName": "Sievin kunta",
+    "BusinessId": "0189615-2",
+    "MunicipalityCode": "746"
+  },
+  {
+    "Name": "Siikainen",
+    "OrganizationName": "Siikaisten kunta",
+    "BusinessId": "0139842-8",
+    "MunicipalityCode": "747"
+  },
+  {
+    "Name": "Siikajoki",
+    "OrganizationName": "Siikajoen kunta",
+    "BusinessId": "2047359-3",
+    "MunicipalityCode": "748"
+  },
+  {
+    "Name": "Siikalatva",
+    "OrganizationName": "Siikalatvan kunta",
+    "BusinessId": "0189019-9",
+    "MunicipalityCode": "791"
+  },
+  {
+    "Name": "Siilinjärvi",
+    "OrganizationName": "Siilinjärven kunta",
+    "BusinessId": "0172718-0",
+    "MunicipalityCode": "749"
+  },
+  {
+    "Name": "Simo",
+    "OrganizationName": "Simon kunta",
+    "BusinessId": "0193015-4",
+    "MunicipalityCode": "751"
+  },
+  {
+    "Name": "Sipoo",
+    "OrganizationName": "Sipoon kunta",
+    "BusinessId": "0203533-8",
+    "MunicipalityCode": "753"
+  },
+  {
+    "Name": "Siuntio",
+    "OrganizationName": "Siuntion kunta",
+    "BusinessId": "0131156-4 ",
+    "MunicipalityCode": "755"
+  },
+  {
+    "Name": "Sodankylä",
+    "OrganizationName": "Sodankylän kunta",
+    "BusinessId": "0193169-1",
+    "MunicipalityCode": "758"
+  },
+  {
+    "Name": "Soini",
+    "OrganizationName": "Soinin kunta",
+    "BusinessId": "0182637-3",
+    "MunicipalityCode": "759"
+  },
+  {
+    "Name": "Somero",
+    "OrganizationName": "Someron kaupunki",
+    "BusinessId": "0153082-0",
+    "MunicipalityCode": "761"
+  },
+  {
+    "Name": "Sonkajärvi",
+    "OrganizationName": "Sonkajärven kunta",
+    "BusinessId": "9090160-2",
+    "MunicipalityCode": "762"
+  },
+  {
+    "Name": "Sotkamo",
+    "OrganizationName": "Sotkamon kunta",
+    "BusinessId": "0189766-5",
+    "MunicipalityCode": "765"
+  },
+  {
+    "Name": "Sulkava",
+    "OrganizationName": "Sulkavan kunta",
+    "BusinessId": "0167265-0",
+    "MunicipalityCode": "768"
+  },
+  {
+    "Name": "Suomussalmi",
+    "OrganizationName": "Suomussalmen kunta",
+    "BusinessId": "0189925-7",
+    "MunicipalityCode": "777"
+  },
+  {
+    "Name": "Suonenjoki",
+    "OrganizationName": "Suonenjoen kaupunki",
+    "BusinessId": "0208061-4",
+    "MunicipalityCode": "778"
+  },
+  {
+    "Name": "Sysmä",
+    "OrganizationName": "Sysmän kunta",
+    "BusinessId": "0167352-2",
+    "MunicipalityCode": "781"
+  },
+  {
+    "Name": "Säkylä",
+    "OrganizationName": "Säkylän kunta",
+    "BusinessId": "0139937-5",
+    "MunicipalityCode": "783"
+  },
+  {
+    "Name": "Taipalsaari",
+    "OrganizationName": "Taipalsaaren kunta",
+    "BusinessId": "0163320-5",
+    "MunicipalityCode": "831"
+  },
+  {
+    "Name": "Taivalkoski",
+    "OrganizationName": "Taivalkosken kunta",
+    "BusinessId": "0190100-3",
+    "MunicipalityCode": "832"
+  },
+  {
+    "Name": "Taivassalo",
+    "OrganizationName": "Taivassalon kunta",
+    "BusinessId": "0139991-4",
+    "MunicipalityCode": "833"
+  },
+  {
+    "Name": "Tammela",
+    "OrganizationName": "Tammelan kunta",
+    "BusinessId": "0153179-4",
+    "MunicipalityCode": "834"
+  },
+  {
+    "Name": "Tampere",
+    "OrganizationName": "Tampereen kaupunki",
+    "BusinessId": "0211675-2",
+    "MunicipalityCode": "837"
+  },
+  {
+    "Name": "Tervo",
+    "OrganizationName": "Tervon kunta",
+    "BusinessId": "0173081-4",
+    "MunicipalityCode": "844"
+  },
+  {
+    "Name": "Tervola",
+    "OrganizationName": "Tervolan kunta",
+    "BusinessId": "0193249-1",
+    "MunicipalityCode": "845"
+  },
+  {
+    "Name": "Teuva",
+    "OrganizationName": "Teuvan kunta",
+    "BusinessId": "0182734-1",
+    "MunicipalityCode": "846"
+  },
+  {
+    "Name": "Tohmajärvi",
+    "OrganizationName": "Tohmajärven kunta",
+    "BusinessId": "1919717-3",
+    "MunicipalityCode": "848"
+  },
+  {
+    "Name": "Toholampi",
+    "OrganizationName": "Toholammin kunta",
+    "BusinessId": "0182779-8",
+    "MunicipalityCode": "849"
+  },
+  {
+    "Name": "Toivakka",
+    "OrganizationName": "Toivakan kunta",
+    "BusinessId": "0177201-0",
+    "MunicipalityCode": "850"
+  },
+  {
+    "Name": "Tornio",
+    "OrganizationName": "Tornion kaupunki",
+    "BusinessId": "0193524-6",
+    "MunicipalityCode": "851"
+  },
+  {
+    "Name": "Turku",
+    "OrganizationName": "Turun kaupunki",
+    "BusinessId": "0204819-8",
+    "MunicipalityCode": "853"
+  },
+  {
+    "Name": "Tuusniemi",
+    "OrganizationName": "Tuusniemen kunta",
+    "BusinessId": "0173128-6",
+    "MunicipalityCode": "857"
+  },
+  {
+    "Name": "Tuusula",
+    "OrganizationName": "Tuusulan kunta",
+    "BusinessId": "0131661-3",
+    "MunicipalityCode": "858"
+  },
+  {
+    "Name": "Tyrnävä",
+    "OrganizationName": "Tyrnävän kunta",
+    "BusinessId": "0190140-9",
+    "MunicipalityCode": "859"
+  },
+  {
+    "Name": "Ulvila",
+    "OrganizationName": "Ulvilan kaupunki",
+    "BusinessId": "0204910-7",
+    "MunicipalityCode": "886"
+  },
+  {
+    "Name": "Urjala",
+    "OrganizationName": "Urjalan kunta",
+    "BusinessId": "0157323-0",
+    "MunicipalityCode": "887"
+  },
+  {
+    "Name": "Utajärvi",
+    "OrganizationName": "Utajärven kunta",
+    "BusinessId": "0190224-1",
+    "MunicipalityCode": "889"
+  },
+  {
+    "Name": "Utsjoki",
+    "OrganizationName": "Utsjoen kunta",
+    "BusinessId": "9129466-4",
+    "MunicipalityCode": "890"
+  },
+  {
+    "Name": "Uurainen",
+    "OrganizationName": "Uuraisten kunta",
+    "BusinessId": "0177224-8",
+    "MunicipalityCode": "892"
+  },
+  {
+    "Name": "Uusikaarlepyy",
+    "OrganizationName": "Uudenkaarlepyyn kaupunki",
+    "BusinessId": "0183077-8",
+    "MunicipalityCode": "893"
+  },
+  {
+    "Name": "Uusikaupunki",
+    "OrganizationName": "Uudenkaupungin kaupunki",
+    "BusinessId": "0144036-6",
+    "MunicipalityCode": "895"
+  },
+  {
+    "Name": "Vaala",
+    "OrganizationName": "Vaalan kunta",
+    "BusinessId": "0190027-0",
+    "MunicipalityCode": "785"
+  },
+  {
+    "Name": "Vaasa",
+    "OrganizationName": "Vaasan kaupunki",
+    "BusinessId": "0209602-6",
+    "MunicipalityCode": "905"
+  },
+  {
+    "Name": "Valkeakoski",
+    "OrganizationName": "Valkeakosken kaupunki",
+    "BusinessId": "0157568-2",
+    "MunicipalityCode": "908"
+  },
+  {
+    "Name": "Valtimo",
+    "OrganizationName": "Valtimon kunta",
+    "BusinessId": "0207709-5",
+    "MunicipalityCode": "911"
+  },
+  {
+    "Name": "Vantaa",
+    "OrganizationName": "Vantaan kaupunki",
+    "BusinessId": "0124610-9",
+    "MunicipalityCode": "092"
+  },
+  {
+    "Name": "Varkaus",
+    "OrganizationName": "Varkauden kaupunki",
+    "BusinessId": "0173416-1",
+    "MunicipalityCode": "915"
+  },
+  {
+    "Name": "Vehmaa",
+    "OrganizationName": "Vehmaan kunta",
+    "BusinessId": "0144561-8",
+    "MunicipalityCode": "918"
+  },
+  {
+    "Name": "Vesanto",
+    "OrganizationName": "Vesannon kunta",
+    "BusinessId": "0173787-2",
+    "MunicipalityCode": "921"
+  },
+  {
+    "Name": "Vesilahti",
+    "OrganizationName": "Vesilahden kunta",
+    "BusinessId": "0157711-9",
+    "MunicipalityCode": "922"
+  },
+  {
+    "Name": "Veteli",
+    "OrganizationName": "Vetelin kunta",
+    "BusinessId": "0184278-7",
+    "MunicipalityCode": "924"
+  },
+  {
+    "Name": "Vieremä",
+    "OrganizationName": "Vieremän kunta",
+    "BusinessId": "0173835-7",
+    "MunicipalityCode": "925"
+  },
+  {
+    "Name": "Vihti",
+    "OrganizationName": "Vihdin kunta",
+    "BusinessId": "0131905-6",
+    "MunicipalityCode": "927"
+  },
+  {
+    "Name": "Viitasaari",
+    "OrganizationName": "Viitasaaren kaupunki",
+    "BusinessId": "0208573-0",
+    "MunicipalityCode": "931"
+  },
+  {
+    "Name": "Vimpeli",
+    "OrganizationName": "Vimpelin kunta",
+    "BusinessId": "0184318-1",
+    "MunicipalityCode": "934"
+  },
+  {
+    "Name": "Virolahti",
+    "OrganizationName": "Virolahden kunta",
+    "BusinessId": "0207033-6",
+    "MunicipalityCode": "935"
+  },
+  {
+    "Name": "Virrat",
+    "OrganizationName": "Virtain kaupunki",
+    "BusinessId": "0206333-9",
+    "MunicipalityCode": "936"
+  },
+  {
+    "Name": "Vöyri",
+    "OrganizationName": "Vöyrin kunta",
+    "BusinessId": "2050514-5",
+    "MunicipalityCode": "946"
+  },
+  {
+    "Name": "Ylitornio",
+    "OrganizationName": "Ylitornion kunta",
+    "BusinessId": "0210826-9",
+    "MunicipalityCode": "976"
+  },
+  {
+    "Name": "Ylivieska",
+    "OrganizationName": "Ylivieskan kaupunki",
+    "BusinessId": "0190557-3",
+    "MunicipalityCode": "977"
+  },
+  {
+    "Name": "Ylöjärvi",
+    "OrganizationName": "Ylöjärven kaupunki",
+    "BusinessId": "0158221-7",
+    "MunicipalityCode": "980"
+  },
+  {
+    "Name": "Ypäjä",
+    "OrganizationName": "Ypäjän kunta",
+    "BusinessId": "0158301-7",
+    "MunicipalityCode": "981"
+  },
+  {
+    "Name": "Ähtäri",
+    "OrganizationName": "Ähtärin kaupunki",
+    "BusinessId": "0184622-7",
+    "MunicipalityCode": "989"
+  },
+  {
+    "Name": "Äänekoski",
+    "OrganizationName": "Äänekosken kaupunki",
+    "BusinessId": "2045520-5",
+    "MunicipalityCode": "992"
+  }
+]

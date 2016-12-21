@@ -1,0 +1,77 @@
+﻿[
+    {
+        "code": "ChargeType",
+        "names": [
+            {
+                "Name": "Maksullisuuden",
+                "language": "fi"
+            },
+            {
+                "Name": "Charge type",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Tasks",
+        "names": [
+            {
+                "Name": "Velvoitteet",
+                "language": "fi"
+            },
+            {
+                "Name": " Obligatory tasks",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "DeadLine",
+        "names": [
+            {
+                "Name": "Määräaika",
+                "language": "fi"
+            },
+            {
+                "Name": "DeadLine",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ProcessingTime",
+        "names": [
+            {
+                "Name": "Käsittelyaika",
+                "language": "fi"
+            },
+            {
+                "Name": "Processing time",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ValidityTime",
+        "names": [
+            {
+                "Name": "Voimassaoloaika",
+                "language": "fi"
+            },
+            {
+                "Name": "Validity time",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

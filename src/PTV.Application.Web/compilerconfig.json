@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/GlobalVariables.css",
+    "inputFile": "wwwroot/css/GlobalVariables.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Layout.css",
+    "inputFile": "wwwroot/css/Layout.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/ServiceSearch.css",
+    "inputFile": "wwwroot/css/ServiceSearch.scss"
+  },
+  {
+    "outputFile": "wwwroot/js/App/Containers/Services/Styles/LandingPage.css",
+    "inputFile": "wwwroot/js/App/Containers/Services/Styles/LandingPage.scss"
+  },
+  {
+    "outputFile": "wwwroot/js/App/styles/site.css",
+    "inputFile": "wwwroot/js/App/styles/site.scss"
+  }
+]

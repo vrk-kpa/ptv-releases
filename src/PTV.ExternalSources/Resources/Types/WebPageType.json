@@ -1,0 +1,32 @@
+﻿[
+    {
+        "code": "HomePage",
+        "names": [
+            {
+                "Name": "Kotisivu",
+                "language": "fi"
+            },
+            {
+                "Name": "Home page",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "SocialPage",
+        "names": [
+            {
+                "Name": "Sosiaalisen median sivu",
+                "language": "fi"
+            },
+            {
+                "Name": "Social media page",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2",
+        "Label": "Yritykset",
+        "Finnish": "Yritykset",
+        "OntologyType": null,
+        "Notation": "KR2",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.5",
+                "Label": "Suuryritykset",
+                "Finnish": "Suuryritykset",
+                "OntologyType": null,
+                "Notation": "KR2.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.3",
+                "Label": "Kotimarkkinoilla toimivat yritykset",
+                "Finnish": "Kotimarkkinoilla toimivat yritykset",
+                "OntologyType": null,
+                "Notation": "KR2.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.7",
+                "Label": "Yhteisöt",
+                "Finnish": "Yhteisöt",
+                "OntologyType": null,
+                "Notation": "KR2.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.1",
+                "Label": "Kansainvälistyvät yritykset",
+                "Finnish": "Kansainvälistyvät yritykset",
+                "OntologyType": null,
+                "Notation": "KR2.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.4",
+                "Label": "Suomeen ulkomailta tulevat yrittäjät",
+                "Finnish": "Suomeen ulkomailta tulevat yrittäjät",
+                "OntologyType": null,
+                "Notation": "KR2.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.8",
+                "Label": "Yrityksen perustajat kotimaassa",
+                "Finnish": "Yrityksen perustajat kotimaassa",
+                "OntologyType": null,
+                "Notation": "KR2.8",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.2",
+                "Label": "Keksijät",
+                "Finnish": "Keksijät",
+                "OntologyType": null,
+                "Notation": "KR2.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2.6",
+                "Label": "Työnantajat",
+                "Finnish": "Työnantajat",
+                "OntologyType": null,
+                "Notation": "KR2.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1",
+        "Label": "Kansalaiset",
+        "Finnish": "Kansalaiset",
+        "OntologyType": null,
+        "Notation": "KR1",
+        "Narrower": [
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.7",
+                "Label": "Yhdistykset ja yhteisöt",
+                "Finnish": "Yhdistykset ja yhteisöt",
+                "OntologyType": null,
+                "Notation": "KR1.7",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.2",
+                "Label": "Lapset ja lapsiperheet",
+                "Finnish": "Lapset ja lapsiperheet",
+                "OntologyType": null,
+                "Notation": "KR1.2",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.5",
+                "Label": "Ulkosuomalaiset",
+                "Finnish": "Ulkosuomalaiset",
+                "OntologyType": null,
+                "Notation": "KR1.5",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.3",
+                "Label": "Nuoret",
+                "Finnish": "Nuoret",
+                "OntologyType": null,
+                "Notation": "KR1.3",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.1",
+                "Label": "Ikäihmiset",
+                "Finnish": "Ikäihmiset",
+                "OntologyType": null,
+                "Notation": "KR1.1",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.6",
+                "Label": "Vammaiset",
+                "Finnish": "Vammaiset",
+                "OntologyType": null,
+                "Notation": "KR1.6",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            },
+            {
+                "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1.4",
+                "Label": "Pitkäaikaissairaat",
+                "Finnish": "Pitkäaikaissairaat",
+                "OntologyType": null,
+                "Notation": "KR1.4",
+                "Narrower": [ ],
+                "Broader": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1"
+            }
+        ],
+        "Broader": null
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:KR3",
+        "Label": "Viranomaiset",
+        "Finnish": "Viranomaiset",
+        "OntologyType": null,
+        "Notation": "KR3",
+        "Narrower": [ ],
+        "Broader": null
+    }
+]

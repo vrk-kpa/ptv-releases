@@ -1,0 +1,249 @@
+﻿{
+        "@context": {
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "isothes": "http://purl.org/iso25964/skos-thes#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "dct": "http://purl.org/dc/terms/",
+            "dc11": "http://purl.org/dc/elements/1.1/",
+            "uri": "@id",
+            "type": "@type",
+            "lang": "@language",
+            "value": "@value",
+            "graph": "@graph",
+            "label": "rdfs:label",
+            "prefLabel": "skos:prefLabel",
+            "altLabel": "skos:altLabel",
+            "hiddenLabel": "skos:hiddenLabel",
+            "broader": "skos:broader",
+            "narrower": "skos:narrower",
+            "related": "skos:related",
+            "inScheme": "skos:inScheme"
+        },
+    "graph": [
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:",
+            "type": "skos:ConceptScheme"
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+            "type": "skos:ConceptScheme",
+            "dc11:description": {
+                "lang": "fi",
+                "value": "Luokituksessa on eritelty kansalaisten elämäntilanteita, joihin julkisia\npalveluja voidaan kohdentaa. Elämäntilanteella tarkoitetaan tässä yhteydessä\nakuuttia, usein henkilön elämänmuutokseen liittyvää tilannetta, jonka\nyhteyteen eri toimijat tuottavat palveluja."
+            },
+            "dct:isPartOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:" },
+            "skos:hasTopConcept": [
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE2" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE12" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE7" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE5" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE6" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE14" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE9" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE8" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE10" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE11" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE13" },
+                { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE3" }
+            ],
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kansalaisille suunnattujen julkisten palvelujen elämäntilanneluokat"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1",
+            "type": "skos:Concept",
+            "skos:notation": "KE1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Lapsen saaminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE10",
+            "type": "skos:Concept",
+            "skos:notation": "KE10",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Eläkkeelle siirtyminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE11",
+            "type": "skos:Concept",
+            "skos:notation": "KE11",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Vakava sairastuminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE12",
+            "type": "skos:Concept",
+            "skos:notation": "KE12",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kuntoutus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE13",
+            "type": "skos:Concept",
+            "skos:notation": "KE13",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Omaishoitajana toimiminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE14",
+            "type": "skos:Concept",
+            "skos:notation": "KE14",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Omaisen kuolema"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE2",
+            "type": "skos:Concept",
+            "skos:notation": "KE2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Asevelvollisuus"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE3",
+            "type": "skos:Concept",
+            "skos:notation": "KE3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kokoaikaisen opiskelun aloittaminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4",
+            "type": "skos:Concept",
+            "skos:notation": "KE4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Muuttaminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE5",
+            "type": "skos:Concept",
+            "skos:notation": "KE5",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Maahanmuuttajana Suomeen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE6",
+            "type": "skos:Concept",
+            "skos:notation": "KE6",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Talon rakentaminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE7",
+            "type": "skos:Concept",
+            "skos:notation": "KE7",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Avioero"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE8",
+            "type": "skos:Concept",
+            "skos:notation": "KE8",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Työttömäksi jääminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE9",
+            "type": "skos:Concept",
+            "skos:notation": "KE9",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Velkaantuminen"
+            },
+            "skos:topConceptOf": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE" }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1" },
+            "skos:notation": "KE1.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Adoptio"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.1",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4" },
+            "skos:notation": "KE4.1",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Kotoa muuttaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.2",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4" },
+            "skos:notation": "KE4.2",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suomen sisällä muuttaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.3",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4" },
+            "skos:notation": "KE4.3",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Suomesta muuttaminen"
+            }
+        },
+        {
+            "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.4",
+            "type": "skos:Concept",
+            "broader": { "uri": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4" },
+            "skos:notation": "KE4.4",
+            "prefLabel": {
+                "lang": "fi",
+                "value": "Paluumuutto Suomeen"
+            }
+        }
+    ]
+}
+

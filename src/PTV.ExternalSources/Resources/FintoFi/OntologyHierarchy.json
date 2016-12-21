@@ -1,0 +1,53 @@
+﻿{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "uri": "@id",
+        "type": "@type",
+        "onki": "http://schema.onki.fi/onki#",
+        "prefLabel": "skos:prefLabel",
+        "notation": "skos:notation",
+        "narrower": {
+            "@id": "skos:narrower",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "skos:broader",
+            "@type": "@id"
+        },
+        "broaderTransitive": {
+            "@id": "skos:broaderTransitive",
+            "@container": "@index"
+        },
+        "top": {
+            "@id": "skos:topConceptOf",
+            "@type": "@id"
+        },
+        "hasChildren": "onki:hasChildren",
+        "@language": "fi"
+    },
+    "uri": "http://www.yso.fi/onto/yso/p4205",
+    "broaderTransitive": {
+        "http://www.yso.fi/onto/yso/p4205": {
+            "uri": "http://www.yso.fi/onto/yso/p4205",
+            "top": "http://www.yso.fi/onto/jupo/",
+            "narrower": [
+                {
+                    "uri": "http://www.yso.fi/onto/yso/p4762",
+                    "label": "pysyvä",
+                    "hasChildren": true
+                },
+                {
+                    "uri": "http://www.yso.fi/onto/yso/p1669",
+                    "label": "abstrakti",
+                    "hasChildren": true
+                },
+                {
+                    "uri": "http://www.yso.fi/onto/yso/p15238",
+                    "label": "muuttuva",
+                    "hasChildren": true
+                }
+            ],
+            "prefLabel": "yso-käsitteet"
+        }
+    }
+}
