@@ -1,0 +1,1018 @@
+﻿[
+    {
+        "broaderConcepts": [ ],
+        "conceptMatches": [ ],
+        "definitions": [
+            {
+                "label": "Valtuusrekisterin valtuuskohteiden yläkäsite",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "Valtuusasiat(en)",
+                "lang": "en"
+            },
+            {
+                "label": "Valtuusasiat",
+                "lang": "fi"
+            },
+            {
+                "label": "Valtuusasiat(sv)",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://www.yso.fi/onto/rova/p12885",
+            "http://www.yso.fi/onto/rova/p2"
+        ],
+        "uri": "http://www.yso.fi/onto/rova/p1"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p1"
+        ],
+        "conceptMatches": [],
+        "definitions": [
+            {
+                "label": "Valtuutettavat verotusasiat",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "Verotus(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "Verotus",
+                "lang": "fi"
+            },
+            {
+                "label": "Verotus(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "uri": "http://www.yso.fi/onto/rova/p2"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p2"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p7767",
+            "http://www.yso.fi/onto/yso/p17792"
+        ],
+        "definitions": [
+            {
+                "label": "Veroilmoitus on asiakirja, jolla verovelvollinen tai muu ilmoitusvelvollinen antaa tietoja verotusta varten.",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "skattedeklarationer",
+                "lang": "sv"
+            },
+            {
+                "label": "veroilmoitukset",
+                "lang": "fi"
+            },
+            {
+                "label": "tax returns",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://www.yso.fi/onto/rova/p60746",
+            "http://www.yso.fi/onto/rova/p65080",
+            "http://www.yso.fi/onto/rova/p55459",
+            "http://www.yso.fi/onto/rova/p53490",
+            "http://www.yso.fi/onto/rova/p57760",
+            "http://www.yso.fi/onto/rova/p60145",
+            "http://www.yso.fi/onto/rova/p62697",
+            "http://www.yso.fi/onto/rova/p58780"
+        ],
+        "uri": "http://www.yso.fi/onto/rova/p6604"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p12770"
+        ],
+        "definitions": [
+            {
+                "label": "Kausittainen ilmoitus vakuutusmaksuveron m\u00e4\u00e4r\u00e4st\u00e4. Vakuutuksenantajan on annettava ilmoitus kausiveroilmoituksella ja maksettava vero oma-aloitteisesti Verohallinnolle.",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "insurance premium tax return",
+                "lang": "en"
+            },
+            {
+                "label": "anm\u00e4lan om f\u00f6rs\u00e4kringspremieskatt",
+                "lang": "sv"
+            },
+            {
+                "label": "vakuutusmaksuveroilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p55459"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p11199"
+        ],
+        "definitions": [
+            {
+                "label": "Oma-aloitteisesta verosta tietylt\u00e4 kohdekaudelta annettava ilmoitus.",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "periodic tax return",
+                "lang": "en"
+            },
+            {
+                "label": "periodskattedeklaration",
+                "lang": "sv"
+            },
+            {
+                "label": "kausiveroilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p53490"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p12714"
+        ],
+        "definitions": [
+            {
+                "label": "Veroilmoitus, jolla ilmoitetaan luovutuksen varainsiirtoverotukseen vaikuttavat tiedot.",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "asset transfer tax return",
+                "lang": "en"
+            },
+            {
+                "label": "anm\u00e4lan om \u00f6verl\u00e5telseskatt",
+                "lang": "sv"
+            },
+            {
+                "label": "varainsiirtoveroilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p58780"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p11560"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "esit\u00e4ytetty veroilmoitus",
+                "lang": "fi"
+            },
+            {
+                "label": "pre-completed tax return",
+                "lang": "en"
+            },
+            {
+                "label": "f\u00f6rhandsifylld skattedeklaration",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p57760"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p12353"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "inkomstskattedeklaration",
+                "lang": "sv"
+            },
+            {
+                "label": "income tax return",
+                "lang": "en"
+            },
+            {
+                "label": "tuloveroilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p60145"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p11687"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "VAT declaration",
+                "lang": "en"
+            },
+            {
+                "label": "arvonlis\u00e4veroilmoitus",
+                "lang": "fi"
+            },
+            {
+                "label": "momsdeklaration",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p60746"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p12289"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "till\u00e4ggsanm\u00e4lan",
+                "lang": "sv"
+            },
+            {
+                "label": "additional return",
+                "lang": "en"
+            },
+            {
+                "label": "lis\u00e4ilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p62697"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p6604"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/liito/p12325"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "lotteriskattedeklaration",
+                "lang": "sv"
+            },
+            {
+                "label": "lottery tax return",
+                "lang": "en"
+            },
+            {
+                "label": "arpajaisveroilmoitus",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p65080"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p1"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p682",
+            "http://www.yso.fi/onto/yso/p2302"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "sosiaalietuudet",
+                "lang": "fi"
+            },
+            {
+                "label": "sociala f\u00f6rm\u00e5ner",
+                "lang": "sv"
+            },
+            {
+                "label": "social benefits",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://www.yso.fi/onto/rova/p2897",
+            "http://www.yso.fi/onto/rova/p63165",
+            "http://www.yso.fi/onto/rova/p6901",
+            "http://www.yso.fi/onto/rova/p17763",
+            "http://www.yso.fi/onto/rova/p4406",
+            "http://www.yso.fi/onto/rova/p5738",
+            "http://www.yso.fi/onto/rova/p7418",
+            "http://www.yso.fi/onto/rova/p17850",
+            "http://www.yso.fi/onto/rova/p17944",
+            "http://www.yso.fi/onto/rova/p16720",
+            "http://www.yso.fi/onto/rova/p16578",
+            "http://www.yso.fi/onto/rova/p5794",
+            "http://www.yso.fi/onto/rova/p9239",
+            "http://www.yso.fi/onto/rova/p4771",
+            "http://www.yso.fi/onto/rova/p58567",
+            "http://www.yso.fi/onto/rova/p55992",
+            "http://www.yso.fi/onto/rova/p3434",
+            "http://www.yso.fi/onto/rova/p55940",
+            "http://www.yso.fi/onto/rova/p58449",
+            "http://www.yso.fi/onto/rova/p61643",
+            "http://www.yso.fi/onto/rova/p14915",
+            "http://www.yso.fi/onto/rova/p62223",
+            "http://www.yso.fi/onto/rova/p64592",
+            "http://www.yso.fi/onto/rova/p72908"
+        ],
+        "uri": "http://www.yso.fi/onto/rova/p12885"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5587",
+            "http://www.yso.fi/onto/yso/p17157"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "v\u00e5rdbidrag",
+                "lang": "sv"
+            },
+            {
+                "label": "child care allowance",
+                "lang": "en"
+            },
+            {
+                "label": "hoitotuki",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p14915"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p726",
+            "http://www.yso.fi/onto/yso/p9409"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "parent's allowance",
+                "lang": "en"
+            },
+            {
+                "label": "vanhempainraha",
+                "lang": "fi"
+            },
+            {
+                "label": "f\u00f6r\u00e4ldrapenning",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p16578"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p9410",
+            "http://www.yso.fi/onto/juho/p5712"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "\u00e4itiysraha",
+                "lang": "fi"
+            },
+            {
+                "label": "maternity allowance",
+                "lang": "en"
+            },
+            {
+                "label": "moderskapspenning",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p16720"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p9408"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "isyysraha",
+                "lang": "fi"
+            },
+            {
+                "label": "faderskapspenning",
+                "lang": "sv"
+            },
+            {
+                "label": "paternity pay",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p4406"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p10578",
+            "http://www.yso.fi/onto/yso/p10383"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "ty\u00f6tt\u00f6myyskorvaukset",
+                "lang": "fi"
+            },
+            {
+                "label": "arbetsl\u00f6shetsers\u00e4ttningar",
+                "lang": "sv"
+            },
+            {
+                "label": "unemployment benefits",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p3434"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5586",
+            "http://www.yso.fi/onto/yso/p12588"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "means-tested income support",
+                "lang": "en"
+            },
+            {
+                "label": "utkomstst\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "toimeentulotuki",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p4771"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p12055"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "ammattikoulutusraha(en)",
+                "lang": "en"
+            },
+            {
+                "label": "ammattikoulutusraha",
+                "lang": "fi"
+            },
+            {
+                "label": "ammattikoulutusraha(sv)",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p55940"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p51",
+            "http://www.yso.fi/onto/yso/p15426"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "lapsilis\u00e4t",
+                "lang": "fi"
+            },
+            {
+                "label": "barnbidrag",
+                "lang": "sv"
+            },
+            {
+                "label": "child benefits",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p2897"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p15745",
+            "http://www.yso.fi/onto/juho/p1544"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "elatustuki",
+                "lang": "fi"
+            },
+            {
+                "label": "underh\u00e5llsst\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "maintenance grant",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p17944"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5582"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "lasten kotihoidontuki",
+                "lang": "fi"
+            },
+            {
+                "label": "lasten kotihoidontuki(en)",
+                "lang": "en"
+            },
+            {
+                "label": "lasten kotihoidontuki(sv)",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p55992"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p4478",
+            "http://www.yso.fi/onto/juho/p1074",
+            "http://www.yso.fi/onto/yso/p5435"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "financial aid for students",
+                "lang": "en"
+            },
+            {
+                "label": "studiest\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "opintotuki",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p5738"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p13412",
+            "http://www.yso.fi/onto/juho/p5580"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "\u00e4itiysavustukset",
+                "lang": "fi"
+            },
+            {
+                "label": "moderskapsunderst\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "maternity grants",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p5794"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p4122"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "lapsikorotukset(en)",
+                "lang": "en"
+            },
+            {
+                "label": "lapsikorotukset",
+                "lang": "fi"
+            },
+            {
+                "label": "lapsikorotukset(sv)",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p58449"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p681"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "perhe-etuudet",
+                "lang": "fi"
+            },
+            {
+                "label": "perhe-etuudet(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "perhe-etuudet(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p58567"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p6192"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "kuntoutusraha (sosiaalietuudet)",
+                "lang": "fi"
+            },
+            {
+                "label": "kuntoutusraha (sosiaalietuudet)(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "kuntoutusraha (sosiaalietuudet)(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p61643"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/tero/TNR617",
+            "http://www.yso.fi/onto/stameta/TNR617"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "vammaistuki(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "vammaistuki",
+                "lang": "fi"
+            },
+            {
+                "label": "vammaistuki(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p62223"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5692"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "osa-aikalis\u00e4 (sosiaalietuudet)",
+                "lang": "fi"
+            },
+            {
+                "label": "osa-aikalis\u00e4 (sosiaalietuudet)(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "osa-aikalis\u00e4 (sosiaalietuudet)(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p63165"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p12092"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "aikuiskoulutuslis\u00e4(sv)",
+                "lang": "sv"
+            },
+            {
+                "label": "aikuiskoulutuslis\u00e4",
+                "lang": "fi"
+            },
+            {
+                "label": "aikuiskoulutuslis\u00e4(en)",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p64592"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5583",
+            "http://www.yso.fi/onto/yso/p19506"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "conscript's allowances",
+                "lang": "en"
+            },
+            {
+                "label": "milit\u00e4runderst\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "sotilasavustukset",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p6901"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p27312"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "private day care allowance",
+                "lang": "en"
+            },
+            {
+                "label": "privatv\u00e5rdsst\u00f6d",
+                "lang": "sv"
+            },
+            {
+                "label": "yksityisen hoidon tuki (sosiaalietuudet)",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p72908"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/yso/p10381"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "daily unemployment allowances",
+                "lang": "en"
+            },
+            {
+                "label": "ty\u00f6tt\u00f6myysp\u00e4iv\u00e4rahat",
+                "lang": "fi"
+            },
+            {
+                "label": "arbetsl\u00f6shetspenning",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p7418"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5584",
+            "http://www.yso.fi/onto/yso/p2301"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "home care allowances",
+                "lang": "en"
+            },
+            {
+                "label": "kotihoidontuki",
+                "lang": "fi"
+            },
+            {
+                "label": "hemv\u00e5rdsst\u00f6d",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p9239"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p5588",
+            "http://www.yso.fi/onto/yso/p13997"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "bostadsbidrag",
+                "lang": "sv"
+            },
+            {
+                "label": "asumistuki",
+                "lang": "fi"
+            },
+            {
+                "label": "housing allowance",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p17763"
+    },
+    {
+        "broaderConcepts": [
+            "http://www.yso.fi/onto/rova/p12885"
+        ],
+        "conceptMatches": [
+            "http://www.yso.fi/onto/juho/p926",
+            "http://www.yso.fi/onto/yso/p10150"
+        ],
+        "definitions": [],
+        "id": 0,
+        "labels": [
+            {
+                "label": "sosiaaliavustukset",
+                "lang": "fi"
+            },
+            {
+                "label": "social assistance",
+                "lang": "en"
+            },
+            {
+                "label": "socialbidrag",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [],
+        "uri": "http://www.yso.fi/onto/rova/p17850"
+    }
+]

@@ -1,0 +1,59 @@
+﻿{
+    "version": "1.0.0-*",
+    "description": "PTV.ExternalSources Class Library",
+    "authors": [ "" ],
+  "buildOptions": {
+    "embed": [
+        "Resources\\PostalCode.csv",
+        "Resources\\PostalCode.json",
+        "Resources\\CountryCode.csv",
+        "Resources\\LanguageCodes.json",
+        "Resources\\Municipality.json",
+        "Resources\\LifeSituations.json",
+        "Resources\\ServiceClasses.json",
+        "Resources\\TargetGroups.json",
+        "Resources\\Organizations.json",
+        "Resources\\CountryCodes.json",
+        "Resources\\Types\\AddressType.json",
+        "Resources\\Types\\AttachmentType.json",
+        "Resources\\Types\\DescriptionType.json",
+        "Resources\\Types\\ExceptionHoursStatus.json",
+        "Resources\\Types\\NameType.json",
+        "Resources\\Types\\OrganizationType.json",
+        "Resources\\Types\\PhoneNumberType.json",
+        "Resources\\Types\\PrintableFormChannelUrlType.json",
+        "Resources\\Types\\ProvisionType.json",
+        "Resources\\Types\\PublishingStatus.json",
+        "Resources\\Types\\RoleType.json",
+        "Resources\\Types\\ServiceCoverageType.json",
+        "Resources\\Types\\ServiceHours.json",
+        "Resources\\Types\\ServiceChannelType.json",
+        "Resources\\Types\\ServiceChargeType.json",
+        "Resources\\Types\\StreetAddressType.json",
+        "Resources\\Types\\WebPageType.json",
+        "Resources\\Types\\PhoneDescriptionType.json",
+        "Resources\\Types\\ServiceType.json",
+        "Resources\\Finto\\TargetGroups.json",
+        "Resources\\Finto\\ServiceClasses.json",
+        "Resources\\Finto\\LifeSituations.json",
+        "Resources\\Finto\\OntologyAll.json",
+        "Resources\\Finto\\IndustrialClasses.json",
+        "Resources\\Finto\\DigitalAuthorizations.json",
+        "Resources\\Finto\\OrganizationTypes.json",
+        "Resources\\Types\\CoordinateType.json"
+    ]
+  },
+     "frameworks": {
+   "netcoreapp1.1": {
+    "imports": [ "dnxcore50", "netcore50" ]
+    }
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.1.0",
+      "type": "platform"
+    },
+    "Microsoft.Extensions.DependencyModel": "1.1.0",
+    "PTV.Framework": "1.0.0-*"
+  }
+}

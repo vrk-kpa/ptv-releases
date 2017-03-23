@@ -1,0 +1,117 @@
+@import '../../../Components/Styles/variables';
+@import '../../../Components/Styles/mixins';
+
+.step-container {
+	margin-bottom: 60px;
+
+	&-actions {
+		margin: 10px 0;
+
+		&-label {
+			margin: 8px 0;
+			float: left;
+		}
+	}
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+  > button {
+    margin: 0;
+    ~ button {
+      margin-left: 20px;
+    }
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.end {
+    justify-content: flex-end;
+  }
+  &.reverse {
+    flex-direction: row-reverse;
+      > button {
+      margin: 0;
+      ~ button {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.button-group {
+	text-align: right;
+	margin-top: 10px;
+
+	& button ~ button, > div ~ div {
+		margin-left: 10px;
+	}
+
+	&.centered {
+		text-align: center;
+	}
+
+	&.left-aligned {
+		text-align: left;
+	}
+
+	&.add-item {
+		text-align: left;
+	}
+
+	&.view, &.edit {
+		float: right;
+		margin: 0;
+	}
+}
+
+.item-row {
+	position: relative;
+}
+
+.remove-item {
+	position: absolute;
+	top: 0;
+	right: -20px;
+}
+
+.readonly {
+	.react-bs-container-body {
+		max-height: none !important;
+	}
+}
+
+.floated-children {
+	.col {
+		float: left;
+		margin-left: 15px;
+
+		.ptv-label {
+			display: block;
+		}
+	}
+}
+
+// Entity metadata (ids ...)
+.entity-metadata {
+
+  @include absolute(top 8px right $grid-gutter-width);
+  color: $gray-mid;
+  margin: 0 0 10px 0;
+
+  .ptv-label {
+    margin: 0;
+    display: inline-block;
+  }
+
+  .entity-id-version {
+    font-size: smaller;
+  }
+
+  @media #{bp('<tablet')} {
+    @include relative(top 0 left 0);
+    right: auto;
+  }
+}

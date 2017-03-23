@@ -1,0 +1,44 @@
+@import '../styles/variables';
+
+.has-error {
+	color: #a94442;
+
+
+	label, .error-message {
+		color: #a94442;
+	}
+
+	.form-control, .Select-control, .tree {
+		border-color: #a94442;
+	}
+
+	.form-control:focus {
+		border-color: #843534;
+	}
+}
+
+.box.error-box, .box.success-box {
+	label {
+		font-weight: bold;
+	}
+}
+
+.box.error-box {
+				label {
+					color: #a94442;
+				}
+			}
+
+.box.success-box {
+		label {
+			color: #178809;
+		}
+}
+
+// .custom-error {
+//   .ptv-checkbox {
+//     .check {
+//       border-color: $brand-warning;
+//     }
+//   }
+// }

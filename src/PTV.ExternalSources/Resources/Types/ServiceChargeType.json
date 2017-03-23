@@ -1,0 +1,59 @@
+﻿[
+    {
+        "code": "Charged",
+        "names": [
+            {
+                "Name": "Maksullinen",
+                "language": "fi"
+            },
+            {
+                "Name": "Charged",
+                "language": "en"
+            },
+            {
+                "Name": "Avgiftsbelagd",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Free",
+        "names": [
+            {
+                "Name": "Maksuton",
+                "language": "fi"
+            },
+            {
+                "Name": "Free",
+                "language": "en"
+            },
+            {
+                "Name": "Avgiftsfri",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Other",
+        "names": [
+            {
+                "Name": "Muu",
+                "language": "fi"
+            },
+            {
+                "Name": "Other",
+                "language": "en"
+            },
+            {
+                "Name": "Annan",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

@@ -1,0 +1,16 @@
+.newButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+.icon {
+  margin-right: 10px;
+  height: 12px;
+  width: 12px;
+
+  svg {
+    height: 12px;
+    width: 12px;
+  }
+}

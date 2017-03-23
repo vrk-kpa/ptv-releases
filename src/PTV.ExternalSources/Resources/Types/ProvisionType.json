@@ -1,0 +1,76 @@
+﻿[
+    {
+        "code": "SelfProduced",
+        "names": [
+            {
+                "Name": "Itse tuotetut palvelut",
+                "language": "fi"
+            },
+            {
+                "Name": "Self produced",
+                "language": "en"
+            },
+            {
+                "Name": "Själv producerad",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "VoucherServices",
+        "names": [
+            {
+                "Name": "Palvelusetelipalvelut",
+                "language": "fi"
+            },
+            {
+                "Name": "Voucher services",
+                "language": "en"
+            },
+            {
+                "Name": "Servicesedeltjänster",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "PurchaseServices",
+        "names": [
+            {
+                "name": "Ostopalvelut",
+                "language": "fi"
+            },
+            {
+                "name": "Purchase services",
+                "language": "en"
+            },
+            {
+                "name": "Köpta tjänster",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Other",
+        "names": [
+            {
+                "name": "Muu",
+                "language": "fi"
+            },
+            {
+                "name": "Other",
+                "language": "en"
+            },
+            {
+                "name": "Annan",
+                "language": "sv"
+            }
+        ]
+    }
+]

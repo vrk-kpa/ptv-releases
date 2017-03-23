@@ -1,0 +1,23 @@
+@import '../Styles/variables';
+@import '../Styles/mixins';
+@import '../styles/placeholders';
+
+.url-checker {
+    .url-check-button {
+            margin-top: 43px;
+            padding: 10px;
+            margin-left: 5px;
+    }
+    .url-icon {
+        padding-top: 30px;
+    }
+    .loader {
+        margin: 0;
+        @include absolute(top 0 left 0);
+
+        & > span {
+            margin: 0;
+        } 
+    }
+
+}

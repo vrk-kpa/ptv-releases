@@ -1,0 +1,71 @@
+@import '../Styles/variables';
+@import '../styles/placeholders';
+
+.ptv-checkbox {
+  @extend %chb-default;
+
+  &.bottom-label {
+    @extend %chb-bottom-label-addon;
+  }
+
+  &.small {
+    @extend %chb-small-addon;
+  }
+
+  &.checked {
+    @extend %chb-checked-addon;
+  }
+
+  &.disabled {
+    @extend %chb-disabled-addon;
+  }  
+
+  &.status-draft {
+    @extend %chb-draft-addon;
+  }
+
+  &.status-published {
+    @extend %chb-publish-addon;
+  }
+
+  &.status-deleted {
+    @extend %chb-delete-addon;
+  }
+
+  &.status-modified {
+    @extend %chb-modify-addon;
+  }
+
+  // &.outside-label {
+  //   vertical-align: middle;
+
+  //   + div {
+  //     display: table-cell;
+      
+  //     .ptv-label {
+  //       display: inline-block;
+  //       margin-top: 7px;
+  //       margin-bottom: 7px;
+  //       font-size: 15px;
+  //       line-height: 28px;
+  //       vertical-align: top;
+  //       cursor: pointer;
+  //     }
+  //   }
+
+  //   &.small + div {
+  //     .ptv-label {
+  //       line-height: 18px;
+  //     }
+  //   }
+  // }
+}
+
+.chb-group {
+  &.inline {
+    & > div {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}

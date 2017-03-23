@@ -1,0 +1,58 @@
+﻿[
+    {
+        "code": "Standard",
+        "names": [
+            {
+                "Name": "Normaalit palveluajat",
+                "language": "fi"
+            },
+            {
+                "Name": "Standard",
+                "language": "en"
+            },
+            {
+                "Name": "Normala betjäningstider",
+                "language": "sv"
+            }
+        ]
+
+
+    },{
+        "code": "Special",
+        "names": [
+            {
+                "Name": "Vuorokauden yli menevät palveluajat",
+                "language": "fi"
+            },
+            {
+                "Name": "Special",
+                "language": "en"
+            },
+            {
+                "Name": "Betjäningstider som överskrider ett dygn",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Exception",
+        "names": [
+            {
+                "Name": "Poikkeavat palveluajat",
+                "language": "fi"
+            },
+            {
+                "Name": "Exception",
+                "language": "en"
+            },
+            {
+                "Name": "Avvikande betjäningstider",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

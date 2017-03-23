@@ -1,0 +1,117 @@
+@import '../styles/variables';
+
+$unit: 10px;
+
+$tab-label-disabled-opacity: .2 !default;
+$tab-text-height: 18px;
+$tab-pointer-color: $brand-blue !default;
+$tab-pointer-height: 4px;
+$tab-text: $gray-dark !default;
+$tab-text-color: $tab-text !default;
+$tab-text-inactive-color: rgba($tab-text, .7) !default;
+
+$animation-duration: .25s;
+$animation-delay: $animation-duration / 5;
+$animation-curve-fast-out-slow-in: cubic-bezier(0.4, 0, 0.2, 1) !default;
+$animation-curve-linear-out-slow-in: cubic-bezier(0, 0, 0.2, 1) !default;
+$animation-curve-fast-out-linear-in: cubic-bezier(0.4, 0, 1, 1) !default;
+$animation-curve-default: $animation-curve-fast-out-slow-in !default;
+
+.ptv-tabs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  & .pointer {
+    position: absolute;
+    width: 0;
+    height: $tab-pointer-height;
+    margin-top: -$tab-pointer-height;
+    background-color: $tab-pointer-color;
+    transition-timing-function: $animation-curve-default;
+    transition-duration: $animation-duration;
+    transition-property: left, width;
+  }
+
+  & .fixed {
+    .label {
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
+
+.tab-navigation {
+  display: flex;
+  flex-direction: row;
+
+  .framed & {
+    position: relative;
+    top: 1px;
+    z-index: 2;
+  }
+}
+
+.tab-label {
+  padding: 10px 0 20px 0;
+  margin: 0 30px 0 0;
+  font-size: $tab-text-height;
+  font-weight: 400;
+  line-height: 10px;
+  color: $tab-text-inactive-color;
+  transition-timing-function: $animation-curve-default;
+  transition-duration: $animation-duration;
+  transition-property: box-shadow, color;
+  &.active {
+    color: $tab-text-color;
+    cursor: default;
+  }
+  &.disabled {
+    opacity: $tab-label-disabled-opacity;
+  }
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+  &.hidden {
+    display: none;
+  }
+
+  .framed & {
+    padding: 15px 10px;
+    border: 1px solid transparent;
+    margin: 0;
+    &.active {
+      background-color: #FFFFFF;
+      border-color: $gray-alt;
+      border-bottom: none;
+      color: $gray-dark;
+    }
+  }
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 10px 20px;
+  //border: 1px solid $gray-mid;
+  border: 1px solid $gray-alt;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06);
+  font-size: 16px;
+  color: $gray-dark;
+  letter-spacing: 0;
+  box-sizing: border-box;
+  &:not(.active) {
+    display: none;
+  }
+  &.active {
+    display: block;
+  }
+  &:focus {
+    outline: none;
+  }
+
+  .framed & {
+    padding: 10px;
+  }
+}

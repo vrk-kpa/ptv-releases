@@ -1,0 +1,13 @@
+@import '../Styles/variables';
+
+.ptv-dialog {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: $gray-light;
+  border: 1px solid $gray-mid;
+  border-radius: 2px;
+
+  &.closed {
+    display: none;
+  }
+}

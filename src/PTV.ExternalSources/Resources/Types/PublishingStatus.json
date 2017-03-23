@@ -1,0 +1,87 @@
+﻿[
+  {
+    "code": "Draft",
+    "names": [
+      {
+        "Name": "Luonnos",
+        "language": "fi"
+      },
+      {
+        "Name": "Draft",
+        "language": "en"
+            },
+            {
+                "Name": "Utkast",
+                "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "Published",
+    "names": [
+      {
+        "Name": "Julkaistu",
+        "language": "fi"
+      },
+      {
+        "Name": "Published",
+        "language": "en"
+            },
+            {
+                "Name": "Publicerad",
+                "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "Deleted",
+    "names": [
+      {
+        "Name": "Poistettu",
+        "language": "fi"
+      },
+      {
+        "Name": "Deleted",
+        "language": "en"
+            },
+            {
+                "Name": "Borttaget",
+                "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OldPublished",
+    "names": [
+      {
+        "Name": "OLDJulkaistu",
+        "language": "fi"
+      },
+      {
+        "Name": "OlderPublished",
+        "language": "en"
+      }
+    ]
+
+
+  },
+  {
+    "code": "Modified",
+    "names": [
+      {
+        "Name": "Muokattu",
+        "language": "fi"
+      },
+      {
+        "Name": "Modified",
+        "language": "en"
+      }
+    ]
+
+
+  }
+]

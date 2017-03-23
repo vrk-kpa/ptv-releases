@@ -1,0 +1,80 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2016 Population Register Centre (VRK)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+using System.Collections;
+using System.ComponentModel.DataAnnotations;
+
+namespace PTV.Framework.Attributes
+{
+    /// <summary>
+    /// Base class for validating list of objects. The given property is validated by given DataTypeAttribute.
+    /// </summary>
+    public class ListBaseAttribute : ValidationAttribute
+    {
+        private readonly string propertyName;
+        private readonly ValidationAttribute validator;
+
+        private string strValue;
+
+        public ListBaseAttribute(ValidationAttribute validator, string propertyName = "")
+        {
+            this.propertyName = propertyName;
+            this.validator = validator;
+        }
+
+        public override string FormatErrorMessage(string name)
+        {
+            return validator.FormatErrorMessage(name);
+        }
+
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            var list = value as IList;
+            if (list == null)
+            {
+                return ValidationResult.Success;
+            }
+
+            foreach (var item in list)
+            {
+                var itemValue = item.GetItemValue(propertyName);
+                if (itemValue == null)
+                {
+                    return new ValidationResult(string.Format(CoreMessages.OpenApi.UnknownProperty, propertyName));
+                }
+
+                strValue = itemValue.ToString();
+
+                if (!validator.IsValid(itemValue))
+                {
+                    var name = string.IsNullOrEmpty(propertyName) ? validationContext.DisplayName : propertyName;
+                    return new ValidationResult(FormatErrorMessage(name));
+                }
+            }
+
+            return ValidationResult.Success;
+        }
+
+        protected string Value { get { return strValue; } private set { } }
+    }
+}

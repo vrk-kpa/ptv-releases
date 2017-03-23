@@ -1,0 +1,52 @@
+@import '../styles/variables';
+
+.icon-wrap {
+  display: inline-block;
+  vertical-align: middle;
+  &.top-align {
+    vertical-align: sub;
+  }
+  &.action {
+    float: right;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+  svg {
+    pointer-events: none;
+    &.brand {
+      fill: $brand-blue;
+    }
+  }
+}
+
+.icon-plus {
+  fill: $brand-blue;
+}
+
+.icon-info-circle {
+  margin-left: 10px;
+}
+
+.brand-fill {
+  fill: $brand-blue;
+}
+
+.icon-draft {
+  fill: $brand-info-alt;
+}
+
+.icon-published {
+  fill: $brand-blue-alt;
+}
+
+.icon-oldPublished {
+  fill: $brand-blue-alt;
+}
+
+.icon-modified {
+  fill: $brand-purple-alt;
+}
+
+.icon-deleted {
+  fill: $gray-alt;
+}

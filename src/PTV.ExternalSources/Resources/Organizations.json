@@ -1,0 +1,71 @@
+﻿[
+    {
+        "Identifier": 105,
+        "Name": "Mikkelin kaupunki",
+        "OrganizationType": "Municipality",
+        "MunicipalityName": "Mikkeli",
+        "MunicipalityCode": 491,
+        "BusinessID": "0165116-3"
+    },
+    {
+        "Identifier": 77,
+        "Name": "Väestörekisterikeskus",
+        "OrganizationType": "State",
+        "BusinessID": "0245437-2"
+    },
+    {
+        "Identifier": 240,
+        "Name": "Liikenteen turvallisuusvirasto Trafi",
+        "OrganizationType": "State",
+        "BusinessID": "1031715-9"
+    },
+    {
+        "Identifier": 82,
+        "Name": "Verohallinto",
+        "OrganizationType": "State",
+        "BusinessID": "0245458-3"
+    },
+    {
+        "Identifier": 81,
+        "Name": "Valtiokonttori",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-1"
+    },
+
+    {
+        "Identifier": 81000001,
+        "Name": "Valtiokonttori sub1",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-2",
+        "Parent": 81
+    },
+    {
+        "Identifier": 81000002,
+        "Name": "Valtiokonttori sub2",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-3",
+        "Parent": 81
+    },
+    {
+        "Identifier": 81000003,
+        "Name": "Valtiokonttori sub3",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-4",
+        "Parent": 81
+    },
+    {
+        "Identifier": 810000031,
+        "Name": "Valtiokonttori sub3.1",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-5",
+        "Parent": 81000003
+    },
+    {
+        "Identifier": 810000032,
+        "Name": "Valtiokonttori sub3.2",
+        "OrganizationType": "State",
+        "BusinessID": "0245440-6",
+        "Parent": 81000003
+    }
+
+]

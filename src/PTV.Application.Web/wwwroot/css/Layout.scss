@@ -1,0 +1,160 @@
+﻿@import 'style.css';
+//@import 'GlobalVariables.scss';
+//@import '../lib/bootstrap/scss/bootstrap.scss';
+
+::selection {
+    background: #3da7ff;
+    color: #fff;
+    text-shadow: none
+}
+.m-node {
+    .caret-right{
+      display : block;
+      &:before {
+        content: '\25B6' !important;
+    }
+  }
+
+    .caret-down{
+  display : block;
+      &:before {
+      content: '\25BC' !important;
+    }
+  }
+    }
+
+.auto-combo-box {
+    .Select-control {
+        border: 2px solid #989c9f;
+        width: 95%;
+    }
+
+    .Select-menu-outer {
+        width: 95%;
+    }
+}
+.box {
+    overflow: visible;
+}
+
+.remove-button { -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s; transition: 1s; }
+
+.remove-button:hover{ fill: #e5291c; }
+
+/*CUSTOMIZED PTV*/
+#page-wrapper {
+    overflow: auto;
+}
+#page-header {
+    #site-options {
+        .language-selection {
+            .selected {
+                span {
+                    border-top: 4px solid #3da7ff;
+                }
+            }
+        }
+    }
+
+    #header-content {
+        .role-selection {
+            .current {
+                a {
+                    padding: 5px 10px;
+                    padding: .3125rem .625rem;
+                    display: block;
+                    color: white;
+                }
+            }
+
+            a {
+                -moz-transition: .5s;
+                -o-transition: .5s;
+                -webkit-transition: .5s;
+                transition: .5s;
+            }
+
+            a:hover {
+                background-color: #0a77d1;
+            }
+
+            a:focus {
+                background-color: #0d92ff;
+            }
+        }
+    }
+}
+
+#page-header #header-content .role-selection .current::after{
+    border-top: 8px solid #0d92ff;
+}
+
+#page-header #header-content .role-selection a + span {
+    display: none;
+}
+
+input[type=checkbox]:checked+span.cb-marker:after {
+    content: "\ea10";
+}
+
+@media (min-width:48rem) {
+#page-header #header-content .role-selection .current a {
+        padding: 10px 20px;
+        padding: .625rem 1.25rem
+    }
+
+#header-content .role-selection .current:after {
+
+}
+}
+/*.user-info-development {
+    display: none;
+}*/
+
+/*@include media-breakpoint-up(xl) {
+    .user-info-development {
+        display: block;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    body {
+        padding-top: 120px;
+        font-family: 'Calibri-Bold', 'Calibri Bold', 'Calibri';
+        padding-bottom: 150px;
+        .container {
+            max-width: 970px;
+        }
+        .navbar.ptv-navbar {
+            .navbar-collapse {
+                display: inline-block;
+            }
+
+            .logo-placeholder{
+                padding-bottom: 10px;
+            }
+
+            padding: 0;
+            background-color: $main-header-background-color;
+        }
+
+        .site-navigation {
+            background-color: $site-navigation-background-color;
+            height: 2.38889rem;
+             a{
+                padding:10px;
+                padding-bottom:9px;
+             }
+            .active{
+                a{
+                background-color: $site-navigation-background-color-active;
+                color:whitesmoke;
+
+                }
+            }
+
+        }
+    }
+}*/

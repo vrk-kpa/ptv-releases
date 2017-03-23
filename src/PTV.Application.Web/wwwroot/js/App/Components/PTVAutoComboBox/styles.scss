@@ -1,0 +1,70 @@
+@import '../styles/variables';
+// @import '../styles/react-select';
+
+$inputFieldWidths: (40, 80, 120, 160, 200, 240, 280, 320, 360, 400, 440, 480);
+
+/* css workaround for react-select issue #1127 */
+.Select {
+  &.limited {
+    @each $w in $inputFieldWidths {
+      &.w#{$w} {
+        width: 100%;
+
+        &.hard {
+          width: #{$w}px;
+        }
+
+        .Select-input {
+          max-width: #{$w}px;
+
+          > input {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+  &.is-searchable {
+    width: 100%;
+  } 
+
+  .VirtualSelectGrid {
+    z-index: 1;
+  }
+
+  .VirtualizedSelectOption {
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #666666;
+    cursor: pointer;
+    display: block;
+    padding: 0 10px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .VirtualizedSelectFocusedOption {
+    // background-color: rgba(0, 126, 255, 0.08);
+    font-weight: 600;
+  }
+
+  .VirtualizedSelectSelectedOption {
+    border-left: 5px solid #003479;
+    padding: 8px 10px;
+    font-weight: 600;
+  }
+
+  .VirtualizedSelectDisabledOption {
+    opacity: 0.5;
+  }
+}
+
+.Select-option {
+  .leaf{
+    padding-left: 15px; 
+  }
+  .root{
+    color: $black;
+  }
+}
+
+

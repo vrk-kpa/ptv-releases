@@ -1,0 +1,25 @@
+.manage-sub-menu {
+    background: #e4e6e8;
+    margin-top: 4px;
+    margin-left: -100%;
+    margin-right: -100%;
+
+    button {
+        margin-bottom: 0;
+    }
+
+    button.not-highlighted:not(:hover) {
+        background-color: #e4e6e8;
+        background-image: linear-gradient(-180deg, transparent 50%, rgba(0, 0, 0, 0.05) 100%);
+        color: #333;
+        border-color: transparent;
+    }
+
+    .row {
+        margin-top: 0;
+    }
+}
+
+.service-sub-menu {
+  padding: 3px 0 5px;
+}

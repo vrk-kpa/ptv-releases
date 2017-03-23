@@ -1,0 +1,37 @@
+﻿[
+    {
+        "code": "Service",
+        "names": [
+            {
+                "Name": "Palvelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Service",
+                "language": "en"
+            },
+            {
+                "Name": "Service",
+                "language": "sv"
+            }
+        ]
+
+    },
+    {
+        "code": "PermissionAndObligation",
+        "names": [
+            {
+                "Name": "Lupa tai muu velvoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Permission and Obligation",
+                "language": "en"
+            },
+            {
+                "Name": "Tillstånd eller annan skyldighet",
+                "language": "sv"
+            }
+        ]
+    }
+]

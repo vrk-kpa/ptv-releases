@@ -1,0 +1,31 @@
+@import '../../../../Components/styles/variables';
+$submenu-bg: #e4e6e8;
+
+.service-sub-menu {
+    background: $submenu-bg;
+    margin-top: 4px;
+    margin-left: -100%;
+    margin-right: -100%;
+    
+    button {
+        margin-bottom: 0;
+    }
+    
+    button.not-highlighted:not(:hover) {
+        background-color: $submenu-bg;
+        color: $gray-dark;
+        border-color: transparent;
+    }
+    
+    .row {
+        margin-top: 0;
+        
+        .Select-menu-outer {
+            max-height: 300px;
+        }
+        
+        .Select-menu {
+            max-height: 298px;
+        }
+    }
+}
