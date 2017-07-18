@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding="utf-8"?>
+<WMS_Capabilities version="1.3.0"
+                  xmlns="http://www.opengis.net/wms"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.opengis.net/wms
+                  http://schemas.opengis.net/wms/1.3.0/capabilities_1_2_0.xsd">
+
+    <!-- Service Metadata -->
+    <Service>
+        <Name>WMS</Name>
+        <Title>PTV Map Server</Title>
+        <Abstract>PTV Map Server</Abstract>
+        <KeywordList>
+            <Keyword>PTV</Keyword>
+            <Keyword>WMS</Keyword>
+        </KeywordList>
+        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href=""/>
+        <!-- Contact information -->
+        <ContactInformation>
+            <ContactPersonPrimary>
+                <ContactPerson></ContactPerson>
+                <ContactOrganization>Tieto</ContactOrganization>
+            </ContactPersonPrimary>
+            <ContactPosition></ContactPosition>
+            <ContactAddress>
+                <AddressType></AddressType>
+                <Address></Address>
+                <City></City>
+                <StateOrProvince></StateOrProvince>
+                <PostCode></PostCode>
+                <Country></Country>
+            </ContactAddress>
+            <ContactVoiceTelephone></ContactVoiceTelephone>
+            <ContactElectronicMailAddress></ContactElectronicMailAddress>
+        </ContactInformation>
+        <!-- Fees or access constraints imposed. -->
+        <Fees>none</Fees>
+        <AccessConstraints>none</AccessConstraints>
+        <LayerLimit></LayerLimit>
+        <MaxWidth></MaxWidth>
+        <MaxHeight></MaxHeight>
+    </Service>
+    <Capability>
+        <Request>
+            <GetCapabilities>
+                <Format>text/xml</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:type="simple"
+                            xlink:href="http://hostname/path?" />
+                        </Get>
+                        <Post>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:type="simple"
+                            xlink:href="http://hostname/path?" />
+                        </Post>
+                    </HTTP>
+                </DCPType>
+            </GetCapabilities>
+            <GetMap>
+                <Format>image/gif</Format>
+                <Format>image/png</Format>
+                <Format>image/jpeg</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <!-- The URL here for invoking GetCapabilities using HTTP GET
+ is only a prefix to which a query string is appended. -->
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:type="simple"
+                            xlink:href="http://hostname/path?" />
+                        </Get>
+                    </HTTP>
+                </DCPType>
+            </GetMap>
+            <GetFeatureInfo>
+                <Format>text/xml</Format>
+                <Format>text/plain</Format>
+                <Format>text/html</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:type="simple"
+                            xlink:href="http://hostname/path?" />
+                        </Get>
+                    </HTTP>
+                </DCPType>
+            </GetFeatureInfo>
+        </Request>
+        <Exception>
+            <Format>XML</Format>
+            <Format>INIMAGE</Format>
+            <Format>BLANK</Format>
+        </Exception>
+        <Layer>
+            <Title></Title>
+            <CRS></CRS>
+            <!-- all layers are available in at least this CRS -->
+            <AuthorityURL name="DIF_ID">
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                xlink:href="http://gcmd.gsfc.nasa.gov/difguide/whatisadif.html" />
+            </AuthorityURL>
+            <Layer>
+                <!-- This parent layer has a Name and can therefore be requested from a Map Server, yielding a map of all subsidiary layers. -->
+                <Name></Name>
+                <Title></Title>
+                <!-- See the spec to learn how some characteristics are inherited by  subsidiary layers. -->
+                <CRS></CRS> <!-- An additional CRS for this layer -->
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude></westBoundLongitude>
+                    <eastBoundLongitude></eastBoundLongitude>
+                    <southBoundLatitude></southBoundLatitude>
+                    <northBoundLatitude></northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <!-- The optional resx and resy attributes indicate the X and Y spatial resolution in the units of that CRS. -->
+                <BoundingBox CRS=""
+                             ISO=""/>
+                <BoundingBox CRS=""
+                             minx=""
+                             miny=""
+                             maxx=""
+                             maxy=""
+                             resx=""
+                             resy="" />
+                <!-- Optional Title, URL and logo image of data provider. -->
+                <Attribution>
+                    <Title></Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xlink:type="simple"
+                                    xlink:href="http://www.university.edu/" />
+                    <LogoURL width=""
+                             height="">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href="http://www.university.edu/icons/logo.gif" />
+                    </LogoURL>
+                </Attribution>
+                <!-- Identifier whose meaning is defined in an AuthorityURL element -->
+                <Identifier authority=""></Identifier>
+                <FeatureListURL>
+                    <Format>XML"</Format>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:href="http://www.university.edu/data/roads_rivers.gml" />
+                </FeatureListURL>
+                <Style>
+                    <Name></Name>
+                    <Title></Title>
+                    <Abstract></Abstract>
+                    <!-- A picture of a legend for a Layer in this Style -->
+                    <LegendURL width="" height="">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href="http://www.university.edu/legends/usgs.gif" />
+                    </LegendURL>
+                    <!-- An XSL stylesheet describing how feature data will rendered to create a map of this layer. -->
+                    <StyleSheetURL>
+                        <Format>text/xsl</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href="http://www.university.edu/stylesheets/usgs.xsl" />
+                    </StyleSheetURL>
+                </Style>
+                <Layer queryable="">
+                    <Name></Name>
+                    <Title></Title>
+                    <Abstract></Abstract>
+                    <KeywordList>
+                        <Keyword></Keyword>
+                        <Keyword></Keyword>
+                        <Keyword></Keyword>
+                    </KeywordList>
+                    <Identifier authority=""></Identifier>
+                    <MetadataURL type="">
+                        <Format>text/plain</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href="http://www.university.edu/metadata/roads.txt" />
+                    </MetadataURL>
+                    <MetadataURL type="">
+                        <Format>text/xml</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:type="simple"
+                        xlink:href="http://www.university.edu/metadata/roads.xml" />
+                    </MetadataURL>
+                    <!-- In addition to the Style specified in the parent Layer, this Layer is available in this style. -->
+                    <Style>
+                        <Name></Name>
+                        <Title></Title>
+                        <Abstract></Abstract>
+                        <LegendURL width="" height="">
+                            <Format>image/gif</Format>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:type="simple"
+                            xlink:href="http://www.university.edu/legends/atlas.gif" />
+                        </LegendURL>
+                    </Style>
+                </Layer>
+                <Layer queryable="">
+                    <Name></Name>
+                    <Title></Title>
+                    <Abstract></Abstract>
+                    <KeywordList>
+                        <Keyword></Keyword>
+                        <Keyword></Keyword>
+                        <Keyword></Keyword>
+                    </KeywordList>
+                </Layer>
+            </Layer>
+            <Layer queryable="">
+                <Title></Title>
+                <CRS></CRS>
+                <!-- harmless repetition of common CRS -->
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude></westBoundLongitude>
+                    <eastBoundLongitude></eastBoundLongitude>
+                    <southBoundLatitude></southBoundLatitude>
+                    <northBoundLatitude></northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <!-- These weather data are available daily from 1999-01-01 through 2000-08-22. -->
+                <Dimension name="" units="" default=""></Dimension>
+                <Layer>
+                    <Name></Name>
+                    <Title></Title>
+                </Layer>
+                <Layer>
+                    <Name></Name>
+                    <Title></Title>
+                </Layer>
+                <Layer>
+                    <Name></Name>
+                    <Title></Title>
+                    <!-- This Pressure layer is available at several elevations and times. -->
+                    <Dimension name="" units="" />
+                    <Dimension name="" units="" default=""></Dimension>
+                    <Dimension name="" units="" default="" nearestValue="1"></Dimension>
+                </Layer>
+            </Layer>
+            <!-- Example of a layer which is a static map of fixed size which the server cannot subset or make transparent -->
+            <Layer opaque="" noSubsets="" fixedWidth="" fixedHeight="">
+                <Name></Name>
+                <Title></Title>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude></westBoundLongitude>
+                    <eastBoundLongitude></eastBoundLongitude>
+                    <southBoundLatitude></southBoundLatitude>
+                    <northBoundLatitude></northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <Dimension name="" units="" default=""></Dimension>
+            </Layer>
+            <!-- Example of a layer which originated from another WMS and has been "cascaded" by this WMS. -->
+            <Layer cascaded="">
+                <Name></Name>
+                <Title></Title>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude></westBoundLongitude>
+                    <eastBoundLongitude></eastBoundLongitude>
+                    <southBoundLatitude></southBoundLatitude>
+                    <northBoundLatitude></northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <Dimension name="" units="" default=""></Dimension>
+            </Layer>
+        </Layer>
+    </Capability>
+</WMS_Capabilities>

@@ -1,0 +1,874 @@
+[
+  {
+    "id": 102,
+    "name": "Verokorttihakemus ja ennakkoverohakemus 2015",
+    "links": [
+      {
+        "URL": "https://www.vero.fi/download/2015__Verokorttihakemus_ja_ennakkoverohakemus/%7B4AFDD53D-AFCB-4D08-8073-A68D009AA3EE%7D/8029",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [
+      {
+        "URL": "https://www.vero.fi/download/2015__Kotitalousvahennys_yritykselle_maksetusta_tyokorvauksesta/%7BABCCE87B-17F8-43B4-A5CE-9638BC43D3D5%7D/5185",
+        "name": "Lomake 14A, Kotitalousvähennys vuodelle 2015",
+        "identifier": "49550e95-a284-4575-8153-b522a3235307",
+        "description": "Tällä lomakkeella vaaditaan kotitalousvähennystä yritykselle maksetusta työkorvauksesta."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2015__Kotitalousvahennys_tyontekijalle_maksetusta_palkasta/%7B0756E276-2E72-465A-B048-B6C91B674BCC%7D/5110",
+        "name": "Lomake 14B, Kotitalousvähennys vuodelle 2015",
+        "identifier": "f1322f9e-9657-440b-aab0-c3246e68194f",
+        "description": "Tällä lomakkeella vaaditaan kotitalousvähennystä silloin kun on palkannut työntekijän ja kotitalousvähennys perustuu työntekijälle maksettuun palkkaan ja palkan sivukuluihin."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2015__Tyoasuntovahennys/%7BD98E3643-901D-4AA1-974A-2FC0609CECF5%7D/5109",
+        "name": "Lomake 19, Työasuntovähennys vuodelle 2015",
+        "identifier": "1d4929d3-31e8-4590-b4d4-61c0ffe4f10a",
+        "description": "Tällä lomakkeella vaaditaan työasuntovähennystä vähennettäväksi verotuksessa."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2015__Laskelma_luovutusvoitosta_tai_tappiosta/%7B521DE8A8-F730-4D3A-9467-B5501B5DBEC3%7D/5108",
+        "name": "Lomake 9, Laskelma luovutusvoitoista tai -tappioista 2015",
+        "identifier": "27585656-b1c5-4804-872e-459b71b067ef",
+        "description": "Lomakkeella ilmoitetaan kiinteistön tai asunnon tms. luovutuksesta syntynyt voitto tai tappio."
+      }
+    ],
+    "description": "Verokorttihakemus ja ennakkoverohakemus on tulostettava lomake. Hae tällä lomakkeella muutosta verokorttiin tai ennakkoveroon tai molempiin yhtä aikaa. \nVoit myös ilmoittaa lomakkeella tietoja seuraavan vuoden verokorttia ja/tai ennakkoveroa varten. Palauta lomake postitse tai jätä mihin tahansa verotoimistoon.\nLomaketta voi käyttää henkilöasiakas, liikkeen- ja ammatinharjoittaja (esim. toiminimi), maatalouden harjoittaja ja yhtymän osakas.",
+    "targetGroup": [],
+    "formReceiver": "Verotoimistot",
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "formIdentifier": "5010",
+    "shortDescription": "Hae muutosta verokorttiin tai ennakkoveroon.",
+    "chargeDescription": "",
+    "deliveryAddressDescription": "Palauta lomake postitse tai jätä mihin tahansa verotoimistoon.",
+    "phoneServiceChargeInformation": "(paikallisverkkomaksu / paikallispuhelumaksu)"
+  },
+  {
+    "id": 116,
+    "name": "Tarkastusoikeuden käyttäminen: omat väestötiedot",
+    "links": [
+      {
+        "URL": "https://lomake.fi/forms/word/MAIST/Vrk%204.70/fi",
+        "fileType": "DOC"
+      },
+      {
+        "URL": "https://lomake.fi/forms/pdf/MAIST/Vrk%204.70/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Lomakkeella voit pyytää tarkastettavaksesi tietoja, joita sinusta on tallennettu väestötietojärjestelmään: voimassaolevat henkilötietosi, nimihistoriatietosi sekä mahdolliset kiinteistö- ja rakennusomistuksesi. Voit tarkastaa myös väestötietojärjestelmään tallennetut asuinhistoriatietosi.",
+    "targetGroup": [],
+    "formReceiver": "Maistraatti",
+    "ontologyTerm": [],
+    "organization": 77,
+    "alternateName": [],
+    "formIdentifier": "VRK 4.70",
+    "shortDescription": "Lomakkeella voit pyytää tarkastettavaksesi tietoja, joita sinusta on tallennettu väestötietojärjestelmään.",
+    "deliveryAddressDescription": "Voit toimittaa lomakkeen mihin tahansa maistraatin toimipisteeseen."
+  },
+  {
+    "id": 205,
+    "name": "Rakennuslupahakemus",
+    "links": [
+      {
+        "URL": "http://lomake.fi/forms/pdf/KUN/ke6666/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Tulostettava rakennuslupahakemus toimitetaan rakennusvalvontaan silloin, kun ei asioida sähköisesti.",
+    "targetGroup": [],
+    "formReceiver": "",
+    "ontologyTerm": [],
+    "organization": 226,
+    "alternateName": [],
+    "formIdentifier": "ke6666",
+    "shortDescription": "Hakemus tai ilmoitus kuntien rakennusvalvontaviranomaiselle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 206,
+    "name": "Rakennusluvan jatkolupahakemus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/rakennusluvan_jatkolupa_0.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Hae lomakkeella jatkoaikaa rakennusluvallesi.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Voit hakea lomakkeella jatkoaikaa rakennusluvallesi.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 207,
+    "name": "Toimenpidelupahakemus rakennusvalvontaviranomaiselle",
+    "links": [
+      {
+        "URL": "http://lomake.fi/forms/pdf/KUN/ke6666/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Luvan hakija tekee lomakkeella toimenpidelupahakemuksen kunnan rakennusvalvontaviranomaiselle.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 226,
+    "alternateName": [],
+    "formIdentifier": "ke6666",
+    "shortDescription": "Luvan hakija tekee lomakkeella toimenpidelupahakemuksen kunnan rakennusvalvontaviranomaiselle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 208,
+    "name": "Toimenpideluvan jatkohakemus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/toimenpideluvan_jatkohakemus.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Luvan hakija tekee lomakkeella toimenpideluvan jatkohakemuksen Mikkelin kaupungin rakennusvalvonnalle.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Luvan hakija tekee lomakkeella toimenpideluvan jatkohakemuksen Mikkelin kaupungin rakennusvalvonnalle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 209,
+    "name": "Toimenpideilmoitus rakennusvalvontaviranomaiselle",
+    "links": [
+      {
+        "URL": "http://lomake.fi/forms/pdf/KUN/ke6666/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit tehdä lomakkeella toimenpideilmoituksen kunnan rakennusvalvontaviranomaiselle.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 226,
+    "alternateName": [],
+    "shortDescription": "Voit tehdä lomakkeella toimenpideilmoituksen kunnan rakennusvalvontaviranomaiselle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 210,
+    "name": "Purkamislupahakemus / purkamisilmoitus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/purkamislupahakemus.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Toimita täytetty ja allekirjoitettu purkamislupahakemus tai -ilmoitus liitteineen rakennusvalvonnan toimipisteeseen kahtena kappaleena. Jos haet samanaikaisesti rakennuslupaa, hae purkamislupaa rakennuslupahakemuksessa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Hakija osoittaa purkamislupahakemuksen tai -ilmoituksen kunnan rakennusvalvonnalle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 211,
+    "name": "Maisematyölupahakemus",
+    "links": [
+      {
+        "URL": "http://lomake.fi/forms/pdf/KUN/ke6666/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Luvan hakija tekee lomakkeella maisematyölupahakemuksen kunnan rakennusvalvontaviranomaiselle.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 226,
+    "alternateName": [],
+    "shortDescription": "Maisematyölupahakemus kuntien rakennusvalvontaviranomaiselle.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 212,
+    "name": "Selvitys suunnittelijan pätevyydestä",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/suunnittelijoiden_patevyys_2013.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Rakennushankkeeseen nimetty pääsuunnittelija tarkistaa suunnittelutehtävien vaativuuden, suunnittelijoiden pätevyyden ja esittää selvityksen rakennustarkastajalle mahdollisimman aikaisessa suunnitteluvaiheessa. Esityksen perusteella rakennusvalvontaviranomainen toteaa suunnittelutehtävän vaativuuden ja suunnittelijoiden kelpoisuuden.\nJos suunnittelija vaihtuu kesken hankkeen, tee siitä kirjallinen ilmoitus rakennusvalvontaviranomaiselle.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Selvitys rakennuksen tai rakennushankkeen suunnittelutehtävän vaativuudesta ja suunnittelijoiden pätevyydestä.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 213,
+    "name": "Rakennetapaselostus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/default/files/atoms/files/rakennetapaselostus_0.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Rakennuslupahakemuksen liitteeksi tuleva rakennetapaselostus. Toimita rakennetapaselostus rakennusvalvontaan kahtena kappaleena rakennuslupahakemuksen yhteydessä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Rakennetapaselostus rakennuslupahakemuksen liitteeksi.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 214,
+    "name": "Jätevesijärjestelmän rakennustapaselostus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/rakennustapaselostus_jatevesijarjestelma.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Tee jätevesijärjestelmän rakennustapaselostus, jos et liitä kiinteistöä viemäriverkkoon rakentamisen yhteydessä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Tee jätevesijärjestelmän rakennustapaselostus, jos et liitä kiinteistöä viemäriverkkoon rakentamisen yhteydessä.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 215,
+    "name": "Selvitys naapurin kuulemisesta rakennushankkeessa",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/naapurin_kuuleminen_2015.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Naapurin kuuleminen rakennushankkeesta rakennuslupahakemuksen liitteeksi.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Naapurin kuuleminen rakennushankkeesta rakennuslupahakemuksen liitteeksi.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 216,
+    "name": "Ulkovärisuunnitelma",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/default/files/atoms/files/ulkovarityssuunnitelma.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Ulkovärisuunnitelma rakennuslupahakemuksen liitteeksi.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Ulkovärisuunnitelma rakennuslupahakemuksen liitteeksi.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 218,
+    "name": "Ilmanvuotoluvun valinta",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/ilmanvuotoluku_0.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Ulkovaipan ilmanvuotoluku ilmaisee vaipan läpi tunnissa testiolosuhteessa virtaavan ilmamäärän jaettuna talon sisäilmatilavuudella. Energiaselvityksessä ilmavuodon arvona on käytettävä määräysten 2010 edellyttämää arvoa 4 1/h (ilmamäärä vaihtuu 4 kertaa tunnissa). \nPääsuunnittelija määrittää suunnitelmien perusteella ilmavuotolukutavoitteen ja sitoutuu rakennushankkeeseen ryhtyvän kanssa tavoittelemaan seuraavan menettelyn toteutumista. Vastaava työnjohtaja vastaa tarkistuslistan kysymyksiin ja varmentaa toteutumisen allekirjoituksellaan.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Rakenteiden tiiveyden tarkastusasiakirja, Ilmanvuotoluvun valinta, liite energiaselvitykseen.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 219,
+    "name": "Palotekninen selvitys",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/palotekninen_selvitys.doc",
+        "fileType": "DOC"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Palotekninen selvitys rakennusluvan liitteeksi.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Palotekninen selvitys rakennusluvan liitteeksi.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 220,
+    "name": "Selvitys rakennusjätteen käsittelystä",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/default/files/atoms/files/selvitys_rakennusjatteen_kasittelysta_1.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Selvitys syntyvän rakennusjätteen käsittelystä sekä käyttökelpoisten rakennusosien hyväksi käyttämisestä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Selvitys syntyvän rakennusjätteen käsittelystä sekä käyttökelpoisten rakennusosien hyväksi käyttämisestä.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 221,
+    "name": "Lomarakennuksen käyttötarkoituksen muutos",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/default/files/atoms/files/lomarakennuksen_kayttotarkoituksen_muutos_0.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Lomarakennuksen muutos asuinrakennukseksi, liite rakennuslupahakemukseen.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Lomarakennuksen muutos asuinrakennukseksi, liite rakennuslupahakemukseen.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 222,
+    "name": "Korjausrakentamisen energiaselvityslomake",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/default/files/atoms/files/korjausrakentamisen_energiaselvityslomake_12012015_0.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Korjausrakentamisen energiaselvityslomake toimenpide- tai rakennuslupaa varten.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Korjausrakentamisen energiaselvityslomake toimenpide- tai rakennuslupaa varten.",
+    "deliveryAddressDescription": "Toimita lomake kunnan rakennusvalvontaan"
+  },
+  {
+    "id": 247,
+    "name": "Omien ajoneuvotietojen tilaus ajoneuvoliikennerekisteristä",
+    "email": "neuvonta@trafi.fi",
+    "links": [
+      {
+        "URL": "https://lomake.fi/forms/pdf/TRAFI/B118A/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "029 534 5119",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Yksityishenkilönä voit halutessasi tilata tällä lomakkeella veloituksetta kerran vuodessa omat ajokortti- ja ajoneuvotietosi Liikenteen turvallisuusvirasto Trafin rekisteristä. Ajoneuvoliikennerekisteristä saat listauksen ajoneuvoista, joiden rekisteriin merkittynä omistajana tai haltijana olet ollut. \n\nTiedot toimitetaan sinulle postitse.",
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "formReceiver": "Liikenteen turvallisuusvirasto Trafi",
+    "ontologyTerm": [],
+    "organization": 240,
+    "alternateName": [],
+    "formIdentifier": "B118A",
+    "shortDescription": "Voit tilata tällä lomakkeella omat ajokortti- ja ajoneuvotietosi Liikenteen turvallisuusvirasto Trafin rekisteristä.",
+    "chargeDescription": "Listauksen voit tilata maksutta vuoden välein. Mikäli edellisestä tilauksesta on alle vuosi, ote toimitetaan postiennakolla ja se maksaa 20,60 euroa.",
+    "deliveryPostalCode": "00101",
+    "deliveryPostOfficeBox": "PL 320",
+    "deliveryPostalDistrict": "Helsinki",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 255,
+    "name": "Verokorttihakemus ja ennakkoverohakemus 2016",
+    "links": [
+      {
+        "URL": "https://www.vero.fi/download/2016__Verokorttihakemus_ja_ennakkoverohakemus/%7BCCC2B4FA-62D2-4739-8FD4-83B02F2A7FA0%7D/7160",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [
+      {
+        "URL": "https://www.vero.fi/download/2016__Kotitalousvahennys_yritykselle_maksetusta_tyokorvauksesta/%7BF63202CE-EE50-4B14-BAA3-45059B1D5099%7D/7247",
+        "name": "Lomake 14A, Kotitalousvähennys vuodelle 2016",
+        "identifier": "e4434f4c-f513-4aef-904f-e248641f35bd",
+        "description": "Tällä lomakkeella vaaditaan kotitalousvähennystä yritykselle maksetusta työkorvauksesta."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2016__Kotitalousvahennys_tyontekijalle_maksetusta_palkasta/%7B90A5C9BD-3899-4E15-9E1C-A3FD80134076%7D/7242",
+        "name": "Lomake 14B, Kotitalousvähennys vuodelle 2016",
+        "identifier": "b78a2070-98ed-44ea-a6a6-fe923192cef9",
+        "description": "Tällä lomakkeella vaaditaan kotitalousvähennystä silloin kun on palkannut työntekijän ja kotitalousvähennys perustuu työntekijälle maksettuun palkkaan ja palkan sivukuluihin."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2016__Tyoasuntovahennys/%7B8300BC1A-B3DE-484D-90BE-30F25F006F37%7D/7244",
+        "name": "Lomake 19, Työasuntovähennys vuodelle 2016",
+        "identifier": "73f274e6-cb92-49ee-a133-bade599f513f",
+        "description": "Tällä lomakkeella vaaditaan työasuntovähennystä vähennettäväksi verotuksessa."
+      },
+      {
+        "URL": "https://www.vero.fi/download/2016__Laskelma_luovutusvoitosta_tai_tappiosta/%7B8EA80784-49D5-42F5-89A9-2CE5DEC7A6E0%7D/7246",
+        "name": "Lomake 9, Laskelma luovutusvoitoista tai -tappioista 2016",
+        "identifier": "b667abde-b71c-46bd-bb27-70d328769d2a",
+        "description": "Lomakkeella ilmoitetaan kiinteistön tai asunnon tms. luovutuksesta syntynyt voitto tai tappio."
+      }
+    ],
+    "description": "Verokorttihakemus ja ennakkoverohakemus on tulostettava lomake. Hae tällä lomakkeella muutosta verokorttiin tai ennakkoveroon tai molempiin yhtä aikaa. \nVoit myös ilmoittaa lomakkeella tietoja seuraavan vuoden verokorttia ja/tai ennakkoveroa varten. Palauta lomake postitse tai jätä mihin tahansa verotoimistoon.\nLomaketta voi käyttää henkilöasiakas, liikkeen- ja ammatinharjoittaja (esim. toiminimi), maatalouden harjoittaja ja yhtymän osakas.",
+    "targetGroup": [],
+    "formReceiver": "Verotoimistot",
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "formIdentifier": "5010",
+    "shortDescription": "Hae muutosta vuoden 2016 verokorttiin tai ennakkoveroon.",
+    "deliveryAddressDescription": "Palauta lomake postitse tai jätä mihin tahansa verotoimistoon.",
+    "phoneServiceChargeInformation": "(paikallisverkkomaksu / paikallispuhelumaksu)"
+  },
+  {
+    "id": 279,
+    "name": "Jäteastian tyhjennysvälin pidennyshakemus",
+    "email": "jätehuoltoviranomainen@mikkeli.fi",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/tyhjennysvalin_pidennys.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit pidentää jäteastian tyhjennysväliä hakemuksella.\n\nMikkelin kaupungin jätehuoltomääräysten mukaisesti jäteastiat tyhjennetään liittyjien määrän ja jäteastian kapasiteetin mukaan niin, että jätetilavuutta tulee 20 litraa / henkilö / viikko.\n\nAnna selvitys tyhjennysvälin pidentämisestä lomakkeen kohtaan ”Hakemuksen perustelut”.",
+    "targetGroup": [],
+    "formReceiver": "Mikkelin kaupungin jätehuoltoviranomainen",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Voit pidentää jäteastian tyhjennysväliä hakemuksella.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 278",
+    "deliveryStreetAddress": "Maaherrankatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryAddressDescription": "Mikkelin kaupungin asiointipiste",
+    "deliveryStreetAddressNumber": "9-11"
+  },
+  {
+    "id": 282,
+    "name": "Hakemus vieraan oppilasalueen kouluun",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/hakemus_vieraan_oppilasalueen_kouluun_2014.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Oppivelvollinen voi pyrkiä myös muuhun kuin kunnan osoittamaan lähikouluun. Subjektiivista oikeutta päästä tähän kouluun hänellä ei kuitenkaan ole. Asuinkunta osoittaa oppivelvolliselle koulupaikan ns. lähikoulussa. Lähikoulu ei välttämättä ole lähin koulu. Hakemuksen tekee oppivelvollisen huoltaja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Hakemus koulunkäyntiin muussa kuin omassa lähikoulussa.",
+    "deliveryAddressDescription": "Hakemus toimitetaan siihen kouluun, johon oppilas hakee."
+  },
+  {
+    "id": 284,
+    "name": "Hakemus muun kuin lähikoulun 7. luokalle",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/hakemus_muun_kuin_lahikoulun_7.luokalle_2014.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Nykyiset 6. luokkalaiset siirtyvät 7. luokille osoitteensa (osoite vuoden ensimmäisenä päivänä) mukaiseen lähikouluun. Mikäli perhe muuttaa 1.1. jälkeen, määräytyy lähikoulupaikka uuden osoitteen mukaisesti. Mikäli oppilas on saanut oikeuden käydä 6. luokan muussa kuin lähikoulussaan, tämä oikeus on voimassa vain 6. luokan loppuun.\n\nJos oppilas haluaa siirtyä 7. luokalle muuhun kuin osoitteenmukaiseen lähikouluun, tulee huoltajan tehdä hakemus kyseisen koulun rehtorille 30.1. mennessä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Hakemus siirtymisestä 7. luokalle muuhun kuin osoitteenmukaiseen lähikouluun.",
+    "deliveryAddressDescription": "Hakemus palautetaan oppilaan 6. luokan koulun kansliaan."
+  },
+  {
+    "id": 419,
+    "name": "Vaarallisten aineiden kuljetuksen reittirajoitushakemus",
+    "email": "pekka.rahkola@trafi.fi",
+    "links": [
+      {
+        "URL": "https://lomake.fi/forms/pdf/TRAFI/E305/fi",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "029 534 7127",
+    "charge": true,
+    "keyword": [],
+    "language": [],
+    "attachments": [],
+    "description": "Kunta voi hakea reittirajoitusta vaarallisten aineiden kuljetukseen alueellaan, jos kuljetus aiheuttaa huomattavaa vaaraa ihmisille, ympäristölle tai omaisuudelle. Reittirajoitus voi olla joko läpiajokielto (B-VAK) tai aineiden kuljettaminen alueella voidaan kieltää kokonaan (A-VAK). Rajoitus ei saa haitata kuljetuksia enempää kuin on vaaran torjumiseksi välttämätöntä.",
+    "targetGroup": [],
+    "formReceiver": "Liikenteen turvallisuusvirasto Trafi",
+    "ontologyTerm": [],
+    "organization": 240,
+    "alternateName": [],
+    "formIdentifier": "E305sr",
+    "shortDescription": "Hakemus vaarallisten aineiden kuljetuksen rajoittamisesta kunnan alueella.",
+    "chargeDescription": "Maksuasetuksen mukainen hinta.",
+    "deliveryPostalCode": "00101",
+    "deliveryPostOfficeBox": "PL 320",
+    "deliveryPostalDistrict": "Helsinki",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 285,
+    "name": "Koulukuljetushakemus",
+    "email": "susanna.keminen@mikkeli.fi",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/koulukuljetushakemus_lkv_2015-2016.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "015 194 3005",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/koulukuljetusopas_1.1.2016_alkaen.pdf",
+        "name": "Koulukuljetusopas",
+        "identifier": "0745e51d-1455-4a2b-8811-1f1ee70766e1",
+        "description": "Koulukuljetusoppaassa esitellään Mikkelin kaupungin koulukuljetuksia koskevia periaatteita ja käytäntöjä. Oppaan avulla lasten huoltajat saavat tietoa Mikkelin kaupungin koulukuljetusetuudesta ja periaatteista, joilla maksuton koulukuljetus Mikkelin kaupungissa myönnetään ja järjestetään."
+      }
+    ],
+    "description": "Huoltaja hakee yksittäistä oppilasta koskevaa koulumatkaetuutta tai sen muutosta erillisellä hakemuksella. Huoltajan tulee perustella hakemus koulumatkan rasittavuuden, vaativuuden, tien vaarallisuuden tai koulumatkaan käytettävän ajan perusteella.\n\nMääritellyn kilometrirajan alittuessa oppilas voi olla oikeutettu koulumatkaetuuteen myös asiantuntijalausunnon perusteella. Asiantuntijalausunto on aina liitettävä hakemukseen. Lausunnossa tulee todeta yksilöity tarve ja perusteet kuljetukselle. Hakemuksesta tulee ilmetä myös ajanjakso, jona kuljetus on välttämätön sekä esitys kuljetusmuodosta (esim. tarvitsee taksikuljetuksen liikuntarajoitteen takia). \n\nLausunto ei velvoita kuntaa kuljetuksen järjestämiseen, mutta sitä käytetään asiantuntija‐apuna päätöksenteossa.",
+    "targetGroup": [],
+    "formReceiver": "Mikkelin kaupunki, sivistystoimi",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Hakemuksella huoltaja voi hakea yksittäistä oppilasta koskevaa koulumatkaetuutta tai sen muutosta.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 206",
+    "deliveryStreetAddress": "Maaherrankatu 9–11",
+    "deliveryPostalDistrict": "Mikkeli",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 286,
+    "name": "Koulukuljetuksen maksusitoumuslomake",
+    "email": "susanna.keminen@mikkeli.fi",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/maksusitoumuslomake_lv_2015-2016.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "phone": "015 194 3005",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Haja‐asutusalueella, missä ei ole tarjolla joukkoliikennepalveluja, huoltajalla on mahdollisuus hakea oppilaalle maksusitoumusta vastaan koulukuljetusta\ntaksien kuljetusreitin varrelta, mikäli koulukuljetuksia suorittavassa autossa on tilaa. Maksusitoumuksella huoltaja sitoutuu maksamaan Mikkelin kaupungille korvauksen koulukuljetuksesta. Kouluauton reittiä ei muuteta maksusitoumuksen vuoksi. Maksusitoumusta voidaan hakea koko lukukaudeksi tai vain talvikaudelle.\n\nKun huoltaja on neuvotellut asiasta liikennöitsijän kanssa, luvan koulukuljetusoikeudesta antaa Kyytineuvo. Kuljetus maksusitoumuksella on aina tilapäinen, eikä luo pysyvää kuljetusoikeutta. Maksusitoumuksella kuljetukseen oikeutettu oppilas voi kysyä reitin aikataulun liikennöitsijältä.\n\nHinnoittelu seuraa joukkoliikenteen koululaislipun hinnoittelua ja muuttuu sen muuttuessa. Kaupunki laskuttaa korvauksen lukukausittain, eikä tee siitä hyvityksiä/palautuksia käyttämättömien matkojen osalta. Kaupunki voi lopettaa maksusitoumukseen perustuvan kuljetuksen maksamattomien kuljetuslaskujen vuoksi.",
+    "targetGroup": [],
+    "formReceiver": "Mikkelin kaupunki, sivistystoimi, perusopetus",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Oikeus koulukuljetukseen voidaan myöntää ns. maksusitoumuksella, mikäli koulukuljetuksia suorittavassa autossa on tilaa.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 206",
+    "deliveryStreetAddress": "Maaherrankatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryStreetAddressNumber": "9–11",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 290,
+    "name": "Jätehuollon kimppailmoitus",
+    "email": "jatehuolto@metsasairila.fi",
+    "links": [
+      {
+        "URL": "http://www.metsasairila.fi/metsasairila/fi/liitetiedostot/Lomakkeet/Kimppailmoitus.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Jätekimppa syntyy, kun useampi lähikiinteistö hankkii yhteisen jäteastian. Jäteastian kokoon vaikuttaa kimppa-astian käyttäjämäärä sekä jäteastian tyhjennysväli. Tyhjennysväli on säännöllinen 2 tai 4 viikon rytmin mukaan.",
+    "targetGroup": [],
+    "formReceiver": "Metsäsairila Oy",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Metsä-Sairila Oy:lle ilmoitettava usean lähikiinteistön yhteinen jäteastia eli jätekimppa.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 106",
+    "deliveryStreetAddress": "Sammonkatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryAddressDescription": "Metsäsairila Oy, asiointipiste",
+    "deliveryStreetAddressNumber": "12"
+  },
+  {
+    "id": 291,
+    "name": "Ilmoitus jätehuoltoon liittymisestä",
+    "email": "jatehuolto@metsasairila.fi",
+    "links": [
+      {
+        "URL": "http://www.metsasairila.fi/metsasairila/fi/liitetiedostot/Lomakkeet/liittymisilmoitus.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Asuinkiinteistöjen velvollisuus liittyä alueella järjestettyyn jätteenkuljetukseen on määrätty jätelaissa. Velvoite liittyä koskee vakituisia ja vapaa-ajan kiinteistöjä. Mikkelissä liittymisilmoitus tehdään Metsäsairila Oy:öön.",
+    "targetGroup": [],
+    "formReceiver": "Metsäsairila Oy",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Jätehuoltoon liitytään kiinteistökohtaisesti tai lähikiinteistöjen jätekimpalla. Haja-asutusalueilla liitytään aluekeräyspisteen käyttäjäksi.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 106",
+    "deliveryStreetAddress": "Sammonkatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryAddressDescription": "Metsäsairila Oy, asiointipiste",
+    "deliveryStreetAddressNumber": "12"
+  },
+  {
+    "id": 337,
+    "name": "Kirjastokortin asiakastietolomake",
+    "links": [
+      {
+        "URL": "http://kirjasto.mikkeli.fi/sites/kirjasto.mikkeli.fi/files/uploads/asiakastietolomake1015.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kirjastokorttia varten voit tulostaa ja täyttää asiakastietolomakkeen etukäteen ja palauttaa sen henkilökohtaisesti kirjastoon. Sinun tulee esittää myös kuvallinen henkilötodistus.",
+    "targetGroup": [],
+    "formReceiver": "Mikkelin kaupunginkirjasto",
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Uusi asiakas täyttää asiakastietolomakkeen kirjastokorttia varten.",
+    "deliveryAddressDescription": "Asiakastietolomakkeen voi toimittaa mihin tahansa Mikkelin kirjaston toimipisteeseen."
+  },
+  {
+    "id": 390,
+    "name": "Asumisoikeuden järjestysnumerohakemus",
+    "links": [
+      {
+        "URL": "http://www.mikkeli.fi/sites/mikkeli.fi/files/atoms/files/asumisoikeuden_jarjestysnumerohakemus_kons_palvelut.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Toimita asumisoikeuden kirjallinen järjestysnumerohakemus Mikkelin kaupungin konsernipalveluille. Järjestysnumerohakemuksen voi jättää myös Mikkelin kaupungin virastotalon asiointipisteeseen tai alueella toimiviin yhteispalvelupisteisiin.",
+    "targetGroup": [],
+    "formReceiver": "Mikkelin kaupunki, konsernipalvelut.",
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Asumisoikeusasunnon saamista varten on ensin jätettävä järjestysnumerohakemus.",
+    "deliveryPostalCode": "50101",
+    "deliveryPostOfficeBox": "PL 33",
+    "deliveryStreetAddress": "Raatihuoneenkatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryAddressDescription": "Hakemus toimitetaan Mikkelin kaupungin konsernipalveluille. Järjestysnumerohakemuksen voi Mikkelissä jättää myös kaupungin virastotalon asiointipisteeseen tai alueella toimiviin yhteispalvelupisteisiin.",
+    "deliveryStreetAddressNumber": "8-10"
+  },
+  {
+    "id": 446,
+    "name": "Vuokra-asuntohakemus Mikalo Oy:n hallinnoimiin asuntoihin",
+    "links": [
+      {
+        "URL": "http://www.mikalo.fi/attachements/2016-03-09T13-47-2238.pdf",
+        "fileType": "PDF"
+      }
+    ],
+    "charge": false,
+    "keyword": [],
+    "language": [],
+    "attachments": [],
+    "description": "Hakemuksella voit hakea Mikkelin alueen vuokra-asuntoihin.",
+    "targetGroup": [],
+    "formReceiver": "Mikalo Oy",
+    "ontologyTerm": [],
+    "organization": 422,
+    "alternateName": [],
+    "shortDescription": "Hakemuksella voit hakea Mikkelin alueen vuokra-asuntoihin.",
+    "deliveryPostalCode": "50100",
+    "deliveryStreetAddress": "Maaherrankatu",
+    "deliveryPostalDistrict": "Mikkeli",
+    "deliveryStreetAddressNumber": "44"
+  }
+]

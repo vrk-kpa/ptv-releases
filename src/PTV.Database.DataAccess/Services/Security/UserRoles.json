@@ -1,0 +1,111 @@
+{
+    "eeva": {
+        "allowedAllOrganizations": true,
+      "permisions": {
+        "organizations": {
+          "Code": "organizations",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "services": {
+          "Code": "services",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "channels": {
+          "Code": "channels",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "relations": {
+          "Code": "relations",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "generalDescriptions": {
+          "Code": "generalDescriptions",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "currentIssues": {
+          "Code": "currentIssues",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        },
+        "previousIssues": {
+          "Code": "previousIssues",
+          "RulesAll": "crudp",
+          "RulesOwn": "crudp"
+        }
+      }
+
+    },
+    "pete": {
+      "permisions": {
+        "organizations": {
+          "Code": "organizations",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "services": {
+          "Code": "services",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "channels": {
+          "Code": "channels",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "relations": {
+          "Code": "relations",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "generalDescriptions": {
+          "Code": "generalDescriptions",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        },
+        "currentIssues": {
+          "Code": "currentIssues",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        }
+      }
+    },
+    "shirley": {
+      "permisions": {
+        "organizations": {
+          "Code": "organizations",
+          "RulesAll": "r",
+          "RulesOwn": "rup"
+        },
+        "services": {
+          "Code": "services",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "channels": {
+          "Code": "channels",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "relations": {
+          "Code": "relations",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "generalDescriptions": {
+          "Code": "generalDescriptions",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        },
+        "currentIssues": {
+          "Code": "currentIssues",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        }
+      }
+    }
+}

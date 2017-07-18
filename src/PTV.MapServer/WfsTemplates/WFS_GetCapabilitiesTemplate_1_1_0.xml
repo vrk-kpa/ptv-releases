@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:WFS_Capabilities xmlns:wfs="http://www.opengis.net/wfs"
+                      xmlns:gml="http://www.opengis.net/gml"
+                      xmlns:ows="http://www.opengis.net/ows"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns:ogc="http://www.opengis.net/ogc"
+                      xmlns="http://www.opengis.net/wfs"
+                      version="1.1.0"
+                      xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+
+    <ows:ServiceIdentification xmlns:ows="http://www.opengis.net/ows">
+        <ows:Title>PTV Map Server</ows:Title>
+        <ows:Abstract>PTV Map Server</ows:Abstract>
+        <ows:Keywords>
+            <ows:Keyword>WFS</ows:Keyword>
+            <ows:Keyword>1.1.0</ows:Keyword>
+            <ows:Keyword>PTV</ows:Keyword>
+        </ows:Keywords>
+        <ows:ServiceType>WFS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints>Authenticated users (Base authentication: user/password)</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+
+    <ows:ServiceProvider>
+        <ows:ProviderName>PTV</ows:ProviderName>
+        <ows:ProviderSite xlink:href="http://www.tieto.com" xlink:type="simple"/>
+        <ows:ServiceContact>
+            <ows:IndividualName></ows:IndividualName>
+            <ows:PositionName></ows:PositionName>
+            <ows:ContactInfo>
+                <ows:Phone>
+                    <ows:Voice></ows:Voice>
+                    <ows:Facsimile></ows:Facsimile>
+                </ows:Phone>
+                <ows:Address>
+                    <ows:DeliveryPoint></ows:DeliveryPoint>
+                    <ows:City></ows:City>
+                    <ows:AdministrativeArea></ows:AdministrativeArea>
+                    <ows:PostalCode></ows:PostalCode>
+                    <ows:Country></ows:Country>
+                    <ows:ElectronicMailAddress>tomas.dlouhy@tieto.com</ows:ElectronicMailAddress>
+                </ows:Address>
+                <ows:OnlineResource xlink:href="" xlink:type="simple"/>
+                <ows:HoursOfService></ows:HoursOfService>
+                <ows:ContactInstructions></ows:ContactInstructions>
+            </ows:ContactInfo>
+            <ows:Role>PointOfContact</ows:Role>
+        </ows:ServiceContact>
+    </ows:ServiceProvider>
+
+    <ows:OperationsMetadata xmlns:ows="http://www.opengis.net/ows">
+        <ows:Operation name="GetFeature">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://ADDRESS/ows?" xlink:type="simple"/>
+                    <ows:Post xlink:href="https://ADDRESS/ows" xlink:type="simple"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="resultType">
+                <ows:Value>results</ows:Value>
+                <ows:Value>hits</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="outputFormat">
+                <ows:Value>text/xml</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="DescribeFeatureType">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://ADDRESS/ows?" xlink:type="simple"/>
+                    <ows:Post xlink:href="https://ADDRESS/ows" xlink:type="simple"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="outputFormat">
+                <ows:Value>text/xml</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="GetCapabilities">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="https://ADDRESS/ows?" xlink:type="simple"/>
+                    <ows:Post xlink:href="https://ADDRESS/ows" xlink:type="simple"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="AcceptVersions">
+                <ows:Value>1.1.0</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="AcceptFormats">
+                <ows:Value>text/xml</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="Sections">
+                <ows:Value>ServiceIdentification</ows:Value>
+                <ows:Value>ServiceProvider</ows:Value>
+                <ows:Value>OperationsMetadata</ows:Value>
+                <ows:Value>FeatureTypeList</ows:Value>
+                <ows:Value>Filter_Capabilities</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Parameter name="srsName">
+            <ows:Value>EPSG:3067</ows:Value>
+        </ows:Parameter>
+        <ows:Constraint name="DefaultMaxFeatures">
+            <ows:Value>10000</ows:Value>
+        </ows:Constraint>
+        <ows:Constraint name="DefaultLockExpiry">
+            <ows:Value>5</ows:Value>
+        </ows:Constraint>
+    </ows:OperationsMetadata>
+
+    <wfs:FeatureTypeList>
+        <wfs:FeatureType xmlns:cba="http://ADDRESS/CoordinatesByAddress/2017/03">
+            <wfs:Name>cbn:CoordinatesByAddress</wfs:Name>
+            <wfs:Title>Coordinates by address</wfs:Title>
+            <wfs:DefaultSRS>EPSG:3067</wfs:DefaultSRS>
+            <wfs:OtherSRS>EPSG:4258</wfs:OtherSRS>
+            <wfs:OutputFormats>
+                <wfs:Format>text/xml</wfs:Format>
+            </wfs:OutputFormats>
+            <ows:WGS84BoundingBox xmlns:ows="http://www.opengis.net/ows">
+                <ows:LowerCorner>19.2 59.6</ows:LowerCorner>
+                <ows:UpperCorner>31.6 70.1</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </wfs:FeatureType>
+    </wfs:FeatureTypeList>
+
+    <ogc:Filter_Capabilities>
+        <ogc:Spatial_Capabilities>
+            <ogc:GeometryOperands>
+                <ogc:GeometryOperand/>
+            </ogc:GeometryOperands>
+            <ogc:SpatialOperators>
+                <ogc:SpatialOperator/>
+            </ogc:SpatialOperators>
+        </ogc:Spatial_Capabilities>
+        <ogc:Scalar_Capabilities>
+            <ogc:LogicalOperators/>
+            <ogc:ComparisonOperators>
+                <ogc:ComparisonOperator/>
+            </ogc:ComparisonOperators>
+            <ogc:ArithmeticOperators>
+                <ogc:SimpleArithmetic/>
+            </ogc:ArithmeticOperators>
+        </ogc:Scalar_Capabilities>
+        <ogc:Id_Capabilities>
+            <ogc:EID/>
+            <ogc:FID/>
+        </ogc:Id_Capabilities>
+    </ogc:Filter_Capabilities>
+
+</wfs:WFS_Capabilities>

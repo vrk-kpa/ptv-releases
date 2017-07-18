@@ -1,0 +1,42 @@
+@import '../../Components/styles/variables';
+
+.language-bar {
+  display: flex;
+  .language-bar-item {
+    ~ .language-bar-item {
+      margin-left: 15px;
+    }
+    .icon-wrap {
+      margin-right: 5px;
+      // vertical-align: middle;
+    }
+  }
+  .published, .modified {
+    fill: $brand-success-alt;
+  }
+  .draft {
+    fill: $brand-warning-alt;
+  }
+  .deleted {
+    fill: $gray-alt;
+  }
+}
+
+.language-bar-text {
+  display: flex;
+  color: $brand-blue;
+  cursor: pointer;
+  .language-name {
+    text-transform: capitalize;
+  }
+  .selected & {
+    color: $gray-dark;
+    cursor: default;
+  }
+  .with-names & {
+    .language-code::after {
+      content: '-';
+      margin: 0 5px;
+    }
+  }
+}

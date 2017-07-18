@@ -1,0 +1,910 @@
+[
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE11",
+    "notation": "KE11",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3004",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Vakava sairastuminen",
+      "sv": "När man blir allvarligt sjuk",
+      "en": "Falling seriously ill"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.2",
+    "notation": "KE4.2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3012",
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Suomen sisällä muuttaminen",
+      "sv": "Att flytta inom Finland",
+      "en": "Moving to new home within Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE13",
+    "notation": "KE13",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3006",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att arbeta som anhörigvårdare",
+      "fi": "Omaishoitajana toimiminen",
+      "en": "Giving informal care"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.4",
+    "notation": "KE4.4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3014",
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Paluumuutto Suomeen",
+      "sv": "Återflyttning till Finland",
+      "en": "Moving back to Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE3",
+    "notation": "KE3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3009",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Kokoaikaisen opiskelun aloittaminen",
+      "sv": "Inledande av heltidsstudier",
+      "en": "Beginning full-time studies"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE7",
+    "notation": "KE7",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3017",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Skilsmässa",
+      "fi": "Avioero",
+      "en": "Divorce"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3009",
+    "notation": "KE3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Kokoaikaisen opiskelun aloittaminen",
+      "sv": "Inledande av heltidsstudier",
+      "en": "Beginning full-time studies"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE9",
+    "notation": "KE9",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3019",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Skuldsättning",
+      "fi": "Velkaantuminen",
+      "en": "Burdened by debt"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3006",
+    "notation": "KE13",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att arbeta som anhörigvårdare",
+      "fi": "Omaishoitajana toimiminen",
+      "en": "Giving informal care"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3005",
+    "notation": "KE12",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Rehabilitering",
+      "fi": "Kuntoutus",
+      "en": "Rehabilition"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3013",
+    "notation": "KE4.3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3010"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Flyttning till Finland",
+      "fi": "Suomesta muuttaminen",
+      "en": "Moving abroad"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE5",
+    "notation": "KE5",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3015",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Maahanmuuttajana Suomeen",
+      "sv": "Till Finland som invandrare",
+      "en": "Immigrating to Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3016",
+    "notation": "KE6",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att bygga ett hus",
+      "fi": "Talon rakentaminen",
+      "en": "Building a home"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3014",
+    "notation": "KE4.4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3010"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Paluumuutto Suomeen",
+      "sv": "Återflyttning till Finland",
+      "en": "Moving back to Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3012",
+    "notation": "KE4.2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3010"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Suomen sisällä muuttaminen",
+      "sv": "Att flytta inom Finland",
+      "en": "Moving to new home within Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3015",
+    "notation": "KE5",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Maahanmuuttajana Suomeen",
+      "sv": "Till Finland som invandrare",
+      "en": "Immigrating to Finland"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3007",
+    "notation": "KE14",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Omaisen kuolema",
+      "sv": "När en anhörig avlider",
+      "en": "Death of a close family member"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3019",
+    "notation": "KE9",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Skuldsättning",
+      "fi": "Velkaantuminen",
+      "en": "Burdened by debt"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3017",
+    "notation": "KE7",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Skilsmässa",
+      "fi": "Avioero",
+      "en": "Divorce"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3003",
+    "notation": "KE10",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Eläkkeelle siirtyminen",
+      "sv": "Att gå i pension",
+      "en": "Retirement"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3004",
+    "notation": "KE11",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Vakava sairastuminen",
+      "sv": "När man blir allvarligt sjuk",
+      "en": "Falling seriously ill"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3018",
+    "notation": "KE8",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att bli arbetslös",
+      "fi": "Työttömäksi jääminen",
+      "en": "Losing a job"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1",
+    "notation": "KE1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3001",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE1.1"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att få barn",
+      "fi": "Lapsen saaminen",
+      "en": "Having a child"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3010",
+    "notation": "KE4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3014",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3013",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3012",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3011"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Flyttning",
+      "fi": "Muuttaminen",
+      "en": "Moving"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3001",
+    "notation": "KE1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3002"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att få barn",
+      "fi": "Lapsen saaminen",
+      "en": "Having a child"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3008",
+    "notation": "KE2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Värnplikt",
+      "fi": "Asevelvollisuus",
+      "en": "Conscription"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3011",
+    "notation": "KE4.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3010"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Kotoa muuttaminen",
+      "sv": "Att flytta hemifrån",
+      "en": "Moving from childhood home"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE14",
+    "notation": "KE14",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3007",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Omaisen kuolema",
+      "sv": "När en anhörig avlider",
+      "en": "Death of a close family member"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.3",
+    "notation": "KE4.3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3013",
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Flyttning till Finland",
+      "fi": "Suomesta muuttaminen",
+      "en": "Moving abroad"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1.1",
+    "notation": "KE1.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3002",
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE1"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Adoption",
+      "fi": "Adoptio",
+      "en": "Adoption"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE10",
+    "notation": "KE10",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3003",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Eläkkeelle siirtyminen",
+      "sv": "Att gå i pension",
+      "en": "Retirement"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE12",
+    "notation": "KE12",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3005",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Rehabilitering",
+      "fi": "Kuntoutus",
+      "en": "Rehabilition"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v3002",
+    "notation": "KE1.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": null,
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v3001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Adoption",
+      "fi": "Adoptio",
+      "en": "Adoption"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE6",
+    "notation": "KE6",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3016",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att bygga ett hus",
+      "fi": "Talon rakentaminen",
+      "en": "Building a home"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE8",
+    "notation": "KE8",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3018",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Att bli arbetslös",
+      "fi": "Työttömäksi jääminen",
+      "en": "Losing a job"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.1",
+    "notation": "KE4.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3011",
+    "seviSlug": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Kotoa muuttaminen",
+      "sv": "Att flytta hemifrån",
+      "en": "Moving from childhood home"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE2",
+    "notation": "KE2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3008",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Värnplikt",
+      "fi": "Asevelvollisuus",
+      "en": "Conscription"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4",
+    "notation": "KE4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KE",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "LIFESITUATION",
+    "seviIcon": null,
+    "replacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v3010",
+    "seviSlug": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.4",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.2",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.3",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:KE4.1"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Flyttning",
+      "fi": "Muuttaminen",
+      "en": "Moving"
+    },
+    "ingress": {},
+    "exactMatchURIs": [],
+    "contentModules": [],
+    "altLabels": {},
+    "hiddenLabels": {}
+  }
+]

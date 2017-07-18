@@ -1,0 +1,189 @@
+﻿[{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P1",
+	"label": "Asuminen",
+	"finnish": "Asuminen",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P1"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P21",
+	"label": "Kuluttaja-asiat",
+	"finnish": "Kuluttaja-asiat",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P21"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P2",
+	"label": "Rakennettu ympäristö",
+	"finnish": "Rakennettu ympäristö",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P2"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P20",
+	"label": "Järjestys",
+	"finnish": "Järjestys",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P20"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P3",
+	"label": "Perheiden palvelut",
+	"finnish": "Perheiden palvelut",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P3"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P11",
+	"label": "Elinkeinot",
+	"finnish": "Elinkeinot",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P11"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P23",
+	"label": "Ympäristö",
+	"finnish": "Ympäristö",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P23"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P10",
+	"label": "Työ ja työttömyys",
+	"finnish": "Työ ja työttömyys",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P10"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P22",
+	"label": "Maahan- ja maastamuutto",
+	"finnish": "Maahan- ja maastamuutto",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P22"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P13",
+	"label": "Eläkkeet",
+	"finnish": "Eläkkeet",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P13"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P25",
+	"label": "Kulttuuri",
+	"finnish": "Kulttuuri",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P25"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P12",
+	"label": "Työnantajan palvelut",
+	"finnish": "Työnantajan palvelut",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P12"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P24",
+	"label": "Luonnonvarat, eläimet ja kasvit",
+	"finnish": "Luonnonvarat, eläimet ja kasvit",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P24"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P8",
+	"label": "Demokratia",
+	"finnish": "Demokratia",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P8"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P15",
+	"label": "Yksityinen talous ja rahoitus",
+	"finnish": "Yksityinen talous ja rahoitus",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P15"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P27",
+	"label": "Liikunta ja ulkoilu",
+	"finnish": "Liikunta ja ulkoilu",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P27"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P9",
+	"label": "Hallinto",
+	"finnish": "Hallinto",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P9"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P26",
+	"label": "Viestintä",
+	"finnish": "Viestintä",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P26"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P17",
+	"label": "Matkailu",
+	"finnish": "Matkailu",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P17"
+},
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:P16",
+        "label": "Liikenne",
+        "finnish": "Liikenne",
+        "ontologyType": "TOPLEVEL",
+        "notation": "P16"
+    },
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P6",
+	"label": "Koulutus",
+	"finnish": "Koulutus",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P6"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P4",
+	"label": "Sosiaalipalvelut",
+	"finnish": "Sosiaalipalvelut",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P4"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P19",
+	"label": "Turvallisuus",
+	"finnish": "Turvallisuus",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P19"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P18",
+	"label": "Kartat",
+	"finnish": "Kartat",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P18"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P7",
+	"label": "Oikeusturva",
+	"finnish": "Oikeusturva",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P7"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P5",
+	"label": "Terveydenhuolto, sairaanhoito ja ravitsemus",
+	"finnish": "Terveydenhuolto, sairaanhoito ja ravitsemus",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P5"
+},
+{
+	"id": "http://urn.fi/URN:NBN:fi:au:ptvl:P14",
+	"label": "Verotus ja julkinen talous",
+	"finnish": "Verotus ja julkinen talous",
+	"ontologyType": "TOPLEVEL",
+	"notation": "P14"
+}]

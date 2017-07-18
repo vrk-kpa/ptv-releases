@@ -1,0 +1,38 @@
+﻿[
+    {
+        "code": "Responsible",
+        "names": [
+            {
+                "Name": "Vastuutaho",
+                "language": "fi"
+            },
+            {
+                "Name": "Responsible",
+                "language": "en"
+            },
+            {
+                "Name": "Ansvarig organisation",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Producer",
+        "names": [
+            {
+                "Name": "Tuottaja",
+                "language": "fi"
+            },
+            {
+                "Name": "Producer",
+                "language": "en"
+            },
+            {
+                "Name": "Producent",
+                "language": "sv"
+            }
+        ]
+    }
+]

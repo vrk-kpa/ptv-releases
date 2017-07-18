@@ -1,0 +1,1 @@
+Import-Certificate -Filepath "pscert" -CertStoreLocation "Cert:\LocalMachine\Root"

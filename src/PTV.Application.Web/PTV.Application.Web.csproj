@@ -1,0 +1,724 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <VersionPrefix>1.5.1</VersionPrefix>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>PTV.Application.Web</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>PTV.Application.Web</PackageId>
+    <UserSecretsId>aspnet5-PTV.Application.Web-b6fb7b59-2745-4d7e-a277-776790e5b040</UserSecretsId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;netcore50</PackageTargetFallback>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+    <GeneratedItemPatterns>wwwroot/js/**;wwwroot/css/**</GeneratedItemPatterns>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(GeneratedItemPatterns);appsettings.*.json</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugCodeCoverageWin|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <Content Include="..\PTV.Database.DataAccess\Services\Security\UserRoles.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\css\style.css" />
+    <Content Include="wwwroot\css\style.min.css" />
+    <Content Include="wwwroot\js\app\.vscode\settings.json" />
+    <Content Include="wwwroot\js\app\Containers\Services\Styles\LandingPage.css" />
+    <Content Include="wwwroot\js\app\styles\redux-bug-reporter.css" />
+    <Content Include="wwwroot\js\app\styles\site.css" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\EntityVersion\EntityVersion.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\MapComponent\MapComponent.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\ModalDialog\ModalDialog.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\PublishingEntityDialog\PublishingEntityDialog.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\PublishingEntityForm\PublishingEntityForm.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\PublishingEntityForm\renderVisibilities.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\SelectPlaceholderInjector\SelectPlaceholderInjector.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\appComponents\ServerErrorDialog\ServerErrorDialog.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Components\PTVAutoComboBox\PTVAutoComboBox.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Components\PTVMultiAutoComboBox\PTVMultiAutoComboBox.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Components\PTVTagSelect\PTVTagSelect.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Components\PTVTreeViewComponent\PTVTreeViewSelect.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Components\PTVValidators.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Configuration\App.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\Common\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\Common\Pages\Attachments\ChannelAttachmentContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\Common\Pages\channelConnectionTypes.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\Electronic\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\Phone\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\PrintableForm\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\ServiceLocation\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Channels\WebPage\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\Address\PostalCodeContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\Address\StreetAddressContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\Buttons.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\FintoTree.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\keywords.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\languageSelect.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\LocalizedMessages.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\PageContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\PublishingStatus.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\PublishStatusContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\StepContainer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\targetGroups.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Common\YesNoSelection.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Manage\GeneralDescriptions\Search\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Manage\Organizations\Organization\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Manage\Organizations\Organization\Pages\Steps\Step1.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Manage\Users\Pages\SearchContainer\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\AccordionGrid.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelInfoSection.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceSearchCriteria.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Pages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Services\Service\Messages\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducer.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducerComponent.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducerProvisionTypes.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\FrontPageSearchForm.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\CommonSearchFields.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\PhoneSearchFields.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\PrintableFormSearchFields.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderLanguages.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderOntologyTerms.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderOrganizations.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderPublishingStatuses.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderServiceClasses.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderServiceTypes.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderTargetGroups.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\GeneralDescriptionDialog\GeneralDescriptionDialog.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\SearchTypeSwitcher.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\components\ServiceTypeCell.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\index.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\util\columnsDefinitions\columnsDefinitions.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\Routes\FrontPageV2\views\SearchView.json" />
+    <Content Include="wwwroot\js\build\messages\wwwroot\js\app\ServerMessages\ServerMessages.json" />
+    <None Update="wwwroot\**\*;Views\**\*;nlog.config">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="node_modules">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+    <None Update="logs">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+    <ProjectReference Include="..\PTV.Database.DataAccess.Interfaces\PTV.Database.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\PTV.Database.DataAccess\PTV.Database.DataAccess.csproj" />
+    <ProjectReference Include="..\PTV.Application.Api\PTV.Application.Api.csproj" />
+    <ProjectReference Include="..\PTV.Application.Framework\PTV.Application.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="1.1.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="1.1.2" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="1.0.1-beta2" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.0.0-rtm-alpha4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Webpack" Version="3.0.0" />
+  </ItemGroup>
+
+  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+    <Exec Command="npm run prod" />
+    <ItemGroup>
+      <_GeneratedFiles Include="$(GeneratedItemPatterns)" />
+      <ContentWithTargetPath Include="@(_GeneratedFiles->'%(FullPath)')" RelativePath="%(_GeneratedFiles.Identity)" TargetPath="%(_GeneratedFiles.Identity)" CopyToPublishDirectory="PreserveNewest" />
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\app\appComponents\EntityVersion\EntityVersion.js" />
+    <None Include="wwwroot\js\app\appComponents\EntityVersion\index.js" />
+    <None Include="wwwroot\js\app\appComponents\EntityVersion\styles.scss" />
+    <None Include="wwwroot\js\app\appComponents\InfoBox\index.js" />
+    <None Include="wwwroot\js\app\appComponents\InfoBox\InfoBox.js" />
+    <None Include="wwwroot\js\app\appComponents\LanguageBar\index.js" />
+    <None Include="wwwroot\js\app\appComponents\LanguageBar\Language.js" />
+    <None Include="wwwroot\js\app\appComponents\LanguageBar\LanguageBar.js" />
+    <None Include="wwwroot\js\app\appComponents\LanguageBar\styles.scss" />
+    <None Include="wwwroot\js\app\appComponents\Localize\index.js" />
+    <None Include="wwwroot\js\app\appComponents\Localize\localize.js" />
+    <None Include="wwwroot\js\app\appComponents\MapComponent\index.js" />
+    <None Include="wwwroot\js\app\appComponents\MapComponent\MapComponent.js" />
+    <None Include="wwwroot\js\app\appComponents\ModalDialog\index.js" />
+    <None Include="wwwroot\js\app\appComponents\ModalDialog\ModalDialog.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityDialog\index.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityDialog\PublishingEntityDialog.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityForm\index.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityForm\LanguageVisibilityCell.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityForm\PublishingEntityForm.js" />
+    <None Include="wwwroot\js\app\appComponents\PublishingEntityForm\renderVisibilities.js" />
+    <None Include="wwwroot\js\app\appComponents\SearchFilter\composeSearchFilter.js" />
+    <None Include="wwwroot\js\app\appComponents\SearchFilter\index.js" />
+    <None Include="wwwroot\js\app\appComponents\SearchFilter\SearchField.js" />
+    <None Include="wwwroot\js\app\appComponents\Security\composeSecurity.js" />
+    <None Include="wwwroot\js\app\appComponents\Security\index.js" />
+    <None Include="wwwroot\js\app\appComponents\Security\Security.js" />
+    <None Include="wwwroot\js\app\appComponents\SelectPlaceholderInjector\index.js" />
+    <None Include="wwwroot\js\app\appComponents\SelectPlaceholderInjector\SelectPlaceholderInjector.js" />
+    <None Include="wwwroot\js\app\appComponents\ServerErrorDialog\index.js" />
+    <None Include="wwwroot\js\app\appComponents\ServerErrorDialog\ServerErrorDialog.js" />
+    <None Include="wwwroot\js\app\appComponents\TreeView\ChildrenIcon.js" />
+    <None Include="wwwroot\js\app\appComponents\TreeView\index.js" />
+    <None Include="wwwroot\js\app\appComponents\TreeView\Node.js" />
+    <None Include="wwwroot\js\app\appComponents\TreeView\TreeView.js" />
+    <None Include="wwwroot\js\app\Components\Divider\Divider.js" />
+    <None Include="wwwroot\js\app\Components\Divider\index.js" />
+    <None Include="wwwroot\js\app\Components\Divider\styles.scss" />
+    <None Include="wwwroot\js\app\Components\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVAddItem\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVAddItem\PTVAddItem.js" />
+    <None Include="wwwroot\js\app\Components\PTVAddItem\PTVAddItemFooter.js" />
+    <None Include="wwwroot\js\app\Components\PTVAddItem\PTVAddItemHeader.js" />
+    <None Include="wwwroot\js\app\Components\PTVAddItem\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVAutoComboBox\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVAutoComboBox\PTVAutoComboBox.js" />
+    <None Include="wwwroot\js\app\Components\PTVAutoComboBox\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVButton\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVButton\PTVButton.js" />
+    <None Include="wwwroot\js\app\Components\PTVButton\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxList\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxList\PTVCheckBoxList.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxList\PTVCheckBoxListNew.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxList\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxTwoLevelList\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxTwoLevelList\PTVCheckBoxTwoLevelList.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBoxTwoLevelList\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBox\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBox\PTVCheckBox.js" />
+    <None Include="wwwroot\js\app\Components\PTVCheckBox\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVComponent.js" />
+    <None Include="wwwroot\js\app\Components\PTVConfirmDialog\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVConfirmDialog\PTVConfirmDialog.js" />
+    <None Include="wwwroot\js\app\Components\PTVConfirmDialog\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVDateTimePicker\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVDateTimePicker\PTVDateTimePicker.js" />
+    <None Include="wwwroot\js\app\Components\PTVDateTimePicker\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVGroup\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVGroup\PTVGroup.js" />
+    <None Include="wwwroot\js\app\Components\PTVGroup\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVHeaderSection\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVHeaderSection\PTVHeaderSection.js" />
+    <None Include="wwwroot\js\app\Components\PTVHeaderSection\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVIcon\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVIcon\PTVIcon.js" />
+    <None Include="wwwroot\js\app\Components\PTVIcon\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVLabelCustomComponent\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVLabelCustomComponent\PTVLabelCustomComponent.js" />
+    <None Include="wwwroot\js\app\Components\PTVLabel\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVLabel\PTVLabel.js" />
+    <None Include="wwwroot\js\app\Components\PTVLabel\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVMessageBox\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVMessageBox\PTVMessageBox.js" />
+    <None Include="wwwroot\js\app\Components\PTVMessageBox\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVMultiAutoComboBox\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVMultiAutoComboBox\PTVMultiAutoComboBox.js" />
+    <None Include="wwwroot\js\app\Components\PTVMultiAutoComboBox\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVNavigationItem\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVNavigationItem\PTVNavigationItem.js" />
+    <None Include="wwwroot\js\app\Components\PTVNavigationItem\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVNavigation\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVNavigation\PTVNavigation.js" />
+    <None Include="wwwroot\js\app\Components\PTVNavigation\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVOverlay\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVOverlay\PTVOverlay.js" />
+    <None Include="wwwroot\js\app\Components\PTVOverlay\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVPopupSearchInput\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVPopupSearchInput\PTVPopupSearchInput.js" />
+    <None Include="wwwroot\js\app\Components\PTVPopupSearchInput\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVPreloader\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVPreloader\PTVPreloader.js" />
+    <None Include="wwwroot\js\app\Components\PTVPreloader\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVRadioGroup\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVRadioGroup\PTVRadioButton.js" />
+    <None Include="wwwroot\js\app\Components\PTVRadioGroup\PTVRadioGroup.js" />
+    <None Include="wwwroot\js\app\Components\PTVRadioGroup\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVRenderInBody\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVRenderInBody\PTVRenderInBody.js" />
+    <None Include="wwwroot\js\app\Components\PTVRenderInBody\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTable\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTable\PTVTable.js" />
+    <None Include="wwwroot\js\app\Components\PTVTable\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTabs\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTabs\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTabs\Tab.js" />
+    <None Include="wwwroot\js\app\Components\PTVTabs\TabContent.js" />
+    <None Include="wwwroot\js\app\Components\PTVTabs\Tabs.js" />
+    <None Include="wwwroot\js\app\Components\PTVTagInput\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTagInput\PTVTagInput.js" />
+    <None Include="wwwroot\js\app\Components\PTVTagInput\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTagSelect\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTagSelect\PTVTagSelect.js" />
+    <None Include="wwwroot\js\app\Components\PTVTagSelect\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTag\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTag\PTVTag.js" />
+    <None Include="wwwroot\js\app\Components\PTVTag\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTextArea\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextArea\PTVTextArea.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextArea\PTVTextAreaNotEmpty.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextArea\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\PTVBlockStyleButtons.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\PTVTextEditor.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\PTVTextEditorNotEmpty.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTextEditor\stylesBlocks.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTextInput\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextInput\PTVTextInput.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextInput\PTVTextInputNotEmpty.js" />
+    <None Include="wwwroot\js\app\Components\PTVTextInput\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTimeSelect\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTimeSelect\PTVTimeSelect.js" />
+    <None Include="wwwroot\js\app\Components\PTVTimeSelect\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTooltip\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTooltip\PTVTooltip.js" />
+    <None Include="wwwroot\js\app\Components\PTVTooltip\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTranslationText\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVTranslationText\PTVTranslationText.js" />
+    <None Include="wwwroot\js\app\Components\PTVTranslationText\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\PTVNode.js" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\PTVTreeList.js" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\PTVTreeModel.js" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\PTVTreeView.js" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\PTVTreeViewSelect.js" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\styles\PTVTreeList.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTreeViewComponent\styles\PTVTreeView.scss" />
+    <None Include="wwwroot\js\app\Components\PTVTypingRules.js" />
+    <None Include="wwwroot\js\app\Components\PTVUrlChecker\index.js" />
+    <None Include="wwwroot\js\app\Components\PTVUrlChecker\PTVUrlChecker.js" />
+    <None Include="wwwroot\js\app\Components\PTVUrlChecker\styles.scss" />
+    <None Include="wwwroot\js\app\Components\PTVValidationManager.js" />
+    <None Include="wwwroot\js\app\Components\PTVValidations.js" />
+    <None Include="wwwroot\js\app\Components\PTVValidators.js" />
+    <None Include="wwwroot\js\app\Components\styles\bootstrap-datetimepicker.scss" />
+    <None Include="wwwroot\js\app\Components\styles\PTVCommon.scss" />
+    <None Include="wwwroot\js\app\Components\styles\react-bootstrap-table.scss" />
+    <None Include="wwwroot\js\app\Components\styles\react-datetime.scss" />
+    <None Include="wwwroot\js\app\Components\styles\_mixins.scss" />
+    <None Include="wwwroot\js\app\Components\styles\_placeholders.scss" />
+    <None Include="wwwroot\js\app\Components\styles\_react-select.scss" />
+    <None Include="wwwroot\js\app\Components\styles\_variables.scss" />
+    <None Include="wwwroot\js\app\Components\__test__\Helpers\intlEnzymeTestHelper.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVAddItem.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVAddItemFooter.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVAddItemHeader.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVAutoComboBox.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVButton.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVCheckBox.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVCheckBoxList.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVCheckBoxTwoLevelList.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVConfirmDialog.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVHeaderSection.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVIcon.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVLabel.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVMessageBox.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVMultiAutoComboBox.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVNavigation.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVNavigationItem.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVOverlay.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVPopupSearchInput.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTag.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTagInput.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTextArea.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTextInput.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTimeSelect.test.js" />
+    <None Include="wwwroot\js\app\Components\__test__\PTVTooltip.test.js" />
+    <None Include="wwwroot\js\app\Configuration\App.js" />
+    <None Include="wwwroot\js\app\Configuration\AppHelpers.js" />
+    <None Include="wwwroot\js\app\Configuration\configureStore.js" />
+    <None Include="wwwroot\js\app\Configuration\createFetch.js" />
+    <None Include="wwwroot\js\app\Configuration\createRoutes.js" />
+    <None Include="wwwroot\js\app\Configuration\MapDispatchToProps.js" />
+    <None Include="wwwroot\js\app\Configuration\MapStateToProps.js" />
+    <None Include="wwwroot\js\app\Configuration\reducer.js" />
+    <None Include="wwwroot\js\app\Configuration\selectors.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Helpers\types.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\Attachments\ChannelAttachmentContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\Attachments\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelAddresses.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelAreaInformation.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelAuthenticationSign.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelConnectionTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\ChannelDescriptionContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelEmail.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelEmailAddress.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelFaxNumber.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelFormIdentifier.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelFormReceiver.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelLanguages.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelOnLineAuthentication.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelPhoneNumber.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\ChannelPhoneNumbers.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelPublishingStatus.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelServiceStep.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelServiceTable.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelUrl.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelUrlAttachments.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\channelWebPages.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHours.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursAdditionalInfo.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursDaily.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursDailySet.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursDayTimes.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursExceptional.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursList.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursPreview.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursPreviewDay.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursPreviewList.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursSpecial.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\OpeningHoursValidityTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\OpeningHours\styles.scss" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Pages\SubMenu.scss" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Styles\ChannelAttachmentContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Styles\ChannelDescriptionContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Channels\Common\Styles\Container.scss" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Pages\Steps1.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Pages\Steps2.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Electronic\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Pages\Steps1.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Pages\Steps2.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\Phone\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\PrintableForm\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\PrintableForm\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\PrintableForm\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\PrintableForm\Pages\Step1.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\PrintableForm\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Pages\Steps1.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Pages\Steps4.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\ServiceLocation\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\WebPage\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\WebPage\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\WebPage\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\WebPage\Pages\Step1.js" />
+    <None Include="wwwroot\js\app\Containers\Channels\WebPage\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Actions\Nodes.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Actions\PageContainerActions.js" />
+    <None Include="wwwroot\js\app\Containers\Common\AdditionalInfoComponent.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Address\addressMap.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Address\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Address\PostalCodeContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Address\StreetAddressContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Areas\areaInformationType.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Areas\areas.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Areas\areaTree.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Areas\areaType.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Areas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\asyncComboBox.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Business\Business.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Buttons.js" />
+    <None Include="wwwroot\js\app\Containers\Common\channelTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Common\chargeTypeCombo.js" />
+    <None Include="wwwroot\js\app\Containers\Common\DateTimeValidityInputs.js" />
+    <None Include="wwwroot\js\app\Containers\Common\EmailComponent.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Emails\Email.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Emails\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Email\EmailContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Email\EmailGrid.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Enums\EnumFactory.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Enums\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\FintoTree.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Helpers\types.js" />
+    <None Include="wwwroot\js\app\Containers\Common\keywords.js" />
+    <None Include="wwwroot\js\app\Containers\Common\languageLabel.js" />
+    <None Include="wwwroot\js\app\Containers\Common\languages.js" />
+    <None Include="wwwroot\js\app\Containers\Common\languageSelect.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Laws\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Laws\LawContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\localizedData.js" />
+    <None Include="wwwroot\js\app\Containers\Common\LocalizedMessages.js" />
+    <None Include="wwwroot\js\app\Containers\Common\municipalities.js" />
+    <None Include="wwwroot\js\app\Containers\Common\NotificationContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\organizations.js" />
+    <None Include="wwwroot\js\app\Containers\Common\organizationsTagSelect.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PageContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PhoneNumbers\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PhoneNumbers\PhoneNumber.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PhoneNumbers\PhoneNumberContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PublishingStatus.js" />
+    <None Include="wwwroot\js\app\Containers\Common\PublishStatusContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Reducers\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Reducers\Nodes.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Reducers\PageContainerReducer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Selectors\security.js" />
+    <None Include="wwwroot\js\app\Containers\Common\StepContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\Styles\Buttons.scss" />
+    <None Include="wwwroot\js\app\Containers\Common\Styles\PublishStatusContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Common\Styles\StepContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Common\tableNameFormatter.js" />
+    <None Include="wwwroot\js\app\Containers\Common\targetGroups.js" />
+    <None Include="wwwroot\js\app\Containers\Common\textList.js" />
+    <None Include="wwwroot\js\app\Containers\Common\WebPages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Common\WebPages\WebPageContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Common\YesNoSelection.js" />
+    <None Include="wwwroot\js\app\Containers\FrontPage\Pages\Index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\GeneralDescriptions\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Search\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Search\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Search\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\GeneralDescriptions\Search\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationAddresses.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationAreaInformation.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationDescriptionContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationEmails.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationGroupLevelContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationPhoneNumbers.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationTypeMunicipalityContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Pages\OrganizationWebPages.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Pages\Steps\Step1.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Organization\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Organizations\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\ServicePackages\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\ServicePackages\Pages\SearchContainer\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Styles\SubMenu.scss" />
+    <None Include="wwwroot\js\app\Containers\Manage\Users\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Manage\Users\Pages\SearchContainer\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ChannelSearch\Styles\ChannelSearch.scss" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Helpers\confirmationTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ChannelSearchCriteria.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ChannelSearchCriteriaTags.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ChannelSearchResultTable.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\OverlayStyles.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\PTVTable2.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\AccordionGrid.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\ChannelRelationAccordion.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\ChannelRelationAdditionalInformation.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\ServiceAccordion.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\RelationAccordionGrid\styles.scss" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelButtons.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelCollapsible.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelConfirmOverlay.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelDigitalAuthorization.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelInfoBox.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelInfoSection.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceAndChannelTag.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceSearchCriteria.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceSearchCriteriaTags.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Pages\ServiceSearchResultTable.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceAndChannel\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Pages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Relations\ServiceAndChannels\ServiceSearch\Styles\ServiceSearch.scss" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceAreaInformation.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceChargeTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceDescription.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceDescriptions.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceDescriptionTextEditor.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceGeneralDecriptionLaws.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceGeneralDescription.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceIndustrialClasses.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceKeywords.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceLanguages.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceLaws.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceLifeEvents.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceNames.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceOntologyTerms.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceOrganizations.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceOrganizers.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceServiceClasses.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceTargetGroups.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceTypeAdditionalInfo.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Pages\serviceTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Common\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Actions\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Messages\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\ServiceContainer.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\ServiceStep1Container.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\ServiceStep2Container.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\ServiceStep3Container.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\ServiceStep4Container.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducer.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducerComponent.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Pages\Steps\Step3Components\ServiceProducerProvisionTypes.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Schemas\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Service\Selectors\index.js" />
+    <None Include="wwwroot\js\app\Containers\Services\Styles\LandingPage.scss" />
+    <None Include="wwwroot\js\app\Containers\Services\Styles\SearchGeneralDescriptionContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Services\Styles\ServiceStep2Container.scss" />
+    <None Include="wwwroot\js\app\Containers\Services\Styles\StepContainer.scss" />
+    <None Include="wwwroot\js\app\Containers\Services\__test__\actions.test.js" />
+    <None Include="wwwroot\js\app\Containers\Services\__test__\Reducers.test.js" />
+    <None Include="wwwroot\js\app\Intl\Actions.js" />
+    <None Include="wwwroot\js\app\Intl\IntlProvider.js" />
+    <None Include="wwwroot\js\app\Intl\Reducer.js" />
+    <None Include="wwwroot\js\app\Intl\Schemas.js" />
+    <None Include="wwwroot\js\app\Intl\Selectors.js" />
+    <None Include="wwwroot\js\app\main.js" />
+    <None Include="wwwroot\js\app\Middleware\Api.js" />
+    <None Include="wwwroot\js\app\Middleware\index.js" />
+    <None Include="wwwroot\js\app\reducers\frontPage\index.js" />
+    <None Include="wwwroot\js\app\reducers\maps\index.js" />
+    <None Include="wwwroot\js\app\reducers\routing\routing.js" />
+    <None Include="wwwroot\js\app\reducers\ui\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\actions\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\FrontPageSearchForm.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\CommonSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\GeneralDescriptionSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\OrganizationSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\PhoneSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\PrintableFormSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\partial\ServiceSearchFields.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderLanguages.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderOntologyTerms.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderOrganizations.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderPhoneTypes.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderPublishingStatuses.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderServiceClasses.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderServiceTypes.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\FrontPageSearchForm\renders\renderTargetGroups.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\GeneralDescriptionDialog\GeneralDescriptionDialog.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\GeneralDescriptionDialog\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\ModifiedAtCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\ModifiedByCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\NameCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\OntologyTermsCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\OrganizationCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\PublishingStatusCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\SearchTypeSwitcher.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\ServiceClassesCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\ServiceTypeCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\components\ShortDescriptionCell.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\selectors\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\styles\style.scss" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\util\columnsDefinitions\columnsDefinitions.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\util\columnsDefinitions\index.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\util\columnsDefinitions\styles.scss" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\views\SearchView.js" />
+    <None Include="wwwroot\js\app\Routes\FrontPageV2\views\style.scss" />
+    <None Include="wwwroot\js\app\Routes\GeneralDescription\actions\index.js" />
+    <None Include="wwwroot\js\app\Routes\GeneralDescription\selectors\index.js" />
+    <None Include="wwwroot\js\app\Routes\Relations\index.js" />
+    <None Include="wwwroot\js\app\Routes\Relations\ServiceAndChannelPage.js" />
+    <None Include="wwwroot\js\app\Routes\Service\GeneralDescriptionPage.js" />
+    <None Include="wwwroot\js\app\Routes\Service\index.js" />
+    <None Include="wwwroot\js\app\Routes\Service\ManageServicePage.js" />
+    <None Include="wwwroot\js\app\Routes\Service\ServicePage.js" />
+    <None Include="wwwroot\js\app\Routes\Tools\Styles.scss" />
+    <None Include="wwwroot\js\app\Routes\Tools\ToolsPage.js" />
+    <None Include="wwwroot\js\app\selectors\index.js" />
+    <None Include="wwwroot\js\app\selectors\maps\index.js" />
+    <None Include="wwwroot\js\app\ServerMessages\ServerMessages.js" />
+    <None Include="wwwroot\js\app\styles\site.scss" />
+    <None Include="wwwroot\js\app\Utils\Index.js" />
+    <None Include="wwwroot\js\app\Utils\redux-ui\action-reducer.js" />
+    <None Include="wwwroot\js\app\Utils\redux-ui\index.js" />
+    <None Include="wwwroot\js\app\Utils\redux-ui\ui.js" />
+    <None Include="wwwroot\js\app\Utils\redux-ui\utils.js" />
+    <None Include="wwwroot\js\app\Utils\ReduxForm\renders.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\components\BugReportItem.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\components\BugReportItem.scss" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\index.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\asana.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\console.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\default.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\github.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\jira.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\ptv.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\sheetsu.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\integrations\taiga.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\is-client-render.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\redux-bug-reporter.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\redux-bug-reporter.less" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\store-enhancer.js" />
+    <None Include="wwwroot\js\app\util\redux-bug-reporter\utils.js" />
+    <None Include="wwwroot\js\build\home-icon.svg" />
+    <None Include="wwwroot\js\build\icon-search.svg" />
+    <None Include="wwwroot\js\build\ptv.bundle.js" />
+    <None Include="wwwroot\js\build\trashbin.svg" />
+  </ItemGroup>
+
+</Project>

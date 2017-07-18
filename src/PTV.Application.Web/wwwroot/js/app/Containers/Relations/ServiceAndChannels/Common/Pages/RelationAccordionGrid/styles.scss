@@ -1,0 +1,75 @@
+@import '../../../../../../Components/styles/variables';
+@import '../../../../../../Components/styles/mixins';
+
+.channel-relation-info {
+    border: 1px solid $gray-mid;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+
+    .header, .body {
+      padding: 10px 20px;
+    }
+
+    .header {
+      background-color: $gray-lightest;
+      border-bottom: 1px solid $gray-mid;
+
+      &-title {
+        margin: 0;
+      }
+    }
+}
+
+/*.service-accordion, .channel-accordion {
+  > .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}*/
+
+.accordion-grid {
+  margin-bottom: 25px;
+  font-size: 15px;
+  .ptv-tooltip {
+    font-size: 15px;
+  }
+  .ptv-button.button-link {
+    font-size: 15px;
+  }
+  [class^=status-] {
+    margin: 5px 0;
+    display: inline-block;
+  }
+}
+
+.service-accordion {
+  &:first-child {
+    border-top: 1px solid $gray-mid;
+  }
+
+  border-bottom: 1px solid $gray-mid;
+}
+
+.channel-accordion {
+  ~ .channel-accordion {
+    .channel-accordion-item {
+      border-top: 1px solid $gray-mid;
+    }
+  }
+}
+
+.connection-info {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.accordion-subitem {
+  margin-left: 205px;
+  &.extra {
+    margin-left: 355px;
+  }
+}
+
+.accordion-subitem-details {
+  margin-left: 75px;
+}

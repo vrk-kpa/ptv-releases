@@ -1,0 +1,250 @@
+@import '../../../../../Components/styles/variables';
+@import '../../../../../Components/styles/mixins';
+
+.float-children > * {
+  float: left;
+
+  & ~ * {
+    margin-left: 20px;
+  }
+}
+
+.day-label {
+  width: 25px;
+}
+
+.extra-hours {
+  margin-left: 0;
+
+  &::before {
+    content: "ja";
+    margin: 0 10px;
+  }
+}
+
+.day-select {
+  width: 100px;
+}
+
+.opening-hours-container {
+
+  .opening-hours-daily-container {
+    &:first-child {
+      margin-top: 3px;
+    }
+
+    .opening-hours-connector, .icon-wrap {
+      float: left;
+      margin: 7px 10px;
+    }
+
+    .icon-wrap {
+      [class^="icon-"] {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .ptv-label {
+    margin-bottom: 0;
+  }
+
+  .ptv-textinput {
+    // padding: 6px 10px;
+    // margin-top: 4px;
+  }
+
+  .ptv-checkbox {
+    margin-bottom: 4px;
+  }
+
+  .ptv-datetime {
+    margin-bottom: 4px;
+  }
+
+  .aic-body-content {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #FFFFFF;
+  }
+
+  .aic-footer-content {
+    background-color: #FFFFFF;
+  }
+
+  .opening-hours-item-row {
+    border-bottom: 1px solid $gray-mid;
+    margin-top: 0;
+  }
+
+  .opening-hours-form {
+    padding: 10px 20px;
+    //border-right: 1px solid $gray-mid;
+    background-color: $gray-lightest;
+  }
+
+  .add-item-container {
+    margin-top: 20px;
+
+    .remove-item {
+      top: 10px;
+      right: 24px;
+    }
+  }
+
+  // readonly overrides
+  &.readonly {
+    .item-row {
+      border-bottom: none;
+    }
+  }
+
+  // modifications of 3rd party component styles
+  .is-clearable.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+  .is-clearable.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+    padding-right: 30px;
+  }
+
+  .Select-placeholder, .Select--single > .Select-control .Select-value {
+    padding-left: 8px;
+    padding-right: 8px;
+    // line-height: 32px;
+  }
+
+  .Select-input {
+    height: 24px;
+    input {
+      height: 24px;
+    }
+  }
+
+  .Select-control {
+    div {
+      box-sizing: border-box;
+    }
+    // margin-top: 4px;
+  }
+
+  .Select-arrow-zone, .Select-clear-zone {
+    width: 20px;
+  }
+
+  .Select-clear-zone {
+    padding-top: 4px;
+    .Select-clear {
+      font-size: 20px;
+    }
+  }
+
+  .separator {
+    position: relative;
+  }
+
+  .separator::before {
+      @include absolute(top 8px left -12px);
+      content: "-";
+  }
+
+}
+
+.opening-hours-preview {
+    padding: 13px 0;
+
+  .opening-hours-preview-title {
+    text-align: right;
+    padding: 0 10px;
+
+    > * {
+      text-align: left;
+    }
+  }
+
+  .alter-title {
+    font-weight: bold;
+    margin: 0;
+    word-break: break-all;
+  }
+
+  .opening-hours-preview-body {
+    word-break: break-all;
+  }
+
+}
+
+.opening-hours-preview-section {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid $gray-mid;
+  position: relative;
+
+  // preview arrow
+  &:nth-child(2) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 19px;
+      left: -9px;
+      border: 9px solid transparent;
+      border-left: none;
+      border-right-color: $gray-mid;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: -7px;
+      border: 8px solid transparent;
+      border-left: none;
+      border-right-color: #FFFFFF;
+    }
+
+    @media #{bp('<desktop')} {
+      &::before {
+        top: -9px;
+        left: 19px;
+        border: 9px solid transparent;
+        border-top: none;
+        border-bottom-color: $gray-mid;
+      }
+
+      &::after {
+        top: -7px;
+        left: 20px;
+        border: 8px solid transparent;
+        border-top: none;
+        border-bottom-color: #FFFFFF;
+      }
+    }
+  }
+
+  ~ .opening-hours-preview-section {
+    border-top: none;
+  }
+
+  .opening-hours-preview-section-item {
+
+    ~ .opening-hours-preview-section-item {
+      margin-top: 10px;
+    }
+  }
+
+  .readonly & {
+    border: none;
+    padding: 0;
+
+    & ~ .opening-hours-preview-section {
+      padding-top: 20px;
+    }
+
+    &:nth-child(2) {
+      &::before {
+        content: normal;
+      }
+
+      &::after {
+        content: normal;
+      }
+    }
+  }
+}

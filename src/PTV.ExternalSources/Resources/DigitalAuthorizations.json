@@ -1,0 +1,121 @@
+[
+    {
+        "active": true,
+        "broaderConcepts": [],
+        "conceptMatches": [],
+        "definitions": [
+            {
+                "label": "Valtuusrekisterin valtuuskohteiden yläkäsite",
+                "lang": "sv"
+            },
+            {
+                "label": "Valtuusrekisterin valtuuskohteiden yläkäsite",
+                "lang": "fi"
+            },
+            {
+                "label": "Valtuusrekisterin valtuuskohteiden yläkäsite",
+                "lang": "en"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "Valtuusasiat",
+                "lang": "en"
+            },
+            {
+                "label": "Valtuusasiat",
+                "lang": "sv"
+            },
+            {
+                "label": "Valtuusasiat",
+                "lang": "fi"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://valtuusrekisteri.suomi.fi/maahanmuuttoasiat"
+        ],
+        "principal": "any",
+        "uri": "http://valtuusrekisteri.suomi.fi/p1"
+    },
+    {
+        "active": true,
+        "broaderConcepts": [
+            "http://valtuusrekisteri.suomi.fi/p1"
+        ],
+        "conceptMatches": [],
+        "definitions": [
+            {
+                "label": "Immigration and emigration",
+                "lang": "en"
+            },
+            {
+                "label": "Immigration och emigration",
+                "lang": "sv"
+            },
+            {
+                "label": "Maahan- ja maastamuutto",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "Maahan- ja maastamuutto",
+                "lang": "fi"
+            },
+            {
+                "label": "Immigration and emigration",
+                "lang": "en"
+            },
+            {
+                "label": "Immigration och emigration",
+                "lang": "sv"
+            }
+        ],
+        "narrowerConcepts": [
+            "http://valtuusrekisteri.suomi.fi/tyoperainen_maahanmuutto"
+        ],
+        "principal": "any",
+        "uri": "http://valtuusrekisteri.suomi.fi/maahanmuuttoasiat"
+    },
+    {
+        "active": true,
+        "broaderConcepts": [
+            "http://valtuusrekisteri.suomi.fi/maahanmuuttoasiat"
+        ],
+        "conceptMatches": [],
+        "definitions": [
+            {
+                "label": "En person som har denna fullmakt kan på fullmaktsgivarens vägnar uträtta anmälningsärenden som hör till en utlännings ansökan om uppehållstillstånd och till övervakningen av arbetet.",
+                "lang": "sv"
+            },
+            {
+                "label": "A person with this authorisation can act on behalf of the principal when taking care of notifications related to the residence permit application of a foreign national and to the supervision of work.",
+                "lang": "en"
+            },
+            {
+                "label": "Tällä valtuudella valtuutettu voi hoitaa valtuuttajan puolesta ulkomaalaisen oleskelulupahakemukseen ja  työnteon valvontaan liittyviä ilmoittamisasioita.",
+                "lang": "fi"
+            }
+        ],
+        "id": 0,
+        "labels": [
+            {
+                "label": "Työperäinen maahanmuutto",
+                "lang": "fi"
+            },
+            {
+                "label": "Arbetsrelaterad invandring",
+                "lang": "sv"
+            },
+            {
+                "label": "Employment-based immigration",
+                "lang": "en"
+            }
+        ],
+        "narrowerConcepts": [],
+        "principal": "company",
+        "uri": "http://valtuusrekisteri.suomi.fi/tyoperainen_maahanmuutto"
+    }
+]

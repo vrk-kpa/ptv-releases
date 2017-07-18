@@ -1,0 +1,25 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.ptv-datetime {
+  width: 110px;
+  position: relative;
+  //float: left;
+
+  & input {
+    // padding: 4px;
+    // padding-right: 28px; 
+    width: 100%;
+    font-size: 14px;
+  }
+
+  &~.separator {
+    float: left;
+    margin: 0 5px;
+  }
+
+  th, td {
+    vertical-align: middle;
+  }
+
+}

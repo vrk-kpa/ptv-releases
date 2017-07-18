@@ -1,0 +1,136 @@
+[
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1",
+        "Notation": "TT1",
+        "Label": {
+            "fi": "Julkiset palvelutuottajat",
+            "sv": "Offentliga serviceleverantörer",
+            "en": "Public sector service producers"
+        },
+        "Finnish": "Julkiset palvelutuottajat",
+        "Swedish": "Offentliga serviceleverantörer",
+        "English": "Public sector service producers",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [],
+        "NarrowerURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.1", "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.2", "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.1" ],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.1",
+        "Notation": "State",
+        "Label": {
+            "sv": "Staten",
+            "fi": "Valtio",
+            "en": "State"
+        },
+        "Finnish": "Valtio",
+        "Swedish": "Staten",
+        "English": "State",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.2",
+        "Notation": "Municipality",
+        "Label": {
+            "sv": "Kommun",
+            "fi": "Kunta",
+            "en": "Municipality"
+        },
+        "Finnish": "Kunta",
+        "Swedish": "Kommun",
+        "English": "Municipality",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.3",
+        "Notation": "RegionalOrganization",
+        "Label": {
+            "sv": "Regionalt samarbetsorgan",
+            "fi": "Alueellinen yhteistoimintaorganisaatio",
+            "en": "Regional joint organization"
+        },
+        "Finnish": "Alueellinen yhteistoimintaorganisaatio",
+        "Swedish": "Regionalt samarbetsorgan",
+        "English": "Regional joint organization",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2",
+        "Notation": "TT2",
+        "Label": {
+            "fi": "Yksityiset palvelutuottajat",
+            "sv": "Privata serviceleverantörer",
+            "en": "Private sector service producers"
+        },
+        "Finnish": "Yksityiset palvelutuottajat",
+        "Swedish": "Privata serviceleverantörer",
+        "English": "Private sector service producers",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [],
+        "NarrowerURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.2", "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.1" ],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.1",
+        "Notation": "Company",
+        "Label": {
+            "sv": "Företag",
+            "fi": "Yritykset",
+            "en": "Companies"
+        },
+        "Finnish": "Yritykset",
+        "Swedish": "Företag",
+        "English": "Companies",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT2" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.2",
+        "Notation": "Organization",
+        "Label": {
+            "sv": "Föreningar och organisationer",
+            "fi": "Järjestöt ja yhteisöt",
+            "en": "Non-profit organizations"
+        },
+        "Finnish": "Järjestöt ja yhteisöt",
+        "Swedish": "Föreningar och organisationer",
+        "English": "Non-profit organizations",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT2" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    }
+
+]

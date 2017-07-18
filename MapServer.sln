@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F2E868C-F858-4243-98B3-928381545512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{611002F2-A83C-40DC-B528-50BD82500402}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.MapServer", "src\PTV.MapServer\PTV.MapServer.xproj", "{C47934BD-F3F4-4466-B297-0D3DEDBDF979}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Framework", "src\PTV.Framework\PTV.Framework.xproj", "{D6278021-E0CB-441E-9331-9986B8C815DE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Framework.Interfaces", "src\PTV.Framework.Interfaces\PTV.Framework.Interfaces.xproj", "{15A0F549-E739-4386-B6C9-E96DCF00A1EC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Database.DataAccess.Interfaces", "src\PTV.Database.DataAccess.Interfaces\PTV.Database.DataAccess.Interfaces.xproj", "{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Database.Model", "src\PTV.Database.Model\PTV.Database.Model.xproj", "{2A4C2348-763C-4919-BC2B-6E761371A261}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Domain.Model", "src\PTV.Domain.Model\PTV.Domain.Model.xproj", "{DCC1B8B3-B163-418E-90A8-40CC3EFD196A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.ExternalSources", "src\PTV.ExternalSources\PTV.ExternalSources.xproj", "{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Database.DataAccess", "src\PTV.Database.DataAccess\PTV.Database.DataAccess.xproj", "{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PTV.Domain.Logic", "src\PTV.Domain.Logic\PTV.Domain.Logic.xproj", "{BD896BE9-2AC0-494F-9E9A-720C3DD93C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C47934BD-F3F4-4466-B297-0D3DEDBDF979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47934BD-F3F4-4466-B297-0D3DEDBDF979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47934BD-F3F4-4466-B297-0D3DEDBDF979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47934BD-F3F4-4466-B297-0D3DEDBDF979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6278021-E0CB-441E-9331-9986B8C815DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6278021-E0CB-441E-9331-9986B8C815DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6278021-E0CB-441E-9331-9986B8C815DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6278021-E0CB-441E-9331-9986B8C815DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A0F549-E739-4386-B6C9-E96DCF00A1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A0F549-E739-4386-B6C9-E96DCF00A1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A0F549-E739-4386-B6C9-E96DCF00A1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A0F549-E739-4386-B6C9-E96DCF00A1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4C2348-763C-4919-BC2B-6E761371A261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4C2348-763C-4919-BC2B-6E761371A261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4C2348-763C-4919-BC2B-6E761371A261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4C2348-763C-4919-BC2B-6E761371A261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC1B8B3-B163-418E-90A8-40CC3EFD196A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC1B8B3-B163-418E-90A8-40CC3EFD196A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC1B8B3-B163-418E-90A8-40CC3EFD196A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC1B8B3-B163-418E-90A8-40CC3EFD196A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD896BE9-2AC0-494F-9E9A-720C3DD93C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD896BE9-2AC0-494F-9E9A-720C3DD93C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD896BE9-2AC0-494F-9E9A-720C3DD93C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD896BE9-2AC0-494F-9E9A-720C3DD93C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C47934BD-F3F4-4466-B297-0D3DEDBDF979} = {9F2E868C-F858-4243-98B3-928381545512}
+		{D6278021-E0CB-441E-9331-9986B8C815DE} = {9F2E868C-F858-4243-98B3-928381545512}
+		{15A0F549-E739-4386-B6C9-E96DCF00A1EC} = {9F2E868C-F858-4243-98B3-928381545512}
+		{30954A6B-7D3A-4EAD-A9EA-9D657F89A60D} = {9F2E868C-F858-4243-98B3-928381545512}
+		{2A4C2348-763C-4919-BC2B-6E761371A261} = {9F2E868C-F858-4243-98B3-928381545512}
+		{DCC1B8B3-B163-418E-90A8-40CC3EFD196A} = {9F2E868C-F858-4243-98B3-928381545512}
+		{981DCB82-8E7C-4EBC-BEE8-CDA4CC65FAD1} = {9F2E868C-F858-4243-98B3-928381545512}
+		{0C0EC1F3-FBD5-4361-B19F-4B555686C5E2} = {9F2E868C-F858-4243-98B3-928381545512}
+		{BD896BE9-2AC0-494F-9E9A-720C3DD93C37} = {9F2E868C-F858-4243-98B3-928381545512}
+	EndGlobalSection
+EndGlobal

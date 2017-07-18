@@ -1,0 +1,57 @@
+﻿[
+    {
+        "code": "SelfProduced",
+        "names": [
+            {
+                "Name": "Itse tuotetut palvelut",
+                "language": "fi"
+            },
+            {
+                "Name": "Self produced services",
+                "language": "en"
+            },
+            {
+                "Name": "Självproducerade tjänster",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "PurchaseServices",
+        "names": [
+            {
+                "name": "Ostopalvelut",
+                "language": "fi"
+            },
+            {
+                "name": "Procured services",
+                "language": "en"
+            },
+            {
+                "name": "Köpta tjänster",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Other",
+        "names": [
+            {
+                "name": "Muu",
+                "language": "fi"
+            },
+            {
+                "name": "Other",
+                "language": "en"
+            },
+            {
+                "name": "Annan",
+                "language": "sv"
+            }
+        ]
+    }
+]

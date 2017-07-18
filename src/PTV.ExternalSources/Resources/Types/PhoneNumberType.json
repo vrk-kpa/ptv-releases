@@ -1,0 +1,62 @@
+﻿[
+    {
+        "code": "Phone",
+        "orderNumber":  1,
+        "names": [
+            {
+                "Name": "Puhelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Phone",
+                "language": "en"
+            },
+            {
+                "Name": "Samtal",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Sms",
+        "orderNumber": 2,
+        "names": [
+            {
+                "Name": "Tekstiviesti",
+                "language": "fi"
+            },
+            {
+                "Name": "SMS",
+                "language": "en"
+            },
+            {
+                "Name": "SMS",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Fax",
+        "orderNumber": 3,
+        "names": [
+            {
+                "Name": "Faksi",
+                "language": "fi"
+            },
+            {
+                "Name": "Fax",
+                "language": "en"
+            },
+            {
+                "Name": "Fax",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

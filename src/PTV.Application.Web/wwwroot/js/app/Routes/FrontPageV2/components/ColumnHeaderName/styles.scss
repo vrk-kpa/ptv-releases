@@ -1,0 +1,73 @@
+@import '../../../../Components/styles/variables';
+
+.header-cell {
+  display: inline-flex;
+  align-items: center;
+  > * ~ * {
+    margin-left: 6px;
+  }
+
+  &.sort {
+    //position: relative;
+    &::after {
+      padding: 0;
+      width: auto;
+      content: '';
+    }
+  }
+
+  .top-arrow, .bottom-arrow {
+    border: 4px solid transparent;
+    width: 4px;
+    height: 4px;
+  }
+
+  &.sort-none {
+    .top-arrow {
+      border-top-width: 2.5px;
+      border-bottom-color: $gray-mid;
+    }
+    .bottom-arrow {
+      border-bottom-width: 2.5px;
+      border-top-color: $gray-mid;
+    }
+  }
+
+  &.sort-desc {
+    .top-arrow {
+      border-bottom-width: 2.5px;
+      border-top-color: $gray-dark;
+    }
+    .bottom-arrow {
+      border-top-width: 2.5px;
+      border-bottom-color: $gray-mid ;
+    }
+  }
+
+  &.sort-asc {
+    .top-arrow {
+      border-top-width: 2.5px;
+      border-bottom-color: $gray-dark;
+    }
+    .bottom-arrow {
+      border-bottom-width: 2.5px;
+      border-top-color: $gray-mid;
+    }
+  }
+}
+
+.sort-arrows {
+  display: flex;
+  .sort-asc &, .sort-none & {
+    flex-direction: column;
+    > * ~ * {
+      margin-top: 2px;
+    }
+  }
+  .sort-desc & {
+    flex-direction: column-reverse;
+    > * ~ * {
+      margin-bottom: 2px;
+    }
+  }
+}

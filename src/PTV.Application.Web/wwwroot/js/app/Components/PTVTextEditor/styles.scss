@@ -1,0 +1,81 @@
+@import '../styles/variables';
+
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  padding: 10px;
+  min-height: 160px;
+  position: relative;
+  .text-editor {
+    bottom: -20px;
+  }
+  &.disabled {
+    background-color: bg-color('dark');
+  }
+  &.readOnly {
+    border: none;
+    padding: 0;
+    min-height: 0;
+  }
+}
+
+.RichEditor-editor {
+  border-top: 1px solid #ddd;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+  &.readOnly {
+    min-height: 0;
+  }
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  font-size: 14px;
+  padding-top: 10px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  svg {
+    fill: #999;
+  }
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 3px 4px;
+  ~ .RichEditor-styleButton {
+    margin-left: 10px;
+  }
+}
+
+.RichEditor-activeButton {
+  background-color: bg-color(dark);
+  svg {
+    fill: text-color(primary);
+  }
+}
+
+.ptv-texteditor-header {
+  display: flex;
+  justify-content: space-between;
+}
