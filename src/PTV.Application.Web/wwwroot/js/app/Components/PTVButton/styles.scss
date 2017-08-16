@@ -1,0 +1,95 @@
+@import '../styles/variables';
+@import '../styles/placeholders';
+
+.ptv-button {
+  @extend %btn-default;
+  &.secondary {
+    @extend %btn-secondary-addon;
+  }
+  &.small {
+    @extend %btn-small-addon;
+  }
+  &.icon {
+    transition: all 1s ease 0s;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    & svg {
+      vertical-align: middle;
+    }
+    &:hover {
+      background: none;
+      border: none;
+      & svg {
+        fill: #e5291c;
+      }
+    }
+    & span:last-child {
+      text-indent: -9999em;
+      display: inline-block;
+    }
+  }
+  &.button-cancel, &.button-back, &.button-cancel-update {
+    @extend %btn-secondary-addon;
+  }
+  &.button-delete {
+    @extend %btn-negative-addon;
+  }
+  // &.button-withdraw {
+  //   @extend %btn-withdraw-addon;
+  // }
+  &.button-link {
+    background: none;
+    border: none;
+    color: $brand-blue;
+    font-size: 16px;
+    padding: 0;
+
+    &:hover, &:focus, &:active {
+      background: none;
+      box-shadow: none;
+    }
+
+    & .after {
+      margin-left: 6px;
+    }
+
+    [class^="icon-"] {
+      fill: $brand-blue;
+    }
+  }
+  &.left-aligned {
+    text-align: left;
+  }
+  &.wrap-label {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+.button-link {
+  color: $brand-blue;
+  cursor: pointer;
+  [class^="icon-"] {
+    fill: $brand-blue;
+  }
+  &.left-aligned {
+    text-align: left;
+  }
+  &.wrap-label {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+/**
+ * FiREFOX EXTRA PADDiNG/BORDER FiX
+ */
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner {
+  padding: 0;
+  border: 0 none;
+}

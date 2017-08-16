@@ -1,0 +1,74 @@
+@import '../../styles/variables.scss';
+.ptv-treelist ~ .ptv-treelist {
+    margin-top: 5px;
+}
+.content-added {
+    //max-height: 390px;
+    // background: #fff;
+    //border: 1px solid #b3b7ba;
+    //padding: 5px 15px;
+    font-size: 16px;
+    font-size: 1rem;
+    //overflow-y: scroll;
+    //min-height: 390px;
+
+    ul li ~ li {
+
+        //  ~ li {
+            //border-bottom: 1px solid #ced2d5;
+            padding-top: 5px;
+        //  }
+    }
+
+    .tag-item {
+        // display: inline-block;
+        // max-width: 100%;
+        // //padding: 3px 8px;
+        // //background-color: $gray-light;
+        // //border-radius: 2px;
+        // //word-break: break-all;
+
+        // .wrapped {
+        //     display: block;
+        //     overflow: hidden;
+        //     padding: 3px 8px;
+        //     text-overflow: ellipsis;
+        //     border-radius: 2px;
+        //     background-color: $gray-light;
+        // }
+
+        // .icon-cross {
+        //     float: right;
+        //     //margin-top: -3px;
+        //     cursor: pointer;
+        //     margin-left: 5px;
+        //     fill: $gray-alt;
+        //     transform: scale(0.9);
+        // }
+
+        // &.disabled {
+        //     background-color: $gray-lighter;
+
+        //     .icon-cross {
+        //         cursor: default;
+        //         fill: $gray-mid;
+        //     }
+        // }
+    }
+
+    .readonly & {
+        ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        // .tag-item {
+        //     //background-color: #FFFFFF;
+        //     //padding: 0;
+        //     .wrapped {
+        //         padding: 0;
+        //         background-color: #FFFFFF;
+        //     }
+        // }
+    }
+}

@@ -1,0 +1,24 @@
+.channel-attachment-container{
+    .url-checker{
+        .url-label{
+            padding-right: 0px;
+        }
+        .url-button{
+            padding-left: 0px;
+        }
+        .url-icon{
+            position: absolute;
+            padding-top: 15px;
+            right: 9px;
+            .loader{
+                position: absolute;
+                top: 0px;
+                right: -17px;
+            }
+        }        
+    }
+    .remove-button{
+            top: 44px;
+            position: absolute;
+        }
+}

@@ -1,0 +1,48 @@
+/**
+ * Mixin for shorthand position rule 
+ * definition.
+ *
+ * Example usage:
+ * ---> .element { @include absolute(top 0 left 1em); }
+ * ---> .other-element { @include fixed(top 1em left "WAT? A STRING?!" right 10% bottom) } 
+ */
+@mixin position($position, $args) {
+  @each $o in top right bottom left {
+    $i: index($args, $o);
+
+    @if $i and $i + 1 <= length($args) and type-of(nth($args, $i + 1)) == number  {
+      #{$o}: nth($args, $i + 1);
+    }
+  }
+
+  position: $position;
+}
+
+@mixin absolute($args) {
+  @include position(absolute, $args);
+}
+
+@mixin fixed($args) {
+  @include position(fixed, $args);
+}
+
+@mixin relative($args) {
+  @include position(relative, $args);
+}
+
+@mixin publishing-status($color) {
+  & .check {
+    border-color: $color;
+  }
+
+  &.checked {
+    & .check {
+      background: $color;
+      box-shadow: inset 0 1px 1px 0 rgba($black, 0.20);
+
+      &::before {
+        border-color: #FFFFFF;
+      }
+    }
+  }
+}

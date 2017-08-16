@@ -1,0 +1,121 @@
+﻿[
+  {
+    "code": "DocumentReceived",
+    "names": [
+      {
+        "Name": "Asiakirjat vastaanotto ja vireillepano",
+        "language": "fi"
+      },
+      {
+        "Name": "Document received",
+        "language": "en"
+      },
+      {
+        "Name": "Document received",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "GuidanceToOnlineSelfService",
+    "names": [
+      {
+        "Name": "Verkkoasioinnin opastus",
+        "language": "fi"
+      },
+      {
+        "Name": "Guidance to online self-service",
+        "language": "en"
+      },
+      {
+        "Name": "Guidance to online self-service",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "LostAndFound",
+    "names": [
+      {
+        "Name": "Löytötavaran vastaanotto",
+        "language": "fi"
+      },
+      {
+        "Name": "Lost and found",
+        "language": "en"
+      },
+      {
+        "Name": "Lost and found",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OnlineSelfServicePoint",
+    "names": [
+      {
+        "Name": "Verkkoasioinnin itseasiointipiste",
+        "language": "fi"
+      },
+      {
+        "Name": "Online self-service point",
+        "language": "en"
+      },
+      {
+        "Name": "Online self-service point",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OnsiteGuidance",
+    "names": [
+      {
+        "Name": "Neuvonta",
+        "language": "fi"
+      },
+      {
+        "Name": "Onsite guidance",
+        "language": "en"
+      },
+      {
+        "Name": "Onsite guidance",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OnsiteGuidanceByServiceAuthor",
+    "names": [
+      {
+        "Name": "Palvelunjärjestäjän virkailija paikalla",
+        "language": "fi"
+      },
+      {
+        "Name": "Onsite guidance by service author",
+        "language": "en"
+      },
+      {
+        "Name": "Onsite guidance by service author",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "RemoteGuidance",
+    "names": [
+      {
+        "Name": "Etäpalvelu",
+        "language": "fi"
+      },
+      {
+        "Name": "Remote guidance",
+        "language": "en"
+      },
+      {
+        "Name": "Remote guidance",
+        "language": "sv"
+      }
+    ]
+  }
+]

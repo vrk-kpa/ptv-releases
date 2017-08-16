@@ -1,0 +1,55 @@
+﻿[
+    {
+        "code": "WholeCountry",
+        "names": [
+            {
+                "Name": "Koko maa",
+                "language": "fi"
+            },
+            {
+                "Name": "Nationwide",
+                "language": "en"
+            },
+            {
+                "Name": "Hela landet",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "WholeCountryExceptAlandIslands",
+        "names": [
+            {
+                "Name": "Koko maa paitsi ei Ahvenanmaa",
+                "language": "fi"
+            },
+            {
+                "Name": "Nationwide except the Åland islands",
+                "language": "en"
+            },
+            {
+                "Name": "Hela landet utom Åland",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "AreaType",
+        "names": [
+            {
+                "Name": "Rajattu alue",
+                "language": "fi"
+            },
+            {
+                "Name": "Limited area",
+                "language": "en"
+            },
+            {
+                "Name": "Begränsat område",
+                "language": "sv"
+            }
+        ]
+    }
+]

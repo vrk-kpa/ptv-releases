@@ -1,0 +1,53 @@
+﻿[
+    {
+        "code": "NotCommon",
+        "names": [
+            {
+                "Name": "Asiointikanava on liitettävissä vain oman organisaation palveluihin",
+                "language": "fi"
+            },
+            {
+                "Name": "Service channel can be connected only to your organization's services",
+                "language": "en"
+            },
+            {
+                "Name": "Servicekanalen kan kopplas endast till egen organisations tjänster",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "CommonForAll",
+        "names": [
+          {
+            "Name": "Asiointikanava on liitettävissä kaikkien organisaatioiden palveluihin",
+            "language": "fi"
+          },
+            {
+                "Name": "Service channel can be connected to all organizations",
+                "language": "en"
+            },
+            {
+                "Name": "Servicekanalen kan kopplas till tjänster av alla organisationer",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "CommonFor",
+        "names": [
+          {
+            "Name": "Asiointikanava on liitettävissä seuraavien organisaatioiden palveluihin",
+            "language": "fi"
+          },
+            {
+                "Name": "Service channel can be connected to the following organizations",
+                "language": "en"
+            },
+            {
+                "Name": "Servicekanalen kan kopplas till tjänster av följande organisationer",
+                "language": "sv"
+            }
+        ]
+    }
+]

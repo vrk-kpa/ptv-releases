@@ -1,0 +1,30 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.box {
+    .skylight-dialog {
+        .info-text {
+            max-height: 550px;
+        }
+    }
+    
+    .message-box-icon {
+        text-align: center;
+        margin-right: 20px;
+    }
+    
+    .information-error-icon {
+        cursor: pointer;
+    }
+    .close {
+        margin: 5px;
+        padding: 0;
+        z-index: 10;
+        @include absolute(top 0 right 0);
+    }    
+}
+
+.msg-box {
+    margin: 20px 0;
+    padding: 20px;
+}

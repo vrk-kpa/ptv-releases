@@ -1,0 +1,36 @@
+﻿[
+    {
+        "code": "PubliclyFunded",
+        "names": [
+            {
+                "Name": "Julkinen palvelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Public service",
+                "language": "en"
+            },
+            {
+                "Name": "Offentlig tjänst",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "MarketFunded",
+        "names": [
+            {
+                "Name": "Yksityinen palvelu",
+                "language": "fi"
+            },
+            {
+                "Name": "Private service",
+                "language": "en"
+            },
+            {
+                "Name": "Privat tjänst",
+                "language": "sv"
+            }
+        ]
+    }
+]

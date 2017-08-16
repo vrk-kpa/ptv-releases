@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>PTV.Domain.Logic Class Library</Description>
+    <Authors>sarzijan</Authors>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>PTV.Domain.Logic</AssemblyName>
+    <PackageId>PTV.Domain.Logic</PackageId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;netcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugCodeCoverageWin|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+    <ProjectReference Include="..\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,65 @@
+﻿/*.service-page  {
+	.button-draft-save{
+		float:right;
+	}
+	.button-continue{
+		float:right;
+	}
+	.button-cancel{
+		float:right;
+	}
+	.button-delete{
+		float:right;
+	}
+	.button-back{
+		float:right;
+	}
+	.button-done{
+		float:right;
+	}
+	.button-update{
+		float:right;
+	}
+	.button-cancel-update{
+		float:right;
+	}
+	.button-publish{
+		float:right;
+	}
+	.down-buttons{
+		margin-top: 50px;
+	}	
+}
+
+.button-group { 
+	text-align: right;
+	margin-top: 10px;
+
+	& button ~ button {
+		margin-left: 10px;
+	}
+
+	&.centered {
+		text-align: center;
+	}
+
+	&.add-item {
+		text-align: left;
+	}
+
+	&.view, &.edit {
+		float: right;
+		margin: 0;
+	} 
+	
+}
+
+.item-row {
+	position: relative;
+}
+
+.remove-item { 
+	position: absolute;
+	top: 0;
+	right: -20px;
+}*/
