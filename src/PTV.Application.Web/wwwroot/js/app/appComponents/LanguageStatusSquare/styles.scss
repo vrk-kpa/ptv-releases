@@ -1,0 +1,25 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$sizes: (20, 25, 30);
+
+.languageStatus {
+  color: bg-color(content);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  &.draft, &.modified {
+    background-color: secondary-color(lakka);
+  }
+  &.published {
+    background-color: secondary-color(taivas);
+  }
+  &.deleted, &.oldpublished {
+    background-color: secondary-color(harmaa);
+  }
+  @each $s in $sizes {
+    &.s#{$s} {
+      flex: 0 0 #{$s}px;
+      height: #{$s}px;
+      line-height: #{$s}px;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+﻿[
+    {
+        "code": "EChannel",
+        "names": [
+            {
+                "Name": "Verkkoasiointi",
+                "language": "fi"
+            },
+            {
+                "Name": "Online service",
+                "language": "en"
+            },
+            {
+                "Name": "Nätservice",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "WebPage",
+        "names": [
+            {
+                "Name": "Verkkosivu",
+                "language": "fi"
+            },
+            {
+                "Name": "Web page",
+                "language": "en"
+            },
+            {
+                "Name": "Webbsida",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "PrintableForm",
+        "names": [
+            {
+                "Name": "Tulostettava lomake",
+                "language": "fi"
+            },
+            {
+                "Name": "Printable form",
+                "language": "en"
+            },
+            {
+                "Name": "Utskrivbar blankett",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Phone",
+        "names": [
+            {
+                "Name": "Puhelinasiointi",
+                "language": "fi"
+            },
+            {
+                "Name": "Telephone service",
+                "language": "en"
+            },
+            {
+                "Name": "Telefonservice",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "ServiceLocation",
+        "names": [
+            {
+                "Name": "Palvelupiste",
+                "language": "fi"
+            },
+            {
+                "Name": "Service location",
+                "language": "en"
+            },
+            {
+                "Name": "Serviceställe",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

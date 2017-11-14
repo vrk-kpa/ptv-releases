@@ -1,0 +1,23 @@
+@import '../../../../../../Components/styles/variables';
+
+.cell {
+  > * {
+    ~ * {
+      margin-top: 5px;
+    }
+  }
+}
+
+.name {
+  color: $brand-blue;
+  cursor: pointer;
+}
+
+table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  vertical-align: middle;
+}

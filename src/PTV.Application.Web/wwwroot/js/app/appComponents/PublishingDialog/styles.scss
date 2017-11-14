@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.publishError {
+  svg {
+    fill: secondary-color(marjapuuro);
+  }
+}
+
+.publishingCheckbox {
+  label {
+    margin: 0;
+  }
+}

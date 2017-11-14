@@ -1,0 +1,36 @@
+﻿[
+    {
+        "code": "Visiting",
+        "names": [
+            {
+                "Name": "Käyntiosoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Visiting address",
+                "language": "en"
+            },
+            {
+                "Name": "Besöksadress",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Postal",
+        "names": [
+            {
+                "Name": "Postiosoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Postal address",
+                "language": "en"
+            },
+            {
+                "Name": "Postadress",
+                "language": "sv"
+            }
+        ]
+    }
+]

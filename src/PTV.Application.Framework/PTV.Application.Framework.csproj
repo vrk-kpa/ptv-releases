@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Database.DataAccess\PTV.Database.DataAccess.csproj" />
+    <ProjectReference Include="..\PTV.Framework.Interfaces\PTV.Framework.Interfaces.csproj" />
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

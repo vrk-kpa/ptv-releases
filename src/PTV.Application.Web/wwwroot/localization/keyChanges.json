@@ -1,0 +1,6 @@
+{
+  "Containers.Channels.AddElectronicChannel.Step1.PhoneCostOtherDescription.Placeholder": "ReduxForm.Renders.RenderPhoneCostDescription.Placeholder",
+  "Containers.Channels.AddElectronicChannel.Step1.PhoneCostOtherDescription.Title": "ReduxForm.Renders.RenderPhoneCostDescription.Label",
+  "Containers.Channels.AddElectronicChannel.Step1.PhoneCostOtherDescription.Tooltip": "ReduxForm.Renders.RenderPhoneCostDescription.Tooltip",
+  "Util.ReduxForm.Renders.TreeView.TooltipLink": "Util.ReduxForm.HOC.WithEntityHeader.LanguageVersionToggle.Title"
+}

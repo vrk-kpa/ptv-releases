@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.serviceVoucherToggle {
+  padding: 15px 30px;
+  label {
+    margin-bottom: 0;
+  }
+  &.isReadOnly {
+    padding: 0;
+  }
+}

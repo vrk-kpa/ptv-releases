@@ -1,0 +1,27 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.groupBody {
+  border: 1px solid border-color(border);
+  background-color: bg-color(content);
+  padding: 0 20px;
+  :global {
+    .form-row {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.readOnly {
+  .groupBody {
+    border: none;
+    padding: 0;
+  }
+  :global {
+    .form-row {
+      .form-row {
+        margin: 0;
+      }
+    }
+  }
+}

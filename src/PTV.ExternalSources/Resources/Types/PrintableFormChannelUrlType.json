@@ -1,0 +1,89 @@
+﻿[
+    {
+        "code": "PDF",
+        "names": [
+            {
+                "Name": "pdf",
+                "language": "fi"
+            },
+            {
+                "Name": "pdf",
+                "language": "en"
+            },
+            {
+                "Name": "pdf",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "DOC",
+        "names": [
+            {
+                "Name": "doc/docx",
+                "language": "fi"
+            },
+            {
+                "Name": "doc/docx",
+                "language": "en"
+            },
+            {
+                "Name": "doc/docx",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Excel",
+        "names": [
+            {
+                "Name": "xls/xlsx",
+                "language": "fi"
+            },
+            {
+                "Name": "xls/xlsx",
+                "language": "en"
+            },
+            {
+                "Name": "xls/xlsx",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "rtf",
+        "names": [
+            {
+                "Name": "rtf",
+                "language": "fi"
+            },
+            {
+                "Name": "rtf",
+                "language": "en"
+            },
+            {
+                "Name": "rtf",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "odt",
+        "names": [
+            {
+                "Name": "odt",
+                "language": "fi"
+            },
+            {
+                "Name": "odt",
+                "language": "en"
+            },
+            {
+                "Name": "odt",
+                "language": "sv"
+            }
+        ]
+    }
+]

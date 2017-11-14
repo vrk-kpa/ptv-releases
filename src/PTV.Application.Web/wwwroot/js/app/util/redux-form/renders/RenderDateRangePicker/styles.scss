@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.inline, .column {
+  &.dateRange {
+    display: flex;
+  }
+}
+
+.inline {
+  .field {
+    display: flex;
+  }
+  .input {
+    flex: 0 0 120px;
+  }
+}

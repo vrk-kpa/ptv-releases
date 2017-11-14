@@ -1,0 +1,31 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+/* STiCKY FOOTER via FLEXBOX */
+html, body {
+  height: 100%;
+}
+
+:global {
+  #page-wrapper {
+    display: flex;
+    height: 100%;
+    > div {
+      display: flex;
+      flex: 1 0 auto;
+    }
+  }
+}
+
+.pageWrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.pageBody {
+  flex: 1 0 auto;
+}
+
+.pageHead, .pageFoot {
+  flex: 0 0 auto;
+}

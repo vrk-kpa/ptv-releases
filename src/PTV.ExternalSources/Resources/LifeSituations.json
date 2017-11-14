@@ -1,0 +1,100 @@
+﻿[
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE10",
+        "label": "Eläkkeelle siirtyminen",
+        "finnish": "Eläkkeelle siirtyminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE10"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE12",
+        "label": "Kuntoutus",
+        "finnish": "Kuntoutus",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE12"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE11",
+        "label": "Vakava sairastuminen",
+        "finnish": "Vakava sairastuminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE11"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE14",
+        "label": "Omaisen kuolema",
+        "finnish": "Omaisen kuolema",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE14"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE13",
+        "label": "Omaishoitajana toimiminen",
+        "finnish": "Omaishoitajana toimiminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE13"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE8",
+        "label": "Työttömäksi jääminen",
+        "finnish": "Työttömäksi jääminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE8"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE9",
+        "label": "Velkaantuminen",
+        "finnish": "Velkaantuminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE9"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE6",
+        "label": "Talon rakentaminen",
+        "finnish": "Talon rakentaminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE6"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE7",
+        "label": "Avioero",
+        "finnish": "Avioero",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE7"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1",
+        "label": "Lapsen saaminen",
+        "finnish": "Lapsen saaminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE1"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4",
+        "label": "Muuttaminen",
+        "finnish": "Muuttaminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE4"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE5",
+        "label": "Maahanmuuttajana Suomeen",
+        "finnish": "Maahanmuuttajana Suomeen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE5"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE2",
+        "label": "Asevelvollisuus",
+        "finnish": "Asevelvollisuus",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE2"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:KE3",
+        "label": "Kokoaikaisen opiskelun aloittaminen",
+        "finnish": "Kokoaikaisen opiskelun aloittaminen",
+        "ontologyType": "LIFESITUATION",
+        "notation": "KE3"
+    }
+]

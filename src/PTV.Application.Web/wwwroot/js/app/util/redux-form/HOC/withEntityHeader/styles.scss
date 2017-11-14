@@ -1,0 +1,149 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.entityHeader {
+  padding: 0 20px;
+  border: 1px solid border-color(border);
+  border-bottom: none;
+  background-color: bg-color(dark);
+}
+
+.entityHeaderMain {
+  display: flex;
+  align-items: center;
+}
+
+.entitySummary {
+  flex: 1 0 auto;
+}
+
+.newLanguage {
+  .entitySummary {
+    padding: 20px 0;
+  }
+}
+
+.entityHeaderItem {
+  font-size: 15px;
+  line-height: 20px;
+  &:first-child {
+    padding-top: 15px;
+  }
+  &:last-child {
+    padding-bottom: 15px;
+  }
+  ~ .entityHeaderItem {
+    padding-top: 10px;
+  }
+}
+.entityId {
+  text-align: right;
+  color: text-color(secondary);
+  font-size: 15px;
+  &::before {
+    content: 'id:';
+    margin-right: 10px;
+  }
+}
+
+.activeEntityName {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.toggleButton {
+  // flex: 0 1 100px;
+  cursor: pointer;
+  text-align: right;
+  > button {
+    padding-right: 40px;
+  }
+}
+
+.collapsed {
+  .toggleButton {
+    @include icon-caret(interaction-color(primary));
+    &::after {
+      left: auto;
+      right: 18px;
+    }
+    > button {
+      border-color: bg-color(dark);
+      box-shadow: inset 0 0 0 1px border-color(border), inset 0 0 0 2px bg-color(light);
+    }
+  }
+}
+
+.expanded {
+  .toggleButton {
+    @include icon-caret(bg-color(content), 'up');
+    &::after {
+      left: auto;
+      right: 18px;
+    }
+    > button {
+      background-color: interaction-color(primary);
+      // box-shadow: none;
+    }
+  }
+}
+
+.entityLanguageTable {
+  padding-bottom: 10px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.languageInfo {
+  margin-left: 15px;
+}
+
+.languageName {
+  text-transform: capitalize;
+}
+
+.languageVersion {
+  font-size: 14px;
+}
+
+.archiveButtons {
+  display: inline;
+}
+
+.archiveEntityButton,
+.archiveLanguageButton,
+.withdrawLanguageButton,
+.withdrawEntityButton,
+.restoreEntityButton,
+.linkToPublish,
+.linkToModified {
+  display: inline;
+  padding-left: 10px;
+}
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px);
+}
+
+.entityVersionLabel {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 10px;
+}
+
+.versionLabelItem {
+  font-size: 15px;
+  em {
+    color: text-color(secondary);
+    &::after {
+      content: ':';
+      margin-right: 5px;
+    }
+  }
+  button {
+    margin-left: 10px;
+  }
+}

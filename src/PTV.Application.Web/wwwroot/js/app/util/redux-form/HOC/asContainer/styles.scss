@@ -1,0 +1,161 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$container-inner-padding: 30px;
+$container-border-width: 1px;
+$container-margin: -$container-inner-padding - $container-border-width;
+
+.containerWrap {
+  ~ .containerWrap {
+    margin-top: 10px;
+  }
+  :global {
+    .form-row {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.containerHead {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  background-color: bg-color(site);
+  padding: 10px $container-inner-padding;
+  margin: 0 $container-margin;
+  border: $container-border-width solid border-color(border);
+  border-bottom: none;
+  position: relative;
+  top: 1px;
+  button {
+    line-height: 30px;
+  }
+}
+
+// .standard {
+//   .containerHead {
+//     // font-weight: 400;
+//     background-color: bg-color(site);
+//     padding: 10px $container-inner-padding;
+//     margin: 0 $container-margin;
+//     border: $container-border-width solid border-color(border);
+//     border-bottom: none;
+//     position: relative;
+//     top: 1px;
+//   }
+// }
+
+.containerTitle {
+  padding-right: 4px;
+  line-height: 30px;
+}
+
+.containerTitleActions {
+  display: inline-flex;
+  align-items: center;
+}
+
+.containerBody {
+  padding: 10px $container-inner-padding 0;
+  margin: 0 $container-margin;
+  background-color: bg-color(site);
+  border: $container-border-width solid border-color(border);
+}
+
+.isReadOnly, .isAddingNewLanguage {
+  .containerWrap {
+    margin: 10px 0 !important;
+  }
+  .containerHead, .containerBody {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+// .standard {
+//   .containerBody {
+//     border: $container-border-width solid border-color(border);
+//   }
+// }
+
+.withCollection {
+  .containerBody {
+    padding: 0;
+  }
+}
+
+.containerItem {
+  position: relative;
+  margin-top: 10px;
+  padding: 10px $container-inner-padding;
+  border-bottom: 1px solid border-color(border);
+}
+
+.containerItemRemove {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+
+// .containerFoot {
+//   padding: 15px $container-inner-padding;
+//   background-color: bg-color(content);
+// }
+
+.containerBody {
+  .containerWrap {
+    margin: 10px $container-inner-padding;
+    .containerWrap {
+      margin: 10px 0;
+    }
+  }
+  .containerHead {
+    padding: 8px #{$container-inner-padding / 2};
+    margin: 0 #{$container-margin / 2};
+  }
+  .containerBody {
+    margin: 0 #{$container-margin / 2};
+    padding: 8px 0;
+    :global {
+      [class*='collectionItem'] {
+        padding: #{$container-inner-padding / 2};
+      }
+      [class*='collectionItemRemove'] {
+        padding: 0;
+      }
+      [class*='collectionFoot'] {
+        padding: 15px #{$container-inner-padding / 2};
+      }
+    }
+  }
+  .isCollapsed {
+    .containerHead {
+      padding: 8px 0;
+    }
+    .containerWrap {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.isCollapsed {
+  // .containerTitle {
+  //   color: interaction-color(primary);
+  // }
+  .containerHead {
+    background-color: transparent;
+    padding: 10px 0;
+    border: none;
+    margin: $container-border-width 0 0;
+  }
+}
+
+.containerTitleActions {
+  svg[class*='icon-angle'] {
+    fill: interaction-color(primary);
+  }
+}

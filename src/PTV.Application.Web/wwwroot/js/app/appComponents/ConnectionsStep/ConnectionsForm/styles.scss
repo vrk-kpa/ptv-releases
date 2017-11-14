@@ -1,0 +1,189 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.table {
+  background-color: $gray-light;
+  border: 1px solid $gray-mid;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.tableCell {
+  padding: 15px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  > div {
+    width: auto;
+  }
+}
+
+.tableHead {
+  .tableCell {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+
+    cursor: pointer;
+  }
+  .tableCellFirst {
+    padding: 10px 20px 10px 30px;
+  }
+}
+
+.tableBody {
+  > div {
+    background: gray(lightest);
+    border-top: 1px solid $gray-mid;
+    &:nth-child(odd) {
+      background: #fff;
+    }
+  }
+  .tableCellFirst {
+    padding: 10px 20px 10px 30px;
+  }
+  :global {
+    .row {
+      align-items: center;
+    }
+  }
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  > * ~ * {
+    margin-left: 10px;
+  }
+}
+
+.toggleButton {
+  // flex: 0 1 100px;
+  cursor: pointer;
+  > button {
+    padding-right: 40px;
+  }
+}
+
+.collapsed {
+  &.toggleButton {
+    @include icon-caret(interaction-color(primary));
+    &::after {
+      left: auto;
+      right: 18px;
+    }
+    > button {
+      border-color: bg-color(dark);
+      box-shadow: inset 0 0 0 1px border-color(border), inset 0 0 0 2px bg-color(light);
+    }
+  }
+}
+
+.expanded {
+  &.toggleButton {
+    @include icon-caret(bg-color(content), 'up');
+    &::after {
+      left: auto;
+      right: 18px;
+    }
+    > button {
+      background-color: interaction-color(primary);
+      // box-shadow: none;
+    }
+  }
+}
+
+.buttonGroup {
+  @include arrange-items();
+}
+
+.isOpen {
+  > div {
+    background-color: $gray-light;
+  }
+}
+
+.connectionDetail {
+  background-color: $gray-light;
+  padding: 10px 20px 20px;
+  border-top: 1px solid border-color(border);
+  h1, p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.connectionDetailTab {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .toggleButton {
+    width: 100% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 40px);
+    button {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .tableHead {
+    display: none;
+  }
+  .tableBody {
+    .tableCellFirst {
+      padding: 10px 20px;
+    }
+  }
+  .table {
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .tableBody {
+    > div {
+      border: 1px solid border-color(border);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+      border-radius: 2px;
+      width: calc(100% * (1 / 2) - 10px);
+      margin-bottom: 20px;
+      float: left;
+      &:nth-child(odd) {
+        margin-right: 20px;
+      }
+    }
+    &::after {
+      clear: both;
+      display: table;
+      content: '';
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tableBody {
+    > div {
+      width: 100%;
+    }
+  }
+}

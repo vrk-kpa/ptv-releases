@@ -1,0 +1,72 @@
+.bug-report-item {
+  background: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.bug-report-item-play-button {
+  font-size: 30px;
+  cursor: pointer;
+}
+.bug-report-item-progress-controls-wrapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bug-report-item-progress-bar-wrapp {
+  width: 100%;
+  background: lightgrey;
+  margin: 0 5px;
+}
+
+.bug-report-item-progress-controls-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bug-report-item-progress-bar {
+  height: 15px;
+  background: black;
+}
+.bug-report-item-header-wrapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bug-report-item-skip-to-end-button {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.bug-report-loading-icon {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: rotate(3600deg);
+  font-size: 20px;
+  font-weight: bold;
+}
+.bug-report-download-icon {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,122 @@
+﻿{
+    "PostalCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of postal codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 3 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/postalcodes/{2}"
+        }
+    },
+    "MunicipalityCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of municipality codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 3 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 30 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/municipalities/{2}"
+        }
+    },
+    "ProvinceCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of province (region) codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 4 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 4 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/regions/{2}",
+            "MunicipalityUrl": "{0}/{1}/regions/{2}/municipalities/{3}"
+        }
+    },
+    "BusinessRegionCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of business region codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 4 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 4 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/businessservicesubregions/{2}",
+            "MunicipalityUrl": "{0}/{1}/businessservicesubregions/{2}/municipalities/{3}"
+        }
+    },
+    "HospitalRegionCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of hospital region codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 5 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 5 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/healthcaredistricts/{2}",
+            "MunicipalityUrl": "{0}/{1}/healthcaredistricts/{2}/municipalities/{3}"
+        }
+    },
+    "FintoDataLifeEvents": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - life events"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 6 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 6 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "lifeEvents"
+        } 
+    },
+    "FintoDataServiceClasses": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - service classes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 6 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 6 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "serviceClasses"
+        }
+    },
+    "FintoDataTargetGroups": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - target groups"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 7 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 7 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "targetGroups"
+        }
+    },
+    "FintoDataOntologyTerms": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - ontology terms"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 7 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 7 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "ontologyTerms"
+        }
+    }
+}

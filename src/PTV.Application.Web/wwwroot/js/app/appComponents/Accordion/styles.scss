@@ -1,0 +1,102 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.accordionTitle {
+  display: flex;
+  align-items: center;
+  background-color: bg-color(content);
+  padding: 20px 30px;
+  border-top: 1px solid border-color(border);
+  &.odd {
+    background-color: bg-color(site);
+  }
+  &.active {
+    // border-bottom: 1px solid border-color(border);
+    padding-bottom: 0;
+  }
+  h5 {
+    margin: 0;
+    margin-right: 6px;
+  }
+}
+
+.accordionTitleContent {
+  margin-left: 80px;
+}
+
+.titleToggleArea {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.accordionContent {
+  background-color: bg-color(content);
+  display: none;
+  &.active {
+    padding: 1px 40px 20px 80px;
+    display: block;
+  }
+  &.odd {
+    background-color: bg-color(site);
+  }
+}
+
+@media #{bp('<tablet')} {
+  .accordionContent {
+    &.active {
+      padding: 1px 20px 20px;
+    }
+  }
+}
+
+.default {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+  background-color: bg-color(content);
+  border: 2px solid text-color(secondary);
+  border-radius: 15px;
+  margin-right: 20px;
+  &::after {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 6px;
+    height: 12px;
+    content: '';
+    border: 0 solid text-color(secondary);
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    transform: rotate(49deg) skewX(8deg);
+  }
+
+  &.complete {
+    border-color: status-color(success);
+    background-color: status-color(success);
+    &::after {
+      border-color: bg-color(content);
+    }
+  }
+
+  &.error {
+    border-color: status-color(danger);
+    background-color: bg-color(content);
+    &::after {
+      color: status-color(danger);
+      position: static;
+      display: block;
+      width: 100%;
+      height: 100%;
+      transform: rotate(0);
+      border: none;
+      text-align: center;
+      content: '!';
+      font-weight: bold;
+    }
+  }
+}

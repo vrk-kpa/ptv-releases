@@ -1,0 +1,9 @@
+@import '../styles/variables';
+
+.popup-search-container, .skylight-wrapper {
+    position: relative;
+}
+
+.popup-search-container .skylight-dialog {
+    width: 100% !important;
+}

@@ -1,0 +1,47 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.tagList {
+  :global {
+    .Select {
+      cursor: default;
+      &.is-focused {
+        .Select-control {
+          box-shadow: none;
+        }
+      }
+    }
+    .Select-control {
+      border: none;
+      background: none;
+      box-shadow: none;
+      height: auto;
+      display: block;
+    }
+    .Select-multi-value-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0;
+    }
+    .Select-clear-zone, .Select-arrow-zone, .Select-menu-outer {
+      display: none;
+    }
+    .Select-value {
+      margin-left: 0;
+      margin-top: 0;
+      ~ .Select-value {
+        margin-top: 5px;
+      }
+    }
+    .Select-input {
+      display: none !important;
+    }
+  }
+}
+
+.autosizeOff {
+  :global {
+    @include autosize-off();
+  }
+}
+

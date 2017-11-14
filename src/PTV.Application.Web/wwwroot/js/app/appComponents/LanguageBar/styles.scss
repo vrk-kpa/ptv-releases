@@ -1,0 +1,43 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.languageBar {
+  display: flex;
+}
+
+.languageBarItem {
+  ~ .languageBarItem {
+    margin-left: 10px;
+  }
+}
+
+.languageCode {
+  &.draft {
+    @include paint-box();
+  }
+  &.published {
+    @include paint-box($bgColor: secondary-color(taivas));
+  }
+  &.archived {
+    @include paint-box($bgColor: secondary-color(harmaa));
+  }
+}
+
+.languageName {
+  text-transform: capitalize;
+}
+
+.selected {
+  .languageName {
+    color: text-color(primary);
+    cursor: default;
+  }
+}
+
+.withNames {
+  .languageCode::after {
+    content: '-';
+    margin: 0 5px;
+  }
+}
+
