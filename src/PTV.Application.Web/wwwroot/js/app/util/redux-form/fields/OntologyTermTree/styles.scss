@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.ontologyNodeSelect {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 20px;
+  order: 0;
+  margin-right: 10px;
+}
+
+// react select outer menu height adjustment due to macOS scrollbar hiding
+.ontologyTermSearch {
+  :global {
+    .Select-menu-outer {
+      max-height: 185px;
+    }
+    .Select-menu {
+      max-height: 183px;
+    }
+  }
+}

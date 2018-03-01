@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items();
+}
+
+.formFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

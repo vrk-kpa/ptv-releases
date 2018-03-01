@@ -1,0 +1,62 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.headerCell {
+  display: inline-flex;
+  align-items: center;
+  > * ~ * {
+    margin-left: 6px;
+  }
+
+  .topArrow, .bottomArrow {
+    border: 4px solid transparent;
+  }
+
+  &.none {
+    .topArrow {
+      border-top-width: 1px;
+      border-bottom-color: $gray-mid;
+    }
+    .bottomArrow {
+      border-bottom-width: 1px;
+      border-top-color: $gray-mid;
+    }
+  }
+
+  &.desc {
+    .topArrow {
+      border-bottom-width: 1px;
+      border-top-color: $gray-dark;
+    }
+    .bottomArrow {
+      border-top-width: 1px;
+      border-bottom-color: $gray-mid ;
+    }
+  }
+
+  &.asc {
+    .topArrow {
+      border-top-width: 1px;
+      border-bottom-color: $gray-dark;
+    }
+    .bottomArrow {
+      border-bottom-width: 1px;
+      border-top-color: $gray-mid;
+    }
+  }
+}
+
+.sortArrows {
+  display: flex;
+  .asc &, .none & {
+    flex-direction: column;
+    > * ~ * {
+      margin-top: 2px;
+    }
+  }
+  .desc & {
+    flex-direction: column-reverse;
+    > * ~ * {
+      margin-bottom: 2px;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.languageBar {
+  display: flex;
+}
+
+.languageBarItem {
+  ~ .languageBarItem {
+    margin-left: 10px;
+  }
+}
+
+.moreContent {
+  display: block;
+  min-width: 50px;
+  .languageBarItem {
+    margin-left: 0;
+    ~ .languageBarItem {
+      margin-top: 3px;
+    }
+  }
+}
+
+.languageCode {
+  &.draft {
+    @include paint-box();
+  }
+  &.published {
+    @include paint-box($bgColor: secondary-color(taivas));
+  }
+  &.archived {
+    @include paint-box($bgColor: secondary-color(harmaa));
+  }
+}
+
+.languageName {
+  text-transform: capitalize;
+}
+
+.selected {
+  .languageName {
+    color: text-color(primary);
+    cursor: default;
+  }
+}
+
+.withNames {
+  .languageCode::after {
+    content: '-';
+    margin: 0 5px;
+  }
+}
+
+.notificationIcon {
+  cursor: default;
+  @include notification-icon();
+}
+
+.notAvailableTooltip {
+  display: inline-flex;
+  > * ~ * {
+    margin-left: 3px;
+  }
+}
+
+.tooltipLanguageName {
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.tooltipLanguageCode {
+  font-style: italic;
+  text-transform: uppercase;
+}

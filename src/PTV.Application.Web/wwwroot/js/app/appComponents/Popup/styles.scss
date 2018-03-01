@@ -1,0 +1,175 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$maxWidths: (300, 350, 400, 450, 500);
+
+.popup {
+  position: absolute;
+  font-size: 14px;
+  z-index: 10;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid border-color(input);
+  border-radius: 2px;
+  display: flex;
+  @each $mW in $maxWidths {
+    &.mW#{$mW} {
+      max-width: #{$mW}px;
+    }
+  }
+  &.left {
+    box-shadow: 1px -1px 1px 0 rgba(text-color(primary),0.20);
+  }
+  &.right {
+    box-shadow: -1px 1px 1px 0 rgba(text-color(primary),0.20);
+  }
+  &.top {
+    box-shadow: 1px 1px 1px 0 rgba(text-color(primary),0.20);
+  }
+  &.bottom {
+    box-shadow: -1px -1px 1px 0 rgba(text-color(primary),0.20);
+  }
+  &.center {
+    text-align: left;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 1px solid border-color(input);
+    transform: rotate(45deg);
+    background: #FFFFFF;
+  }
+  &.left::after {
+    border-bottom: none;
+    border-left: none;
+    box-shadow: 1px -1px 0 0 rgba(text-color(primary),0.20);
+  }
+  &.left.center::after {
+    top: calc(50% - 8px);
+    left: auto;
+    right: -7px;
+    bottom: auto;
+  }
+  &.left.default::after {
+    top: 20px;
+    left: auto;
+    right: -7px;
+    bottom: auto;
+  }
+  &.right::after {
+    border-top: none;
+    border-right: none;
+    box-shadow: -1px 1px 0 0 rgba(text-color(primary),0.20);
+  }
+  &.right.center::after {
+    top: calc(50% - 8px);
+    left: -7px;
+    right: auto;
+    bottom: auto;
+  }
+  &.right.default::after {
+    top: 20px;
+    left: -7px;
+    right: auto;
+    bottom: auto;
+  }
+  &.top::after {
+    border-top: none;
+    border-left: none;
+    box-shadow: 1px 1px 0 0 rgba(text-color(primary),0.20);
+  }
+  &.top.left::after {
+    bottom: -7px;
+    left: 16px;
+    right: auto;
+    top: auto;
+  }
+  &.top.right::after {
+    bottom: -7px;
+    left: auto;
+    right: 16px;
+    top: auto;
+  }
+  &.top.center::after {
+    bottom: -7px;
+    left: calc(50% - 8px);
+    right: auto;
+    top: auto;
+  }
+  &.bottom::after {
+    border-bottom: none;
+    border-right: none;
+    box-shadow: -1px -1px 0 0 rgba(text-color(primary),0.20);
+  }
+  &.bottom.left::after {
+    top: -7px;
+    left: 16px;
+    right: auto;
+    bottom: auto;
+  }
+  &.bottom.right::after {
+    top: -7px;
+    left: auto;
+    right: 16px;
+    bottom: auto;
+  }
+  &.bottom.center::after {
+    top: -7px;
+    left: calc(50% - 8px);
+    right: auto;
+    bottom: auto;
+  }
+}
+
+.popupContent {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.popupClose {
+  cursor: pointer;
+  margin-left: 15px;
+  svg {
+    fill: icon-color(secondary);
+  }
+}
+
+.dark {
+  background-color: text-color(primary);
+  color: #FFFFFF;
+  padding: 1px 13px;
+  font-size: 0.75rem;
+  opacity: 0.9;
+  border: none;
+  &::after {
+    width: 6px;
+    height: 6px;
+    background-color: text-color(primary);
+    border: none;
+  }
+  &.left, &.right, &.top, &.bottom {
+    box-shadow: none;
+    &::after {
+      box-shadow: none;
+    }
+  }
+  &.left.center::after {
+    top: calc(50% - 4px);
+    right: -3px;
+  }
+  &.right.center::after {
+    top: calc(50% - 4px);
+    left: -3px;
+  }
+  &.top.center::after {
+    bottom: -3px;
+    left: calc(50% - 4px);
+  }
+  &.bottom.center::after {
+    top: -3px;
+    left: calc(50% - 4px);
+  }
+}

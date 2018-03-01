@@ -1,0 +1,117 @@
+@import '../styles/variables';
+
+/**
+ * Spinner with pseudoelements --> OPACiTY
+ */
+.loader {
+  margin: 20px auto;
+  width: 7.5em;
+  text-align: center;
+
+  &.min {
+    margin: 0 auto;
+
+    & > span {
+      margin: 0 auto;
+    }
+  }
+}
+
+.loader > span {
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 10px;
+  margin: 20px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.loader {
+  &.small {
+    width: 4.5em;
+    margin: 10px auto;
+
+    > span {
+      height: 1em;
+      width: 1em;
+      margin: 0 auto;
+    }
+  }
+}
+
+.loader > span ~ span {
+  margin-left: 0.75em;
+}
+
+.loader > span:nth-child(1)::before, .loader > span:nth-child(1)::after {
+  -webkit-animation-delay: -.32s;
+  animation-delay: -.32s;
+}
+
+.loader > span:nth-child(2)::before, .loader > span:nth-child(2)::after {
+  -webkit-animation-delay: -.16s;
+  animation-delay: -.16s;
+}
+
+.loader > span::before, .loader > span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.loader > span::before {
+  box-shadow: 0 2.5em 0 -1.3em $brand-blue;
+  background-color: $brand-blue;
+  -webkit-animation: egg-before 1.8s infinite ease-in-out;
+  animation: egg-before 1.8s infinite ease-in-out;
+}
+
+.loader > span::after {
+  box-shadow: 0 2.5em 0 -1.3em $brand-warning;
+  background-color: $brand-warning;
+  -webkit-animation: egg-after 1.8s infinite ease-in-out;
+  animation: egg-after 1.8s infinite ease-in-out;
+}
+
+/**
+ * Animation keyframes definition --> OPACiTY
+ */
+
+@-webkit-keyframes egg-before {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+  0%, 30%, 60% { opacity: 1; }
+  40%, 50% { opacity: 0; }
+}
+
+@keyframes egg-before {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+  0%, 30%, 60% { opacity: 1; }
+  40%, 50% { opacity: 0; }
+}
+
+@-webkit-keyframes egg-after {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+  0%, 10% { opacity: 0; }
+  70% { opacity: 0.3; }
+  40%, 50% { opacity: 1; }
+}
+
+@keyframes egg-after {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+  0%, 10% { opacity: 0; }
+  70% { opacity: 0.3; }
+  40%, 50% { opacity: 1; }
+}

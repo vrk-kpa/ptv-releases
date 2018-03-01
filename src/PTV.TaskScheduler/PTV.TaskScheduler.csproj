@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <NoWarn>$(NoWarn);CS1587;CS1572;CS0219</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  
+  <ItemGroup>
+        <None Update="nlog.Development.config">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="nlog.config">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="jobsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\PTV.DataImport.Console\Finto\settings.json">
+            <Link>fintosettings.json</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </None>
+        <None Include="..\PTV.ExternalSources\Resources\LanguageCodes.json">
+            <Link>languageCodes.json</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </None>
+      <Content Include="..\PTV.Database.DataAccess\Services\Security\UserRoles.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
+  <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.2" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.2" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+        <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+        <PackageReference Include="NLog.Web.AspNetCore" Version="4.4.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="1.1.0" />
+        <PackageReference Include="Quartz" Version="3.0.0-alpha3" />
+        <PackageReference Include="Quartz.Serialization.Json" Version="3.0.0-alpha3" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\PTV.SoapServices\PTV.SoapServices.csproj" />
+        <ProjectReference Include="..\PTV.Application.Framework\PTV.Application.Framework.csproj" />
+        <ProjectReference Include="..\PTV.Database.DataAccess\PTV.Database.DataAccess.csproj" />
+        <ProjectReference Include="..\PTV.DataImport.Console\PTV.DataImport.Console.csproj" />
+    </ItemGroup>
+
+</Project>

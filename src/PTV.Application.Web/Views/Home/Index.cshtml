@@ -1,0 +1,89 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using Microsoft.AspNetCore.Authentication;
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+@using Newtonsoft.Json
+@using PTV.Application.Web
+
+
+@model UiAppSettings
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section scripts {
+
+    <script>
+        @*
+        don't use @Model.something_here to render values for javascript because it will HTML encode the values
+        thats why @Html.Raw(...) is used so that the original string is printed as it was
+    *@
+    const NoAccess = @Html.Raw(Model.UserInfo.NoAccess.ToString().ToLower());
+    function getAccessToken() {
+             return '@Html.Raw(Model.AccessToken)';
+    }
+
+@*    function getUserFirstNameSurname() {*@
+@*        return '@Html.Raw(Model.UserInfo.Name)';*@
+@*    }*@
+@**@
+@*    function getUserRole() {*@
+@*        return '@Html.Raw(Model.UserInfo.Role)';*@
+@*    }*@
+
+    const g_userInfo = @Html.Raw(JsonConvert.SerializeObject(Model.UserInfo));
+    const g_mapDNSnames = @Html.Raw(JsonConvert.SerializeObject(Model.MapDNSNames));
+    function getApiUrl() {
+            return '@Html.Raw(Model.CustomApiUrl)';
+    }
+
+    function getEnvironmentType() {
+        return '@Html.Raw(Model.EnvironmentTypeText)';
+    }
+
+    function isBugReportAvailable() {
+        return @Html.Raw(Model.IsBugReportAvailable.ToString().ToLower());
+    }
+
+
+    function getStsUrl() {
+        return '@Html.Raw(Model.StsUrl)';
+    }
+
+    function getAppVersion() {
+        return '@Model.VersionPrefix@Model.Version';
+    }
+
+</script>
+
+    <environment names="Development">
+
+    @if (Model.IsWebpackDisabled)
+    {
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/build/ptv.bundle.js?v=@Model.VersionPrefix@Model.Version"></script>
+    }
+    else
+    {
+        <script>
+            const isDevelopment = true;
+        </script>
+    }
+    </environment>
+    <environment names="Staging,Production,test,dev,qa,trn,prod">
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/build/ptv.bundle.js?v=@Model.VersionPrefix@Model.Version"></script>
+    </environment>
+
+}
+
+<div id="page-wrapper">
+</div>
+
+

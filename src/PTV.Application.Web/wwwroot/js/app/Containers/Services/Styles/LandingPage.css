@@ -1,0 +1,52 @@
+﻿body .service-search .row .react-bs-container .react-bs-table-container {
+  border: none; }
+  body .service-search .row .react-bs-container .react-bs-table-container .table-header-wrapper {
+    background-color: white; }
+    body .service-search .row .react-bs-container .react-bs-table-container .table-header-wrapper thead th {
+      padding: 10px;
+      color: #0043a8; }
+  body .service-search .row .react-bs-container .react-bs-table-container .table-container > table {
+    margin-top: -24px; }
+    body .service-search .row .react-bs-container .react-bs-table-container .table-container > table tr:nth-child(odd) {
+      background-color: #f2f2f2; }
+    body .service-search .row .react-bs-container .react-bs-table-container .table-container > table td {
+      padding: 10px; }
+
+body .service-search .row p.status-draft {
+  background: #f9ae86; }
+
+body .service-search .row p.status-published {
+  background: #d0aad5; }
+
+body .service-search .row p.status-published, body .service-search .row p.status-draft {
+  border-radius: 4px;
+  padding: 0 5px 0 5px;
+  text-align: center; }
+
+body .service-search .row .status-draft .cb-marker {
+  background: #f9ae86; }
+
+body .service-search .row .status-published .cb-marker {
+  background: #d0aad5; }
+
+body .service-search .row .auto-combo-box .Select {
+  margin-right: 0; }
+
+body .service-search .row .auto-combo-box img {
+  top: 7px;
+  right: 5px;
+  position: absolute; }
+
+body .service-search .row .label-input {
+  /*input {
+                    width:95%;
+                    margin-right: 15px;
+                }*/ }
+  body .service-search .row .label-input img {
+    top: 7px;
+    right: 5px;
+    position: absolute; }
+
+.form-wrap {
+  padding: 20px 40px; }
+

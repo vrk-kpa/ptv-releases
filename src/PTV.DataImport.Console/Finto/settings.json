@@ -1,0 +1,309 @@
+﻿{
+    "endpoints": {
+        "baseUri": "[REMOVED]",
+        "version": "/v{0}",
+        "defaultVersion": 4,
+        "typesUri": "/types",
+        "dataUri": "/concept?uri={0}",
+        "broaderUri": "/concept/broader?uri={0}",
+        "narrowerUri": "/concept/narrower?uri={0}",
+        "dataByTypeAll": "/concepts/{0}",
+        "dataByTypeTopLevel": "/concepts/{0}/toplevel"
+    },
+    "downloadsx": [
+        "targetGroups",
+        "lifeEvents",
+        "serviceClasses",
+        "ontologyTerms"
+    ],
+    "downloads": [
+        "ontologyTerms"
+    ],
+    "downloadDefinitions": {
+        "targetGroups": {
+            "enabled": true,
+            "name": "TargetGroups - use if hierarchy works",
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "links": [
+                {
+                    "action": "dataByTypeAll",
+                    "param": "targetgroup",
+                    "file": "TargetGroups"
+                }
+            ]
+        },
+        "targetGroupsByKey": {
+            "enabled": false,
+            "name": "TargetGroupsByKey",
+            "links": [
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:KR1",
+                    "file": "kr1"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:KR2",
+                    "file": "kr2"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:KR3",
+                    "file": "kr3"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "targetgroup",
+                    "file": "targetGroupAll"
+                }
+            ],
+            "downloadFolder": "Finto\\Temp",
+            "mergeFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "mergeTo": "TargetGroups",
+            "fixHierarchy": true
+        },
+        "ontologyTerms": {
+            "enabled": false,
+            "mergeOnly": false,
+            "name": "Ontology terms",
+            "links": [
+                {
+                    "action": "dataByTypeAll",
+                    "param": "yso"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "tsr"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "juho"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "jupo"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "liito"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "tero"
+                }
+            ],
+            "mergeTo": "OntologyAll",
+            "fixHierarchy": false,
+            "downloadFolder": "Finto\\Temp",
+            "mergeFolder": "..\\PTV.ExternalSources\\Resources\\Finto"
+        },
+        "lifeEvents": {
+            "enabled": true,
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "name": "LifeEvents - use if hierarchy works",
+            "links": [
+                {
+                    "action": "dataByTypeAll",
+                    "param": "lifesituation",
+                    "file": "LifeSituations"
+                }
+            ]
+        },
+        "lifeEventsByKey": {
+            "enabled": false,
+            "name": "LifeEvents - fixing hierarchy",
+            "links": [
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:KE1",
+                    "file": "ke1"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:KE4",
+                    "file": "ke4"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "lifesituation",
+                    "file": "lifeSituationsAll"
+                }
+            ],
+            "mergeTo": "LifeSituations",
+            "fixHierarchy": true,
+            "downloadFolder": "Finto\\Temp",
+            "mergeFolder": "..\\PTV.ExternalSources\\Resources\\Finto"
+        },
+        "serviceClasses": {
+            "version": 4,
+            "enabled": true,
+            "name": "Service classes - use if hierarchy works",
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "links": [
+                {
+                    "action": "dataByTypeAll",
+                    "param": "ptvl",
+                    "file": "ServiceClasses"
+                }
+            ]
+        },
+        "ServiceClassesByKey": {
+            "enabled": false,
+            "name": "Service classes - fixing hierarchy",
+            "links": [
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P1",
+                    "file": "P1"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P10",
+                    "file": "P10"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P11",
+                    "file": "P11"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P12",
+                    "file": "P12"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P13",
+                    "file": "P13"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P14",
+                    "file": "P14"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P15",
+                    "file": "P15"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P16",
+                    "file": "P16"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P17",
+                    "file": "P17"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P18",
+                    "file": "P18"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P19",
+                    "file": "P19"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P2",
+                    "file": "P2"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P20",
+                    "file": "P20"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P21",
+                    "file": "P21"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P22",
+                    "file": "P22"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P23",
+                    "file": "P23"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P24",
+                    "file": "P24"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P25",
+                    "file": "P25"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P26",
+                    "file": "P26"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P27",
+                    "file": "P27"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P3",
+                    "file": "P3"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P4",
+                    "file": "P4"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P5",
+                    "file": "P5"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P6",
+                    "file": "P6"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P7",
+                    "file": "P7"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P8",
+                    "file": "P8"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P9",
+                    "file": "P9"
+                },
+                {
+                    "action": "dataUri",
+                    "param": "http://urn.fi/URN:NBN:fi:au:ptvl:P1.1",
+                    "file": "P1.1"
+                },
+                {
+                    "action": "dataByTypeAll",
+                    "param": "ptvl",
+                    "file": "ServiceClassesAll"
+                }
+            ],
+            "mergeTo": "ServiceClasses",
+            "fixHierarchy": true,
+            "downloadFolder": "Finto\\Temp",
+            "mergeFolder": "..\\PTV.ExternalSources\\Resources\\Finto"
+        }
+    }
+}

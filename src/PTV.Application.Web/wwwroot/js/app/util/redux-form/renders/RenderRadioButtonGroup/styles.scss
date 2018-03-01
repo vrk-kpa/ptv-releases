@@ -1,0 +1,15 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.compareMode {
+  label {
+    display: flex;
+    height: auto;
+  }
+  div {
+    flex: 0 0 30px;
+  }
+  span {
+    display: inline-flex;
+    white-space: normal;
+  }
+}

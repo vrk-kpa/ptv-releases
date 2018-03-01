@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Types\AppEnvironmentDataType.json" />
+    <None Remove="Resources\Types\ExtraSubType.json" />
+    <None Remove="Resources\Types\ExtraType.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\InvalidAreas.json" />
+    <EmbeddedResource Include="Resources\PostalCode.csv" />
+    <EmbeddedResource Include="Resources\PostalCode.json" />
+    <EmbeddedResource Include="Resources\LanguageCodes.json" />
+    <EmbeddedResource Include="Resources\Municipality.json" />
+    <EmbeddedResource Include="Resources\LifeSituations.json" />
+    <EmbeddedResource Include="Resources\ServiceClasses.json" />
+    <EmbeddedResource Include="Resources\TargetGroups.json" />
+    <EmbeddedResource Include="Resources\MunicipalityOrganizations.json" />
+    <EmbeddedResource Include="Resources\CountryCodes.json" />
+    <EmbeddedResource Include="Resources\Province.json" />
+    <EmbeddedResource Include="Resources\BusinessRegion.json" />
+    <EmbeddedResource Include="Resources\HospitalRegion.json" />
+    <EmbeddedResource Include="Resources\Types\AddressType.json" />
+    <EmbeddedResource Include="Resources\Types\AddressCharacter.json" />
+    <EmbeddedResource Include="Resources\Types\AppEnvironmentDataType.json" />
+    <EmbeddedResource Include="Resources\Types\AreaType.json" />
+    <EmbeddedResource Include="Resources\Types\AttachmentType.json" />
+    <EmbeddedResource Include="Resources\Types\DescriptionType.json" />
+    <EmbeddedResource Include="Resources\Types\ExceptionHoursStatus.json" />
+    <EmbeddedResource Include="Resources\AstiTypes.json" />
+    <EmbeddedResource Include="Resources\Types\ExtraType.json" />
+    <EmbeddedResource Include="Resources\Types\NameType.json" />
+    <EmbeddedResource Include="Resources\Types\OrganizationType.json" />
+    <EmbeddedResource Include="Resources\Types\PhoneNumberType.json" />
+    <EmbeddedResource Include="Resources\Types\PrintableFormChannelUrlType.json" />
+    <EmbeddedResource Include="Resources\Types\ProvisionType.json" />
+    <EmbeddedResource Include="Resources\Types\PublishingStatus.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceChannelConnectionType.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceCoverageType.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceFundingType.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceHours.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceChannelType.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceChargeType.json" />
+    <EmbeddedResource Include="Resources\Types\TranslationStateType.json" />
+    <EmbeddedResource Include="Resources\Types\StreetAddressType.json" />
+    <EmbeddedResource Include="Resources\Types\AreaInformationType.json" />
+    <EmbeddedResource Include="Resources\Types\WebPageType.json" />
+    <EmbeddedResource Include="Resources\Types\ServiceType.json" />
+    <EmbeddedResource Include="Resources\Finto\TargetGroups.json" />
+    <EmbeddedResource Include="Resources\Finto\ServiceClasses.json" />
+    <EmbeddedResource Include="Resources\Finto\LifeSituations.json" />
+    <EmbeddedResource Include="Resources\Finto\OntologyAll.json" />
+    <EmbeddedResource Include="Resources\Finto\IndustrialClasses.json" />
+    <EmbeddedResource Include="Resources\DigitalAuthorizations.json" />
+    <EmbeddedResource Include="Resources\Finto\OrganizationTypes.json" />
+    <EmbeddedResource Include="Resources\Types\CoordinateType.json" />
+    <EmbeddedResource Include="Resources\Types\AccessRightType.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

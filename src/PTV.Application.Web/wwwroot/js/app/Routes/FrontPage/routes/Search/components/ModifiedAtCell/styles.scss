@@ -1,0 +1,37 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.time {
+  font-size: 13px;
+  margin-top: 0;
+  .time {
+    &::after {
+      content: ')';
+    }
+    &::before {
+      content: '(';
+    }
+  }
+}
+
+.inline {
+  display: flex;
+  .time {
+    font-size: 16px;
+    margin-left: 10px;
+    &::after {
+      content: '';
+    }
+    &::before {
+      content: '';
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .inline {
+    display: block;
+    .time {
+      margin-left: 0;
+    }
+  }
+}

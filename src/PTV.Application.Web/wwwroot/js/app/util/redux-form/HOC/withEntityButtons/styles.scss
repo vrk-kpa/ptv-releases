@@ -1,0 +1,25 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+
+.buttonGroup {
+  @include arrange-items($align: 'right', $margin: 0, $spacing: 20px);
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.inside {
+  justify-content: flex-start;
+  margin: 0;
+  padding: 40px;
+  padding-left: 80px;
+  border: 1px solid border-color(border);
+  border-top: none;
+  background-color: bg-color(content);
+}
+
+.entityNavigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

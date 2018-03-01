@@ -1,0 +1,58 @@
+@import '../../../../../Components/styles/variables';
+@import '../../../../../Components/styles/mixins';
+
+.entity-preview {
+  margin: 15px 0;
+  padding: 10px 0 20px;
+  border: 1px solid border-color(border);
+  font-size: 14px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid border-color(border);
+    border-top: 1px solid border-color(border);
+    top: 20px;
+    left: -6px;
+    transform: rotate(-45deg);
+    background-color: bg-color(content);
+  }
+  label {
+    margin: 0;
+    display: block;
+  }
+}
+
+.entity-preview-title, .entity-preview-label {
+  padding: 0 30px;
+}
+
+.entity-preview-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.entity-preview-item {
+  padding: 10px 20px 0 60px;
+  position: relative;
+  &::before {
+    content: '';
+    border: 2px solid text-color(primary);
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    border-radius: 50%;
+    left: 40px;
+    top: 18px;
+  }
+  .ptv-label{
+    span{
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

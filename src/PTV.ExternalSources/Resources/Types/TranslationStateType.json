@@ -1,0 +1,158 @@
+﻿[
+    {
+        "code": "ReadyToSend",
+        "names": [
+            {
+                "Name": "Uusi tilaus",
+                "language": "fi"
+            },
+            {
+                "Name": "New order",
+                "language": "en"
+            },
+            {
+                "Name": "Ny ordern",
+                "language": "sv"
+            }
+        ]
+
+    },
+    {
+        "code": "SendError",
+        "names": [
+            {
+                "Name": "Lähetys epäonnistui",
+                "language": "fi"
+            },
+            {
+                "Name": "Delivery failed",
+                "language": "en"
+            },
+            {
+                "Name": "Avsändning misslyckades",
+                "language": "sv"
+            }
+        ]
+
+    },
+    {
+        "code": "Sent",
+        "names": [
+            {
+                "Name": "Tilaus lähetetty",
+                "language": "fi"
+            },
+            {
+                "Name": "Order sent",
+                "language": "en"
+            },
+            {
+                "Name": "Ordern skickad",
+                "language": "sv"
+            }
+        ]
+
+    },
+    {
+        "code": "InProgress",
+        "names": [
+            {
+                "Name": "Käännös työn alla",
+                "language": "fi"
+            },
+            {
+                "Name": "Translation in progress",
+                "language": "en"
+            },
+            {
+                "Name": "Översättning pågår",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Arrived",
+        "names": [
+            {
+                "Name": "Käännös saapunut",
+                "language": "fi"
+            },
+            {
+                "Name": "Translation received",
+                "language": "en"
+            },
+            {
+                "Name": "Översättningen mottagen",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "EstimateCompleted",
+        "names": [
+            {
+                "Name": "Arvioitu valmistumisaika",
+                "language": "fi"
+            },
+            {
+                "Name": "Estimated to be completed",
+                "language": "en"
+            },
+            {
+                "Name": "Beräknas bli färdig",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "FileError",
+        "names": [
+            {
+                "Name": "Tilaustiedoston virhe",
+                "language": "fi"
+            },
+            {
+                "Name": "Order file error",
+                "language": "en"
+            },
+            {
+                "Name": "Fel i beställningsfilen",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "DeliveredFileError",
+        "names": [
+            {
+                "Name": "Virhe saapuneessa käännöstiedostossa",
+                "language": "fi"
+            },
+            {
+                "Name": "Delivered file error",
+                "language": "en"
+            },
+            {
+                "Name": "Fel i mottagen översättningsfil",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "ArrivedIsConfirm",
+        "names": [
+            {
+                "Name": "Vastaanotettu käännös on vahvistettu",
+                "language": "fi"
+            },
+            {
+                "Name": "Received translation is confirm",
+                "language": "en"
+            },
+            {
+                "Name": "Mottagen översättning är bekräftad",
+                "language": "sv"
+            }
+        ]
+    }
+]

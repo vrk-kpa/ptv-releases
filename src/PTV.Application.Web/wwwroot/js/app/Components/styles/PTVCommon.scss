@@ -1,0 +1,67 @@
+@import '../styles/variables';
+
+$errorColor: #a94442;
+
+.has-error {
+	color: $errorColor;
+  fill: $errorColor;
+
+  label {
+    color: #333333;
+    fill: #333333
+  }
+
+  .checkbox-list {
+    .check {
+      border-color: $errorColor;
+    }
+  }
+
+  .list-search-results {
+    border-color: $errorColor;
+  }
+
+  .list-search-field {
+    .ptv-textinput {
+      border-color: $errorColor;
+    }
+  }
+
+	.error-message {
+		color: $errorColor;
+	}
+
+	.form-control, .Select-control, .tree {
+		border-color: $errorColor;
+	}
+
+	.form-control:focus {
+		border-color: #843534;
+	}
+}
+
+.box.error-box, .box.success-box {
+	label {
+		font-weight: bold;
+	}
+}
+
+.box.error-box {
+				label {
+					color: $errorColor;
+				}
+			}
+
+.box.success-box {
+		label {
+			color: #178809;
+		}
+}
+
+// .custom-error {
+//   .ptv-checkbox {
+//     .check {
+//       border-color: $brand-warning;
+//     }
+//   }
+// }

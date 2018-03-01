@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+    <ProjectReference Include="..\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>

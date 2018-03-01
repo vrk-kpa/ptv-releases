@@ -1,0 +1,7 @@
+export { default as AttachmentCollection } from './AttachmentCollection'
+export { default as ContactInformation } from './ContactInformation'
+export { default as FaxNumberCollection } from './FaxNumberCollection'
+export { default as PostalAddressCollection } from './PostalAddressCollection'
+export { default as ServiceLocationBasic } from './ServiceLocationBasic'
+export { default as ServiceLocationForm } from './ServiceLocationForm'
+export { default as VisitingAddressCollection } from './VisitingAddressCollection'

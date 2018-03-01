@@ -1,0 +1,72 @@
+﻿[
+    {
+        "code": "Municipality",
+        "names": [
+            {
+                "Name": "Kunta",
+                "language": "fi"
+            },
+            {
+                "Name": "Municipality",
+                "language": "en"
+            },
+            {
+                "Name": "Kommun",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Province",
+        "names": [
+            {
+                "Name": "Maakunta",
+                "language": "fi"
+            },
+            {
+                "Name": "Region",
+                "language": "en"
+            },
+            {
+                "Name": "Landskap",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "BusinessRegions",
+        "names": [
+            {
+                "Name": "Yrityspalvelujen seutualue",
+                "language": "fi"
+            },
+            {
+                "Name": "Business sub-region",
+                "language": "en"
+            },
+            {
+                "Name": "Företagstjänster delregion",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "HospitalRegions",
+        "names": [
+            {
+                "Name": "Sairaanhoitopiiri",
+                "language": "fi"
+            },
+            {
+                "Name": "Hospital district",
+                "language": "en"
+            },
+            {
+                "Name": "Sjukvårdsdistrikt",
+                "language": "sv"
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+﻿[
+  {
+    "code": "Service",
+    "names": [
+      {
+        "Name": "Palvelu",
+        "language": "fi"
+      },
+      {
+        "Name": "Service",
+        "language": "en"
+      },
+        {
+            "Name": "Tjänst",
+            "language": "sv"
+        }
+    ]
+
+  },
+  {
+    "code": "PermissionAndObligation",
+    "names": [
+      {
+        "Name": "Lupa tai muu velvoite",
+        "language": "fi"
+      },
+        {
+            "Name": "Permit or other obligation",
+            "language": "en"
+        },
+      {
+        "Name": "Tillstånd eller annan skyldighet",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "ProfessionalQualifications",
+    "names": [
+        {
+            "Name": "Ammattipätevyys",
+            "language": "fi"
+        },
+        {
+            "Name": "Professional qualification",
+            "language": "en"
+        },
+        {
+            "Name": "Yrkeskvalifikation",
+            "language": "sv"
+        }
+    ]
+  }
+]

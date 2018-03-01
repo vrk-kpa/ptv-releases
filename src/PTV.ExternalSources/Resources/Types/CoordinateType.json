@@ -1,0 +1,40 @@
+﻿[
+    {
+        "code": "Main",
+        "names": [
+            {
+                "Name": "Tärkein",
+                "language": "fi"
+            },
+            {
+                "Name": "Main",
+                "language": "en"
+            },
+            {
+                "Name": "Huvud",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "User",
+        "names": [
+            {
+                "Name": "Käyttäjä",
+                "language": "fi"
+            },
+            {
+                "Name": "User",
+                "language": "en"
+            },
+            {
+                "Name": "Användare",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]
