@@ -1,0 +1,24 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.previewBlock {
+  display: flex;
+  label {
+    &::after {
+      content: ':';
+    }
+  }
+}
+
+.previewItem {
+  margin-top: 10px;
+  line-height: 20px;
+  address {
+    margin: 0;
+  }
+}
+
+.additionalInfo {
+  font-size: 0.85rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,72 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+
+.tasks {
+  border-bottom: 1px solid border-color(border);
+  border-left: 10px solid status-color(notification);
+  .tasksAccTitle {
+    padding: 20px;
+    margin: 0;
+    border: 1px solid border-color(border);
+    border-bottom: none;
+  }
+  .tasksAccContent {
+    padding: 0 20px 20px;
+    border-left: 1px solid border-color(border);
+    border-right: 1px solid border-color(border);
+  }
+  // [class*='styles__cellName___'] {
+  //   width: auto;
+  // }
+  .tasksTitle {
+    button {
+      display: none;
+    }
+  }
+  [class*='styles__active___'] {
+    .tasksTitle {
+      button {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.tasksAccTitle {
+  display: block;
+  > div {
+    display: flex;
+    justify-content: space-between;
+    h5 {
+      flex: 1 0 auto;
+    }
+    span {
+      flex: 0 0 40px;
+      text-align: right;
+      // svg {
+      //   transform: scale(2);
+      // }
+    }
+    .infoIconClass {
+      margin-left: 10px;
+      flex: 0 0 20px;
+      text-align: center;
+    }
+  }
+}
+
+.tasksTitle {
+  display: flex;
+  color: interaction-color(primary);
+}
+
+.notificationTooltip {
+  display: block;
+  span {
+    display: block;
+  }
+  svg {
+    fill: icon-color(secondary);
+  }
+}

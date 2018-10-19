@@ -1,0 +1,97 @@
+﻿{
+  "id": "string",
+  "serviceChannelType": "string",
+  "organizationId": "string",
+  "serviceChannelNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "type": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+    {
+      "orderNumber": "string",
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2018-04-25T06:48:05.110Z",
+      "validTo": "2018-04-25T06:48:05.110Z",
+      "isClosed": true,
+      "validForNow": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string",
+          "isExtra": true
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2018-04-25T06:48:05.110Z"
+}

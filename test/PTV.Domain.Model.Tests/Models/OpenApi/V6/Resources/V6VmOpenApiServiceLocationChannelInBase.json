@@ -1,0 +1,122 @@
+﻿{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "areaCodes": [
+        "string"
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "faxNumbers": [
+    {
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+    {
+      "orderNumber": "string",
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "addresses": [
+    {
+      "type": "string",
+      "postOfficeBox": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "streetAddress": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "postalCode": "string",
+      "streetNumber": "string",
+      "municipality": "string",
+      "country": "string",
+      "additionalInformations": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "latitude": "string",
+      "longitude": "string"
+    }
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2018-04-25T07:14:40.448Z",
+      "validTo": "2018-04-25T07:14:40.448Z",
+      "isClosed": true,
+      "validForNow": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string",
+          "isExtra": true
+        }
+      ]
+    }
+  ],
+  "deleteAllEmails": true,
+  "deleteAllPhoneNumbers": true,
+  "deleteAllFaxNumbers": true,
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "deleteAllWebPages": true,
+  "deleteAllServiceHours": true
+}

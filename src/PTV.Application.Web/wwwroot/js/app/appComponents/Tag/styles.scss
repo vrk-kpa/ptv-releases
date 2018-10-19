@@ -1,0 +1,26 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.tag {
+  padding: 2px 8px;
+  display: inline-flex;
+  color: text-color(primary);
+  background-color: bg-color(dark);
+  font: 0.75rem "SourceSansProBold";
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-top: 5px;
+  ~ .tag {
+    margin-left: 5px;
+  }
+}
+
+.normal {
+  padding: 5px;
+  text-transform: none;
+  margin-top: 0;
+  font: 1rem "SourceSansProRegular";
+  svg {
+    fill: text-color(secondary);
+    margin-left: 5px;
+  }
+}

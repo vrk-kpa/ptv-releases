@@ -1,0 +1,20 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+.wrapp {
+  position: relative;
+}
+.wrapp input {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid icon-color(primary);
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 6px 40px 6px 10px;
+}
+.icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  fill: icon-color(secondary);
+}

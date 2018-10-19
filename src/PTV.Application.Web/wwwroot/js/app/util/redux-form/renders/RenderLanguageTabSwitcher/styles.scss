@@ -1,0 +1,50 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.languageTabSwitcher {
+  display: flex;
+  align-items: baseline;
+}
+
+.languageCode {
+  margin-right: 10px;
+  &.draft, &.modified {
+    @include status-box($width: auto, $statusColor: icon-color(accent));
+  }
+  &.published {
+    @include status-box($width: auto, $statusColor: status-color(success));
+  }
+  &.deleted, &.oldpublished {
+    @include status-box($width: auto, $statusColor: secondary-color(harmaa));
+  }
+}
+
+.addNewButton {
+  position: relative;
+  padding-left: 20px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 30px;
+    border-left: 1px solid border-color(border);
+  }
+  button {
+    font: 14px "SourceSansProBold";
+    text-transform: uppercase;
+  }
+}
+
+.languageTab {
+  display: flex;
+}
+
+.notificationIcon {
+  margin-left: 5px;
+  @include notification-icon();
+}
+
+.isApproved {
+  color: status-color(success);
+}

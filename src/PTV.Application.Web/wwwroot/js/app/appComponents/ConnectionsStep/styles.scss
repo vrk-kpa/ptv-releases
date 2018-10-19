@@ -1,0 +1,51 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.spinner {
+  @include spinner-basic();
+}
+
+@include fake-table();
+.buttonGroup {
+  @include arrange-items();
+}
+
+.isOpen {
+  > div {
+    background-color: $gray-light;
+  }
+}
+
+.connectionDetail {
+  background-color: $gray-light;
+  padding: 10px 20px 20px;
+  border-top: 1px solid border-color(border);
+  h1, p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.connectionDetailTab {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+}
+

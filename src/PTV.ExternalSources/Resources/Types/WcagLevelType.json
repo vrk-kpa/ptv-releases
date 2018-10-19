@@ -1,0 +1,41 @@
+[
+  {
+    "Code": "LevelA",
+    "Names": [
+      {
+        "Name": "A",
+        "Language": "fi"
+      },
+      {
+        "Name": "A",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "LevelAA",
+    "Names": [
+      {
+        "Name": "AA",
+        "Language": "fi"
+      },
+      {
+        "Name": "AA",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "LevelAAA",
+    "Names": [
+      {
+        "Name": "AAA",
+        "Language": "fi"
+      },
+      {
+        "Name": "AAA",
+        "Language": "en"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.wrap {
+  font-weight: 400;
+}
+
+.type {
+  font-weight: 600;
+  &::after {
+    content: ': ';
+  }
+}
+
+.info {
+  &::before {
+    content: ', ';
+  }
+}
+
+.prependInfo {
+  .info {
+    &::after {
+      content: ', ';
+    }
+    &::before {
+      content: '';
+    }
+  }
+}
+
+.isReadOnly {
+  .info {
+    display: block;
+    &::before, &::after {
+      content: '';
+    }
+  }
+}

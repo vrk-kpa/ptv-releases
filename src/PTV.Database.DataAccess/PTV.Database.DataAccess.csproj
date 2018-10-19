@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <NoWarn>EF1000</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Database.DataAccess.Interfaces\PTV.Database.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\PTV.Database.Model\PTV.Database.Model.csproj" />
+    <ProjectReference Include="..\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+    <ProjectReference Include="..\PTV.Domain.Logic\PTV.Domain.Logic.csproj" />
+    <ProjectReference Include="..\PTV.ExternalSources\PTV.ExternalSources.csproj" />
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+    <ProjectReference Include="..\PTV.Database.DataAccess.DirectRaw\PTV.Database.DataAccess.DirectRaw.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Repositories\Repository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Repository.cs</LastGenOutput>
+    </None>
+    <None Update="Repositories\RepositoryPartial.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RepositoryPartial.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Repositories\Repository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Repositories\RepositoryPartial.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RepositoryPartial.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+</Project>

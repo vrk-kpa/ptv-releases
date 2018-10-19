@@ -1,0 +1,122 @@
+[
+  {
+    "code": "DraftServicesExpirationTime",
+    "entity":  "Service",
+    "publishingStatus": "Draft",
+    "interval": "3 months"
+  },
+  {
+    "code": "DraftChannelsExpirationTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Draft",
+    "interval": "3 months"
+  },
+  {
+    "code": "DraftServicesFirstWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Draft",
+    "interval": "1 month"
+  },
+  {
+    "code": "DraftChannelsFirstWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Draft",
+    "interval": "1 month"
+  },
+  {
+    "code": "DraftServicesLastWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Draft",
+    "interval": "2.5 months"
+  },
+  {
+    "code": "DraftChannelsLastWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Draft",
+    "interval": "2.5 months"
+  },
+  {
+    "code": "PublishedServicesExpirationTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "1 year"
+  },
+  {
+    "code": "PublishedChannelsExpirationTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "1 year"
+  },
+  {
+    "code": "PublishedServicesFirstWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "6 months"
+  },
+  {
+    "code": "PublishedChannelsFirstWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "6 months"
+  },
+  {
+    "code": "PublishedServicesMiddleWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "9 months"
+  },
+  {
+    "code": "PublishedChannelsMiddleWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "9 months"
+  },
+  {
+    "code": "PublishedServicesLastWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "10 months"
+  },
+  {
+    "code": "PublishedChannelsLastWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "10 months"
+  },
+  {
+    "code": "DraftOrganizationsExpirationTime",
+    "entity": "Organization",
+    "publishingStatus": "Draft",
+    "interval": "3 months"
+  },
+  {
+    "code": "PublishedOrganizationsExpirationTime",
+    "entity": "Organization",
+    "publishingStatus": "Published",
+    "interval": "1 year"
+  },
+  {
+    "code": "DraftOrganizationsFirstWarningTime",
+    "entity": "Organization",
+    "publishingStatus": "Draft",
+    "interval": "1 month"
+  },
+  {
+    "code": "DraftOrganizationsLastWarningTime",
+    "entity": "Organization",
+    "publishingStatus": "Draft",
+    "interval": "1.5 months"
+  },
+  {
+    "code": "PublishedOrganizationsFirstWarning",
+    "entity": "Organization",
+    "publishingStatus": "Published",
+    "interval": "9 months"
+  },
+  {
+    "code": "PublishedOrganizationsLastWarning",
+    "entity": "Organization",
+    "publishingStatus": "Published",
+    "interval": "10 months"
+  }
+]

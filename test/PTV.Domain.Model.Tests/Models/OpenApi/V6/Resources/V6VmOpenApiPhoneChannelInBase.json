@@ -1,0 +1,80 @@
+﻿{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "areaCodes": [
+        "string"
+      ]
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "type": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "urls": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2018-04-25T05:59:31.608Z",
+      "validTo": "2018-04-25T05:59:31.608Z",
+      "isClosed": true,
+      "validForNow": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string",
+          "isExtra": true
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "deleteAllWebPages": true,
+  "deleteAllServiceHours": true
+}

@@ -1,0 +1,87 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.notReadOnly {
+  background-color: bg-color(content);
+  padding: 10px 0;
+  border: 1px solid border-color(border);
+  .previewBlock {
+    padding: 0 20px;
+    ~ .previewBlock {
+      border-top: 1px solid border-color(border);
+    }
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.previewBlock {
+  ~ .previewBlock {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  label {
+    margin-top: 0;
+    margin-bottom: 0;
+    word-break: break-all;
+    word-break: break-word;
+  }
+}
+
+.previewBlockItem {
+  margin-bottom: 10px;
+}
+
+.day {
+  display: flex;
+}
+
+.dayName {
+  flex: 0 0 40px;
+  text-transform: capitalize;
+}
+
+.interval {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intervalItem {
+  display: inline-flex;
+  > div ~ div {
+    margin-left: 3px;
+  }
+}
+
+.record {
+  display: flex;
+  flex-wrap: wrap;
+  > div ~ div {
+    margin-left: 3px;
+  }
+}
+
+.from, .to {
+  > * ~ * {
+    margin-left: 3px;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.dash {
+  margin: 0 3px;
+}
+
+.hoursConjunction {
+  margin-right: 3px;
+}
+
+.notifyIcon {
+  align-self: flex-start;
+}

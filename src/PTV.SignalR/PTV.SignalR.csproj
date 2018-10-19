@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Database.DataAccess.Interfaces\PTV.Database.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\PTV.Database.DataAccess\PTV.Database.DataAccess.csproj" />
+    <ProjectReference Include="..\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+  </ItemGroup>
+</Project>

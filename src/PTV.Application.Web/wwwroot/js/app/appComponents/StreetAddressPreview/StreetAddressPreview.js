@@ -1,0 +1,106 @@
+/**
+ * The MIT License
+ * Copyright (c) 2016 Population Register Centre (VRK)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+import React from 'react'
+import PropTypes from 'prop-types'
+import { compose } from 'redux'
+import { connect } from 'react-redux'
+import {
+  Accessibility,
+  AddressNumber,
+  PostalCode,
+  PostOffice,
+  StreetAddressName,
+  AdditionalInformation,
+  Municipality,
+  FormReceiver
+} from 'util/redux-form/fields'
+import Coordinates from 'util/redux-form/sections/Coordinates'
+import { Label } from 'sema-ui-components'
+import { getSelectedEntityConcreteType } from 'selectors/entities/entities'
+import { addressUseCasesEnum, entityConcreteTypesEnum } from 'enums'
+import styles from './styles.scss'
+
+const StreetAddressPreview = ({
+  mapDisabled,
+  title,
+  subTitle,
+  index,
+  required,
+  entityConcreteType,
+  ...rest
+}) => {
+  return (
+    <div>
+      <div>
+        <Label>
+          {title}
+          <span className={styles.subTitle}>({subTitle})</span>
+        </Label>
+      </div>
+      <address>
+        {rest.addressUseCase === addressUseCasesEnum.DELIVERY &&
+          <div className={styles.inline}>
+            <FormReceiver {...rest} label={null} />
+          </div>
+        }
+        <div className={styles.inline}>
+          <StreetAddressName {...rest} label={null} required={required} />
+          <AddressNumber {...rest} label={null} />
+        </div>
+        <div className={styles.inline}>
+          <PostalCode {...rest} label={null} required={required} />
+          <PostOffice {...rest} hideLabel />
+        </div>
+        <AdditionalInformation {...rest} label={null} />
+      </address>
+      {rest.addressUseCase === addressUseCasesEnum.VISITING &&
+        <Municipality {...rest} />
+      }
+      {
+        entityConcreteType === entityConcreteTypesEnum.SERVICELOCATIONCHANNEL &&
+        rest.addressUseCase === addressUseCasesEnum.VISITING &&
+        <Accessibility
+          index={index}
+          addressUseCase={rest.addressUseCase}
+          compare={!!rest.compare}
+        />
+      }
+      {!mapDisabled && <Coordinates {...rest} index={index} />}
+    </div>
+  )
+}
+
+StreetAddressPreview.propTypes = {
+  mapDisabled: PropTypes.bool,
+  required: PropTypes.bool,
+  title: PropTypes.string,
+  index: PropTypes.number,
+  subTitle: PropTypes.string,
+  entityConcreteType: PropTypes.string
+}
+
+export default compose(
+  connect(state => ({
+    entityConcreteType: getSelectedEntityConcreteType(state)
+  }))
+)(StreetAddressPreview)

@@ -1,0 +1,590 @@
+/// Mixin helping arranging items in container.
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @param {boolean} $reversed [false] - order of items
+/// @param {string} $align ['left'] - horizontal alignment of items
+/// @param {number} $margin [10px] - vertical margin of item container
+/// @param {number} $spacing [10px] - spacing between items
+///
+/// @example scss - Usage
+///   .buttonGroup {
+///     @include arrange-items($align: 'right');
+///   }
+@mixin arrange-items($reversed: false, $align: 'left', $margin: 10px, $spacing: 10px) {
+  margin-top: $margin;
+  margin-bottom: $margin;
+  display: flex;
+  @if not $reversed { // normal flow
+    flex-direction: row;
+    @if $align == 'left' { justify-content: flex-start; }
+    @else if $align == 'center' { justify-content: center; }
+    @else { justify-content: flex-end; }
+  }
+  @else { // reversed flow
+    flex-direction: row-reverse;
+    @if $align == 'left' { justify-content: flex-end; }
+    @else if $align == 'center' { justify-content: center; }
+    @else { justify-content: flex-start; }
+  }
+  > button {
+    margin: 0;
+    ~ button {
+      @if not $reversed { // normal flow
+        margin-left: $spacing;
+      } @else { // reversed flow
+        margin-right: $spacing;
+      }
+    }
+  }
+}
+
+/// Mixin creating tooltip like container.
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @param {string} $arrow-position ['left'] - alignment of tooltip arrow
+///
+/// @example scss - Usage
+///   .preview {
+///     @include tooltip-box();
+///   }
+@mixin tooltip-box($arrow-position: 'left') {
+  $angle: -45deg;
+  $left: -6px;
+  $top: 20px;
+  $right: auto;
+  $bottom: auto;
+  @if $arrow-position == 'up' {
+    $angle: 45deg;
+    $top: -6px;
+    $bottom: auto;
+    $left: 20px;
+    $right: auto;
+  } @else if $arrow-position == 'right' {
+    $angle: 135deg;
+    $top: 20px;
+    $bottom: auto;
+    $left: auto;
+    $right: -6px;
+  }
+   @else if $arrow-position == 'down' {
+    $angle: 225deg;
+    $top: auto;
+    $bottom: -6px;
+    $left: 20px;
+    $right: auto;
+  }
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid border-color(border);
+  border-top: 1px solid border-color(border);
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+  right: $right;
+  transform: rotate($angle);
+  background-color: bg-color(content);
+}
+
+@mixin icon-caret($color, $orientation: 'down') {
+  position: relative;
+  $angle: 45deg;
+  $verticalAdjustment: '7px';
+
+  @if $orientation == 'up' {
+    $angle: 225deg;
+    $verticalAdjustment: '3px';
+  }
+
+  &:after {
+    position: absolute;
+    top: calc(50% - #{$verticalAdjustment});
+    left: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    content: "";
+    border: 0 solid $color;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    transform-origin: center center;
+    transform: rotate($angle);
+  }
+}
+
+/// Mixin creating small select field (using react-select).
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @example scss - Usage
+///   .dailyTo, .dailyFrom {
+///     @include small-select();
+///   }
+@mixin small-select() {
+  min-width: 80px;
+  height: 30px;
+  :global {
+    .Select-control {
+      font-size: 15px;
+      height: 30px;
+      line-height: 10px;
+    }
+    .Select-placeholder, .Select--single > .Select-control .Select-value {
+      padding: 5px;
+    }
+    // .Select-clear-zone {
+    //   width: 25px;
+    // }
+    .Select-clear {
+      font-size: 20px;
+    }
+    .Select-arrow-zone {
+      width: 10px;
+      padding-right: 8px;
+    }
+    .is-clearable.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+    .is-clearable.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+      padding-right: 20px;
+    }
+    .Select-placeholder,
+    .Select--single > .Select-control .Select-value {
+      overflow: visible;
+    }
+    .has-value.Select--single > .Select-control .Select-value .Select-value-label,
+    .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+      overflow: visible;
+    }
+  }
+}
+
+/// Mixin creating list bullet
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @example scss - Usage
+///   .someElement {
+///     position: relative;
+///     &::after {
+///       @include pseudo-bullet();
+///     }
+///   }
+@mixin pseudo-bullet() {
+  content: '';
+  border: 2px solid text-color(primary);
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 12px;
+}
+
+/// Mixin creating colored rectangle
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @param {string} $color - text color
+/// @param {string} $bgColor - background color
+/// @param {number} $width [20px] - box width
+/// @param {number} $height [20px] - box height
+/// @param {number} $fontSize [14px] - font size
+///
+/// @example scss - Usage
+///   .languageCode {
+///     &.publiahed {
+///       @include paint-box($bgColor: secondary-color(taivas));
+///     }
+///   }
+@mixin paint-box($color: bg-color(content), $bgColor: secondary-color(lakka), $width: 20px, $height: $width, $fontSize: 14px) {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1px;
+  display: inline-block;
+  color: $color;
+  font-size: $fontSize;
+  padding: 0 3px;
+  min-width: 20px;
+  width: $width;
+  height: $height;
+  background-color: $bgColor;
+}
+
+/// Mixin creating text box icon with status color bottom border
+///
+/// @author PTV Team
+///
+/// @access public
+///
+/// @param {string} $textColor - text color
+/// @param {string} $statusColor - background color
+/// @param {number} $width [20px] - box width
+/// @param {number} $height [20px] - box height
+/// @param {number} $fontSize [14px] - font size
+///
+/// @example scss - Usage
+///   .languageCode {
+///     &.publiahed {
+///       @include paint-box($bgColor: secondary-color(taivas));
+///     }
+///   }
+@mixin status-box($textColor: text-color(primary), $statusColor: icon-color(accent), $width: 20px, $height: 20px, $fontSize: 12px) {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  border-radius: 2px;
+  // border-bottom: 2px solid $statusColor;
+  display: block;
+  color: $textColor;
+  font-size: $fontSize;
+  font-weight: 600;
+  padding: 0 3px;
+  min-width: 20px;
+  width: $width;
+  height: $height;
+  background-color: secondary-color(harmaa, t20);
+  background-color: rgba(secondary-color(harmaa, t20), 0.8);
+  box-shadow: 0 1px 1px 0 border-color(border);
+  &::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: $statusColor;
+    display: block;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+}
+
+@mixin form-basic() {
+  background-color: bg-color(content);
+  border: 1px solid border-color(border);
+  position: relative;
+}
+
+@mixin form-compare() {
+  content: '';
+  border-left: 1px dashed border-color(border);
+  position: absolute;
+  left: calc(50% + 20px);
+  top: 0;
+  height: 100%;
+}
+
+@mixin spinner-basic() {
+  margin: 20px;
+  text-align: center;
+}
+
+@mixin label-warning() {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: status-color(danger);
+}
+
+@mixin autosize-off() {
+  .Select-input {
+    input {
+      padding: 0;
+    }
+  }
+  .is-focused {
+    .Select-input {
+      height: auto;
+      width: auto;
+      margin: 5px 10px 0;
+      padding: 2px 0 0;
+      input {
+        line-height: 20px;
+        height: 25px;
+        margin: 0;
+      }
+    }
+  }
+  [class*='Select__inside___'] {
+    .Select-input {
+      margin-top: 17px;
+    }
+    .is-focused {
+      .Select-input {
+        padding: 3px 0 0;
+      }
+    }
+  }
+}
+
+@mixin multi-fix() {
+  .Select--multi {
+    .Select-control {
+      table-layout: fixed;
+    }
+    .Select-multi-value-wrapper {
+      padding-right: 5px;
+      width: 100%;
+    }
+    .Select-value {
+      max-width: 100%;
+      position: relative;
+    }
+    .Select-value-label {
+      padding-right: 25px;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .Select-value-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .Select-aria-only {
+      position: absolute;
+    }
+    &.is-searchable {
+      &:not(.is-focused) {
+        .Select-input {
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+@mixin detail-toggle-button() {
+  > button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    svg {
+      margin-left: 10px;
+    }
+  }
+  &.collapsed {
+    > button {
+      border-color: bg-color(dark);
+      box-shadow: inset 0 0 0 1px border-color(border), inset 0 0 0 2px bg-color(light);
+      svg {
+        fill: interaction-color(primary);
+      }
+    }
+  }
+  &.expanded {
+    > button {
+      background-color: interaction-color(primary);
+      svg {
+        fill: bg-color(content);
+      }
+    }
+  }
+}
+
+@mixin notification-icon($width: 20px, $height: $width, $line-height: 20px, $font-size: 16px) {
+  display: inline-block;
+  background: status-color(notification);
+  border-radius: 50%;
+  width: $width;
+  height: $height;
+  text-align: center;
+  line-height: $line-height;
+  font-size: $font-size;
+  font-weight: 600;
+  color: text-color(primary);
+  flex: 0 0 $width;
+  cursor: default;
+}
+
+@mixin word-wrap() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+@mixin overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin fake-table() {
+  .table {
+    background-color: $gray-light;
+    border: 1px solid $gray-mid;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .tableCell {
+    padding: 10px; // 15px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    > div {
+      width: 100%;
+    }
+    &.noPadding {
+      padding: 0;
+    }
+  }
+
+  .tableHead {
+    .tableCell {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 20px;
+
+      cursor: pointer;
+    }
+    .tableCellFirst {
+      // padding: 10px 20px 10px 30px;
+      padding-left: 20px;
+    }
+  }
+
+  .tableBody {
+    > div {
+      background: gray(lightest);
+      border-top: 1px solid $gray-mid;
+      &:nth-child(odd) {
+        background: #fff;
+      }
+    }
+    .tableCellFirst {
+      // padding: 10px 20px 10px 30px;
+      padding-left: 20px
+    }
+  }
+
+  .inline {
+    display: flex;
+    align-items: center;
+    > * ~ * {
+      margin-left: 10px;
+    }
+  }
+
+  .withDetailButton {
+    flex-wrap: wrap;
+    margin-top: -10px; // vertical spacing for wrapped elements by flex
+    > * {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+
+  .toggleButton {
+    @include detail-toggle-button();
+  }
+
+  // extra header THEAD overrides - to be moved to SEMA
+  table thead[class*='styles__extraHeader'] {
+    display: block;
+    border: 1px solid border-color(border);
+    margin-bottom: 10px;
+    background-color: bg-color(dark);
+    tr {
+      width: 100% !important;
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    table thead[class*='styles__extraHeader'] {
+      border: none;
+      margin-bottom: 0;
+    }  .toggleButton {
+      width: 100% !important;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      button {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .toggleButton {
+      button {
+        flex-wrap: nowrap;
+      }
+    }
+    .tableCell {
+      > div {
+        width: auto;
+      }
+    }
+    .withDetailButton {
+      > span svg {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .tableHead {
+      display: none;
+    }
+    .tableBody {
+      .tableCellFirst {
+        padding: 10px 20px;
+      }
+    }
+    .table {
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .tableBody {
+      > div {
+        border: 1px solid border-color(border);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+        border-radius: 2px;
+        width: calc(100% * (1 / 2) - 10px);
+        margin-bottom: 20px;
+        float: left;
+        &:nth-child(odd) {
+          margin-right: 20px;
+        }
+      }
+      &::after {
+        clear: both;
+        display: table;
+        content: '';
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .tableBody {
+      > div {
+        width: 100%;
+      }
+    }
+  }
+}

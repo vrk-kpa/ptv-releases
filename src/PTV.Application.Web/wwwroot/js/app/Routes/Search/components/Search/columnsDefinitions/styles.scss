@@ -1,0 +1,41 @@
+@import '../../../../../Components/styles/variables';
+
+.cell {
+  > * {
+    ~ * {
+      margin-top: 5px;
+    }
+  }
+}
+
+.name {
+  color: $brand-blue;
+  cursor: pointer;
+}
+
+table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.withShowMoreWrap {
+  display: flex;
+  width: 100%;
+  // flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewCell {
+  display: flex;
+  align-items: center;
+  label.massToolCheckbox {
+    margin-right: 6px;
+    margin-bottom: 0;
+    padding: 1px;
+  }
+}

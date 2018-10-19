@@ -1,0 +1,44 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+// .form {
+//   @include form-basic();
+// }
+
+// temp CSS - to be removed after liitokset is merged to DEV branch
+.orderForm {
+  [class*='styles__accordionTitle___'] {
+    padding: 10px 20px 10px 30px !important;
+  }
+  [class*='__accordionContent___'] {
+    padding: 0 20px 10px 30px !important;
+  }
+}
+///////////////////////////////////////////////////////////////////
+
+.orderForm {
+  h1 {
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid border-color(border);
+  }
+  [class*='styles__modalContent___'] {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+  width: 100%;
+}
+
+@media only screen and (min-width: 1080px) {
+  .orderForm {
+    min-width: 1080px;
+    max-width: 1180px
+  }
+}
+
+.topAlign {
+  :global{
+    .icon-wrap {
+      vertical-align: top;
+    }
+  }
+}

@@ -1,0 +1,252 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+$triggerWidths: (40, 80, 120, 160, 200, 240, 280);
+
+.dropdownWrap {
+  position: relative;
+  &:focus {
+    .trigger {
+      border: 2px solid interaction-color(primary);
+      background: #FFFFFF;
+      padding: 4px 9px;
+      &::after {
+        top: 21px;
+        right: 9px;
+      }
+    }
+    .clearAll {
+      top: 13px;
+      right: 24px;
+    }
+  }
+  &.isOpen {
+    &:focus .trigger {
+      border-bottom: none;
+      &::after {
+        top: 18px;
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 1;
+  background-color: #FFF;
+  right: 0;
+  width: 300px;
+  border: 1px solid border-color(border);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 10px 0;
+  margin: 0;
+  &.bottomLeft {
+    top: calc(100% - 2px);
+    left: 0;
+    bottom: auto;
+    right: auto;
+  }
+  &.bottomRight {
+    top: calc(100% - 2px);
+    right: 0;
+    bottom: auto;
+    left: auto;
+  }
+  &.topLeft {
+    bottom: calc(100% - 2px);
+    left: 0;
+    top: auto;
+    right: auto;
+  }
+  &.topRight {
+    bottom: calc(100% - 2px);
+    right: 0;
+    top: auto;
+    left: auto;
+  }
+  &.leftTop {
+    right: calc(100% - 2px);
+    top: 0;
+    left: auto;
+    bottom: auto;
+  }
+  &.leftBottom {
+    right: calc(100% - 2px);
+    bottom: 0;
+    left: auto;
+    top: auto;
+  }
+  &.rightTop {
+    left: calc(100% - 2px);
+    top: 0;
+    right: auto;
+    bottom: auto;
+  }
+  &.rightBottom {
+    left: calc(100% - 2px);
+    bottom: 0;
+    right: auto;
+    top: auto;
+  }
+  &.withArrow {
+    &::after {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border: 1px solid bg-border-color(input-border);
+      display: block;
+      transform: rotate(45deg);
+      background-color: #FFF;
+      position: absolute;
+    }
+    &.bottomLeft, &.bottomRight {
+      &::after {
+        top: -5px;
+        border-bottom: none;
+        border-right: none;
+      }
+    }
+    &.bottomLeft::after {
+      left: 10px;
+    }
+    &.bottomRight::after {
+      right: 10px;
+    }
+  }
+}
+
+.dropdownItem {
+  padding: 10px;
+  ~ .dropdownItem {
+    border-top: 1px solid border-color(border);
+  }
+}
+
+.trigger {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #FFFFFF, #F7F7F7);
+  border: 1px solid border-color(input);
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 transparent, 0 1px 1px 0 rgba(0, 0, 0, 0.08);
+  height: 50px;
+  position: relative;
+  padding: 5px 10px;
+  padding-right: 45px;
+  &::after {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 6px solid icon-color(secondary);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: none;
+  }
+}
+
+@each $w in $triggerWidths {
+  &.w#{$w} {
+    width: #{$w}px;
+  }
+}
+
+.title, .value {
+  @include overflow-ellipsis();
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.value {
+  margin-top: -3px;
+  &.placeholder {
+    font-style: italic;
+    color: text-color(placeholder);
+  }
+}
+
+.optionAll {
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: 1px solid border-color(border);
+}
+
+.withFocus, .isOpen {
+  .trigger {
+    border: 2px solid interaction-color(primary);
+    outline: 0;
+    background: #FFFFFF;
+    box-shadow: none;
+    padding: 4px 9px;
+    padding-right: 24px;
+    z-index: 2;
+  }
+}
+
+.isOpen {
+  .trigger {
+    border-bottom: none;
+    &::after {
+      border-bottom: 6px solid icon-color(secondary);
+      border-top: none;
+      top: 18px;
+      right: 9px;
+    }
+  }
+  .dropdown {
+    border: 2px solid interaction-color(primary);
+    padding: 10px;
+  }
+}
+
+.withFocus {
+  .trigger {
+    &::after {
+      top: 21px;
+      right: 9px;
+    }
+  }
+  &.isOpen {
+    .trigger {
+      &::after {
+        top: 18px;
+      }
+    }
+  }
+}
+
+.filter {
+  input {
+    max-width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.clearAll {
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  transform: scale(0.7);
+  .withFocus & {
+    top: 13px;
+    right: 24px;
+  }
+}

@@ -1,0 +1,89 @@
+﻿[
+  {
+    "Code": "WholeCountry",
+    "Names": [
+      {
+        "Name": "Koko maa",
+        "Language": "fi"
+      },
+      {
+        "Name": "Nationwide",
+        "Language": "en"
+      },
+      {
+        "Name": "Hela landet",
+        "Language": "sv"
+      },
+      {
+        "Name": "Olles riika",
+        "Language": "se"
+      },
+      {
+        "Name": "Ubâ eennâm",
+        "Language": "smn"
+      },
+      {
+        "Name": "Puk jânnam",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "WholeCountryExceptAlandIslands",
+    "Names": [
+      {
+        "Name": "Koko maa paitsi ei Ahvenanmaa",
+        "Language": "fi"
+      },
+      {
+        "Name": "Nationwide except the Åland islands",
+        "Language": "en"
+      },
+      {
+        "Name": "Hela landet utom Åland",
+        "Language": "sv"
+      },
+      {
+        "Name": "Olles riika earret Ålánda",
+        "Language": "se"
+      },
+      {
+        "Name": "Ubâ eennâm peic ij Vuáskueennâm",
+        "Language": "smn"
+      },
+      {
+        "Name": "Puk jânnam leša ij Ahvenanmaa",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "AreaType",
+    "Names": [
+      {
+        "Name": "Rajattu alue",
+        "Language": "fi"
+      },
+      {
+        "Name": "Limited area",
+        "Language": "en"
+      },
+      {
+        "Name": "Begränsat område",
+        "Language": "sv"
+      },
+      {
+        "Name": "Ráddjejuvvon viidodat",
+        "Language": "se"
+      },
+      {
+        "Name": "Räijejum vijđodâh",
+        "Language": "smn"
+      },
+      {
+        "Name": "Rääʹjtum vuʹvdd",
+        "Language": "sms"
+      }
+    ]
+  }
+]

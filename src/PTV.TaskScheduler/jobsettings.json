@@ -1,0 +1,275 @@
+﻿{
+    "PostalCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of postal codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 3 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/postalcodes/{2}"
+        }
+    },
+    "MunicipalityCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of municipality codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 3 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 30 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/municipalities/{2}"
+        }
+    },
+    "ProvinceCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of province (region) codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 4 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 4 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/regions/{2}",
+            "MunicipalityUrl": "{0}/{1}/regions/{2}/municipalities/{3}"
+        }
+    },
+    "BusinessRegionCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of business region codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 4 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 4 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/businessservicesubregions/{2}",
+            "MunicipalityUrl": "{0}/{1}/businessservicesubregions/{2}/municipalities/{3}"
+        }
+    },
+    "HospitalRegionCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of hospital region codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 5 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 5 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/healthcaredistricts/{2}",
+            "MunicipalityUrl": "{0}/{1}/healthcaredistricts/{2}/municipalities/{3}"
+        }
+    },
+    "FintoDataLifeEvents": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - life events"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 6 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 6 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "lifeEvents"
+        }
+    },
+    "FintoDataServiceClasses": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - service classes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 6 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 6 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "serviceClasses"
+        }
+    },
+    "FintoDataIndustrialClasses": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - industrial classes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 8 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 8 1/1 * ? *",
+            "Timeout": 3600
+        },
+        "JobData": {
+            "DownloadType": "industrialClasses"
+        }
+    },
+    "FintoDataTargetGroups": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - target groups"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 7 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 7 1/1 * ? *"
+        },
+        "JobData": {
+            "DownloadType": "targetGroups"
+        }
+    },
+    "FintoDataOntologyTerms": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - ontology terms"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 7 ? 1/1 MON#1 *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 7 1/1 * ? *",
+            "Timeout": 3600
+        },
+        "JobData": {
+            "DownloadType": "ontologyTermsKoko"
+        }
+    },
+    "DigitalAuthorizationCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of digital authorizations"
+        },
+        "Scheduling": {
+            "Scheduler": "0 10 3 1/1 * ? *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 10 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/rest/ontology/concept/all"
+        }
+    },
+    "LanguageCodes": {
+        "JobInfo": {
+            "Description": "Task for updating of language codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 20 3 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 20 3 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/languagecodes/{2}",
+            "AllowedForData": [ "fi", "sv", "en", "se", "smn", "sms" ],
+            "AllowedForTranslation":[ "fi", "sv", "en" ]
+        }
+    },
+    "TranslationOrderSendNew": {
+        "JobInfo": {
+            "Description": "Task for sending new order to translation company"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0/15 * * * ?", //Every 15minute
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/4 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        }
+    },
+    "TranslationOrderProcessingDataByState": {
+        "JobInfo": {
+            "Description": "Task for sending new order to translation company"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 0/1 * * ?", //Every 1hour
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/2 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        }
+    },
+    "TranslationOrderSendAgain": {
+        "JobInfo": {
+            "Description": "Task for sending new order to translation company"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 0/6 * * ?", //Every 6hours
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/2 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        }
+    },
+    "ArchiveEntitiesByExpirationDate": {
+        "JobInfo": {
+            "Description": "Task for archiving entities after expiration date"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 1 * * ?", //Every 1am
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0/15 * * * ?"
+        },
+        "JobData": {
+            "Url": "",
+            "FileUrl": ""
+        }
+    },
+    "RestoreCleanDatabase": {
+        "JobInfo": {
+            "Description": "Task for restoring clean database"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 2 1 JAN,APR,JUL,SEP ?", //every 1.1. 2am of spec month
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0/20 * * * ?"
+        },
+        "JobData": {
+            "Url": "",
+            "FileUrl": ""
+        }
+    },
+    "Sote": {
+        "JobInfo": {
+            "Description": "Task for downloading of SOTE centers"
+        },
+        "Scheduling": {
+            /*"Scheduler": "0/30 * * * * ?", // every 30 seconds*/
+            "Scheduler": "0	0 0	1 JAN ? 2019", // 1.1.2018
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": {
+            "PalvelunTuottajatUrl": "{0}/tuottajat/{1}",
+            "PalvelunJarjestajatUrl": "{0}/jarjestajat"
+        }
+    },
+    "ClearNotifications": {
+        "JobInfo": {
+            "Description": "Task for removing notification after expiration date"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 1 * * ?", //Every 1am
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0/15 * * * ?"
+        },
+        "JobData": {
+            "Url": "",
+            "FileUrl": ""
+        }
+    },
+    "MassTool": {
+        "JobInfo": {
+            "Description": "Task for mass tool operations"
+        },
+        "Scheduling": {
+            "Scheduler": "0 1 0 ? * * *", // 00:01 each day
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": {}
+    }
+}

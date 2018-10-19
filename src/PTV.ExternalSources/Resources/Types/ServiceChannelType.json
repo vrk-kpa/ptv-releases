@@ -1,0 +1,147 @@
+﻿[
+  {
+    "Code": "EChannel",
+    "Names": [
+      {
+        "Name": "Verkkoasiointi",
+        "Language": "fi"
+      },
+      {
+        "Name": "Online service",
+        "Language": "en"
+      },
+      {
+        "Name": "Nätservice",
+        "Language": "sv"
+      },
+      {
+        "Name": "Áššiiddikšun neahtas",
+        "Language": "se"
+      },
+      {
+        "Name": "Viermiášástâllâm",
+        "Language": "smn"
+      },
+      {
+        "Name": "Neʹttäʹššeem",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "WebPage",
+    "Names": [
+      {
+        "Name": "Verkkosivu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Web page",
+        "Language": "en"
+      },
+      {
+        "Name": "Webbsida",
+        "Language": "sv"
+      },
+      {
+        "Name": "Neahttasiidu",
+        "Language": "se"
+      },
+      {
+        "Name": "Viermisijđo",
+        "Language": "smn"
+      },
+      {
+        "Name": "Neʹttseidd",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "PrintableForm",
+    "Names": [
+      {
+        "Name": "Tulostettava lomake",
+        "Language": "fi"
+      },
+      {
+        "Name": "Printable form",
+        "Language": "en"
+      },
+      {
+        "Name": "Utskrivbar blankett",
+        "Language": "sv"
+      },
+      {
+        "Name": "Skovvi printenláhkai",
+        "Language": "se"
+      },
+      {
+        "Name": "Printtimnáál luámáttâh",
+        "Language": "smn"
+      },
+      {
+        "Name": "Printteemnalla lomaakk",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Phone",
+    "Names": [
+      {
+        "Name": "Puhelinasiointi",
+        "Language": "fi"
+      },
+      {
+        "Name": "Telephone service",
+        "Language": "en"
+      },
+      {
+        "Name": "Telefonservice",
+        "Language": "sv"
+      },
+      {
+        "Name": "Telefonbálvalus",
+        "Language": "se"
+      },
+      {
+        "Name": "Puhelinášástâllâm",
+        "Language": "smn"
+      },
+      {
+        "Name": "Teʹlfonäʹššeem",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "ServiceLocation",
+    "Names": [
+      {
+        "Name": "Palvelupaikka",
+        "Language": "fi"
+      },
+      {
+        "Name": "Service location",
+        "Language": "en"
+      },
+      {
+        "Name": "Serviceställe",
+        "Language": "sv"
+      },
+      {
+        "Name": "Bálvalanbáiki",
+        "Language": "se"
+      },
+      {
+        "Name": "Palvâlemsaje",
+        "Language": "smn"
+      },
+      {
+        "Name": "Kääzzkõspäiʹǩǩ",
+        "Language": "sms"
+      }
+    ]
+  }
+]

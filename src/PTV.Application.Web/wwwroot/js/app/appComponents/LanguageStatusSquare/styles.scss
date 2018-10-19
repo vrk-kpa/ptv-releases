@@ -1,0 +1,15 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.languageStatus {
+  font-weight: 600;
+  &.draft, &.modified {
+    @include status-box($width: auto, $statusColor: icon-color(accent));
+  }
+  &.published {
+    @include status-box($width: auto, $statusColor: status-color(success));
+  }
+  &.deleted, &.oldpublished {
+    @include status-box($width: auto, $statusColor: secondary-color(harmaa));
+  }
+}

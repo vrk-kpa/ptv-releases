@@ -1,0 +1,35 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.entityTitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0 0 20px 0;
+  letter-spacing: -0.9px;
+}
+
+.notificationIcon {
+  @include notification-icon();
+  margin-right: 20px;
+}
+
+.expireMessage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9D480;
+  border: 1px solid status-color(notification);
+  border-radius: 2px;
+  margin: 10px 0 30px;
+  padding: 20px;
+}
+
+.closeMessage {
+  flex: 0 0 20px;
+  margin-left: 10px;
+  svg {
+    transform: scale(1.5);
+    fill: text-color(secondary);
+  }
+}

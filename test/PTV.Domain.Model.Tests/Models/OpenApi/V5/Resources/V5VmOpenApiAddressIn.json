@@ -1,0 +1,26 @@
+﻿{
+  "postOfficeBox": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "streetAddress": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "postalCode": "string",
+  "streetNumber": "string",
+  "municipality": "string",
+  "country": "string",
+  "additionalInformations": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "latitude": "string",
+  "longitude": "string"
+}

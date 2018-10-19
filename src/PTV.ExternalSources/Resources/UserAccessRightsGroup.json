@@ -1,0 +1,122 @@
+﻿[
+  {
+    "Code": "PTV_ADMINISTRATOR",
+    "Description": "Eeva",
+    "UserRole": "Eeva",
+    "AccessRightFlag": 255,
+    "Names": [
+      {
+        "Name": "PTV-järjestelmäpääkäyttäjä",
+        "Language": "fi"
+      },
+      {
+        "Name": "SDL-systemadministratör",
+        "Language": "sv"
+      },
+      {
+        "Name": "PTV Administrator",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "PTV_MAIN_USER",
+    "Description": "Pete, organisation admin",
+    "UserRole": "Pete",
+    "AccessRightFlag": 3,
+    "Names": [
+      {
+        "Name": "PTV-pääkäyttäjä",
+        "Language": "fi"
+      },
+      {
+        "Name": "SDL-huvudanvändare",
+        "Language": "sv"
+      },
+      {
+        "Name": "PTV Main user",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "PTV_USER",
+    "Description": "Shirley",
+    "UserRole": "Shirley",
+    "AccessRightFlag": 3,
+    "Names": [
+      {
+        "Name": "PTV-ylläpitäjä",
+        "Language": "fi"
+      },
+      {
+        "Name": "SDL-användare",
+        "Language": "sv"
+      },
+      {
+        "Name": "PTV User",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "PTV_VIEWER",
+    "Description": "",
+    "UserRole": "Shirley",
+    "AccessRightFlag": 1,
+    "Names": [
+      {
+        "Name": "PTV-katselija",
+        "Language": "fi"
+      },
+      {
+        "Name": "SDL-betraktare",
+        "Language": "sv"
+      },
+      {
+        "Name": "PTV Viewer",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "API_USER",
+    "Description": "",
+    "UserRole": "Pete",
+    "AccessRightFlag": 4,
+    "Names": [
+      {
+        "Name": "API-käyttäjä",
+        "Language": "fi"
+      },
+      {
+        "Name": "API-användare",
+        "Language": "sv"
+      },
+      {
+        "Name": "API User",
+        "Language": "en"
+      }
+    ]
+  },
+  {
+    "Code": "API_ASTI_USER",
+    "Description": "",
+    "UserRole": "Pete",
+    "AccessRightFlag": 8,
+    "Names": [
+      {
+        "Name": "API-ASTI-käyttäjä",
+        "Language": "fi"
+      },
+      {
+        "Name": "API-ASTI-användare",
+        "Language": "sv"
+      },
+      {
+        "Name": "API ASTI User",
+        "Language": "en"
+      }
+    ]
+  }
+]

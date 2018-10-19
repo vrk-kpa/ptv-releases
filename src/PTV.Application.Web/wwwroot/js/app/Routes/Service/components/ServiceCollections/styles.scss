@@ -1,0 +1,12 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+
+@include fake-table();
+.buttonGroup {
+  @include arrange-items();
+}
+.table{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}

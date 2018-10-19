@@ -1,0 +1,166 @@
+﻿{
+  "id": "string",
+  "serviceChannelType": "string",
+  "organizationId": "string",
+  "serviceChannelNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formIdentifier": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "formReceiver": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deliveryAddress": {
+    "latitude": "string",
+    "longitude": "string",
+    "coordinateState": "string",
+    "postOfficeBox": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "postalCode": "string",
+    "postOffice": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetAddress": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetNumber": "string",
+    "municipality": {
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    },
+    "country": "string",
+    "additionalInformations": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "channelUrls": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "string",
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+    {
+      "orderNumber": "string",
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2018-04-25T06:31:31.894Z",
+      "validTo": "2018-04-25T06:31:31.894Z",
+      "isClosed": true,
+      "validForNow": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string",
+          "isExtra": true
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2018-04-25T06:31:31.894Z"
+}

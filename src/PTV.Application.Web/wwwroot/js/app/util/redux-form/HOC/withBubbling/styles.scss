@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.spinner {
+  margin-top: 50px;
+  background-color: bg-color(content);
+  border: 1px solid border-color(border);
+  position: relative;
+  padding: 30px;
+  text-align: center;
+}

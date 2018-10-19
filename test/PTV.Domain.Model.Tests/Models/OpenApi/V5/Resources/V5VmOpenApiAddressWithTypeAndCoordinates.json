@@ -1,0 +1,42 @@
+﻿{
+  "latitude": "string",
+  "longitude": "string",
+  "coordinateState": "string",
+  "type": "string",
+  "postOfficeBox": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "postalCode": "string",
+  "postOffice": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "streetAddress": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "streetNumber": "string",
+  "municipality": {
+    "code": "string",
+    "name": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "country": "string",
+  "additionalInformations": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ]
+}

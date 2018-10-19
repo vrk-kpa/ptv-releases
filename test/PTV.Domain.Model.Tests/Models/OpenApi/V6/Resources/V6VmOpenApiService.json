@@ -1,0 +1,210 @@
+﻿{
+  "id": "string",
+  "statutoryServiceGeneralDescriptionId": "string",
+  "type": "string",
+  "fundingType": "string",
+  "serviceNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChargeType": "string",
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serviceDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "ontologyTerms": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "targetGroups": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "lifeEvents": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "industrialClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "legislation": [
+    {
+      "names": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "webPages": [
+        {
+          "value": "string",
+          "url": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "requirements": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "serviceChannels": [
+    {
+      "serviceChannel": {
+        "id": "string",
+        "name": "string"
+      },
+      "serviceChargeType": "string",
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "digitalAuthorizations": [
+        {
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "code": "string",
+          "ontologyType": "string",
+          "uri": "string",
+          "parentId": "string",
+          "parentUri": "string"
+        }
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "provisionType": "string",
+      "organization": {
+        "id": "string",
+        "name": "string"
+      },
+      "roleType": "string",
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "serviceVouchers": [
+    {
+      "orderNumber": 0,
+      "value": "string",
+      "language": "string",
+      "url": "string",
+      "additionalInformation": "string"
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2018-04-23T05:39:10.288Z"
+}

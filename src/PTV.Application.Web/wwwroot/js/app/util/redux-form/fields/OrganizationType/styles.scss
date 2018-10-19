@@ -1,0 +1,14 @@
+.organizationType{
+  :global{
+    .Select-option{
+      padding-left: 25px;
+      &.is-disabled {
+        padding-left: 15px;
+        color: grey;
+      }
+      &.is-selected { 
+        padding-left: 20px;
+      }  
+    }
+  }
+}

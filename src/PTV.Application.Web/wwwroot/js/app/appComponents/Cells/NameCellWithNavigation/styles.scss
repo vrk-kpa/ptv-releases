@@ -1,0 +1,24 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$iconSize: 20px;
+$indent: 10px;
+
+.nameCell {
+  color: interaction-color(primary);
+  cursor: pointer;
+}
+
+.cellName {
+  // width: 200px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.withIcon {
+  > :first-child {
+    margin-right: $indent;
+  }
+ .name {
+   width: calc(100% - #{$iconSize} - #{$indent});
+ }
+}

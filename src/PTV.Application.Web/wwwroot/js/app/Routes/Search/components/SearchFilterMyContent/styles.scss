@@ -1,0 +1,7 @@
+.myContent {
+  display: flex;
+  align-items: center;
+  > div:first-child {
+    margin-right: 10px;
+  }
+}

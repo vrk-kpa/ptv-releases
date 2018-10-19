@@ -1,0 +1,16 @@
+﻿@model string
+<div class="logout-page">
+    <div class="page-header">
+        <h1>Virhe!</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <p>Käyttäjätietojasi ei löydy.</p>
+            @if (!string.IsNullOrEmpty(Model))
+            {
+                <p>@Model</p>
+            }
+        </div>
+    </div>
+</div>

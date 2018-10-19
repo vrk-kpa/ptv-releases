@@ -1,0 +1,26 @@
+[
+  {
+    "code": "fi",
+    "order": 1
+  },
+  {
+    "code": "sv",
+    "order": 2
+  },
+  {
+    "code": "en",
+    "order": 3
+  },
+  {
+    "code": "se",
+    "order": 4
+  },
+  {
+    "code": "smn",
+    "order": 5
+  },
+  {
+    "code": "sms",
+    "order": 6
+  }
+]

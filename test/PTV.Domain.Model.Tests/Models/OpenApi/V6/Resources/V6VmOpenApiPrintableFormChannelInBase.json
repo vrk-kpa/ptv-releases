@@ -1,0 +1,105 @@
+﻿{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "areaCodes": [
+        "string"
+      ]
+    }
+  ],
+  "formIdentifier": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "formReceiver": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deliveryAddress": {
+    "postOfficeBox": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetAddress": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "postalCode": "string",
+    "streetNumber": "string",
+    "municipality": "string",
+    "country": "string",
+    "additionalInformations": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "latitude": "string",
+    "longitude": "string"
+  },
+  "channelUrls": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "deleteDeliveryAddress": true,
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deleteAllChannelUrls": true,
+  "deleteAllAttachments": true,
+  "deleteAllFormIdentifiers": true,
+  "deleteAllFormReceivers": true,
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "deleteAllSupportEmails": true,
+  "deleteAllSupportPhones": true
+}
