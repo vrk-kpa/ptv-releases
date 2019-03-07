@@ -1,0 +1,73 @@
+/**
+* The MIT License
+* Copyright (c) 2016 Population Register Centre (VRK)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+import React from 'react'
+import LanguageCell from './LanguageCell'
+import NameCell from 'util/redux-form/renders/RenderLanguageAvailabilitiesTable/NameCell'
+import HeaderFormatter from 'appComponents/HeaderFormatter'
+import CellHeaders from 'appComponents/Cells/CellHeaders'
+import CopyCheckbox from './CopyCheckbox'
+
+export const getColumnDefinition = () => {
+  return [
+    {
+      property: 'name',
+      header: {
+        formatters: [props => <HeaderFormatter label={CellHeaders.name} />]
+      },
+      cell: {
+        formatters: [(name, { rowData }) => {
+          return <NameCell {...rowData} />
+        }]
+      }
+    }, {
+      property: 'languageId',
+      header: {
+        formatters: [props => <HeaderFormatter label={CellHeaders.language} />]
+      },
+      cell: {
+        formatters: [
+          (language, { rowData }) => {
+            return <LanguageCell {...rowData} />
+          }
+        ]
+      }
+    }, {
+      property: 'action',
+      header: {
+        formatters: [props => <HeaderFormatter label={CellHeaders.copyTitle} />]
+      },
+      cell: {
+        formatters: [
+          (name, { rowData, rowIndex }) => {
+            return (
+              <CopyCheckbox
+                {...rowData}
+                rowIndex={rowIndex}
+              />
+            )
+          }
+        ]
+      }
+    }
+  ]
+}

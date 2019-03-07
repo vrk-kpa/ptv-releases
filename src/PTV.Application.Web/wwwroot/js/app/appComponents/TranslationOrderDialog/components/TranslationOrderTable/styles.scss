@@ -1,0 +1,67 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+@include fake-table();
+
+.tableBodyRow, .tableHeadRow {
+  display: flex;
+  // @media only screen and (max-width: 1023px) {
+  flex-wrap: wrap;
+  // }
+}
+
+.activeRow {
+  background-color: bg-color(dark) !important;
+  padding-bottom: 10px;
+  .details {
+    background-color: bg-color(content);
+  }
+}
+
+.languages {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.details {
+  padding: 10px 20px;
+  border: 1px solid border-color(border);
+  margin: 0 20px;
+}
+
+.detailsHead {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.detailsHeadRow {
+  margin-bottom: 5px;
+}
+
+.subCell {
+  border: 1px solid border-color(border);
+  padding: 10px 20px;
+  ~ .subCell {
+    border-top: none;
+  }
+}
+
+.infoPart {
+  ~ .infoPart {
+    &::before {
+      content: ',';
+      margin-right: 5px;
+    }
+  }
+  > span {
+    &:first-child {
+      margin-right: 5px;
+    }
+  }
+}
+
+.inlineInfo {
+  > * {
+    display: inline-flex;
+  }
+}

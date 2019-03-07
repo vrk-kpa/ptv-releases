@@ -1,0 +1,42 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.tooltipContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.languageStatus {
+  overflow: hidden;
+  font-weight: 600;
+  &.draft, &.modified {
+    @include status-box($width: auto, $statusColor: icon-color(accent));
+  }
+  &.published {
+    @include status-box($width: auto, $statusColor: status-color(success));
+  }
+  &.archived {
+    @include status-box($width: auto, $statusColor: secondary-color(harmaa));
+  }
+  &.timedPublish {
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: calc(50% + 2px);
+      height: 2px;
+      background: secondary-color(harmaa, t20);
+      background: linear-gradient(to right, secondary-color(harmaa, t20) 4px, status-color(success) 10%);
+    }
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.publishOn {
+  display: block;
+}

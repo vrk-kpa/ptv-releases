@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.targetLanguage {
+  display: flex;
+  align-items: center;
+}
+
+.reorderLabel {
+  margin-bottom: 14px;
+  margin-left: 5px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}

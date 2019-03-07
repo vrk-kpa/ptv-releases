@@ -1,0 +1,176 @@
+{
+    "eeva": {
+        "allowedAllOrganizations": true,
+        "permisions": {
+            "organizations": {
+                "Code": "organizations",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "services": {
+                "Code": "services",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+          "serviceCollections": {
+                "Code": "serviceCollections",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+          },
+            "channels": {
+                "Code": "channels",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "relations": {
+                "Code": "relations",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "generalDescriptions": {
+                "Code": "generalDescriptions",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "currentIssues": {
+                "Code": "currentIssues",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "previousIssues": {
+                "Code": "previousIssues",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+            "organizationStructure": {
+                "Code": "organizationStructure",
+                "RulesAll": "crudp",
+                "RulesOwn": "crudp"
+            },
+          "organizationsMassTool": {
+            "Code": "organizationsMassTool",
+            "RulesAll": "dp",
+            "RulesOwn": "dp"
+          },
+          "servicesMassTool": {
+            "Code": "servicesMassTool",
+            "RulesAll": "cdp",
+            "RulesOwn": "cdp"
+          },
+          "serviceCollectionsMassTool": {
+            "Code": "serviceCollectionsMassTool",
+            "RulesAll": "cdp",
+            "RulesOwn": "cdp"
+          },
+          "channelsMassTool": {
+            "Code": "channelsMassTool",
+            "RulesAll": "cdp",
+            "RulesOwn": "cdp"
+          },
+          "generalDescriptionsMassTool": {
+            "Code": "generalDescriptionsMassTool",
+            "RulesAll": "dp",
+            "RulesOwn": "dp"
+          }
+        }
+
+    },
+    "pete": {
+        "permisions": {
+            "organizations": {
+                "Code": "organizations",
+                "RulesAll": "r",
+                "RulesOwn": "crudp"
+            },
+            "services": {
+                "Code": "services",
+                "RulesAll": "r",
+                "RulesOwn": "crudp"
+            },
+            "serviceCollections": {
+                "Code": "serviceCollections",
+                "RulesAll": "r",
+                "RulesOwn": "crudp"
+            },
+            "channels": {
+                "Code": "channels",
+                "RulesAll": "r",
+                "RulesOwn": "crudp"
+            },
+            "relations": {
+                "Code": "relations",
+                "RulesAll": "r",
+                "RulesOwn": "crudp"
+            },
+            "generalDescriptions": {
+                "Code": "generalDescriptions",
+                "RulesAll": "r",
+                "RulesOwn": "r"
+            },
+            "currentIssues": {
+                "Code": "currentIssues",
+                "RulesAll": "r",
+                "RulesOwn": "r"
+            },
+            "organizationStructure": {
+                "Code": "organizationStructure",
+                "RulesAll": "r",
+                "RulesOwn": "cu"
+            },
+          "servicesMassTool": {
+            "Code": "servicesMassTool",
+            "RulesAll": "",
+            "RulesOwn": "cdp"
+          },
+          "serviceCollectionsMassTool": {
+            "Code": "serviceCollectionsMassTool",
+            "RulesAll": "",
+            "RulesOwn": "cdp"
+          },
+          "channelsMassTool": {
+            "Code": "channelsMassTool",
+            "RulesAll": "",
+            "RulesOwn": "cdp"
+          }
+        }
+    },
+    "shirley": {
+      "permisions": {
+        "organizations": {
+          "Code": "organizations",
+          "RulesAll": "r",
+          "RulesOwn": "rup"
+        },
+        "services": {
+          "Code": "services",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "serviceCollections": {
+          "Code": "serviceCollections",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "channels": {
+          "Code": "channels",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "relations": {
+          "Code": "relations",
+          "RulesAll": "r",
+          "RulesOwn": "crudp"
+        },
+        "generalDescriptions": {
+          "Code": "generalDescriptions",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        },
+        "currentIssues": {
+          "Code": "currentIssues",
+          "RulesAll": "r",
+          "RulesOwn": "r"
+        }
+      }
+    }
+}

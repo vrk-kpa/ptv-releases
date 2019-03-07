@@ -1,0 +1,104 @@
+﻿[
+  {
+    "code": "UiAppRead",
+    "names": [
+      {
+        "Name": "PTV UI App reading rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV UI App reading rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV UI App reading rights (sv)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "UiAppWrite",
+    "names": [
+      {
+        "Name": "PTV UI App writing rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV UI App writing rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV UI App writing rights (sv)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OpenApiRead",
+    "names": [
+      {
+        "Name": "PTV OpenAPI reading rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV OpenAPI reading rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV OpenAPI reading rights (sv)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "OpenApiWrite",
+    "names": [
+      {
+        "Name": "PTV OpenAPI writing rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV OpenAPI writing rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV OpenAPI writing rights (sv)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "ASTIWrite",
+    "names": [
+      {
+        "Name": "PTV OpenAPI ASTI writing rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV OpenAPI ASTI writing rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV OpenAPI ASTI writing rights (sv)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "SOTEWrite",
+    "names": [
+      {
+        "Name": "PTV OpenAPI SOTE writing rights (fi)",
+        "language": "fi"
+      },
+      {
+        "Name": "PTV OpenAPI SOTE writing rights",
+        "language": "en"
+      },
+      {
+        "Name": "PTV OpenAPI SOTE writing rights (sv)",
+        "language": "sv"
+      }
+    ]
+  }
+]

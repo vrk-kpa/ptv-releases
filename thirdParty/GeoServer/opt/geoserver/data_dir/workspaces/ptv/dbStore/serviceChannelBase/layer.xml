@@ -1,0 +1,15 @@
+<layer>
+  <name>serviceChannelBase</name>
+  <id>LayerInfoImpl-698c115d:162efb1654e:-7fe1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--ptv--point--default</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv-feature-serviceChannelBase</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

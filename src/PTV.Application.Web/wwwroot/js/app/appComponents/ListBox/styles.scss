@@ -1,0 +1,178 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$default_bg_color: #FFFFFF;
+
+@mixin border-top-radius($radius)
+{
+  border-top-right-radius: $radius;
+  border-top-left-radius: $radius;
+}
+@mixin border-right-radius($radius)
+{
+  border-bottom-right-radius: $radius;
+  border-top-right-radius: $radius;
+}
+@mixin border-bottom-radius($radius)
+{
+  border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
+}
+@mixin border-left-radius($radius)
+{
+  border-bottom-left-radius: $radius;
+  border-top-left-radius: $radius;
+}
+
+.container {
+  position: relative;
+}
+
+.triggerWrap {
+  padding: 1px;
+  border: 1px solid border-color(border);
+  border-radius: 2px;
+  background: linear-gradient(
+    to bottom,
+    $default_bg_color,
+    darken($default_bg_color, 3%)
+  );
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0), 0 1px 1px 0 rgba(0, 0, 0, 0.08);
+  &:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    background: linear-gradient(
+      to bottom,
+      $default_bg_color,
+      darken($default_bg_color, 1%)
+    );
+  }
+}
+
+.triggerContentWrap {
+  display: flex;
+}
+
+.trigger {
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  color: text-color(primary);
+  button {
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    height: 50px;
+    width: calc(100% - 2px);
+    border: none;
+    background: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    &::after {
+      margin-left: 10px;
+      content: '';
+      border-color: secondary-color(harmaa, k20) transparent transparent;
+      border-style: solid;
+      border-width: 5px 5px 2.5px;
+      display: inline-block;
+      height: 0;
+      width: 0;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .noChildren & {
+    flex: 1 0 auto;
+  }
+  .placeholder & {
+    font-style: italic;
+  }
+}
+
+@media #{bp('<tablet')} {
+  .triggerText {
+    display: none;
+  }
+  .trigger {
+    button {
+      &::after {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.listWrap {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 1px;
+  border: 1px solid border-color(border);
+  border-top: none;
+  @include border-bottom-radius(2px);
+  @include border-top-radius(0);
+  display: none;
+}
+
+.list {
+  background-color: $default_bg_color;
+  border-radius: 2px;
+  padding: 8px 0;
+}
+
+.listItem {
+  padding: 0 10px;
+  padding-left: 15px;
+  ~ .listItem {
+    margin-top: 8px;
+  }
+  cursor: pointer;
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+.selected {
+  font-weight: 600;
+  border-left: 5px solid interaction-color(primary);
+  padding-left: 10px;
+}
+
+.focused {
+  font-weight: 600;
+}
+
+.hasFocus {
+  .triggerWrap {
+    padding: 0;
+    border: 2px solid interaction-color(primary);
+  }
+}
+
+.isOpen {
+  .triggerWrap {
+    border-bottom: none;
+    margin-bottom: 2px;
+    @include border-bottom-radius(0);
+  }
+  .trigger {
+    button {
+      &::after {
+        transform: rotate(180deg);
+        position: relative;
+        top: -3px;
+      }
+    }
+  }
+  .listWrap {
+    display: block;
+    padding: 0;
+    border: 2px solid interaction-color(primary);
+    border-top: none;
+  }
+  .list {
+    border-top: 1px solid border-color(border);
+    @include border-top-radius(0);
+  }
+}

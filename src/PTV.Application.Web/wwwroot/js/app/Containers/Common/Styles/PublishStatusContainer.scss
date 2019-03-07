@@ -1,0 +1,51 @@
+    p.status-draft {
+        background: #f9ae86;
+    }
+
+    p.status-published {
+        background: #d0aad5;
+    }
+
+    p.status-published, p.status-draft {
+        border-radius: 4px;
+        padding: 0 5px 0 5px;
+        text-align: center;
+    }
+
+    .status-draft {
+        .cb-marker {
+            background: #f9ae86;
+        }
+    }
+
+    .status-published {
+        .cb-marker {
+            background: #d0aad5;
+        }
+    }
+
+    .auto-combo-box {
+        .Select {
+            margin-right: 0;
+        }
+
+        img {
+            top: 7px;
+            right: 5px;
+            position: absolute;
+        }
+    }
+
+    .label-input {
+
+        /*input {
+            width:95%;
+            margin-right: 15px;
+        }*/
+
+        img {
+            top: 7px;
+            right: 5px;
+            position: absolute;
+        }
+    }

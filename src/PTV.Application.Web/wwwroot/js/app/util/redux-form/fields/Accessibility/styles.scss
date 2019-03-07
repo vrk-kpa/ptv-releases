@@ -1,0 +1,34 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.item {
+  position: relative;
+  padding-left: 25px;
+  margin-left: 30px;
+  &::after {
+    @include pseudo-bullet();
+  }
+}
+
+.links {
+  button {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.linkWrap {
+  // line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.timeStamp {
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.copyLink {
+  margin-left: 5px;
+}

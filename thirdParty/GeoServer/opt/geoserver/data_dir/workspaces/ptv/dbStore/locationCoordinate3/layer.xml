@@ -1,0 +1,15 @@
+<layer>
+  <name>locationCoordinate3</name>
+  <id>LayerInfoImpl-6e50a40e:1682d7b5c25:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6e50a40e:1682d7b5c25:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

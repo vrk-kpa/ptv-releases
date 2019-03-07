@@ -1,0 +1,53 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.approvalTabs {
+  section {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.contentColumn {
+  display: flex;
+  align-items: center;
+}
+
+.languageIcon {
+  margin-right: 10px;
+}
+
+.publishCheckbox {
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.notification {
+  align-items: flex-start;
+}
+
+.notificationIcon {
+  margin-top: 10px;
+}
+
+.datePicker {
+  input {
+    width: 100px;
+  }
+}
+
+.textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.massPublishTable {
+  table {
+    table-layout: fixed;
+  }
+}
+
+.publishingType {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}

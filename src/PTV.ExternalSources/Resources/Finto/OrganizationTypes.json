@@ -1,0 +1,238 @@
+[
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1",
+        "Notation": "TT1",
+        "Label": {
+            "fi": "Julkiset palvelutuottajat",
+            "sv": "Offentliga serviceleverantörer",
+            "en": "Public sector service producers"
+        },
+        "Finnish": "Julkiset palvelutuottajat",
+        "Swedish": "Offentliga serviceleverantörer",
+        "English": "Public sector service producers",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [],
+        "NarrowerURIs": [ 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.1", 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.2", 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.3", 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.4", 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:v5009"],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.1",
+        "Notation": "State",
+        "Label": {
+            "sv": "Staten",
+            "fi": "Valtio",
+            "en": "State"
+        },
+        "Finnish": "Valtio",
+        "Swedish": "Staten",
+        "English": "State",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.2",
+        "Notation": "Municipality",
+        "Label": {
+            "sv": "Kommun",
+            "fi": "Kunta",
+            "en": "Municipality"
+        },
+        "Finnish": "Kunta",
+        "Swedish": "Kommun",
+        "English": "Municipality",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.3",
+        "Notation": "RegionalOrganization",
+        "Label": {
+            "sv": "Regionalt samarbetsorgan",
+            "fi": "Alueellinen yhteistoimintaorganisaatio",
+            "en": "Regional joint organization"
+        },
+        "Finnish": "Alueellinen yhteistoimintaorganisaatio",
+        "Swedish": "Regionalt samarbetsorgan",
+        "English": "Regional joint organization",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT1.4",
+        "Notation": "Region",
+        "Label": {
+            "fi": "Maakunta",
+            "sv": "Landskap",
+            "en": "Region"
+        },
+        "Finnish": "Maakunta",
+        "Swedish": "Landskap",
+        "English": "Center",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT1" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2",
+        "Notation": "TT2",
+        "Label": {
+            "fi": "Yksityiset palvelutuottajat",
+            "sv": "Privata serviceleverantörer",
+            "en": "Private sector service producers"
+        },
+        "Finnish": "Yksityiset palvelutuottajat",
+        "Swedish": "Privata serviceleverantörer",
+        "English": "Private sector service producers",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [],
+        "NarrowerURIs": [ 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.2", 
+            "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.1",
+            "http://urn.fi/URN:NBN:fi:au:ptvl:v5010"],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.1",
+        "Notation": "Company",
+        "Label": {
+            "sv": "Företag",
+            "fi": "Yritykset",
+            "en": "Companies"
+        },
+        "Finnish": "Yritykset",
+        "Swedish": "Företag",
+        "English": "Companies",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT2" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT2.2",
+        "Notation": "Organization",
+        "Label": {
+            "sv": "Föreningar och organisationer",
+            "fi": "Järjestöt ja yhteisöt",
+            "en": "Non-profit organizations"
+        },
+        "Finnish": "Järjestöt ja yhteisöt",
+        "Swedish": "Föreningar och organisationer",
+        "English": "Non-profit organizations",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": [ "http://urn.fi/URN:NBN:fi:au:ptvl:TT2" ],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT3.1",
+        "Notation": "SotePublic",
+        "Label": {
+            "sv": "Provinsen sote-center",
+            "fi": "Maakunnan sote-keskus",
+            "en": "Province sote-center"
+        },
+        "Finnish": "Maakunnan sote-keskus",
+        "Swedish": "Provinsen sote-center",
+        "English": "Province sote-center",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": ["http://urn.fi/URN:NBN:fi:au:ptvl:TT3"],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v5009"
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:v5009",
+        "Notation": "SotePublic",
+        "Label": {
+            "sv": "Landskapets affärsverkets social- och hälsocentral",
+            "fi": "Maakunnan liikelaitoksen sote-keskus",
+            "en": "Health and social services centre of an unincorporated county enterprise"
+        },
+        "Finnish": "Maakunnan liikelaitoksen sote-keskus",
+        "Swedish": "Landskapets affärsverkets social- och hälsocentral",
+        "English": "Health and social services centre of an unincorporated county enterprise",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": ["http://urn.fi/URN:NBN:fi:au:ptvl:TT1"],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:TT3.2",
+        "Notation": "SotePrivate",
+        "Label": {
+            "sv": "Privat sote-center",
+            "fi": "Yksityinen sote-keskus",
+            "en": "Private sote-center"
+        },
+        "Finnish": "Yksityinen sote-keskus",
+        "Swedish": "Privat sote-center",
+        "English": "Private sote-center",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": ["http://urn.fi/URN:NBN:fi:au:ptvl:TT3"],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": "http://urn.fi/URN:NBN:fi:au:ptvl:v5010"
+    },
+    {
+        "Id": "http://urn.fi/URN:NBN:fi:au:ptvl:v5010",
+        "Notation": "SotePrivate",
+        "Label": {
+            "sv": "Privat tjänsteproducents social- och hälsocentral",
+            "fi": "Yksityisen palvelutuottajan sote-keskus",
+            "en": "Health and social services centre of a private service provider"
+        },
+        "Finnish": "Yksityisen palvelutuottajan sote-keskus",
+        "Swedish": "Privat tjänsteproducents social- och hälsocentral",
+        "English": "Health and social services centre of a private service provider",
+        "Scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:TT",
+        "ConceptType": "ORGANIZATIONTYPE",
+        "ConceptTypeURI": "",
+        "BroaderURIs": ["http://urn.fi/URN:NBN:fi:au:ptvl:TT2"],
+        "NarrowerURIs": [],
+        "AssociatedURIs": [],
+        "ReplacedBy": ""
+    }
+]

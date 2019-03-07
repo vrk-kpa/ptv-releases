@@ -1,0 +1,160 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.streetNameTable {
+  min-width: 500px;
+  overflow-x: visible;
+  display: table;
+
+  thead {
+    font-size: small;
+    color: grey;
+
+    tr {
+      th {
+        padding: 5px 0;
+
+        &:first-child {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      cursor: pointer;
+
+      td.streetNameLabel {
+        color: interaction-color(primary);
+        padding: 5px;
+      }
+    }
+  }
+}
+
+:global {
+  [class*='styles__addressSelect___'][class*='Select__error___'] {
+    .Select-arrow-zone {
+      top: 7px;
+      right: -1px;
+    }
+  }
+}
+
+.addressSelect {
+  :global {
+    @media #{bp('>=desktop')} {
+      .Select-menu-outer {
+        width: 450px;
+      }
+    }
+    .Select-arrow-zone, .Select-clear-zone, .Select-loading-zone {
+      position: absolute;
+    }
+    .Select-arrow-zone {
+      top: 8px;
+      right: 0;
+    }
+    .Select-clear-zone {
+      top: 6px;
+      right: 25px;
+    }
+    .Select-loading-zone {
+      top: 5px;
+      right: 24px;
+    }
+    .Select-input {
+      input {
+        width: calc(100% - 50px)!important;
+        min-width: calc(100% - 50px)!important;
+      }
+    }
+    .is-focused {
+      .Select-control {
+        border: 2px solid interaction-color(primary);
+      }
+      .Select-input {
+        margin: 4px 9px 0;
+        width: 100%;
+        input {
+          height: auto;
+        }
+      }
+      &.is-open {
+        .Select-control {
+          border-bottom: none;
+          box-shadow: none;
+          position: relative;
+          z-index: 1001;
+        }
+      }
+      .Select-menu-outer {
+        border: 2px solid interaction-color(primary);
+        margin-top: -2px;
+        box-shadow: none;
+      }
+      // .Select-placeholder, &.Select--single > .Select-control .Select-value {
+      //   padding-top: 8px;
+      //   padding-left: 9px;
+      // }
+      .Select-arrow-zone {
+        top: 7px;
+        right: -1px;
+      }
+      .Select-clear-zone {
+        top: 5px;
+        right: 24px;
+      }
+    }
+    .Select-menu {
+      max-height: 196px;
+    }
+  }
+}
+
+.customOptionMenu {
+  overflow: hidden;
+  position: relative;
+}
+
+.option, .optionHeading {
+  margin: 0 10px;
+}
+
+.optionHeading {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  span {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+}
+
+.option {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.street {
+  color: interaction-color(primary);
+}
+
+.focused {
+  font-weight: 600;
+}
+
+@media #{bp('<mobile')} {
+  .optionHeading {
+    display: none;
+  }
+  .option {
+    border: 1px solid border-color(border);
+    border-radius: 2px;
+    padding: 0 5px;
+    ~ .option {
+      margin-top: 5px;
+    }
+  }
+}

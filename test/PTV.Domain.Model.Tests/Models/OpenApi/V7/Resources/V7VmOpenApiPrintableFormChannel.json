@@ -1,0 +1,367 @@
+﻿{
+  "id": "string",
+  "sourceId": "string",
+  "serviceChannelType": "string",
+  "organizationId": "string",
+  "serviceChannelNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formIdentifier": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "formReceiver": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deliveryAddress": {
+    "subType": "string",
+    "postOfficeBoxAddress": {
+      "postOfficeBox": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "postalCode": "string",
+      "postOffice": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipality": {
+        "code": "string",
+        "name": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    },
+    "streetAddress": {
+      "street": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "streetNumber": "string",
+      "postalCode": "string",
+      "postOffice": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipality": {
+        "code": "string",
+        "name": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    },
+    "deliveryAddressInText": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "channelUrls": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "string",
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+    {
+      "orderNumber": "string",
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2018-04-24T07:43:24.630Z",
+      "validTo": "2018-04-24T07:43:24.630Z",
+      "isClosed": true,
+      "validForNow": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string",
+          "isExtra": true
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "service": {
+        "id": "string",
+        "name": "string"
+      },
+      "serviceChargeType": "string",
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "extraTypes": [
+        {
+          "type": "string",
+          "code": "string",
+          "description": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ],
+      "serviceHours": [
+        {
+          "serviceHourType": "string",
+          "validFrom": "2018-04-24T07:43:24.630Z",
+          "validTo": "2018-04-24T07:43:24.630Z",
+          "isClosed": true,
+          "validForNow": true,
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "openingHour": [
+            {
+              "dayFrom": "string",
+              "dayTo": "string",
+              "from": "string",
+              "to": "string",
+              "isExtra": true
+            }
+          ]
+        }
+      ],
+      "contactDetails": {
+        "emails": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "phones": [
+          {
+            "additionalInformation": "string",
+            "serviceChargeType": "string",
+            "chargeDescription": "string",
+            "prefixNumber": "string",
+            "isFinnishServiceNumber": true,
+            "number": "string",
+            "language": "string"
+          }
+        ],
+        "webPages": [
+          {
+            "orderNumber": "string",
+            "value": "string",
+            "url": "string",
+            "language": "string"
+          }
+        ],
+        "addresses": [
+          {
+            "type": "string",
+            "subType": "string",
+            "postOfficeBoxAddress": {
+              "postOfficeBox": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ]
+            },
+            "streetAddress": {
+              "street": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "streetNumber": "string",
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "latitude": "string",
+              "longitude": "string",
+              "coordinateState": "string"
+            },
+            "locationAbroad": [
+              {
+                "value": "string",
+                "language": "string"
+              }
+            ],
+            "country": "string"
+          }
+        ]
+      },
+      "digitalAuthorizations": [
+        {
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "code": "string",
+          "ontologyType": "string",
+          "uri": "string",
+          "parentId": "string",
+          "parentUri": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2018-04-24T07:43:24.630Z"
+}

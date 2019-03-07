@@ -1,0 +1,66 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.placeholderWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeholder {
+  border: 1px solid border-color(border);
+  padding: 15px 20px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+}
+
+.divided {
+  &.placeholder {
+    border: none;
+    padding: 0;
+  }
+  .title {
+    border: 1px solid border-color(border);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: bg-color(dark);
+    label {
+      margin-bottom: 0;
+    }
+  }
+  .content {
+    border: 1px solid border-color(border);
+  }
+}
+
+.info {
+  color: text-color(secondary);
+  line-height: 20px;
+  width: 60%;
+  margin: 0 auto;
+  strong {
+    margin: 0 3px;
+  }
+  ol {
+    margin-top: 5px;
+    padding-left: 25px;
+    li {
+      padding-left: 10px;
+    }
+  }
+}
+
+.headerWrap {
+  border: 1px solid border-color(border);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: bg-color(dark);
+  label {
+    margin-bottom: 0;
+  }
+}

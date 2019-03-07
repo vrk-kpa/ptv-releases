@@ -1,0 +1,26 @@
+﻿
+@section scripts{
+    <link href="~/css/Index.css" rel="stylesheet" asp-file-version="true" />
+}
+
+<div class="welcome-page">
+    <div class="row page-header">
+        <div class="col-sm-10">
+            <h1>Not logged in to STS</h1>
+            <h2>
+                <img class="icon" src="~/img/icon.png">
+                You are trying to access STS application page but you are not logged in to STS application.
+            </h2>
+            <p>You have authenticated to an application using this STS instance and that is why you are seeing this message.</p>
+            <p>If you want to login to STS application <a href="/ui/Login">click here</a>.</p>
+            <p>If you want to login to another application navigate to the application and start the login process from there.</p>
+            <p><b>PTV login issue</b></p>
+            <p>
+                If you have logged in but you are not redirected to PTV application you can log out from the application using the application url and appending /logoff to browser address bar.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<i>Example url for production environment: <span style="color:#888">https://palvelutietovaranto.suomi.fi</span>/logoff</i>
+            </p>
+            <p>After logoff close all browser windows to make sure session stored cookies are deleted.</p>
+            <p>Try again to login to PTV application.</p>
+        </div>
+    </div>
+</div>

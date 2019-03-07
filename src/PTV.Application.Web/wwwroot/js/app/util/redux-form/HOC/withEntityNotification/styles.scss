@@ -1,0 +1,50 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.messageIcon {
+  @include notification-icon();
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.messageWrap {
+  position: relative;
+  background-color: #F9D480;
+  border: 1px solid status-color(notification);
+  border-radius: 2px;
+  padding: 20px 60px;
+  margin: 10px 0 30px;
+  p {
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  button {
+    font-family: 'Source Sans Pro';
+    text-decoration: underline;
+    color: interaction-color(primary);
+    text-align: left;
+  }
+  li {
+    line-height: 2;
+    position: relative;
+    padding-left: 15px;
+    &::after {
+      @include pseudo-bullet();
+      top: 15px;
+    }
+  }
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.closeIcon {
+  transform: scale(1.3);
+  fill: text-color(secondary);
+}

@@ -1,0 +1,129 @@
+/**
+* The MIT License
+* Copyright (c) 2016 Population Register Centre (VRK)
+* 
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+* 
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+* 
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using PTV.Domain.Model.Enums;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PTV.Domain.Model.Models.V2.Common
+{
+    /// <summary>
+    /// VmHistoryMetaData
+    /// </summary>
+    public class VmHistoryMetaData
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public VmHistoryMetaData()
+        {
+            LanguagesMetaData = new List<VmHistoryMetaDataLanguage>();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public Guid EntityStatusId { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public HistoryAction HistoryAction { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>        
+        public List<VmHistoryMetaDataLanguage> LanguagesMetaData { get; set; }        
+    }
+    /// <summary>
+    /// VmHistoryMetaDataLanguage
+    /// </summary>
+    public class VmHistoryMetaDataLanguage
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public Guid EntityStatusId { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>        
+        public Guid LanguageId { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public DateTime? PublishedAt { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public DateTime? Reviewed { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public String ReviewedBy { get; set; }
+    }
+    /// <summary>
+    /// Entity history action
+    /// </summary>
+    public enum HistoryAction
+    {
+        /// <summary>
+        /// save action
+        /// </summary>
+        Save,
+        /// <summary>
+        /// delete action
+        /// </summary>
+        Delete,
+        /// <summary>
+        /// publish action
+        /// </summary>
+        Publish,
+        /// <summary>
+        /// restore deleted action
+        /// </summary>
+        Restore,
+        /// <summary>
+        /// witdraw published action
+        /// </summary>
+        Withdraw,
+        /// <summary>
+        /// Translation order send
+        /// </summary>
+        TranslationOrdered,
+        /// <summary>
+        /// Translation order received
+        /// </summary>
+        TranslationReceived,
+        /// <summary>
+        /// copy action
+        /// </summary>
+        Copy,
+        /// <summary>
+        /// Mass publish action
+        /// </summary>
+        MassPublish,
+        /// <summary>
+        /// Scheduled publish action
+        /// </summary>
+        ScheduledPublish
+    }
+}

@@ -1,0 +1,9 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.scrollIndicator {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  height: 5px;
+  background-color: rgba(interaction-color(primary), 0.75);
+}

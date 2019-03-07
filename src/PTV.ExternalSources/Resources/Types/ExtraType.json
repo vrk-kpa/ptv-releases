@@ -1,0 +1,60 @@
+﻿[
+  {
+    "Code": "Asti",
+    "Names": [
+      {
+        "Name": "ASTI",
+        "Language": "fi"
+      },
+      {
+        "Name": "ASTI",
+        "Language": "en"
+      },
+      {
+        "Name": "ASTI",
+        "Language": "sv"
+      },
+      {
+        "Name": "ASTI",
+        "Language": "se"
+      },
+      {
+        "Name": "ASTI",
+        "Language": "smn"
+      },
+      {
+        "Name": "ASTI",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Sote",
+    "Names": [
+      {
+        "Name": "Sote",
+        "Language": "fi"
+      },
+      {
+        "Name": "Sote",
+        "Language": "en"
+      },
+      {
+        "Name": "Sote",
+        "Language": "sv"
+      },
+      {
+        "Name": "Sote",
+        "Language": "se"
+      },
+      {
+        "Name": "Sote",
+        "Language": "smn"
+      },
+      {
+        "Name": "Sote",
+        "Language": "sms"
+      }
+    ]
+  }
+]

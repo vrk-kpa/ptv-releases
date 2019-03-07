@@ -1,0 +1,369 @@
+﻿{
+  "id": "string",
+  "sourceId": "string",
+  "statutoryServiceGeneralDescriptionId": "string",
+  "type": "string",
+  "fundingType": "string",
+  "serviceNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChargeType": "string",
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serviceDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "description": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "ontologyTerms": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "targetGroups": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "lifeEvents": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "industrialClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "legislation": [
+    {
+      "names": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "webPages": [
+        {
+          "value": "string",
+          "url": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "requirements": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "serviceChannels": [
+    {
+      "serviceChannel": {
+        "id": "string",
+        "name": "string"
+      },
+      "serviceChargeType": "string",
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "extraTypes": [
+        {
+          "type": "string",
+          "code": "string",
+          "description": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ],
+      "serviceHours": [
+        {
+          "serviceHourType": "string",
+          "validFrom": "2018-04-23T05:54:12.172Z",
+          "validTo": "2018-04-23T05:54:12.172Z",
+          "isClosed": true,
+          "validForNow": true,
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "openingHour": [
+            {
+              "dayFrom": "string",
+              "dayTo": "string",
+              "from": "string",
+              "to": "string",
+              "isExtra": true
+            }
+          ]
+        }
+      ],
+      "contactDetails": {
+        "emails": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "phones": [
+          {
+            "additionalInformation": "string",
+            "serviceChargeType": "string",
+            "chargeDescription": "string",
+            "prefixNumber": "string",
+            "isFinnishServiceNumber": true,
+            "number": "string",
+            "language": "string"
+          }
+        ],
+        "webPages": [
+          {
+            "orderNumber": "string",
+            "value": "string",
+            "url": "string",
+            "language": "string"
+          }
+        ],
+        "addresses": [
+          {
+            "type": "string",
+            "subType": "string",
+            "postOfficeBoxAddress": {
+              "postOfficeBox": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ]
+            },
+            "streetAddress": {
+              "street": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "streetNumber": "string",
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "latitude": "string",
+              "longitude": "string",
+              "coordinateState": "string"
+            },
+            "locationAbroad": [
+              {
+                "value": "string",
+                "language": "string"
+              }
+            ],
+            "country": "string"
+          }
+        ]
+      },
+      "digitalAuthorizations": [
+        {
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "code": "string",
+          "ontologyType": "string",
+          "uri": "string",
+          "parentId": "string",
+          "parentUri": "string"
+        }
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "provisionType": "string",
+      "organization": {
+        "id": "string",
+        "name": "string"
+      },
+      "roleType": "string",
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "serviceVouchersInUse": true,
+  "serviceVouchers": [
+    {
+      "orderNumber": 0,
+      "value": "string",
+      "language": "string",
+      "url": "string",
+      "additionalInformation": "string"
+    }
+  ],
+  "serviceCollections": [
+    {
+      "id": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2018-04-23T05:54:12.172Z"
+}

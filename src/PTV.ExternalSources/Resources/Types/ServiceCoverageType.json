@@ -1,0 +1,40 @@
+﻿[
+    {
+        "code": "Nationwide",
+        "names": [
+            {
+                "Name": "Palvelu on saatavilla koko maassa.",
+                "language": "fi"
+            },
+            {
+                "Name": "Nationwide",
+                "language": "en"
+            },
+            {
+                "Name": "Tjänsten är tillgänglig i hela landet.",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Local",
+        "names": [
+            {
+                "Name": "Palvelu on saatavilla seuraavissa kunnissa: (Valitse kunnat)",
+                "language": "fi"
+            },
+            {
+                "Name": "Local",
+                "language": "en"
+            },
+            {
+                "Name": "Tjänsten är tillgänglig i följande kommunerna: (Välj kommuner)",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

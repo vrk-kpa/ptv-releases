@@ -1,0 +1,36 @@
+﻿body .row {
+  /*margin-top: 10px;*/ }
+
+body [data-tooltip] {
+  z-index: 10000; }
+
+body [data-tooltip]:hover {
+  position: relative; }
+
+body [data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  display: block;
+  z-index: 999999;
+  width: 450px;
+  /*border-radius: 5px;*/
+  box-shadow: 0px 0px 4px #222;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  /*background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+        background-image: -o-linear-gradient(top, #eee, #ccc);
+        background-image: -moz-linear-gradient(top, #eee, #ccc);
+        background-image: linear-gradient(to bottom, #eee, #ccc);*/
+  font-family: SourceSansProRegular, "Helvetica Neue", Arial; }
+
+.egg-hidden {
+  float: right; }
+
+.form-group {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,25 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.subEntity {
+  background-color: bg-color(light);
+}
+
+.subEntityMainData {
+  padding: 5px 20px;
+}
+
+.dragHandle {
+  cursor: move;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  > * {
+    ~ * {
+      margin-left: 5px;
+    }
+  }
+}

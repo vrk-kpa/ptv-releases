@@ -1,0 +1,71 @@
+/**
+* The MIT License
+* Copyright (c) 2016 Population Register Centre (VRK)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+import { getContentLanguageCode } from 'selectors/selections'
+import { change, formValueSelector } from 'redux-form/immutable'
+import { fromJS, Map } from 'immutable'
+import { apiCall3 } from 'actions'
+import {
+  getAddressStreetNumber,
+  getAddressId,
+  getAddressPostalCode
+} from './selectors'
+import { combinePathAndField } from 'util/redux-form/util'
+
+import {
+  loadAddresses
+} from 'appComponents/ChannelAddressSearch/actions'
+import shortId from 'shortid'
+
+const getAddressSuccess = (formName, path, data, addressId) => ({ dispatch, getState }) => {
+  const id = formValueSelector(formName)(getState(), combinePathAndField(path, 'id'))
+  if (id === addressId) {
+    dispatch(change(formName, combinePathAndField(path, 'coordinates'), fromJS(data.response.result.coordinates)))
+  }
+}
+
+export const getCoordinates = props => ({ dispatch, getState }) => {
+  const state = getState()
+  const streetNumber = props.streetNumber || getAddressStreetNumber(state, props)
+  const streetName = props.streetName
+  const street = props.streetId
+  let addressId = getAddressId(state, props)
+  const postalCode = props.pCode || getAddressPostalCode(state, props)
+  const language = props.language || getContentLanguageCode(state, props) || 'fi'
+  const municipalityCode = props.mCode
+
+  if (!addressId) {
+    addressId = shortId.generate()
+    dispatch(change(props.formName, combinePathAndField(props.path, 'id'), addressId))
+  }
+  dispatch(apiCall3({
+    keys: ['application', 'coordinates', addressId],
+    payload: {
+      endpoint: 'common/GetCoordinatesForAddress',
+      data: { id: addressId, streetName, streetNumber, municipalityCode, language }
+    },
+    successNextAction: (data) => dispatch(getAddressSuccess(props.formName, props.path, data, addressId))
+  }))
+  if (!props.disableLoad) {
+    dispatch(loadAddresses(state, dispatch, Map({ street, streetNumber, postalCode }), props.formName))
+  }
+}
