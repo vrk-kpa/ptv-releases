@@ -1,0 +1,126 @@
+﻿{
+  "sourceId": "string",
+  "oid": "string",
+  "municipality": "string",
+  "organizationType": "string",
+  "businessCode": "string",
+  "businessName": "string",
+  "organizationNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "displayNameType": [
+    {
+      "type": "string",
+      "language": "string"
+    }
+  ],
+  "areaType": "string",
+  "subAreaType": "string",
+  "areas": [
+    "string"
+  ],
+  "organizationDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "emailAddresses": [
+    {
+      "description": "string",
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "webPages": [
+    {
+      "orderNumber": "string",
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "addresses": [
+    {
+      "type": "string",
+      "subType": "string",
+      "postOfficeBoxAddress": {
+        "postOfficeBox": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "postalCode": "string",
+        "municipality": "string",
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "streetAddress": {
+        "street": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "streetNumber": "string",
+        "postalCode": "string",
+        "municipality": "string",
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "latitude": "string",
+        "longitude": "string"
+      },
+      "foreignAddress": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "country": "string"
+    }
+  ],
+  "electronicInvoicings": [
+    {
+      "operatorCode": "string",
+      "electronicInvoicingAddress": "string",
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "parentOrganizationId": "string",
+  "deleteAllEmails": true,
+  "deleteAllPhones": true,
+  "deleteAllWebPages": true,
+  "deleteAllAddresses": true,
+  "deleteAllElectronicInvoicings": true
+}

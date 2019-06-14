@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using PTV.IdentityUserManager.Models
+
+@model PTV.IdentityUserManager.Models.LoginViewModel
+
+@inject IViewLocalizer Localizer
+
+@* Copy texts taken from: https://test-suomifi.kapa.ware.fi/service-design/ptv/#p=150216_login_before&g=1 *@
+
+<div class="login-page">
+    <div class="login-content">
+        <p lang="fi">@Localizer["sts_WelcomeMessage1"]</p>
+        <p lang="fi">@Localizer["sts_WelcomeMessage2"]</p>
+        <p lang="fi">@Localizer["sts_WelcomeMessage3_1"] <a lang="fi" href=@Localizer["sts_ReadMoreLink"] target="_blank">@Localizer["sts_ReadMoreTitle"]</a> @Localizer["sts_WelcomeMessage3_2"]</p>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 lang="fi" class="panel-title">@Localizer["sts_LoginHeader"]</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+
+                <form asp-action="Login" asp-antiforgery="true">
+                    <input type="hidden" asp-for="SignInId" />
+
+                    @await Html.PartialAsync("_ValidationSummary")
+
+                    <fieldset>
+                        <div class="form-group row">
+                            <label lang="fi" class="col-md-3 login-label" asp-for="Email">@Localizer["sts_LoginEmail"]</label>
+                            <div class="col-md-9">
+                                <input lang="fi" class="form-control" placeholder=@Localizer["sts_LoginEmailPlaceholder"] asp-for="Email" autofocus>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label lang="fi" class="col-md-3 login-label" asp-for="Password">@Localizer["sts_LoginPassword"]</label>
+                            <div class="col-md-9">
+                                <input lang="fi" type="password" class="form-control" placeholder=@Localizer["sts_LoginPasswordPlaceholder"] asp-for="Password" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-3">
+                            </div>
+                            <div class="col-sm-9">
+                                <label lang="fi" asp-for="RememberLogin">
+                                    <input asp-for="RememberLogin">
+                                    <strong lang="fi">@Localizer["sts_LoginRememberMe"]</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button lang="fi" class="btn btn-primary">@Localizer["sts_LoginButton"]</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+                @*<ul class="list-unstyled">
+                        <li ng-repeat="link in model.additionalLinks"><a ng-href="{{link.href}}">{{link.text}}</a></li>
+                    </ul>*@
+
+        @*<div class="col-md-6 col-sm-6 external-providers" ng-show="model.externalProviders.length">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">External Login</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-inline">
+                            <li ng-repeat="provider in model.externalProviders">
+                                <a class="btn btn-default" href="{{provider.href}}">{{provider.text}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>*@
+    </div>
+</div>

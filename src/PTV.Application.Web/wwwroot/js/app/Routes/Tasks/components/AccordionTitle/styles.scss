@@ -1,0 +1,41 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.tasksTitle {
+  button {
+    display: none;
+  }
+}
+
+.titleText {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.tasksTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: interaction-color(primary);
+}
+
+.titleActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 auto;
+}
+
+[class*='styles__accordionTitle___'][class*='styles__active___'] {
+  .tasksTitle {
+    button {
+      display: block;
+    }
+  }
+}
+
+.notificationTooltip {
+  svg {
+    fill: icon-color(secondary);
+  }
+}

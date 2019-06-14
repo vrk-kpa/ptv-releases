@@ -1,0 +1,1861 @@
+[
+    { // Testiorganisaatio 1
+        "userName": "jarjestelmapaakayttaja1@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-101",
+        "role": "eeva",
+        "rights": [
+            "openapiread",
+            "uiappread",
+            "uiappwrite",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    {
+        "userName": "jarjestelmapaakayttaja2@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-102",
+        "role": "eeva",
+        "rights": [
+            "openapiread",
+            "uiappread",
+            "uiappwrite",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    {
+        "userName": "jarjestelmapaakayttaja3@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-103",
+        "role": "eeva",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    {
+        "userName": "jarjestelmapaakayttaja4@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-104",
+        "role": "eeva",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    {
+        "userName": "jarjestelmapaakayttaja5@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-105",
+        "role": "eeva",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    {
+        "userName": "paakayttaja1@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-201",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "paakayttaja2@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-202",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "paakayttaja3@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-203",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "paakayttaja4@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-204",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "paakayttaja5@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "VRKpwPtv2018-205",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "API@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "APItesting2018*",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        "userName": "API-ASTI@vrk.fi",
+        "organization": "b458d033-042d-4cbe-b030-34e81da28821",
+        "password": "APIASTItesting2018*",
+        "role": "pete",
+        "rights": [
+            "uiappread",
+            "uiappwrite",
+            "openapiread",
+            "openapiwrite",
+            "astiwrite"
+        ]
+    },
+    // Testiorganisaatio 2
+    {
+        "userName": "paakayttaja1.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Paatestaaja1-1001*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja2.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Paatestaaja2-1002*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja3.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Paatestaaja3-1003*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja4.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Paatestaaja4-1004*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja5.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Paatestaaja5-1005*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja1.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Yllapitajatestaaja1-1001*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja2.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Yllapitajatestaaja2-1002*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja3.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Yllapitajatestaaja3-1003*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja4.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Yllapitajatestaaja4-1004*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja5.testi@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "Yllapitajatestaaja5-1005*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API1
+        "userName": "API1@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "APIinterfaceUser1-1001*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API2
+        "userName": "API2@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "APIinterfaceUser2-1002*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API-ASTI
+        "userName": "API-ASTI1@testi.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "APIASTIinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "astiwrite"
+        ]
+    },
+    { //Added 3.11.2018
+        "userName": "API@testkela.fi",
+        "organization": "df499a95-3f53-4a4c-b794-015b25710ee8",
+        "password": "APIKelainterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 3
+    {
+        "userName": "paakayttaja6.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Paatestaaja6-1006*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja7.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Paatestaaja7-1007*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja8.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Paatestaaja8-1008*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja9.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Paatestaaja9-1009*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja10.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Paatestaaja10-1010*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja6.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Yllapitajatestaaja6-1006*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja7.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Yllapitajatestaaja7-1007*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja8.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Yllapitajatestaaja8-1008*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja9.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Yllapitajatestaaja9-1009*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja10.testi@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "Yllapitajatestaaja10-1010*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        //API 3
+        "userName": "API3@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "APIinterfaceUser3-1003*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        //API 4
+        "userName": "API4@testi.fi",
+        "organization": "746538f1-6ddc-4042-bd7b-923d6401ecae",
+        "password": "APIinterfaceUser4-1004*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 4
+    {
+        "userName": "paakayttaja11.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Paatestaaja11-1011*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja12.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Paatestaaja12-1012*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja13.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Paatestaaja13-1013*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja14.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Paatestaaja14-1014*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja15.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Paatestaaja15-1015*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja11.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Yllapitajatestaaja11-1011*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja12.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Yllapitajatestaaja12-1012*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja13.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Yllapitajatestaaja13-1013*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja14.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Yllapitajatestaaja14-1014*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja15.testi@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "Yllapitajatestaaja15-1015*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        //API 5
+        "userName": "API5@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "APIinterfaceUser5-1005*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        //API 6
+        "userName": "API6@testi.fi",
+        "organization": "c60381d6-fbd7-45d7-994e-c99ec0fc8f3f",
+        "password": "APIinterfaceUser6-1006*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 5
+    {
+        "userName": "paakayttaja16.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Paatestaaja16-1016*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja17.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Paatestaaja17-1017*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja18.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Paatestaaja18-1018*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja19.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Paatestaaja19-1019*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja20.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Paatestaaja20-1020*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja16.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Yllapitajatestaaja16-1016*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja17.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Yllapitajatestaaja17-1017*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja18.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Yllapitajatestaaja18-1018*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja19.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Yllapitajatestaaja19-1019*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja20.testi@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "Yllapitajatestaaja20-1020*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        //API 7
+        "userName": "API7@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "APIinterfaceUser7-1007*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    {
+        //API 8
+        "userName": "API8@testi.fi",
+        "organization": "011154df-3726-461e-ae9c-a1182d1746de",
+        "password": "APIinterfaceUser8-1008*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 6
+    {
+        "userName": "paakayttaja21.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Paatestaaja21-1021*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja22.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Paatestaaja22-1022*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja23.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Paatestaaja23-1023*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja24.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Paatestaaja24-1024*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja25.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Paatestaaja25-1025*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja21.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Yllapitajatestaaja21-1021*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja22.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Yllapitajatestaaja22-1022*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja23.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Yllapitajatestaaja23-1023*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja24.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Yllapitajatestaaja24-1024*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja25.testi@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "Yllapitajatestaaja25-1025*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 9
+        "userName": "API9@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "APIinterfaceUser9-1009*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 10
+        "userName": "API10@testi.fi",
+        "organization": "3d1759a2-e47a-4947-9a31-cab1c1e2512b",
+        "password": "APIinterfaceUser10-1010*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 7
+    {
+        "userName": "paakayttaja26.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Paatestaaja26-1026*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja27.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Paatestaaja27-1027*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja28.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Paatestaaja28-1028*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja29.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Paatestaaja29-1029*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja30.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Paatestaaja30-1030*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja26.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Yllapitajatestaaja26-1026*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja27.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Yllapitajatestaaja27-1027*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja28.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Yllapitajatestaaja28-1028*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja29.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Yllapitajatestaaja29-1029*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja30.testi@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "Yllapitajatestaaja30-1030*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 11
+        "userName": "API11@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "APIinterfaceUser11-1011*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 12
+        "userName": "API12@testi.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "APIinterfaceUser12-1012*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+
+    },
+    { //Added 3.11.2018
+        "userName": "API@testlahti.fi",
+        "organization": "6745e341-be2a-45a4-b184-bbc2f8465615",
+        "password": "APILahtiinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 8
+    {
+        "userName": "paakayttaja31.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Paatestaaja31-1031*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja32.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Paatestaaja32-1032*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja33.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Paatestaaja33-1033*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja34.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Paatestaaja34-1034*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja35.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Paatestaaja35-1035*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja31.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Yllapitajatestaaja31-1031*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja32.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Yllapitajatestaaja32-1032*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja33.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Yllapitajatestaaja33-1033*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja34.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Yllapitajatestaaja34-1034*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja35.testi@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "Yllapitajatestaaja35-1035*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 13
+        "userName": "API13@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "APIinterfaceUser13-1013*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 14
+        "userName": "API14@testi.fi",
+        "organization": "92374b0f-7d3c-4017-858e-666ee3ca2761",
+        "password": "APIinterfaceUser14-1014*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+
+    },
+    // Testiorganisaatio 9
+    {
+        "userName": "paakayttaja36.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Paatestaaja36-1036*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja37.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Paatestaaja37-1037*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja38.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Paatestaaja38-1038*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja39.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Paatestaaja39-1039*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja40.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Paatestaaja40-1040*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja36.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Yllapitajatestaaja36-1036*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja37.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Yllapitajatestaaja37-1037*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja38.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Yllapitajatestaaja38-1038*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja39.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Yllapitajatestaaja39-1039*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja40.testi@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "Yllapitajatestaaja40-1040*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 15
+        "userName": "API15@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "APIinterfaceUser15-1015*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 16
+        "userName": "API16@testi.fi",
+        "organization": "7fdd7f84-e52a-4c17-a59a-d7c2a3095ed5",
+        "password": "APIinterfaceUser16-1016*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 10
+    {
+        "userName": "paakayttaja41.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Paatestaaja41-1041*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja42.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Paatestaaja42-1042*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja43.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Paatestaaja43-1043*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja44.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Paatestaaja44-1044*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja45.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Paatestaaja45-1045*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja41.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Yllapitajatestaaja41-1041*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja42.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Yllapitajatestaaja42-1042*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja43.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Yllapitajatestaaja43-1043*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja44.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Yllapitajatestaaja44-1044*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja45.testi@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "Yllapitajatestaaja45-1045*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 17
+        "userName": "API17@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "APIinterfaceUser17-1017*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 18
+        "userName": "API18@testi.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "APIinterfaceUser18-1018*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //Added 3.11.2018
+        "userName": "API@testturku.fi",
+        "organization": "52e0f6dc-ec1f-48d5-a0a2-7a4d8b657d53",
+        "password": "APITurkuinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 11
+    {
+        "userName": "paakayttaja46.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Paatestaaja46-1046*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja47.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Paatestaaja47-1047*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja48.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Paatestaaja48-1048*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja49.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Paatestaaja49-1049*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja50.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Paatestaaja50-1050*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja46.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Yllapitajatestaaja46-1046*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja47.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Yllapitajatestaaja47-1047*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja48.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Yllapitajatestaaja48-1048*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja49.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Yllapitajatestaaja49-1049*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja50.testi@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "Yllapitajatestaaja50-1050*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 19
+        "userName": "API19@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "APIinterfaceUser19-1019*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 20
+        "userName": "API20@testi.fi",
+        "organization": "0d34eb3a-d7e5-4af0-aa0d-009b5fb0e91c",
+        "password": "APIinterfaceUser20-1020*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 12
+    {
+        "userName": "paakayttaja51.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Paatestaaja51-1051*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja52.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Paatestaaja52-1052*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja53.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Paatestaaja53-1053*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja54.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Paatestaaja54-1054*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja55.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Paatestaaja55-1055*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja51.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Yllapitajatestaaja51-1051*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja52.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Yllapitajatestaaja52-1052*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja53.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Yllapitajatestaaja53-1053*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja54.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Yllapitajatestaaja54-1054*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja55.testi@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "Yllapitajatestaaja55-1055*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 21
+        "userName": "API21@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "APIinterfaceUser21-1021*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 22
+        "userName": "API22@testi.fi",
+        "organization": "e9d022bc-97b8-41c6-b953-d052ad53bc91",
+        "password": "APIinterfaceUser22-1022*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 13
+    {
+        "userName": "paakayttaja56.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Paatestaaja56-1056*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja57.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Paatestaaja57-1057*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja58.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Paatestaaja58-1058*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja59.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Paatestaaja59-1059*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja60.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Paatestaaja60-1060*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja56.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Yllapitajatestaaja56-1056*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja57.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Yllapitajatestaaja57-1057*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja58.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Yllapitajatestaaja58-1058*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja59.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Yllapitajatestaaja59-1059*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja60.testi@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "Yllapitajatestaaja60-1060*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 23
+        "userName": "API23@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "APIinterfaceUser23-1023*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 24
+        "userName": "API22@testi.fi",
+        "organization": "3e8356bd-377f-4cad-97b1-a027bd4bbf25",
+        "password": "APIinterfaceUser24-1024*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 14
+    {
+        "userName": "paakayttaja61.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Paatestaaja61-1061*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja62.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Paatestaaja62-1062*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja63.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Paatestaaja63-1063*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja64.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Paatestaaja64-1064*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja65.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Paatestaaja65-1065*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja61.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Yllapitajatestaaja61-1061*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja62.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Yllapitajatestaaja62-1062*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja63.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Yllapitajatestaaja63-1063*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja64.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Yllapitajatestaaja64-1064*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja65.testi@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "Yllapitajatestaaja65-1065*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 25
+        "userName": "API25@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "APIinterfaceUser25-1025*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 26
+        "userName": "API26@testi.fi",
+        "organization": "4bc4fad0-84fe-412f-8fb9-c431f4ba48b2",
+        "password": "APIinterfaceUser26-1026*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 15
+    {
+        "userName": "paakayttaja66.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Paatestaaja66-1066*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja67.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Paatestaaja67-1067*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja68.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Paatestaaja68-1068*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja69.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Paatestaaja69-1069*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja70.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Paatestaaja70-1070*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja66.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Yllapitajatestaaja66-1066*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja67.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Yllapitajatestaaja67-1067*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja68.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Yllapitajatestaaja68-1068*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja69.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Yllapitajatestaaja69-1069*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja70.testi@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "Yllapitajatestaaja70-1070*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 27
+        "userName": "API27@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "APIinterfaceUser27-1027*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 28
+        "userName": "API28@testi.fi",
+        "organization": "ae788356-6950-48fc-b3ff-63243f74fe53",
+        "password": "APIinterfaceUser28-1028*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 16
+    {
+        "userName": "paakayttaja71.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Paatestaaja71-1071*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja72.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Paatestaaja72-1072*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja73.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Paatestaaja73-1073*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja74.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Paatestaaja74-1074*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja75.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Paatestaaja75-1075*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja71.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Yllapitajatestaaja71-1071*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja72.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Yllapitajatestaaja72-1072*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja73.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Yllapitajatestaaja73-1073*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja74.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Yllapitajatestaaja74-1074*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja75.testi@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "Yllapitajatestaaja75-1075*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 29
+        "userName": "API29@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "APIinterfaceUser29-1029*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 30
+        "userName": "API30@testi.fi",
+        "organization": "c225a17a-b767-4148-80ae-b78506275534",
+        "password": "APIinterfaceUser30-1030*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 17
+    {
+        "userName": "paakayttaja76.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Paatestaaja76-1076*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja77.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Paatestaaja77-1077*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja78.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Paatestaaja78-1078*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja79.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Paatestaaja79-1079*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja80.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Paatestaaja80-1080*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja76.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Yllapitajatestaaja76-1076*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja77.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Yllapitajatestaaja77-1077*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja78.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Yllapitajatestaaja78-1078*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja79.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Yllapitajatestaaja79-1079*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja80.testi@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "Yllapitajatestaaja80-1080*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 31
+        "userName": "API31@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "APIinterfaceUser31-1031*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    { //API 32
+        "userName": "API32@testi.fi",
+        "organization": "269685e8-9c00-4f2e-b6c7-e61d94e13b96",
+        "password": "APIinterfaceUser32-1032*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 18
+    {
+        "userName": "paakayttaja81.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Paatestaaja81-1081*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja82.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Paatestaaja82-1082*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja83.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Paatestaaja83-1083*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja84.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Paatestaaja84-1084*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja85.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Paatestaaja85-1085*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja81.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Yllapitajatestaaja81-1081*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja82.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Yllapitajatestaaja82-1082*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja83.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Yllapitajatestaaja83-1083*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja84.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Yllapitajatestaaja84-1084*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja85.testi@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "Yllapitajatestaaja85-1085*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 33
+        "userName": "API33@testi.fi",
+        "organization": "53859dac-fbfa-4836-83bb-347ded4fcbe8",
+        "password": "APIinterfaceUser33-1033*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 19
+    {
+        "userName": "paakayttaja86.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Paatestaaja86-1086*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja87.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Paatestaaja87-1087*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja88.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Paatestaaja88-1088*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja89.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Paatestaaja89-1089*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "paakayttaja90.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Paatestaaja90-1090*",
+        "role": "pete",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja86.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Yllapitajatestaaja86-1086*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja87.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Yllapitajatestaaja87-1087*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja88.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Yllapitajatestaaja88-1088*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja89.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Yllapitajatestaaja89-1089*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    {
+        "userName": "yllapitaja90.testi@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "Yllapitajatestaaja90-1090*",
+        "role": "shirley",
+        "rights": [ "uiappread", "uiappwrite" ]
+    },
+    { //API 34
+        "userName": "API34@testi.fi",
+        "organization": "30e5a664-95fd-496c-9d33-c40c13131ceb",
+        "password": "APIinterfaceUser34-1034*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 20
+    {   //Added 3.11.2018
+        "userName": "API@testcodeserver.fi",
+        "organization": "465e41a6-11c9-4034-8163-770f0d63009a",
+        "password": "APICodeserverinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 21
+    {   //Added 3.11.2018
+        "userName": "API@testfonecta.com",
+        "organization": "273b8e55-411f-45ec-99f6-4a06c45e9df3",
+        "password": "APIFonectainterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 22
+    {   //Added 3.11.2018
+        "userName": "API@testvalu.fi ",
+        "organization": "6b365587-0958-498e-b409-a857a414c9bc",
+        "password": "APIValuinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    },
+    // Testiorganisaatio 23
+    {   //Added 3.11.2018
+        "userName": "API@testjppsoft.fi",
+        "organization": "4bc75052-f9ce-42c1-a8e9-c6584abd2c8b",
+        "password": "APIJppsoftinterfaceUser1*",
+        "role": "pete",
+        "rights": [
+            "openapiread",
+            "openapiwrite"
+        ]
+    }
+]

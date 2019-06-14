@@ -1,0 +1,792 @@
+[
+  {
+    "id": 100,
+    "name": "Verokortit-palvelunumero",
+    "phone": "020 697 000",
+    "webPage": "http://www.vero.fi/palvelunumerot",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Verokortit-palvelunumero on valtakunnallinen puhelinpalvelu. Tilaa palvelusta uusi verokortti tai muuta eläkkeiden pidätysprosentteja. Palvelusta saat vastauksia myös verokorttia koskeviin kysymyksiin. \nVoit myös tulostaa tai tilata verokortin verkkopalvelusta osoitteessa www.vero.fi/verokortti",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 82,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 104,
+    "name": "Osoitepalvelupuhelin",
+    "phone": "0600 0 1000",
+    "language": [
+      "fi"
+    ],
+    "description": "Puhelinpalvelusta voit saada lähes kaikkien Suomessa vakinaisesti asuvien henkilöiden ajantasaiset osoitteet. Palvelusta löytyvät myös ulkomailla asuvien suomalaisten osoitteet, mikäli he ovat ilmoittaneet voimassa olevan osoitteensa maistraatille. Palvelun tiedot perustuvat Väestörekisterikeskuksen ja maistraattien ylläpitämän väestötietojärjestelmän tietoihin. Palveluun voit soittaa ainoastaan Suomesta.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "22:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 77,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "Palvelun hinta on 1,98 euroa/minuutti + pvm/mpm."
+  },
+  {
+    "id": 110,
+    "name": "Kansalaisneuvonnan puhelinpalvelu",
+    "phone": "0295 000",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Voit ottaa Kansalaisneuvontaan yhteyttä puhelimitse. Puhelinpalvelu toimii myös ulkomailta käsin numerossa +358 295 000.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "21:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      },
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "6"
+        ]
+      }
+    ],
+    "organization": 81,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 123,
+    "name": "Sotilastapaturmien asiakaspalvelu",
+    "email": "vahko.sotilaat@valtiokonttori.fi",
+    "phone": "+358295 50 3060",
+    "webPage": "http://www.valtiokonttori.fi/fi-FI/Kansalaisille_ja_yhteisoille/Korvaukset_ja_etuisuudet/Tyotapaturmat_ja_ammattitaudit/Asiakaspalvelu_puhelimessa",
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "description": "Valtiokonttorin asiakaspalvelu palvelee sotilastapaturmiin ja rauhanturvaajien tapaturmaturvaan liittyvissä asioissa. Valtiokonttori nauhoittaa asiakaspalveluun tulevat puhelut. \n\nMyös tekstiviestien lähettäminen 0295-numeroihin on mahdollista.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15.30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 81,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 129,
+    "name": "Rikosvahinkojen asiakaspalvelu",
+    "phone": "+358295 50 2736",
+    "webPage": "http://www.valtiokonttori.fi/fi-FI/Kansalaisille_ja_yhteisoille/Korvaukset_ja_etuisuudet/Tyotapaturmat_ja_ammattitaudit/Asiakaspalvelu_puhelimessa",
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "description": "Numerossa autetaan rikosvahinkojen korvaushakemuksen tekemisessä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 81,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 248,
+    "name": "Ajoneuvojen rekisteröinti- ja tietopalvelu",
+    "email": "neuvonta@trafi.fi",
+    "phone": "+35829 534 5100",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Neuvontaan voit ottaa yhteyttä ajoneuvojen rekisteröinti- ja tietopalveluasioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 240,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 249,
+    "name": "Ajoneuvoveroneuvonta",
+    "email": "ajoneuvoverotus@trafi.fi",
+    "phone": "+35829 534 5125",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Neuvontaan voit ottaa yhteyttä ajoneuvojen verotusta koskevissa asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 240,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 264,
+    "name": "Kansalaisneuvonnan tekstiviestipalvelu",
+    "phone": "13145",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Voit lähettää kysymyksen tai palautteen Kansalaisneuvonnalle tekstiviestinä. Kirjoita tekstiviestin alkuun kirjainyhdistelmä Kn ja sen jälkeen viestisi. Tekstiviestipalvelu on tarkoitettu etenkin erityisryhmille, esimerkiksi puhe- ja kuulovammaisille. Tekstiviestinä saat neuvontaa, jos olet Suomessa ja käytössäsi on suomalainen matkapuhelinliittymä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "21:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": ""
+      },
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "6"
+        ]
+      }
+    ],
+    "organization": 81,
+    "phoneServiceChannelType": "SMSService",
+    "phoneCallFeeAdditionalInformation": "puhelinliittymän mukainen tekstiviestimaksu, ei lisämaksua"
+  },
+  {
+    "id": 277,
+    "name": "Päivähoidon palveluohjaus",
+    "phone": "+358447945796",
+    "language": [
+      "fi"
+    ],
+    "description": "Mikkelin kaupungin päivähoidon palveluohjaus palvelee kuntalaisia päivähoitohakuun liittyvissä asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 312,
+    "name": "Mikkelin museoiden puhelinnumero",
+    "phone": "+35815 194 2424",
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "description": "Mikkelin kaupungin museoiden toimiston puhelinnumero.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 321,
+    "name": "Mikkelin kansalaisopisto",
+    "email": "kansalaisopisto@mikkeli.fi",
+    "phone": "+35815 1942929",
+    "webPage": "http://kansalaisopisto.mikkeli.fi/",
+    "language": [
+      "fi"
+    ],
+    "description": "Numerossa palvellaan kansalaisopiston kursseja ja kursseille ilmoittautumista koskevissa asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "validFrom": "",
+        "openingHoursException": "Suljettu klo 12.00-12.30 välisenä aikana."
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 355,
+    "name": "Mikkelin pääkirjaston puhelinneuvonta",
+    "phone": "+35850 311 7481",
+    "language": [
+      "fi"
+    ],
+    "description": "Mikkelin pääkirjaston neuvonnan puhelinnumero.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "20:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "openingHoursException": "Lauantaisin (syyskuusta toukokuun loppuun) klo 9–15. Juhlapyhien aattoina klo 10–16."
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "5"
+        ],
+        "openingHoursException": ""
+      }
+    ],
+    "organization": 314,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 377,
+    "name": "Kaupunginarkiston tietopalvelusihteeri",
+    "phone": "+35844 794 2035",
+    "language": [
+      "fi"
+    ],
+    "description": "Tietopalvelusihteeri opastaa ja neuvoo arkistoaineistoa koskevissa asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 389,
+    "name": "Mikkelin kaupungin kirjaamo",
+    "phone": "+35844 794 2033",
+    "language": [
+      "fi"
+    ],
+    "description": "Numerosta saat neuvontaa ja opastusta Mikkelin kaupungin tuottamaan ja arkistoimaan asiakirja-aineistoon liittyvissä asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 426,
+    "name": "Mikkelin kaupungin konsernipalvelut, asuntotoimen päällikkö",
+    "phone": "+358447942230",
+    "language": [
+      "fi"
+    ],
+    "description": "Mikkelin kaupungin asuntotoimi palvelee asumiseen liittyvissä asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 423,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 427,
+    "name": "Mikkelin kaupungin konsernipalvelut, asuntosihteeri",
+    "phone": "+358401294320",
+    "language": [],
+    "description": "Mikkelin kaupungin asuntotoimen toimistosihteeri palvelee asumiseen liittyvissä asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+        {
+            "opens": "09:00",
+            "closes": "15:00",
+            "dayOfWeek": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    ],
+    "organization": 423,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 428,
+    "name": "Mikalo Oy:n puhelinvaihde",
+    "phone": "+35815321350",
+    "language": [],
+    "description": "Mikalo Oy:n puhelinvaihteessa sinut ohjataan haluamasi kaupunginosan asukassihteerille.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "openingHoursException": "juhlapyhien aattoina klo 9:00-11:30"
+      },
+      {
+        "opens": "09:00",
+        "closes": "11:30",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 422,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 438,
+    "name": "Valvontaeläinlääkärin puhelinnumero",
+    "phone": "+358447945281",
+    "language": [],
+    "description": "Valvontaeläinlääkäriin voit ottaa yhteyttää eläinsuojeluasioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 439,
+    "name": "Mikkelin ja Hirvensalmen tuotantoeläinlääkärin ajanvaraus",
+    "phone": "+358151944726",
+    "language": [],
+    "description": "Voit soittaa tähän numeroon tuotantoeläimiä koskevissa asioissa tai varataksesi ajan eläinlääkäriltä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 440,
+    "name": "Mikkelin ja Hirvensalmen pieneläinlääkärin ajanvaraus",
+    "phone": "+358151944720",
+    "language": [],
+    "description": "Voit soittaa tähän numeroon pieneläimiä koskevissa asioissa tai varataksesi ajan eläinlääkäriltä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 441,
+    "name": "Mäntyharjun ja Pertunmaan tuotanto- ja pieneläinlääkärin ajanvaraus",
+    "phone": "+35815227530",
+    "language": [],
+    "description": "Voit soittaa tähän numeroon eläinlääkintää koskevissa asioissa tai varataksesi ajan eläinlääkäriltä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 442,
+    "name": "Kangasniemen eläinlääkärin ajanvaraus",
+    "phone": "+35815431017",
+    "language": [],
+    "description": "Voit soittaa tähän numeroon eläinlääkintää koskevissa asioissa tai varataksesi ajan eläinlääkäriltä.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Arkipyhinä suljettu."
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 444,
+    "name": "Mikkelin seudun eläinlääkäripäivystyksen puhelinnumero",
+    "phone": "0600 13436",
+    "language": [],
+    "description": "Eläinlääkäripäivystys kattaa Mikkelin, Mäntyharjun, Hirvensalmen ja Pertunmaan kunnat.\nPäivystysaika arkisin virka-ajan ulkopuolella ja viikonloppuisin ympäri vuorokauden.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "15:00",
+        "closes": "08:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "opens": "Ympärivuorokautinen päivystys.",
+        "closes": "Ympärivuorokautinen päivystys.",
+        "dayOfWeek": [
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 443,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "Puhelun hinta klo 22-8 3,02 euroa/min, muuna aikana 1,51 euroa/min."
+  },
+  {
+    "id": 454,
+    "name": "Mäntyharjun ja Hirvensalmen löytökoirien vastaanotto",
+    "phone": "+358440258951",
+    "language": [],
+    "description": "Mäntyharjulla ja Hirvensalmella löytökoirat hoitaa Kalevi Pulkkinen, johon saa yhteyden puhelimitse.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "Aukioloaikoja ei määritetty.",
+        "closes": "Aukioloaikoja ei määritetty.",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 455,
+    "name": "Pertunmaan löytöeläinten sekä Mäntyharjun ja Hirvensalmen löytökissojen vastaanotto",
+    "phone": "+358400139577",
+    "language": [],
+    "description": "Pertunmaan löytöeläimet sekä Mäntyharjun ja Hirvensalmen löytökissat vastaanottaa Unto Liukkonen, johon saa yhteyden puhelimitse.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "Aukioloaikoja ei määritetty.",
+        "closes": "Aukioloaikoja ei määritetty.",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 105,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 457,
+    "name": "Mikkelin pääkirjaston lainojen uusinnat",
+    "phone": "+35850 311 7480",
+    "language": [],
+    "description": "Puhelinnumerossa palvellaan lainojen uusintaan liittyvissä asioissa.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "20:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "openingHoursException": "Lauantaisin (syyskuusta toukokuun loppuun) klo 9–15. Juhlapyhien aattoina klo 10–16."
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 314,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 460,
+    "name": "Kuluttajaneuvonnan puhelinpalvelu",
+    "phone": "0295 536 901",
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "description": "Saat nopeimmin yhteyden kuluttajaneuvontaan puhelimitse. Otathan asiaan liittyvät paperit valmiiksi esille, kun soitat kuluttajaneuvontaan.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 459,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu"
+  },
+  {
+    "id": 1308,
+    "name": "Kuluttajaneuvonnan puhelinpalvelu",
+    "phone": "0295 536 901",
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "description": "Saat nopeimmin yhteyden kuluttajaneuvontaan puhelimitse. Otathan asiaan liittyvät paperit valmiiksi esille, kun soitat kuluttajaneuvontaan.",
+    "targetGroup": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 1303,
+    "phoneServiceChannelType": "PhoneService",
+    "phoneCallFeeAdditionalInformation": "paikallisverkkomaksu / paikallispuhelumaksu."
+  }
+]

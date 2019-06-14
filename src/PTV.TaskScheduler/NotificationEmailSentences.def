@@ -1,0 +1,17 @@
+Row|<tr><td width="30" class="bullet">&bull;</td><td>$INSERT$</td></tr>
+TasksEmpty|Sinulla ei ole tehtäviä.
+NotificationsEmpty|Notifications Empty.
+ServiceChannelInCommonUse|ServiceChannelInCommonUse $INSERT$
+ContentUpdated|ContentUpdated $INSERT$
+ContentArchived|ContentArchived $INSERT$
+GeneralDescriptionCreated|GeneralDescriptionCreated $INSERT$
+GeneralDescriptionUpdated|GeneralDescriptionUpdated $INSERT$
+ConnectionChangesZConnectionChanges $INSERT$
+OutdatedDraftServices|OutdatedDraftServices $INSERT$
+OutdatedPublishedServices|OutdatedPublishedServices $INSERT$
+OutdatedDraftChannels|OutdatedDraftChannels $INSERT$
+OutdatedPublishedChannels|OutdatedPublishedChannels $INSERT$
+ServicesWithoutChannels|ServicesWithoutChannels $INSERT$
+ChannelsWithoutServices|ChannelsWithoutServices $INSERT$
+TranslationArrived|TranslationArrived $INSERT$
+MissingLanguageOrganizations|MissingLanguageOrganizations $INSERT$

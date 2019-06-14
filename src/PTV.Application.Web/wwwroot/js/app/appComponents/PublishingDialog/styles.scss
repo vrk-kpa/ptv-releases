@@ -1,0 +1,31 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.publishError {
+  svg {
+    fill: secondary-color(marjapuuro);
+  }
+}
+
+.publishingCheckbox {
+  label {
+    margin: 0;
+  }
+}
+.publishingDateFrom{
+  display: flex;
+  padding-left: 0;
+}
+.publishingTab{
+
+}
+
+.publishDialog {
+  width: 90%;
+  @media only screen and (min-width: 1280px) {
+    width: 1180px;
+  }
+}
+
+.descriptionInfo{
+  margin-top: 10px;
+}

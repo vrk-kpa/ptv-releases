@@ -1,0 +1,58 @@
+{
+  "sourceId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "organizationId": "string",
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "webPage": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "accessibilityClassificationLevel": "string",
+  "wcagLevel": "string",
+  "accessibilityStatementWebPage": [
+    {
+      "url": "string",
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "validFrom": "2018-09-11T09:04:59.807Z",
+  "validTo": "2018-09-11T09:04:59.807Z",
+  "deleteAllSupportEmails": true,
+  "deleteAllSupportPhones": true
+}

@@ -1,0 +1,47 @@
+﻿{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "urls": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "deleteAllSupportEmails": true,
+  "deleteAllSupportPhones": true
+}

@@ -1,0 +1,148 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2016 Population Register Centre (VRK)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PTV.Domain.Model.Models
+{
+    /// <summary>
+    /// Model for Connected users
+    /// </summary>
+    public class VmUserOrganization
+    {
+        /// <summary>
+        /// User id
+        /// </summary>
+        public Guid UserId { get; set; }
+
+        /// <summary>
+        /// Role id
+        /// </summary>
+        public Guid RoleId { get; set; }
+        
+        /// <summary>
+        /// Organization id
+        /// </summary>
+        public Guid OrganizationId { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsMain { get; set; }
+    }
+    
+    /// <summary>
+    /// 
+    /// </summary>
+    public class VmUserSts
+    {
+    /// <summary>
+    /// 
+    /// </summary>
+        public Guid? Id { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserName { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Role { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserAccessRight { get; set; }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public class VmExportOrganizationJson
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string OrganizationName { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Role { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string BusinessCode { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserAccessRightsGroup { get; set; }
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    public class VmExportUserJson
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserName { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<VmExportOrganizationJson> Organizations { get; set; }
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    public class VmUserOrganizationSts : VmUserOrganization
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserName { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string OrganizationName { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Role { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserAccessRight { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string BusinessCode { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string UserAccessRightsGroup { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsParent { get; set; }
+    }
+}

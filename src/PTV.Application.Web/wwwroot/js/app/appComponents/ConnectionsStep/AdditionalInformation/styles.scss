@@ -1,0 +1,34 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items();
+}
+.connectionButtons {
+  flex: 0 0 200px;
+  text-align: right;
+}
+
+.astiItem {
+  position: relative;
+  padding-left: 25px;
+  margin-left: 30px;
+  &::after {
+    @include pseudo-bullet();
+  }
+  &.main {
+    margin-left: 10px;
+  }
+  label {
+    display: none;
+  }
+}
+
+.userSupport {
+  [class*='styles__containerBody'], [class*='styles__containerHead'] {
+    margin: 0;
+  }
+  [class*='styles__containerBody'] {
+    padding: 0;
+  }
+}

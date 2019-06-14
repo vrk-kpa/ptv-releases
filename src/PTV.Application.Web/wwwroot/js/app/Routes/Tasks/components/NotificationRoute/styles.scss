@@ -1,0 +1,71 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.tasks {
+  .tasksAccTitle {
+    padding: 20px;
+    margin: 0;
+    border: 1px solid border-color(border);
+    border-bottom: none;
+  }
+  .tasksAccContent {
+    padding: 0 20px 20px;
+    border-left: 1px solid border-color(border);
+    border-right: 1px solid border-color(border);
+  }
+  // [class*='styles__cellName___'] {
+  //   width: auto;
+  // }
+  .tasksTitle {
+    button {
+      display: none;
+    }
+  }
+  [class*='styles__active___'] {
+    .tasksTitle {
+      button {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.tasksAccTitle {
+  display: block;
+  > div {
+    display: flex;
+    justify-content: space-between;
+    h5 {
+      flex: 1 0 auto;
+    }
+    span {
+      flex: 0 0 40px;
+      text-align: right;
+      // svg {
+      //   transform: scale(2);
+      // }
+    }
+  }
+}
+
+.tasksTitle {
+  display: flex;
+  justify-content: space-between;
+  color: interaction-color(primary);
+}
+
+.taskSection {
+  padding: 10px 20px 20px;
+  background-color: bg-color(site);
+  border: 1px solid border-color(border);
+  margin-bottom: 20px;
+}
+
+.stripe {
+  border-left: 10px solid status-color(notification);
+  border-bottom: 1px solid border-color(border);
+}
+
+.selectionForm {
+  margin-bottom: 20px;
+}

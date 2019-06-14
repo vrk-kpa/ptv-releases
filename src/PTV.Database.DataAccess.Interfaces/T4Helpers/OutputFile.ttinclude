@@ -1,0 +1,21 @@
+<#@ include file="FileProperties.ttinclude"#>
+<#@ import namespace="System" #>
+<#+
+    public sealed class OutputFile
+    {
+        public OutputFile()
+        {
+            this.FileProperties = new FileProperties
+            {
+                CustomTool = String.Empty,
+                BuildAction = BuildAction.None
+            };
+        }
+
+        public string FileName { get; set; }
+        public string ProjectName { get; set; }
+        public string FolderName { get; set; }
+        public string Content { get; set; }
+        public FileProperties FileProperties { get; set; }
+    }
+#>
