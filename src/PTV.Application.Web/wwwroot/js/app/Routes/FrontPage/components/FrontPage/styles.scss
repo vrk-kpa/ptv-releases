@@ -1,0 +1,29 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.pageHeader {
+  background: none;
+  color: gray(dark);
+  margin: 30px 0 30px 0;
+  display: flex;
+  position: relative;
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 5px 0;
+    letter-spacing: -0.9px;
+  }
+}
+
+.pageHeaderInner {
+  flex: 1;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pageNavigationWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

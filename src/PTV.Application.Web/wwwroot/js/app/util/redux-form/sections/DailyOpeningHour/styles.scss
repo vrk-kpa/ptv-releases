@@ -1,0 +1,28 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.dailyOpeningHour {
+  display: flex;
+  @media #{bp('>desktop')} {
+    justify-content: center;
+  }
+}
+
+.dailyFrom, .dailyTo {
+  @include small-select();
+}
+
+.dailyTo {
+  margin-left: 20px;
+  position: relative;
+  &::before {
+    content: '-';
+    position: absolute;
+    left: -12px;
+    top: 3px;
+  }
+}
+
+.hoursConjunction {
+  text-align: center;
+}

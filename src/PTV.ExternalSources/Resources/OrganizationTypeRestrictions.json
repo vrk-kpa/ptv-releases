@@ -1,0 +1,168 @@
+﻿[
+  {
+    "TypeName": "GeneralDescriptionType",
+    "EntityColumnName": "GeneralDescriptionTypeId",
+    "EntityType": "StatutoryServiceGeneralDescriptionVersioned",
+    "FilterName": "GeneralDescriptionTypeOrganizationRelation",
+    "Code": "AlandIsland",
+    "Organizations": [
+      {
+        "Code": "org1",
+        "Names": [
+          {
+            "Name": "Brändö kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org2",
+        "Names": [
+          {
+            "Name": "Eckerö kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org3",
+        "Names": [
+          {
+            "Name": "Finströms kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org4",
+        "Names": [
+          {
+            "Name": "Föglö kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org5",
+        "Names": [
+          {
+            "Name": "Geta kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org6",
+        "Names": [
+          {
+            "Name": "Hammarlands kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org7",
+        "Names": [
+          {
+            "Name": "Jomala kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org8",
+        "Names": [
+          {
+            "Name": "Kumlinge kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org9",
+        "Names": [
+          {
+            "Name": "Kökar kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org10",
+        "Names": [
+          {
+            "Name": "Lemlands kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org11",
+        "Names": [
+          {
+            "Name": "Lumparland kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org12",
+        "Names": [
+          {
+            "Name": "Maarianhaminan kaupunki",
+            "Language": "fi"
+          },
+          {
+            "Name": "Mariehamns stad",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org13",
+        "Names": [
+          {
+            "Name": "Saltviks kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org14",
+        "Names": [
+          {
+            "Name": "Sottunga kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org15",
+        "Names": [
+          {
+            "Name": "Sunds kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org16",
+        "Names": [
+          {
+            "Name": "Vårdö kommun",
+            "Language": "sv"
+          }
+        ]
+      },
+      {
+        "Code": "org17",
+        "Names": [
+          {
+            "Name": "Ålands hälso- och sjukvård",
+            "Language": "sv"
+          }
+        ]
+      }
+    ]
+  }
+]   

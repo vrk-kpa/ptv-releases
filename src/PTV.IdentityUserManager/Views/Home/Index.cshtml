@@ -1,0 +1,63 @@
+﻿@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+@using PTV.Domain.Model.Enums.Security
+@using PTV.IdentityUserManager
+@using PTV.LocalAuthentication
+
+@inject SignInManager<StsUser> SignInManager
+@inject UserManager<StsUser> UserManager
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+
+@section scripts{
+    <link href="~/css/Index.css" rel="stylesheet" asp-file-version="true" />
+}
+
+@model List<PTV.Domain.Model.Models.VmUserOrganizationSts>
+
+<div class="welcome-page">
+    <div class="row page-header">
+        <div class="col-sm-10">
+            <h1>
+                Hello @UserManager.GetUserName(User)
+            </h1>
+            <h2>
+                <img class="icon" src="~/img/icon.png">
+                Welcome on PTV Authentication server
+            </h2>
+            <div class="user-list-body">
+                <div class="users">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Organization Root ID</th>
+                            <th>Organization Name</th>
+                            <th>Role</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @{
+                            var trRoles = new Dictionary<string, string>()
+                            {
+                                {UserRoleEnum.Eeva.ToString(), SharedLocalizer["sts_roleEeva"]},
+                                {UserRoleEnum.Pete.ToString(), SharedLocalizer["sts_rolePete"]},
+                                {UserRoleEnum.Shirley.ToString(), SharedLocalizer["sts_roleShirley"]}
+                            };
+                        }
+                        @foreach (var organization in Model)
+                        {
+                            <tr>
+                                <td>@organization.OrganizationId</td>
+                                <td>@organization.OrganizationName</td>
+                                @if (!string.IsNullOrEmpty(organization.Role))
+                                {
+                                    <td>@trRoles[organization.Role]</td>
+                                }
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

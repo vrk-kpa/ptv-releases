@@ -1,0 +1,182 @@
+﻿[
+  {
+    "Code": "Draft",
+    "PriorityFallback": 1,
+    "Names": [
+      {
+        "Name": "Luonnos",
+        "Language": "fi"
+      },
+      {
+        "Name": "Draft",
+        "Language": "en"
+      },
+      {
+        "Name": "Utkast",
+        "Language": "sv"
+      },
+      {
+        "Name": "Evttohus",
+        "Language": "se"
+      },
+      {
+        "Name": "Luándus",
+        "Language": "smn"
+      },
+      {
+        "Name": "Häämas",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Published",
+    "PriorityFallback": 0,
+    "Names": [
+      {
+        "Name": "Julkaistu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Published",
+        "Language": "en"
+      },
+      {
+        "Name": "Publicerad",
+        "Language": "sv"
+      },
+      {
+        "Name": "Almmustahtton",
+        "Language": "se"
+      },
+      {
+        "Name": "Almostittum",
+        "Language": "smn"
+      },
+      {
+        "Name": "Õlmstõttum",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Deleted",
+    "PriorityFallback": 4,
+    "Names": [
+      {
+        "Name": "Arkistoitu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Archived",
+        "Language": "en"
+      },
+      {
+        "Name": "Arkiveras",
+        "Language": "sv"
+      },
+      {
+        "Name": "Arkiverejuvvon",
+        "Language": "se"
+      },
+      {
+        "Name": "Arkkâdistum",
+        "Language": "smn"
+      },
+      {
+        "Name": "Arkivjum",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "OldPublished",
+    "PriorityFallback": 3,
+    "Names": [
+      {
+        "Name": "Arkistoitu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Archived",
+        "Language": "en"
+      },
+      {
+        "Name": "Arkiveras",
+        "Language": "sv"
+      },
+      {
+        "Name": "Arkiverejuvvon",
+        "Language": "se"
+      },
+      {
+        "Name": "Arkkâdistum",
+        "Language": "smn"
+      },
+      {
+        "Name": "Arkivjum",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Modified",
+    "PriorityFallback": 2,
+    "Names": [
+      {
+        "Name": "Muokattu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Modified",
+        "Language": "en"
+      },
+      {
+        "Name": "Redigerad",
+        "Language": "sv"
+      },
+      {
+        "Name": "Hábmejuvvon",
+        "Language": "se"
+      },
+      {
+        "Name": "Hämmejum",
+        "Language": "smn"
+      },
+      {
+        "Name": "Tivvum",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Removed",
+    "PriorityFallback": 999,
+    "Names": [
+      {
+        "Name": "Removed",
+        "Language": "fi"
+      },
+      {
+        "Name": "Removed",
+        "Language": "en"
+      },
+      {
+        "Name": "Removed",
+        "Language": "sv"
+      },
+      {
+        "Name": "Removed",
+        "Language": "se"
+      },
+      {
+        "Name": "Removed",
+        "Language": "smn"
+      },
+      {
+        "Name": "Removed",
+        "Language": "sms"
+      }
+    ]
+  }
+]

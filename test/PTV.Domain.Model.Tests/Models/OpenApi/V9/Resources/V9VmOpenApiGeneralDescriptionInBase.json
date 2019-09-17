@@ -1,0 +1,65 @@
+{
+  "names": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceClasses": [
+    "string"
+  ],
+  "ontologyTerms": [
+    "string"
+  ],
+  "targetGroups": [
+    "string"
+  ],
+  "lifeEvents": [
+    "string"
+  ],
+  "industrialClasses": [
+    "string"
+  ],
+  "requirements": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "type": "string",
+  "serviceChargeType": "string",
+  "legislation": [
+    {
+      "names": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "webPages": [
+        {
+          "url": "string",
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "generalDescriptionType": "string",
+  "publishingStatus": "string",
+  "deleteAllLifeEvents": true,
+  "deleteAllIndustrialClasses": true,
+  "deleteAllLaws": true,
+  "deleteServiceChargeType": true
+}

@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.weekday {
+
+}
+
+.openingItem {
+  > div {
+    margin-bottom: 10px;
+  }
+  label {
+    margin-bottom: 0;
+  }
+}

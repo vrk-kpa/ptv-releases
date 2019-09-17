@@ -1,0 +1,20 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.withNotificationIcon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.notificationIcon {
+  @include notification-icon();
+}
+
+.afterButton {
+  .notificationIcon {
+    margin-right: 20px;
+  }
+  button {
+    margin-right: 10px;
+  }
+}

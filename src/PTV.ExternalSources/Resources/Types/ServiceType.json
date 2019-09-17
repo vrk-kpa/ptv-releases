@@ -1,0 +1,89 @@
+﻿[
+  {
+    "Code": "Service",
+    "Names": [
+      {
+        "Name": "Palvelu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Service",
+        "Language": "en"
+      },
+      {
+        "Name": "Tjänst",
+        "Language": "sv"
+      },
+      {
+        "Name": "Bálvalus",
+        "Language": "se"
+      },
+      {
+        "Name": "Palvâlus",
+        "Language": "smn"
+      },
+      {
+        "Name": "Kääzzkõs",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "PermissionAndObligation",
+    "Names": [
+      {
+        "Name": "Lupa tai muu velvoite",
+        "Language": "fi"
+      },
+      {
+        "Name": "Permit or other obligation",
+        "Language": "en"
+      },
+      {
+        "Name": "Tillstånd eller annan skyldighet",
+        "Language": "sv"
+      },
+      {
+        "Name": "Lohpi dahje eará geatnegasvuohta",
+        "Language": "se"
+      },
+      {
+        "Name": "Lope tâi eres kenigâsvuotâ",
+        "Language": "smn"
+      },
+      {
+        "Name": "Lååʹpp leʹbe jeeʹres õõlǥtõs",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "ProfessionalQualifications",
+    "Names": [
+      {
+        "Name": "Ammattipätevyys",
+        "Language": "fi"
+      },
+      {
+        "Name": "Professional qualification",
+        "Language": "en"
+      },
+      {
+        "Name": "Yrkeskvalifikation",
+        "Language": "sv"
+      },
+      {
+        "Name": "Fágačehppodat",
+        "Language": "se"
+      },
+      {
+        "Name": "Áámmátkiälbulâšvuotâ",
+        "Language": "smn"
+      },
+      {
+        "Name": "Ämmatpâʹsttemvuõtt",
+        "Language": "sms"
+      }
+    ]
+  }
+]

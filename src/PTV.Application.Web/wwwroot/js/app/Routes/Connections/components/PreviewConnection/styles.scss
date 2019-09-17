@@ -1,0 +1,51 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.mainEntityWrap {
+  position: relative;
+  border: 1px solid border-color(border);
+  border-top: none;
+  padding: 10px 20px;
+  &::after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+}
+
+.mainEntitySelection {
+  position: relative;
+  z-index: 1;
+}
+
+.mainEntity {
+  width: 100%;
+}
+
+.indented {
+  .mainEntitySelection {
+    width: 50px;
+    float: left;
+  }
+  .mainEntity {
+    width: calc(100% - 50px);
+    float: left;
+  }
+}
+
+.disabledSelection {
+  .mainEntity {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(#FFFFFF, 0.8);
+    }
+  }
+}
+
+.previewRow{
+  margin: 5px 0;
+}

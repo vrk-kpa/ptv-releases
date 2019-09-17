@@ -1,0 +1,15 @@
+<layer>
+  <name>locationCoordinateWGS84</name>
+  <id>LayerInfoImpl-2a93c3d8:16a0c32dae6:-6a63</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--ptv--point--default</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2a93c3d8:16a0c32dae6:-6a64</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

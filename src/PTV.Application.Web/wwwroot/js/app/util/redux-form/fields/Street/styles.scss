@@ -1,0 +1,133 @@
+/**
+* The MIT License
+* Copyright (c) 2016 Population Register Centre (VRK)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.streetWrapper {
+  position: relative;
+  .streetField {
+    .streetInput {
+      input {
+        width: 100%;
+        border-radius: 2px;
+        font-size: 16px;
+        padding: 6px 40px 6px 10px;
+      }
+    }
+  }
+
+  .streetCross, .spinner, .searchIcon {
+    position: absolute;
+    right: 12px;
+    top: 50px;
+    margin: 0;
+  }
+
+  .searchIcon {
+    top: 50px;
+  }
+
+  .streetMenu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: $white;
+    width: 100%;
+
+    @media #{bp('>=desktop')} {
+      width: 450px;
+    }
+  }
+
+  .option, .optionHeading {
+    margin: 0 10px;
+  }
+
+  .optionHeading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    span {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+  }
+
+  .option {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .focused {
+    font-weight: 600;
+  }
+
+  .street {
+    color: interaction-color(primary);
+  }
+
+  @media #{bp('<mobile')} {
+    .optionHeading {
+      display: none;
+    }
+    .option {
+      border: 1px solid border-color(border);
+      border-radius: 2px;
+      padding: 0 5px;
+
+      ~ .option {
+        margin-top: 5px;
+      }
+    }
+  }
+  &.isOpen {
+    .streetField {
+      .streetInput {
+        input {
+          box-shadow: none;
+          margin-top: -1px;
+          margin-left: -1px;
+          border: 2px solid interaction-color(primary);
+          border-bottom: none;
+          color: interaction-color(primary);
+          z-index: 1001;
+        }
+      }
+    }
+    .streetCross, .spinner, .searchIcon {
+      z-index: 1001;
+      top: 50px;
+    }
+    .searchIcon {
+      top: 50px;
+    }
+    .streetMenu {
+      position: absolute;
+      z-index: 1000;
+      border: 2px solid interaction-color(primary);
+      margin-left: -1px;
+      top: 77px;
+      box-shadow: none;
+      max-height: 196px;
+    }
+  }
+}

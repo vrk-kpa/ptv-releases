@@ -1,0 +1,58 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.header {
+  display: none;
+  // display: flex;
+  // border: 1px solid border-color(border);
+}
+
+.headerCell {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: bg-color(site);
+  &:first-child {
+    padding-left: 15px;
+  }
+}
+
+.bodyRow {
+  border: 1px solid border-color(border);
+  // display: flex;
+  // flex-wrap: wrap;
+  // align-items: center;
+  // border-top: none;
+  > * {
+    // max-width: none;
+    padding: 15px 10px;
+    &:first-child {
+      padding-left: 15px;
+    }
+  }
+  ~ .bodyRow {
+    margin-top: 10px;
+  }
+  &:nth-child(even) {
+    background-color: bg-color(light);
+  }
+}
+
+// .desktop {
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    border: 1px solid border-color(border);
+  }
+  .bodyRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: none;
+    ~ .bodyRow {
+      margin-top: 0;
+    }
+    &:nth-child(even) {
+      background-color: transparent;
+    }
+  }
+}

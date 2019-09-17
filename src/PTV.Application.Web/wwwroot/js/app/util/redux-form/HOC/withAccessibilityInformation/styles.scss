@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.accessibility {
+  // padding-bottom: 20px;
+}
+
+.accessibility {
+  [class*='styles__containerWrap___'] {
+    margin: 0;
+  }
+  [class*='styles__containerBody___'] {
+    padding: 0;
+  }
+  [class*='styles__groupBody___'] {
+    padding: 20px;
+    border: 1px solid border-color(border);
+  }
+}

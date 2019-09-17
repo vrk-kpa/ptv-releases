@@ -1,0 +1,165 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+/* STiCKY FOOTER via FLEXBOX */
+html, body {
+  height: 100%;
+}
+
+:global {
+  #page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    > div {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
+    }
+  }
+}
+
+.pageWrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+// .pageBody {
+//   flex: 1 0 auto;
+// }
+
+.content {
+  flex: 1 0 auto;
+}
+
+.contentPreloader {
+  margin-top: 20px;
+}
+
+.isInReview {
+  .pageBody {
+    // position: relative;
+    // max-height: calc(100vh - 250px);
+    // overflow-y: scroll;
+    // overflow-x: hidden;
+  }
+  // > header {
+  //   box-shadow: none;
+  //   border-bottom: 1px solid border-color(border);
+  // }
+}
+
+.environmentLabel {
+  font-size: 14px;
+  background-color: secondary-color(lakka);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  margin: 0 auto;
+  padding: 3px 30px;
+  transform: translateX(-50%)
+}
+
+.logo {
+  cursor: pointer;
+  display: inline-flex;
+  .logoSymbol {
+    flex: 0 0 32px;
+  }
+  .logoText {
+    margin-left: 10px;
+  }
+}
+
+.logOut {
+  text-align: left;
+  color: text-color(secondary);
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-size: 14px;
+  &:hover {
+    color: text-color(primary);
+    .logOutIcon {
+      fill: icon-color(accent);
+    }
+  }
+}
+
+.logOutIcon {
+  fill: text-color(secondary);
+  margin-right: 5px;
+}
+
+.developmentInfo {
+  margin-top: 20px;
+  > * {
+    ~ * {
+      &::before {
+        content: "|";
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+.isProd {
+  display: none;
+}
+
+// temporary hidden login button
+.notLoggedIn {
+  button {
+    display: none;
+  }
+}
+
+.isLoading {
+  header, footer {
+    :global {
+      .container {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+.menuLink {
+  position: relative;
+  display: block;
+  color: text-color(primary);
+  margin: 5px 0;
+  &:hover {
+    text-decoration: none;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: -10px;
+      width: 5px;
+      height: 20px;
+      background-color: interaction-color(primary);
+    }
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.menuUser, .menuOrganization {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menuUser {
+  font-weight: 600;
+}
+
+.menuOrganization {
+  color: text-color(secondary);
+}
