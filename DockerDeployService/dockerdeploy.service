@@ -1,0 +1,13 @@
+[Unit]
+Description=PTV docker deploying service
+
+[Service]
+WorkingDirectory=/home/ptvuser/DockerDeploy
+ExecStart=/usr/share/dotnet/dotnet DockerDeployService.dll 5223
+Restart=always
+RestartSec=30
+SyslogIdentifier=dotnet-ptv-dockerdeployer
+User=root
+
+[Install]
+WantedBy=multi-user.target

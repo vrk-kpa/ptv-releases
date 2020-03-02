@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+		targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+		xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		attributeFormDefault="unqualified"
+		elementFormDefault="qualified"
+		version="1.0">
+	
+	<xsd:include schemaLocation="https://wfs.palvelutietovaranto.qa.suomi.fi/geoserver/www/schemas/ptv/languageNameType.xsd" />
+	<xsd:element name="serviceName" type="ptv:LanguageNameType" />	
+
+</xsd:schema>

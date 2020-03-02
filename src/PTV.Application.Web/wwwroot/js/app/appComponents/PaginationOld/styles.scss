@@ -1,0 +1,64 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+// Styles copied from https://github.com/AdeleD/react-paginate,
+// since the built-in LESS stylesheet did not work.
+
+.pagination {
+
+  &>li {
+    display: inline-block;
+
+    // &:first-child {
+    //   &>a, &>span {
+    //     margin-left: 0;
+    //     border-top-left-radius: 4px;
+    //     border-bottom-left-radius: 4px;
+    //   }
+    // }
+
+    // &:last-child {
+    //   &>a, &>span {
+    //     border-top-right-radius: 4px;
+    //     border-bottom-right-radius: 4px;
+    //   }
+    // }
+
+    &>a, &>span {
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: interaction-color(primary);
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid interaction-color(disabled);
+    }
+  }
+
+  &>.active{
+    &>a{
+      z-index: 3;
+      color: #fff;
+      cursor: default;
+      background-color: interaction-color(primary);
+      border-color: interaction-color(primary);
+    }
+  }
+
+  &>.disabled{
+    &>a{
+      color: interaction-color(disabled);
+      cursor: not-allowed;
+      background-color: #fff;
+      border-color: interaction-color(disabled);
+    }
+    span {
+      cursor: not-allowed;
+    }
+    svg {
+      fill: interaction-color(disabled);
+    }
+  }
+}

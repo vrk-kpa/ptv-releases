@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+// .validityTypes {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+.validityType {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  &.validityType label {
+    margin-bottom: 0;
+  }
+}
+
+.notInCompareMode {
+  label {
+    margin-bottom: 0;
+  }
+}

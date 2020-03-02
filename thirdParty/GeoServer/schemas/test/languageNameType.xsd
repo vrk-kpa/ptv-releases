@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	version="1.0">
+
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+	
+	<xsd:complexType name="LanguageNameType">
+		<xsd:complexContent>
+			<xsd:extension base = "gml:AbstractGMLType">
+				<xsd:sequence>
+					<xsd:element name="name" type="ptv:LanguagePropertyType" minOccurs="1" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="LanguagePropertyType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute type="xsd:string" name="languageCode"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+</xsd:schema>

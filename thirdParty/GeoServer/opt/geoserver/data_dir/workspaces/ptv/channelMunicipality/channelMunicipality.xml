@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}channelMunicipality.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>lc_AddressMunicipalityGroup</sourceType>
+			<targetElement>ptv:channelMunicipality</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:channelMunicipality</targetAttribute>-->
+<!--					<idExpression>-->
+<!--						<OCQL>strConCat(RootId , strConCat('/', MunicipalityId))</OCQL>-->
+<!--					</idExpression>-->
+<!--				</AttributeMapping>-->
+				
+				<!-- id -->
+				<!--<AttributeMapping>
+					<targetAttribute>ptv:channelMunicipality</targetAttribute>
+					<idExpression>
+						<OCQL>MunicipalityId</OCQL>
+					</idExpression>
+				</AttributeMapping>-->
+
+				<AttributeMapping>
+					<targetAttribute>ptv:channelMunicipality</targetAttribute>
+					<idExpression>
+						<OCQL>RootId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+				
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:municipalityId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>MunicipalityId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>-->
+				
+				<AttributeMapping>
+					<targetAttribute>ptv:code</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityCode</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+						
+				<!-- municipality names -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalityNames</targetAttribute>
+					<sourceExpression>					  
+						<OCQL>MunicipalityId</OCQL>						  
+						<linkElement>ptv:municipalityName</linkElement>						  
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+					<isMultiple>true</isMultiple>
+				</AttributeMapping>
+				
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

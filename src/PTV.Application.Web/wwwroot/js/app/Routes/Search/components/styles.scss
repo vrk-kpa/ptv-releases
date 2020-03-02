@@ -1,0 +1,230 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.customContentWrap {
+  flex: 1 1 auto;
+  border-left: 1px solid border-color(border);
+}
+
+.noSeparator {
+  border-left: none;
+}
+
+.phoneWithDial {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.dialCodeWrap {
+  flex: 0 0 100px;
+}
+
+.searchAddressPostalCode, .dialCode, .searchAddress {
+  :global {
+    .Select-control {
+      height: 46px;
+    }
+    .Select-placeholder, .Select--single > .Select-control .Select-value {
+      padding: 14px 10px;
+    }
+  }
+}
+
+.searchAddressPostalCode {
+  :global {
+    .is-focused {
+      .Select-input {
+        padding-top: 7px;
+      }
+    }
+    .Select-control {
+      height: 50px;
+    }
+    .is-open {
+      .Select-control {
+        border-bottom: none;
+        box-shadow: none;
+        z-index: 1001;
+      }
+    }
+    .Select-menu-outer {
+      width: 240px;
+      // top: calc(100% - 1px);
+      border-top: 1px solid border-color(border);
+    }
+  }
+}
+
+.dialCode, .searchAddress {
+  :global {
+    .Select-control {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      background: #FFF;
+    }
+  }
+}
+
+.dialCode {
+  :global {
+    .Select-control {
+      border-left: 1px solid border-color(border);
+      border-right: 1px solid border-color(border);
+    }
+    .is-clearable.has-value.Select--single > .Select-control .Select-value,
+    .is-clearable.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value {
+      right: 35px;
+    }
+    .has-value.Select--single > .Select-control .Select-value .Select-value-label,
+    .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+      overflow: visible;
+      text-overflow: inherit;
+    }
+    .Select-clear-zone {
+      display: none;
+    }
+    .Select-menu-outer {
+      width: 240px;
+      top: calc(100% + 2px)
+    }
+    .is-focused {
+      .Select-input {
+        padding-top: 7px;
+      }
+    }
+  }
+}
+
+.searchAddress {
+  :global {
+    .Select-arrow-zone {
+      top: 16px;
+    }
+    .Select-clear-zone {
+      top: 11px;
+    }
+    .Select-control {
+      border-left: 1px solid border-color(border);
+    }
+    .is-focused {
+      .Select-control {
+        border: none;
+        border-left: 1px solid border-color(border);
+      }
+      .Select-input {
+        padding-top: 10px;
+      }
+      .Select-menu-outer {
+        left: 0;
+        width: calc(100% + 120px);
+        margin-top: 1px;
+        border: 1px solid border-color(border);
+        border-top: none;
+      }
+      .Select-arrow-zone {
+        top: 16px;
+        right: 0;
+      }
+      .Select-loading-zone {
+        top: 12px;
+      }
+      .Select-clear-zone {
+        top: 11px;
+        right: 25px;
+      }
+    }
+  }
+
+  .streetInput {
+    border-left: 1px solid border-color(border);
+
+    input {
+      height: 46px;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  [class*='styles__isOpen___'] [class*='styles__streetField___'] {
+    margin-right: -4px;
+
+    .streetInput {
+      input {
+        box-shadow: none;
+        margin-top: -1px;
+        margin-left: -2px;
+        border: 2px solid interaction-color(primary);
+        border-bottom: none;
+        color: interaction-color(primary);
+        z-index: 1001;
+      }
+    }
+  }
+
+  [class*='styles__isOpen___'] [class*='styles__streetMenu___'] {
+    top: 43px;
+    margin-left: -1px;
+    width: calc(100% + 3px);
+    @media #{bp('>=desktop')} {
+      width: 450px;
+    }
+  }
+
+  .streetCross, [class*='styles__spinner___'], [class*='styles__searchIcon___'] {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+  }
+
+  [class*='styles__isOpen___'] {
+    .streetCross, [class*='styles__spinner___'], [class*='styles__searchIcon___'] {
+      z-index: 1001;
+      top: 14px;
+    }
+  }
+
+  [class*='styles__searchIcon___'] {
+    top: 16px;
+  }
+  [class*='styles__isOpen___'] [class*='styles__searchIcon___'] {
+    top: 16px;
+  }
+}
+
+.searchAddressPropertyNumber {
+  [class*='styles__singleLine___'] {
+    height: 50px;
+  }
+}
+
+.localNumber, .myContent {
+  display: flex;
+  align-items: center;
+  .searchRowCheckbox {
+    margin-bottom: 0;
+  }
+}
+
+@media #{bp('>=desktop')} {
+  .flexEndLg {
+    justify-content: flex-end;
+  }
+}
+
+@media #{bp('>=desktop-large')} {
+  .flexEndXl {
+    justify-content: flex-end;
+  }
+}
+
+@media #{bp('<tablet')} {
+  .searchAddress {
+    :global {
+      .is-focused {
+        .Select-menu-outer {
+          width: calc(100% + 2px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "businessId": null,
+    "name": "Savonrannan Vapaa Palokunta ry",
+    "organizationType": "Yritys"
+  },
+  {
+    "businessId": null,
+    "name": "Savonlinnan Vapaaehtoinen Palokunta ry",
+    "organizationType": "Yritys"
+  },
+  {
+    "businessId": null,
+    "name": "Punkaharjun Vapaaehtoinen Palokunta ry",
+    "organizationType": "Yritys"
+  },
+  {
+    "businessId": null,
+    "name": "Mikkelin Vapaaehtoinen palokunta ry",
+    "organizationType": "Yritys"
+  },
+  {
+    "businessId": null,
+    "name": "Mikkelin Esikaupungin Vapaaehtoinen Palokunta ry",
+    "organizationType": "Yritys"
+  },
+  {
+    "businessId": null,
+    "name": "Miekkoniemen Vapaaehtoinen Palokunta ry",
+    "organizationType": "Yritys"
+  }
+]

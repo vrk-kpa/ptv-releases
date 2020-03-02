@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified"
+	version="1.0">
+	
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/geometryAggregates.xsd"/>
+
+	<xsd:include schemaLocation="https://wfs.palvelutietovaranto.trn.suomi.fi/geoserver/www/schemas/ptv/channelServiceNameLan.xsd" />
+	<xsd:include schemaLocation="https://wfs.palvelutietovaranto.trn.suomi.fi/geoserver/www/schemas/ptv/channelMunicipalityNameLan.xsd" />	
+
+	<xsd:element name="serviceLocationLan" type="ptv:ServiceLocationLanType" substitutionGroup="gml:AbstractFeature" />
+
+	<xsd:complexType name="ServiceLocationLanType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="versionedId" type="xsd:string"/>
+					<xsd:element name="rootId" type="xsd:string"/>
+					<xsd:element name="organizationId" type="xsd:string"/>
+					<xsd:element name="currentlyOpen" type="xsd:string" />
+					<xsd:element name="name_FI" type="xsd:string" />
+					<xsd:element name="name_SV" type="xsd:string" />
+					<xsd:element name="name_EN" type="xsd:string" />
+					<xsd:element name="organizationName_FI" type="xsd:string" />
+					<xsd:element name="organizationName_SV" type="xsd:string" />
+					<xsd:element name="organizationName_EN" type="xsd:string" />
+					<xsd:element name="services" type="ptv:ChannelServiceNameLanType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="municipalities" type="ptv:ChannelMunicipalityNameLanType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="location3067" type="gml:MultiGeometryPropertyType" minOccurs="1" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+</xsd:schema>

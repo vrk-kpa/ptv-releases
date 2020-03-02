@@ -1,0 +1,188 @@
+﻿[
+  {
+    "code": "Description",
+    "names": [
+      {
+        "Name": "Kuvaus",
+        "language": "fi"
+      },
+      {
+        "Name": "Description",
+        "language": "en"
+      },
+      {
+        "Name": "Beskrivning",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ShortDescription",
+    "names": [
+        {
+            "Name": "Tiivistelmä",
+            "language": "fi"
+        },
+        {
+            "Name": "Summary",
+            "language": "en"
+        },
+      {
+        "Name": "Sammanfattning",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ServiceUserInstruction",
+    "names": [
+      {
+        "Name": "Toimintaohjeet",
+        "language": "fi"
+      },
+        {
+            "Name": "User instructions",
+            "language": "en"
+        },
+      {
+        "Name": "Handlingsinstruktioner",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ChargeTypeAdditionalInfo",
+    "names": [
+      {
+        "Name": "Maksullisuuden lisätieto",
+        "language": "fi"
+      },
+        {
+            "Name": "Additional information on fees",
+            "language": "en"
+        },
+      {
+        "Name": "Ytterligare information om avgifter",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ServiceTypeAdditionalInfo",
+    "names": [
+      {
+        "Name": "Velvoitteet",
+        "language": "fi"
+      },
+      {
+        "Name": "Service type",
+        "language": "en"
+      },
+      {
+        "Name": "Skyldigheter",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "DeadLineAdditionalInfo",
+    "names": [
+      {
+        "Name": "Määräaika",
+        "language": "fi"
+      },
+        {
+            "Name": "Deadline",
+            "language": "en"
+        },
+      {
+        "Name": "Utsatt tid",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ProcessingTimeAdditionalInfo",
+    "names": [
+      {
+        "Name": "Käsittelyaika",
+        "language": "fi"
+      },
+      {
+        "Name": "Processing time",
+        "language": "en"
+      },
+      {
+        "Name": "Handläggningstid",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "ValidityTimeAdditionalInfo",
+    "names": [
+      {
+        "Name": "Voimassaoloaika",
+        "language": "fi"
+      },
+        {
+            "Name": "Period of validity",
+            "language": "en"
+        },
+      {
+        "Name": "Giltighetstid",
+        "language": "sv"
+      }
+    ]
+
+
+  },
+  {
+    "code": "BackgroundDescription",
+    "names": [
+      {
+        "Name": "Taustakuvaus",
+        "language": "fi"
+      },
+      {
+        "Name": "Background description",
+        "language": "en"
+      },
+      {
+        "Name": "Bakgrundbeskrivning",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "GeneralDescriptionTypeAdditionalInformation",
+    "names": [
+      {
+        "Name": "Pohjakuvauksen käyttöohje",
+        "language": "fi"
+      },
+      {
+        "Name": "General description type additional information",
+        "language": "en"
+      },
+      {
+        "Name": "General description type additional information",
+        "language": "sv"
+      }
+    ]
+  }
+]

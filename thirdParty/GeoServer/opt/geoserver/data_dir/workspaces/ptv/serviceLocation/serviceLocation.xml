@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+-			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}serviceLocation.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>lc_LocationChannel</sourceType>
+			<targetElement>ptv:serviceLocation</targetElement>
+			<isDenormalised>false</isDenormalised>
+			<attributeMappings>
+			
+				<!-- id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:serviceLocation3</targetAttribute>-->
+<!--					<idExpression><OCQL>VersionedId</OCQL></idExpression>-->
+<!--				</AttributeMapping>-->
+				
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:serviceLocation</targetAttribute>
+					<idExpression><OCQL>RootId</OCQL></idExpression>
+				</AttributeMapping>
+				
+				<!-- unific root id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:rootId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>RootId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- versioned id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:versionedId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>VersionedId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- currently open -->
+				<AttributeMapping>
+					<targetAttribute>ptv:currentlyOpen</targetAttribute>
+					<sourceExpression>
+						<OCQL>CurrentlyOpen</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel names -->
+				<AttributeMapping>
+					<targetAttribute>ptv:channelNames</targetAttribute>
+					<sourceExpression>
+						<OCQL>VersionedId</OCQL>
+						<linkElement>ptv:channelName</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>	
+				
+				<!-- organization names -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organizationNames</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationId</OCQL>
+						<linkElement>ptv:organizationName</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- services  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:services</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:channelService</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+<!--					<isMultiple>true</isMultiple>-->
+				</AttributeMapping>
+
+				<!-- municipalities  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalities</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:channelMunicipality</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+				
+				<!-- location -->
+				<AttributeMapping>
+					<targetAttribute>ptv:location3067</targetAttribute>
+					<sourceExpression>
+						<OCQL>Location3067</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

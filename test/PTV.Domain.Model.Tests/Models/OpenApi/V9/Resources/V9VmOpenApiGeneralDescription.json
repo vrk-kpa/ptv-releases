@@ -1,0 +1,160 @@
+{
+  "id": "string",
+  "names": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "description": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "ontologyTerms": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "targetGroups": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "lifeEvents": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "industrialClasses": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ],
+  "requirements": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "type": "string",
+  "serviceChargeType": "string",
+  "legislation": [
+    {
+      "names": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "webPages": [
+        {
+          "url": "string",
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "generalDescriptionType": "string",
+  "publishingStatus": "string",
+  "modified": "2018-09-11T06:19:49.658Z",
+  "serviceChannels": [
+    {
+      "serviceChannel": {
+        "id": "string",
+        "name": "string"
+      },
+      "serviceChargeType": "string",
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "digitalAuthorizations": [
+        {
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "code": "string",
+          "ontologyType": "string",
+          "uri": "string",
+          "parentId": "string",
+          "parentUri": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.email {
+  a {
+    color: interaction-color(primary);
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

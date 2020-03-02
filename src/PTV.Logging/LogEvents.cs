@@ -1,0 +1,55 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2020 Finnish Digital Agency (DVV)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+using Microsoft.Extensions.Logging;
+
+namespace PTV.Logging
+{
+    /// <summary>
+    /// Contains PTV shared known log events.
+    /// </summary>
+    public static class LogEvents
+    {
+        // on purpose using the new to return always a new instance
+        // value type creates always a copy, same pattern used by system.drawing.color for known color structs
+
+        /// <summary>
+        /// Default PTV event.
+        /// </summary>
+        public static EventId Default => new EventId(2000, "Default");
+
+        /// <summary>
+        /// Login event.
+        /// </summary>
+        public static EventId Login => new EventId(3101, "Login");
+
+        /// <summary>
+        /// Logout event.
+        /// </summary>
+        public static EventId Logout => new EventId(3102, "Logout");
+
+        /// <summary>
+        /// Failed login event.
+        /// </summary>
+        public static EventId FailedLogin => new EventId(3103, "FailedLogin");
+    }
+}

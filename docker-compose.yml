@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  ptv.application.web:
+    image: ptv.application.web
+    build:
+      context: ./src/PTV.Application.Web
+      dockerfile: Dockerfile
+
+  ptv.application.openapi:
+    image: ptv.application.openapi
+    build:
+      context: ./src/PTV.Application.OpenApi
+      dockerfile: Dockerfile
+
+  ptv.application.api:
+    image: ptv.application.api
+    build:
+      context: ./src/PTV.Application.Api
+      dockerfile: Dockerfile
