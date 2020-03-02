@@ -1,0 +1,46 @@
+@import '../../Components/styles/variables';
+@import '../../styles/_mixins.scss';
+
+.listWrap {
+  padding: 10px 40px 10px 20px;
+  background-color: bg-color(site);
+  position: relative;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.error {
+  border-left: 3px solid secondary-color(marjapuuro);
+  .title {
+    color: secondary-color(marjapuuro);
+  }
+}
+
+.title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.item {
+  padding-left: 15px;
+  margin-left: 5px;
+  position: relative;
+  &::before {
+    @include pseudo-bullet();
+  }
+}
+
+.itemTitle {
+  margin-right: 5px;
+  &::after {
+    content: ':';
+  }
+}
+
+.itemLink {
+  text-align: left;
+}

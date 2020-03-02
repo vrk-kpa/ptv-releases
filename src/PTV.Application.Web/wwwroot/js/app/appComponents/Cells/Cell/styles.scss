@@ -1,0 +1,35 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$widths: (30, 40, 60, 80, 90, 100, 120, 130, 140, 150, 160, 180, 200, 220, 240, 260, 280, 300, 320, 350, 420);
+
+.cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  > * ~ * {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cell {
+    @each $w in $widths {
+      &.dw#{$w} {
+        width: #{$w}px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .cell {
+    @each $w in $widths {
+      &.ldw#{$w} {
+        width: #{$w}px;
+      }
+    }
+  }
+}

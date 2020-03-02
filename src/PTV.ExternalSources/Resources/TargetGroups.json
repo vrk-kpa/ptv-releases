@@ -1,0 +1,23 @@
+﻿[
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:K3",
+        "label": "Viranomaiset",
+        "finnish": "Viranomaiset",
+        "ontologyType": "TARGETGROUP",
+        "notation": "K3"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:K1",
+        "label": "Kansalaiset",
+        "finnish": "Kansalaiset",
+        "ontologyType": "TARGETGROUP",
+        "notation": "K1"
+    },
+    {
+        "id": "http://urn.fi/URN:NBN:fi:au:ptvl:K2",
+        "label": "Yritykset",
+        "finnish": "Yritykset",
+        "ontologyType": "TARGETGROUP",
+        "notation": "K2"
+    }
+]

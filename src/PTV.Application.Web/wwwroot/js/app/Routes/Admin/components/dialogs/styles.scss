@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.log {
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.copyLink {
+  margin-bottom: 10px;
+}

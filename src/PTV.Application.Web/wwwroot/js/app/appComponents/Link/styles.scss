@@ -1,0 +1,15 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.message {
+  font-size: 15px;
+  color: text-color(secondary);
+}
+
+.link {
+  word-break: break-all;
+  display: inline-flex;
+  align-items: center;
+  span {
+    margin-left: 10px;
+  }
+}

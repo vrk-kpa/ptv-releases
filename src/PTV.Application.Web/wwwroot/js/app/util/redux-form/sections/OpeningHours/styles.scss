@@ -1,0 +1,16 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.openingHours {
+  [class*='styles__containerBody'] {
+    margin: 0 0 0 -31px;
+  }
+  &.noPreview {
+    [class*='styles__containerBody'], [class*='styles__containerHead'] {
+      margin: 0;
+    }
+  }
+}
+
+.wrap {
+  line-height: 30px;
+}

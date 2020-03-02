@@ -1,0 +1,12 @@
+{
+  "provisionType": "string",
+  "organizations": [
+    "string"
+  ],
+  "additionalInformation": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ]
+}

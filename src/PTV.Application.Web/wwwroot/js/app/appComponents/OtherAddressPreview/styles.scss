@@ -1,0 +1,12 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.inline {
+  display: flex;
+  > * ~ * {
+    margin-left: 5px;
+  }
+}
+
+.subTitle {
+  margin-left: 5px;
+}

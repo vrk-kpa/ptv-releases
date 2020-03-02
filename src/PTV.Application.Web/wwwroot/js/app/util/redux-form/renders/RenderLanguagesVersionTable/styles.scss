@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.languageCode {
+  text-transform: uppercase;
+  &::after {
+    content: '-';
+  }
+}
+
+.languageName {
+  text-transform: capitalize;
+}
+
+.copyCheckbox {
+  label {
+    margin: 0;
+  }
+}

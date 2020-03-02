@@ -1,0 +1,54 @@
+<global>
+  <settings>
+    <id>ptv_global_settings</id>
+    <contact>
+      <addressType></addressType>
+      <contactEmail>ptv-tuki@vrk.fi; suomi.fi-asiakaspalvelu@vrk.fi</contactEmail>
+      <contactOrganization>Digi- ja väestötietovirasto</contactOrganization>
+      <contactPerson>PTV-tuki</contactPerson>
+      <contactPosition>Asiakaspalvelu</contactPosition>
+      <contactVoice>+358 295 535 001</contactVoice>
+    </contact>
+    <charset>UTF-8</charset>
+    <numDecimals>4</numDecimals>
+    <verbose>true</verbose>
+    <verboseExceptions>true</verboseExceptions>
+    <metadata>
+      <map>
+        <entry>
+          <string>quietOnNotFound</string>
+          <boolean>true</boolean>
+        </entry>
+      </map>
+    </metadata>
+    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  </settings>
+  <jai>
+    <allowInterpolation>false</allowInterpolation>
+    <recycling>false</recycling>
+    <tilePriority>5</tilePriority>
+    <tileThreads>7</tileThreads>
+    <memoryCapacity>0.5</memoryCapacity>
+    <memoryThreshold>0.75</memoryThreshold>
+    <imageIOCache>false</imageIOCache>
+    <pngAcceleration>false</pngAcceleration>
+    <jpegAcceleration>false</jpegAcceleration>
+    <allowNativeMosaic>false</allowNativeMosaic>
+    <allowNativeWarp>false</allowNativeWarp>
+    <pngEncoderType>PNGJ</pngEncoderType>
+  </jai>
+  <coverageAccess>
+    <maxPoolSize>5</maxPoolSize>
+    <corePoolSize>5</corePoolSize>
+    <keepAliveTime>30000</keepAliveTime>
+    <queueType>UNBOUNDED</queueType>
+    <imageIOCacheThreshold>10240</imageIOCacheThreshold>
+  </coverageAccess>
+  <updateSequence>1</updateSequence>
+  <featureTypeCacheSize>0</featureTypeCacheSize>
+  <globalServices>true</globalServices>
+  <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>
+  <xmlExternalEntitiesEnabled>false</xmlExternalEntitiesEnabled>
+  <webUIMode>DEFAULT</webUIMode>
+  <resourceErrorHandling>OGC_EXCEPTION_REPORT</resourceErrorHandling>
+</global>

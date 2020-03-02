@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PTV.AppSettings.Encrypter": {
+      "commandName": "Project",
+      "commandLineArgs": "test.csv enc.test key"
+    }
+  }
+}

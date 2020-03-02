@@ -1,0 +1,9 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.editorDisplay {
+  :global {
+    .DraftEditor-editorContainer,.DraftEditor-root,.public-DraftEditor-content {
+      min-height: auto;
+    }
+  }
+}

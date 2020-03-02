@@ -1,0 +1,15 @@
+<layer>
+  <name>openingTimes</name>
+  <id>LayerInfoImpl-7f080426:163ced31b30:7a85</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7f080426:163ced31b30:7a84</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

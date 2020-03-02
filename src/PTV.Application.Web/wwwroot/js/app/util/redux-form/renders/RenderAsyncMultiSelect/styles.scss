@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.autosizeOff {
+  :global {
+    @include autosize-off();
+  }
+}
+
+.multiFix {
+  :global {
+    @include multi-fix();
+  }
+}

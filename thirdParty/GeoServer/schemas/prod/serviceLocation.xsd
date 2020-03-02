@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified"
+	version="1.0">
+	
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/geometryAggregates.xsd"/>
+
+	<xsd:include schemaLocation="https://ws.palvelutietovaranto.suomi.fi/geoserver/www/schemas/ptv/languageNameType.xsd" />
+	<xsd:include schemaLocation="https://ws.palvelutietovaranto.suomi.fi/geoserver/www/schemas/ptv/channelService.xsd" />
+	<xsd:include schemaLocation="https://ws.palvelutietovaranto.suomi.fi/geoserver/www/schemas/ptv/channelMunicipality.xsd" />
+	
+	<xsd:element name="serviceLocation" type="ptv:ServiceLocationType" substitutionGroup="gml:AbstractFeature" />
+
+	<xsd:complexType name="ServiceLocationType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="versionedId" type="xsd:string"/>
+					<xsd:element name="rootId" type="xsd:string"/>
+					<xsd:element name="organizationId" type="xsd:string"/>
+					<xsd:element name="currentlyOpen" type="xsd:string" />
+					<xsd:element name="channelNames" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="organizationNames" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="services" type="ptv:ChannelServiceType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="municipalities" type="ptv:ChannelMunicipalityType" minOccurs="1" maxOccurs="unbounded" nillable="true" />			
+					<xsd:element name="location3067" type="gml:MultiGeometryPropertyType" minOccurs="1" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+</xsd:schema>

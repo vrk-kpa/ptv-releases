@@ -1,0 +1,17 @@
+<#@ include file="BuildAction.ttinclude"#>
+<#@ import namespace="System.Collections.Generic" #>
+<#+
+    public sealed class FileProperties
+    {
+        public FileProperties ()
+        {
+            TemplateParameter = new Dictionary<string,string>();
+        }
+
+        public string CustomTool { get; set; }
+        public BuildAction BuildAction { get; set; }
+        public Dictionary<string, string> TemplateParameter { get; set; }
+
+        public string BuildActionString => BuildAction.ToString();
+    }
+#>

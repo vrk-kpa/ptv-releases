@@ -1,0 +1,62 @@
+<featureType>
+  <id>ptv_simpleFeature_channelIds</id>
+  <name>sfChannelIds</name>
+  <nativeName>ChannelIds</nativeName>
+  <namespace>
+    <id>ptv_namespace</id>
+  </namespace>
+  <title>Channel IDs (simple feature)</title>
+  <keywords>
+    <string>features</string>
+    <string>ChannelIds (simple feature)</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;ETRS89 / TM35FIN(E,N)&quot;, &#xd;
+  GEOGCS[&quot;ETRS89&quot;, &#xd;
+    DATUM[&quot;European Terrestrial Reference System 1989&quot;, &#xd;
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], &#xd;
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], &#xd;
+      AUTHORITY[&quot;EPSG&quot;,&quot;6258&quot;]], &#xd;
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+    UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+    AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;4258&quot;]], &#xd;
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], &#xd;
+  PARAMETER[&quot;central_meridian&quot;, 27.0], &#xd;
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], &#xd;
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], &#xd;
+  PARAMETER[&quot;false_easting&quot;, 500000.0], &#xd;
+  PARAMETER[&quot;false_northing&quot;, 0.0], &#xd;
+  UNIT[&quot;m&quot;, 1.0], &#xd;
+  AXIS[&quot;Easting&quot;, EAST], &#xd;
+  AXIS[&quot;Northing&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;3067&quot;]]</nativeCRS>
+  <srs>EPSG:3067</srs>
+  <nativeBoundingBox>
+    <minx>43547.78932226647</minx>
+    <maxx>764796.7155847414</maxx>
+    <miny>6523158.091198515</miny>
+    <maxy>7795461.187543589</maxy>
+    <crs class="projected">EPSG:3067</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>15.053785270822843</minx>
+    <maxx>33.993537468175056</maxx>
+    <miny>58.60745650075234</miny>
+    <maxy>70.26415661214813</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>ptv_geo_datastore</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

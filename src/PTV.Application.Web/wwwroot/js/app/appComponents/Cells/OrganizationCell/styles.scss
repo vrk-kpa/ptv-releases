@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.compact {
+  font-size: 14px;
+}
+.inline{
+  margin-right: 5px;
+  > div{
+    display: inline-flex;
+  }
+}

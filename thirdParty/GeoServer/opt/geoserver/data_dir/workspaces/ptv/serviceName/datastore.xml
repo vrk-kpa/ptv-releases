@@ -1,0 +1,15 @@
+<dataStore>
+  <id>serviceName_datastore</id>
+  <name>serviceName</name>
+  <description>Service Name</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceName/serviceName.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.message {
+  @include label-warning();
+}
+
+.bottomBar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-size: 13px;
+}

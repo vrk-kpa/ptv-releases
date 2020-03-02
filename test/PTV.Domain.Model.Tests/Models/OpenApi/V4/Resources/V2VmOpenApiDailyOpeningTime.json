@@ -1,0 +1,7 @@
+﻿{
+  "dayFrom": "string",
+  "dayTo": "string",
+  "from": "string",
+  "to": "string",
+  "isExtra": true
+}

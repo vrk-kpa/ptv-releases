@@ -1,0 +1,26 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.type {
+  font-weight: 600;
+  &::after {
+    content: ':';
+    margin-right: 5px;
+  }
+  &.standalone {
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.items {
+  span {
+    margin-right: 5px;
+    &:first-child {
+      font-weight: 600;
+      &::after {
+        content: ':';
+      }
+    }
+  }
+}
