@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/channelIds.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>ChannelIds</sourceType>
+			<targetElement>ptv:channelIds</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:channelIds</targetAttribute>
+					<idExpression>
+						<OCQL>VersionedId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+			
+				<!-- root id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:rootId</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- organization id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organizationId</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationId</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- service ids -->
+				<AttributeMapping>
+					<targetAttribute>ptv:serviceIds</targetAttribute>
+					<sourceExpression>
+						<OCQL>ServiceIds</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- address ids -->
+				<AttributeMapping>
+					<targetAttribute>ptv:addressIds</targetAttribute>
+					<sourceExpression>
+						<OCQL>AddressIds</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>				
+
+				<!-- currently open -->
+				<AttributeMapping>
+					<targetAttribute>ptv:currentlyOpen</targetAttribute>
+					<sourceExpression>
+						<OCQL>CurrentlyOpen</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- currently open -->
+				<AttributeMapping>
+					<targetAttribute>ptv:location3067</targetAttribute>
+					<sourceExpression>
+						<OCQL>Location3067</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

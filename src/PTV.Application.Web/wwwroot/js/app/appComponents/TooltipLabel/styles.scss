@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.tooltipLabel {
+  display: inline-flex;
+  align-items: center;
+  label {
+    margin: 0;
+    margin-right: 10px;
+  }
+}

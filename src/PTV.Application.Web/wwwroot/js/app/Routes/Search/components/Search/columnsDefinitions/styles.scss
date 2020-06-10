@@ -1,0 +1,150 @@
+@import '../../../../../Components/styles/variables';
+
+.cell {
+  > * {
+    ~ * {
+      margin-top: 5px;
+    }
+  }
+}
+
+.name {
+  color: $brand-blue;
+  cursor: pointer;
+}
+
+table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.withShowMoreWrap {
+  display: flex;
+  width: 100%;
+  // flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  .cards & {
+    justify-content: flex-start;
+  }
+}
+
+.reviewCell {
+  display: flex;
+  align-items: center;
+  label.massToolCheckbox {
+    margin-right: 6px;
+    margin-bottom: 0;
+    padding: 1px;
+  }
+}
+
+.massToolCheckbox {
+  margin-bottom: 0;
+}
+
+.searchResultsSpacer {
+  padding: 0 20px;
+}
+
+@media (min-width: 1025px) {
+  .massToolActive {
+    tr td:first-child {
+      background-color: rgba(bg-color(dark), 0.2);
+      border-right: 1px solid border-color(border);
+      vertical-align: middle;
+      > div {
+        height: 30px;
+      }
+    }
+    tr:first-child {
+      border-top: none;
+      td {
+        border-top: 1px solid border-color(border);
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
+  }
+}
+
+.searchTable {
+  table thead {
+    &:first-child td {
+      padding: 0 // 20px 20px 0;
+    }
+  }
+  &.isMassToolActive {
+    tr th:first-child {
+      padding: 10px 5px;
+      text-align: center;
+    }
+  }
+}
+
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+}
+
+.loadingCell {
+  td {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.cards {
+  .searchTableBody {
+    padding-top: 20px;
+  }
+  .massToolActive {
+    padding-top: 0;
+  }
+  .loadingCell {
+    padding-top: 20px;
+    tr:nth-child(2n + 1) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
+
+// show search table filters even at small screens
+@media only screen and (max-width: 767px) {
+  .cards.searchTable table thead:first-child,
+  .cards.searchTable table thead:first-child tr,
+  .cards.searchTable table thead:first-child tr td {
+    display: block;
+  }
+  .cards.searchTable table tbody tr {
+    flex: 0 0 100%;
+    padding: 10px;
+    td ~ td {
+      padding-top: 10px;
+    }
+  }
+}
+
+.fb25 {
+  flex-basis: 25%;
+}
+
+.fb75 {
+  flex-basis: 75%;
+}
+
+.fb100 {
+  flex-basis: 100%;
+}
+
+.nameCellMSize {
+  @media (max-width: 1023px) {
+    width: 340px;
+  }
+}

@@ -1,0 +1,50 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.previewBlock {
+  ~ .previewBlock {
+    margin-top: 10px;
+  }
+  // display: flex;
+  label {
+    margin-top: 0;
+    // &::after {
+    //   content: ':';
+    // }
+  }
+}
+
+.previewItem {
+  margin-left: 30px;
+  line-height: 20px;
+  address {
+    margin: 0;
+  }
+}
+
+.previewHeading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.additionalInfo {
+  font-size: 0.85rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.openingHoursConnectionPreview {
+  label {
+    font-weight: 400;
+    margin-bottom: 5px;
+    + div {
+      margin-left: 30px;
+    }
+  }
+}
+
+.connectionDescriptionCell {
+  label {
+    margin: 0;
+  }
+}

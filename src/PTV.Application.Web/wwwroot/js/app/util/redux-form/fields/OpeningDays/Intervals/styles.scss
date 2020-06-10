@@ -1,0 +1,36 @@
+@import '../../../../../styles/_mixins.scss';
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.from, .to {
+  @include small-select();
+}
+
+.intervalWrap {
+  display: flex;
+  flex-direction: columns;
+}
+
+.intervalItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.interval {
+  display: flex;
+  align-items: center;
+  > div {
+    margin-right: 5px;
+  }
+  & ~ .interval {
+    margin-top: 5px;
+  }
+}
+
+.intervalActions {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  > * ~ * {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.placeholder {
+  border: 2px dashed border-color(border);
+  min-height: 80px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

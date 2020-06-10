@@ -1,0 +1,275 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.massToolConfirmWrap {
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.massToolConfirmHeader {
+  margin-bottom: 20px;
+  p {
+    span {
+      ~ span {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.tooltipLabel {
+  margin-bottom: 10px;
+}
+
+.massToolConfirmFooter {
+  // margin: 20px 0;
+}
+
+.massToolForm {
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0 0 0 2px interaction-color(primary) inset;
+  background-color: #FFFFFF;
+}
+
+.massToolType {
+  margin-top: 10px;
+}
+
+.massToolConfirmWrap {
+  position: relative;
+  padding-bottom: 10px;
+  // &::before {
+  //   position: absolute;
+  //   content: '';
+  //   top: 0;
+  //   left: -20px;
+  //   bottom: 0;
+  //   border-left: 1px solid secondary-color(harmaa, t60);
+  //   border-right: 1px solid secondary-color(harmaa, t5);
+  // }
+}
+
+.notification {
+  margin-right: 10px;
+}
+
+.publishConfirmButton {
+  height: 50px;
+  flex: 1 0 auto;
+}
+
+.confirmButtonArrow {
+  margin-left: 10px;
+  margin-top: 2px;
+  svg {
+    fill: #FFF;
+  }
+  &.isDisabled {
+    cursor: not-allowed;
+    svg {
+      fill: text-color(disabled);
+    }
+  }
+}
+
+.copyConfirmButton {
+  height: 50px;
+}
+
+.batchSelection {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.batchSelectionRow {
+  tr td {
+    background-color: rgba(bg-color(dark), 0.5);
+    width: 100%;
+  }
+  &.tablet {
+    padding-top: 20px;
+    tr:nth-child(2n + 1) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
+
+.buttonGroup {
+  @include arrange-items($margin: 0)
+}
+
+.massToolButton {
+  button {
+    color: text-color(primary);
+    &:hover {
+      color: text-color(primary);
+    }
+  }
+}
+
+.linkCounter {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: -8px;
+}
+
+.toggleCart {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  padding: 5px 20px 15px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  margin-right: 5px;
+}
+
+.expanded {
+  .linkCounter {
+    visibility: hidden;
+  }
+  &.toggleCart {
+    // box-shadow: 0 0 0 2px interaction-color(primary) inset;
+    border: 2px solid interaction-color(primary);
+    border-bottom: none;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.massToolCart {
+  background-color: bg-color(light);
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+
+.massToolCartBody {
+  display: flex;
+  align-items: center;
+}
+
+.cartTitle {
+  &::after {
+    content: ':';
+    margin-right: 5px;
+  }
+}
+
+.cartSummaryIcon {
+  margin-right: 15px;
+}
+
+.clearButton {
+  margin-left: auto;
+}
+
+.limitNotification {
+  vertical-align: middle;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.hasError {
+  border: 1px solid status-color(danger);
+  border-radius: 2px;
+  padding: 9px 14px;
+}
+
+.massToolCartFooter {
+  .error {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: status-color(danger);
+    font-size: 13px;
+  }
+  svg {
+    fill: status-color(danger);
+  }
+}
+
+.cartErrorIcon {
+  margin-left: 8px;
+  margin-right: 13px;
+}
+
+.modalTitle {
+  font-size: 20px;
+  color: text-color(primary);
+  letter-spacing: -0.31px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px 50px 0 30px;
+}
+
+.titleCounter {
+  &::after {
+    content: ':';
+    margin-right: 5px;
+  }
+}
+
+.modalDescription {
+  margin: 0 30px 10px;
+}
+
+.massToolCartTable {
+  margin-bottom: 20px;
+  table {
+    table-layout: fixed;
+  }
+}
+
+.summary {
+  margin-bottom: 0;
+}
+
+.textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.centeredCell {
+  text-align: center;
+  button {
+    margin: 0;
+  }
+}
+
+.statusIcon {
+  display: flex;
+  align-items: center;
+  svg {
+    fill: #FFF;
+  }
+}
+
+.approvedIcon {
+  background-color: status-color(success);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.unapprovedIcon {
+  background-color: status-color(notification);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.massLanguageFilter {
+  width: 100%;
+}
+
+.summaryCheckbox {
+  margin-bottom: 0;
+}

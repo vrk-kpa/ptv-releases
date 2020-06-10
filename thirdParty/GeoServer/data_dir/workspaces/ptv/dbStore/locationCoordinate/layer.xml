@@ -1,0 +1,15 @@
+<layer>
+  <name>locationCoordinate</name>
+  <id>LayerInfoImpl-645e3d19:163d51d9351:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-645e3d19:163d51d9351:-7ff9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

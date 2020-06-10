@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+// .withBullet {
+//   position: relative;
+//   &::after {
+//     @include pseudo-bullet();
+//   }
+// }
+
+.selfProducerPreview, .otherProducersPreview {
+  position: relative;
+  padding-left: 25px;
+  &::after {
+    @include pseudo-bullet();
+  }
+}

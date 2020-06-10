@@ -1,0 +1,64 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.subEntity {
+  background-color: bg-color(light);
+}
+
+.subEntityMainData {
+  padding: 5px 20px;
+}
+
+.dragHandle {
+  cursor: move;
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.dragIconWrap {
+  display: flex;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.editIcon {
+  margin-left: 10px;
+}
+
+.trashIcon {
+  margin-left: 20px;
+}
+
+.isOrganizingActive {
+  justify-content: center;
+  > div {
+    display: flex;
+  }
+}
+
+.subEntityDescriptionCell {
+  width: 220px;
+  @media only screen and (min-width: 1280px) {
+    width: 300px;
+  }
+}
+
+.placeholder {
+  color: text-color(secondary);
+}
+
+.inModal {
+  .subEntityMainData {
+    padding: 10px;
+  }
+  .subEntityDescriptionCell {
+    > div:first-child {
+      font-weight: 600;
+    }
+  }
+}

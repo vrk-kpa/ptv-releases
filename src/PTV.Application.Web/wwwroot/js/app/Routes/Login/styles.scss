@@ -1,0 +1,27 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.loginForm {
+  p {
+    margin-top: 20px;
+  }
+  :global {
+    .icon-wrap {
+      position: relative;
+      top: -5px;
+    }
+  }
+}
+
+.formHeadline {
+  font-weight: 400;
+}
+
+.accessRights {
+  > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    label {
+      margin-right: 60px;
+    }
+  }
+}

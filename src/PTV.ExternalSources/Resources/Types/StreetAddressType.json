@@ -1,0 +1,32 @@
+﻿[
+    {
+        "code": "Street",
+        "names": [
+            {
+                "Name": "Katuosoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Street",
+                "language": "en"
+            }
+        ]
+
+
+    },
+    {
+        "code": "PostBox",
+        "names": [
+            {
+                "Name": "Postilokero-osoite",
+                "language": "fi"
+            },
+            {
+                "Name": "Post box",
+                "language": "en"
+            }
+        ]
+
+
+    }
+]

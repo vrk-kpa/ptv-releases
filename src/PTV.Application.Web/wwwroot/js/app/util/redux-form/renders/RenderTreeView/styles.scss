@@ -1,0 +1,222 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+$nodeContainerWidths: (100, 150, 200, 250, 300, 350, 400);
+
+.treeSelect {
+  border: 1px solid border-color(border);
+  border-top: none;
+  padding: 0 1px 1px;
+  &.warning {
+    border: 2px solid status-color(notification);
+    border-top: none;
+    padding: 0;
+  }
+  &.error {
+    border: 2px solid status-color(danger);
+    border-top: none;
+    padding: 0;
+  }
+  &.isNotFound {
+    border: none;
+    padding: 0;
+  }
+}
+
+.reactListWrap {
+  overflow: auto;
+  height: 330px;
+}
+
+// simple tree overrides
+.simple {
+  border: none;
+  .reactListWrap {
+    height: auto;
+    > div {
+      height: auto !important;
+    }
+  }
+}
+
+.nodeContainer {
+  &:first-child {
+    padding-top: 10px;
+  }
+  .nodeContainer {
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+}
+
+.nodeWrap {
+  .node {
+    label {
+      margin: 0;
+      white-space: normal;
+      display: flex;
+      align-items: center;
+      height: auto;
+      > * {
+        float: left;
+      }
+      span {
+        white-space: normal;
+        display: block;
+        width: calc(100% - 30px);
+        word-wrap: break-word;
+        word-break: break-word;
+        padding-top: 0;
+      }
+      &[class*='styles__small'] {
+        span {
+          width: calc(100% - 20px);
+        }
+      }
+      &::after {
+        display: table;
+        clear: both;
+        content: '';
+      }
+    }
+  }
+}
+
+.node {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 10px;
+  align-items: center;
+}
+
+.nodeList {
+  .nodeList {
+    padding-left: 40px;
+    .nodeList {
+      padding-left: 30px;
+    }
+  }
+}
+
+.caret {
+  margin-left: 5px;
+  cursor: pointer;
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.nodeLabelWrap {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  > div {
+    display: flex;
+    min-width: 0;
+  }
+}
+
+.nodeDetail {
+  font-size: 13px;
+  line-height: 20px;
+  flex: 0 0 80px;
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.detailDescription {
+  padding-right: 5px;
+  ~ .detailDescription {
+    margin-top: 10px;
+  }
+  label {
+    margin: 0 5px 0 0;
+    font-size: 15px;
+  }
+  p {
+    margin: 0;
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
+.display {
+  .nodeContainer {
+    padding: 0;
+    ~ .nodeContainer {
+      margin-top: 5px;
+    }
+    .nodeContainer {
+      margin-top: 5px;
+    }
+    .node {
+      padding: 0 0 0 25px;
+      position: relative;
+      :after {
+        @include pseudo-bullet();
+      }
+    }
+  }
+  .nodeWrap {
+    padding-left: 10px;
+    margin: 0;
+    .nodeWrap {
+      padding-left: 20px;
+    }
+  }
+  .nodeList {
+    padding: 0;
+  }
+}
+
+.isCurrentNode {
+  font-weight: 600;
+}
+
+.filterTree {
+  .nodeContainer {
+    &:first-child {
+      padding-top: 0;
+    }
+    ~ .nodeContainer {
+      border-top: 1px solid border-color(border);
+    }
+    .hasVisibleChildren {
+      + .nodeList {
+        .nodeContainer {
+          border-top: none;
+        }
+      }
+    }
+  }
+  .node {
+    padding-top: 10px;
+    display: block;
+    &.hasVisibleChildren {
+      background-color: bg-color(dark);
+      margin-top: 3px;
+      padding-top: 7px;
+      + .nodeList {
+        margin-bottom: 3px;
+        .node {
+          background-color: bg-color(dark);
+          border-top: none;
+        }
+      }
+    }
+  }
+  .nodeLabelWrap {
+    justify-content: space-between;
+  }
+}
+
+.focusedTreeItem {
+  > .node {
+    .nodeLabelWrap {
+      font-weight: 600;
+      outline: 3px dotted icon-color(accent);
+      outline-offset: 5px;
+    }
+  }
+}

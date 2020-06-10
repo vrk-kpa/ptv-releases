@@ -1,0 +1,4665 @@
+[
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Afghanistan"
+      },
+      {
+        "language": "fi",
+        "name": "Afganistan"
+      },
+      {
+        "language": "sv",
+        "name": "Afghanistan"
+      }
+    ],
+    "code": "AF",
+    "dialCodes": [
+      "+93"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Albania"
+      },
+      {
+        "language": "fi",
+        "name": "Albania"
+      },
+      {
+        "language": "sv",
+        "name": "Albanien"
+      }
+    ],
+    "code": "AL",
+    "dialCodes": [
+      "+355"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Algeria"
+      },
+      {
+        "language": "fi",
+        "name": "Algeria"
+      },
+      {
+        "language": "sv",
+        "name": "Algeriet"
+      }
+    ],
+    "code": "DZ",
+    "dialCodes": [
+      "+213"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "American Samoa"
+      },
+      {
+        "language": "fi",
+        "name": "Amerikan Samoa"
+      },
+      {
+        "language": "sv",
+        "name": "Amerikanska Samoa"
+      }
+    ],
+    "code": "AS",
+    "dialCodes": [
+      "+1684"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Andorra"
+      },
+      {
+        "language": "fi",
+        "name": "Andorra"
+      },
+      {
+        "language": "sv",
+        "name": "Andorra"
+      }
+    ],
+    "code": "AD",
+    "dialCodes": [
+      "+376"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Angola"
+      },
+      {
+        "language": "fi",
+        "name": "Angola"
+      },
+      {
+        "language": "sv",
+        "name": "Angola"
+      }
+    ],
+    "code": "AO",
+    "dialCodes": [
+      "+244"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Anguilla"
+      },
+      {
+        "language": "fi",
+        "name": "Anguilla"
+      },
+      {
+        "language": "sv",
+        "name": "Anguilla"
+      }
+    ],
+    "code": "AI",
+    "dialCodes": [
+      "+1264"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Antigua and Barbuda"
+      },
+      {
+        "language": "fi",
+        "name": "Antigua ja Barbuda"
+      },
+      {
+        "language": "sv",
+        "name": "Antigua och Barbuda"
+      }
+    ],
+    "code": "AG",
+    "dialCodes": [
+      "+1268"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Argentina"
+      },
+      {
+        "language": "fi",
+        "name": "Argentiina"
+      },
+      {
+        "language": "sv",
+        "name": "Argentina"
+      }
+    ],
+    "code": "AR",
+    "dialCodes": [
+      "+54"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Armenia"
+      },
+      {
+        "language": "fi",
+        "name": "Armenia"
+      },
+      {
+        "language": "sv",
+        "name": "Armenien"
+      }
+    ],
+    "code": "AM",
+    "dialCodes": [
+      "+374"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Aruba"
+      },
+      {
+        "language": "fi",
+        "name": "Aruba"
+      },
+      {
+        "language": "sv",
+        "name": "Aruba"
+      }
+    ],
+    "code": "AW",
+    "dialCodes": [
+      "+297"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Australia"
+      },
+      {
+        "language": "fi",
+        "name": "Australia"
+      },
+      {
+        "language": "sv",
+        "name": "Australien"
+      }
+    ],
+    "code": "AU",
+    "dialCodes": [
+      "+61"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Austria"
+      },
+      {
+        "language": "fi",
+        "name": "Itävalta"
+      },
+      {
+        "language": "sv",
+        "name": "Österrike"
+      }
+    ],
+    "code": "AT",
+    "dialCodes": [
+      "+43"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Azerbaijan"
+      },
+      {
+        "language": "fi",
+        "name": "Azerbaidžan"
+      },
+      {
+        "language": "sv",
+        "name": "Azerbajdzjan"
+      }
+    ],
+    "code": "AZ",
+    "dialCodes": [
+      "+994"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bahamas"
+      },
+      {
+        "language": "fi",
+        "name": "Bahama"
+      },
+      {
+        "language": "sv",
+        "name": "Bahamas"
+      }
+    ],
+    "code": "BS",
+    "dialCodes": [
+      "+1242"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bahrain"
+      },
+      {
+        "language": "fi",
+        "name": "Bahrain"
+      },
+      {
+        "language": "sv",
+        "name": "Bahrain"
+      }
+    ],
+    "code": "BH",
+    "dialCodes": [
+      "+973"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bangladesh"
+      },
+      {
+        "language": "fi",
+        "name": "Bangladesh"
+      },
+      {
+        "language": "sv",
+        "name": "Bangladesh"
+      }
+    ],
+    "code": "BD",
+    "dialCodes": [
+      "+880"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Barbados"
+      },
+      {
+        "language": "fi",
+        "name": "Barbados"
+      },
+      {
+        "language": "sv",
+        "name": "Barbados"
+      }
+    ],
+    "code": "BB",
+    "dialCodes": [
+      "+1246"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Belarus"
+      },
+      {
+        "language": "fi",
+        "name": "Valko-Venäjä"
+      },
+      {
+        "language": "sv",
+        "name": "Vitryssland"
+      }
+    ],
+    "code": "BY",
+    "dialCodes": [
+      "+375"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Belgium"
+      },
+      {
+        "language": "fi",
+        "name": "Belgia "
+      },
+      {
+        "language": "sv",
+        "name": "Belgien"
+      }
+    ],
+    "code": "BE",
+    "dialCodes": [
+      "+32"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Belize"
+      },
+      {
+        "language": "fi",
+        "name": "Belize"
+      },
+      {
+        "language": "sv",
+        "name": "Belize"
+      }
+    ],
+    "code": "BZ",
+    "dialCodes": [
+      "+501"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Benin"
+      },
+      {
+        "language": "fi",
+        "name": "Benin"
+      },
+      {
+        "language": "sv",
+        "name": "Benin"
+      }
+    ],
+    "code": "BJ",
+    "dialCodes": [
+      "+229"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bermuda"
+      },
+      {
+        "language": "fi",
+        "name": "Bermuda"
+      },
+      {
+        "language": "sv",
+        "name": "Bermuda"
+      }
+    ],
+    "code": "BM",
+    "dialCodes": [
+      "+1441"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bhutan"
+      },
+      {
+        "language": "fi",
+        "name": "Bhutan"
+      },
+      {
+        "language": "sv",
+        "name": "Bhutan"
+      }
+    ],
+    "code": "BT",
+    "dialCodes": [
+      "+975"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bolivia"
+      },
+      {
+        "language": "fi",
+        "name": "Bolivia"
+      },
+      {
+        "language": "sv",
+        "name": "Bolivia"
+      }
+    ],
+    "code": "BO",
+    "dialCodes": [
+      "+591"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bonaire, Sint Eustatius and Saba"
+      },
+      {
+        "language": "fi",
+        "name": "Bonaire, Sint Eustatius ja Saba"
+      },
+      {
+        "language": "sv",
+        "name": "Bonaire, Sint Eustatius och Saba"
+      }
+    ],
+    "code": "BQ",
+    "dialCodes": [
+      "+599"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bosnia and Herzegovina"
+      },
+      {
+        "language": "fi",
+        "name": "Bosnia ja Hertsegovina"
+      },
+      {
+        "language": "sv",
+        "name": "Bosnien och Hercegovina"
+      }
+    ],
+    "code": "BA",
+    "dialCodes": [
+      "+387"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Botswana"
+      },
+      {
+        "language": "fi",
+        "name": "Botswana"
+      },
+      {
+        "language": "sv",
+        "name": "Botswana"
+      }
+    ],
+    "code": "BW",
+    "dialCodes": [
+      "+267"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Brazil"
+      },
+      {
+        "language": "fi",
+        "name": "Brasilia"
+      },
+      {
+        "language": "sv",
+        "name": "Brasilien"
+      }
+    ],
+    "code": "BR",
+    "dialCodes": [
+      "+55"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "British Indian Ocean Territory"
+      },
+      {
+        "language": "fi",
+        "name": "Brittiläinen Intian valtameren alue"
+      },
+      {
+        "language": "sv",
+        "name": "Brittiska territoriet i Indiska oceanen"
+      }
+    ],
+    "code": "IO",
+    "dialCodes": [
+      "+246"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "British Virgin Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Brittiläiset Neitsytsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Brittiska Jungfruöarna"
+      }
+    ],
+    "code": "VG",
+    "dialCodes": [
+      "+1284"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Brunei"
+      },
+      {
+        "language": "fi",
+        "name": "Brunei"
+      },
+      {
+        "language": "sv",
+        "name": "Brunei"
+      }
+    ],
+    "code": "BN",
+    "dialCodes": [
+      "+673"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Bulgaria"
+      },
+      {
+        "language": "fi",
+        "name": "Bulgaria"
+      },
+      {
+        "language": "sv",
+        "name": "Bulgarien"
+      }
+    ],
+    "code": "BG",
+    "dialCodes": [
+      "+359"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Burkina Faso"
+      },
+      {
+        "language": "fi",
+        "name": "Burkina Faso"
+      },
+      {
+        "language": "sv",
+        "name": "Burkina Faso"
+      }
+    ],
+    "code": "BF",
+    "dialCodes": [
+      "+226"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Burundi"
+      },
+      {
+        "language": "fi",
+        "name": "Burundi"
+      },
+      {
+        "language": "sv",
+        "name": "Burundi"
+      }
+    ],
+    "code": "BI",
+    "dialCodes": [
+      "+257"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cambodia"
+      },
+      {
+        "language": "fi",
+        "name": "Kambodža"
+      },
+      {
+        "language": "sv",
+        "name": "Kambodja"
+      }
+    ],
+    "code": "KH",
+    "dialCodes": [
+      "+855"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cameroon"
+      },
+      {
+        "language": "fi",
+        "name": "Kamerun"
+      },
+      {
+        "language": "sv",
+        "name": "Kamerun"
+      }
+    ],
+    "code": "CM",
+    "dialCodes": [
+      "+237"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Canada"
+      },
+      {
+        "language": "fi",
+        "name": "Kanada"
+      },
+      {
+        "language": "sv",
+        "name": "Kanada"
+      }
+    ],
+    "code": "CA",
+    "dialCodes": [
+      "+1"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cape Verde"
+      },
+      {
+        "language": "fi",
+        "name": "Kap Verde"
+      },
+      {
+        "language": "sv",
+        "name": "Kap Verde"
+      }
+    ],
+    "code": "CV",
+    "dialCodes": [
+      "+238"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cayman Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Caymansaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Caymanöarna"
+      }
+    ],
+    "code": "KY",
+    "dialCodes": [
+      "+1345"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Central African Republic"
+      },
+      {
+        "language": "fi",
+        "name": "Keski-Afrikan tasavalta"
+      },
+      {
+        "language": "sv",
+        "name": "Centralafrikanska republiken"
+      }
+    ],
+    "code": "CF",
+    "dialCodes": [
+      "+236"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Chad"
+      },
+      {
+        "language": "fi",
+        "name": "Tšad"
+      },
+      {
+        "language": "sv",
+        "name": "Tchad"
+      }
+    ],
+    "code": "TD",
+    "dialCodes": [
+      "+235"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Chile"
+      },
+      {
+        "language": "fi",
+        "name": "Chile"
+      },
+      {
+        "language": "sv",
+        "name": "Chile"
+      }
+    ],
+    "code": "CL",
+    "dialCodes": [
+      "+56"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "China"
+      },
+      {
+        "language": "fi",
+        "name": "Kiina"
+      },
+      {
+        "language": "sv",
+        "name": "Kina"
+      }
+    ],
+    "code": "CN",
+    "dialCodes": [
+      "+86"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Christmas Island"
+      },
+      {
+        "language": "fi",
+        "name": "Joulusaari"
+      },
+      {
+        "language": "sv",
+        "name": "Julön"
+      }
+    ],
+    "code": "CX",
+    "dialCodes": [
+      "+61"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cocos Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Kookossaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Kokosöarna"
+      }
+    ],
+    "code": "CC",
+    "dialCodes": [
+      "+61"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Colombia"
+      },
+      {
+        "language": "fi",
+        "name": "Kolumbia"
+      },
+      {
+        "language": "sv",
+        "name": "Colombia"
+      }
+    ],
+    "code": "CO",
+    "dialCodes": [
+      "+57"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Comoros"
+      },
+      {
+        "language": "fi",
+        "name": "Komorit"
+      },
+      {
+        "language": "sv",
+        "name": "Komorerna"
+      }
+    ],
+    "code": "KM",
+    "dialCodes": [
+      "+269"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Congo"
+      },
+      {
+        "language": "fi",
+        "name": "Kongo"
+      },
+      {
+        "language": "sv",
+        "name": "Kongo"
+      }
+    ],
+    "code": "CG",
+    "dialCodes": [
+      "+242"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cook Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Cookinsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Cooköarna"
+      }
+    ],
+    "code": "CK",
+    "dialCodes": [
+      "+682"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Costa Rica"
+      },
+      {
+        "language": "fi",
+        "name": "Costa Rica"
+      },
+      {
+        "language": "sv",
+        "name": "Costa Rica"
+      }
+    ],
+    "code": "CR",
+    "dialCodes": [
+      "+506"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Croatia"
+      },
+      {
+        "language": "fi",
+        "name": "Kroatia"
+      },
+      {
+        "language": "sv",
+        "name": "Kroatien"
+      }
+    ],
+    "code": "HR",
+    "dialCodes": [
+      "+385"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cuba"
+      },
+      {
+        "language": "fi",
+        "name": "Kuuba"
+      },
+      {
+        "language": "sv",
+        "name": "Kuba"
+      }
+    ],
+    "code": "CU",
+    "dialCodes": [
+      "+53"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Curaçao"
+      },
+      {
+        "language": "fi",
+        "name": "Curaçao"
+      },
+      {
+        "language": "sv",
+        "name": "Curaçao"
+      }
+    ],
+    "code": "CW",
+    "dialCodes": [
+      "+599"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Cyprus"
+      },
+      {
+        "language": "fi",
+        "name": "Kypros"
+      },
+      {
+        "language": "sv",
+        "name": "Cypern"
+      }
+    ],
+    "code": "CY",
+    "dialCodes": [
+      "+357"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Czech Republic"
+      },
+      {
+        "language": "fi",
+        "name": "Tšekki"
+      },
+      {
+        "language": "sv",
+        "name": "Tjeckien"
+      }
+    ],
+    "code": "CZ",
+    "dialCodes": [
+      "+420"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Democratic Republic of the Congo"
+      },
+      {
+        "language": "fi",
+        "name": "Kongon demokraattinen tasavalta"
+      },
+      {
+        "language": "sv",
+        "name": "Demokratiska republiken Kongo"
+      }
+    ],
+    "code": "CD",
+    "dialCodes": [
+      "+243"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Denmark"
+      },
+      {
+        "language": "fi",
+        "name": "Tanska"
+      },
+      {
+        "language": "sv",
+        "name": "Danmark"
+      }
+    ],
+    "code": "DK",
+    "dialCodes": [
+      "+45"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Djibouti"
+      },
+      {
+        "language": "fi",
+        "name": "Djibouti"
+      },
+      {
+        "language": "sv",
+        "name": "Djibouti"
+      }
+    ],
+    "code": "DJ",
+    "dialCodes": [
+      "+253"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Dominica"
+      },
+      {
+        "language": "fi",
+        "name": "Dominica"
+      },
+      {
+        "language": "sv",
+        "name": "Dominica"
+      }
+    ],
+    "code": "DM",
+    "dialCodes": [
+      "+1767"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Dominican Republic"
+      },
+      {
+        "language": "fi",
+        "name": "Dominikaaninen tasavalta"
+      },
+      {
+        "language": "sv",
+        "name": "Dominikanska republiken"
+      }
+    ],
+    "code": "DO",
+    "dialCodes": [
+      "+1809",
+      "+1829",
+      "+1849"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ecuador"
+      },
+      {
+        "language": "fi",
+        "name": "Ecuador"
+      },
+      {
+        "language": "sv",
+        "name": "Ecuador"
+      }
+    ],
+    "code": "EC",
+    "dialCodes": [
+      "+593"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Egypt"
+      },
+      {
+        "language": "fi",
+        "name": "Egypti"
+      },
+      {
+        "language": "sv",
+        "name": "Egypten"
+      }
+    ],
+    "code": "EG",
+    "dialCodes": [
+      "+20"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "El Salvador"
+      },
+      {
+        "language": "fi",
+        "name": "El Salvador"
+      },
+      {
+        "language": "sv",
+        "name": "El Salvador"
+      }
+    ],
+    "code": "SV",
+    "dialCodes": [
+      "+503"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Equatorial Guinea"
+      },
+      {
+        "language": "fi",
+        "name": "Päiväntasaajan Guinea"
+      },
+      {
+        "language": "sv",
+        "name": "Ekvatorialguinea"
+      }
+    ],
+    "code": "GQ",
+    "dialCodes": [
+      "+240"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Eritrea"
+      },
+      {
+        "language": "fi",
+        "name": "Eritrea"
+      },
+      {
+        "language": "sv",
+        "name": "Eritrea"
+      }
+    ],
+    "code": "ER",
+    "dialCodes": [
+      "+291"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Estonia"
+      },
+      {
+        "language": "fi",
+        "name": "Viro"
+      },
+      {
+        "language": "sv",
+        "name": "Estland"
+      }
+    ],
+    "code": "EE",
+    "dialCodes": [
+      "+372"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ethiopia"
+      },
+      {
+        "language": "fi",
+        "name": "Etiopia"
+      },
+      {
+        "language": "sv",
+        "name": "Etiopien"
+      }
+    ],
+    "code": "ET",
+    "dialCodes": [
+      "+251"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Falkland Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Falklandinsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Falklandsöarna"
+      }
+    ],
+    "code": "FK",
+    "dialCodes": [
+      "+500"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Faroe Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Färsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Färöarna"
+      }
+    ],
+    "code": "FO",
+    "dialCodes": [
+      "+298"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Fiji"
+      },
+      {
+        "language": "fi",
+        "name": "Fidži"
+      },
+      {
+        "language": "sv",
+        "name": "Fiji"
+      }
+    ],
+    "code": "FJ",
+    "dialCodes": [
+      "+679"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Finland"
+      },
+      {
+        "language": "fi",
+        "name": "Suomi"
+      },
+      {
+        "language": "sv",
+        "name": "Finland"
+      }
+    ],
+    "code": "FI",
+    "dialCodes": [
+      "+358"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "France"
+      },
+      {
+        "language": "fi",
+        "name": "Ranska"
+      },
+      {
+        "language": "sv",
+        "name": "Frankrike"
+      }
+    ],
+    "code": "FR",
+    "dialCodes": [
+      "+33"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "French Guiana"
+      },
+      {
+        "language": "fi",
+        "name": "Ranskan Guayana"
+      },
+      {
+        "language": "sv",
+        "name": "Franska Guyana"
+      }
+    ],
+    "code": "GF",
+    "dialCodes": [
+      "+594"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "French Polynesia"
+      },
+      {
+        "language": "fi",
+        "name": "Ranskan Polynesia"
+      },
+      {
+        "language": "sv",
+        "name": "Polynesien"
+      }
+    ],
+    "code": "PF",
+    "dialCodes": [
+      "+689"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Gabon"
+      },
+      {
+        "language": "fi",
+        "name": "Gabon"
+      },
+      {
+        "language": "sv",
+        "name": "Gabon"
+      }
+    ],
+    "code": "GA",
+    "dialCodes": [
+      "+241"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Gambia"
+      },
+      {
+        "language": "fi",
+        "name": "Gambia"
+      },
+      {
+        "language": "sv",
+        "name": "Gambia"
+      }
+    ],
+    "code": "GM",
+    "dialCodes": [
+      "+220"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Georgia"
+      },
+      {
+        "language": "fi",
+        "name": "Georgia"
+      },
+      {
+        "language": "sv",
+        "name": "Georgien"
+      }
+    ],
+    "code": "GE",
+    "dialCodes": [
+      "+995"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Germany"
+      },
+      {
+        "language": "fi",
+        "name": "Saksa"
+      },
+      {
+        "language": "sv",
+        "name": "Tyskland"
+      }
+    ],
+    "code": "DE",
+    "dialCodes": [
+      "+49"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ghana"
+      },
+      {
+        "language": "fi",
+        "name": "Ghana"
+      },
+      {
+        "language": "sv",
+        "name": "Ghana"
+      }
+    ],
+    "code": "GH",
+    "dialCodes": [
+      "+233"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Gibraltar"
+      },
+      {
+        "language": "fi",
+        "name": "Gibraltar"
+      },
+      {
+        "language": "sv",
+        "name": "Gibraltar"
+      }
+    ],
+    "code": "GI",
+    "dialCodes": [
+      "+350"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Greece"
+      },
+      {
+        "language": "fi",
+        "name": "Kreikka "
+      },
+      {
+        "language": "sv",
+        "name": "Grekland"
+      }
+    ],
+    "code": "GR",
+    "dialCodes": [
+      "+30"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Greenland"
+      },
+      {
+        "language": "fi",
+        "name": "Grönlanti"
+      },
+      {
+        "language": "sv",
+        "name": "Grönland"
+      }
+    ],
+    "code": "GL",
+    "dialCodes": [
+      "+299"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Grenada"
+      },
+      {
+        "language": "fi",
+        "name": "Grenada"
+      },
+      {
+        "language": "sv",
+        "name": "Grenada"
+      }
+    ],
+    "code": "GD",
+    "dialCodes": [
+      "+1473"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guadeloupe"
+      },
+      {
+        "language": "fi",
+        "name": "Guadeloupe"
+      },
+      {
+        "language": "sv",
+        "name": "Guadeloupe"
+      }
+    ],
+    "code": "GP",
+    "dialCodes": [
+      "+590"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guam"
+      },
+      {
+        "language": "fi",
+        "name": "Guam"
+      },
+      {
+        "language": "sv",
+        "name": "Guam"
+      }
+    ],
+    "code": "GU",
+    "dialCodes": [
+      "+1671"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guatemala"
+      },
+      {
+        "language": "fi",
+        "name": "Guatemala"
+      },
+      {
+        "language": "sv",
+        "name": "Guatemala"
+      }
+    ],
+    "code": "GT",
+    "dialCodes": [
+      "+502"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guinea"
+      },
+      {
+        "language": "fi",
+        "name": "Guinea"
+      },
+      {
+        "language": "sv",
+        "name": "Guinea"
+      }
+    ],
+    "code": "GN",
+    "dialCodes": [
+      "+224"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guinea-Bissau"
+      },
+      {
+        "language": "fi",
+        "name": "Guinea-Bissau"
+      },
+      {
+        "language": "sv",
+        "name": "Guinea-Bissau"
+      }
+    ],
+    "code": "GW",
+    "dialCodes": [
+      "+245"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Guyana"
+      },
+      {
+        "language": "fi",
+        "name": "Guyana"
+      },
+      {
+        "language": "sv",
+        "name": "Guyana"
+      }
+    ],
+    "code": "GY",
+    "dialCodes": [
+      "+592"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Haiti"
+      },
+      {
+        "language": "fi",
+        "name": "Haiti"
+      },
+      {
+        "language": "sv",
+        "name": "Haiti"
+      }
+    ],
+    "code": "HT",
+    "dialCodes": [
+      "+509"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Honduras"
+      },
+      {
+        "language": "fi",
+        "name": "Honduras"
+      },
+      {
+        "language": "sv",
+        "name": "Honduras"
+      }
+    ],
+    "code": "HN",
+    "dialCodes": [
+      "+504"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "HongKong"
+      },
+      {
+        "language": "fi",
+        "name": "Hongkong"
+      },
+      {
+        "language": "sv",
+        "name": "Hongkong"
+      }
+    ],
+    "code": "HK",
+    "dialCodes": [
+      "+852"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Hungary"
+      },
+      {
+        "language": "fi",
+        "name": "Unkari"
+      },
+      {
+        "language": "sv",
+        "name": "Ungern"
+      }
+    ],
+    "code": "HU",
+    "dialCodes": [
+      "+36"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Iceland"
+      },
+      {
+        "language": "fi",
+        "name": "Islanti"
+      },
+      {
+        "language": "sv",
+        "name": "Island"
+      }
+    ],
+    "code": "IS",
+    "dialCodes": [
+      "+354"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "India"
+      },
+      {
+        "language": "fi",
+        "name": "Intia"
+      },
+      {
+        "language": "sv",
+        "name": "Indien"
+      }
+    ],
+    "code": "IN",
+    "dialCodes": [
+      "+91"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Indonesia"
+      },
+      {
+        "language": "fi",
+        "name": "Indonesia"
+      },
+      {
+        "language": "sv",
+        "name": "Indonesien"
+      }
+    ],
+    "code": "ID",
+    "dialCodes": [
+      "+62"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Iran"
+      },
+      {
+        "language": "fi",
+        "name": "Iran"
+      },
+      {
+        "language": "sv",
+        "name": "Iran"
+      }
+    ],
+    "code": "IR",
+    "dialCodes": [
+      "+98"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Iraq"
+      },
+      {
+        "language": "fi",
+        "name": "Irak"
+      },
+      {
+        "language": "sv",
+        "name": "Irak"
+      }
+    ],
+    "code": "IQ",
+    "dialCodes": [
+      "+964"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ireland"
+      },
+      {
+        "language": "fi",
+        "name": "Irlanti"
+      },
+      {
+        "language": "sv",
+        "name": "Irland"
+      }
+    ],
+    "code": "IE",
+    "dialCodes": [
+      "+353"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Israel"
+      },
+      {
+        "language": "fi",
+        "name": "Israel"
+      },
+      {
+        "language": "sv",
+        "name": "Israel"
+      }
+    ],
+    "code": "IL",
+    "dialCodes": [
+      "+972"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Italy"
+      },
+      {
+        "language": "fi",
+        "name": "Italia"
+      },
+      {
+        "language": "sv",
+        "name": "Italien"
+      }
+    ],
+    "code": "IT",
+    "dialCodes": [
+      "+39"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ivory Coast"
+      },
+      {
+        "language": "fi",
+        "name": "Norsunluurannikko"
+      },
+      {
+        "language": "sv",
+        "name": "Elfenbenskusten"
+      }
+    ],
+    "code": "CI",
+    "dialCodes": [
+      "+225"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Jamaica"
+      },
+      {
+        "language": "fi",
+        "name": "Jamaika"
+      },
+      {
+        "language": "sv",
+        "name": "Jamaica"
+      }
+    ],
+    "code": "JM",
+    "dialCodes": [
+      "+1876"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Japan"
+      },
+      {
+        "language": "fi",
+        "name": "Japani"
+      },
+      {
+        "language": "sv",
+        "name": "Japan"
+      }
+    ],
+    "code": "JP",
+    "dialCodes": [
+      "+81"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Jordan"
+      },
+      {
+        "language": "fi",
+        "name": "Jordania"
+      },
+      {
+        "language": "sv",
+        "name": "Jordanien"
+      }
+    ],
+    "code": "JO",
+    "dialCodes": [
+      "+962"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Kazakhstan"
+      },
+      {
+        "language": "fi",
+        "name": "Kazakstan"
+      },
+      {
+        "language": "sv",
+        "name": "Kazakstan"
+      }
+    ],
+    "code": "KZ",
+    "dialCodes": [
+      "+7"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Kenya"
+      },
+      {
+        "language": "fi",
+        "name": "Kenia"
+      },
+      {
+        "language": "sv",
+        "name": "Kenya"
+      }
+    ],
+    "code": "KE",
+    "dialCodes": [
+      "+254"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Kiribati"
+      },
+      {
+        "language": "fi",
+        "name": "Kiribati"
+      },
+      {
+        "language": "sv",
+        "name": "Kiribati"
+      }
+    ],
+    "code": "KI",
+    "dialCodes": [
+      "+686"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Kuwait"
+      },
+      {
+        "language": "fi",
+        "name": "Kuwait"
+      },
+      {
+        "language": "sv",
+        "name": "Kuwait"
+      }
+    ],
+    "code": "KW",
+    "dialCodes": [
+      "+965"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Kyrgyzstan"
+      },
+      {
+        "language": "fi",
+        "name": "Kirgisia"
+      },
+      {
+        "language": "sv",
+        "name": "Kirgizistan"
+      }
+    ],
+    "code": "KG",
+    "dialCodes": [
+      "+996"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Laos"
+      },
+      {
+        "language": "fi",
+        "name": "Laos"
+      },
+      {
+        "language": "sv",
+        "name": "Laos"
+      }
+    ],
+    "code": "LA",
+    "dialCodes": [
+      "+856"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Latvia"
+      },
+      {
+        "language": "fi",
+        "name": "Latvia"
+      },
+      {
+        "language": "sv",
+        "name": "Lettland"
+      }
+    ],
+    "code": "LV",
+    "dialCodes": [
+      "+371"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Lebanon"
+      },
+      {
+        "language": "fi",
+        "name": "Libanon"
+      },
+      {
+        "language": "sv",
+        "name": "Libanon"
+      }
+    ],
+    "code": "LB",
+    "dialCodes": [
+      "+961"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Lesotho"
+      },
+      {
+        "language": "fi",
+        "name": "Lesotho"
+      },
+      {
+        "language": "sv",
+        "name": "Lesotho"
+      }
+    ],
+    "code": "LS",
+    "dialCodes": [
+      "+266"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Liberia"
+      },
+      {
+        "language": "fi",
+        "name": "Liberia"
+      },
+      {
+        "language": "sv",
+        "name": "Liberia"
+      }
+    ],
+    "code": "LR",
+    "dialCodes": [
+      "+231"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Libya"
+      },
+      {
+        "language": "fi",
+        "name": "Libya"
+      },
+      {
+        "language": "sv",
+        "name": "Libyen"
+      }
+    ],
+    "code": "LY",
+    "dialCodes": [
+      "+218"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Liechtenstein"
+      },
+      {
+        "language": "fi",
+        "name": "Liechtenstein"
+      },
+      {
+        "language": "sv",
+        "name": "Liechtenstein"
+      }
+    ],
+    "code": "LI",
+    "dialCodes": [
+      "+423"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Lithuania"
+      },
+      {
+        "language": "fi",
+        "name": "Liettua"
+      },
+      {
+        "language": "sv",
+        "name": "Litauen"
+      }
+    ],
+    "code": "LT",
+    "dialCodes": [
+      "+370"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Luxembourg"
+      },
+      {
+        "language": "fi",
+        "name": "Luxemburg"
+      },
+      {
+        "language": "sv",
+        "name": "Luxemburg"
+      }
+    ],
+    "code": "LU",
+    "dialCodes": [
+      "+352"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Macau"
+      },
+      {
+        "language": "fi",
+        "name": "Macao"
+      },
+      {
+        "language": "sv",
+        "name": "Macao"
+      }
+    ],
+    "code": "MO",
+    "dialCodes": [
+      "+853"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Macedonia"
+      },
+      {
+        "language": "fi",
+        "name": "Makedonia"
+      },
+      {
+        "language": "sv",
+        "name": "Makedonien"
+      }
+    ],
+    "code": "MK",
+    "dialCodes": [
+      "+389"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Madagascar"
+      },
+      {
+        "language": "fi",
+        "name": "Madagaskar"
+      },
+      {
+        "language": "sv",
+        "name": "Madagaskar"
+      }
+    ],
+    "code": "MG",
+    "dialCodes": [
+      "+261"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Malawi"
+      },
+      {
+        "language": "fi",
+        "name": "Malawi"
+      },
+      {
+        "language": "sv",
+        "name": "Malawi"
+      }
+    ],
+    "code": "MW",
+    "dialCodes": [
+      "+265"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Malaysia"
+      },
+      {
+        "language": "fi",
+        "name": "Malesia"
+      },
+      {
+        "language": "sv",
+        "name": "Malaysia"
+      }
+    ],
+    "code": "MY",
+    "dialCodes": [
+      "+60"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Maldives"
+      },
+      {
+        "language": "fi",
+        "name": "Malediivit"
+      },
+      {
+        "language": "sv",
+        "name": "Maldiverna"
+      }
+    ],
+    "code": "MV",
+    "dialCodes": [
+      "+960"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mali"
+      },
+      {
+        "language": "fi",
+        "name": "Mali"
+      },
+      {
+        "language": "sv",
+        "name": "Mali"
+      }
+    ],
+    "code": "ML",
+    "dialCodes": [
+      "+223"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Malta"
+      },
+      {
+        "language": "fi",
+        "name": "Malta"
+      },
+      {
+        "language": "sv",
+        "name": "Malta"
+      }
+    ],
+    "code": "MT",
+    "dialCodes": [
+      "+356"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Marshall Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Marshallinsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Marshallöarna"
+      }
+    ],
+    "code": "MH",
+    "dialCodes": [
+      "+692"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Martinique"
+      },
+      {
+        "language": "fi",
+        "name": "Martinique"
+      },
+      {
+        "language": "sv",
+        "name": "Martinique"
+      }
+    ],
+    "code": "MQ",
+    "dialCodes": [
+      "+596"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mauritania"
+      },
+      {
+        "language": "fi",
+        "name": "Mauritania"
+      },
+      {
+        "language": "sv",
+        "name": "Mauretanien"
+      }
+    ],
+    "code": "MR",
+    "dialCodes": [
+      "+222"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mauritius"
+      },
+      {
+        "language": "fi",
+        "name": "Mauritius"
+      },
+      {
+        "language": "sv",
+        "name": "Mauritius"
+      }
+    ],
+    "code": "MU",
+    "dialCodes": [
+      "+230"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mayotte"
+      },
+      {
+        "language": "fi",
+        "name": "Mayotte"
+      },
+      {
+        "language": "sv",
+        "name": "Mayotte"
+      }
+    ],
+    "code": "YT",
+    "dialCodes": [
+      "+262"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mexico"
+      },
+      {
+        "language": "fi",
+        "name": "Meksiko"
+      },
+      {
+        "language": "sv",
+        "name": "Mexiko"
+      }
+    ],
+    "code": "MX",
+    "dialCodes": [
+      "+52"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Micronesia"
+      },
+      {
+        "language": "fi",
+        "name": "Mikronesia"
+      },
+      {
+        "language": "sv",
+        "name": "Mikronesien"
+      }
+    ],
+    "code": "FM",
+    "dialCodes": [
+      "+691"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Moldova"
+      },
+      {
+        "language": "fi",
+        "name": "Moldova"
+      },
+      {
+        "language": "sv",
+        "name": "Moldavien"
+      }
+    ],
+    "code": "MD",
+    "dialCodes": [
+      "+373"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Monaco"
+      },
+      {
+        "language": "fi",
+        "name": "Monaco"
+      },
+      {
+        "language": "sv",
+        "name": "Monaco"
+      }
+    ],
+    "code": "MC",
+    "dialCodes": [
+      "+377"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mongolia"
+      },
+      {
+        "language": "fi",
+        "name": "Mongolia"
+      },
+      {
+        "language": "sv",
+        "name": "Mongoliet"
+      }
+    ],
+    "code": "MN",
+    "dialCodes": [
+      "+976"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Montenegro"
+      },
+      {
+        "language": "fi",
+        "name": "Montenegro"
+      },
+      {
+        "language": "sv",
+        "name": "Montenegro"
+      }
+    ],
+    "code": "ME",
+    "dialCodes": [
+      "+382"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Montserrat"
+      },
+      {
+        "language": "fi",
+        "name": "Montserrat"
+      },
+      {
+        "language": "sv",
+        "name": "Montserrat"
+      }
+    ],
+    "code": "MS",
+    "dialCodes": [
+      "+1664"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Morocco"
+      },
+      {
+        "language": "fi",
+        "name": "Marokko"
+      },
+      {
+        "language": "sv",
+        "name": "Marocko"
+      }
+    ],
+    "code": "MA",
+    "dialCodes": [
+      "+212"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Mozambique"
+      },
+      {
+        "language": "fi",
+        "name": "Mosambik"
+      },
+      {
+        "language": "sv",
+        "name": "Moçambique"
+      }
+    ],
+    "code": "MZ",
+    "dialCodes": [
+      "+258"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Myanmar"
+      },
+      {
+        "language": "fi",
+        "name": "Myanmar"
+      },
+      {
+        "language": "sv",
+        "name": "Myanmar "
+      }
+    ],
+    "code": "MM",
+    "dialCodes": [
+      "+95"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Namibia"
+      },
+      {
+        "language": "fi",
+        "name": "Namibia"
+      },
+      {
+        "language": "sv",
+        "name": "Namibia"
+      }
+    ],
+    "code": "NA",
+    "dialCodes": [
+      "+264"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Nauru"
+      },
+      {
+        "language": "fi",
+        "name": "Nauru"
+      },
+      {
+        "language": "sv",
+        "name": "Nauru"
+      }
+    ],
+    "code": "NR",
+    "dialCodes": [
+      "+674"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Nepal"
+      },
+      {
+        "language": "fi",
+        "name": "Nepal"
+      },
+      {
+        "language": "sv",
+        "name": "Nepal"
+      }
+    ],
+    "code": "NP",
+    "dialCodes": [
+      "+977"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Netherlands"
+      },
+      {
+        "language": "fi",
+        "name": "Alankomaat"
+      },
+      {
+        "language": "sv",
+        "name": "Nederländerna"
+      }
+    ],
+    "code": "NL",
+    "dialCodes": [
+      "+31"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "New Caledonia"
+      },
+      {
+        "language": "fi",
+        "name": "Uusi-Kaledonia"
+      },
+      {
+        "language": "sv",
+        "name": "Nya Kaledonien"
+      }
+    ],
+    "code": "NC",
+    "dialCodes": [
+      "+687"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "New Zealand"
+      },
+      {
+        "language": "fi",
+        "name": "Uusi-Seelanti"
+      },
+      {
+        "language": "sv",
+        "name": "Nya Zeeland"
+      }
+    ],
+    "code": "NZ",
+    "dialCodes": [
+      "+64"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Nicaragua"
+      },
+      {
+        "language": "fi",
+        "name": "Nicaragua"
+      },
+      {
+        "language": "sv",
+        "name": "Nicaragua"
+      }
+    ],
+    "code": "NI",
+    "dialCodes": [
+      "+505"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Niger"
+      },
+      {
+        "language": "fi",
+        "name": "Niger"
+      },
+      {
+        "language": "sv",
+        "name": "Niger"
+      }
+    ],
+    "code": "NE",
+    "dialCodes": [
+      "+227"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Nigeria"
+      },
+      {
+        "language": "fi",
+        "name": "Nigeria"
+      },
+      {
+        "language": "sv",
+        "name": "Nigeria"
+      }
+    ],
+    "code": "NG",
+    "dialCodes": [
+      "+234"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Niue"
+      },
+      {
+        "language": "fi",
+        "name": "Niue"
+      },
+      {
+        "language": "sv",
+        "name": "Niue"
+      }
+    ],
+    "code": "NU",
+    "dialCodes": [
+      "+683"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "North Korea"
+      },
+      {
+        "language": "fi",
+        "name": "Pohjois-Korea"
+      },
+      {
+        "language": "sv",
+        "name": "Nordkorea"
+      }
+    ],
+    "code": "KP",
+    "dialCodes": [
+      "+850"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Northern Mariana Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Pohjois-Mariaanit"
+      },
+      {
+        "language": "sv",
+        "name": "Nordmarianerna"
+      }
+    ],
+    "code": "MP",
+    "dialCodes": [
+      "+1670"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Norway"
+      },
+      {
+        "language": "fi",
+        "name": "Norja"
+      },
+      {
+        "language": "sv",
+        "name": "Norge"
+      }
+    ],
+    "code": "NO",
+    "dialCodes": [
+      "+47"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Oman"
+      },
+      {
+        "language": "fi",
+        "name": "Oman"
+      },
+      {
+        "language": "sv",
+        "name": "Oman"
+      }
+    ],
+    "code": "OM",
+    "dialCodes": [
+      "+968"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Pakistan"
+      },
+      {
+        "language": "fi",
+        "name": "Pakistan"
+      },
+      {
+        "language": "sv",
+        "name": "Pakistan"
+      }
+    ],
+    "code": "PK",
+    "dialCodes": [
+      "+92"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Palau"
+      },
+      {
+        "language": "fi",
+        "name": "Palau"
+      },
+      {
+        "language": "sv",
+        "name": "Palau"
+      }
+    ],
+    "code": "PW",
+    "dialCodes": [
+      "+680"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Palestine"
+      },
+      {
+        "language": "fi",
+        "name": "Palestiina"
+      },
+      {
+        "language": "sv",
+        "name": "Palestina"
+      }
+    ],
+    "code": "PS",
+    "dialCodes": [
+      "+970"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Panama"
+      },
+      {
+        "language": "fi",
+        "name": "Panama"
+      },
+      {
+        "language": "sv",
+        "name": "Panama"
+      }
+    ],
+    "code": "PA",
+    "dialCodes": [
+      "+507"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Papua New Guinea"
+      },
+      {
+        "language": "fi",
+        "name": "Papua-Uusi-Guinea"
+      },
+      {
+        "language": "sv",
+        "name": "Papua Nya Guinea"
+      }
+    ],
+    "code": "PG",
+    "dialCodes": [
+      "+675"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Paraguay"
+      },
+      {
+        "language": "fi",
+        "name": "Paraguay"
+      },
+      {
+        "language": "sv",
+        "name": "Paraguay"
+      }
+    ],
+    "code": "PY",
+    "dialCodes": [
+      "+595"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Peru"
+      },
+      {
+        "language": "fi",
+        "name": "Peru"
+      },
+      {
+        "language": "sv",
+        "name": "Peru"
+      }
+    ],
+    "code": "PE",
+    "dialCodes": [
+      "+51"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Philippines"
+      },
+      {
+        "language": "fi",
+        "name": "Filippiinit"
+      },
+      {
+        "language": "sv",
+        "name": "Filippinerna"
+      }
+    ],
+    "code": "PH",
+    "dialCodes": [
+      "+63"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Poland"
+      },
+      {
+        "language": "fi",
+        "name": "Puola"
+      },
+      {
+        "language": "sv",
+        "name": "Polen"
+      }
+    ],
+    "code": "PL",
+    "dialCodes": [
+      "+48"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Portugal"
+      },
+      {
+        "language": "fi",
+        "name": "Portugali"
+      },
+      {
+        "language": "sv",
+        "name": "Portugal"
+      }
+    ],
+    "code": "PT",
+    "dialCodes": [
+      "+351"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Puerto Rico"
+      },
+      {
+        "language": "fi",
+        "name": "Puerto Rico"
+      },
+      {
+        "language": "sv",
+        "name": "Puerto Rico"
+      }
+    ],
+    "code": "PR",
+    "dialCodes": [
+      "+1787",
+      "+1939"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Qatar"
+      },
+      {
+        "language": "fi",
+        "name": "Qatar"
+      },
+      {
+        "language": "sv",
+        "name": "Qatar"
+      }
+    ],
+    "code": "QA",
+    "dialCodes": [
+      "+974"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Reunion"
+      },
+      {
+        "language": "fi",
+        "name": "Réunion"
+      },
+      {
+        "language": "sv",
+        "name": "Réunion"
+      }
+    ],
+    "code": "RE",
+    "dialCodes": [
+      "+262"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Romania"
+      },
+      {
+        "language": "fi",
+        "name": "Romania"
+      },
+      {
+        "language": "sv",
+        "name": "Rumänien"
+      }
+    ],
+    "code": "RO",
+    "dialCodes": [
+      "+40"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Russian Federation"
+      },
+      {
+        "language": "fi",
+        "name": "Venäjä "
+      },
+      {
+        "language": "sv",
+        "name": "Ryssland"
+      }
+    ],
+    "code": "RU",
+    "dialCodes": [
+      "+7"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Rwanda"
+      },
+      {
+        "language": "fi",
+        "name": "Ruanda"
+      },
+      {
+        "language": "sv",
+        "name": "Rwanda"
+      }
+    ],
+    "code": "RW",
+    "dialCodes": [
+      "+250"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saint Helena"
+      },
+      {
+        "language": "fi",
+        "name": "Saint Helena"
+      },
+      {
+        "language": "sv",
+        "name": "Saint Helena"
+      }
+    ],
+    "code": "SH",
+    "dialCodes": [
+      "+290"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saint Kitts and Nevis"
+      },
+      {
+        "language": "fi",
+        "name": "Saint Kitts ja Nevis"
+      },
+      {
+        "language": "sv",
+        "name": "Saint Kitts och Nevis"
+      }
+    ],
+    "code": "KN",
+    "dialCodes": [
+      "+1869"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saint Lucia"
+      },
+      {
+        "language": "fi",
+        "name": "Saint Lucia"
+      },
+      {
+        "language": "sv",
+        "name": "Saint Lucia"
+      }
+    ],
+    "code": "LC",
+    "dialCodes": [
+      "+1758"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saint Pierre and Miquelon"
+      },
+      {
+        "language": "fi",
+        "name": "Saint-Pierre ja Miquelon"
+      },
+      {
+        "language": "sv",
+        "name": "Saint Pierre och Miquelon"
+      }
+    ],
+    "code": "PM",
+    "dialCodes": [
+      "+508"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saint Vincent and the Grenadines"
+      },
+      {
+        "language": "fi",
+        "name": "Saint Vincent ja Grenadiinit"
+      },
+      {
+        "language": "sv",
+        "name": "Saint Vincent och Grenadinerna"
+      }
+    ],
+    "code": "VC",
+    "dialCodes": [
+      "+1784"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Samoa"
+      },
+      {
+        "language": "fi",
+        "name": "Samoa"
+      },
+      {
+        "language": "sv",
+        "name": "Samoa"
+      }
+    ],
+    "code": "WS",
+    "dialCodes": [
+      "+685"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "San Marino"
+      },
+      {
+        "language": "fi",
+        "name": "San Marino"
+      },
+      {
+        "language": "sv",
+        "name": "San Marino"
+      }
+    ],
+    "code": "SM",
+    "dialCodes": [
+      "+378"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sao Tome and Principe"
+      },
+      {
+        "language": "fi",
+        "name": "São Tomé ja Príncipe"
+      },
+      {
+        "language": "sv",
+        "name": "São Tomé och Príncipe"
+      }
+    ],
+    "code": "ST",
+    "dialCodes": [
+      "+239"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Saudi Arabia"
+      },
+      {
+        "language": "fi",
+        "name": "Saudi-Arabia"
+      },
+      {
+        "language": "sv",
+        "name": "Saudiarabien"
+      }
+    ],
+    "code": "SA",
+    "dialCodes": [
+      "+966"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Senegal"
+      },
+      {
+        "language": "fi",
+        "name": "Senegal"
+      },
+      {
+        "language": "sv",
+        "name": "Senegal"
+      }
+    ],
+    "code": "SN",
+    "dialCodes": [
+      "+221"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Serbia"
+      },
+      {
+        "language": "fi",
+        "name": "Serbia"
+      },
+      {
+        "language": "sv",
+        "name": "Serbien"
+      }
+    ],
+    "code": "RS",
+    "dialCodes": [
+      "+381"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Seychelles"
+      },
+      {
+        "language": "fi",
+        "name": "Seychellit"
+      },
+      {
+        "language": "sv",
+        "name": "Seychellerna"
+      }
+    ],
+    "code": "SC",
+    "dialCodes": [
+      "+248"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sierra Leone"
+      },
+      {
+        "language": "fi",
+        "name": "Sierra Leone"
+      },
+      {
+        "language": "sv",
+        "name": "Sierra Leone"
+      }
+    ],
+    "code": "SL",
+    "dialCodes": [
+      "+232"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Singapore"
+      },
+      {
+        "language": "fi",
+        "name": "Singapore"
+      },
+      {
+        "language": "sv",
+        "name": "Singapore"
+      }
+    ],
+    "code": "SG",
+    "dialCodes": [
+      "+65"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sint Maarten"
+      },
+      {
+        "language": "fi",
+        "name": "Sint Maarten"
+      },
+      {
+        "language": "sv",
+        "name": "Sint Maarten"
+      }
+    ],
+    "code": "SX",
+    "dialCodes": [
+      "+1"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Slovakia"
+      },
+      {
+        "language": "fi",
+        "name": "Slovakia"
+      },
+      {
+        "language": "sv",
+        "name": "Slovakien"
+      }
+    ],
+    "code": "SK",
+    "dialCodes": [
+      "+421"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Slovenia"
+      },
+      {
+        "language": "fi",
+        "name": "Slovenia"
+      },
+      {
+        "language": "sv",
+        "name": "Slovenien"
+      }
+    ],
+    "code": "SI",
+    "dialCodes": [
+      "+386"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Solomon Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Salomonsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Salomonöarna"
+      }
+    ],
+    "code": "SB",
+    "dialCodes": [
+      "+677"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Somalia"
+      },
+      {
+        "language": "fi",
+        "name": "Somalia"
+      },
+      {
+        "language": "sv",
+        "name": "Somalia"
+      }
+    ],
+    "code": "SO",
+    "dialCodes": [
+      "+252"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "South Africa"
+      },
+      {
+        "language": "fi",
+        "name": "Etelä-Afrikka"
+      },
+      {
+        "language": "sv",
+        "name": "Sydafrika"
+      }
+    ],
+    "code": "ZA",
+    "dialCodes": [
+      "+27"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "South Korea"
+      },
+      {
+        "language": "fi",
+        "name": "Etelä-Korea"
+      },
+      {
+        "language": "sv",
+        "name": "Sydkorea"
+      }
+    ],
+    "code": "KR",
+    "dialCodes": [
+      "+82"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "South Sudan"
+      },
+      {
+        "language": "fi",
+        "name": "Etelä-Sudan"
+      },
+      {
+        "language": "sv",
+        "name": "Sydsudan"
+      }
+    ],
+    "code": "SS",
+    "dialCodes": [
+      "+211"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Spain"
+      },
+      {
+        "language": "fi",
+        "name": "Espanja"
+      },
+      {
+        "language": "sv",
+        "name": "Spanien"
+      }
+    ],
+    "code": "ES",
+    "dialCodes": [
+      "+34"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sri Lanka"
+      },
+      {
+        "language": "fi",
+        "name": "Sri Lanka"
+      },
+      {
+        "language": "sv",
+        "name": "Sri Lanka"
+      }
+    ],
+    "code": "LK",
+    "dialCodes": [
+      "+94"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sudan"
+      },
+      {
+        "language": "fi",
+        "name": "Sudan"
+      },
+      {
+        "language": "sv",
+        "name": "Sudan"
+      }
+    ],
+    "code": "SD",
+    "dialCodes": [
+      "+249"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Suriname"
+      },
+      {
+        "language": "fi",
+        "name": "Suriname"
+      },
+      {
+        "language": "sv",
+        "name": "Surinam"
+      }
+    ],
+    "code": "SR",
+    "dialCodes": [
+      "+597"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Swaziland"
+      },
+      {
+        "language": "fi",
+        "name": "Swazimaa"
+      },
+      {
+        "language": "sv",
+        "name": "Swaziland"
+      }
+    ],
+    "code": "SZ",
+    "dialCodes": [
+      "+268"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Sweden"
+      },
+      {
+        "language": "fi",
+        "name": "Ruotsi"
+      },
+      {
+        "language": "sv",
+        "name": "Sverige"
+      }
+    ],
+    "code": "SE",
+    "dialCodes": [
+      "+46"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Switzerland"
+      },
+      {
+        "language": "fi",
+        "name": "Sveitsi"
+      },
+      {
+        "language": "sv",
+        "name": "Schweiz"
+      }
+    ],
+    "code": "CH",
+    "dialCodes": [
+      "+41"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Syrian"
+      },
+      {
+        "language": "fi",
+        "name": "Syyria"
+      },
+      {
+        "language": "sv",
+        "name": "Syrien"
+      }
+    ],
+    "code": "SY",
+    "dialCodes": [
+      "+963"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Taiwan"
+      },
+      {
+        "language": "fi",
+        "name": "Taiwan"
+      },
+      {
+        "language": "sv",
+        "name": "Taiwan"
+      }
+    ],
+    "code": "TW",
+    "dialCodes": [
+      "+886"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Tajikistan"
+      },
+      {
+        "language": "fi",
+        "name": "Tadžikistan"
+      },
+      {
+        "language": "sv",
+        "name": "Tadzjikistan"
+      }
+    ],
+    "code": "TJ",
+    "dialCodes": [
+      "+992"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Thailand"
+      },
+      {
+        "language": "fi",
+        "name": "Thaimaa"
+      },
+      {
+        "language": "sv",
+        "name": "Thailand"
+      }
+    ],
+    "code": "TH",
+    "dialCodes": [
+      "+66"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Timor-Leste"
+      },
+      {
+        "language": "fi",
+        "name": "Itä-Timor"
+      },
+      {
+        "language": "sv",
+        "name": "Östtimor"
+      }
+    ],
+    "code": "TL",
+    "dialCodes": [
+      "+670"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Togo"
+      },
+      {
+        "language": "fi",
+        "name": "Togo"
+      },
+      {
+        "language": "sv",
+        "name": "Togo"
+      }
+    ],
+    "code": "TG",
+    "dialCodes": [
+      "+228"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Tokelau"
+      },
+      {
+        "language": "fi",
+        "name": "Tokelau"
+      },
+      {
+        "language": "sv",
+        "name": "Tokelauöarna"
+      }
+    ],
+    "code": "TK",
+    "dialCodes": [
+      "+690"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Tonga"
+      },
+      {
+        "language": "fi",
+        "name": "Tonga"
+      },
+      {
+        "language": "sv",
+        "name": "Tonga"
+      }
+    ],
+    "code": "TO",
+    "dialCodes": [
+      "+676"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Trinidad and Tobago"
+      },
+      {
+        "language": "fi",
+        "name": "Trinidad ja Tobago"
+      },
+      {
+        "language": "sv",
+        "name": "Trinidad och Tobago"
+      }
+    ],
+    "code": "TT",
+    "dialCodes": [
+      "+1868"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Tunisia"
+      },
+      {
+        "language": "fi",
+        "name": "Tunisia"
+      },
+      {
+        "language": "sv",
+        "name": "Tunisien"
+      }
+    ],
+    "code": "TN",
+    "dialCodes": [
+      "+216"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Turkey"
+      },
+      {
+        "language": "fi",
+        "name": "Turkki"
+      },
+      {
+        "language": "sv",
+        "name": "Turkiet"
+      }
+    ],
+    "code": "TR",
+    "dialCodes": [
+      "+90"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Turkmenistan"
+      },
+      {
+        "language": "fi",
+        "name": "Turkmenistan"
+      },
+      {
+        "language": "sv",
+        "name": "Turkmenistan"
+      }
+    ],
+    "code": "TM",
+    "dialCodes": [
+      "+993"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Turks and Caicos Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Turks-ja Caicossaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Turks- och Caicosöarna"
+      }
+    ],
+    "code": "TC",
+    "dialCodes": [
+      "+1649"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Tuvalu"
+      },
+      {
+        "language": "fi",
+        "name": "Tuvalu"
+      },
+      {
+        "language": "sv",
+        "name": "Tuvalu"
+      }
+    ],
+    "code": "TV",
+    "dialCodes": [
+      "+688"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Uganda"
+      },
+      {
+        "language": "fi",
+        "name": "Uganda"
+      },
+      {
+        "language": "sv",
+        "name": "Uganda"
+      }
+    ],
+    "code": "UG",
+    "dialCodes": [
+      "+256"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Ukraine"
+      },
+      {
+        "language": "fi",
+        "name": "Ukraina"
+      },
+      {
+        "language": "sv",
+        "name": "Ukraina"
+      }
+    ],
+    "code": "UA",
+    "dialCodes": [
+      "+380"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "United Arab Emirates"
+      },
+      {
+        "language": "fi",
+        "name": "Arabiemiirikunnat"
+      },
+      {
+        "language": "sv",
+        "name": "Förenade Arabemiraten"
+      }
+    ],
+    "code": "AE",
+    "dialCodes": [
+      "+971"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "United Kingdom"
+      },
+      {
+        "language": "fi",
+        "name": "Iso-Britannia"
+      },
+      {
+        "language": "sv",
+        "name": "Storbritannien"
+      }
+    ],
+    "code": "GB",
+    "dialCodes": [
+      "+44"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "United Republic of Tanzania"
+      },
+      {
+        "language": "fi",
+        "name": "Tansania"
+      },
+      {
+        "language": "sv",
+        "name": "Tanzania"
+      }
+    ],
+    "code": "TZ",
+    "dialCodes": [
+      "+255"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "United States"
+      },
+      {
+        "language": "fi",
+        "name": "Yhdysvallat"
+      },
+      {
+        "language": "sv",
+        "name": "Förenta staterna"
+      }
+    ],
+    "code": "US",
+    "dialCodes": [
+      "+1"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "United States Virgin Islands"
+      },
+      {
+        "language": "fi",
+        "name": "Yhdysvaltain Neitsytsaaret"
+      },
+      {
+        "language": "sv",
+        "name": "Amerikanska Jungfruöarna"
+      }
+    ],
+    "code": "VI",
+    "dialCodes": [
+      "+1340"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Uruguay"
+      },
+      {
+        "language": "fi",
+        "name": "Uruguay"
+      },
+      {
+        "language": "sv",
+        "name": "Uruguay"
+      }
+    ],
+    "code": "UY",
+    "dialCodes": [
+      "+598"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Uzbekistan"
+      },
+      {
+        "language": "fi",
+        "name": "Uzbekistan"
+      },
+      {
+        "language": "sv",
+        "name": "Uzbekistan"
+      }
+    ],
+    "code": "UZ",
+    "dialCodes": [
+      "+998"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Wallis and Futuna"
+      },
+      {
+        "language": "fi",
+        "name": "Wallis ja Futuna"
+      },
+      {
+        "language": "sv",
+        "name": "Wallis och Futuna"
+      }
+    ],
+    "code": "WF",
+    "dialCodes": [
+      "+681"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Vanuatu"
+      },
+      {
+        "language": "fi",
+        "name": "Vanuatu"
+      },
+      {
+        "language": "sv",
+        "name": "Vanuatu"
+      }
+    ],
+    "code": "VU",
+    "dialCodes": [
+      "+678"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Vatican City"
+      },
+      {
+        "language": "fi",
+        "name": "Vatikaani  "
+      },
+      {
+        "language": "sv",
+        "name": "Vatikanen"
+      }
+    ],
+    "code": "VA",
+    "dialCodes": [
+      "+379"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Venezuela"
+      },
+      {
+        "language": "fi",
+        "name": "Venezuela"
+      },
+      {
+        "language": "sv",
+        "name": "Venezuela"
+      }
+    ],
+    "code": "VE",
+    "dialCodes": [
+      "+58"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Vietnam"
+      },
+      {
+        "language": "fi",
+        "name": "Vietnam"
+      },
+      {
+        "language": "sv",
+        "name": "Vietnam"
+      }
+    ],
+    "code": "VN",
+    "dialCodes": [
+      "+84"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Yemen"
+      },
+      {
+        "language": "fi",
+        "name": "Jemen"
+      },
+      {
+        "language": "sv",
+        "name": "Jemen"
+      }
+    ],
+    "code": "YE",
+    "dialCodes": [
+      "+967"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Zambia"
+      },
+      {
+        "language": "fi",
+        "name": "Sambia"
+      },
+      {
+        "language": "sv",
+        "name": "Zambia"
+      }
+    ],
+    "code": "ZM",
+    "dialCodes": [
+      "+260"
+    ]
+  },
+  {
+    "names": [
+      {
+        "language": "en",
+        "name": "Zimbabwe"
+      },
+      {
+        "language": "fi",
+        "name": "Zimbabwe"
+      },
+      {
+        "language": "sv",
+        "name": "Zimbabwe"
+      }
+    ],
+    "code": "ZW",
+    "dialCodes": [
+      "+263"
+    ]
+  }
+]

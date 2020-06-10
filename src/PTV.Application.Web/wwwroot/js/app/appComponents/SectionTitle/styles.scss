@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.sectionTitle {
+  h3 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2001",
+    "notation": "KR1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2003",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2002",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2007",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2006",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2005",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2004"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Kansalaiset",
+      "sv": "Medborgare",
+      "en": "Citizens"
+    },
+    "exactMatchURIs": [],
+    "notes": {
+      "fi": [
+        "Palvelutietovarantoon kuvattavalle palvelulle valitaan Kansalaiset-kohderyhmä, kun palvelun halutaan näkyvän kansalaisen palvelunäkymässä. Saman palvelun voi kytkeä myös Yritykset- ja/tai Viranomaiset-kohderyhmään, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+      ]
+    },
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2017",
+    "notation": "KR3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Viranomaiset",
+      "sv": "Myndigheter",
+      "en": "Authorities"
+    },
+    "exactMatchURIs": [],
+    "notes": {
+      "fi": [
+        "Palvelutietovarantoon kuvattavalle palvelulle valitaan Viranomaiset-kohderyhmä, kun palvelun halutaan näkyvän viranomaisen palvelunäkymässä. Saman palvelun voi kytkeä myös Kansalaiset- ja/tai Yritykset-kohderyhmiin, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+      ]
+    },
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2015",
+    "notation": "KR2.7",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Yhdistykset ja järjestöt",
+      "sv": "Föreningar och organisationer",
+      "en": "Non-government organizations"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2006",
+    "notation": "KR1.5",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Utlandsfinländare",
+      "fi": "Ulkosuomalaiset",
+      "en": "Expatriate Finns"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2007",
+    "notation": "KR1.6",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Vammaiset",
+      "sv": "Handikappade",
+      "en": "Disabled people"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2009",
+    "notation": "KR2.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Internationalisering av företag",
+      "fi": "Kansainvälistyvät yritykset",
+      "en": "Businesses going international"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2013",
+    "notation": "KR2.5",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Storföretag",
+      "fi": "Suuryritykset",
+      "en": "Large companies"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2012",
+    "notation": "KR2.4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Suomeen ulkomailta tulevat yrittäjät",
+      "sv": "Utländska entreprenörer i Finland",
+      "en": "Foreign entrepreneurs in Finland"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2016",
+    "notation": "KR2.8",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Inhemska företagsgrundare",
+      "fi": "Yrityksen perustajat kotimaassa",
+      "en": "Finnish startups"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2014",
+    "notation": "KR2.6",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Arbetsgivare",
+      "fi": "Työnantajat",
+      "en": "Employers"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2011",
+    "notation": "KR2.3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Företag på den inhemska marknaden",
+      "fi": "Kotimarkkinoilla toimivat yritykset",
+      "en": "Businesses operating in the domestic (Finnish) market"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2003",
+    "notation": "KR1.2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Barn och barnfamiljer",
+      "fi": "Lapset ja lapsiperheet",
+      "en": "Children and families with children"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2002",
+    "notation": "KR1.1",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Ikäihmiset",
+      "sv": "De äldre",
+      "en": "Seniors"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2005",
+    "notation": "KR1.4",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Pitkäaikaissairaat",
+      "sv": "Långtidssjuka",
+      "en": "People with long-term illnesses"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2004",
+    "notation": "KR1.3",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Nuoret",
+      "sv": "De unga",
+      "en": "Young people"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2008",
+    "notation": "KR2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [],
+    "narrowerURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2012",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2011",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2014",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2013",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2009",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2016",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2010",
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2015"
+    ],
+    "associatedURIs": [],
+    "label": {
+      "sv": "Företag och samfund",
+      "fi": "Yritykset ja yhteisöt",
+      "en": "Businesses and non-government organizations"
+    },
+    "exactMatchURIs": [],
+    "notes": {
+      "fi": [
+        "Palvelutietovarantoon kuvattavalle palvelulle valitaan Yritykset-kohderyhmä, kun palvelun halutaan näkyvän yrityksen palvelunäkymässä. Saman palvelun voi kytkeä myös Kansalaiset- ja/tai Viranomaiset-kohderyhmään, jos palvelun halutaan näkyvän myös näissä palvelunäkymän versioissa."
+      ]
+    },
+    "altLabels": {},
+    "hiddenLabels": {}
+  },
+  {
+    "id": "http://urn.fi/URN:NBN:fi:au:ptvl:v2010",
+    "notation": "KR2.2",
+    "scheme": "http://urn.fi/URN:NBN:fi:au:ptvl:KR",
+    "conceptTypeURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "conceptType": "TARGETGROUP",
+    "replacedBy": null,
+    "broaderURIs": [
+      "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+    ],
+    "narrowerURIs": [],
+    "associatedURIs": [],
+    "label": {
+      "fi": "Keksijät",
+      "sv": "Uppfinnare",
+      "en": "Inventors"
+    },
+    "exactMatchURIs": [],
+    "notes": {},
+    "altLabels": {},
+    "hiddenLabels": {}
+  }
+]

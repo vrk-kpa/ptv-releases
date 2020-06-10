@@ -1,0 +1,55 @@
+﻿[
+    {
+        "code": "Main",
+        "names": [
+            {
+                "Name": "Tärkein",
+                "language": "fi"
+            },
+            {
+                "Name": "Main",
+                "language": "en"
+            },
+            {
+                "Name": "Huvud",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "User",
+        "names": [
+            {
+                "Name": "Käyttäjä",
+                "language": "fi"
+            },
+            {
+                "Name": "User",
+                "language": "en"
+            },
+            {
+                "Name": "Användare",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "AccessibilityRegister",
+        "names": [
+            {
+                "Name": "Esteettömystiedot",
+                "language": "fi"
+            },
+            {
+                "Name": "AccessibilityRegister",
+                "language": "en"
+            },
+            {
+                "Name": "Tillgänglighetsinformation",
+                "language": "sv"
+            }
+        ]
+    }
+]

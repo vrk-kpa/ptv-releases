@@ -1,0 +1,24 @@
+<xsd:schema 
+  elementFormDefault="qualified" 
+  targetNamespace="http://palvelutietovaranto.suomi.fi/ptv" 
+  xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:gml="http://www.opengis.net/gml">
+
+  <xsd:complexType name="locationOrganizationNameType">
+    <xsd:complexContent>
+      <xsd:extension base="gml:AbstractFeatureType">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="0" name="addressId" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="organizationVersionedId" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="organizationRootId" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="coordinateState" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="coordinateType" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="location" nillable="true" type="gml:PointPropertyType"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="languageCode" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="organizationName" nillable="true" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+-			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceChannelLanguage.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>lc_LocationChannelLan</sourceType>
+			<targetElement>ptv:palveluPaikkaKielet</targetElement>
+			<isDenormalised>false</isDenormalised>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:palveluPaikkaKielet</targetAttribute>
+					<idExpression><OCQL>RootId</OCQL></idExpression>
+				</AttributeMapping>
+				
+				<!-- unific root id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:rootId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>RootId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- versioned id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:versionedId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>VersionedId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- currently open -->
+				<AttributeMapping>
+					<targetAttribute>ptv:currentlyOpen</targetAttribute>
+					<sourceExpression>
+						<OCQL>CurrentlyOpen</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiSuomi</targetAttribute>
+					<sourceExpression>
+						<OCQL>Name_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiRuotsi</targetAttribute>
+					<sourceExpression>
+						<OCQL>Name_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiEnglanti</targetAttribute>
+					<sourceExpression>
+						<OCQL>Name_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- organization name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organisaatioSuomi</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationName_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+								
+				<!-- organization name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organisaatioRuotsi</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationName_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- organization name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organisaatioEnglanti</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationName_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- services  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:palvelut</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:palveluPaikkaNimiKielet</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- municipalities  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:kunnat</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:kuntaNimiKielet</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- location -->
+				<AttributeMapping>
+					<targetAttribute>ptv:sijainti3067</targetAttribute>
+					<sourceExpression>
+						<OCQL>Location3067</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

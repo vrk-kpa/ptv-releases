@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.editorDisplay {
+  :global {
+    .DraftEditor-root {
+      padding: 0;
+      border: none;
+    }
+    .DraftEditor-editorContainer,.DraftEditor-root,.public-DraftEditor-content {
+      min-height: auto;
+    }
+  }
+}

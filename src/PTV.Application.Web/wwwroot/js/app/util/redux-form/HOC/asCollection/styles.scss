@@ -1,0 +1,234 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+$collection-inner-padding: 30px;
+
+// .collectionWrap {
+//   margin-top: 10px;
+// }
+
+.collection {
+  // background-color: bg-color(site);
+  // border: 1px solid border-color(border);
+}
+
+// .collectionHead {
+//   background-color: bg-color(site);
+//   display: inline-flex;
+//   align-items: center;
+//   padding: 8px $collection-inner-padding;
+//   cursor: pointer;
+//   border: 1px solid border-color(border);
+//   border-bottom: none;
+//   position: relative;
+//   top: 1px;
+// }
+
+// .collectionTitle {
+//   margin-right: 4px;
+// }
+
+.collectionBody {
+  // padding-bottom: 15px;
+  // border-bottom: 1px solid border-color(border);
+}
+
+.collectionItem {
+  display: flex;
+  justify-content: space-between;
+  // margin-top: 10px;
+  padding: 10px $collection-inner-padding 10px $collection-inner-padding;
+  & ~ .collectionItem {
+    border-top: 1px solid border-color(border);
+  }
+  > div:first-child {
+    // flex: 1 0 auto;
+    width: 100%;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
+  // :global {
+  //   [class*='styles__compareMode'] & {
+  //     position: relative;
+  //     [class*='styles__collectionItemRemove'] {
+  //       position: absolute;
+  //       top: 10px;
+  //       // right: calc(50% + 10px);
+  //       right: 10px;
+  //     }
+  //   }
+  // }
+}
+
+.collectionItemHelpText {
+  margin-top: 10px;
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.simple {
+  .collectionItem {
+    // border: 1px solid border-color(border);
+    padding: 0 $collection-inner-padding 0 $collection-inner-padding;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.collectionItemRemove {
+  height: 20px;
+  line-height: 20px;
+  // padding-left: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.simple {
+  .collectionItemRemove {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+}
+
+.collectionFoot {
+  padding: 15px $collection-inner-padding;
+  // background-color: bg-color(content);
+}
+
+.simple {
+  .collectionFoot {
+    padding: 15px 0;
+    background-color: transparent;
+  }
+}
+
+.isCollapsed {
+  .collectionTitle {
+    color: interaction-color(primary);
+  }
+  .collectionHead {
+    background-color: bg-color(content);
+    padding: 4px 0;
+    border: none;
+  }
+}
+
+.hideRemove {
+  > * {
+    visibility: hidden;
+  }
+}
+
+.buttonGroup {
+  @include arrange-items();
+}
+
+.nested {
+  .collectionItem {
+    padding: #{$collection-inner-padding / 2};
+  }
+  .collectionItemRemove {
+    padding: 0;
+  }
+  .collectionFoot {
+    padding: 15px #{$collection-inner-padding / 2};
+  }
+}
+
+.stacked {
+  counter-reset: collection-item;
+  .collectionItemWrap {
+    &:first-child {
+      margin-top: 20px;
+    }
+    ~ .collectionItemWrap {
+      margin-top: -1px;
+    }
+  }
+  &.showNumbering {
+    .collectionItem {
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 0 #{$collection-inner-padding};
+      border: none;
+      &::before {
+        counter-increment: collection-item;
+        content: counter(collection-item) '.';
+        font-size: 15px;
+        font-weight: 600;
+        position: absolute;
+        display: block;
+        padding: 16px 0 14px 20px;
+      }
+    }
+  }
+  &.simple {
+    .collectionItem {
+      padding: 0;
+    }
+  }
+  .collectionItemRemove {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &.readMode {
+    .collectionItemWrap {
+      margin-top: 0;
+    }
+    .collectionItem {
+      &::before {
+        // padding: 1px 0;
+        content: '';
+      }
+    }
+    &.placeholder {
+        &::before {
+          display: none;
+        }
+      }
+  }
+}
+
+.nested.stacked {
+  margin: 0 #{$collection-inner-padding / 2};
+  .collectionItem {
+    padding: 0;
+  }
+  .collectionFoot {
+    padding: 15px 0;
+  }
+  &.readMode {
+    margin: 0;
+  }
+}
+
+.readMode {
+  .collectionItem {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  label {
+    margin: 0;
+  }
+}
+
+.actions {
+  > div {
+    display: inline-block;
+    ~ div {
+      margin-left: 10px;
+    }
+  }
+}
+
+.wrap {
+  @include word-wrap();
+}

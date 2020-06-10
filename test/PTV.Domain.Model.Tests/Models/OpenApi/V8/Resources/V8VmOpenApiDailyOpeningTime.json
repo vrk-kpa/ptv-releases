@@ -1,0 +1,6 @@
+﻿{
+  "dayFrom": "string",
+  "dayTo": "string",
+  "from": "string",
+  "to": "string"
+}

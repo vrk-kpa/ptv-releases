@@ -1,0 +1,28 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($margin: 0, $spacing: 20px);
+}
+
+.translationRow {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.translationNote {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  span {
+    margin-right: 5px;
+    &::after {
+      content: ',';
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .buttonGroup {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,70 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+@media (min-width: 1025px) {
+  .sahaPtvMappingTable table {
+    background-color: bg-color(dark);
+    border: 1px solid border-color(border);
+  }
+  .mappingFound table thead:first-child tr td {
+    padding-bottom: 0;
+  }
+}
+
+.searchHeader {
+  padding: 20px 10px 0;
+}
+
+.organizationSearchFilterCategory {
+  font-size: 16px;
+  padding: 0;
+}
+
+.organizationSearchFilterList {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  > * {
+    margin: 2px 5px;
+  }
+}
+
+.serachResultLabel {
+  font-style: normal;
+}
+
+.buttonGroup {
+  @include arrange-items($margin: 20px);
+  margin-right: 20px;
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+}
+
+.languages {
+  margin-right: 10px;
+}
+
+.modalDescription {
+  margin-bottom: 20px;
+}
+
+.updateMappingDialog {
+  [class*='styles__modalContent'] {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sahaPtvMappingTable table thead {
+    display: none;
+  }
+  .sahaPtvMappingTable table thead:first-child,
+  .sahaPtvMappingTable table thead:first-child tr,
+  .sahaPtvMappingTable table thead:first-child tr td {
+    display: block;
+  }
+}

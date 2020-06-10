@@ -1,0 +1,9 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.localNumber {
+  margin-left: 3px;
+  &::after {
+    content: ',';
+    margin-right: 3px;
+  }
+}

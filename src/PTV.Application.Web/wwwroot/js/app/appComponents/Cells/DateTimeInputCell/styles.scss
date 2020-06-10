@@ -1,0 +1,28 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($margin: 0);
+}
+
+.publishDialogDatepicker {
+  display: flex;
+  align-items: center;
+  :global {
+    .rdtPicker {
+      bottom: -100px;
+      left: 90px;
+    }
+    .rdt {
+      input {
+        width: 90px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.dateTooltip{
+  display: flex;
+  align-items: center;
+}
+

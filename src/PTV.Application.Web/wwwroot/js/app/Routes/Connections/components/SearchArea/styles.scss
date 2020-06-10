@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.searchAreaWrap {
+  display: flex;
+}
+
+.searchArea {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1024px) {
+  .searchArea {
+    min-height: 500px;
+  }
+}

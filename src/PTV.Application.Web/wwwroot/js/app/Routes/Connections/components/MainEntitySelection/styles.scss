@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($margin: 0);
+  margin-bottom: 10px;
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.sub {
+  font-size: 13px;
+  margin-top: 0;  
+}
+
+.inline {
+  display: flex;
+  .sub {
+    font-size: 16px;
+    margin-left: 10px;   
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .inline {
+    display: block;
+    .sub {
+      margin-left: 0;
+    }
+  }
+}
