@@ -1,0 +1,15 @@
+<layer>
+  <name>serviceChannelLanguage</name>
+  <id>LayerInfoImpl-405c1ea5:162fb3598ac:-7ffd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv-feature-serviceChannelLanguage</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

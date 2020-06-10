@@ -1,0 +1,56 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.timeStampWrap {
+  display: flex;
+  flex-direction: row-reverse;
+  color: text-color(secondary);
+  height: 24px;
+}
+
+.timeStamp {
+  margin-left: 5px;
+}
+
+.wrap {
+  > div:first-child {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  > div {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  :global {
+    [class*='boxBg'] {
+      position: relative;
+      z-index: 100;
+    }
+    [class*='boxContent'] {
+      min-height: auto;
+    }
+  }
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  * ~ * {
+    margin-top: 5px;
+  }
+}
+
+.blockCenter {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceCollectionNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "serviceCollectionDescriptions": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "services": [
+    "string"
+  ],
+  "publishingStatus": "string",
+  "deleteAllServices": true
+}

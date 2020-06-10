@@ -1,0 +1,15 @@
+<dataStore>
+  <id>channelService_datastore</id>
+  <name>channelService</name>
+  <description>Channel Service</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/channelService/channelService.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

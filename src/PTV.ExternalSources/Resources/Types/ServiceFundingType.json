@@ -1,0 +1,60 @@
+﻿[
+  {
+    "Code": "PubliclyFunded",
+    "Names": [
+      {
+        "Name": "Julkinen palvelu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Public service",
+        "Language": "en"
+      },
+      {
+        "Name": "Offentlig tjänst",
+        "Language": "sv"
+      },
+      {
+        "Name": "Almmolaš bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Almolâš palvâlus",
+        "Language": "smn"
+      },
+      {
+        "Name": "Õõlmâs kääzzkõs",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "MarketFunded",
+    "Names": [
+      {
+        "Name": "Yksityinen palvelu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Private service",
+        "Language": "en"
+      },
+      {
+        "Name": "Privat tjänst",
+        "Language": "sv"
+      },
+      {
+        "Name": "Priváhta bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Ovtâskâs palvâlus",
+        "Language": "smn"
+      },
+      {
+        "Name": "Privatt kääzzkõs",
+        "Language": "sms"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.archiveDatepicker {
+  :global {
+    .rdtPicker {
+      bottom: 30px;
+      left: 0px;
+    }
+  }
+  input {
+    width: 100px;
+  }
+}
+
+.notification {
+  align-items: flex-start;
+}
+
+.notificationIcon {
+  margin-top: 10px;
+}

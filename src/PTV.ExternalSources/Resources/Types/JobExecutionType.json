@@ -1,0 +1,53 @@
+﻿[
+    {
+        "code": "Forced",
+        "names": [
+            {
+                "Name": "Pakotettu",
+                "language": "fi"
+            },
+            {
+                "Name": "Forced run",
+                "language": "en"
+            },
+            {
+                "Name": "Forcerat",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "RunAfterFail",
+        "names": [
+            {
+                "Name": "Uusintayritys",
+                "language": "fi"
+            },
+            {
+                "Name": "Run after fail",
+                "language": "en"
+            },
+            {
+                "Name": "Nytt försök",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Regular",
+        "names": [
+            {
+                "Name": "Säännöllinen ajo",
+                "language": "fi"
+            },
+            {
+                "Name": "Regular run",
+                "language": "en"
+            },
+            {
+                "Name": "Regelbunden körning",
+                "language": "sv"
+            }
+        ]
+    }
+]

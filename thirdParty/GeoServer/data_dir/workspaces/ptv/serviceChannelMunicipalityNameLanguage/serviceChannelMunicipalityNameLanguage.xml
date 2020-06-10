@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceChannelMunicipalityNameLanguage.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>lc_ChannelMunicipalityNameLan</sourceType>
+			<targetElement>ptv:kuntaNimiKielet</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:kuntaNimiKielet</targetAttribute>
+					<idExpression>
+						<OCQL>MunicipalityId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+
+				<!-- municipality code -->
+				<AttributeMapping>
+					<targetAttribute>ptv:code</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityCode</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+						
+				<!-- municipality name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiSuomi</targetAttribute>
+					<sourceExpression>
+						<OCQL>FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- municipality name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiRuotsi</targetAttribute>
+					<sourceExpression>
+						<OCQL>SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- municipality name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:nimiEnglanti</targetAttribute>
+					<sourceExpression>
+						<OCQL>EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- FEATURE_LINK mapping -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

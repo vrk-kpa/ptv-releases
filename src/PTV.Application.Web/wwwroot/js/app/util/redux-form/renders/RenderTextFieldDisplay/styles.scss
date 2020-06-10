@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.textFieldDisplay {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+}
+
+.noLabel {
+  label {
+    display: none;
+  }
+}

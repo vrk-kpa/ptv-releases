@@ -1,0 +1,31 @@
+{
+  "sourceId": "string",
+  "organizationId": "string",
+  "serviceChannelDescriptions": [
+  ],
+  "serviceChannelNames": [
+  ],
+  "areaType": "string",
+  "areas": [
+  ],
+  "emails": [
+  ],
+  "faxNumbers": [
+  ],
+  "phoneNumbers": [
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+  ],
+  "addresses": [
+  ],
+  "serviceHours": [
+  ],
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "services": [
+    "string"
+  ]
+}

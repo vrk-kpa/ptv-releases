@@ -1,0 +1,150 @@
+﻿[
+  {
+    "Code": "Municipality",
+    "Names": [
+      {
+        "Name": "Kunnalliset palvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Municipality services",
+        "Language": "en"
+      },
+      {
+        "Name": "Kommunala tjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Gieldda bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Kieldâ palvâlusah",
+        "Language": "smn"
+      },
+      {
+        "Name": "Kååddlaž kääzzkõõzz",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "BusinessSubregion",
+    "Names": [
+      {
+        "Name": "Seudulliset yrityspalvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Subregional business services",
+        "Language": "en"
+      },
+      {
+        "Name": "Regionala företagstjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Fitnodagaid bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Irâttâsâi palvâlusah",
+        "Language": "smn"
+      },
+      {
+        "Name": "Põrggsi kääzzkõõzz",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "AlandIsland",
+    "Names": [
+      {
+        "Name": "Ahvenanmaan palvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Åland islands services",
+        "Language": "en"
+      },
+      {
+        "Name": "Ålands tjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Ålándda bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Vuáskueennâm palvâlusah",
+        "Language": "smn"
+      },
+      {
+        "Name": "Ahvenanmaa kääzzkõõzz",
+        "Language": "sms"
+      }
+    ]
+  }
+/* SOTE has been disabled (SFIPTV-1177)
+,
+  {
+    "Code": "PrescribedByFreedomOfChoiceAct",
+    "Names": [
+      {
+        "Name": "Valinnanvapauslaissa säädetyt sote-palvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Services prescribed by the Freedom of Choice Act",
+        "Language": "en"
+      },
+      {
+        "Name": "Social- och hälsovårdstjänster som anges i valfrihetslagen",
+        "Language": "sv"
+      },
+      {
+        "Name": "Services prescribed by the Freedom of Choice Act",
+        "Language": "se"
+      },
+      {
+        "Name": "Services prescribed by the Freedom of Choice Act",
+        "Language": "smn"
+      },
+      {
+        "Name": "Services prescribed by the Freedom of Choice Act",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "OtherPermissionGrantedSote",
+    "Names": [
+      {
+        "Name": "Muut luvanvaraiset SOTE-palvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Other permission granted Social and Health Services",
+        "Language": "en"
+      },
+      {
+        "Name": "Andra social- och hälsovårdstjänster som kräver tillstånd",
+        "Language": "sv"
+      },
+      {
+        "Name": "Other permission granted Social and Health Services",
+        "Language": "se"
+      },
+      {
+        "Name": "Other permission granted Social and Health Services",
+        "Language": "smn"
+      },
+      {
+        "Name": "Other permission granted Social and Health Services",
+        "Language": "sms"
+      }
+    ]
+  }
+*/
+]

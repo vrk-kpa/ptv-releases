@@ -1,0 +1,37 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: lightgray;
+}
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+}
+.operationTypeCell{
+  white-space: normal;
+}
+
+.entityHistory {
+  tfoot {
+    td {
+      background-color: bg-color(site);
+    }
+    label {
+      margin: 5px 0;
+    }
+  }
+}
+
+.archiveNote {
+  white-space: normal !important;
+}

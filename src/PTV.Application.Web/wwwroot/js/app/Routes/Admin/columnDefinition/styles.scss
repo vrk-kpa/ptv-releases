@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$flexBases: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+
+@each $fb in $flexBases {
+  .fb#{$fb} {
+    flex: 0 0 #{$fb}#{'%'};
+    @media (min-width: 1024px) {
+      max-width: #{$fb}#{'%'};
+    }
+  }
+}
+
+.actions {
+  margin: -10px 0 0 -10px;
+  > * {
+    margin: 10px 0 0 10px;
+  }
+}

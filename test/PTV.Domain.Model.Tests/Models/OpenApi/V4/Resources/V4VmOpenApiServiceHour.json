@@ -1,0 +1,22 @@
+﻿{
+  "serviceHourType": "string",
+  "validFrom": "2018-04-04T11:56:25.340Z",
+  "validTo": "2018-04-04T11:56:25.340Z",
+  "isClosed": true,
+  "validForNow": true,
+  "additionalInformation": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "openingHour": [
+    {
+      "dayFrom": "string",
+      "dayTo": "string",
+      "from": "string",
+      "to": "string",
+      "isExtra": true
+    }
+  ]
+}

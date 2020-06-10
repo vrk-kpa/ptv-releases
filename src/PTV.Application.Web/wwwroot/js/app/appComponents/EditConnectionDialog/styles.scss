@@ -1,0 +1,54 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.connectionWrap {
+  margin: 0 20px;
+  border: 1px solid border-color(border);
+}
+
+.mainEntityDialogWrap {
+  margin: 15px 40px 15px 20px;
+}
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px);
+}
+
+.modalWrap {
+  max-width: 18.75rem;
+}
+
+.screenCenter {
+  position: fixed !important;
+  left: 50% !important;
+  right: auto !important;
+  top: 50% !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%);
+  &::after {
+    content: none !important;
+  }
+}
+
+.popupTitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.popupContent {
+  margin: 20px 0;
+  display: block;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.editConnectionDialog {
+  [class*='styles__closeIcon___'] {
+    margin: 18px 8px 0 0;
+  }
+}
