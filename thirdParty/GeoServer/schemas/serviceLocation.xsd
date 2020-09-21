@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified"
+	version="1.0">
+	
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/geometryAggregates.xsd"/>
+
+	<xsd:include schemaLocation="%SCHEMA_LOCATION_URL%/languageTypes.xsd" />
+			
+	<xsd:element name="serviceLocation" type="ptv:ServiceLocationType" substitutionGroup="gml:AbstractFeature" />
+	<xsd:complexType name="ServiceLocationType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="versionedId" type="xsd:string"/>
+					<xsd:element name="rootId" type="xsd:string"/>
+					<xsd:element name="organizationId" type="xsd:string"/>
+					<xsd:element name="currentlyOpen" type="xsd:string" />
+					<xsd:element name="channelNames" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="organizationNames" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="phones" type="ptv:LanguagePhoneType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="addresses" type="ptv:ServiceLocationAddressColType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="services" type="ptv:ServiceLocationServiceColType" minOccurs="1" maxOccurs="unbounded" /> 
+					<xsd:element name="location3067" type="gml:MultiGeometryPropertyType" minOccurs="1" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="serviceLocationAddressCol" type="ptv:ServiceLocationAddressColType" substitutionGroup="gml:AbstractFeature" />
+	<xsd:complexType name="ServiceLocationAddressColType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractGMLType">
+				<xsd:sequence>
+					<xsd:element name="address" type="ptv:ServiceLocationAddressType" minOccurs="1" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="serviceLocationAddress" type="ptv:ServiceLocationAddressType" substitutionGroup="gml:AbstractFeature" />
+	<xsd:complexType name="ServiceLocationAddressType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractGMLType">
+				<xsd:sequence>
+					<xsd:element name="type" type="xsd:string" />
+					<xsd:element name="municipalityCode" type="xsd:string" />
+					<xsd:element name="municipalityNames" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="streetAddresses" type="ptv:LanguageAddressType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="additionalInformation" type="ptv:LanguageValueType" minOccurs="1" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="serviceLocationServiceCol" type="ptv:ServiceLocationServiceColType" substitutionGroup="gml:AbstractFeature" />
+	<xsd:complexType name="ServiceLocationServiceColType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractGMLType">
+				<xsd:sequence>
+					<xsd:element name="service" type="ptv:LanguageNameType" minOccurs="1" maxOccurs="unbounded" />
+				</xsd:sequence>
+				<xsd:attributeGroup ref="gml:AggregationAttributeGroup"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="serviceLocationChannelName" type="ptv:LanguageNameType" />
+	<xsd:element name="serviceLocationOrganizationName" type="ptv:LanguageNameType"  />
+	<xsd:element name="serviceLocationPhone" type="ptv:LanguagePhoneType" />
+	<xsd:element name="serviceLocationServiceName" type="ptv:LanguageNameType" />
+	<xsd:element name="serviceLocationAddressMunicipalityName" type="ptv:LanguageNameType" />
+	<xsd:element name="serviceLocationAddressStreetAddress" type="ptv:LanguageAddressType" />
+	<xsd:element name="serviceLocationAddressAdditionalInformation" type="ptv:LanguageValueType" />
+	
+</xsd:schema>

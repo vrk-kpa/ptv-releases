@@ -1,0 +1,48 @@
+﻿{
+  "subType": "string",
+  "postOfficeBoxAddress": {
+    "postOfficeBox": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "postalCode": "string",
+    "municipality": "string",
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "streetAddress": {
+    "street": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetNumber": "string",
+    "postalCode": "string",
+    "municipality": "string",
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "deliveryAddressInText": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "formReceiver": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ]
+}

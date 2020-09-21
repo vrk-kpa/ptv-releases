@@ -1,0 +1,13 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.search {
+  svg {
+    fill: icon-color(secondary);
+  }
+}
+
+.inverse {
+  svg {
+    fill: #FFFFFF;
+  }
+}

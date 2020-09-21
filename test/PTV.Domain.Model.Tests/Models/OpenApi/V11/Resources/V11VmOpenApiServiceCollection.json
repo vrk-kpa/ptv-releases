@@ -1,0 +1,38 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "sourceId": "string",
+  "organizationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceCollectionNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "serviceCollectionDescriptions": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "services": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2020-02-06T11:30:25.039Z"
+}

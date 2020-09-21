@@ -1,0 +1,211 @@
+﻿[
+  {
+    "localizedText": {
+      "value": "Sample structure for F#",
+      "language": "Sample structure for F#"
+    },
+    "nameOrDescription": {
+      "language": "Sample structure for F#",
+      "value": "Sample structure for F#",
+      "type": "Sample structure for F#"
+    },
+    "organizationId": "string",
+    "serviceChannelNames": [
+      {
+        "language": "string",
+        "value": "string",
+        "type": "string"
+      }
+    ],
+    "serviceChannelDescriptions": [
+      {
+        "language": "string",
+        "value": "string",
+        "type": "string"
+      }
+    ],
+    "areaType": "string",
+    "languages": [
+      "string"
+    ],
+    "addresses": [
+      {
+        "type": "string",
+        "subType": "string"
+      }
+    ],
+    "publishingStatus": "string",
+    "isVisibleForAll": true
+  },
+  {
+    "sourceId": "string",
+    "oid": "string",
+    "organizationId": "string",
+    "serviceChannelNames": [
+      {
+        "language": "string",
+        "value": "string",
+        "type": "string"
+      }
+    ],
+    "serviceChannelDescriptions": [
+      {
+        "language": "string",
+        "value": "string",
+        "type": "string"
+      }
+    ],
+    "displayNameType": [
+      {
+        "type": "string",
+        "language": "string"
+      }
+    ],
+    "areaType": "string",
+    "areas": [
+      {
+        "type": "string",
+        "areaCodes": [
+          "string"
+        ]
+      }
+    ],
+    "emails": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "faxNumbers": [
+      {
+        "prefixNumber": "string",
+        "isFinnishServiceNumber": true,
+        "number": "string",
+        "language": "string"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "additionalInformation": "string",
+        "serviceChargeType": "string",
+        "chargeDescription": "string",
+        "prefixNumber": "string",
+        "isFinnishServiceNumber": true,
+        "number": "string",
+        "language": "string"
+      }
+    ],
+    "languages": [
+      "string"
+    ],
+    "webPages": [
+      {
+        "url": "string",
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "addresses": [
+      {
+        "type": "string",
+        "subType": "string",
+        "postOfficeBoxAddress": {
+          "postOfficeBox": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "postalCode": "string",
+          "municipality": "string",
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "streetAddress": {
+          "street": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "streetNumber": "string",
+          "postalCode": "string",
+          "municipality": "string",
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "latitude": "string",
+          "longitude": "string"
+        },
+        "otherAddress": {
+          "latitude": "string",
+          "longitude": "string",
+          "postalCode": "string",
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "locationAbroad": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "country": "string"
+      }
+    ],
+    "serviceHours": [
+      {
+        "serviceHourType": "string",
+        "validFrom": "2020-07-24T11:22:49.763Z",
+        "validTo": "2020-07-24T11:22:49.763Z",
+        "isClosed": true,
+        "validForNow": true,
+        "isAlwaysOpen": true,
+        "isReservation": true,
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "openingHour": [
+          {
+            "dayFrom": "string",
+            "dayTo": "string",
+            "from": "string",
+            "to": "string"
+          }
+        ]
+      },
+      {
+        "serviceHourType": "string",
+        "openingHour": [
+          {
+            "dayFrom": "string",
+            "dayTo": "string",
+            "from": "string",
+            "to": "string"
+          }
+        ]
+      }
+    ],
+    "publishingStatus": "string",
+    "isVisibleForAll": true,
+    "services": [
+      "string"
+    ],
+    "validFrom": "2020-07-24T11:22:49.763Z",
+    "validTo": "2020-07-24T11:22:49.763Z"
+  }
+]

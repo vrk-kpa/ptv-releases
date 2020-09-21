@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using PTV.IdentityUserManager.Models
+
+@model PTV.IdentityUserManager.Models.LoggedOutViewModel
+@inject IViewLocalizer Localizer
+
+<div class="logout-page">
+    <div class="page-header">
+        <h1>@Localizer["sts_LogoutTitle"]</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <p>@Localizer["sts_LogoutMessage"]</p>
+        </div>
+    </div>
+</div>

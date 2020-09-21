@@ -1,0 +1,53 @@
+﻿[
+    {
+        "code": "Started",
+        "names": [
+            {
+                "Name": "Käynnissä",
+                "language": "fi"
+            },
+            {
+                "Name": "Started",
+                "language": "en"
+            },
+            {
+                "Name": "På gång",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Success",
+        "names": [
+            {
+                "Name": "Onnistunut",
+                "language": "fi"
+            },
+            {
+                "Name": "Success",
+                "language": "en"
+            },
+            {
+                "Name": "Lyckats",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Fail",
+        "names": [
+            {
+                "Name": "Epäonnistunut",
+                "language": "fi"
+            },
+            {
+                "Name": "Fail",
+                "language": "en"
+            },
+            {
+                "Name": "Misslyckats",
+                "language": "sv"
+            }
+        ]
+    }
+]

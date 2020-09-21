@@ -1,0 +1,24 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.info {
+  color: text-color(secondary);
+  line-height: 20px;
+  width: 60%;
+  margin: 0 auto;
+  strong {
+    margin: 0 3px;
+  }
+  ol {
+    margin-top: 5px;
+    padding-left: 25px;
+    li {
+      padding-left: 10px;
+    }
+  }
+}
+
+.previewHeader {
+  padding: 10px 20px;
+  border: 1px solid border-color(border);
+  background-color: $gray-light;
+}

@@ -1,0 +1,127 @@
+{
+  "sourceId": "string",
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "organizationId": "string",
+  "areaType": "string",
+  "serviceChannelNames": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "areas": [
+    {
+      "type": "string",
+      "areaCodes": [
+        "string"
+      ]
+    }
+  ],
+  "formIdentifier": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deliveryAddresses": [
+    {
+      "subType": "string",
+      "postOfficeBoxAddress": {
+        "postOfficeBox": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "postalCode": "string",
+        "municipality": "string",
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "streetAddress": {
+        "street": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "streetNumber": "string",
+        "postalCode": "string",
+        "municipality": "string",
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "deliveryAddressInText": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "formReceiver": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "channelUrls": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "deleteAllDeliveryAddresses": true,
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deleteAllChannelUrls": true,
+  "languages": [
+    "string"
+  ],
+  "deleteAllAttachments": true,
+  "deleteAllFormIdentifiers": true,
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "validFrom": "2019-03-01T08:33:48.243Z",
+  "validTo": "2019-03-01T08:33:48.243Z",
+  "deleteAllSupportEmails": true,
+  "deleteAllSupportPhones": true
+}

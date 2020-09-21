@@ -1,0 +1,19 @@
+<wmts>
+  <id>wmts</id>
+  <enabled>false</enabled>
+  <name>WMTS</name>
+  <title></title>
+  <maintainer></maintainer>
+  <abstrct></abstrct>
+  <accessConstraints>NONE</accessConstraints>
+  <fees>NONE</fees>
+  <versions>
+    <org.geotools.util.Version>
+      <version>1.0.0</version>
+    </org.geotools.util.Version>
+  </versions>
+  <citeCompliant>false</citeCompliant>
+  <onlineResource></onlineResource>
+  <schemaBaseURL></schemaBaseURL>
+  <verbose>false</verbose>
+</wmts>

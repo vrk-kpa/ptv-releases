@@ -1,0 +1,32 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+
+.subTitle {
+  margin: 20px 0 0;
+}
+
+.pagination {
+  margin: 40px auto 0;
+}
+
+.top {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .resultCount {
+    margin-left: 20px;
+  }
+  .seeAll {
+    margin-right: 20px;    
+  }
+}
+
+.organizationConnectionsHead {
+  margin-bottom: 30px;
+}
+
+.pageDisabled {
+  color: secondary-color(harmaa, t60);
+}

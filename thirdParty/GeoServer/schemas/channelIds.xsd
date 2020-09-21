@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml" 
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified" 
+	version="1.0">
+	
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/geometryAggregates.xsd"/>
+
+	<xsd:element name="channelIds" type="ptv:ChannelIdsType" substitutionGroup="gml:AbstractFeature"/>
+
+	<xsd:complexType name="ChannelIdsType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="versionedId" type="xsd:string"/>
+					<xsd:element name="rootId" type="xsd:string"/>
+					<xsd:element name="organizationId" type="xsd:string"/>
+					<xsd:element name="currentlyOpen" type="xsd:string" />
+					<xsd:element name="serviceIds" type="xsd:string" minOccurs="1" maxOccurs="1"  />
+					<xsd:element name="addressIds" type="xsd:string" minOccurs="1" maxOccurs="1"  />
+					<xsd:element name="location3067" type="gml:MultiPointPropertyType" minOccurs="1" maxOccurs="1"/>
+				</xsd:sequence>
+				<xsd:attributeGroup ref="gml:AggregationAttributeGroup"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+</xsd:schema>

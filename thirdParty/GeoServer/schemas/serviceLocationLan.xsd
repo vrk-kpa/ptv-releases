@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema 
+	targetNamespace="http://palvelutietovaranto.suomi.fi/ptv"
+	xmlns:ptv="http://palvelutietovaranto.suomi.fi/ptv" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:gml="http://www.opengis.net/gml"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified"
+	version="1.0">
+	
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/geometryAggregates.xsd"/>
+
+	<xsd:element name="serviceLocationLan" type="ptv:ServiceLocationLanType" substitutionGroup="gml:AbstractFeature" />
+	<xsd:complexType name="ServiceLocationLanType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="versionedId" type="xsd:string"/>
+					<xsd:element name="rootId" type="xsd:string"/>
+					<xsd:element name="organizationId" type="xsd:string"/>
+					<xsd:element name="currentlyOpen" type="xsd:string" />
+					<xsd:element name="channelName_FI" type="xsd:string" />
+					<xsd:element name="channelName_SV" type="xsd:string" />
+					<xsd:element name="channelName_EN" type="xsd:string" />
+					<xsd:element name="organizationName_FI" type="xsd:string" />
+					<xsd:element name="organizationName_SV" type="xsd:string" />
+					<xsd:element name="organizationName_EN" type="xsd:string" />
+					<xsd:element name="phones" type="ptv:ServiceLocationLanPhoneType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="addresses" type="ptv:ServiceLocationLanAddressType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="services" type="ptv:ServiceLocationLanServiceType" minOccurs="1" maxOccurs="unbounded" />
+					<xsd:element name="location3067" type="gml:MultiGeometryPropertyType" minOccurs="1" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="phoneLan" type="ptv:ServiceLocationLanPhoneType"  />
+	<xsd:complexType name="ServiceLocationLanPhoneType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="number_FI" type="xsd:string" />
+					<xsd:element name="number_SV" type="xsd:string" />
+					<xsd:element name="number_EN" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="addressLan" type="ptv:ServiceLocationLanAddressType"  />
+	<xsd:complexType name="ServiceLocationLanAddressType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="type" type="xsd:string" />
+					<xsd:element name="municipalityCode" type="xsd:string" />
+					<xsd:element name="municipalityName_FI" type="xsd:string" />
+					<xsd:element name="municipalityName_SV" type="xsd:string" />
+					<xsd:element name="municipalityName_EN" type="xsd:string" />
+					<xsd:element name="streetAddress_FI" type="xsd:string" />
+					<xsd:element name="streetAddress_SV" type="xsd:string" />
+					<xsd:element name="streetAddress_EN" type="xsd:string" />
+					<xsd:element name="additionalInformation_FI" type="xsd:string" />
+					<xsd:element name="additionalInformation_SV" type="xsd:string" />
+					<xsd:element name="additionalInformation_EN" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="serviceLan" type="ptv:ServiceLocationLanServiceType"  />
+	<xsd:complexType name="ServiceLocationLanServiceType">
+		<xsd:complexContent>
+			<xsd:extension base="gml:AbstractFeatureType">
+				<xsd:sequence>
+					<xsd:element name="name_FI" type="xsd:string" />
+					<xsd:element name="name_SV" type="xsd:string" />
+					<xsd:element name="name_EN" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+		
+</xsd:schema>

@@ -1,0 +1,52 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.searchFilterItem {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 14px;
+  margin: 0 5px 3px 0;
+  background-color: secondary-color(jarvi);
+}
+
+.removable {
+  color: #FFFFFF;
+}
+
+.icon {
+  margin-left: 5px;
+  height: 18px;
+  svg {
+    fill: #FFFFFF;
+  }
+}
+
+.text {
+  padding: 0 5px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.categoryName {
+  text-align: left;
+  &.isFirst {
+    padding-top: 5px;
+  }
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 5px;
+  &::after {
+    content: ':';
+  }
+}
+
+.categoryList {
+  &.isLast {
+    border-bottom: 2px solid border-color(border);
+  }
+  border-top: 2px solid border-color(border);
+  padding-top: 3px;
+}
+
+.plain {
+  background-color: transparent;
+}

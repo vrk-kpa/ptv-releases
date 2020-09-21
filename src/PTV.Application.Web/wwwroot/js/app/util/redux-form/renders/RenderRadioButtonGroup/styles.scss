@@ -1,0 +1,42 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.compareMode {
+  label {
+    display: flex;
+    height: auto;
+  }
+  div {
+    flex: 0 0 30px;
+  }
+  span {
+    display: inline-flex;
+    white-space: normal;
+  }
+}
+
+// to be moved to SEMA
+.radioGroup {
+  label {
+    margin-bottom: 0;
+    display: table;
+    ~ label {
+      margin-top: 10px;
+    }
+  }
+  [class*='styles__text___'] {
+    white-space: normal;
+    // width: calc(100% - 30px);
+  }
+  [class*='styles__field___'], [class*='styles__disabled___'] {
+    height: auto;
+  }
+  &.inlineRadio {
+    label {
+      display: inline-block;
+      margin-bottom: 10px;
+      ~ label {
+        margin-top: 0;
+      }
+    }
+  }
+}

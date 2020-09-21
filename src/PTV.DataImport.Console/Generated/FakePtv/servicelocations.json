@@ -1,0 +1,6009 @@
+[
+  {
+    "id": 133,
+    "name": "Mikkelin kaupungin rakennusvalvonta, virastotalo",
+    "email": [
+      {
+        "address": "rakennusvalvonta@mikkeli.fi",
+        "description": "Mikkelin kaupunki, rakennusvalvonta"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 1941",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kaupungin vaihde",
+        "phoneCallFeeAdditionalInformation": ""
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/rakennusvalvonta",
+        "name": "Mikkelin kaupunki, rakennusvalvonnan kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6839282",
+    "services": [
+      107,
+      106,
+      202
+    ],
+    "longitude": "514366",
+    "description": "Rakennustarkastajat ovat tavattavissa toimipisteessä ajanvarauksella. Kantakaupunki ja Pohjoinen Mikkeli. Eteläinen Mikkeli maanantai-keskiviikko.\nRakennustarkastajien vastuualueet kartta-aluerajauksen mukaan: \nKantakaupunki: Mikkelin kantakaupungin asemakaavoitettu alue sekä tulevat asuntomessualueet. \nPohjoinen Mikkeli: Mikkelin haja-asutusalueet 5-tiestä ja kantatie 62:sta pohjoiseen.\nEteläinen Mikkeli: Mikkelin haja-asutusalueet 5-tiestä ja kantatie 62:sta etelään.\nKartta löytyy Mikkelin kaupungin rakennusvalvonnan verkkosivuilta.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Ajanvaraus tarvitaan."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Maaherrankatu 9-11",
+        "postalDistrict": "Helsinki"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 33",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Rakennusvalvonnan lupa-asiat ja neuvonta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 134,
+    "name": "Mikkelin kaupungin rakennusvalvonta, Ristiinan toimipiste",
+    "email": [
+      {
+        "address": "rakennusvalvonta@mikkeli.fi",
+        "description": "Mikkelin kaupunki, rakennusvalvonta"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 1941",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kaupungin vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/rakennusvalvonta",
+        "name": "Mikkelin kaupunki, rakennusvalvonnan kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6818473",
+    "services": [
+      202
+    ],
+    "longitude": "514303",
+    "description": "Rakennustarkastajat ovat tavattavissa toimipisteessä torstaisin ja perjantaisin ajanvarauksella.\n\nRakennustarkastajien vastuualueet ovet kartta-aluerajauksen mukaan:Eteläinen Mikkeli, Mikkelin eteläosat 5-tiestä ja kantatie 62:sta etelään.\n\nKartta löytyy Mikkelin kaupungin rakennusvalvonnan verkkosivuilta.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Ajanvaraus tarvitaan."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52300",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Linnantie 2",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Rakennusvalvonnan lupa-asiat ja neuvonta, Eteläinen Mikkeli.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 152,
+    "name": "Anttolan yhtenäiskoulu",
+    "email": [
+      {
+        "address": "susanna.savander@mikkeli.fi",
+        "description": "Anttolan yhtenäiskoulun rehtori"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 3170",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Anttolan yhtenäiskoulun rehtori",
+        "phoneCallFeeAdditionalInformation": ""
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://edu.savonlinnaseutu.fi/anttola/",
+        "name": "Anttolan koulun kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://anttolayk.blogspot.fi/",
+        "name": "Anttolan koulun blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6828019",
+    "services": [
+      149
+    ],
+    "longitude": "534397",
+    "description": "Anttolan yhtenäiskoulu sijaitsee noin 25 kilometrin päässä Mikkelin keskustasta Saimaan äärellä. Anttolan yhtenäiskoulu on noin 170 oppilaan peruskoulu, jossa toimii perusopetus ensimmäisestä yhdeksänteen luokkaan sekä esikoulu.\nKoulun vahvuuksia ovat hyvä oppilaantuntemus, osaava ja aikaansa seuraava henkilökunta sekä pitkäkestoinen kodin ja koulun yhteistyö. Koulussa järjestetään myös valvottua iltapäivätoimintaa. Koulun tilat ovat monipuolisessa käytössä myös iltaisin ja viikonloppuisin.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Sahalantie 2",
+        "postalDistrict": "Anttola"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Anttolan yhtenäiskoulu on noin 170 oppilaan peruskoulu, jossa toimii perusopetus ensimmäisestä yhdeksänteen luokkaan sekä esikoulu.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 153,
+    "name": "Ihastjärven koulu",
+    "email": [
+      {
+        "address": "jarmo.hanninen@mikkeli.fi",
+        "description": "Ihastjärven koulun rehtori"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 5504",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ihastjärven koulun rehtori"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.ihastjarvi.fi/koulu/",
+        "name": "Ihastjärven koulun kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "https://ihastjarvi.wordpress.com/",
+        "name": "Ihastjärven koulun blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6857810",
+    "longitude": "509987",
+    "description": "Ihastjärven koulu sijaitsee noin 20 kilometrin päässä Mikkelin keskustasta. Uusi Ihastjärven koulu on valmistunut vuonna 2012. Koulun tilat on suunniteltu yhdessä oppilaiden kanssa. Neliopettajaisessa koulussa annetaan yhdysluokkaopetusta ryhmissä 0-2 -luokat, 3-4 -luokat ja 5-6 -luokat. Esioppilaat ovat samassa ryhmässä 1-2 -luokkalaisten kanssa",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50970",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Ihastjärventie 170",
+        "postalDistrict": "491 Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ihastjärven koulu on neliopettajainen, reilun 50 oppilaan alakoulu, jossa toimii luokat 0-6.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 154,
+    "name": "Kalevankankaan koulu",
+    "email": [
+      {
+        "address": "janne.syrjalainen@mikkeli.fi",
+        "description": "Kalevankankaan koulun rehtori"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 311 7525",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Kalevankankaan koulun rehtori"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.kalevankankaankoulu.fi/",
+        "name": "Kalevankankaan koulun kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "https://www.facebook.com/pages/Kalevankankaan-koulu/279149835468422",
+        "name": "Kalevankankaan koulu Facebookissa",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840562",
+    "services": [
+      149
+    ],
+    "longitude": "513204",
+    "description": "Koulussa opiskelee n. 250 alakoululaista ja 250 yläkoululaista. Koulussa toimivat liikuntapainotteiset  7.-9. luokat sekä  8 erityisluokkaa.\nKalevankankaan koulu sijaitsee parin kilometrin päässä Mikkelin keskustasta, monipuolisten toimintamahdollisuuksien ja turvallisten kulkureittien äärellä. Koulun välittömässä läheisyydessä olevia tärkeitä oppimisympäristöjä ovat Kalevankankaan liikuntapaikat ja Hanhilammen luonnonsuojelualue.\nKalevankankaan koulun vireät perinteet ovat jatkuneet Raviradantiellä elokuun alusta 2011 alkaen. Uuden koulun tilat ja piha-alueet on saneerattu entiseen Mikkelin ammattikorkeakoulun sosiaali- ja terveysalan koulutusyksikköön.\nKalevankankaan koulussa tärkeitä painopistealueita tulevat olemaan hyvinvointi, osallisuus ja aktiivinen oppiminen. Uusi teknologia ja hyvät opetusvälineet tarjoavat monipuoliset puitteet ajanmukaiseen opiskeluun. Koulussa on tarjolla myös erityisesti lapsia ja nuoria varten suunnitellut modernit kirjastopalvelut sekä viihtyisät ja turvalliset piha-alueet sekä hyvät säilytystilat oppilaiden henkilökohtaisille tarvikkeille.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Raviradantie 16",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Koulussa opiskelee n. 250 alakoululaista ja 250 yläkoululaista. Koulussa toimivat liikuntapainotteiset  7.-9. luokat sekä  8 erityisluokkaa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 155,
+    "name": "Mikkelin Lyseon koulu",
+    "email": [
+      {
+        "address": "jari.luukkonen@mikkeli.fi",
+        "description": "Mikkelin Lyseon koulun rehtori"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 2772",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin Lyseon koulun rehtori"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "https://peda.net/mikkeli/perusopetus/mikkelinlyseo",
+        "name": "Mikkelin Lyseon koulun kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "https://sites.google.com/site/mikkelinlyseonkoulu/",
+        "name": "Mikkelin Lyseon koulun vanha kotisivu",
+        "webpageType": "other"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840079",
+    "services": [
+      149,
+      146,
+      142
+    ],
+    "longitude": "514675",
+    "description": "Mikkelin Lyseon koulussa on n. 400 yläkoululaista. Koulu sijaitsee keskellä kaupunkia lähellä palvelu- ja liikuntapaikkoja ja on kaupungin itäisen oppilasalueen lähiyläkoulu. Kouluun kuuluu myös Moision sairaala-alueella toimiva yläkoululaisten sairaalaopetuksen yksikkö. \nViime vuosina tehtyjen remonttien jälkeen koulun tilat ovat toimivat ja hyvässä kunnossa.\nMikkelin Lyseon koulu tukee nuorten oikeutta omaan kasvuun yhteistyössä kodin kanssa. Turvalliset rajat ja rehellisyys tukevat tätä tavoitetta. Koulun kehittämishankkeet ja arkinen työskentely tähtäävät oppilaiden osallisuuden, turvallisuuden ja viihtyvyyden lisäämiseen. Viime vuosina on panostettu oppilaiden välituntiaktiviteettien lisäämiseen niin ulkona kuin sisälläkin. Tärkeä osa kouluviihtyvyyden edistämistä ja kiusaamisen ehkäisyä ovat aktiivisesti toimivat tukioppilaat ja oppilaskunnan edustajat.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Porrassalmenkatu 30",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Mikkelin Lyseon koulussa on n. 400 yläkoululaista. Kouluun kuuluu myös yläkoululaisten sairaalaopetuksen yksikkö Moision sairaala-alueella.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 156,
+    "name": "Emolan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4123",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Emolan päiväkodin puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/emolan-paivakoti",
+        "name": "Emolan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840889",
+    "services": [
+      137
+    ],
+    "longitude": "514387",
+    "description": "Emolan päiväkoti sijaitsee lähellä keskustaa rauhallisella asuinalueella. Päiväkodin piha-alue on laaja ja tarjoaa monipuoliset leikki- ja liikuntamahdollisuudet lapsille.\nYksilölliset erityistarpeet otetaan huomioon kaikessa toiminnassa. Kävelymatkan päässä ovat lisäksi hyvät mahdollisuudet luonnossa retkeilyyn ja liikuntaan niin kesällä kuin talvella. Päiväkodissa toimii kolme lapsiryhmää viihtyisissä tiloissa. \nHoitopaikkoja on 50.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Rouhialankatu 37",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Emolan päiväkodissa on kolme lapsiryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 157,
+    "name": "Kaarisillan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4760",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Kaarisillan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/kaarisillan-paivakoti",
+        "name": "Kaarisillan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://kaarisiltapk.blogspot.fi/",
+        "name": "Kaarisillan päiväkodin blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6841620",
+    "services": [
+      137
+    ],
+    "longitude": "515147",
+    "description": "Kaarisillan päiväkodissa on kaksi hoitoryhmää ja esiopetusryhmä. Päiväkoti sijaitsee metsäisen oppimisympäristön laidalla Savisillan kaupunginosassa n. 1,5 km torilta. \nYhdessä kodin, päiväkodin ja lähikoulun kanssa suunniteltu lapsen yksilöllinen oppimispolku, kolmevuotiaasta esiopetukseen asti, antaa lapsille mahdollisuuden harjoitella omatoimisuutta, vastuullisuutta, oman itsensä jatkuvaa kehittämistä ja hyviä tapoja.\nHoitopaikkoja on 40.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50970",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Maahisentaival 3",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kaarisillan päiväkodissa on kaksi hoitoryhmää ja esiopetusryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 158,
+    "name": "Kalevankankaan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4294",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Kalevankankaan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/kalevankankaan-paivakoti",
+        "name": "Kalevankankaan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840730",
+    "services": [
+      137
+    ],
+    "longitude": "513138",
+    "description": "Päiväkoti sijaitsee metsäluonnon äärellä. Tämä tarjoaa erinomaiset mahdollisuudet monipuoliseen toimintaan varhaiskasvatuksen ja esiopetuksen tavoitteiden mukaan.\nKalevankankaan päiväkodissa lapsi saa kasvaa ja oppia turvallisesti ikänsä ja kehitystasonsa edellyttämällä tavalla. Päiväkodilla on valmiuksia käyttää tarvittaessa erilaisia lapsen kehitystä ja oppimista tukevia menetelmiä (mm. kuvat, tukiviittomat, kommunikaatiokansiot, kuvitetut reissuvihkot, muksuoppi). \nKalevankankaan päiväkodissa on kahdeksan ryhmää 1–6-vuotiaille. Hoitopaikkoja on 141.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Raviradantie 18",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kalevankankaan päiväkodissa on kahdeksan ryhmää 1–6-vuotiaille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 159,
+    "name": "Kilikellon päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 735 6175",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Päiväkoti Kilikello, päivkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/suomenniemen-kilikellon-paivakoti",
+        "name": "Kilikellon päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6799420",
+    "services": [
+      137
+    ],
+    "longitude": "523991",
+    "description": "Päiväkoti Kilikello sijaitsee Suomenniemen kirkonkylässä. Kävelymatkan etäisyydeltä löytyy kirjasto, koulun liikuntasali, talvisin luistelukaukalo ja hiihtoladut, joita kaikkia hyödynnetään toiminnassa. \nKilikellossa on yksi 0-6-vuotiaiden lasten hoitoryhmä. Hoitopaikkoja on 21.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "07:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52830",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Venttiväylä 2",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52830",
+        "streetAddress": "Venttiväylä 2",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Päiväkoti Kilikellossa on yksi 0-6-vuotiaiden lasten hoitoryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 160,
+    "name": "Launialan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "050 311 7251",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Launialan päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/launialan-paivakoti",
+        "name": "Launialan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840164",
+    "services": [
+      137
+    ],
+    "longitude": "516571",
+    "description": "Päiväkoti sijaitsee kerrostalon alakerrassa ja tarjoaa hoitoa lapsille turvallisessa ilmapiirissä. Saimaa, luonto ja ulkoliikunta-alueet antavat  hyvät puitteet monipuoliselle toiminnalle. Pienryhmätoiminnassa lapset jakaantuvat ikäryhmittäin. Yhteisökasvatus ja perinteiset kristilliset arvot ovat meille tärkeitä. Hoitopaikkoja on 28.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50190",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Peurankatu 3",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Launialan päiväkoti tarjoaa hoitoa 3-5-vuotiaille lapsille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 161,
+    "name": "Norpanhovin päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 3118",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Norpanhovin päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/norpanhovin-paivakoti",
+        "name": "Norpanhovin päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "services": [
+      137
+    ],
+    "description": "Norpanhovin päiväkoti sijaitsee Anttolan keskustassa Saimaan tuntumassa. Päiväkodilla on suuri piha-alue ja lähiympäristö kenttineen, uimarantoineen ja liikuntasaleineen, jotka tarjoavat hienot puitteet erilaisiin liikuntamuotoihin. Norpanhovin vahvuuksia ovat liikunnan ohjaamiseen kouluttautuneet ja siitä innostuneet aikuiset, jotka haluavat innostaa lapsia ja perheitä liikkumaan ympäri vuoden. Lähiympäristön luonto tarjoaa mahdollisuuden luonnon tutkimiseen, marjastamiseen ja muihin elämyksellisiin kokemuksiin. \nPäiväkodissa on kaksi ryhmää: Norpat (3-5 v.) ja Muikkula (0-3 v.). Hoitopaikkoja on 21.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Mikkelintie 39",
+        "postalDistrict": "Anttola"
+      }
+    ],
+    "postalAddress": [],
+    "shortDescription": "Norpanhovin päiväkodissa toimii kaksi päiväkotiryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 162,
+    "name": "Nuppulan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5603",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Nuppulan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/haukivuoren-nuppulan-paivakoti",
+        "name": "Nuppulan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6876464",
+    "services": [
+      137
+    ],
+    "longitude": "511255",
+    "description": "Päiväkoti sijaitsee Haukivuoren alueella. Päiväkodissa toimii Nuput-ryhmä, joka on vuorohoitoryhmä ja päiväryhmä Muksut (3–5-vuotiaat). Esiopetusryhmä toimii Haukivuoren aseman koulun tiloissa.\nLuonto ja sen ihmeisiin tutustuminen eri vuodenaikoina  sekä lasten omaehtoinen, pitkäkestoinen leikki on myös tärkeä osa toimintaa. Aukioloaika klo 6.30–17.00 tai tarvittaessa ympäri vuorokauden lasten hoitoaikojen mukaan.\nHoitopaikkoja on 36.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Luhtitie 19 as 1 - 8",
+        "postalDistrict": "Haukivuori"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Nuppulan päiväkodissa on vuorohoitoryhmä ja päiväryhmä päivähoitolapsille sekä esiopetusryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 163,
+    "name": "Ryhmäperhepäiväkoti Omppu",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5712",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Ompun numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/omppu-ryhmaperhepaivakoti",
+        "name": "Omppu ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6842280",
+    "services": [
+      139
+    ],
+    "longitude": "523999",
+    "description": "Omppu sijaitsee maaseutuympäristössä n. 10 km Mikkelistä Juvan suuntaan.  Ympäröivä luonto tarjoaa mahdollisuuksia monenlaiseen tutkimiseen ja leikkiin. Pienessä sisarusryhmässä on mahdollista antaa jokaiselle lapselle yksilöllistä huomiota ja tukea jokaisen persoonallista kasvua.\nHoitopaikkoja on 12.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "07:30",
+        "closes": "16:30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51720",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Kuopiontie 110",
+        "postalDistrict": "Rahula"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Ompussa on 12 hoitopaikkaa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 164,
+    "name": "Oravanpesän päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5558",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Oravanpesän päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "https://sites.google.com/site/oravanpesae/",
+        "name": "Oravanpesän päiväkodin kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://www.mikkeli.fi/palvelut/oravanpesan-paivakoti",
+        "name": "Oravanpesän päiväkodin sivu Mikkelin kaupungin sivuilla",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6842338",
+    "services": [
+      137
+    ],
+    "longitude": "516401",
+    "description": "Oravanpesän päiväkodissa on yksi lapsiryhmä 1-5-vuotiaille. Oravanpesän päiväkoti sijaitsee Tupalan kaupunginosassa viihtyisässä rivitaloasunnossa. Alueen leikkipuistot ja ympäröivä luonto antavat mahdollisuuden monipuoliseen leikkiin ja tutkimiseen. \nHoitopaikkoja on 16.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Oravinharjuntie 5 B",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Oravanpesän päiväkodissa on yksi lapsiryhmä 1-5-vuotiaille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 165,
+    "name": "Otavan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "015 194 3410",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Otavan päiväkodin numero",
+        "phoneCallFeeAdditionalInformation": ""
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/otavan-paivakoti",
+        "name": "Otavan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6833512",
+    "services": [
+      137
+    ],
+    "longitude": "504000",
+    "description": "Päiväkoti sijaitsee Otavan taajaman ulkopuolella peltojen ja metsän ympäröimänä. Vieressä sijaitsevat urheilukenttä ja pururata sekä päiväkodin liikuntasali tarjoavat oivat mahdollisuudet liikuntaan. \nPäiväkodissa on viisi lapsiryhmää: sisarusryhmä, pien-esikoululaisten ryhmä, viisivuotiaiden ryhmä ja esiopetusryhmä sekä perhepäivähoidon ryhmäperhepäivähoito- ja varahoitopiste.\nHoitopaikkoja on 80.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [
+      "päiväkodit",
+      "lasten päivähoito",
+      "esiopetus",
+      "ryhmäperhepäivähoito",
+      "ryhmäperhepäivähoitajat",
+      "ryhmäperhepäiväkodit"
+    ],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50670",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Vanha Otavantie 112 B",
+        "postalDistrict": "Otava"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Otavan päiväkodissa on viisi lapsiryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 166,
+    "name": "Ryhmäperhepäiväkoti Pajunkissa",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 4973",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Pajunkissan numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/pajunkissa-ryhmaperhepaivakoti",
+        "name": "Pajunkissa ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6856691",
+    "services": [
+      139
+    ],
+    "longitude": "502300",
+    "description": "Ryhmäperhepäiväkoti Pajunkissassa on neljä hoitopaikkaa. Pajunkissa sijaitsee Harjumaan alueella ja se toimii rivitaloasunnossa maalaismaisemassa, peltojen ja metsän ympäröimänä.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51420",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Pajulantie 9 as. 3",
+        "postalDistrict": "Harjumaa"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Pajunkissassa on neljä hoitopaikkaa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 167,
+    "name": "Peitsarin päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "015 194 3383",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Peitsarin päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/peitsarin-paivakoti",
+        "name": "Peitsarin päiväkodin kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "https://peitsarinpk.wordpress.com/",
+        "name": "Peitsarin päiväkodin blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840478",
+    "services": [
+      137
+    ],
+    "longitude": "515901",
+    "description": "Peitsarin päiväkoti tarjoaa 1-6-vuotiaille lapsille varhaiskasvatusta ja esiopetusta. Toiminnassa otetaan huomioon lasten yksilölliset tarpeet kasvattamalla heitä kuitenkin yhteisöllisyyteen ja yhteisvastuullisuuteen. Päiväkoti tekee yhteystyötä vanhempien ja lähikoulujen (Peitsari ja Lähemäki) kanssa. \nHoitopaikkoja on 90.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Peitsarinkuja 8",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Peitsarin päiväkoti tarjoaa 1-6-vuotiaille lapsille varhaiskasvatusta ja esiopetusta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 168,
+    "name": "Ryhmäperhepäiväkoti Peukaloinen",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5329",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Peukaloisen numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/peukaloinen-ryhmaperhepaivakoti",
+        "name": "Peukaloinen ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840361",
+    "services": [
+      139
+    ],
+    "longitude": "511400",
+    "description": "Peukaloinen sijaitsee Tuskun kaupunginosassa, luhtitalon alakerran huoneistossa, jossa on 3 huonetta, olohuone ja keittiö. Peukaloinen on tarkoitettu 1-4-vuotiaille pienille lapsille. \nPeukaloisessa on 12 hoitopaikkaa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50150",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Karjalanharjuntie 3 R 56",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Peukaloisessa on 12 hoitopaikkaa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 170,
+    "name": "Ryhmäperhepäiväkoti Piilopirtti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5586",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Piilopirtin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/piilopirtti-ryhmaperhepaivakoti",
+        "name": "Piilopirtti ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837013",
+    "services": [
+      139
+    ],
+    "longitude": "513814",
+    "description": "Piilopirtti sijaitsee Laajalammella kerrostalon toisessa kerroksessa. Lapsiryhmässä on 1-4-vuotiaita lapsia. Ryhmäperhepäiväkoti tekee kiinteää yhteistyötä alueen perhepäivähoitajien ja avoimen päiväkodin Punapirtin kanssa. Luonnonläheisyys mahdollistaa metsäretket eri vuodenaikoina.\nHoitopaikkoja on 8.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "07:00",
+        "closes": "16:30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50160",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Suksisepäntie 8 D 53",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Piilopirtissä on 8 hoitopaikkaa 1-4-vuotiaille lapsille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 171,
+    "name": "Päiväkoti Lähemäen lastentalo",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4185",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Päiväkoti Lähemäen lastentalo, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://kasvunkansio.internetix.fi/fi/orgs/paivakodit/yksikot/lahemaki/sisalto/sivut/",
+        "name": "Päiväkoti Lähemäen lastentalon kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://www.mikkeli.fi/palvelut/paivakoti-lahemaen-lastentalo",
+        "name": "Päiväkoti Lähemäen lastentalo Mikkelin kaupungin sivuilla",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840590",
+    "services": [
+      137
+    ],
+    "longitude": "515416",
+    "description": "Lähemäen Lastentalossa on kuusi päiväkotiryhmää 1-6-vuotiaille. Lastentalo on perustettu vuonna 1950. Toimintaa on laajennettu Lähemäki-taloon, jossa sijaitsevat esiopetus- ja iltapäiväryhmä sekä avoin päiväkoti Jussin tupa. \nToiminta perustuu lasten kuulemiseen, osallisuuteen ja heidän ideoidensa todeksi tekemiseen. Lapsella on mahdollisuus opetella elämisen taitoja turvallisessa päiväkotiympäristössä yhdessä muiden kanssa. Yhteisöllisyydellä ja leikillä on keskeinen osuus päivittäisessä toiminnassa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "05:30",
+        "closes": "18:30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Lähemäenkatu 4 A",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Lähemäen Lastentalossa on kuusi päiväkotiryhmää 1-6-vuotiaille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 172,
+    "name": "Rantakylän päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 3401",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Rantakylän päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/rantakylan-paivakoti",
+        "name": "Rantakylän päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837699",
+    "services": [
+      137,
+      140
+    ],
+    "longitude": "510860",
+    "description": "Rantakylän päiväkodilla on pitkäaikaiset perinteet varhaiskasvatuksesta vuodesta 1976. Päiväkodin toiminta-ajatus suosii lapsilähtöistä pienryhmätoimintaa ja päivän aikana on erilaisia pajoja. Näin pystytään huomioimaan myös lasten erityisen tuen tarpeet. Toiminta-, leikki- ja oppimisympäristöjä muovataan siten että lapset voivat oppia kukin itselleen ominaisella tavalla.\nRantakylän päiväkodissa toimii ryhmät Kullerot (3–5-vuotiaat), Orvokit (5-vuotiaat) ja kaksi esiopetusryhmää. Hoitopaikkoja on 60.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": ""
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Sokkalantie 25",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Rantakylän päiväkodissa toimii kaksi päiväkotiryhmää ja kaksi esiopetusryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 173,
+    "name": "Ristiinan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 755 4710",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ristiinan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/ristiinan-paivakoti",
+        "name": "Ristiinan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6818871",
+    "services": [
+      137
+    ],
+    "longitude": "514184",
+    "description": "Ristiinan päiväkoti sijaitsee Ristiinan taajamassa, Kirkkorannan vierasvenesatamaa vastapäätä. Päiväkodin piha-alueella on myös Paviljonki, jossa toimii 2015-2016 Kirjava tupa ja perhepäivähoidon varahoito. Päiväkodin varsinainen esiopetusryhmä sijaitsee Ristiinan kirkonkylän yhtenäiskoulun yhteydessä. Avoin varhaiskasvatustoiminta toimii Oranssin tuvan tiloissa ma-to klo 9:00-13:00.\nRyhmät: Esiopetus, Punainen tupa (5-vuotiaat), Sininen tupa (3-vuotiaat), Kirjava tupa (4-vuotiaat ja perhepäivähoidon varahoito), Vihreä tupa (alle 3-vuotiaat) ja Keltainen tupa (pienryhmä). Vuorohoitoa tarvitsevat lapset ovat omissa ikäryhmissään päivisin, illat ja viikonloput hoituvat Oranssissa tuvassa. Vuorohoitoa tarjotaan ympäri vuorokauden hoidon tarpeen mukaan. \nVanhempien kanssa tehtävä yhteistyö on tärkeä osa toimintaa, ja päiväkodissa toimii vanhempien yhteistyöryhmä Yty.\nHoitopaikkoja on 160.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "53200",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Brahentie 54",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ristiinan päiväkoti tarjoaa 1-6 -vuotiaille lapsille monipuolista varhaiskasvatusta ja esiopetusta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 175,
+    "name": "Saksalan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "015 194 3392",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Saksalan päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/saksalan-paivakoti",
+        "name": "Saksalan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://saksalapk.blogspot.fi/",
+        "name": "Saksalan päiväkodin blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6839924",
+    "services": [
+      137
+    ],
+    "longitude": "515077",
+    "description": "Saksalan päiväkoti sijaitsee Saksalan kaupunginosan kartanomiljöössä Saimaan rannalla ja Mikkelin keskustan tuntumassa. Satama laivoineen ja veneineen on mukava retkikohde. Saimaan jää latuineen ja luisteluratoineen sekä Saksalan pelikenttä tarjoavat mahdollisuuksia erilaisiin liikuntamuotoihin. \nPäiväkoti järjestää vuoropäivähoitoa ja esiopetusta joustavasti ja lapsi- ja perheystävällisesti.\nSaksalan päiväkodissa on kolme lapsiryhmää. Hoitopaikkoja on 85-90.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "05:00",
+        "closes": "23:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Parraskuja 2",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Saksalan päiväkoti järjestää vuoropäivähoitoa ja esiopetusta kolmessa lapsiryhmässä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 177,
+    "name": "Sannan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5046",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Sannan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/sannan-paivakoti",
+        "name": "Sannan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840293",
+    "services": [
+      137
+    ],
+    "longitude": "511266",
+    "description": "Sannan päiväkoti sijaitsee Tuskussa noin 5 km keskustasta. Sannan päiväkodissa toimivat Tuulihatut-ryhmä (1-5-vuotiaat), Vilttitossut-ryhmä (3-5-vuotiaat) ja esiopetusryhmä Heinähatut.\nHoitopaikkoja on 46.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Sannastinlaakso 2",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Sannan päiväkodissa on kaksi päiväkotiryhmää ja yksi esiopetusryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 258,
+    "name": "Suomenniemen pienjäteasema",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6799701",
+    "services": [
+      266
+    ],
+    "longitude": "524123",
+    "description": "Pienjäteasemille kotitaloudet ja yritykset voivat toimittaa sellaiset jätteet, joita ei voida laittaa tavalliseen jäteastiaan kokonsa, määränsä tai laatunsa vuoksi.  Pienjäteasemille voi toimittaa kuormia henkilöauton peräkärryllä ja pakettiautolla. Siirtolavakuormia pienjäteasemilla ei vastaanoteta.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "15:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "2"
+        ],
+        "openingHoursException": "Kesä- ja heinäkuussa myös parillisten viikkojen lauantaina klo 9-11."
+      }
+    ],
+    "organization": 169,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52830",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Jätetie 4",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 106",
+        "streetAddress": "",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Pienjäteasemille kotitaloudet ja yritykset voivat toimittaa sellaiset jätteet, joita ei voida laittaa tavalliseen jäteastiaan.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 178,
+    "name": "Silvastin päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5706",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Silvastin päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/silvastin-paivakoti",
+        "name": "Silvastin päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6834561",
+    "services": [
+      137
+    ],
+    "longitude": "513455",
+    "description": "Silvastin päiväkoti toimii vanhassa Silvastin kartanossa, joka on remontoitu päivähoidon käyttöön vuonna 1996. Toiminnan lähtökohtana on hyvä ja luottamuksellinen yhteistyö perheiden kanssa. Päiväkodissa toimii aktiivinen vanhempaintoimikunta. \nPäiväkodissa on ryhmät Pikkutupa (0-2-vuotiaat), Uusi tupa (0-3-vuotiaat) ja Tenavatupa (3-5-vuotiaat). Hoitopaikkoja on 30.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50500",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Haahkalantie 20",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Silvastin päiväkodissa on kolme päiväkotiryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 180,
+    "name": "Suksimäen päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5786",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Suksimäen päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/suksimaen-paivakoti",
+        "name": "Suksimäen päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6836980",
+    "services": [
+      137
+    ],
+    "longitude": "513689",
+    "description": "Suksimäen päiväkoti sijaitsee Laajalammen alueella, joka luo liikuntapainotteiselle toiminnalle hyvät lähtökohdat. Alueen erityispiirteenä on monipuolinen luonto kallioineen ja metsämaastoineen. Päiväkodin läheisyydessä olevat lammet antavat kesällä mahdollisuuden melomiseen, uimiseen ja vesileikkeihin. Päiväkodin piha-alueella on talvisin mahdollisuus luistella ja hiihtää, ja kesäisin onnistuvat myös monet pallopelit. Lapsen liikunta on osa oppimis- ja kasvatustapahtumaa. \nPäiväkodin ryhmiä ovat Jukurit (3-5-vuotiaat), Kissat (3-5-vuotiaiden pienryhmä) ja esiopetusryhmä Leijonat. Hoitopaikkoja on 63.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [
+      "lasten päivähoito",
+      "esiopetus",
+      "päiväkodit"
+    ],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50160",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Suksisepäntie 11",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Suksimäen päiväkodissa on kaksi päiväkotiryhmää ja esiopetusryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 181,
+    "name": "Tikanpellon päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4146",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Tikanpellon päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/tikanpellon-paivakoti",
+        "name": "Tikanpellon päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6839370",
+    "services": [
+      137
+    ],
+    "longitude": "516036",
+    "description": "Tikanpellon päiväkoti sijaitsee Tuppuralan kaupunginosassa. Päiväkodin sijainti rauhallisen puistoalueen vieressä, lähellä luontoa antaa upeat puitteet niin luonto- ja ympäristökasvatukselle kuin myös monipuoliselle liikunnalle.\nTikanpellon päiväkodissa toimii ryhmät Telkät (0-3 v.), Tikat (3-5 v.) ja pienryhmä Tiaiset. Esiopetusryhmä Pesäpuu toimii Tuppuralan koululla.\nHoitopaikkoja on 47.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50190",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Telkänkatu 8",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Tikanpellon päiväkodissa on kolme päiväkotiryhmää ja esipetusryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 184,
+    "name": "Tuukkalan päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5744",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Tuukkalan päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/tuukkalan-paivakoti",
+        "name": "Tuukkalan päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6836215",
+    "services": [
+      137
+    ],
+    "longitude": "514158",
+    "description": "Tuukkalan päiväkodin lapsiryhmät ovat Siniset (1-3 v.), Punaiset (3-5 v.) ja esiopetusryhmät päiväkodin ja Moision koulun tiloissa. Tuukkalan päiväkoti sijaitsee luonnonläheisellä paikalla, metsän, lammen ja hyvien liikuntapaikkojen lähellä. Monipuolinen liikunta on osa päiväkodin toimintaa, siksi perheillä on mahdollista osallistua yhteiseen toimintaan myös päivähoitopäivien ulkopuolella, esimerkiksi yhteiseen liikuntatuntiin lähikoulun salissa  kerran viikossa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50500",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Laajatie 26",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Tuukkalan päiväkodin on kaksi päiväkotiryhmää ja esiopetusryhmät päiväkodin ja Moision koulun tiloissa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 186,
+    "name": "Ryhmäperhepäiväkoti Untuvikot",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 3398",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Untuvikkojen numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/untuvikot-ja-varapesa-ryhmaperhepaivakoti",
+        "name": "Untuvikot ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6838870",
+    "services": [
+      139
+    ],
+    "longitude": "515569",
+    "description": "Untuvikot  ja perhepäivähoidon varahoitopiste Varapesä sijaitsevat Graanin kaupunginosassa, kerrostalon ensimmäisessä kerroksessa Saimaan rannan läheisyydessä. Ryhmäperhepäiväkoti toimii tavallisissa neljän huoneen ja keittiön perheasunnoissa, jotka on muutettu päivähoidon tiloiksi. Untuvikkojen ja varapesän yhteistyö on päivittäistä. Asuinalue ja lähialueen leikkipuistot tarjoavat hyvät mahdollisuudet monipuoliseen ulkoiluun, liikuntaan ja luonnon tutkimiseen ympäri vuoden.\nToiminnassa painottuu lasten taidekasvatus, jonka tärkeimpänä tavoitteena on lapsen tunneilmaisun vahvistaminen värien, laulujen, draaman ja kuvallisen ilmaisun kautta.\nRyhmäperhepäiväkoti Untuvikoissa on 12 hoitopaikkaa, Varapesässä 8.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:40",
+        "closes": "16:30",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50190",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Levypolku 2 A 2",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Untuvikoissa on 12 hoitopaikkaa, Varapesässä 8.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 187,
+    "name": "Valkosenmäen päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 4950",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Valkosenmäen päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/sannan-paivakoti",
+        "name": "Valkosenmäen päiväkodin kotisivu",
+        "webpageType": "homepage"
+      },
+      {
+        "url": "http://valkosenmaenpk.blogspot.fi/",
+        "name": "Valkosenmäen päiväkodin blogi",
+        "webpageType": "social_media"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837855",
+    "services": [
+      137
+    ],
+    "longitude": "510067",
+    "description": "Valkosenmäen päiväkoti sijaitsee Rantakylässä luonnonkauniilla paikalla, hyvien liikenneyhteyksien ja monipuolisten virkistysalueiden läheisyydessä. Arkkitehtuurisesti kauniin päiväkodin suurista ikkunoista avautuvat upeat maisemat lasten ja aikuisten iloksi. Päiväkodin tilat koostuvat kahdesta isommasta ryhmätilasta sekä pienemmistä toiminta- ja leikkitiloista. Tilat ovat valoisat ja avarat, ja ne mahdollistavat lasten leikit myös pienryhmissä. Valkosenmäen päiväkodissa toimii kaksi ryhmää: 3-5-vuotiaat Peukaloiset ja esiopetusryhmä/5-6-vuotiaat Villihanhet. Päiväkodin alaisuudessa toimii myös Pelimannien esiopetusryhmä, joka sijaitsee Rantakylän yhtenäiskoulun yhteydessä. \nHoitopaikkoja on 63.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Elontie 1",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Valkosenmäen päiväkodissa toimii päiväkotiryhmä ja esiopetusryhmää, joista toinen Rantakylän koulussa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 188,
+    "name": "Ryhmäperhepäiväkoti Varaviikari",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5066",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Varaviikarin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/varaviikari-ryhmaperhepaivakoti",
+        "name": "Varaviikari ryhmäperhepäiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6838062",
+    "services": [
+      139
+    ],
+    "longitude": "510326",
+    "description": "Ryhmäperhepäiväkoti Varaviikari toimii Rantakylä-talon asuinhuoneistossa. Varaviikarissa järjestetään päivähoitoa sekä vakituisille että perhepäivähoitajien varahoitolapsille. Varaviikarissa on 10-12 hoitopaikkaa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Kunnanmäki 7",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Varaviikarissa järjestetään päivähoitoa sekä vakituisille että perhepäivähoitajien varahoitolapsille.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 189,
+    "name": "Vuoropäiväkoti Vilttihattu",
+    "email": [],
+    "phone": [
+      {
+        "phone": "050 581 2369",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Vilttihatun päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/vuoropaivakoti-vilttihattu",
+        "name": "Vuoropäiväkoti Vilttihatun kotisivut",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6838917",
+    "services": [
+      137
+    ],
+    "longitude": "513553",
+    "description": "Päiväkodin oman piha-alueen lisäksi vieressä on lähiliikuntapaikka. Lähellä ovat myös muun muassa urheilupuisto, kirjasto sekä museo. \nVilttihattu on avoinna ympärivuorokautisesti lasten hoidontarpeen mukaan. \nPäiväkodissa on viisi ryhmää: Pilttihatut (1 - 2-vuotiaat), Kuuhatut (2 - 3-vuotiaat), Aurinkohatut (4 - 5-vuotiaat), Tähtihatut (esiopetus), Sädehatut (pienryhmä).\nHoitopaikkoja on 110.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "00:01",
+        "closes": "24:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Ahonkatu 2",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Vilttihattu sjaitsee keskeisellä paikalla Nuijamiehen kaupunginosassa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 191,
+    "name": "Orikon Helmen päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "015 194 3296",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Orikon Helmen päiväkodin numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/orikon-helmi",
+        "name": "Orikon Helmen päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837258",
+    "services": [
+      137
+    ],
+    "longitude": "511465",
+    "description": "Orikon Helmen päiväkodissa toimii Simpukat-ryhmä (0-3-vuotiaat) ja Helmet-ryhmä (3-5-vuotiaat). Päiväkoti tarjoaa turvallisen kasvuympäristön ja mahdollisuudet monipuoliselle leikille ja ulkoilulle. Toiminnassa on tärkeää avoin ja positiivinen vuorovaikutus lapsien, vanhempien, työntekijöiden ja koko Orijärven kyläyhteisön kesken.\nHoitopaikkoja on 33.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Karilantie 12",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Orikon Helmen päiväkodissa toimii kaksi päiväkotiryhmää.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 228,
+    "name": "Ryhmäperhepäiväkoti Torpantie",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 4025",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Ryhmäperhepäiväkoti Torpantien numero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837230",
+    "longitude": "510179",
+    "description": "Ryhmäperhepäiväkoti Torpantie sijaitsee Rantakylän alueella metsän reunassa ja tarjoaa moninaiset retkeilymahdollisuudet.\n\nRyhmäperhepäiväkoti Torpantiellä on 12 hoitopaikkaa ja pienryhmässä 8 hoitopaikkaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:30",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Torpantie 1 as 17-19",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ryhmäperhepäiväkoti Torpantiellä on 12 hoitopaikkaa ja pienryhmässä 8 hoitopaikkaa.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 250,
+    "name": "Mikkelin kaupungin asiointipiste",
+    "email": [
+      {
+        "address": "asiakaspalvelu@mikkeli.fi",
+        "description": "Asiakaspalvelu"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2100",
+        "phoneNumberDescription": "Asiointipisteen puhelinpalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/asiointipiste",
+        "name": "Mikkelin kaupungin asiointipiste",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6839299",
+    "services": [
+      107,
+      202,
+      106
+    ],
+    "longitude": "514367",
+    "description": "Kaupungin virastotalolla oleva asiointipiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.\n\nAsiointipisteessä on kaupungin omien palvelujen lisäksi saatavilla myös verohallinnon, maistraatin, Kelan, TE-toimiston, poliisin lupahallinnon ja Taiteen edistämiskeskuksen palveluja. Mahdollisuus etäpalveluun on em. toimijoiden sekä Etelä-Savon oikeusavun kanssa.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina 9-15. Kesä-elokuussa 9-15."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Maaherrankatu 9-11",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Kaupungin virastotalo"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 33",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kaupungin virastotalolla oleva asiointipiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 251,
+    "name": "Ristiinan yhteispalvelupiste",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4373",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6819347",
+    "longitude": "513611",
+    "description": "Ristiinan kirjastossa oleva yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.\n\nYhteispalvelupisteessä on kaupungin omien palvelujen lisäksi saatavilla myös verohallinnon, maistraatin, Kelan, TE-toimiston ja Taiteen edistämiskeskuksen palveluja. Mahdollisuus etäpalveluun on em. toimijoiden sekä Etelä-Savon oikeusavun kanssa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52300",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Brahentie 34",
+        "postalDistrict": "Ristiina",
+        "addressQualifier": "Ristiinan kirjasto"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52300",
+        "streetAddress": "Brahentie 34",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Ristiinan kirjastossa oleva yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 257,
+    "name": "Ristiinan pienjäteasema",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6820200",
+    "services": [
+      266
+    ],
+    "longitude": "513045",
+    "description": "Pienjäteasemille kotitaloudet ja yritykset voivat toimittaa sellaiset jätteet, joita ei voida laittaa tavalliseen jäteastiaan kokonsa, määränsä tai laatunsa vuoksi.  Pienjäteasemille voi toimittaa kuormia henkilöauton peräkärryllä ja pakettiautolla. Siirtolavakuormia pienjäteasemilla ei vastaanoteta. Voit käyttää minkä tahansa pienjäteaseman palveluja asuin- tai mökkikunnastasi riippumatta.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "2"
+        ],
+        "openingHoursException": ""
+      },
+      {
+        "opens": "15:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "4"
+        ],
+        "openingHoursException": "Kesä- ja heinäkuussa myös lauantaisin klo 12-15."
+      }
+    ],
+    "organization": 169,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52300",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Yrittäjäntie 2",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 106",
+        "streetAddress": "",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Pienjäteasemalla on vastaanotto jätteelle, jota ei voida laittaa tavalliseen jäteastiaan kokonsa, määränsä tai laatunsa vuoksi.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 252,
+    "name": "Suomenniemen yhteispalvelupiste",
+    "email": [],
+    "phone": [
+      {
+        "phone": "0400 348 256",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6799459",
+    "longitude": "524008",
+    "description": "Suomenniemen kirjastossa oleva yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste. Yhteispalvelupisteessä on kaupungin omien palvelujen lisäksi saatavilla myös verohallinnon, maistraatin, Kelan, TE-toimiston ja Taiteen edistämiskeskuksen palveluja. Mahdollisuus etäpalveluun on em. toimijoiden sekä Etelä-Savon oikeusavun kanssa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "12:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "1"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52830",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Kirkonkyläntie 14",
+        "postalDistrict": "Suomenniemi",
+        "addressQualifier": "Suomenniemen kirjasto"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52830",
+        "streetAddress": "Kirkonkyläntie 14",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Suomenniemen kirjastossa oleva yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 253,
+    "fax": "015 194 2129",
+    "name": "Anttolan yhteispalvelupiste",
+    "email": [
+      {
+        "address": "anttolan.kirjasto@mikkeli.fi",
+        "description": "Anttolan kirjasto"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 5730",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      },
+      {
+        "phone": "050 311 7484",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6828002",
+    "longitude": "534299",
+    "description": "Yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.Yhteispalvelupisteessä on kaupungin omien palvelujen lisäksi saatavilla  verohallinnon, maistraatin, Kelan, TE-toimiston ja Taiteen edistämiskeskuksen palveluja. Mahdollisuus etäpalveluun on em. toimijoiden sekä Etelä-Savon oikeusavun kanssa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina klo 10-16"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Taipaleentie 31",
+        "postalDistrict": "Anttola",
+        "addressQualifier": "Anttola-talo"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52100",
+        "postOfficeBox": "",
+        "streetAddress": "Taipaleentie 31",
+        "postalDistrict": "Anttola"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 254,
+    "fax": "015 412 298",
+    "name": "Haukivuoren yhteispalvelupiste",
+    "email": [
+      {
+        "address": "haukivuorenkirjasto@mikkeli.fi",
+        "description": "Haukivuoren kirjasto"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 2130",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      },
+      {
+        "phone": "044 794 2131",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      },
+      {
+        "phone": "044 794 2132",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6876435",
+    "longitude": "510871",
+    "description": "Yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste. Yhteispalvelupisteessä on kaupungin omien palvelujen lisäksi saatavilla  verohallinnon, maistraatin, Kelan, TE-toimiston ja Taiteen edistämiskeskuksen palveluja. Mahdollisuus etäpalveluun on em. toimijoiden sekä Etelä-Savon oikeusavun kanssa.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina 10-16"
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Juhlapyhien aattoina 10-16"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Keskustie 52",
+        "postalDistrict": "Haukivuori",
+        "addressQualifier": "Haukivuoren kirjasto"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "51600",
+        "streetAddress": "Keskustie 52",
+        "postalDistrict": "Haukivuori"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Yhteispalvelupiste on kaupungin ylläpitämä julkisen hallinnon yhteinen asiakaspalvelupiste.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 256,
+    "name": "Metsä-Sairilan jätekeskus",
+    "email": [
+      {
+        "address": "jatehuolto@metsasairila.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 722 2300  (alanumero 4)",
+        "phoneNumberDescription": "klo 7-9 sekä klo 15 jälkeen 040 351 8333"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837272",
+    "services": [
+      266
+    ],
+    "longitude": "519074",
+    "description": "Lajitellut hyötyjätteet (paperi, lasi, metalli yms.) vastaanotetaan maksutta erillään muusta jätteestä omiin pisteisiinsä. Jos kuorma muodostuu lajittelemattomasta jätteestä (jätteitä ei ole lajiteltu), kuormasta peritään kalleimman jätelaadun mukainen maksu. Ennen jätekuorman tuontia jätekeskukseen jätteentuojan on hyvä perehtyä lajitteluohjeisiin.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "07:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 169,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50800",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Metsä-Sairilantie 18",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 106",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Metsä-Sairilan jätekeskus ottaa vastaan jätettä alueen asukkailta, yhteisöiltä ja yrityksiltä.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 259,
+    "name": "Haukivuoren pienjäteasema",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6876278",
+    "longitude": "510802",
+    "description": "Pienjäteasemille kotitaloudet ja yritykset voivat toimittaa sellaiset jätteet, joita ei voida laittaa tavalliseen jäteastiaan kokonsa, määränsä tai laatunsa vuoksi.  Pienjäteasemille voi toimittaa kuormia henkilöauton peräkärryllä ja pakettiautolla. Siirtolavakuormia pienjäteasemilla ei vastaanoteta. Voit käyttää minkä tahansa pienjäteaseman palveluja asuin- tai mökkikunnastasi riippumatta.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "2"
+        ],
+        "openingHoursException": "Kesä- ja heinäkuussa myös lauantaisin klo 12-15."
+      },
+      {
+        "opens": "15:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "4"
+        ],
+        "openingHoursException": "Kesä- ja heinäkuussa myös lauantaisin klo 12-15."
+      }
+    ],
+    "organization": 169,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Paloasemantie 8",
+        "postalDistrict": "Haukivuori"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 106",
+        "streetAddress": "",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Pienjäteasemalla on vastaanotto jätteelle, jota ei voida laittaa tavalliseen jäteastiaan kokonsa, määränsä tai laatunsa vuoksi.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 261,
+    "name": "Metsäsairila Oy:n asiakaspalvelu",
+    "email": [
+      {
+        "address": "jatehuolto@metsasairila.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 722 2300",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.metsasairila.fi/metsasairila/fi/palvelut/",
+        "name": "Metsäsairila Oy:n palvelut",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840261",
+    "services": [
+      147,
+      190,
+      266
+    ],
+    "longitude": "514537",
+    "description": "Asiakaspalvelussa voit hoitaa laskutukseen, asiakastietohin ja jätehuoltosopimuksiin liittyvät asiat. Asiakaspalvelu neuvoo aluekeräykseen, hyötyjätepisteisiin ja jäteastioiden tyhjennyksiin liittyen. Asiakaspalvelu antaa lajitteluneuvontaa, tiedottaa, neuvoo yritysasiakkaita ja järjestää kouluvierailuja.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 169,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Arkistokatu 12",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 106",
+        "streetAddress": "Arkistokatu 12",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Asiakaspalvelusta voit tiedustella mm. laskutuksesta, hoitaa asiakastietojen muutokset ja tehdä jätehuoltosopimukset.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 265,
+    "name": "Naisvuoren päiväkoti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 5037",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Naisvuoren päiväkoti, päiväkodinjohtaja"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mikkeli.fi/palvelut/naisvuoren-paivakoti",
+        "name": "Naisvuoren päiväkodin kotisivu",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840107",
+    "services": [
+      137
+    ],
+    "longitude": "514227",
+    "description": "Naisvuoren päiväkoti on tammikuussa 2016 toimintansa aloittanut n. 130 paikkainen päiväkoti, jossa on laajennettu aukioloaika klo 6-20. Naisvuoren päiväkoti sijaitsee keskustan tuntumassa. Päiväkodin valmistumisen yhteydessä lakkautettiin ryhmäperhepäiväkodit Lilliputti, Naperotupa, Onnimanni, Varamatti sekä Kaarinan ja Nuijan päiväkodit. Naisvuoren päiväkodin filiaaliryhmät Esiopetus ja Tuikut toimivat osoitteessa Kasarminkatu 10, 50100 Mikkeli.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "06:00",
+        "closes": "20:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Päämajankatu 14",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [],
+    "coordinateSystem": "3067",
+    "shortDescription": "Naisvuoren päiväkoti on n. 130 paikkainen päiväkoti, jossa on laajennettu aukioloaika klo 6-20.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 271,
+    "fax": "020 613 5620",
+    "name": "Kaakkois-Suomen verotoimisto",
+    "email": [],
+    "phone": [
+      {
+        "phone": "020 612 000",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6748073",
+    "services": [
+      83
+    ],
+    "longitude": "483565",
+    "description": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Asiakirjojen vastaanotto ma-pe 8:00 - 16:15"
+      },
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": "",
+        "validThrough": "",
+        "openingHoursException": "1.6. - 31.8."
+      }
+    ],
+    "organization": 82,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "45100",
+        "municipality": "286 Kouvola",
+        "streetAddress": "Kauppamiehenkatu 4 (10. kerros)",
+        "postalDistrict": "Kouvola"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "45100",
+        "streetAddress": "Kauppamiehenkatu 4 (10. kerros)",
+        "postalDistrict": "Kouvola"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 272,
+    "fax": "020 613 5620",
+    "name": "Kaakkois-Suomen verotoimisto, Lappeenrannan toimipiste",
+    "email": [],
+    "phone": [
+      {
+        "phone": "020 612 000",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6769759",
+    "services": [
+      83
+    ],
+    "longitude": "564262",
+    "description": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceArea": [],
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": "1.6.",
+        "validThrough": "31.8.",
+        "openingHoursException": "Kesäaukioloaika"
+      }
+    ],
+    "organization": 82,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "53100",
+        "municipality": "405 Lappeenranta",
+        "streetAddress": "Villimiehenkatu 2",
+        "postalDistrict": "Lappeenranta"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "53101",
+        "postOfficeBox": "PL 21",
+        "postalDistrict": "Lappeenranta"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 273,
+    "fax": "020 613 5620",
+    "name": "Kaakkois-Suomen verotoimisto, Savonlinnan toimipiste",
+    "email": [],
+    "phone": [
+      {
+        "phone": "020 612 000",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6860801",
+    "services": [
+      83
+    ],
+    "longitude": "599588",
+    "description": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": "1.6.",
+        "validThrough": "31.8.",
+        "openingHoursException": "Kesäaukioloaika"
+      }
+    ],
+    "organization": 82,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "57130",
+        "municipality": "740 Savonlinna",
+        "streetAddress": "Olavinkatu 24",
+        "postalDistrict": "Savonlinna"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "57130",
+        "streetAddress": "Olavinkatu 24",
+        "postalDistrict": "Savonlinna"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 274,
+    "fax": "020 613  6754",
+    "name": "Pohjois-Savon verotoimisto, Varkauden toimipiste",
+    "email": [],
+    "phone": [
+      {
+        "phone": "020 612 000",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "description": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceArea": [],
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "12:00",
+        "dayOfWeek": [
+          "1",
+          "2"
+        ],
+        "validFrom": "1.6.",
+        "validThrough": "31.8.",
+        "openingHoursException": "Kesäaukioloaika"
+      }
+    ],
+    "organization": 82,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "78200",
+        "municipality": "915 Varkaus",
+        "streetAddress": "Wredenkatu 8",
+        "postalDistrict": "Varkaus"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "78250",
+        "postOfficeBox": "PL120",
+        "postalDistrict": "Varkaus"
+      }
+    ],
+    "shortDescription": "Verotoimistossa voit hoitaa kaikki henkilöasiakkaan verotukseen liittyvät asiat. Voit asioida missä tahansa Verohallinnon toimipisteessä.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 307,
+    "name": "Avoin päiväkoti Puuhatupa",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4848",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Puuhatuvan puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6818787",
+    "services": [
+      306
+    ],
+    "longitude": "514177",
+    "description": "Puuhatupa on Ristiinan päiväkodin avoin päiväkotiryhmä. Puuhatuvan toiminta on suunnattu alle kouluikäisille kotihoidossa oleville lapsille ja heidän vanhemmilleen/hoitajilleen. \n\nToimintaa järjestetään viikko-ohjelman mukaisesti. Viikko-ohjelma on luettavissa kaupungin verkkosivuilta. Avoin päivähoitoryhmä on suljettu kesäaikana.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "13:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52300",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Brahentie 54",
+        "postalDistrict": "Ristiina",
+        "addressQualifier": "Ristiinan päiväkoti"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52300",
+        "streetAddress": "Brahentie 54",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Puuhatupa on Ristiinan päiväkodin avoin päiväkotiryhmä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 308,
+    "name": "Avoin päiväkoti Punapirtti",
+    "email": [],
+    "phone": [
+      {
+        "phone": "044 794 3326",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Punapirtin puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6837138",
+    "services": [
+      306
+    ],
+    "longitude": "514078",
+    "description": "Punapirtti on Laajalammen alueella toimiva avoin päiväkoti. Punapirtin toiminta on suunnattu alle kouluikäisille kotihoidossa oleville lapsille ja heidän vanhemmilleen/hoitajilleen. \n\nToimintaa järjestetään eri ryhmille viikko-ohjelman mukaisesti. Viikko-ohjelma on luettavissa kaupungin verkkosivuilta. Avoin päiväkoti on suljettu kesäaikana.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "11:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "openingHoursException": "Päivähoitohakemuksella haettava puolipäiväryhmä ma–to klo 12:00–16:00."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50160",
+        "municipality": "Mikkeli",
+        "streetAddress": "Opintie 3",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50160",
+        "streetAddress": "Opintie 3",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Punapirtti on Laajalammen alueella toimiva avoin päiväkoti.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 309,
+    "name": "Avoin päiväkoti Jussin tupa",
+    "email": [],
+    "phone": [
+      {
+        "phone": "040 129 4120",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Jussin tuvan puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840572",
+    "services": [
+      306
+    ],
+    "longitude": "515453",
+    "description": "Jussi tupa on Lähemäen alueella toimiva avoin päiväkoti. Jussin tuvan toiminta on suunnattu alle kouluikäisille kotihoidossa oleville lapsille ja heidän vanhemmilleen/hoitajilleen. \n\nToimintaa järjestetään eri ryhmille viikko-ohjelman mukaisesti. Viikko-ohjelma on luettavissa kaupungin verkkosivuilta. Avoin päiväkoti on suljettu kesäaikana.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "11:15",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "10:30",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "Mikkeli",
+        "streetAddress": "Lähemäenkatu 11 A",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50170",
+        "streetAddress": "Lähemäenkatu 11",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Jussin tupa on Lähemäen alueella toimiva avoin päiväkoti.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 311,
+    "name": "Mikkelin taidemuseo",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6839552",
+    "services": [
+      310
+    ],
+    "longitude": "514183",
+    "description": "Mikkelin taidemuseo tutkii, dokumentoi ja esittelee kuvataidetta. \n\nPainopistealueita taidemuseossa ovat näyttelytoiminta, eteläsavolainen kuvataide, taidemuseon hallussa olevien taidekokoelmien hoitaminen ja kartuttaminen sekä suomalaisen kuvitustaiteen esitteleminen ja kerääminen. Taidemuseo toimii myös Etelä-Savon aluetaidemuseona. Museossa on pysyviä ja vaihtuvia taidenäyttelyitä.\n\nTaidemuseo toimii arkkitehti Armas Rankan suunnittelemassa ns. graniittitalossa joka on vuodelta 1912. Graniittitalo sijaitsee Mikkelin keskustassa, Hallituskadun ja Ristimäenkadun kulmassa.\n\nMikkelin taidemuseon museokaupassa on myynnissä julkaisuja, näyttelyluetteloita, lahjatavaroita, postikortteja, näyttelyjulisteita ja paperitavaroita. Museokauppaan on ilmainen sisäänpääsy.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "12:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "3"
+        ],
+        "validFrom": "1.10.2015",
+        "validThrough": "30.4.2016",
+        "openingHoursException": "Juhlapyhinä suljettu."
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "4",
+          "5",
+          "7"
+        ],
+        "validFrom": "1.10.2015",
+        "validThrough": "30.4.2016",
+        "openingHoursException": ""
+      },
+      {
+        "opens": "10:00",
+        "closes": "13:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "validFrom": "1.10.2015",
+        "validThrough": "30.4.2016",
+        "openingHoursException": ""
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "validFrom": "2.5.2016",
+        "validThrough": "30.9.2016",
+        "openingHoursException": ""
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Ristimäenkatu 5",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Mikkelin taidemuseo tutkii, dokumentoi ja esittelee kuvataidetta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 313,
+    "name": "Suur-Savon museo",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6839257",
+    "services": [
+      310
+    ],
+    "longitude": "513462",
+    "description": "Suur-Savon museo on toiminut museokäyttöön kunnostetussa viljamakasiinissa juhannuksesta 1960 lähtien. Museo säilyttää, tallentaa ja tekee tunnetuksi paikallista aineellista kulttuuriperintöä harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.\n\nSuur-Savon museon perusnäyttely esittelee eteläsavolaista talonpoikaisesineistöä ja Mikkelin kaupungin historiasta kertovia esineitä.\n\nEnsimmäisessä kerroksessa on esillä Suur-Savon Museoyhdistyksen 1920–1930-luvuilla kokoama peruskokoelma, maanviljelykseen, metsästykseen, kalastukseen ja ruokatalouteen liittyviä esineitä.\n\nToisesta kerroksesta löytyy museon tina- ja porsliinikokoelma. Sinne on sijoitettu myös tekstiilejä. Esillä on Mikkelin seudun muinaispuku, joka on ensimmäinen uuden tutkimuksen mukainen puku.\n\nKolmanteen kerrokseen on sijoitettu kaupungin historiaan liittyvää esineistöä sekä käsityöläisistä kertovaa esineistöä.\n\nMuseokaupasta saa kirjallisuutta, postikortteja ja lahjatuotteita. Kaikkia tuotteita saa myös Mikkelin taidemuseon myyntipisteestä.\n\nMuseon toisessa kerroksessa on vitriini, jossa on esillä kuukauden esine. Kuukauden esineestä ja muista vaihtuvista näyttelyistä museo tiedottaa Facebook-sivuillaan.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "3"
+        ],
+        "validFrom": "1.9.2015",
+        "validThrough": "30.4.2016",
+        "openingHoursException": "Juhlapyhinä suljettu."
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": "2.5.2016",
+        "validThrough": "31.8.2016"
+      },
+      {
+        "opens": "14:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "validFrom": "2.5.2016",
+        "validThrough": "31.8.2016"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50130",
+        "municipality": "Mikkeli",
+        "streetAddress": "Otavankatu 11",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Suur-Savon museo on Mikkelin kaupungin kulttuurihistoriallinen museo.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 322,
+    "name": "Pien-Toijolan talonpoikaismuseo",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6814657",
+    "services": [
+      310
+    ],
+    "longitude": "528518",
+    "description": "Pien-Toijolan talonpoikaismuseo Ristiinassa on valtakunnallisesti merkittävä talonpoikaiskulttuuriympäristö. \n\nPien-Toijolan museotila sijaitsee Toijolan kylässä noin 20 km Ristiinan keskustasta Puumalan suuntaan. Tila on ollut Toijosen suvulla vuodesta 1672. Kaikki rakennukset ovat alkuperäisillä paikoillaan. \n\nPien-Toijolan museotila on osa Suur-Savon museota. Suur-Savon museo on Mikkelin kaupungin kulttuurihistoriallinen museo, joka säilyttää, tallentaa ja tekee tunnetuksi paikallista aineellista kulttuuriperintöä harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "validFrom": "27.6.2016",
+        "validThrough": "6.8.2016"
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "validFrom": "27.6.2016",
+        "validThrough": "6.8.2016"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52360",
+        "municipality": "Mikkeli",
+        "streetAddress": "Suurlahdentie 1982",
+        "postalDistrict": "Someenjärvi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Pien-Toijolan talonpoikaismuseo Ristiinassa on valtakunnallisesti merkittävä talonpoikaiskulttuuriympäristö.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 323,
+    "name": "Mikkelin lukio",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneCallFee": "paikallisverkkomaksu, paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Kansalaisopisto järjestää Mikkelin lukion tiloissa osan kielten ja musiikin iltaopetuksesta.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "countryCode": "FI",
+        "municipality": "Mikkeli",
+        "streetAddress": "Päämajankuja 4",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "-"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Päämajankuja 4",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Mikkelin lukion tiloissa toimii osa kansalaisopiston iltakursseista.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 324,
+    "name": "Puistokatu 1",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Puistokadulla toimivat kansalaisopiston kuvataidekurssit sekä lasten, nuorten ja aikuisten kuvataideopetus taiteen perusopetuksena. Puistokadun salissa toimii päivittäin lukuisia liikuntaryhmiä.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "countryCode": "",
+        "municipality": "Mikkeli",
+        "streetAddress": "Puistokatu 1",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Puistokatu 1, sisäänkäynti pihan puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Puistokatu 1",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Puistokadulla sijaitsee kuvataideopetuksen tilat ja salissa järjestetään liikuntakursseja.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 325,
+    "name": "Viestikeskus Lokki",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6839853",
+    "services": [
+      310
+    ],
+    "longitude": "514266",
+    "description": "Viestikeskus Lokki vaalii jatkosodan aikaisen Mikkeliin sijoitetun Suomen armeijan päämajan viestikeskuksen historiallista perintöä säilyttämällä, tallentamalla ja tekemällä sitä tunnetuksi harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "validFrom": "2.5.2016",
+        "validThrough": "31.8.2016",
+        "openingHoursException": "Juhlapyhinä suljettu."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Vuorikatu",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Vuorikadun ja Ristimäenkadun kulma. Sisäänkäynti Vuorikadun puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Viestikeskus Lokki vaalii jatkosodan aikaisen Mikkeliin sijoitetun Suomen armeijan päämajan viestikeskuksen historiallista perintöä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 328,
+    "name": "Puukoulu",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneCallFee": "paikallisverkkomaksu/paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Puukoululla toimii lukuisia kielten päivä- ja iltaryhmiä. Kudonta- ja käsityöluokan ohella tiloissa järjestetään myös muita kursseja.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Savilahdenkatu 13",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Savilahdenkatu 13, käynti sisäpihan puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Savilahdenkatu 13",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Savilahdenkadun Puukoululla järjestetään kielten, tekstiilityön ja kudonnan opetusta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 329,
+    "name": "Harjukosken mylly",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6864645",
+    "services": [
+      310
+    ],
+    "longitude": "504652",
+    "description": "Harjukosken mylly on edelleen toimintakuntoinen, 1870-luvulla rakennettu kaksikiviparinen mylly, joka oli toiminnassa vuoteen 1975 saakka. Pihapiirissä on myllärintupa, aitat ja savusauna. \n\nHarjukosken mylly on osa Suur-Savon museota. Suur-Savon museo on Mikkelin kaupungin kulttuurihistoriallinen museo, joka säilyttää, tallentaa ja tekee tunnetuksi paikallista aineellista kulttuuriperintöä harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "validFrom": "27.6.2016",
+        "validThrough": "7.8.2016"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50970",
+        "municipality": "Mikkeli",
+        "streetAddress": "Ihastjärventie 261",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Museoitu Harjukosken mylly on edelleen toimintakuntoinen, 1870-luvulla rakennettu kaksikiviparinen mylly, joka oli toiminnassa vuoteen 1975 saakka.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 330,
+    "name": "Päämajakoulu",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneCallFee": "paikallisverkkomaksu/paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Päämajakoulun salissa järjstetään ilta-aikaan monipuolisia liikunnan kursseja.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Otto Mannisenkatu 8-10",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Päämajakoulu"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Otto Mannisenkatu 8-10",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Päämajakoululla toimii osa kansalaisopiston liikuntakursseista.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 331,
+    "name": "Kivisakasti",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6840242",
+    "services": [
+      310
+    ],
+    "longitude": "514750",
+    "description": "Kivisakasti on entisen Savilahden kirkon sakastiosa 1500-luvulta. Esillä on kirkollisia museoesineitä. \n\nKivisakasti on osa Suur-Savon museota. Suur-Savon museo on Mikkelin kaupungin kulttuurihistoriallinen museo, joka säilyttää, tallentaa ja tekee tunnetuksi paikallista aineellista kulttuuriperintöä harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "validFrom": "27.6.2016",
+        "validThrough": "7.8.2016"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Porrassalmenkatu 32 a",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kivisakasti on entisen Savilahden kirkon sakastiosa 1500-luvulta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 332,
+    "name": "Päämajatalo",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneCallFee": "paikallisverkkomaksu/paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Päämajatalon salissa toimii näyttämötaiteiden opetus ja siellä pidetään näytelmien yleisöesityksiä. Muissa tiloissa on musiikin opetusta sekä liikunnan kursseja.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Päämajankuja 1-3",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Päämajankuja 1-3, kulku pihan puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Päämajankuja 1-3",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Päämajatalossa sijaitsevat osa musiikin opetustiloista sekä näyttämötaiteen opetustilat.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 333,
+    "name": "Mannerheimin salonkivaunu",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6838977",
+    "services": [
+      310
+    ],
+    "longitude": "514484",
+    "description": "Mannerheimin salonkivaunu on Marsalkka Mannerheimin talvi- ja jatkosodan aikana käyttämä rautatievaunu. Museoitu Salonkivaunu on osa Päämajamuseota, joka vaalii talvi- ja jatkosodan aikaisen Mikkeliin sijoitetun Suomen armeijan päämajan historiallista perintöä säilyttämällä, tallentamalla ja tekemällä sitä tunnetuksi harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "validFrom": "4.6.2016",
+        "validThrough": "4.6.2016",
+        "openingHoursException": "Avoinna vuosittain 4.6."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Mannerheimintie 1",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Mikkelin rautatieasema"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Mannerheimin salonkivaunu on Marsalkka Mannerheimin talvi- ja jatkosodan aikana käyttämä rautatievaunu.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 334,
+    "name": "Päämajamuseo",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6839764",
+    "services": [
+      310
+    ],
+    "longitude": "514181",
+    "description": "Päämajamuseo vaalii talvi- ja jatkosodan aikaisen Mikkeliin sijoitetun Suomen armeijan päämajan historiallista perintöä säilyttämällä, tallentamalla ja tekemällä sitä tunnetuksi harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [
+      "Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "5",
+          "6"
+        ],
+        "validFrom": "1.9.2016",
+        "validThrough": "30.4.2016",
+        "openingHoursException": "Juhlapyhinä suljettu."
+      },
+      {
+        "opens": "10:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "validFrom": "2.5.2016",
+        "validThrough": "31.8.2016"
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Päämajankuja 1-3",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Sisäänkäynti pihan puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Päämajamuseo vaalii talvi- ja jatkosodan aikaisen Mikkeliin sijoitetun Suomen armeijan päämajan historiallista perintöä.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 335,
+    "name": "Mikkelin kansalaisopisto",
+    "email": [
+      {
+        "address": "kansalaisopisto@mikkeli.fi",
+        "description": "Mikkelin kansalaisopiston sähköposti"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "015 194 2929",
+        "phoneCallFee": "paikallisverkkomaksu/paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kansalaisopiston puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "services": [
+      315
+    ],
+    "description": "Kansalaisopiston toimistossa voi hoitaa ilmoittautumisia sekä muita opintoihin liittyviä asioita.\nLönnrotinkadulla toimii toimiston ohella osa musiikin opetuksesta sekä muista kursseista.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "openingHoursException": "Toimisto on suljettu klo 12.00-12.30 välisenä aikana. Opetustilat ovat avoinna opetusaikoina."
+      }
+    ],
+    "organization": 300,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Lönnrotinkatu 7, 1. kerros",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Mikkelin yliopistokeskus, Cultiva-rakennus, 1. kerros"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "postOfficeBox": "-",
+        "streetAddress": "Lönnrotinkatu 7",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "shortDescription": "Kansalaisopiston toimisto ja osa musiikin opetustiloista löytyvät tästä samasta osoitteesta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": false
+  },
+  {
+    "id": 356,
+    "name": "Rantakylän kirjasto",
+    "email": [
+      {
+        "address": "rantakylan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 311 7488",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6838055",
+    "services": [
+      360
+    ],
+    "longitude": "510326",
+    "description": "Kirjasto tarjoaa aineistoa lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "12:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "14:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Kunnanmäki 7",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Rantakylä-talo"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50600",
+        "streetAddress": "Kunnanmäki 7",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 357,
+    "name": "Puumalan kirjasto",
+    "email": [
+      {
+        "address": "puumalan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 5594",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6821649",
+    "services": [
+      360
+    ],
+    "longitude": "562734",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "opens": "11:00",
+        "closes": "17:00",
+        "dayOfWeek": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "4"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52200",
+        "municipality": "Puumala",
+        "streetAddress": "Ojakuja 3",
+        "postalDistrict": "Puumala"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52200",
+        "streetAddress": "Ojakuja 3",
+        "postalDistrict": "Puumala"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 358,
+    "name": "Ristiinan kirjasto",
+    "email": [
+      {
+        "address": "ristiinan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "040 129 4373",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6819346",
+    "services": [
+      360
+    ],
+    "longitude": "513614",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52300",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Brahentie 34",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52300",
+        "postOfficeBox": "",
+        "streetAddress": "Brahentie 34",
+        "postalDistrict": "Ristiina"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 359,
+    "name": "Suomenniemen kirjasto",
+    "email": [
+      {
+        "address": "suomenniemen.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "0400 348 256",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6799459",
+    "services": [
+      360
+    ],
+    "longitude": "524007",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "12:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "1"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52830",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Kirkonkyläntie 14",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52830",
+        "streetAddress": "Kirkonkyläntie 14",
+        "postalDistrict": "Suomenniemi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 361,
+    "name": "Anttolan kirjasto",
+    "email": [
+      {
+        "address": "anttolan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 311 7484 tai 044 794 5730",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6827994",
+    "services": [
+      360
+    ],
+    "longitude": "534310",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Taipaleentie 31",
+        "postalDistrict": "Anttola",
+        "addressQualifier": "Anttolatalo, Käynti yläpihan kautta Mikkelintien puolelta."
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52100",
+        "streetAddress": "Taipaleentie 31",
+        "postalDistrict": "Anttola"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 362,
+    "name": "Haukivuoren kirjasto",
+    "email": [
+      {
+        "address": "haukivuoren.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 5638",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [
+      "kirjasto",
+      "Haukivuori"
+    ],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6876439",
+    "services": [
+      360
+    ],
+    "longitude": "510885",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [
+      "kirjastopalvelut"
+    ],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51600",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Keskustie 52",
+        "postalDistrict": "Haukivuori"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "51600",
+        "streetAddress": "Keskustie 52",
+        "postalDistrict": "Haukivuori"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 363,
+    "name": "Hirvensalmen kirjasto",
+    "email": [
+      {
+        "address": "hirvensalmen.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 302 2827",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6833871",
+    "services": [
+      360
+    ],
+    "longitude": "488577",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "4"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52550",
+        "municipality": "Hirvensalmi",
+        "streetAddress": "Koulutie 7",
+        "postalDistrict": "Hirvensalmi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52550",
+        "streetAddress": "Koulutie 7",
+        "postalDistrict": "Hirvensalmi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 364,
+    "name": "Kalevankankaan kirjasto",
+    "email": [
+      {
+        "address": "kalevankankaan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "kalevankankaan.kirjasto(at)mikkeli.fi",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6840544",
+    "services": [
+      360
+    ],
+    "longitude": "513238",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "opens": "11:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2"
+        ],
+        "openingHoursException": "Juhlapyhien aattopäivinä klo 10 – 16. Koulujen loma-aikoina suljettu."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Raviradantie 16",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Kalevankankaan koulu"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Raviradantie 16",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 365,
+    "name": "Kuortin kirjasto",
+    "email": [
+      {
+        "address": "pertunmaan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 314 5853",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6810097",
+    "services": [
+      360
+    ],
+    "longitude": "468675",
+    "description": "Kirjasto tarjoaa aineistoa lainaamista ja paikalla tutkimista varten. Kirjastossa on tietokone yhteiskäyttöön.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "12:00",
+        "closes": "18:00",
+        "dayOfWeek": [
+          "4"
+        ],
+        "openingHoursException": "Koulun lomien aikaan suljettu."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "19410",
+        "municipality": "Pertunmaa",
+        "streetAddress": "Vanhatie 100",
+        "postalDistrict": "Kuortti",
+        "addressQualifier": "Kuortin koulu"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "19410",
+        "streetAddress": "Vanhatie 100",
+        "postalDistrict": "Kuortti"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 366,
+    "name": "Lähemäen kirjasto",
+    "email": [
+      {
+        "address": "lahemaen.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 311 7485",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "latitude": "6840342",
+    "services": [
+      360
+    ],
+    "longitude": "515730",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "2",
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50170",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Alakatu 11",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Lähemäen koulu"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50170",
+        "postOfficeBox": "",
+        "streetAddress": "Alakatu 11",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 367,
+    "name": "Otavan kirjasto",
+    "email": [
+      {
+        "address": "otavan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 311 7486",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6834899",
+    "services": [
+      360
+    ],
+    "longitude": "504004",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "3",
+          "5"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50670",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Otavantie 2",
+        "postalDistrict": "Otava",
+        "addressQualifier": "Otavan alakoulu"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50670",
+        "streetAddress": "Otavantie 2",
+        "postalDistrict": "Otava"
+      }
+    ],
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 368,
+    "name": "Pertunmaan kirjasto",
+    "email": [
+      {
+        "address": "pertunmaan.kirjasto@mikkeli.fi"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "050 314 5852",
+        "phoneCallFee": "matkapuhelumaksu",
+        "phoneNumberDescription": "Asiakaspalvelu"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6819017",
+    "services": [
+      360
+    ],
+    "longitude": "472205",
+    "description": "Kirjasto tarjoaa aineistoaan lainaamista ja paikalla tutkimista varten, tietokoneita yhteiskäyttöön, langattoman verkon sekä muita oheistoimintoja.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "13:00",
+        "closes": "19:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "5"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "opens": "10:00",
+        "closes": "14:00",
+        "dayOfWeek": [
+          "6"
+        ],
+        "openingHoursException": "Aattopäivinä 10 - 16."
+      }
+    ],
+    "organization": 314,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "19430",
+        "municipality": "Pertunmaa",
+        "streetAddress": "Kirkkotie 3",
+        "postalDistrict": "Pertunmaa"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "19430",
+        "streetAddress": "Kirkkotie 3",
+        "postalDistrict": "Pertunmaa"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjastosta voit lainata aineistoa kotiin. Lisäksi kirjaston tilat ovat käytettävissä opiskeluun, etätyöhön ja oleskeluun.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 369,
+    "name": "Nikkisen torppa",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "latitude": "6799451",
+    "services": [
+      310
+    ],
+    "longitude": "524018",
+    "description": "Museoitu Nikkisen torppa on poliisi Nikkiselle kuulunut kolmihuoneinen torppa. Nikkisen torppa sijaitsee Suomenniemellä lähellä kunnan kirjastoa. Suomenniemen kotiseutuyhdistys aloitti esineistön tallentamisen poliisi Nikkiselle kuuluneeseen torppaan, joka avattiin yleisölle vuonna 1981. Torpan kamarissa järjestetään vaihtuvia näyttelyitä. \n\nNikkisen torppa on osa Suur-Savon museota. Suur-Savon museo on Mikkelin kaupungin kulttuurihistoriallinen museo, joka säilyttää, tallentaa ja tekee tunnetuksi paikallista aineellista kulttuuriperintöä harjoittamalla tutkimusta, opetusta, näyttely- ja julkaisutoimintaa.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "11:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "6",
+          "7"
+        ],
+        "openingHoursException": "Avoinna vain heinäkuussa Suomenniemi-päivien aikaan. Muutoin varauksesta."
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52830",
+        "municipality": "Mikkeli",
+        "streetAddress": "Suomenniemen kirkonkylä",
+        "postalDistrict": "Suomenniemi",
+        "addressQualifier": "Sijainti lähellä kirjastoa"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Hallituskatu 8 E",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Museoitu Nikkisen torppa on poliisi Nikkiselle kuulunut kolmihuoneinen torppa.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 383,
+    "name": "Mikkelin kaupungin kirjaamo",
+    "email": [
+      {
+        "address": "kirjaamo@mikkeli.fi",
+        "description": "Mikkelin kaupugin Kirjaamo"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "044 794 2033",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kaupungin kirjaamo"
+      },
+      {
+        "phone": "044 794 5780",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin kaupungin Kirjaamo"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6839289",
+    "services": [
+      202,
+      106
+    ],
+    "longitude": "514356",
+    "description": "Kirjaamoon voit jättää postia kaupungin eri toimialoille, yksiköille ja toimielimille. Kirjaamossa asiakirjat kirjataan asianhallintajärjestelmään ja lähetetään eteenpäin oikealle yksikölle. \n\nKirjaamoon voit jättää esimerkiksi Mikkelin kaupungille osoitettuja aloitteita ja lausuntopyyntöjä. Kirjaamossa on myös nähtävillä julkisiin kuulutuksiin liittyviä päätöksiä ja muita asiakrjoja.\n\nKirjaamo sijaitsee virastotalon 1. kerroksessa, asiointipisteessä.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 105,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Maaherrankatu 9-11",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Mikkelin kaupungin virastotalo, 1. kerros"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50101",
+        "postOfficeBox": "PL 33",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kirjaamoon voit jättää postia kaupungin eri toimialoille, yksiköille ja toimielimille.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 384,
+    "name": "Mikkelin Asumisoikeus Oy:n toimisto",
+    "email": [],
+    "phone": [
+      {
+        "phone": "015 321350",
+        "phoneCallFee": "paikallisverkkomaksu / paikallispuhelumaksu",
+        "phoneNumberDescription": "Mikkelin asumisoikeus Oy:n puhelinnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840217",
+    "services": [
+      382
+    ],
+    "longitude": "514585",
+    "description": "Toimisto ottaa vastaan asumisoikeusasunnon hakemukset järjestysnumeron saaneilta hakijoilta.",
+    "serviceArea": [
+      "491 Mikkeli"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "11:30",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 381,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "491 Mikkeli",
+        "streetAddress": "Maaherrankatu 44",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Samassa osoitteessa Mikalo Oy:n kanssa"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Maaherrankatu 44, c/o Mikalo Oy",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Toimisto ottaa vastaan asumisoikeusasunnon hakemukset järjestysnumeron saaneilta hakijoilta.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 430,
+    "name": "Mikalo Oy:n toimisto",
+    "email": [],
+    "phone": [
+      {
+        "phone": "+35815321350",
+        "phoneCallFee": "matkapuhelimesta matkapuhelinmaksu (mpm ) / lankapuhelimesta paikallisverkkomaksu (pvm)"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [],
+    "latitude": "6840214",
+    "services": [
+      421
+    ],
+    "longitude": "514585",
+    "description": "Toimistossa palvellaan vuokra-asuntojen hakijoita ja vuokra-asuntojen asukkaita.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "opens": "09:00",
+        "closes": "11:30",
+        "dayOfWeek": [
+          "5"
+        ]
+      }
+    ],
+    "organization": 422,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Maaherrankatu 44",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Maaherrankatu 44",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Toimistossa palvellaan vuokra-asuntojen hakijoita ja vuokra-asuntojen asukkaita.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 431,
+    "name": "Asuntotoimi",
+    "email": [],
+    "phone": [
+      {
+        "phone": "+358151941",
+        "phoneCallFee": "matkapuhelimesta matkapuhelinmaksu (mpm ) / lankapuhelimesta paikallisverkkomaksu (pvm)",
+        "phoneNumberDescription": "Mikkelin kaupungin vaihde"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [],
+    "latitude": "6839344",
+    "longitude": "514417",
+    "description": "Asuntotoimessa sinua opastetaan ja neuvotaan vuokra-asumiseen, asumisoikeusasumiseen ja asumisen avustuksiin liittyvissä kysymyksissä. Asuntoasioissa sinua palvelevat asuntotoimenpäällikkö ja toimistosihteeri. Haluamasi asumismuodon, asunnon tarpeen tai asumisen tuen tarpeen mukaisesti sinua ohjataan hakemusten teossa.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "09:00",
+        "closes": "15:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ],
+    "organization": 423,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Raatihuoneenkatu 8-10",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Raatihuoneenkatu 8-10",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Asuntotoimessa sinua opastetaan ja neuvotaan vuokra-asumiseen, asumisoikeusasumiseen ja asumisen avustuksiin liittyvissä kysymyksissä.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 445,
+    "name": "Kangasniemen eläinlääkäriasema",
+    "email": [],
+    "phone": [
+      {
+        "phone": "+35815431017",
+        "phoneCallFee": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu",
+        "phoneNumberDescription": "Eläinlääkärin ajanvarausnumero"
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6873367",
+    "services": [
+      433
+    ],
+    "longitude": "480941",
+    "description": "Eläinlääkäri on vastaanotolla ilman ajanvarausta pääsääntöisesti arkiaamuisin, muina aikoina sopimuksen mukaan.\nKangasniemen alueen eläinlääkäripäivystys järjestetään osana Keski-Suomen maakunnallista päivystystä.",
+    "serviceArea": [
+      "Kangasniemi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Muina aikoina sopimuksen mukaan."
+      }
+    ],
+    "organization": 443,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51200",
+        "municipality": "Kangasniemi",
+        "streetAddress": "Sairaalantie 15",
+        "postalDistrict": "Kangasniemi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "51200",
+        "streetAddress": "Sairaalantie 15",
+        "postalDistrict": "Kangasniemi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Eläinlääkäri on vastaanotolla ilman ajanvarausta pääsääntöisesti arkiaamuisin, muina aikoina sopimuksen mukaan.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 452,
+    "name": "Mikkelin eläinsuojeluyhdistyksen Löytöeläintalo",
+    "email": [
+      {
+        "address": "mikkelinesy@gmail.com"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "+358505479054"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://www.mesy.fi",
+        "name": "Mikkelin eläinsuojeluyhdistys ry:n verkkosivut",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [],
+    "latitude": "6840943",
+    "services": [
+      449
+    ],
+    "longitude": "515127",
+    "description": "Mikkelin eläinsuojeluyhdistyksen löytöeläintalo ottaa vastaan löytöeläimet Mikkelin alueelta. Löytöeläintalolle voit ilmoittaa irrallaan tavatuista lemmikeistä. Löytäeläintalolle voit ilmoittaa, jos oma lemmikkisi katoaa. Ilmoita löytöeläintalolle myös, jos löydät kadonneen lemmikkisi, josta olet aiemmin jättänyt ilmoituksen.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "14:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "opens": "18:00",
+        "closes": "20:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 451,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Porrassalmenkatu 69 B",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Porrassalmenkatu 69 B",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Mikkelin eläinsuojeluyhdistyksen löytöeläintalo ottaa vastaan löytöeläimet Mikkelin alueelta.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 453,
+    "name": "Koirahoitola Janeter",
+    "email": [],
+    "phone": [
+      {
+        "phone": "+358456521730",
+        "phoneCallFee": "matkapuhelimesta matkapuhelinmaksu (mpm ) / lankapuhelimesta paikallisverkkomaksu (pvm)",
+        "phoneNumberDescription": ""
+      },
+      {
+        "phone": "+358400901921",
+        "phoneCallFee": "matkapuhelimesta matkapuhelinmaksu (mpm ) / lankapuhelimesta paikallisverkkomaksu (pvm)"
+      }
+    ],
+    "keyword": [],
+    "webPage": [
+      {
+        "url": "http://janeter.fi/wp/",
+        "name": "Koirahoitola Janeterin verkkosivut",
+        "webpageType": "homepage"
+      }
+    ],
+    "language": [],
+    "latitude": "6877025",
+    "longitude": "477734",
+    "description": "Koirahoitola Janeterilla on löytöeläinsopimus Kangasniemen kunnan kanssa. Se tarkoitaa, että Janeter ottaa vastaan kunnan alueelta löydetyt pieneläimet ja huolehtii niistä kunnes omistaja löytyy tai lain säätämä 15 vuorokauden aika tulee umpeen.",
+    "serviceArea": [],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "Aukioloaikoja ei määritetty.",
+        "closes": "Aukioloaikoja ei määritetty.",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "organization": 450,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "51200",
+        "municipality": "Kangasniemi",
+        "streetAddress": "Murtomäentie 157",
+        "postalDistrict": "Kangasniemi"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "51200",
+        "streetAddress": "Murtomäentie 157",
+        "postalDistrict": "Kangasniemi"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Kangasniemellä löytöeläimiä vastaanottaa Koirahoitola Janeter.",
+    "serviceAreaRestricted": false,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 464,
+    "name": "Mikkelin eläinlääkäriasema",
+    "email": [],
+    "phone": [],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6840562",
+    "services": [
+      433,
+      435
+    ],
+    "longitude": "515518",
+    "description": "Mikkelin eläinlääkäriasema toimii Mikkelissä Lähemäki-talossa noin kaksi kilometriä keskustasta Juvalle päin.\nEläinlääkäriasemalla voi asioida ajanvarauksella. Ajan voi varata puhelimitse (katso puhelinasiointi). Ajanvarauspuhelimet ovat avoinna ma-pe klo 8.00-10.00. Tuotantoeläimille ja pieneläimille on omat ajanvarausnumerot.",
+    "serviceArea": [
+      "Mikkeli",
+      "Hirvensalmi"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Aukioloaika koskee ajanvarauspuhelinta. Asiointi vain ajanvarauksella."
+      }
+    ],
+    "organization": 443,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "50100",
+        "municipality": "Mikkeli",
+        "streetAddress": "Rauhankatu 10",
+        "postalDistrict": "Mikkeli",
+        "addressQualifier": "Lähemäki-talo"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "50100",
+        "streetAddress": "Rauhankatu 10",
+        "postalDistrict": "Mikkeli"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Mikkelin eläinlääkäriasema toimii Mikkelissä Lähemäki-talossa noin kaksi kilometriä keskustasta Juvalle päin.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  },
+  {
+    "id": 465,
+    "name": "Mäntyharjun eläinlääkäriasema",
+    "email": [],
+    "phone": [
+      {
+        "phone": "+35815227530",
+        "phoneCallFee": "paikallisverkkomaksu (pvm), matkapuhelinmaksu (mpm), ulkomaanpuhelumaksu",
+        "phoneNumberDescription": "Eläinlääkärin ajanvaraus."
+      }
+    ],
+    "keyword": [],
+    "webPage": [],
+    "language": [
+      "fi"
+    ],
+    "latitude": "6809522",
+    "services": [
+      433,
+      435
+    ],
+    "longitude": "492828",
+    "description": "Eläinlääkäri on tavattavissa ajanvarauksella. Ajan voi varata puhelimitse arkiaamuisin.",
+    "serviceArea": [
+      "Mäntyharju"
+    ],
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "openingTimes": [
+      {
+        "opens": "08:00",
+        "closes": "10:00",
+        "dayOfWeek": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "openingHoursException": "Aukioloaika koskee ajanvarauspuhelinta. Asiointi vain ajanvarauksella."
+      }
+    ],
+    "organization": 443,
+    "serviceClass": [],
+    "visitAddress": [
+      {
+        "postalCode": "52700",
+        "municipality": "Mäntyharju",
+        "streetAddress": "Sairaalantie 5",
+        "postalDistrict": "Mäntyharju"
+      }
+    ],
+    "postalAddress": [
+      {
+        "postalCode": "52700",
+        "streetAddress": "Sairaalantie 5",
+        "postalDistrict": "Mäntyharju"
+      }
+    ],
+    "coordinateSystem": "3067",
+    "shortDescription": "Eläinlääkäri on tavattavissa ajanvarauksella.",
+    "serviceAreaRestricted": true,
+    "coordinatesSetManually": true
+  }
+]

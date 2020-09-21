@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+-			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocationLan.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_serviceLocationLan</sourceType>
+			<targetElement>ptv:serviceLocationLan</targetElement>
+			<isDenormalised>false</isDenormalised>
+			<attributeMappings>
+
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:serviceLocationLan</targetAttribute>
+					<idExpression><OCQL>RootId</OCQL></idExpression>
+				</AttributeMapping>
+				
+				<!-- unific root id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:rootId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>RootId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- versioned id -->
+<!--				<AttributeMapping>-->
+<!--					<targetAttribute>ptv:versionedId</targetAttribute>-->
+<!--					<sourceExpression>-->
+<!--						<OCQL>VersionedId</OCQL>-->
+<!--					</sourceExpression>-->
+<!--				</AttributeMapping>	-->
+
+				<!-- currently open -->
+				<AttributeMapping>
+					<targetAttribute>ptv:currentlyOpen</targetAttribute>
+					<sourceExpression>
+						<OCQL>CurrentlyOpen</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:channelName_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>ChannelNameFi</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:channelName_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>ChannelNameSv</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- channel name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:channelName_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>ChannelNameEn</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- organization name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organizationName_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationNameFi</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+								
+				<!-- organization name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organizationName_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationNameSv</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- organization name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:organizationName_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>OrganizationNameEn</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- addresses  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:phones</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:phoneLan</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- addresses  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:addresses</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:addressLan</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- services  -->
+				<AttributeMapping>
+					<targetAttribute>ptv:services</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+						<linkElement>ptv:serviceLan</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+				</AttributeMapping>
+
+				<!-- location -->
+				<AttributeMapping>
+					<targetAttribute>ptv:location3067</targetAttribute>
+					<sourceExpression>
+						<OCQL>Location3067</OCQL>
+					</sourceExpression>
+					 <encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

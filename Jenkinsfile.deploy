@@ -1,0 +1,129 @@
+pipeline {
+  agent {
+    label 'ptv'
+  }
+
+  environment {
+    awsAccountId          = "192094005843"
+    artifactory           = "ptv-docker-virtual.vrk-artifactory-01.eden.csc.fi"
+    ecr                   = "192094005843.dkr.ecr.eu-west-1.amazonaws.com"
+    AWS_ACCESS_KEY_ID     = credentials('jenkins-aws-secret-key-id')
+    AWS_SECRET_ACCESS_KEY = credentials('jenkins-aws-secret-access-key')
+    versionNumber = VersionNumber(
+      projectStartDate: '1970-01-01',
+      versionNumberString: '${BUILD_YEAR}${BUILD_MONTH, XX}${BUILD_DAY, XX}.${BUILDS_TODAY}',
+      worstResultForIncrement: 'SUCCESS'
+    )
+    FLOW_TOKEN            = credentials('flowdock-ci-flow-token')
+  }
+
+  stages {
+    stage("Login to ECR") {
+      agent {
+        docker {
+          image 'ops-dev-docker-local.vrk-artifactory-01.eden.csc.fi/dvv-tools:v1.2.0'
+          registryUrl 'https://ops-dev-docker-local.vrk-artifactory-01.eden.csc.fi'
+          registryCredentialsId '6df71b82-ca6e-4990-a985-add558f923aa'
+        }
+      }
+
+      steps {
+        withCredentials([usernamePassword(credentialsId: "dvv-ptv-dev", passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
+          script {
+            ecrlogin = sh returnStdout: true, script: """
+            assume-role arn:aws:iam::${awsAccountId}:role/Jenkins aws ecr get-login --no-include-email --region eu-west-1
+            """
+          }
+        }
+      }
+    }
+
+    stage("Push container to ECR") {
+      steps {
+        script {
+          params.PTV_MODULES.tokenize(',').each { module ->
+            sh """
+              echo "Processing module ${module}"
+              docker pull ${artifactory}/ptv-dev-${module}:latest
+              eval ${ecrlogin}
+              docker tag ${artifactory}/ptv-dev-${module}:latest ${ecr}/ptv-${module}:${module}-tag-${versionNumber}
+              docker push ${ecr}/ptv-${module}:${module}-tag-${versionNumber}
+            """.stripMargin()
+          }
+        }
+      }
+    }
+
+    stage('Deploy application to Kubernetes') {
+      agent {
+        docker {
+          image 'ops-dev-docker-local.vrk-artifactory-01.eden.csc.fi/dvv-tools:v1.2.0'
+          registryUrl 'https://ops-dev-docker-local.vrk-artifactory-01.eden.csc.fi'
+          registryCredentialsId '6df71b82-ca6e-4990-a985-add558f923aa'
+        }
+      }
+      steps {
+        withCredentials([usernamePassword(credentialsId: "dvv-ptv-dev", passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
+          script {
+            params.PTV_MODULES.tokenize(',').each { module ->
+              sh """
+                cd k8s/overlays/dvv-ptv-dev/${module}/
+                sed -i'' -e "s|newTag: '${module}-tag'|newTag: '${module}-tag-${versionNumber}'|" kustomization.yaml
+                assume-role arn:aws:iam::${awsAccountId}:role/Jenkins aws eks --region eu-west-1 update-kubeconfig --name EKS-Cluster --kubeconfig kube.config
+                assume-role arn:aws:iam::${awsAccountId}:role/Jenkins kubectl --kubeconfig kube.config apply -k .
+                cd ../../../..
+              """.stripMargin()
+            }
+          }
+        }
+      }
+    }
+  }
+  post {
+    cleanup {
+      cleanWs()
+    }
+    failure {
+      mail to: "jan.bulava@tieto.com, david.mamula@tieto.com, tomas.dlouhy@tieto.com, jaroslav.bliznak@tieto.com, lubomir.sokolovsky@tieto.com",
+        subject: "Jenkins build FAILED -> $JOB_BASE_NAME",
+        body: "See: $BUILD_URL (Branch: $BRANCH, Modules: ${params.PTV_MODULES})"
+      script {
+        sh '''
+          generate_post_data()
+{
+cat <<EOF
+{
+  "flow_token": "$FLOW_TOKEN",
+  "event": "message",
+  "content": ":boom: [$JOB_NAME-$BUILD_NUMBER **failed**]($BUILD_URL) Branch: *$BRANCH* Modules: *$PTV_MODULES*",
+  "tags": ["$JOB_BASE_NAME", "$NODE_NAME"]
+}
+EOF
+}
+          curl -i -X POST -H "Content-Type: application/json" -d "$(generate_post_data)" "https://api.flowdock.com/messages"
+        '''.stripMargin()
+      }
+    }
+    fixed {
+      mail to: "jan.bulava@tieto.com, david.mamula@tieto.com, tomas.dlouhy@tieto.com, jaroslav.bliznak@tieto.com, lubomir.sokolovsky@tieto.com",
+        subject: "Jenkins build FIXED -> $JOB_BASE_NAME",
+        body: "See: $BUILD_URL (Branch: $BRANCH, Modules: ${params.PTV_MODULES})"
+      script {
+        sh '''
+          generate_post_data()
+{
+cat <<EOF
+{
+  "flow_token": "$FLOW_TOKEN",
+  "event": "message",
+  "content": ":four_leaf_clover: [$JOB_NAME-$BUILD_NUMBER **fixed**]($BUILD_URL) Branch: *$BRANCH* Modules: *$PTV_MODULES*",
+  "tags": ["$JOB_BASE_NAME", "$NODE_NAME"]
+}
+EOF
+}
+          curl -i -X POST -H "Content-Type: application/json" -d "$(generate_post_data)" "https://api.flowdock.com/messages"
+        '''.stripMargin()
+      }
+    }
+  }
+}
