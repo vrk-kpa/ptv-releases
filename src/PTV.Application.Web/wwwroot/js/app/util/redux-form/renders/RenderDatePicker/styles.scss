@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.labelWithIcon {
+  span {
+    margin-right: 10px;
+  }
+}
+
+.error {
+  :global {
+    .form-control {
+      border-color: status-color(danger);
+      &:focus {
+        border-color: status-color(danger);
+      }
+    }
+  }
+}

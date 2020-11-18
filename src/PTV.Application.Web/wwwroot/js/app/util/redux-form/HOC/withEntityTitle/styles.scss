@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.entityTitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0 0 20px 0;
+  letter-spacing: -0.9px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

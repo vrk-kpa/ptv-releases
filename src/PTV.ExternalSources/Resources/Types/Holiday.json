@@ -1,0 +1,362 @@
+﻿[
+  {
+    "Code": "NewYearEve", //31 Dec
+    "Names": [
+      {
+        "Name": "uudenvuoden aatto",
+        "language": "fi"
+      },
+      {
+        "Name": "New Year's eve",
+        "language": "en"
+      },
+      {
+        "Name": "nyårsafton",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-12-31T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 17
+  },
+  {
+    "Code": "NewYearDay", //1 Jan
+    "Names": [
+      {
+        "Name": "uudenvuodenpäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "New Year's Day",
+        "language": "en"
+      },
+      {
+        "Name": "nyårsdagen",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-01-01T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 0
+  },
+  {
+    "Code": "Epiphany", //6 Jan
+    "Names": [
+      {
+        "Name": "loppiainen",
+        "language": "fi"
+      },
+      {
+        "Name": "Epiphany",
+        "language": "en"
+      },
+      {
+        "Name": "trettondagen",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-01-06T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 1
+  },
+  {
+    "Code": "MaundyThursday",
+    "Names": [
+      {
+        "Name": "kiirastorstai",
+        "language": "fi"
+      },
+      {
+        "Name": "Maundy Thursday",
+        "language": "en"
+      },
+      {
+        "Name": "skärtorsdag",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 2
+  },
+  {
+    "Code": "GoodFriday",
+    "Names": [
+      {
+        "Name": "pitkäperjantai",
+        "language": "fi"
+      },
+      {
+        "Name": "Good Friday",
+        "language": "en"
+      },
+      {
+        "Name": "långfredagen",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 3
+  },
+  {
+    "Code": "EasterSunday",
+    "Names": [
+      {
+        "Name": "1.pääsiäispäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "Easter Sunday",
+        "language": "en"
+      },
+      {
+        "Name": "påskdagen",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 4
+  },
+  {
+    "Code": "EasterMonday",
+    "Names": [
+      {
+        "Name": "2. pääsiäispäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "Easter Monday",
+        "language": "en"
+      },
+      {
+        "Name": "annandag påsk",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 5
+  },
+  {
+    "Code": "MayDayEve", //30 Apr
+    "Names": [
+      {
+        "Name": "vappuaatto",
+        "language": "fi"
+      },
+      {
+        "Name": "May Day Eve",
+        "language": "en"
+      },
+      {
+        "Name": "valborgsafton",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-4-30T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 6
+  },
+  {
+    "Code": "MayDay", //1 May
+    "Names": [
+      {
+        "Name": "vappu",
+        "language": "fi"
+      },
+      {
+        "Name": "May Day",
+        "language": "en"
+      },
+      {
+        "Name": "valborg",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-05-01T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 7
+  },
+  {
+    "Code": "AscensionDay",
+    "Names": [
+      {
+        "Name": "helatorstai",
+        "language": "fi"
+      },
+      {
+        "Name": "Ascension Day",
+        "language": "en"
+      },
+      {
+        "Name": "kristi himmelsfärdsdag",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 8
+  },
+  {
+    "Code": "WhitSunday",
+    "Names": [
+      {
+        "Name": "helluntai",
+        "language": "fi"
+      },
+      {
+        "Name": "Whit Sunday",
+        "language": "en"
+      },
+      {
+        "Name": "pingst",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 9
+  },
+  {
+    "Code": "MidsummerEve",
+    "Names": [
+      {
+        "Name": "juhannusaatto",
+        "language": "fi"
+      },
+      {
+        "Name": "Midsummer Eve",
+        "language": "en"
+      },
+      {
+        "Name": "midsommarafton",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 10
+  },
+  {
+    "Code": "MidsummerDay",
+    "Names": [
+      {
+        "Name": "juhannuspäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "Midsummer Day",
+        "language": "en"
+      },
+      {
+        "Name": "midsommardagen",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 11
+  },
+  {
+    "Code": "AllSaintsDay",
+    "Names": [
+      {
+        "Name": "pyhäinpäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "All Saints' Day",
+        "language": "en"
+      },
+      {
+        "Name": "alla helgons dag",
+        "language": "sv"
+      }
+    ],
+    "Date": null,
+    "IsValid": true,
+    "OrderNumber": 12
+  },
+  {
+    "Code": "IndependenceDay", //6 Dec
+    "Names": [
+      {
+        "Name": "itsenäisyyspäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "Independence Day",
+        "language": "en"
+      },
+      {
+        "Name": "självständighetsdagen",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-12-06T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 13
+  },
+  {
+    "Code": "ChristmasEve", //24 Dec
+    "Names": [
+      {
+        "Name": "jouluaatto",
+        "language": "fi"
+      },
+      {
+        "Name": "Christmas Eve",
+        "language": "en"
+      },
+      {
+        "Name": "julafton",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-12-24T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 14
+  },
+  {
+    "Code": "ChristmasDay", //25 Dec
+    "Names": [
+      {
+        "Name": "joulupäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "Christmas Day",
+        "language": "en"
+      },
+      {
+        "Name": "juldagen",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-12-25T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 15
+  },
+  {
+    "Code": "SecondDayOfChristmas", //26 Dec
+    "Names": [
+      {
+        "Name": "tapaninpäivä",
+        "language": "fi"
+      },
+      {
+        "Name": "2nd Day of Christmas",
+        "language": "en"
+      },
+      {
+        "Name": "annandag jul",
+        "language": "sv"
+      }
+    ],
+    "Date": "0001-12-26T00:00:00",
+    "IsValid": true,
+    "OrderNumber": 16
+  }
+]

@@ -1,0 +1,30 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$indents: (0, 5, 10, 15, 20);
+
+.tooltip {
+  // display: inline-flex;
+  svg {
+    fill: icon-color(secondary);
+  }
+}
+
+@each $i in $indents {
+  &.i#{$i} {
+    svg {
+      margin-left: #{$i}px;
+      // margin-right: #{$i}px;
+    }
+  }
+}
+
+.withinText {
+  svg {
+    margin-top: -5px;
+  }
+}
+
+.inverse {
+  svg {
+    fill: #FFFFFF;
+  }
+}

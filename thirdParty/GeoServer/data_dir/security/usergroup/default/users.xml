@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userRegistry xmlns="http://www.geoserver.org/security/users" version="1.0">
+<users>
+<user enabled="true" name="admin" password="digest1:4T8ELayhUDQqZ+cKtQ3K2nvTv7YiWMpzc1i5GeH8WMS+W8EK0dpWkCP9iHVGaRdl"/>
+<user enabled="true" name="monitor" password="digest1:JEoY9UEux3dYlQywfROoWTDrch3yCs20U5lfvidUwNHCX7+Tvs+QPzUfoFBVF+Xf"/>
+<user enabled="true" name="ptvuser" password="digest1:SUjNzk66KwQEbiioohvboG586f1B3ZM7oWgO1QxxaZV1iTPY5/5ZDbabiGJvuPPV"/>
+</users>
+<groups/>
+</userRegistry>

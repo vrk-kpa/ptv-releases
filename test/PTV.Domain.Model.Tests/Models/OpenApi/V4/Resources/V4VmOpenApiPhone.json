@@ -1,0 +1,9 @@
+﻿{
+  "additionalInformation": "string",
+  "serviceChargeType": "string",
+  "chargeDescription": "string",
+  "prefixNumber": "string",
+  "isFinnishServiceNumber": true,
+  "number": "string",
+  "language": "string"
+}

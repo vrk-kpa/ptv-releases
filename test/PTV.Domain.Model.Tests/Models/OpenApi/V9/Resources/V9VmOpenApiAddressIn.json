@@ -1,0 +1,57 @@
+{
+  "type": "string",
+  "subType": "string",
+  "postOfficeBoxAddress": {
+    "postOfficeBox": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "postalCode": "string",
+    "municipality": "string",
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "streetAddress": {
+    "street": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetNumber": "string",
+    "postalCode": "string",
+    "municipality": "string",
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "latitude": "string",
+    "longitude": "string"
+  },
+  "otherAddress": {
+    "latitude": "string",
+    "longitude": "string",
+    "postalCode": "string",
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "foreignAddress": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "country": "string"
+}

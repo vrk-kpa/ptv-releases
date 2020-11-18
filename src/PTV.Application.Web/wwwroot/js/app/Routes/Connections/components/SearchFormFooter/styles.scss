@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items();
+}
+
+.searchFormFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resultText {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}

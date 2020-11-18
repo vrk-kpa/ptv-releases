@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Defaults.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="OpenApiClient.fs" />
+    <Compile Include="OpeningHoursParser.fs" />
+    <Compile Include="LanguageParser.fs" />
+    <Compile Include="PharmacyParser.fs" />
+    <Compile Include="Interop.fs" />
+    <Compile Include="Function.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.0.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.111.28" />
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+    <PackageReference Include="AWSSDK.SecretsManager.Caching" Version="1.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aws-lambda-tools-defaults.json" />
+    <Content Include="Resources\*" />
+    <None Include="Readme.md" />
+  </ItemGroup>
+</Project>

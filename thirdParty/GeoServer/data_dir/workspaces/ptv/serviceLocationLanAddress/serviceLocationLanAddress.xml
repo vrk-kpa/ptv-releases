@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocationLan.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_serviceLocationLanAddress</sourceType>
+			<!-- <sourceType>mv_ChannelAddressLan</sourceType> -->
+			<targetElement>ptv:addressLan</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:addressLan</targetAttribute>
+					<idExpression><OCQL>AddressId</OCQL></idExpression>
+				</AttributeMapping>
+
+				<!-- type -->
+				<AttributeMapping>
+					<targetAttribute>ptv:type</targetAttribute>
+					<sourceExpression>
+						<OCQL>AddressType</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- municipality code -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalityCode</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityCode</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- municipality name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalityName_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityName_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- municipality name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalityName_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityName_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- municipality name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:municipalityName_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>MunicipalityName_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- street address FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:streetAddress_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>StreetAddress_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+			
+				<!-- street address SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:streetAddress_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>StreetAddress_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- street address EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:streetAddress_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>StreetAddress_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- additional information FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- additional information SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- additional information EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- FEATURE_LINK mapping -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>
