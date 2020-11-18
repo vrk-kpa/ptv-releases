@@ -1,0 +1,67 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2020 Finnish Digital Agency (DVV)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+using System;
+using PTV.Domain.Model.Enums;
+
+namespace PTV.Domain.Model.Models
+{
+
+    /// <summary>
+    /// view model of task entity
+    /// </summary>
+    public class VmTaskEntity
+    {
+        /// <summary>
+        /// Unific root id of entity
+        /// </summary>
+        public Guid UnificRootId { get; set; }
+        /// <summary>
+        /// Modified
+        /// </summary>
+        public DateTime Modified { get; set; }
+        /// <summary>
+        /// group id
+        /// </summary>
+        public Guid GroupId { get; set; }
+        /// <summary>
+        /// Modified time is lower than Last warning time
+        /// </summary>
+        public bool LowerThanLast { get; set; }
+        /// <summary>
+        /// Marks that the entity has a language availability with scheduled publishing date in the future.
+        /// </summary>
+        public bool HasScheduledLanguageAvailability { get; set; }
+        /// <summary>
+        /// Defines the last operation action.
+        /// </summary>
+        public LastOperationType LastOperationType { get; set; }
+        /// <summary>
+        /// Id of the versioning log entry.
+        /// </summary>
+        public Guid? VersioningId { get; set; }
+        /// <summary>
+        /// Date when the content expires.
+        /// </summary>
+        public DateTime? Expiration { get; set; }
+    }
+}

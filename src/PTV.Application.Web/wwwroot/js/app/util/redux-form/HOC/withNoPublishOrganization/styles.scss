@@ -1,0 +1,31 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+.wrap {
+  > div:first-child {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  > div {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  :global {
+    [class*='boxBg'] {
+      position: relative;
+      z-index: 100;
+    }
+    [class*='boxContent'] {
+      min-height: auto;
+    }
+  }
+}

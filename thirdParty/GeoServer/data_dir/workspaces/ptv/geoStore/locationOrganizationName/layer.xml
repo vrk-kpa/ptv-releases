@@ -1,0 +1,16 @@
+<layer>
+  <name>locationOrganizationName</name>
+  <id>ptv_simpleLayer_locationOrganizationName</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv_simpleFeature_locationOrganizationName</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateModified>2020-09-03 19:44:03.437 UTC</dateModified>
+</layer>

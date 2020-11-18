@@ -1,0 +1,8 @@
+@import '../../Components/styles/variables';
+
+.validationMessages {
+  padding: 20px 40px 20px 80px;
+  &.top {
+    padding-bottom: 0;
+  }
+}

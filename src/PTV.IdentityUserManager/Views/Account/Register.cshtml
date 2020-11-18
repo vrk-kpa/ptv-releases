@@ -1,0 +1,77 @@
+﻿@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using PTV.Domain.Model.Enums.Security
+@using PTV.IdentityUserManager
+@using PTV.IdentityUserManager.Models
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+
+@model PTV.IdentityUserManager.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="panel-body col-sm-6">
+    <form asp-controller="Account" asp-action="Register" method="post" class="form-horizontal" role="form">
+        <h4>Create a new account.</h4>
+        <hr />
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group row">
+            <label asp-for="SurName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SurName" class="form-control" />
+                <span asp-validation-for="SurName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="GivenName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="GivenName" class="form-control" />
+                <span asp-validation-for="GivenName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Email" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Password" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="ConfirmPassword" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ConfirmPassword" class="form-control"/>
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Role" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                @if(User.HasRole(UserRoleEnum.Eeva))
+                {
+                <input asp-for="Role" type="radio" tyclass="form-control" value=@UserRoleEnum.Eeva.ToString()> @SharedLocalizer["sts_roleEeva"]
+                }
+                <input asp-for="Role" type="radio" tyclass="form-control" value=@UserRoleEnum.Pete.ToString()> @SharedLocalizer["sts_rolePete"]
+                <input asp-for="Role" type="radio" tyclass="form-control" value=@UserRoleEnum.Shirley.ToString() checked> @SharedLocalizer["sts_roleShirley"]
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Organization" class="col-md-3 control-label"></label>
+            <div class="col-md-9">
+                @Html.DropDownListFor(m => m.Organization, @Model.Organizations)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-default">Register</button>
+            </div>
+        </div>
+    </form>
+</div>
+    @section Scripts {
+        @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    }

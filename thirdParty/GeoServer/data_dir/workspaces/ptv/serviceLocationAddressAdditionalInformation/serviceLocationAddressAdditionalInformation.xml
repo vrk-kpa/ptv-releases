@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocation.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_streetAdditionalInformation</sourceType>
+			<targetElement>ptv:serviceLocationAddressAdditionalInformation</targetElement>
+			<attributeMappings>
+
+				<AttributeMapping>
+					<targetAttribute>serviceLocationAddressAdditionalInformation</targetAttribute>
+					<idExpression>
+						<OCQL>AddressId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+
+				<!-- additional information -->
+				<AttributeMapping>
+					<targetAttribute>ptv:value</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation</OCQL>
+					</sourceExpression>
+					<ClientProperty>
+						<name>languageCode</name>
+						<value>LanguageCode</value>
+					</ClientProperty>
+					<encodeIfEmpty>true</encodeIfEmpty>
+					<isMultiple>true</isMultiple>
+				</AttributeMapping>
+
+				<!-- feature link -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>AddressId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

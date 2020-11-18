@@ -1,0 +1,92 @@
+﻿[
+  {
+    "Code": "Phone",
+    "OrderNumber": 1,
+    "Names": [
+      {
+        "Name": "Puhelu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Phone",
+        "Language": "en"
+      },
+      {
+        "Name": "Samtal",
+        "Language": "sv"
+      },
+      {
+        "Name": "Háladeapmi",
+        "Language": "se"
+      },
+      {
+        "Name": "Puhelinsaahâ",
+        "Language": "smn"
+      },
+      {
+        "Name": "Teʹlfonsaakk",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Sms",
+    "OrderNumber": 2,
+    "Names": [
+      {
+        "Name": "Tekstiviesti",
+        "Language": "fi"
+      },
+      {
+        "Name": "SMS",
+        "Language": "en"
+      },
+      {
+        "Name": "SMS",
+        "Language": "sv"
+      },
+      {
+        "Name": "Teakstadiehtu",
+        "Language": "se"
+      },
+      {
+        "Name": "Tekstâviestâ",
+        "Language": "smn"
+      },
+      {
+        "Name": "Teʹksttsaakk",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Fax",
+    "OrderNumber": 3,
+    "Names": [
+      {
+        "Name": "Faksi",
+        "Language": "fi"
+      },
+      {
+        "Name": "Fax",
+        "Language": "en"
+      },
+      {
+        "Name": "Fax",
+        "Language": "sv"
+      },
+      {
+        "Name": "Fáksa",
+        "Language": "se"
+      },
+      {
+        "Name": "Faksi",
+        "Language": "smn"
+      },
+      {
+        "Name": "Fakss",
+        "Language": "sms"
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+﻿@using System.Linq
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using PTV.IdentityUserManager.Models
+@model PTV.IdentityUserManager.Models.SetUserAccessRightsViewModel
+
+<div class="logout-page">
+    <div class="page-header">
+        <h1>Set Access rights to User</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <p>Would you like to set access rights to user?</p>
+            <form asp-controller="Account" asp-action="SetUserAccessRightsSelect" method="post" class="form-horizontal" role="form">
+                <fieldset>
+                    <div class="form-group">
+                        @Html.DropDownListFor(m => m.UserId, @Model.Users)
+                    </div>
+                </fieldset>
+                <div class="">
+                    <button type="submit" class="btn btn-default">GetUser</button>
+                </div>
+            </form>
+            <form asp-controller="Account" asp-action="SetUserAccessRights" method="post" class="form-horizontal" role="form">
+                <fieldset>
+                    <div class="form-group">
+                        <div>
+                            <label>Access rights for: </label> @{
+                                                                   var selected = Model.Users.FirstOrDefault(i => i.Selected);
+                                                                   if (selected != null)
+                                                                   {
+                                                                       Model.UserId = selected.Value;
+                                                                       @Html.HiddenFor(m => m.UserId)
+                                                                       ;
+                                                                       <span>@selected.Text</span>
+                                                                   }
+                                                               }
+                        </div>
+                        <div>
+                            @if (@Model.AccessRights != null && @Model.AccessRights.Any())
+                            {
+                                foreach (var accessRight in Model.AccessRights)
+                                {
+                                    var isChecked = accessRight.Selected ? "checked" : "";
+                                    <div>
+                                        <input type="checkbox" name="SelectedAccessRights" @isChecked value="@accessRight.Value">@accessRight.Text
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="">
+                    <button type="submit" class="btn btn-default">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

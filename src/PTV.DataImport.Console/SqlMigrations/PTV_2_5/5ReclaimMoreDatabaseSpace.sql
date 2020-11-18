@@ -1,0 +1,6 @@
+﻿
+COMMIT;
+
+VACUUM(FULL, ANALYZE);
+ 
+BEGIN;

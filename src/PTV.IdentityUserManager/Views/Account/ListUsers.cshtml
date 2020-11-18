@@ -1,0 +1,64 @@
+﻿@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using PTV.Domain.Model.Enums.Security
+@using PTV.Framework
+@using PTV.IdentityUserManager
+@using PTV.IdentityUserManager.Models
+@model PTV.IdentityUserManager.Models.ListUsersViewModel
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+@{
+    ViewData["Title"] = "Change User Info";
+}
+<div class="panel-body">
+    @if (User.HasRole(UserRoleEnum.Eeva))
+    {
+        <div class="user-list-body">
+            <div class="users">
+                @if (Model.Users.Any())
+                {
+                    var trRoles = new Dictionary<string, string>
+                    {
+                        { UserRoleEnum.Eeva.ToString(), SharedLocalizer["sts_roleEeva"] },
+                        { UserRoleEnum.Pete.ToString(), SharedLocalizer["sts_rolePete"] },
+                        { UserRoleEnum.Shirley.ToString(), SharedLocalizer["sts_roleShirley"] }
+                    };
+
+                    foreach (var user in Model.Users)
+                    {
+                        <div>
+                            <h4>User: @user.Key</h4>
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Organization Root ID</th>
+                                    <th>Organization Name</th>
+                                    <th>Role</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var organization in user.Value)
+                                {
+                                    <tr>
+                                        <td>@organization.OrganizationId</td>
+                                        <td>@organization.OrganizationName</td>
+                                    @if (!string.IsNullOrEmpty(organization.Role))
+                                    {
+                                        <td>@trRoles[organization.Role]</td>
+                                    }
+                                    </tr>
+                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                }
+                else {
+                <p>No Eeva users</p>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <label>You are not allowed to change info for user with role Eeva</label>
+    }
+</div>

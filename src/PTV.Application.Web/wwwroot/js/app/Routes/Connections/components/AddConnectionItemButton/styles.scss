@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.active {
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.disabled {
+  cursor: default;
+  svg {
+    fill: interaction-color(disabled);
+  }
+}
+.addButton {
+  margin-bottom: 0px;
+}

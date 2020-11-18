@@ -1,0 +1,20 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.showMoreButton {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background-color: secondary-color(harmaa, t5);
+  border: 1px solid border-color(border);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.vertical {
+  transform: rotate(90deg);
+}

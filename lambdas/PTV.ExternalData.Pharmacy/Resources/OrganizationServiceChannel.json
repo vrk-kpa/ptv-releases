@@ -1,0 +1,276 @@
+﻿{
+  "pageNumber": 1,
+  "pageSize": 100,
+  "pageCount": 1,
+  "itemList": [
+    {
+      "id": "bf64185c-dd2c-4291-af54-998b23347265",
+      "sourceId": "pharma-123",
+      "oid": null,
+      "serviceChannelType": "ServiceLocation",
+      "organizationId": "75c2ec6f-1127-41ce-a71d-4c7077366757",
+      "serviceChannelNames": [
+        {
+          "language": "en",
+          "value": "One organization location",
+          "type": "Name"
+        }
+      ],
+      "displayNameType": [
+        {
+          "type": "Name",
+          "language": "en"
+        }
+      ],
+      "serviceChannelDescriptions": [
+        {
+          "language": "en",
+          "value": "One location orgOne location org",
+          "type": "Summary"
+        },
+        {
+          "language": "en",
+          "value": "One location orgOne location org",
+          "type": "Description"
+        }
+      ],
+      "areaType": null,
+      "areas": [],
+      "phoneNumbers": [],
+      "emails": [],
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "webPages": [],
+      "addresses": [
+        {
+          "type": "Location",
+          "subType": "Single",
+          "postOfficeBoxAddress": null,
+          "streetAddress": {
+            "street": [
+              {
+                "value": "Asemakatu",
+                "language": "fi"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "sv"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "en"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "se"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "smn"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "sms"
+              }
+            ],
+            "streetNumber": "44",
+            "postalCode": "70110",
+            "postOffice": [
+              {
+                "value": "KUOPIO",
+                "language": "se"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "smn"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "sv"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "sms"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "en"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "fi"
+              }
+            ],
+            "municipality": {
+              "code": "297",
+              "name": [
+                {
+                  "value": "Kuopio",
+                  "language": "sv"
+                },
+                {
+                  "value": "Kuopio",
+                  "language": "en"
+                },
+                {
+                  "value": "Kuopio",
+                  "language": "fi"
+                }
+              ]
+            },
+            "additionalInformation": [],
+            "latitude": "6974202.909",
+            "longitude": "534246.773",
+            "coordinateState": "Ok"
+          },
+          "otherAddress": null,
+          "locationAbroad": null,
+          "entrances": [],
+          "country": "FI"
+        }
+      ],
+      "serviceHours": [],
+      "services": [],
+      "publishingStatus": "Published",
+      "modified": "2020-07-29T08:30:04.835555",
+      "responsibleSoteOrganization": null,
+      "ontologyTerms": []
+    },
+    {
+      "id": "bf64185c-dd2c-4291-af54-998b23347265",
+      "oid": null,
+      "serviceChannelType": "ServiceLocation",
+      "organizationId": "75c2ec6f-1127-41ce-a71d-4c7077366757",
+      "serviceChannelNames": [
+        {
+          "language": "en",
+          "value": "One organization location",
+          "type": "Name"
+        }
+      ],
+      "displayNameType": [
+        {
+          "type": "Name",
+          "language": "en"
+        }
+      ],
+      "serviceChannelDescriptions": [
+        {
+          "language": "en",
+          "value": "One location orgOne location org",
+          "type": "Summary"
+        },
+        {
+          "language": "en",
+          "value": "One location orgOne location org",
+          "type": "Description"
+        }
+      ],
+      "areaType": null,
+      "areas": [],
+      "phoneNumbers": [],
+      "emails": [],
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "webPages": [],
+      "addresses": [
+        {
+          "type": "Location",
+          "subType": "Single",
+          "postOfficeBoxAddress": null,
+          "streetAddress": {
+            "street": [
+              {
+                "value": "Asemakatu",
+                "language": "fi"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "sv"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "en"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "se"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "smn"
+              },
+              {
+                "value": "Asemakatu",
+                "language": "sms"
+              }
+            ],
+            "streetNumber": "44",
+            "postalCode": "70110",
+            "postOffice": [
+              {
+                "value": "KUOPIO",
+                "language": "se"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "smn"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "sv"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "sms"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "en"
+              },
+              {
+                "value": "KUOPIO",
+                "language": "fi"
+              }
+            ],
+            "municipality": {
+              "code": "297",
+              "name": [
+                {
+                  "value": "Kuopio",
+                  "language": "sv"
+                },
+                {
+                  "value": "Kuopio",
+                  "language": "en"
+                },
+                {
+                  "value": "Kuopio",
+                  "language": "fi"
+                }
+              ]
+            },
+            "additionalInformation": [],
+            "latitude": "6974202.909",
+            "longitude": "534246.773",
+            "coordinateState": "Ok"
+          },
+          "otherAddress": null,
+          "locationAbroad": null,
+          "entrances": [],
+          "country": "FI"
+        }
+      ],
+      "serviceHours": [],
+      "services": [],
+      "publishingStatus": "Published",
+      "modified": "2020-07-29T08:30:04.835555",
+      "responsibleSoteOrganization": null,
+      "ontologyTerms": []
+    }
+  ]
+}

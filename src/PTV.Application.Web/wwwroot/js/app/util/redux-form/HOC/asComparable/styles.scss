@@ -1,0 +1,37 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+// :global {
+// [class*='styles__compareMode'] {
+//   [class*='styles__groupBody'] {
+//     padding: 0;
+//     border: none;
+//     .compareSide {
+//       padding: 15px 20px;
+//       border: 1px solid border-color(border);
+//       border-bottom: none;
+//       height: 100%;
+//     }
+//     .form-row {
+//       margin: 0;
+//       ~ .form-row .compareSide {
+//         border-top: none;
+//       }
+//       &:last-child .compareSide {
+//         border-bottom: 1px solid border-color(border);
+//       }
+//       &:first-child .compareSide {
+//         border-bottom: none;
+//       }
+//     }
+//   }
+// }
+// }
+.compareSide {
+  margin: 0;
+  &.sideOne {
+    margin-right: 10px;
+  }
+  &.sideTwo {
+    margin-left: 10px;
+  }
+}

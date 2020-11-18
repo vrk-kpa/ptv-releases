@@ -1,0 +1,220 @@
+{
+  "id": "string",
+  "sourceId": "string",
+  "oid": "string",
+  "parentOrganizationId": "string",
+  "organizationRootId": "string",
+  "municipality": {
+    "code": "string",
+    "name": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "organizationType": "string",
+  "businessCode": "string",
+  "businessName": "string",
+  "organizationNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "displayNameType": [
+    {
+      "type": "string",
+      "language": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "organizationDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "emails": [
+    {
+      "description": "string",
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "webPages": [
+    {
+      "url": "string",
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "addresses": [
+    {
+      "type": "string",
+      "subType": "string",
+      "postOfficeBoxAddress": {
+        "postOfficeBox": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "postalCode": "string",
+        "postOffice": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "municipality": {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "streetAddress": {
+        "street": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "streetNumber": "string",
+        "postalCode": "string",
+        "postOffice": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "municipality": {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "latitude": "string",
+        "longitude": "string",
+        "coordinateState": "string"
+      },
+      "otherAddress": {
+        "latitude": "string",
+        "longitude": "string",
+        "postalCode": "string",
+        "postOffice": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "foreignAddress": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "country": "string"
+    }
+  ],
+  "electronicInvoicings": [
+    {
+      "operatorCode": "string",
+      "electronicInvoicingAddress": "string",
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "services": [
+    {
+      "service": {
+        "id": "string",
+        "name": "string"
+      },
+      "roleType": "string",
+      "provisionType": "string",
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "modified": "2019-03-01T07:52:15.763Z",
+  "subOrganizations": [
+    {
+      "id": "string",
+      "name": "string"
+    }
+  ]
+  //SOTE has been disabled (SFIPTV-1177)
+  //"responsibleOrganizationId": "string"
+}

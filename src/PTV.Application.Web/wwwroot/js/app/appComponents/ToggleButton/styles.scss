@@ -1,0 +1,33 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.toggleIcon {
+  margin-left: 10px;
+}
+
+.toggleButton {
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.primary {
+  svg {
+    fill: #FFFFFF;
+  }
+}
+
+.disabled {
+  .toggleIcon {
+    > * {
+      cursor: not-allowed;
+    }
+  }
+  svg {
+    fill: interaction-color(disabled);
+  }
+  &.primary {
+    svg {
+      fill: interaction-color(secondary-disabled);
+    }
+  }
+}

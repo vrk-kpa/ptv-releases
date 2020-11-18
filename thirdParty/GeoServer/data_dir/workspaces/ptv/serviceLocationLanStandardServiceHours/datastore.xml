@@ -1,0 +1,15 @@
+<dataStore>
+  <id>datastore_serviceLocationLanStandardServiceHours</id>
+  <name>serviceLocationLanStandardServiceHours</name>
+  <description>Service Location Language - Standard Opening Hours</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationLanStandardServiceHours/serviceLocationLanStandardServiceHours.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

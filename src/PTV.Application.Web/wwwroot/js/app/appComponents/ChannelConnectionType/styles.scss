@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($margin: 0, $spacing: 20px);
+}
+
+.responsiveModal {
+  @include responsive-modal();
+}
+
+.connectedServiceList {
+  margin-top: 30px;
+}
+
+.connectionTypeWrap {
+  margin-bottom: 15px;
+}

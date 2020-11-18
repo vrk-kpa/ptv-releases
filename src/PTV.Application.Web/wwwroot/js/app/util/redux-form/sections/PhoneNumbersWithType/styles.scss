@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.hideValue {
+  :global {
+    .Select-value-label, .Select-placeholder {
+      visibility: hidden;
+    }
+  }
+}
