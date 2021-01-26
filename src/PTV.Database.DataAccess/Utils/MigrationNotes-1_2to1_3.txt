@@ -1,0 +1,2 @@
+﻿Services
+- (TODO sarzijan 18_10_2016_1) ServiceCoverageTypeId should be set as mandatory, default value for migration is Nationwide id of service coverage types

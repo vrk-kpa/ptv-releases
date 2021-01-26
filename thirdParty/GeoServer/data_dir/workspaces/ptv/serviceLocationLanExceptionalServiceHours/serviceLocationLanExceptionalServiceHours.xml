@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocationLan.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_exceptionalServiceHoursLan</sourceType>
+			<targetElement>ptv:exceptionalOpeningHoursLan</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:exceptionalOpeningHoursLan</targetAttribute>
+					<idExpression><OCQL>ServiceHoursId</OCQL></idExpression>
+				</AttributeMapping>
+
+				<!-- additional information FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- additional information SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- additional information EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>AdditionalInformation_EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- valid from -->
+				<AttributeMapping>
+					<targetAttribute>ptv:validFrom</targetAttribute>
+					<sourceExpression>
+						<OCQL>From</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- valid to -->
+				<AttributeMapping>
+					<targetAttribute>ptv:validTo</targetAttribute>
+					<sourceExpression>
+						<OCQL>To</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- opening type -->
+				<AttributeMapping>
+					<targetAttribute>ptv:openingType</targetAttribute>
+					<sourceExpression>
+						<OCQL>OpeningType</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- opening hours -->
+				<AttributeMapping>
+					<targetAttribute>ptv:openingHours</targetAttribute>
+					<sourceExpression>
+						<OCQL>OpeningHours</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- FEATURE_LINK mapping -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>RootId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

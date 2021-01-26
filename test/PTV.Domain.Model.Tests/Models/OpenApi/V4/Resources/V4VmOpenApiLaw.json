@@ -1,0 +1,15 @@
+﻿{
+  "names": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "webPages": [
+    {
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ]
+}

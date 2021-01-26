@@ -1,0 +1,21 @@
+Row|<tr><td width="30" class="bullet">&bull;</td><td>$INSERT$</td></tr>
+TasksEmpty|Du har inga uppgifter.
+NotificationsEmpty|Inga aktuella ändringar.
+ServiceChannelInCommonUse|Tjänster, vars koppling till en kanal i sambruk har tagits bort av ägarorganisationen
+ContentUpdated|Tjänster och servicekanaler vars metadata har ändrats av Befolkningsregistercentralen
+ContentArchived|Automatiskt arkiverade innehåll ($INSERT$)
+GeneralDescriptionCreated|Nya basbeskrivningar
+GeneralDescriptionUpdated|Ändrade basbeskrivningar
+ConnectionChanges|Ändringar som skett i kopplingar
+OutdatedPublishedChannels|Organisationens publicerade serviceställen och telefonservicekanaler som förfaller ($INSERT$)
+NotUpdatedDraftServices|Organisationens icke uppdaterade tjänster i utkastläge ($INSERT$)
+NotUpdatedPublishedServices|Organisationens icke uppdaterade publicerade tjänster ($INSERT$)
+NotUpdatedDraftChannels|Organisationens icke uppdaterade kanaler i utkastläge ($INSERT$)
+NotUpdatedPublishedChannels|Organisationens icke uppdaterade publicerade kanaler ($INSERT$)
+ServicesWithoutChannels|Organisationens tjänster som saknar kopplingar till servicekanaler ($INSERT$)
+ChannelsWithoutServices|Organisationens servicekanaler som saknar kopplingar till tjänster ($INSERT$)
+TranslationArrived|Inkomna översättningsbeställningar ($INSERT$)
+TranslationInProgress|Ofullständiga översättningsorder ($INSERT$)
+MissingLanguageOrganizations|Språkversioner av organisationuppgifterna saknas ($INSERT$)
+TimedPublishFailed|Den tidsinställda publiceringen misslyckades eftersom obligatoriska uppgifter saknas ($INSERT$)
+UnstableLinks|Din organisations trasiga länkar ($INSERT$)

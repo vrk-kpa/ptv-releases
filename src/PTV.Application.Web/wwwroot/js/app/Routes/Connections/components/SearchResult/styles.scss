@@ -1,0 +1,49 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.searchResults {
+  border: 1px solid border-color(border);
+  border-top: none;
+  table thead {
+    background-color: bg-color(dark);
+  }
+  table thead {
+    th:first-child {
+    padding-left: 20px;
+    }
+    th {
+      padding-left:0px 
+    }
+  }
+  table tbody {
+    td:first-child {
+    padding-left: 20px;
+    }
+    td {
+      padding-left: 0px;
+    }
+  }
+  .resultsCount {
+    display: flex
+  }
+  .addAll {
+    margin-right: auto;
+  }
+}
+
+.info, .standaloneInfo {
+  border: 1px solid border-color(border);
+  text-align: center;
+  flex: 1 0 auto;
+  color: text-color(secondary);
+  line-height: 20px;
+  span {
+    display: inline-block;
+    width: 50%;
+    margin: 20px 0;
+  }
+}
+
+.info {
+  border-top: none;
+}

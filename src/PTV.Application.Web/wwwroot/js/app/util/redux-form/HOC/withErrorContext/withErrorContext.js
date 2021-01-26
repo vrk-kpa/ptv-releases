@@ -1,0 +1,56 @@
+/**
+* The MIT License
+* Copyright (c) 2020 Finnish Digital Agency (DVV)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+import React from 'react'
+import PropTypes from 'prop-types'
+import { ErrorProvider, ErrorConsumer } from './context'
+import { stringEnumFactory } from 'enums/factory'
+
+const contextTypes = ['none', 'addSimpleContext', 'addDynamicContext']
+export const contextUsageTypesEnum = stringEnumFactory(contextTypes)
+export const contextUsagePropTypes = PropTypes.oneOf(contextTypes)
+
+export const withErrorProvider = () => WrappedComponent => {
+  const WithErrorContextProvider = props => {
+    if (props.errorContextType === contextUsageTypesEnum.addSimpleContext) {
+      return (<ErrorProvider {...props} >
+        <WrappedComponent {...props} />
+      </ErrorProvider>)
+    }
+    return <WrappedComponent {...props} />
+  }
+
+  WithErrorContextProvider.propTypes = {
+    errorContextType: contextUsagePropTypes
+  }
+
+  return WithErrorContextProvider
+}
+
+export const withErrorConsumer = () => WrappedComponent => {
+  const WithErrorContextConsumer = props =>
+    <ErrorConsumer>
+      {({ withError, withWarning }) => <WrappedComponent {...props} withError={withError} withWarning={withWarning} /> }
+    </ErrorConsumer>
+
+  return WithErrorContextConsumer
+}

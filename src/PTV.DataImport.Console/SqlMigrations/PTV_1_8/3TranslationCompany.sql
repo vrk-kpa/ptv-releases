@@ -1,0 +1,1 @@
+﻿INSERT INTO "TranslationCompany"("Id", "Created", "CreatedBy", "Description", "Email", "LastOperationId", "Modified", "ModifiedBy", "Name", "Url") VALUES ('4573c1a0-a4f1-4c02-9491-2edc43cc3e52', Now(), 'PTVApp', null, 'ptv@lingsoft.fi', null, Now(), 'PTVapp', 'Lingsoft', 'http://www.lingsoft.fi/')

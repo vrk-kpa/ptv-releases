@@ -1,0 +1,53 @@
+﻿[
+  {
+    "code": "HomePage",
+    "names": [
+      {
+        "Name": "Kotisivu",
+        "language": "fi"
+      },
+      {
+        "Name": "Home page",
+        "language": "en"
+      },
+      {
+        "Name": "Hemsida",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "SocialPage",
+    "names": [
+      {
+        "Name": "Sosiaalisen median sivu",
+        "language": "fi"
+      },
+      {
+        "Name": "Social media page",
+        "language": "en"
+      },
+      {
+        "Name": "Social medietjänst",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "AccessibilityStatement",
+    "names": [
+      {
+        "Name": "Saavutettavuusselostesivu",
+        "language": "fi"
+      },
+      {
+        "Name": "Accessibility statement page",
+        "language": "en"
+      },
+      {
+        "Name": "Accessibility statement page (sv)",
+        "language": "sv"
+      }
+    ]
+  }
+]

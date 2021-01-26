@@ -1,0 +1,50 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$notification-container-width: 520px;
+
+.notification {
+  top: 80px;
+  left: calc(50% - #{$notification-container-width / 2});
+  // transform: translate(-50%, 0);
+  margin: 0 auto;
+  width: $notification-container-width;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  > div {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  :global {
+    [class*='boxContent'] {
+      min-height: auto;
+    }
+  }
+}
+
+@media #{$mobile} {
+  .notification {
+    max-width: 260px;
+  }
+}
+
+.isCompact {
+  position: fixed;
+  top: 0;
+  left: calc(50% - #{$notification-container-width / 2});
+  margin: 0;
+  width: auto!important;
+  max-width: $notification-container-width !important;
+  &::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 6px solid status-color(notification);
+  }
+}

@@ -1,0 +1,18 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$iconSize: 20px;
+$indent: 10px;
+
+.name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.withIcon {
+  > :first-child {
+    margin-right: $indent;
+  }
+ .name {
+   width: calc(100% - #{$iconSize} - #{$indent});
+ }
+}

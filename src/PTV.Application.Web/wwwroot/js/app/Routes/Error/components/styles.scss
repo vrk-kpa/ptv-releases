@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.withBullets {
+  p {
+    display: none;
+  }
+  li {
+    position: relative;
+    padding-left: 15px;
+    line-height: 18px;
+    &::after {
+      @include pseudo-bullet();
+      top: 7px;
+      border-width: 3px;
+    }
+    ~ li {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "deleteAllChannelRelations": true,
+  "channelRelations": [
+    {
+      "serviceChannelId": "string",
+      "contactDetails": {
+        "webPages": [
+          {
+            "url": "string",
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "deleteAllWebPages": true
+      }
+    }
+  ]
+}

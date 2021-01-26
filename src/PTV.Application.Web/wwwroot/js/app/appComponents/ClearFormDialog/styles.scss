@@ -1,0 +1,10 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px);
+}
+
+.modalWrap {
+  max-width: 18.75rem;
+}

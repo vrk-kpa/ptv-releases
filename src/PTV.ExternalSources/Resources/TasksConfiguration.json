@@ -1,0 +1,50 @@
+[
+  {
+    "code": "DraftServicesExpirationTime",
+    "entity": "Service",
+    "publishingStatus": "Draft",
+    "interval": "18 months"
+  },
+  {
+    "code": "DraftChannelsExpirationTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Draft",
+    "interval": "18 months"
+  },
+  {
+    "code": "DraftServicesLastWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Draft",
+    "interval": "15 months"
+  },
+  {
+    "code": "DraftChannelsLastWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Draft",
+    "interval": "15 months"
+  },
+  {
+    "code": "PublishedServicesExpirationTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "18 months"
+  },
+  {
+    "code": "PublishedChannelsExpirationTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "18 months"
+  },
+  {
+    "code": "PublishedServicesLastWarningTime",
+    "entity": "Service",
+    "publishingStatus": "Published",
+    "interval": "15 months"
+  },
+  {
+    "code": "PublishedChannelsLastWarningTime",
+    "entity": "ServiceChannel",
+    "publishingStatus": "Published",
+    "interval": "15 months"
+  }
+]
