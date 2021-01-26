@@ -1,0 +1,48 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$gapSizes: (0, 5, 10);
+
+@each $g in $gapSizes {
+  &.top.g#{$g} {
+    margin-top: #{$g}px;
+  }
+  &.right.g#{$g} {
+    margin-right: #{$g}px;
+  }
+  &.bottom.g#{$g} {
+    margin-bottom: #{$g}px;
+  }
+  &.left.g#{$g} {
+    margin-left: #{$g}px;
+  }
+}
+
+.arrow {
+  display: inline-block;
+  svg {
+    fill: #FFFFFF;
+  }
+}
+
+.secondary {
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.east {
+  svg {
+    transform: rotate(90deg);
+  }
+}
+
+.south {
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.west {
+  svg {
+    transform: rotate(-90deg);
+  }
+}

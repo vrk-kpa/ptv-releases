@@ -1,0 +1,1 @@
+DELETE FROM "OrganizationType" WHERE "Code" = 'Sote';

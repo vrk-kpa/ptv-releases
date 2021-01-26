@@ -1,0 +1,43 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.connectionPage {
+  padding: 20px;
+  @media (min-width: 1024px) {
+    padding: 40px 20px 20px;
+  }
+  min-height: 500px;
+}
+
+.form {
+  @include form-basic();
+}
+
+@media only screen and (min-width: 1024px) {
+  .connectionPage {
+    margin: 0 -50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .connectionPage {
+    margin: 0 -100px;
+  }
+}
+
+.connectionTabs {
+  > section {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    padding-top: 20px;
+  }
+}
+
+.connectionsPageLabel {
+  label {
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+}

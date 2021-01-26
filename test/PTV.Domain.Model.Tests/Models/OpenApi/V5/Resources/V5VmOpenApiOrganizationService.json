@@ -1,0 +1,22 @@
+{
+  "organizationId": "string",
+  "service": {
+    "id": "string",
+    "name": "string"
+  },
+  "roleType": "string",
+  "provisionType": "string",
+  "additionalInformation": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "webPages": [
+    {
+      "value": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ]
+}

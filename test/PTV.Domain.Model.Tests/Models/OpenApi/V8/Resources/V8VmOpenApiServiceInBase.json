@@ -1,0 +1,113 @@
+﻿{
+  "sourceId": "string",
+  "generalDescriptionId": "string",
+  "type": "string",
+  "fundingType": "string",
+  "serviceNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChargeType": "string",
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "areaCodes": [
+        "string"
+      ]
+    }
+  ],
+  "serviceDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "serviceClasses": [
+    "string"
+  ],
+  "ontologyTerms": [
+    "string"
+  ],
+  "targetGroups": [
+    "string"
+  ],
+  "lifeEvents": [
+    "string"
+  ],
+  "industrialClasses": [
+    "string"
+  ],
+  "legislation": [
+    {
+      "names": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "webPages": [
+        {
+          "value": "string",
+          "url": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "requirements": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "otherResponsibleOrganizations": [
+    "string"
+  ],
+  "serviceProducers": [
+    {
+      "orderNumber": 0,
+      "provisionType": "string",
+      "organizations": [
+        "string"
+      ],
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "serviceVouchersInUse": true,
+  "serviceVouchers": [
+    {
+      "orderNumber": 0,
+      "value": "string",
+      "language": "string",
+      "url": "string",
+      "additionalInformation": "string"
+    }
+  ],
+  "publishingStatus": "string",
+  "deleteAllLifeEvents": true,
+  "deleteAllIndustrialClasses": true,
+  "deleteAllLaws": true,
+  "deleteAllKeywords": true,
+  "deleteServiceChargeType": true,
+  "deleteGeneralDescriptionId": true,
+  "mainResponsibleOrganization": "string"
+}

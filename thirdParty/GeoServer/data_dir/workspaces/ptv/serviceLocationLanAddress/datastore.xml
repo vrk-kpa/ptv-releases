@@ -1,0 +1,16 @@
+<dataStore>
+  <id>datastore_serviceLocationLanAddress</id>
+  <name>serviceLocationLanAddress</name>
+  <description>Service Location Language - Address</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationLanAddress/serviceLocationLanAddress.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateModified>2020-09-04 10:02:45.771 UTC</dateModified>
+</dataStore>

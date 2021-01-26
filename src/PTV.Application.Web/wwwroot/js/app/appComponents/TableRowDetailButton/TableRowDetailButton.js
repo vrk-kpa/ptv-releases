@@ -1,0 +1,89 @@
+/**
+* The MIT License
+* Copyright (c) 2020 Finnish Digital Agency (DVV)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Button } from 'sema-ui-components'
+import ArrowDown from 'appComponents/ArrowDown'
+import ArrowUp from 'appComponents/ArrowUp'
+import { injectIntl, intlShape } from 'util/react-intl'
+import { compose } from 'redux'
+import { connectionMessages } from 'appComponents/ConnectionsStep/messages'
+import withNotificationIcon from 'util/redux-form/HOC/withNotificationIcon'
+import cx from 'classnames'
+import styles from './styles.scss'
+
+const ButtonTitle = compose(
+  withNotificationIcon
+)(({ label }) => <span>{label}</span>)
+
+const TableRowDetailButton = ({
+  isOpen,
+  onClick,
+  disabled,
+  shouldShowNotificationIcon,
+  intl: { formatMessage }
+}) => {
+  const detailButtonClass = cx(
+    styles.toggleButton,
+    {
+      [styles.expanded]: isOpen,
+      [styles.collapsed]: !isOpen
+    }
+  )
+  return (
+    <div className={detailButtonClass}>
+      <Button
+        small
+        secondary={!isOpen}
+        onClick={onClick}
+        disabled={disabled}
+      >
+
+        <ButtonTitle
+          label={formatMessage(connectionMessages.connectionProfileButtonTitle)}
+          notificationText={formatMessage(connectionMessages.notificationIconText)}
+          shouldShowNotificationIcon={shouldShowNotificationIcon}
+          iconClass={styles.notificationIcon}
+        />
+
+        {!disabled
+          ? isOpen
+            ? <ArrowUp />
+            : <ArrowDown />
+          : null
+        }
+      </Button>
+    </div>
+  )
+}
+TableRowDetailButton.propTypes = {
+  isOpen: PropTypes.bool,
+  onClick: PropTypes.func,
+  intl: intlShape,
+  disabled: PropTypes.bool,
+  shouldShowNotificationIcon: PropTypes.bool
+}
+
+export default compose(
+  injectIntl
+)(TableRowDetailButton)

@@ -1,0 +1,109 @@
+<#+/** 
+ * Copyright (c) 2009-2011 Novell, Inc. (http://www.novell.com)
+ * Copyright (c) 2011-2016 Xamarin Inc. (http://www.xamarin.com)
+ * Copyright (c) 2016-2017 Microsoft Corp. (http://www.microsoft.com)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+#><#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="Microsoft.CSharp"#>
+<#+
+    public class CodeGenerationTools
+    {
+        private readonly CSharpCodeProvider _code;
+
+        public CodeGenerationTools()
+        {            
+            _code = new CSharpCodeProvider();  
+        }
+        
+        /// <summary>
+        /// Returns a string that is safe for use as an identifier in C#.
+        /// Keywords are escaped.
+        /// </summary>
+        public string Escape(string name)
+        {
+            return name == null 
+                ? null 
+                : _code.CreateEscapedIdentifier(name);
+        }
+        
+        /// <summary>
+        /// Returns the NamespaceName with each segment safe to
+        /// use as an identifier.
+        /// </summary>
+        public string EscapeNamespace(string namespaceName)
+        {
+            if (string.IsNullOrEmpty(namespaceName))
+            {
+                return namespaceName;
+            }
+
+            var parts = namespaceName.Split('.');
+            namespaceName = string.Empty;
+            foreach (var part in parts)
+            {
+                if (namespaceName != string.Empty)
+                {
+                    namespaceName += ".";
+                }
+
+                namespaceName += Escape(part);
+            }
+
+            return namespaceName;
+        }
+
+        /// <summary>
+        /// Returns the NamespaceName suggested by VS if running inside VS.  Otherwise, returns
+        /// null.
+        /// </summary>
+        public string GetRepositoryNamespace()
+        {
+            return "PTV.Database.DataAccess.Repositories";
+        }
+
+        public string GetSolutionDirectory(string solutionName, string currentDirectoryPath = null)
+        {
+            while (true)
+            {
+                if (currentDirectoryPath == null)
+                {
+                    currentDirectoryPath = Directory.GetCurrentDirectory();
+                }
+
+                var directoryInfo = new DirectoryInfo(currentDirectoryPath);
+                if (directoryInfo.GetFiles(solutionName).Any())
+                {
+                    return currentDirectoryPath;
+                }
+
+                currentDirectoryPath = Directory.GetParent(currentDirectoryPath).FullName;
+            }
+        }
+
+        public IEnumerable<string> GetInputFileNames(string directoryPath)
+        {
+            var directoryInfo = new DirectoryInfo(directoryPath);
+            return directoryInfo.GetFiles("*.cs").Select(f => Path.GetFileNameWithoutExtension(f.Name));
+        }     
+    }
+#>

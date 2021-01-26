@@ -1,0 +1,23 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.button {
+  display: inline-flex;
+  button {
+    line-height: 30px;
+  }
+}
+
+.buttonIcon {
+  display: inline-flex;
+  align-items: center;
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.tooltipIcon {
+  line-height: 20px;
+  svg {
+    fill: icon-color(secondary);
+  }
+}

@@ -1,0 +1,227 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@using PTV.Domain.Model.Enums.Security
+@using PTV.IdentityUserManager
+@using PTV.IdentityUserManager.Models
+@model PTV.IdentityUserManager.Models.ChangeUserInfoViewModel
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+@{
+    ViewData["Title"] = "Change User Info";
+}
+<div class="panel-body col-sm-12">
+    <p>Would you like to Change User Info?</p>
+    <form asp-controller="Account" asp-action="ChangeUserInfo" method="get" class="form-horizontal" role="form">
+        <div class="row">
+            <div class="col-md-5">
+                <fieldset class="user-select">
+                    <div class="form-group">
+                        @{ var selectedUsers = new List<SelectListItem>(); }
+                        @Html.DropDownListFor(m => m.UserId, @Model.Users, new { id = "userId" })
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="align-right">
+                    <button type="submit" class="btn btn-default">GetUser</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+@if (User.HasRole(UserRoleEnum.Eeva) || (User.HasRole(UserRoleEnum.Pete)))
+{
+    <form asp-controller="Account" asp-action="ChangeUserInfoSave" method="post" class="form-horizontal" role="form">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group row">
+            <label asp-for="FullName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FullName" class="form-control"/>
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Email" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Email" class="form-control"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="organization-list-helper row">
+            <div class="col-lg-5">
+                @{ var selectedItems = Model.Organizations.Select(x => x.Key); }
+                @Html.ListBoxFor(m => selectedItems, @Model.OrganizationsToList, new { id = "organiztionId" })
+                @*@Html.DropDownListFor(m => m.OrganizationId, @Model.Organizations, User.HasRole(UserRoleEnum.Pete) ? new {@disabled = "disabled"} : null)
+            @Html.Hidden("OrganizationId")*@
+            </div>
+            <div class="col-lg-7">
+                <div id="organizationIdSelected" class="organization-list-selected">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5">
+            </div>
+        </div>
+        @Html.Hidden("UserId")
+        @*@if (@Model.Role != UserRoleEnum.Eeva)
+        {
+            <div class="form-group row">
+                <label asp-for="Role" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    @if (User.HasRole(UserRoleEnum.Eeva))
+                    {
+                        @Html.RadioButtonFor(m => m.Role, @UserRoleEnum.Eeva)<span>@UserRoleEnum.Eeva</span>
+                    }
+                    @Html.RadioButtonFor(m => m.Role, @UserRoleEnum.Pete)<span>@UserRoleEnum.Pete</span>
+                    @Html.RadioButtonFor(m => m.Role, @UserRoleEnum.Shirley)<span>@UserRoleEnum.Shirley</span>
+                </div>
+            </div>
+        }
+        else
+        {
+            @Html.Hidden("Role")
+        }*@
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="align-right">
+                    <button type="submit" disabled="isButtonDisabled()" class="buttonFormSave btn btn-default">Save</button>
+                </div>
+            </div>
+        </div>
+    </form>
+}
+else
+{
+    <label>You are not allowed to change info for user with role Eeva</label>
+}
+</div>
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    <script>
+        var organizations = {};
+        @foreach (var org in Model.Organizations)
+        {
+            <text>organizations["@org.Key"] = "@org.Value";</text>
+        }
+
+        var organizationsAutheticatedUser = {};
+        @foreach (var org in Model.OrganizationsAuthenticatedUser)
+        {
+            <text>organizationsAutheticatedUser["@org.Key"] = "@org.Value";</text>
+        }
+
+        var roles = {};
+        @foreach (var rol in Model.RoleIds)
+        {
+            <text>roles["@rol.Key"] = "@rol.Value";</text>
+        }
+        var isEeva = @Json.Serialize(Model.IsEevaRole)
+        var isButtonDisabled = function() {
+            return $('#organizationIdSelected ul li').length === 0
+        }
+
+        var setButtonAvailability = function() {
+            if (isButtonDisabled()) {
+                $('.buttonFormSave').prop('disabled', true)
+            } else {
+                $('.buttonFormSave').prop('disabled', false)
+            }
+        }
+        $(document).ready(function() {
+            // handle item remove
+            $('#organizationIdSelected').on('click', '.cross', function() {
+              $(this).parent().remove()
+              $('[data-value="' + $(this).data('id') + '"]').attr('selected', false)
+              setButtonAvailability()
+            })
+            function getInput(id, role, checked, label, disabled) {
+                var radioInput = $('<input />', {
+                  'type': 'radio',
+                  'id': role + '_' + id,
+                  'name': 'organizations[' + id + ']',
+                  'value': roles[role],
+                  'checked': checked && checked,
+                  'disabled': disabled && disabled
+                })
+                var radioLabel = $('<label />', {
+                    'text': unescape(label),
+                    'class': disabled && 'disabled',
+                  'for': role + '_' + id
+                })
+                var itemElement = $('<span />', {
+                  'class': 'role-mapping-role'
+                })
+                itemElement.append(radioInput)
+                itemElement.append(radioLabel)
+                return itemElement
+            }
+
+            function createInputs(orgId, roleIdToCheck, isDisabledPeteShirleyForAuthUser) {
+                
+                var radioGroup = $('<span />', {
+                  'class': 'role-mapping-roles'
+                })
+                if (!roleIdToCheck || roleIdToCheck === roles["@UserRoleEnum.Shirley.ToString()"]) {
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Eeva.ToString()", false, "@Html.Raw(SharedLocalizer["sts_roleEeva"])", !isEeva));
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Pete.ToString()", false, "@Html.Raw(SharedLocalizer["sts_rolePete"])", isDisabledPeteShirleyForAuthUser))
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Shirley.ToString()", true, "@Html.Raw(SharedLocalizer["sts_roleShirley"])", isDisabledPeteShirleyForAuthUser))
+                } else if (roleIdToCheck === roles["@UserRoleEnum.Eeva.ToString()"]) {
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Eeva.ToString()", true, "@Html.Raw(SharedLocalizer["sts_roleEeva"])", !isEeva))
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Pete.ToString()", false, "@Html.Raw(SharedLocalizer["sts_rolePete"])", isDisabledPeteShirleyForAuthUser))
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Shirley.ToString()", false, "@Html.Raw(SharedLocalizer["sts_roleShirley"])", isDisabledPeteShirleyForAuthUser))
+                } else if (roleIdToCheck === roles["@UserRoleEnum.Pete.ToString()"]) {
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Eeva.ToString()", false, "@Html.Raw(SharedLocalizer["sts_roleEeva"])", !isEeva))
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Pete.ToString()", true, "@Html.Raw(SharedLocalizer["sts_rolePete"])", isDisabledPeteShirleyForAuthUser))
+                    radioGroup.append(getInput(orgId, "@UserRoleEnum.Shirley.ToString()", false, "@Html.Raw(SharedLocalizer["sts_roleShirley"])", isDisabledPeteShirleyForAuthUser))
+                }
+                return radioGroup
+            }
+
+
+            list = $('#organiztionId').listbox({
+                'searchbar': true, // enable a search bar to filter & search items
+                itemCB: function (operation, item) {
+                    var orgId = item.data('value');
+                    var roleIdToCheck = organizations[orgId];
+                    var authUserRoleforOrg = organizationsAutheticatedUser[orgId]
+                    var isDisabledPeteShirleyForAuthUser = !isEeva && authUserRoleforOrg && authUserRoleforOrg !== roles["@UserRoleEnum.Pete.ToString()"]
+                    if (operation === 'add') {
+                        var organizationContainer = $('#organizationIdSelected ul')
+                        var selectedItem = $('<li />', {
+                          'id': 'item_' + item.data('value'),
+                          'class': 'role-mapping-role-list'
+                        })
+                        var selectedItemContent = $('<div />')
+                        var orgName = $('<span />', {
+                          'text': item.text(),
+                          'class': 'role-mapping-organization'
+                        })
+                        var removeBtn = $('<span />', {
+                          'class': 'cross',
+                          'data-id': item.data('value'),
+                          'text': 'x'
+                        })
+                        
+                        selectedItemContent.append(createInputs(orgId, roleIdToCheck, isDisabledPeteShirleyForAuthUser))
+                        selectedItemContent.append(orgName)
+                        selectedItem.append(selectedItemContent)
+                        !isDisabledPeteShirleyForAuthUser && selectedItem.append(removeBtn)
+                        isDisabledPeteShirleyForAuthUser && item.attr('callback_disabled', 'callback_disabled')
+                        organizationContainer.append(selectedItem)
+                    } else if (operation === 'remove') {
+                        !isDisabledPeteShirleyForAuthUser && $('#item_' + item.data('value')).remove()
+                    }
+
+                    setButtonAvailability()
+                }
+            });
+
+            userList = $('#userId').listbox({
+                'searchbar': true, // enable a search bar to filter & search items
+            });
+        })
+    </script>
+}

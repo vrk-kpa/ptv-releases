@@ -1,0 +1,8 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.connectionsSubHeader {
+  padding: 5px 20px;
+  border: 1px solid border-color(border);
+  border-bottom: none;
+  background-color: bg-color(dark);
+}

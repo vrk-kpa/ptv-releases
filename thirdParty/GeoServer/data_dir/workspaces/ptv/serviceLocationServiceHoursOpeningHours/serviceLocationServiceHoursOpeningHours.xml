@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocation.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_OpeningHours</sourceType>
+			<targetElement>ptv:serviceLocationServiceHoursOpeningHours</targetElement>
+			<attributeMappings>
+
+				<AttributeMapping>
+					<targetAttribute>serviceLocationServiceHoursOpeningHours</targetAttribute>
+					<idExpression>
+						<OCQL>OpeningHourId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+
+				<!-- opening hours -->
+				<AttributeMapping>
+					<targetAttribute>ptv:openingHours</targetAttribute>
+					<sourceExpression>
+						<OCQL>OpeningHours</OCQL>
+					</sourceExpression>
+					<ClientProperty>
+						<name>day</name>
+						<value>DayLong</value>
+					</ClientProperty>
+					<encodeIfEmpty>true</encodeIfEmpty>
+					<isMultiple>true</isMultiple>
+				</AttributeMapping>
+
+				<!-- feature link -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>OpeningHourId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

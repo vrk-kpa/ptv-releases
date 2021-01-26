@@ -1,0 +1,15 @@
+<dataStore>
+  <id>datastore_serviceLocationStandardServiceHoursCol</id>
+  <name>serviceLocationStandardServiceHoursCol</name>
+  <description>Service Location Standard Service Hours Collection</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationStandardServiceHoursCol/serviceLocationStandardServiceHoursCol.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

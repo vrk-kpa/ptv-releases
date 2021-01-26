@@ -1,0 +1,13 @@
+{ 
+  "profiles": {    
+    "PTV.TaskScheduler": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "/api/job/list",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:42622"
+    }
+  }
+}

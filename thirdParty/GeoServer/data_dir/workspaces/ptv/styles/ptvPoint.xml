@@ -1,0 +1,12 @@
+<style>
+  <id>ptv_style_point</id>
+  <name>ptvPoint</name>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>ptvPoint.sld</filename>
+</style>

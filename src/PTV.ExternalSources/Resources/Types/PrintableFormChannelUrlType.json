@@ -1,0 +1,147 @@
+﻿[
+  {
+    "Code": "PDF",
+    "Names": [
+      {
+        "Name": "pdf",
+        "Language": "fi"
+      },
+      {
+        "Name": "pdf",
+        "Language": "en"
+      },
+      {
+        "Name": "pdf",
+        "Language": "sv"
+      },
+      {
+        "Name": "pdf",
+        "Language": "se"
+      },
+      {
+        "Name": "pdf",
+        "Language": "smn"
+      },
+      {
+        "Name": "pdf",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "DOC",
+    "Names": [
+      {
+        "Name": "doc/docx",
+        "Language": "fi"
+      },
+      {
+        "Name": "doc/docx",
+        "Language": "en"
+      },
+      {
+        "Name": "doc/docx",
+        "Language": "sv"
+      },
+      {
+        "Name": "doc/docx",
+        "Language": "se"
+      },
+      {
+        "Name": "doc/docx",
+        "Language": "smn"
+      },
+      {
+        "Name": "doc/docx",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Excel",
+    "Names": [
+      {
+        "Name": "xls/xlsx",
+        "Language": "fi"
+      },
+      {
+        "Name": "xls/xlsx",
+        "Language": "en"
+      },
+      {
+        "Name": "xls/xlsx",
+        "Language": "sv"
+      },
+      {
+        "Name": "xls/xlsx",
+        "Language": "se"
+      },
+      {
+        "Name": "xls/xlsx",
+        "Language": "smn"
+      },
+      {
+        "Name": "xls/xlsx",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "rtf",
+    "Names": [
+      {
+        "Name": "rtf",
+        "Language": "fi"
+      },
+      {
+        "Name": "rtf",
+        "Language": "en"
+      },
+      {
+        "Name": "rtf",
+        "Language": "sv"
+      },
+      {
+        "Name": "rtf",
+        "Language": "se"
+      },
+      {
+        "Name": "rtf",
+        "Language": "smn"
+      },
+      {
+        "Name": "rtf",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "odt",
+    "Names": [
+      {
+        "Name": "odt",
+        "Language": "fi"
+      },
+      {
+        "Name": "odt",
+        "Language": "en"
+      },
+      {
+        "Name": "odt",
+        "Language": "sv"
+      },
+      {
+        "Name": "odt",
+        "Language": "se"
+      },
+      {
+        "Name": "odt",
+        "Language": "smn"
+      },
+      {
+        "Name": "odt",
+        "Language": "sms"
+      }
+    ]
+  }
+]

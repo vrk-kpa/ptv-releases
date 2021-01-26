@@ -1,0 +1,78 @@
+﻿/**
+ * The MIT License
+ * Copyright (c) 2020 Finnish Digital Agency (DVV)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+using System.Collections.Generic;
+using Newtonsoft.Json;
+
+namespace PTV.DataImport.Console.Models
+{
+    public class SourceOrganizationEntity : BaseSourceEntity
+    {
+        [JsonProperty("OID")]
+        public string OID { get; set; }
+
+        // source data contains logo property but no sample data (usually null or en empty array)
+
+        public string[] Logo { get; set; }
+
+        public string Email { get; set; }
+
+        public string Phone { get; set; }
+
+        public SourceChannels Channels { get; set; }
+
+        public SourceServices Services { get; set; }
+
+        public List<SourceWebpage> Webpages { get; set; }
+
+        public string CreatedBy { get; set; }
+
+        [JsonProperty("businessID")]
+        public string BusinessId { get; set; }
+
+        public string Description { get; set; }
+
+        [JsonProperty("visitAddress")]
+        public List<SourceVisitAddress> VisitAddresses { get; set; }
+
+        public string AlternateName { get; set; }
+
+        [JsonProperty("postalAddress")]
+        public List<SourcePostalAddress> PostalAddresses { get; set; }
+
+        public string MunicipalityCode { get; set; }
+
+        // the source data has introduced a typo in the JSON in the 16.05.2016 DB dump
+        // in first version the municipalityName property was spelled correctly
+        // ReSharper disable once StringLiteralTypo
+        [JsonProperty("munipalicityName")]
+        public string MunicipalityName { get; set; }
+
+        public string OrganizationType { get; set; }
+
+        public string PhoneServiceChargeInformation { get; set; }
+
+        [JsonProperty("subOrganization")]
+        public List<int> SubOrganizations { get; set; }
+    }
+}

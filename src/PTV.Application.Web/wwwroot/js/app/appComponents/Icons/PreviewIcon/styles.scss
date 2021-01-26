@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.icon {
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+  svg {
+    fill: interaction-color(disabled);
+  }
+}
