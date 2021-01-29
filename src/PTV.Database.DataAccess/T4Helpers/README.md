@@ -1,0 +1,3 @@
+- Navigate to **palvelutietovaranto\src\PTV.Database.DataAccess**
+- Run `dotnet tt Repositories\Repository.tt`
+- Run `dotnet tt Repositories\RepositoryPartial.tt`

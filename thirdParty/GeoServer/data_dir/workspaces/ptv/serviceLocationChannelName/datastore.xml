@@ -1,0 +1,15 @@
+<dataStore>
+  <id>datastore_serviceLocationChannelName</id>
+  <name>serviceLocationChannelName</name>
+  <description>Service Location Channel Name</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationChannelName/serviceLocationChannelName.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

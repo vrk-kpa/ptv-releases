@@ -1,0 +1,25 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  label {
+    margin: 0;
+  }
+}
+
+.rowAllign {
+  display: flex;
+  flex-wrap: wrap;
+  > span {
+    &::after {
+      content: ',';
+      padding-right: 3px;
+    }
+    &:last-child {
+      &::after {
+        content: '';
+      }
+    }
+  }
+}

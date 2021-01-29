@@ -1,0 +1,32 @@
+{
+  "sourceId": "string",
+  "serviceChannelDescriptions": [
+  ],
+  "organizationId": "string",
+  "areaType": "string",
+  "serviceChannelNames": [
+  ],
+  "areas": [
+  ],
+  "emails": [
+  ],
+  "faxNumbers": [
+  ],
+  "phoneNumbers": [
+  ],
+  "languages": [
+  ],
+  "webPages": [
+  ],
+  "addresses": [
+  ],
+  "serviceHours": [
+  ],
+  "deleteAllEmails": true,
+  "deleteAllPhoneNumbers": true,
+  "deleteAllFaxNumbers": true,
+  "publishingStatus": "string",
+  "isVisibleForAll": true,
+  "deleteAllWebPages": true,
+  "deleteAllServiceHours": true
+}

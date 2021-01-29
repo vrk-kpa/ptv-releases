@@ -1,0 +1,15 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+label.regular {
+  font-weight: 400;
+}
+
+.openingItem {
+  margin-left: 30px;
+  // > div {
+  //   margin-bottom: 10px;
+  // }
+  // &.openingItem label {
+  //   margin-bottom: 0;
+  // }
+}

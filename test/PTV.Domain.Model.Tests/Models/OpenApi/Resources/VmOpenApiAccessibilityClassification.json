@@ -1,0 +1,7 @@
+{
+  "accessibilityClassificationLevel": "string",
+  "wcagLevel": "string",
+  "accessibilityStatementWebPageName": "string",
+  "accessibilityStatementWebPage": "string",
+  "language": "string"
+}

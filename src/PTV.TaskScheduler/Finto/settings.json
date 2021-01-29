@@ -1,0 +1,140 @@
+﻿{
+    "relativePaths": [
+        "ptv",
+        "ontologies"
+    ],
+    "params": {
+        "baseUri": "asdjkhasjk",
+        "version": "v5",
+        "searchService": "cls-search-service/api/public",
+        "ontologyService": "cls-ontology-service/ontology",
+
+        "typesUri": "types",
+        "dataUri": "concept",
+        "broaderUri": "concept/broader",
+        "narrowerUri": "concept/narrower",
+        "dataByTypeAll": "concepts",
+        "dataByTypeTopLevel": "concepts/{0}/toplevel"
+    },
+    "queryParams": {
+    },
+    "downloadDefinitions": {
+        "targetGroups": {
+            "name": "TargetGroups - use if hierarchy works",
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "links": [
+                {
+                    "path": [
+                        "targetgroup"
+                    ],
+                    "file": "TargetGroups",
+                    "queryParams": {
+                    }
+                }
+            ]
+        },
+        "ontologyTerms": {
+            "mergeOnly": false,
+            "name": "Ontology terms",
+            "links": [
+                {
+                    "path": [ "dataByTypeAll", "yso" ]
+                },
+                {
+                    "path": [
+                        "dataByTypeAll",
+                        "tsr"
+                    ]
+                },
+                {
+                    "path": [
+                        "dataByTypeAll",
+                        "juho"
+                    ]
+                },
+                {
+                    "path": [
+                        "dataByTypeAll",
+                        "jupo"
+                    ]
+                },
+                {
+                    "path": [
+                        "dataByTypeAll",
+                        "liito"
+                    ]
+                },
+                {
+                    "path": [
+                        "dataByTypeAll",
+                        "tero"
+                    ]
+                }
+            ],
+            "mergeTo": "OntologyAll",
+            "fixHierarchy": false,
+            "downloadFolder": "Finto\\Temp",
+            "mergeFolder": "..\\PTV.ExternalSources\\Resources\\Finto"
+        },        
+        "ontologyTermsKoko": {
+            "mergeOnly": false,
+            "name": "Ontology terms",
+            "links": [
+                {
+                    "path": [ "koko" ],
+                    "file": "Koko",
+                    "queryParams": {
+                    }
+                }
+            ],
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto"
+        },
+        "lifeEvents": {
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "name": "LifeEvents - use if hierarchy works",
+            "links": [
+                {
+                    "path": [
+                        "lifesituation"
+                    ],
+                    "file": "LifeSituations",
+                    "queryParams": {
+                        
+                    }
+                }
+            ]
+        },
+        "serviceClasses": {
+            "name": "Service classes - use if hierarchy works",
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "links": [
+                {
+                    "path": [
+                        "ptvl"
+                    ],
+                    "file": "ServiceClasses",
+                    "queryParams": {
+                        "s": "300"
+                    }
+                }
+            ]
+        },
+        "industrialClasses": {
+            "name": "Industrial classes",
+            "fixHierarchy": false,
+            "downloadFolder": "..\\PTV.ExternalSources\\Resources\\Finto",
+            "links": [
+                {
+                    "path": [
+                        "tol"
+                    ],
+                    "file": "IndustrialClasses"
+                }
+            ]
+        }
+    }
+}

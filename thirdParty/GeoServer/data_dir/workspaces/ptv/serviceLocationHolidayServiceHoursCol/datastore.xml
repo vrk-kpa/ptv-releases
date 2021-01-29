@@ -1,0 +1,15 @@
+<dataStore>
+  <id>datastore_serviceLocationHolidayServiceHoursCol</id>
+  <name>serviceLocationHolidayServiceHoursCol</name>
+  <description>Service Location Holiday Service Hours Collection</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationHolidayServiceHoursCol/serviceLocationHolidayServiceHoursCol.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

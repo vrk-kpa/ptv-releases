@@ -1,0 +1,59 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.ontologyNodeSelect {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 20px;
+  order: 0;
+  margin-right: 10px;
+}
+
+// react select outer menu height adjustment due to macOS scrollbar hiding
+.ontologyTermSearch {
+  :global {
+    .Select-menu-outer {
+      max-height: 185px;
+    }
+    .Select-menu {
+      max-height: 183px;
+    }
+  }
+}
+
+.titleToggleTree {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  label {
+    cursor: pointer;
+  }
+  svg {
+    fill: interaction-color(primary);
+  }
+}
+
+.onologyTreeList {
+  margin-top: 5px;
+  padding: 0;
+}
+
+.searchNotifyIcon {
+  margin-left: 10px;
+}
+
+.ontologyNode {
+  justify-content: inherit;
+}
+
+.ontologyNodeLabelWrap {
+  order: 1;
+}
+
+.fullBorder {
+  border-top: 1px solid border-color(border);
+}
+
+.annotationButton {
+  display: block;
+  margin-bottom: 10px;
+}

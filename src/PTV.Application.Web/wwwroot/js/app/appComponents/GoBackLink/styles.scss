@@ -1,0 +1,60 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.goBackLink {
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  &:not([href]):not([tabindex]) {
+    color: text-color(secondary);
+    &:hover {
+      color: text-color(secondary);
+    }
+  }
+  &::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    border: 1px solid text-color(secondary);
+    position: absolute;
+    top: 7px;
+    left: 0;
+  }
+  &::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    transform-origin: center;
+    border: 2px solid text-color(secondary);
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    top: 4px;
+    left: 0;
+  }
+}
+
+.messageBox {
+  border: 1px solid border-color(border);
+  background-color: bg-color(dark);
+  margin-bottom: 20px;
+}
+
+.messageBoxTitle {
+  font-size: 20px;
+  color: text-color(primary);
+  letter-spacing: -0.31px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0;
+  padding: 20px 30px 0;
+}
+
+.messageBoxActions {
+  padding: 20px 30px;
+  @include arrange-items($spacing: 20px);
+}

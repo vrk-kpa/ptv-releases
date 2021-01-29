@@ -1,0 +1,17 @@
+<layer>
+  <name>serviceChannelBase</name>
+  <id>ptv_simpleLayer_serviceChannelBase</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv_simpleFeature_serviceChannelBase</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-08-16 20:46:30.293 UTC</dateCreated>
+  <dateModified>2020-08-16 20:49:17.90 UTC</dateModified>
+</layer>

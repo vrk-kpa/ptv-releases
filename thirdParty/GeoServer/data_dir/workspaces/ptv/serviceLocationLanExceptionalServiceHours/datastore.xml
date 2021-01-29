@@ -1,0 +1,15 @@
+<dataStore>
+  <id>datastore_serviceLocationLanExceptionalServiceHours</id>
+  <name>serviceLocationLanExceptionalServiceHours</name>
+  <description>Service Location Language - Exceptional Opening Hours</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationLanExceptionalServiceHours/serviceLocationLanExceptionalServiceHours.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
