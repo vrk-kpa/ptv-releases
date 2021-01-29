@@ -1,0 +1,46 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($align: center);
+}
+
+.spinner {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid border-color(border);
+  background-color: bg-color(content);
+}
+
+@media (min-width: 1025px) {
+  [class*='styles__scrollable___'] {
+    .massToolActive {
+      tr {
+        display: flex;
+        flex-wrap: wrap;
+        td:first-child {
+          background-color: rgba(bg-color(dark), 0.2);
+          border-right: 1px solid border-color(border);
+          vertical-align: middle;
+          > div {
+            height: 30px;
+          }
+        }
+        &:first-child {
+          border-top: none;
+          td {
+            border-top: 1px solid border-color(border);
+            &:first-child {
+              border-top: none;
+            }
+          }
+        }
+        td {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

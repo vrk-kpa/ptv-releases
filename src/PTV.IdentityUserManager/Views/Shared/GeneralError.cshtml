@@ -1,0 +1,20 @@
+﻿@model string
+
+@{ 
+    // just a general FI message if there is no description in the model (FI text says: There was an error in the service)
+    string errorDescription = !string.IsNullOrWhiteSpace(Model) ? Model : "Palvelussa tapahtui virhe.";
+}
+
+<div class="error-page">
+    <div class="page-header">
+        <h1>Virhe</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="alert alert-danger">
+                @errorDescription
+            </div>
+        </div>
+    </div>
+</div>

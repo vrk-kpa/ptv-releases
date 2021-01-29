@@ -1,0 +1,46 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.relatedOrganizations {
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.organizationListWrap {
+  line-height: 20px;
+}
+
+.organizationList {
+  ~ .organizationList {
+    margin-top: 20px;
+  }
+  strong {
+    font-size: 1rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  ul li {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.moreComponent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trigger {
+  margin: 5px 0;
+  > div {
+    display: block;
+  }
+}

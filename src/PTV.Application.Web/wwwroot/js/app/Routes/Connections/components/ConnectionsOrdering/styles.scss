@@ -1,0 +1,31 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.connectionsOrdering {
+  display: flex;
+  justify-content: space-between;
+  &.withoutOrganizing {
+    flex-direction: row-reverse;
+  }
+}
+
+.connectionsOrderingActions {
+  flex: 0 0 150px;
+  margin-left: 40px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  &.active {
+    flex-direction: column;
+    align-items: center;
+  }
+  margin-bottom: 10px;
+}
+
+.cancelButton {
+  margin-top: 10px;
+  height: 30px;
+}
+
+.organizeLink {
+  margin-right: 10px;
+}

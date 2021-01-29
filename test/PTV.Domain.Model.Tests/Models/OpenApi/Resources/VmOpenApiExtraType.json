@@ -1,0 +1,10 @@
+﻿{
+  "type": "string",
+  "code": "string",
+  "description": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ]
+}

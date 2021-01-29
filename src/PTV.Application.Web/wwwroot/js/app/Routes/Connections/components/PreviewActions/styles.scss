@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.toolbar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.functions {
+  margin-right: 20px;
+  :global {
+    .Select-placeholder {
+      font-style: normal;
+    }
+  }
+}
+
+.buttonGroup {
+  @include arrange-items($align: 'right', $margin: 0, $spacing: 20px);
+}

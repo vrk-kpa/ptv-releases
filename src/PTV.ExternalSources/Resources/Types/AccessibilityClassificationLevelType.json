@@ -1,0 +1,118 @@
+﻿[
+  {
+    "code": "FullyCompliant",
+    "names": [
+      {
+        "Name": "Täysin direktiivin mukainen",
+        "language": "fi"
+      },
+      {
+        "Name": "Fully compliant with directive",
+        "language": "en"
+      },
+      {
+        "Name": "Följer direktivet helt",
+        "Language": "sv"
+      },
+      {
+        "Name": "Ollásit čuovvu direktiivva",
+        "Language": "se"
+      },
+      {
+        "Name": "Ollásávt direktiv miäldásâš",
+        "Language": "smn"
+      },
+      {
+        "Name": "Tiuddsânji direktiiv meâldlaž",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "code": "PartiallyCompliant",
+    "names": [
+      {
+        "Name": "Osittain direktiivin mukainen",
+        "language": "fi"
+      },
+      {
+        "Name": "Partially compliant with directive",
+        "language": "en"
+      },
+      {
+        "Name": "Följer direktivet delvis",
+        "Language": "sv"
+      },
+      {
+        "Name": "Oassái čuovvu direktiivva",
+        "Language": "se"
+      },
+      {
+        "Name": "Uásild direktiv miäldásâš",
+        "Language": "smn"
+      },
+      {
+        "Name": "Vuässas direktiiv meâldlaž",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "code": "NonCompliant",
+    "names": [
+      {
+        "Name": "Ei direktiivin mukainen",
+        "language": "fi"
+      },
+      {
+        "Name": "Non-compliant with directive",
+        "language": "en"
+      },
+      {
+        "Name": "Följer inte direktivet",
+        "Language": "sv"
+      },
+      {
+        "Name": "Ii čuovo direktiivva",
+        "Language": "se"
+      },
+      {
+        "Name": "Ij direktiv miäldásâš",
+        "Language": "smn"
+      },
+      {
+        "Name": "Iʹlla direktiiv meâldlaž",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "code": "Unknown",
+    "names": [
+      {
+        "Name": "Ei tietoa",
+        "language": "fi"
+      },
+      {
+        "Name": "Not known",
+        "language": "en"
+      },
+      {
+        "Name": "Inte känd",
+        "Language": "sv"
+      },
+      {
+        "Name": "(Neahttasiiddu fägávdnandiehtu) ii dieđus",
+        "Language": "se"
+      },
+      {
+        "Name": "Ij tiäđust",
+        "Language": "smn"
+      },
+      {
+        "Name": "Iʹlla teâđast",
+        "Language": "sms"
+      }
+    ]
+  }
+]

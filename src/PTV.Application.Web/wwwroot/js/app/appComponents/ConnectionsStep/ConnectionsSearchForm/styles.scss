@@ -1,0 +1,60 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items();
+}
+
+.formFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+}
+.shouldShowSuggestedCheckbox {
+  margin: 10px;
+}
+
+.resultInfo {
+  white-space: normal;
+}
+
+.formHeadDark {
+  background-color: bg-color(dark);
+  padding: 15px 20px;
+}
+
+.searchFieldContainer {
+  display: flex;
+  align-items: center;
+  > div:first-child {
+    flex: 1 0 auto;
+  }
+  .searchField {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    input {
+      padding-right: 10px;
+    }
+    [class*="searchIcon"] {
+      display: none;
+    }
+  }
+}
+
+.searchButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: stretch;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.searchSpinner {
+  margin: 0;
+}

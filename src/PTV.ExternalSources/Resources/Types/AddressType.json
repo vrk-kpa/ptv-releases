@@ -1,0 +1,87 @@
+﻿[
+  {
+    "code": "Street",
+    "names": [
+      {
+        "Name": "Street address (FI)",
+        "language": "fi"
+      },
+      {
+        "Name": "Street address",
+        "language": "en"
+      },
+      {
+        "Name": "Street address (SV)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "PostOfficeBox",
+    "names": [
+      {
+        "Name": "Postofficebox (FI)",
+        "language": "fi"
+      },
+      {
+        "Name": "PostOffice Box",
+        "language": "en"
+      },
+      {
+        "Name": "Postofficebox (SV)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "Foreign",
+    "names": [
+      {
+        "Name": "Foreign (FI)",
+        "language": "fi"
+      },
+      {
+        "Name": "Foreign",
+        "language": "en"
+      },
+      {
+        "Name": "Foreign (SV)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "NoAddress",
+    "names": [
+      {
+        "Name": "No Address (FI)",
+        "language": "fi"
+      },
+      {
+        "Name": "No Address",
+        "language": "en"
+      },
+      {
+        "Name": "No Address (SV)",
+        "language": "sv"
+      }
+    ]
+  },
+  {
+    "code": "Other",
+    "names": [
+      {
+        "Name": "Muu sijaintitieto",
+        "language": "fi"
+      },
+      {
+        "Name": "Other (EN)",
+        "language": "en"
+      },
+      {
+        "Name": "Other (SV)",
+        "language": "sv"
+      }
+    ]
+  }
+]

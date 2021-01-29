@@ -1,0 +1,22 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.day, .dailyFrom, .dailyTo {
+  @include small-select();
+}
+
+.datePicker {
+  width: 85px;
+}
+
+.labelWrap {
+  label {
+    margin: 0;
+    margin-right: 10px;
+  }
+}
+
+.specialHoursSelection {
+  padding-bottom: 20px;
+  margin-left: 30px;
+}

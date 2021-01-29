@@ -1,0 +1,20 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.isConnected {
+  section {
+    border-bottom: none;
+    box-shadow: none;
+  }
+}
+
+.highlight {
+  margin-right: 3px;
+}
+
+.main {
+  color: secondary-color(jarvi);
+}
+
+.sub {
+  color: status-color(danger);
+}

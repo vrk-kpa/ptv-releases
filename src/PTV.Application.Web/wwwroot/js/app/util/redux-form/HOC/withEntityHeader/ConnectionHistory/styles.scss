@@ -1,0 +1,17 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: lightgray;
+}
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+}

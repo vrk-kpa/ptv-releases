@@ -1,0 +1,14 @@
+{
+  "service": {
+    "id": "string",
+    "name": "string"
+  },
+  "roleType": "string",
+  "provisionType": "string",
+  "additionalInformation": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ]
+}

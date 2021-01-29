@@ -1,0 +1,51 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+:global {
+  .createNewEntity {
+    [class*='element'] {
+      padding: 10px;
+    }
+    [class*='infoBoxArrow'] {
+      z-index: -1;
+    }
+  }
+}
+
+.buttonList {
+  ul {
+    border: 1px solid border-color(border);
+    ~ ul {
+      margin-top: 10px;
+    }
+  }
+  li {
+    > * {
+      padding: 5px 20px 5px 40px;
+      display: block;
+      position: relative;
+      font-weight: 600;
+      color: interaction-color(primary);
+      &::after {
+        position: absolute;
+        top: calc(50% - 5px);
+        right: 20px;
+        width: 10px;
+        height: 10px;
+        content: "";
+        border: 0 solid border-color(border);
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        transform-origin: center center;
+        transform: rotate(-45deg);
+      }
+    }
+    > :not(a) {
+      color: text-color(secondary);
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    ~ li {
+      border-top: 1px solid bg-color(light);
+    }
+  }
+}

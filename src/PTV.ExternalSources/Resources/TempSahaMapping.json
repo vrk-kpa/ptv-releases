@@ -1,0 +1,427 @@
+[
+  {
+    "Name": "Akaan kaupunki Talouspalvelut",
+    "OldSahaGuid": "c5da1a07-fc5e-4f1b-b79c-def9b894a7b1",
+    "NewSahaGuid": "280a004e-c63f-49ba-a738-e6d7f123d695"
+  },
+  {
+    "Name": "Alavuden kaupunki Kaupunginkanslia",
+    "OldSahaGuid": "3f2b4a28-80c9-440d-99ef-d5ca4392a543",
+    "NewSahaGuid": "e8f3ff42-9b6b-449b-8e59-8fe12fd04c0e"
+  },
+  {
+    "Name": "Asikkalan kunta Konsernipalvelut",
+    "OldSahaGuid": "46f62d38-11b0-423b-aba5-4a045d73aad6",
+    "NewSahaGuid": "c9463dfc-5db8-4b2d-b75e-71853b853c57"
+  },
+  {
+    "Name": "Elinkeino-, liikenne- ja ympäristökeskusten sekä työ- ja elinkeinotoimistojen kehittämis- ja hallintokeskus ",
+    "OldSahaGuid": "d61cc233-26c8-4c65-98f9-22d29a51bdc6",
+    "NewSahaGuid": "3d35d131-e24f-4b5a-871c-175e0afc3793"
+  },
+  {
+    "Name": "Eläkekassa Verso undefined",
+    "OldSahaGuid": "28ec745d-084b-4b16-b65c-c4792f5924c8",
+    "NewSahaGuid": "ffb37f83-bd8e-4f19-b86c-ca9d2d182abf"
+  },
+  {
+    "Name": "Espoon kaupunki Kehittämisen tulosalue",
+    "OldSahaGuid": "deefa82d-6397-47ab-b8b1-b6b6964dbdfd",
+    "NewSahaGuid": "7bc40486-3a27-477e-b294-75022951129f"
+  },
+  {
+    "Name": "Eurajoen kunta ",
+    "OldSahaGuid": "dcb63873-2756-4c0e-b92f-5b041fd7ad7d",
+    "NewSahaGuid": "bd89e604-ac19-4ef4-a554-6a54e6d4bf82"
+  },
+  {
+    "Name": "FCG Flowmedik Oy ",
+    "OldSahaGuid": "431459b1-2f11-4f2e-b57c-4cd9a453b6fb",
+    "NewSahaGuid": "7ccaf282-a4c0-4b00-85cb-5ffdf1f8a421"
+  },
+  {
+    "Name": "Forssan kaupunki ",
+    "OldSahaGuid": "59eb0bf7-c3f0-4592-ba06-e7568cefa2aa",
+    "NewSahaGuid": "bd46a85a-7986-4918-b017-3c2f48b91ef5"
+  },
+  {
+    "Name": "Haapajärven kaupunki ",
+    "OldSahaGuid": "ba87a6b5-b8df-4e89-833e-8aab2ff6374b",
+    "NewSahaGuid": "4c5c8561-508c-4241-863c-94d7ebf506a1"
+  },
+  {
+    "Name": "HSY Helsingin seudun ympäristöpalvelut -kuntayhtymä ",
+    "OldSahaGuid": "218bc68d-393e-4fd1-b3d1-84fd9b726ddf",
+    "NewSahaGuid": "e3a5db4e-de54-4d04-89ff-731134a23ef1"
+  },
+  {
+    "Name": "Humppilan kunta ",
+    "OldSahaGuid": "2b235f0c-e176-4c04-b8dd-ff24cf78d10b",
+    "NewSahaGuid": "2ff3f9ec-b96b-4c10-bab8-48e88a147c0f"
+  },
+  {
+    "Name": "Hätäkeskuslaitos ",
+    "OldSahaGuid": "4f8347ad-7d49-4ec3-a323-020cd03b3ae0",
+    "NewSahaGuid": "24e274f3-af8e-4b5b-ba44-55ab213721cd"
+  },
+  {
+    "Name": "Isojoen kunta ",
+    "OldSahaGuid": "3711a2f9-0df5-4155-b220-046e71e56855",
+    "NewSahaGuid": "6714596c-7677-4b09-a57f-265be93348d8"
+  },
+  {
+    "Name": "Jakobstads stad ",
+    "OldSahaGuid": "1e9c86f3-3745-4953-8957-c752538a5453",
+    "NewSahaGuid": "effaa329-3a47-48e0-9b3a-9cde6d3acca8"
+  },
+  {
+    "Name": "Janakkalan kunta Sivistystoimi",
+    "OldSahaGuid": "83c1059b-2b93-4094-bbfc-ff032d9d11f3",
+    "NewSahaGuid": "8981ea65-7406-474a-aa44-2da1b30a37f2"
+  },
+  {
+    "Name": "Jämijärven kunta ",
+    "OldSahaGuid": "abaaa983-5045-46db-83e9-4d6b9bcd205c",
+    "NewSahaGuid": "ba12b40d-7697-468a-830f-f3e75566013e"
+  },
+  {
+    "Name": "Jämsän kaupunki ",
+    "OldSahaGuid": "d4310c9c-16c4-42d3-8856-a62c7ae59323",
+    "NewSahaGuid": "1039e4f7-a9ec-4b55-8758-c6d7bb1ad9a9"
+  },
+  {
+    "Name": "Kajaanin kaupunki ",
+    "OldSahaGuid": "096faebc-94ba-4e73-b504-a3d43444aaae",
+    "NewSahaGuid": "090eab36-b322-4d62-9b19-03f21092aa65"
+  },
+  {
+    "Name": "Kangasniemen kunta Varhaiskasvatus",
+    "OldSahaGuid": "082c5f33-d580-45f9-bf8d-6849d1394200",
+    "NewSahaGuid": "b53fefb7-1164-4be2-8e50-531f96845e36"
+  },
+  {
+    "Name": "Karstulan kunta ",
+    "OldSahaGuid": "ba2352c8-c8e2-4c48-919f-f411533826ef",
+    "NewSahaGuid": "2a76dfbc-5436-493b-ba45-4eabce365639"
+  },
+  {
+    "Name": "Kauhajoen kaupunki ",
+    "OldSahaGuid": "fa9a59f5-217b-4e6c-89b8-e19b67e346af",
+    "NewSahaGuid": "d2bf9cf1-3ecb-4aa1-8df9-24d4152c9c39"
+  },
+  {
+    "Name": "Kaustisen kunta Yhdyskunta- ja ympäristöpalvelut",
+    "OldSahaGuid": "307c3d5e-597a-4287-9f87-fc487b6d0a45",
+    "NewSahaGuid": "dabedce0-2a9c-44e0-b72e-a198c08280c7"
+  },
+  {
+    "Name": "Keiteleen kunta Tekninen toimi /Rakennusvalvonta ",
+    "OldSahaGuid": "daf6c573-cc21-46e1-a846-48ff77f9d604",
+    "NewSahaGuid": "0d71589a-93e0-41b2-b814-9faa56c84c15"
+  },
+  {
+    "Name": "Kemijärven kaupunki ",
+    "OldSahaGuid": "f8568328-ff42-4f10-b6bb-87bc6a49e1c3",
+    "NewSahaGuid": "667e8a87-8c55-4846-8c49-ae2dd12dc735"
+  },
+  {
+    "Name": "Keski-Satakunnan terveydenhuollon kuntayhtymä ",
+    "OldSahaGuid": "e67844ef-b211-4569-99f8-34f3ff48b50b",
+    "NewSahaGuid": "7cd5ff2d-9cee-462b-a063-f3aae3757749"
+  },
+  {
+    "Name": "Kinnulan kunta Keskushallinto",
+    "OldSahaGuid": "8725f01d-6fdd-4878-b937-fc41b90f2d56",
+    "NewSahaGuid": "23a0e31c-ff66-4b66-9daa-e4d37d7a260a"
+  },
+  {
+    "Name": "Kirkon Keskusrahasto ",
+    "OldSahaGuid": "eadcad36-6843-4976-88b9-e7b5f9bfbcee",
+    "NewSahaGuid": "ca2a3d79-4915-4b40-9f91-58b06734b800"
+  },
+  {
+    "Name": "Korsholms kommun Koncernförvaltning",
+    "OldSahaGuid": "65f26031-63c4-429c-84e2-92946a708e3a",
+    "NewSahaGuid": "f6bade7f-3585-411a-9e49-8e7c5f67f405"
+  },
+  {
+    "Name": "Kristinestad stad ",
+    "OldSahaGuid": "805ed294-b32a-4e7e-a68f-f01f439800c0",
+    "NewSahaGuid": "eb62038e-6cf5-41a4-a830-70a7f5bb3450"
+  },
+  {
+    "Name": "Kuopion kaupunki ",
+    "OldSahaGuid": "28dc2074-2281-4b21-8413-2e8ae5bf2497",
+    "NewSahaGuid": "7778be4d-57f7-47ed-991b-71b19582c114"
+  },
+  {
+    "Name": "Kust-Österbottens samkommun för social- och primärhälsovård ",
+    "OldSahaGuid": "f36c5acc-cc48-445e-93b2-4d3e3f426970",
+    "NewSahaGuid": "38748f65-ba16-4b67-a0c9-db8a3b7ae556"
+  },
+  {
+    "Name": "Kuusamon kaupunki ",
+    "OldSahaGuid": "32b5df16-d164-442c-9e45-6eecdabe4a0d",
+    "NewSahaGuid": "f9182ab1-6ad7-4b3c-83d8-5f8184bb8249"
+  },
+  {
+    "Name": "Kuusiokuntien sosiaali -ja terveyskuntayhtymä ",
+    "OldSahaGuid": "7e04c5c0-7105-4c7f-b70d-29d697aebbe1",
+    "NewSahaGuid": "3b2e0057-52d4-45b8-8961-30558f01b1f8"
+  },
+  {
+    "Name": "Lapin ammattikorkeakoulu Oy ",
+    "OldSahaGuid": "98ee698c-af6c-4a7a-96a9-3d3d3e2d2c81",
+    "NewSahaGuid": "d4ebc5fa-9197-4ce1-8c70-6373cc5461d2"
+  },
+  {
+    "Name": "Lapinjärven kunta ",
+    "OldSahaGuid": "ef489dbf-cbda-444c-bae6-b25f949b5cce",
+    "NewSahaGuid": "d66191b8-9932-4748-a3b7-168632a0f053"
+  },
+  {
+    "Name": "Lääkealan turvallisuus- ja kehittämiskeskus ",
+    "OldSahaGuid": "f93abadd-f57a-4735-89ca-4016991348f9",
+    "NewSahaGuid": "276e54e9-ea68-4650-bdbe-0f7fca693fa3"
+  },
+  {
+    "Name": "Nivalan kaupunki Rakennusvalvonta",
+    "OldSahaGuid": "3d5e4f3b-f0b3-40e4-a359-248a9b3e6327",
+    "NewSahaGuid": "6075cfea-5732-42ee-8b18-c92ef3370b2d"
+  },
+  {
+    "Name": "Nokian kaupunki ",
+    "OldSahaGuid": "1e13b1ca-e541-45ba-8199-b07018b7648c",
+    "NewSahaGuid": "b15a0d3d-4ef3-480f-9033-b81075c9d092"
+  },
+  {
+    "Name": "Oikeusministeriö ",
+    "OldSahaGuid": "2aa71190-5f64-4d88-b4aa-a881f349d465",
+    "NewSahaGuid": "c500d984-1fce-4e66-8892-dc51ba1c70ba"
+  },
+  {
+    "Name": "Opetus- ja kulttuuriministeriö ",
+    "OldSahaGuid": "57223cf3-2e26-43d6-abf3-7d162f75a53c",
+    "NewSahaGuid": "abdeadda-8865-4066-859d-9d9319bbd5c1"
+  },
+  {
+    "Name": "Opetushallitus ",
+    "OldSahaGuid": "c9cf055a-255a-46dc-bd1d-13fbccaff296",
+    "NewSahaGuid": "ec7cd879-ad6f-4658-8070-f67be4c8e2f0"
+  },
+  {
+    "Name": "Oy Apotti Ab Käyttöpalvelut",
+    "OldSahaGuid": "bbffdc53-b4b3-43fa-8404-8277850df8a0",
+    "NewSahaGuid": "6c869b79-217a-46ac-af4c-92631656e235"
+  },
+  {
+    "Name": "Patentti- ja Rekisterihallitus ",
+    "OldSahaGuid": "c82a5077-5797-473a-9124-57b9877280fc",
+    "NewSahaGuid": "e0b6a98f-968a-418d-9cb1-6c3be033a82e"
+  },
+  {
+    "Name": "Pertunmaan kunta Rakennusvalvonta",
+    "OldSahaGuid": "044c0d20-2e4d-4d29-b0b5-bbc375d3b7cd",
+    "NewSahaGuid": "79729ba8-8298-4273-9870-659a7b1287f3"
+  },
+  {
+    "Name": "Perusturvakuntayhtymä Akseli Sosiaaliosasto",
+    "OldSahaGuid": "e52425b4-9fae-46d3-a13b-e20433dac453",
+    "NewSahaGuid": "be3a1038-ebfd-4c8a-8545-59cd02b5ae72"
+  },
+  {
+    "Name": "Pohjois-Karjalan maakuntaliitto ",
+    "OldSahaGuid": "e5326969-6796-4ea6-aa75-3c02671a1440",
+    "NewSahaGuid": "8bec482e-12a3-4cd0-94b0-d4c773660d3a"
+  },
+  {
+    "Name": "Pohjois-Savon Sairaanhoitopiirin kuntayhtymä ",
+    "OldSahaGuid": "cd43a23d-af1d-401c-80b1-d4605f610c5e",
+    "NewSahaGuid": "f94529e2-62a8-4c31-baf3-58a9cb42e3b2"
+  },
+  {
+    "Name": "Poliisihallitus ",
+    "OldSahaGuid": "cff5b37c-4246-4db9-900c-99e914d4cfbb",
+    "NewSahaGuid": "68fb2fe8-6778-40b0-bf6f-b20c697f6521"
+  },
+  {
+    "Name": "Porin kaupunki Perusturva",
+    "OldSahaGuid": "b2585082-d6c1-484c-ad53-fccd8afc5156",
+    "NewSahaGuid": "81fd9366-2756-4096-8b73-9b55568431ea"
+  },
+  {
+    "Name": "Pälkäneen kunta Tietohallinto",
+    "OldSahaGuid": "3a180c26-a820-46e4-b7b3-224eff7d841f",
+    "NewSahaGuid": "9c4d721a-fef9-4d9d-bbe7-59e22bfe97ba"
+  },
+  {
+    "Name": "Rahoitusvakausvirasto ",
+    "OldSahaGuid": "a7682701-2c9c-48f0-8f18-94272b2faea9",
+    "NewSahaGuid": "5c7dd3d1-b04d-4000-88e3-1341e083a8fc"
+  },
+  {
+    "Name": "Ranuan kunta ",
+    "OldSahaGuid": "99af58a6-6e73-4d06-9796-1882a145c278",
+    "NewSahaGuid": "0d0b9c1b-add5-4728-a9db-d28049c9c168"
+  },
+  {
+    "Name": "Rautjärven kunta ",
+    "OldSahaGuid": "41f74876-3bb2-41e4-a3cb-4f1834cc855e",
+    "NewSahaGuid": "4405dc4d-919a-4001-a6c7-65f2f769e039"
+  },
+  {
+    "Name": "Ruokolahden kunta ",
+    "OldSahaGuid": "bbfbb4fb-95a7-4689-a216-3edcd2847a0a",
+    "NewSahaGuid": "182dd7f8-bb6c-46e2-8016-015f3b3552fd"
+  },
+  {
+    "Name": "Ruoveden kunta Sivistysosasto",
+    "OldSahaGuid": "0e36210b-e121-47b8-aa92-280cfe031141",
+    "NewSahaGuid": "ef8211a6-9df3-4476-b840-5064cfd79ef7"
+  },
+  {
+    "Name": "Rääkkylän kunta ",
+    "OldSahaGuid": "07054f5f-be7a-470a-b9c1-efeb4ff3c03b",
+    "NewSahaGuid": "b16150c8-03f8-4e24-9856-d93e2c80ea4b"
+  },
+  {
+    "Name": "Sallan kunta Sosiaali- ja terveys",
+    "OldSahaGuid": "5dfd91e3-ed8a-433c-91cb-9ff085ca7f31",
+    "NewSahaGuid": "aa8e3fcd-e191-41b4-8959-1f332f8dd01a"
+  },
+  {
+    "Name": "Savonlinnan kaupunki ",
+    "OldSahaGuid": "acf57040-9710-454a-8cd3-18379d45a983",
+    "NewSahaGuid": "7dbe2034-c6d1-4d4f-8ce6-d89bdf179eae"
+  },
+  {
+    "Name": "Seinäjoen kaupunki ",
+    "OldSahaGuid": "6f931118-49b1-4918-b87a-93d793dbdfa1",
+    "NewSahaGuid": "51301800-7cbd-4479-af4d-8938b3d9a47d"
+  },
+  {
+    "Name": "Siikaisten kunta",
+    "OldSahaGuid": "380738cc-a79a-4088-9399-c0fbe67411ac",
+    "NewSahaGuid": "fee77ce1-a8de-4e48-b3a5-a2d3dc286c55"
+  },
+  {
+    "Name": "SoteDigi Oy undefined",
+    "OldSahaGuid": "68700ca2-9a85-4114-83e7-489ba565718b",
+    "NewSahaGuid": "2345533f-f748-4db0-a5c8-76a81ed876df"
+  },
+  {
+    "Name": "StellarQ oy ",
+    "OldSahaGuid": "6d964f24-bc0a-4571-ac41-7da0c53381a2",
+    "NewSahaGuid": "efe93f76-f109-436a-a233-9074c0bdf46b"
+  },
+  {
+    "Name": "Sysart Oy Sysart Oy",
+    "OldSahaGuid": "5186f507-edd5-4863-853d-f89cb36d53de",
+    "NewSahaGuid": "9e23cfe3-7866-4cfa-86ed-c7f8adf64995"
+  },
+  {
+    "Name": "Sysmän kunta ",
+    "OldSahaGuid": "7194a788-f877-41a5-af34-5083f70cf405",
+    "NewSahaGuid": "3d98edc9-a003-4f47-b2ba-bf2e665c542b"
+  },
+  {
+    "Name": "Tampereen kaupunki Konsernipalveluyksikkö",
+    "OldSahaGuid": "38b0631e-d1f2-4962-8847-ac2a4aeec611",
+    "NewSahaGuid": "f97ac5f3-989d-4ea9-8ed6-108de7b7a685"
+  },
+  {
+    "Name": "Terveyden ja hyvinvoinnin laitos undefined",
+    "OldSahaGuid": "e6d7bb2d-9210-4634-bde1-9ced8f671c94",
+    "NewSahaGuid": "e300f10a-4a31-48da-8c53-bfdf12ca5538"
+  },
+  {
+    "Name": "Turun kaupunki ",
+    "OldSahaGuid": "5af8d3db-bd33-4a10-869d-0957431b9e4a",
+    "NewSahaGuid": "b9e71d8f-bd25-490a-b93f-04fd07e6b7f5"
+  },
+  {
+    "Name": "Turvallisuus- ja kemikaalivirasto Tieto ja kehitys",
+    "OldSahaGuid": "a94cf7fb-594d-4796-ad9f-cb5cbd32c891",
+    "NewSahaGuid": "aac9702f-f779-4e85-8825-0d38cd155256"
+  },
+  {
+    "Name": "Tuusulan kunta ",
+    "OldSahaGuid": "d94a726a-73b3-43fa-b9ba-9378d2751ec5",
+    "NewSahaGuid": "0cdf6b4e-27d7-4d1e-9f0a-ef4d37b43acc"
+  },
+  {
+    "Name": "Utajärven kunta ",
+    "OldSahaGuid": "2a504cbd-a4be-49b2-93de-aa12d3b63939",
+    "NewSahaGuid": "9f095753-3ca9-4d89-b7e4-3cdf83bb44b2"
+  },
+  {
+    "Name": "Vaasan kaupunki ",
+    "OldSahaGuid": "942676ce-a1c6-4baf-a186-8a2526c8fca0",
+    "NewSahaGuid": "b13e7672-aa60-4d83-9305-9bcb9c507f66"
+  },
+  {
+    "Name": "Vetelin kunta ",
+    "OldSahaGuid": "a1e7df5a-c325-424f-bc59-2b7a2687ec74",
+    "NewSahaGuid": "ed2f9468-7ea0-4e4f-a96b-682919f6075a"
+  },
+  {
+    "Name": "Virolahden kunta ",
+    "OldSahaGuid": "874b0897-83aa-4482-b584-774954c0b2f4",
+    "NewSahaGuid": "6c9604bc-48a5-4ea4-9e63-0159cf05784d"
+  },
+  {
+    "Name": "Väestörekisterikeskus Kehittys (Palvelutietovaranto)",
+    "OldSahaGuid": "98f0f273-4be0-495e-8225-de2a72561376",
+    "NewSahaGuid": "c20fd7d0-a94b-4c2f-a6aa-093ae4e8e9b9"
+  },
+  {
+    "Name": "YAP Solutions Oy ",
+    "OldSahaGuid": "8b6e473a-d61a-48f1-8c34-1610e985f792",
+    "NewSahaGuid": "b04e3fc5-313b-4fe0-931c-c8f6d9bf1d3d"
+  },
+  {
+    "Name": "Ylivieskan kaupunki ",
+    "OldSahaGuid": "9135462c-acb0-4b3b-a03b-2bf002aade0b",
+    "NewSahaGuid": "621058d4-237a-403d-a4fd-fd0c3d8749a4"
+  },
+  {
+    "Name": "Ylöjärven kaupunki Maat ja paikkatieto",
+    "OldSahaGuid": "00a2bf2b-2758-45aa-a3a4-75cce1adb839",
+    "NewSahaGuid": "e3d175f7-8e9a-40da-a8f4-ad9981bdbf05"
+  },
+  {
+    "Name": "Äänekosken kaupunki",
+    "OldSahaGuid": "0a79a17f-0ede-456a-862d-9922e4eef0cf",
+    "NewSahaGuid": "b7d5b100-f96a-4c69-9500-d824973bce04"
+  },
+  {
+    "Name": "Seinäjoen kaupunki",
+    "OldSahaGuid": "641be028-da54-4b5c-916c-76b9bf5bf430",
+    "NewSahaGuid": "5d4646b6-8a4c-4041-9403-0794d386a460"
+  },
+  {
+    "Name": "Helsingin ja Uudenmaan Sairaanhoitopiirin kuntayhtymä",
+    "OldSahaGuid": "c9c69c20-6102-4214-800e-7dbee6edf303",
+    "NewSahaGuid": "3a7a6ee5-5f53-4ac6-94de-60c398f4d770"
+  },
+  {
+    "Name": "Tyrnävän kunta",
+    "OldSahaGuid": "bf0039e1-29eb-4d31-a2f2-8f005e6607ce",
+    "NewSahaGuid": "b48834d8-4432-40eb-a603-b3ea95eb3dc7"
+  },
+  {
+    "Name": "Viitasaaren kaupunki",
+    "OldSahaGuid": "22cfe597-e683-44ca-9b9e-a269ab4182b6",
+    "NewSahaGuid": "41fd49aa-31ad-4658-acd5-b3bda8c60638"
+  },
+  {
+    "Name": "Inarin kunta",
+    "OldSahaGuid": "955528e9-2482-48ba-91cd-f8b5fa929c14",
+    "NewSahaGuid": "23ebe568-211f-44f4-992c-e618dea9fae4"
+  },
+  {
+    "Name": "Helsingin kaupunki",
+    "OldSahaGuid": "c4b68e9f-c22a-4d59-a719-663e3083e058",
+    "NewSahaGuid": "f2953416-bf53-48bd-a1e8-5383d5e9d51a"
+  }
+]

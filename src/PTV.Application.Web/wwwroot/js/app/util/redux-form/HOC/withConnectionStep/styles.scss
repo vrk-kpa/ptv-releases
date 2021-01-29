@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.form {
+  margin-top: 50px;
+  @include form-basic();
+}
+
+.compareMode {
+  &::after {
+    @include form-compare();
+  }
+}
+
+.hidden {
+  display: none;
+}

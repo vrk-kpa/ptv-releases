@@ -1,0 +1,20 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.smallSelect {
+  label {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  :global {
+    .Select-control {
+      height: 30px;
+      font-size: 14px;
+    }
+    .Select-placeholder, .Select--single > .Select-control .Select-value {
+      padding: 4px 10px;
+    }
+    .Select-option {
+      font-size: 14px;
+    }
+  }
+}

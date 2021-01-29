@@ -1,0 +1,750 @@
+[
+  {
+    "id": 85,
+    "URL": "https://www.vero.fi/verokortti",
+    "name": "Verokortti verkossa",
+    "phone": "020 687 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Verokortti verkossa -palvelussa voit tilata uuden verokortin itsellesi, kun tulosi tai vähennyksesi ovat oleellisesti muuttuneet. Voit myös tulostaa verokortin suoraan palvelusta.\n\nVerokortti verkossa -palveluun kirjaudutaan henkilökohtaisilla verkkopankkitunnuksilla. Palvelussa voit tarkastella salassa pidettäviä verotustietojasi. Toisen puolesta verokorttia ei voi tilata.\n\nPalvelussa voit muuttaa ennakkoveropidätystäsi eli veroprosenttia. Voit ilmoittaa suoraan vähennyksen tai hakea uutta verokorttia sivutulolle tai etuutta varten. \n\nPalvelussa voi myös tilata uuden ennakkoveron, muuttaa olemassa olevaa ennakkoveroa tai hakea ennakkoveron poistamista seuraaville tuloille: vuokratulot, elinkeinotoiminnan tulot, maatalouden tulot, porotalouden tulot, ja yhtymätulot. \n\nJoissakin tilanteissa sinun tulee olla yhteydessä verotoimistoon. Tällainen tilanne on esimerkiksi kun haet freelancer verokorttia ensimmäistä kertaa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "shortDescription": "Verokortti verkossa -palvelussa voit tilata uuden verokortin itsellesi, kun tulosi tai vähennyksesi ovat oleellisesti muuttuneet.",
+    "requiresSignature": false,
+    "requiresAuthentication": true,
+    "phoneServiceChargeInformation": "(paikallisverkkomaksu / paikallispuhelumaksu)"
+  },
+  {
+    "id": 86,
+    "URL": "http://kansalaisneuvonta.fi/kansalaisneuvonta/fi/palaute/index.html",
+    "name": "Kansalaisneuvonnan yhteydenottolomake",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Kansalaisneuvonnan sähköisellä yhteydenottolomakkeella voit lähettää kysymyksen Kansalaisneuvonnan palveluneuvojalle. Sähköisellä lomakkeella voit myös antaa palautetta sivustosta tai Kansalaisneuvonnasta. \n\nVoit lähettää sähköisellä lomakkeella kysymyksen tai palautteen mihin vuorokaudenaikaan tahansa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "shortDescription": "Kansalaisneuvonnan yhteydenottolomakkeella voit lähettää kysymyksen tai palautteen Kansalaisneuvonnan palveluneuvojalle.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 101,
+    "URL": "https://yhteystietoni.posti.fi/ythp?lang=fi",
+    "name": "Muuttoilmoitus.fi",
+    "email": "asiakaspalvelu@posti.com",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Muuttoilmoitus maistraatille ja/tai Postille tehdään Postin verkkopalvelussa. Palveluun kirjaudutaan verkkopankkitunnuksilla, Postin käyttäjätunnuksella tai sirullisella henkilökortilla.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 80,
+    "shortDescription": "Voit tehdä muuttoilmoituksen maistraatille ja/tai Postille.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 103,
+    "URL": "https://www.osoitepalvelu.net/",
+    "name": "Osoitepalvelu.net",
+    "email": "osoitepalvelunet@vrk.fi",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Palvelusta voit hakea lähes kaikkien Suomessa vakinaisesti asuvien henkilöiden ajantasaiset osoitteet. Palvelusta löytyvät myös ulkomailla asuvien suomalaisten osoitteet, mikäli he ovat ilmoittaneet voimassa olevan osoitteensa maistraatille. Palvelun tiedot perustuvat Väestörekisterikeskuksen ja maistraattien ylläpitämän väestötietojärjestelmän tietoihin.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 77,
+    "shortDescription": "Osoitepalvelusta voit hakea lähes kaikkien Suomessa vakinaisesti asuvien henkilöiden ajantasaiset osoitteet.",
+    "chargeDescription": "Yksi osoite maksaa 1,24 euroa (sis. alv 24%).",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 108,
+    "URL": "http://www.kansalaisneuvonta.fi/",
+    "name": "Kansalaisneuvonnan chat",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Kansalaisneuvonnan chatin kautta voit esittää kysymyksen Kansalaisneuvonnan palveluneuvojalle. Chat aukeaa Kansalaisneuvonnan verkkosivuilta. Chat palvelee ma-pe klo 8-21 ja la klo 9-15.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "shortDescription": "Kansalaisneuvonnan chatissä voit esittää kysymyksen Kansalaisneuvonnan palveluneuvojalle.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 109,
+    "URL": "http://www.kansalaisneuvonta.fi/kansalaisneuvonta/fi/tietoa_etayhteydesta/index.html",
+    "name": "Kansalaisneuvonnan etäyhteys",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Etäyhteydellä tarkoitetaan tietokoneen avulla otettavaa kuvayhteyttä. Etäyhteyden saamiseksi sinulla täytyy olla käytössäsi tietokone tai laite, jossa on mikrofoni, kaiuttimet tai kuulokkeet sekä videokamera. Yleisiä etäyhteyslaitteita on tarjolla kansalaisten käyttöön joissakin yhteispalvelupisteissä. \n\nEtäyhteyttä kannattaa hyödyntää esimerkiksi, kun haluat jakaa palveluneuvojalle näkymän käyttämääsi nettisivuun tai sähköiseen dokumenttiin tai kun haluat apua palveluneuvojalta sähköisen lomakkeen käyttöön.\n\nEtäyhteyspalvelua annetaan arkisin klo 8-21 ja lauantaisin klo 9-15.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "shortDescription": "Kansalaisneuvonnan etäyhteyden avulla voit esittää videoitse kysymyksen Kansalaisneuvonnan palveluneuvojalle.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 115,
+    "URL": "https://verkkopalvelu.vrk.fi/Omat/Etusivu.aspx",
+    "name": "Omien tietojen tarkastus väestötietojärjestelmästä",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Palvelussa voit tarkastaa tietoja, joita sinusta on tallennettu väestötietojärjestelmään. Voit tarkastaa voimassaolevat henkilötietosi, nimihistoriatietosi sekä mahdolliset kiinteistö- ja rakennusomistuksesi. Voit tarkastaa myös väestötietojärjestelmään tallennetut asuinhistoriatietosi. Muita historiatietoja voit tarkastaa maistraatissa.\nLisäksi voit tehdä palvelun Ilmoita itse -sivulla väestötietojärjestelmään äidinkieltäsi, asiointikieltäsi, sähköpostiosoitettasi, ammattiasi, kutsumanimeäsi ja tietojenluovutuskieltoja koskevan ilmoituksen.\n\nPalveluun tunnistautumista varten tarvitset joko henkilökortin ja tietokoneeseesi kortinlukijan, mobiilivarmenteen (matkapuhelimessa) tai verkkopankkitunnukset.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 77,
+    "shortDescription": "Omien tietojen tarkastuspalvelun avulla voit tarkastaa tietoja, joita sinusta on tallennettu väestötietojärjestelmään.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 347,
+    "URL": "http://kirjasto.mikkeli.fi/kaukolainatilaus",
+    "name": "Kaukolainatilaus",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kaukolainatilausta varten sinun on tunnistauduttava järjestelmään kirjastokortillasi, minkä jälkeen täytät sähköisen lomakkeen. Kaukolainan saapumisilmoitus voidaan lähettää sinulle kirjastosta joko sähköpostilla tai postin kautta kirjeellä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Voit jättää kaukolainatilauksen aineistosta, jota ei ole Mikkelin kaupunginkirjaston kokoelmissa.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 121,
+    "URL": "https://lomake.fi/forms/xml/VK/VK_sotilastapaturma/fi",
+    "name": "Sähköinen sotilastapaturma-/palvelussairausilmoitus",
+    "email": "vahko.sotilaat@valtiokonttori.fi",
+    "phone": "0295 50 3060",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Voit tehdä sotilastapaturma-/palvelustapaturmailmoituksen Valtiokonttorille sähköisesti. Avaa itsellesi ensin Kansalaisen asiointitili, niin asiointisi Valtiokonttorin kanssa nopeutuu. Saat sinua koskevat päätökset suoraan omalle Kansalaisen asiointitilille. Voit olla Kansalaisen asiointitilin kautta yhteydessä Valtiokonttorin asiakaspalveluun.\n\nKansalaisen asiointitilin luotuasi tunnistaudu sähköiseen palveluun ja ilmoita Valtiokonttorille sotilastapaturmasta tai palvelussairaudesta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "shortDescription": "Voit tehdä sotilastapaturma-/palvelustapaturmailmoituksen Valtiokonttorille sähköisesti.",
+    "requiresSignature": false,
+    "requiresAuthentication": true,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 131,
+    "URL": "https://lomake.fi/forms/xml/VK/VK_rikosvahinko/fi",
+    "name": "Korvaushakemus tapahtuneesta rikosvahingosta",
+    "email": "rikosvahingot@valtiokonttori.fi",
+    "phone": "0295 50 2736",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [
+      {
+        "URL": "http://www.valtiokonttori.fi/fi-FI/Kansalaisille_ja_yhteisoille/Korvaukset_ja_etuisuudet/Rikosvahingot/Rikosvahinkokorvausten_hakeminen_hakemuk(49792)",
+        "name": "Luettelo rikosvahinkokorvaushakemuksen liitteistä",
+        "identifier": "287a63db-6bae-4432-b4b3-e2bf3acd1841",
+        "description": "Verkkosivulla luetellaan liitteet, jotka rikoksen uhrin on liitettävä rikosvahinkokorvaushakemuksen liitteeksi."
+      }
+    ],
+    "description": "Sähköisessä asiointipalvelussa voit hakea korvausta rikosvahingosta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "shortDescription": "Sähköisessä asiointipalvelussa voit hakea korvausta rikosvahingosta.",
+    "requiresSignature": false,
+    "requiresAuthentication": true,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 185,
+    "URL": "http://www.lupapiste.fi/",
+    "name": "Lupapiste",
+    "email": "tuki@lupapiste.fi",
+    "phone": "Asioijille ei ole tarjolla puhelintukea. Yrityskäyttäjien tuen puhelinnumero esitetään palvelussa.",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Lupapiste on rakennetun ympäristön sähköinen asiointipalvelu, jossa voit olla yhteydessä viranomaiseen sekä hoitaa rakentamiseen liittyvän lupa-asioinnin aina ennakkokyselystä hankkeen päättymiseen saakka. Palvelu sisältää lupahakemukset ja ilmoitukset yli 100 eri toimenpiteeseen. \n\nPalvelu mahdollistaa hankkeeseesi liittyvän asioinnin yhdeltä luukulta. Palvelu neuvoo yksityiskohtaisesti tarvittavan hakemuksen tekemisessä. Viranomainen hankkii palvelun avulla puolestasi hakemukseesi liittyviä lausuntoja ja suunnitteluaineistoja ja ohjaa hakemuksen tekemisessä keskustelutoiminnon avulla. Jätät hakemukseesi kuuluvat suunnitelmat ja muut liitetiedostot sähköisessä muodossa palveluun, hallitset niiden eri versioita ja käyt viranomaisen kanssa keskustelua niiden sisällöistä.\n\nLupapisteestä voit hakea esimerkiksi kunnan rakennusvalvontaviranomaisen rakennus-, purku- ja toimenpideluvat, kunnan yleisen alueen käyttöön ja sijoittamiseen liittyvät luvat sekä ympäristönsuojeluviranomaisen luvat ja ilmoitukset. Voit hoitaa palvelussa myös asemakaava-alueella tapahtuvat kiinteistönmuodostukseen liittyvät toimitukset.\n\nLupapisteessä hanketta valmistelevat yhdessä kaikki siihen liittyvät osapuolet: luvan tarvitsijat, heitä edustavat ammattimaiset suunnittelijat ja konsultit, työnjohtajat ja urakoitsijat sekä eri viranomaiset. Palvelu pitää sinut ja muut osapuolet tietoisina asian etenemisestä, ja pääsy palveluun on mahdollista aina, kunhan sinulla on käytössäsi verkkoselain ja internet-yhteys.\n\nSaat tiedon viranomaispäätöksestä sähköisenä palvelun kautta heti tuoreeltaan. Jos hankkeessasi on luvanvaraista toimintaa päätöksen jälkeen, hoidat asioinnin päätöksen jälkeen Lupapisteessä; katselmusten seuranta, viranomaisen pyytämisen tietojen ja suunnitelmien toimittaminen sekä työnjohtajiin ja urakoitsijoihin liittyvä ilmoittaminen tehdään samassa Lupapiste-työtilassa kuin luvan hakeminenkin.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 179,
+    "shortDescription": "Lupapiste on asiointipalvelu, jossa voit rakentamiseen liittyen olla yhteydessä viranomaiseen ja hoitaa lupa-asioinnin.",
+    "chargeDescription": "Yrityksille on tarjolla maksullinen Yritystili, jonka avulla yritys voi hallinnoida Lupapiste-hankkeita yhteisen näkymän kautta.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 242,
+    "URL": "https://asiointi.trafi.fi/web/asiointi/henkiloasiakkaat/tieliikenne/maksamattomat-ajoneuvoverot",
+    "name": "Ajoneuvon julkiset verotiedot",
+    "email": "ajoneuvoverotus@trafi.fi",
+    "phone": "029 534 5119",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Palvelussa voit hakea ajoneuvoliikennerekisterissä olevien ajoneuvojen verotietoja rekisterinumeron perusteella.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "shortDescription": "Palvelussa voit hakea ajoneuvoliikennerekisterissä olevien ajoneuvojen julkisia verotietoja.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 243,
+    "URL": "https://asiointi.trafi.fi/web/oma-asiointi",
+    "name": "Oman ajoneuvon tiedot",
+    "email": "neuvonta@trafi.fi",
+    "phone": "029 534 5119",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit tarkistaa sähköisessä palvelussa veloituksetta omien ajoneuvojesi tietoja, joita on tallennettu Trafin ylläpitämään ajoneuvoliikennerekisteriin. Voit myös tarkistaa ajoneuvosi määräaikaiskatsastuksen katsastusajankohdan. \n\nNähdäksesi ajoneuvon tietoja sinun tulee olla ajoneuvon rekisteriin merkitty omistaja tai haltija.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "shortDescription": "Sähköisessä asiointipalvelussa näet omat ajoneuvosi sekä niiden rekisteri- ja verotiedot.",
+    "requiresSignature": false,
+    "requiresAuthentication": true,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 244,
+    "URL": "https://sa.trafi.fi/julkinen/SpJulWeb/main?handler=julkiset",
+    "name": "Ajoneuvon julkiset rekisteritiedot",
+    "email": "neuvonta@trafi.fi",
+    "phone": "029 534 5119",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Sähköisessa asiointipalvelussa voit hakea ajoneuvoliikennerekisterissä olevien ajoneuvojen julkisia rekisteritietoja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "shortDescription": "Sähköisessa asiointipalvelussa voit hakea ajoneuvoliikennerekisterissä olevien ajoneuvojen julkisia rekisteritietoja.",
+    "chargeDescription": "Ajoneuvon perustiedot 3,00 €. Ajoneuvon perus- ja historiatiedot 4,00 €. Ajoneuvon tekniset tiedot 2,00 €. Ote ajoneuvotiedoista 3,50 €.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 245,
+    "URL": "https://lomake.fi/forms/xml/TRAFI/B119/fi",
+    "name": "Ajoneuvoasiakirjojen tilaus",
+    "email": "neuvonta@trafi.fi",
+    "phone": "029 534 5119",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [
+      {
+        "URL": "https://lomake.fi/forms/help1/pdf/TRAFI/B119/fi",
+        "name": "Asiakirjatilauksen ohjeet",
+        "identifier": "01be764e-90ca-40a6-9b08-adb9512253ed",
+        "description": "Ohjeita ajoneuvoasiakirjatilauksen tekemiseen."
+      }
+    ],
+    "description": "Sähköisen asiointipalvelun avulla voit tilata ajoneuvorekisteriin merkittyjen ajoneuvojen asiakirjoja tai ajoneuvoliikennerekisteritietoja.\n\nTiedot toimitetaan sinulle postitse.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "shortDescription": "Sähköisen asiointipalvelun avulla voit tilata ajoneuvorekisteriin merkittyjen ajoneuvojen asiakirjoja tai ajoneuvoliikennerekisteritietoja.",
+    "chargeDescription": "Maksu vaihtelee asiakirjojen mukaan.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 246,
+    "URL": "https://lomake.fi/forms/xml/TRAFI/B118A/fi",
+    "name": "Omien ajoneuvotietojen tilaus ajoneuvoliikennerekisteristä",
+    "email": "neuvonta@trafi.fi",
+    "phone": "029 534 5119",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Yksityishenkilönä voit halutessasi tilata veloituksetta kerran vuodessa omat ajokortti- ja ajoneuvotietosi Liikenteen Turvallisuusviraston rekisteristä. Ajoneuvoliikennerekisteristä saat listauksen ajoneuvoista, joissa olet ollut rekisteriin merkittynä omistajana tai haltijana. \n\nTiedot toimitetaan sinulle postitse.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "shortDescription": "Voit tarkistaa veloituksetta kerran vuodessa omat ajokortti- ja ajoneuvotietosi Liikenteen turvallisuusviraston rekisteristä.",
+    "chargeDescription": "Listauksen voit tilata maksutta vuoden välein. Mikäli edellisestä tilauksesta on alle vuosi, ote toimitetaan postiennakolla ja se maksaa 20,60 euroa.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 275,
+    "URL": "https://dp1.daisynet.fi/mikkeli",
+    "name": "Varhaiskasvatuksen asiointipalvelu DaisyNet",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelissä päivähoidossa ja varhaiskasvatuksessa on käytössä sähköinen DaisyNet-ohjelma. DaisyNet viestinnän välineenä sisältää seuraavaa: päivittäinen yhteydenpito, lasten hoito- ja poissaolotiedot, viestinvälitys ja lupakyselyt, ilmoitustaulu, lasten hoito- ja palvelusopimusten ylläpito, lasta koskevat tiedot, kuten allergiat sekä varahakijat.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "shortDescription": "DaisyNet on vanhempien ja päivähoidon henkilöstön viestinnän väline.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 278,
+    "URL": "https://mikkeli.asiointi.proactum.fi/etusivu",
+    "name": "Varhaiskasvatuksen sähköinen asiointipalvelu",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Varhaiskasvatuksen sähköinen asiointipalvelu on Mikkelin kaupungin hallinnoima ja ylläpitämä julkinen palvelu, joka on tarkoitettu pääasiallisesti kaikkien Mikkelin kaupungin asukkaiden käyttöön.\nTästä palvelusta löydät seuraavat varhaiskasvatuksen palvelut: päivähoitoon haku, ilmoittautuminen esiopetukseen, päivähoidon muutoshakemus ja tuloselvitysten toimittaminen.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "shortDescription": "Päivähoidon ja varhaiskasvatuksen sähköinen asiointipalvelu Mikkelissä.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 281,
+    "URL": "https://wilma.mikkeli.fi",
+    "name": "Wilma",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Wilma on peruskoulujen ja lukioiden hallinto-ohjelman www-liittymä.\n\nOpettajat syöttävät Wilman kautta arvioinnit ja poissaolot, päivittävät henkilötietojaan ja viestivät opiskelijoiden ja huoltajien kanssa. Huoltajat seuraavat ja selvittävät Wilman kautta opiskelijan poissaoloja, viestivät opettajien kanssa ja lukevat koulun tiedotteita.\n\nWilmaa käyttävät myös oppilaitoksen henkilökunta, johto sekä työpaikkaohjaajat.\n \nOpiskelijat valitsevat Wilmassa kursseja, seuraavat suorituksiaan, lukevat tiedotteita ja viestivät opettajien kanssa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "shortDescription": "Mikkelissä huoltajien, opettajien ja oppilaiden viestinnän välineenä käytetään Wilmaa.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 317,
+    "URL": "https://opistopalvelut.fi/mikkeli/index.php",
+    "name": "Mikkelin kansalaisopiston kurssitarjonta ja ilmoittautuminen",
+    "email": "kansalaisopisto@mikkeli.fi",
+    "phone": "015 194 2929",
+    "charge": true,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "attachments": [],
+    "description": "Verkkosivulta löytyvät tarjolla olevat kurssit sekä niiden aikataulut, lisätiedot ja hinnat. Sivuilla voit ilmoittautua kursseille sähköisesti.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "shortDescription": "Kansalaisopiston ilmoittautumissivuilla voit selata kurssitarjontaa ja ilmoittautua kursseille.",
+    "chargeDescription": "Kursseille osallistuminen on maksullista. Kurssikohtaiset hinnat löytyvät kurssin tiedoista.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu/paikallispuhelumaksu"
+  },
+  {
+    "id": 344,
+    "URL": "http://www.lumme-kirjastot.fi/",
+    "name": "Lumme-kirjastojen yhteinen asiakasliittymä",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Asiakasliittymän kautta voit etsiä tietoa ja selata Lumme-kirjastojen aineistoa. \nLumme-kirjastojen yhteistyökunnat ovat Enonkoski, Heinävesi, Hirvensalmi, Joroinen, Juva, Mikkeli, Mäntyharju, Pertunmaa, Pieksämäki, Puumala, Rantasalmi, Savonlinna ja Varkaus.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Lumme-kirjastojen yhteinen asiakasliittymä, jonka kautta voit etsiä tietoa ja selata aineistoa.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 345,
+    "URL": "http://www.lumme-kirjastot.fi/",
+    "name": "Lumme-kirjastojen yhteinen asiakasliittymä, tunnistautuneet käyttäjät",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Asiakasliittymän kautta voit etsiä tietoa ja aineistoa Lumme-kirjastoista, tehdä varauksia, uusia lainojasi sekä tehdä hankintaehdotuksia. Lisäksi voit muuttaa omia yhteystietojasi ja viestiasetuksiasi. Verkkopalvelun kautta voit muun muassa säilyttää oman lainahistoriasi ja tehdä itsellesi suosikkilistoja erilaisista aiheista.\nLumme-kirjastojen yhteistyökunnat ovat Enonkoski, Heinävesi, Hirvensalmi, Joroinen, Juva, Mikkeli, Mäntyharju, Pertunmaa, Pieksämäki, Puumala, Rantasalmi, Savonlinna ja Varkaus.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Asiakasliittymän kautta voit etsiä tietoa ja aineistoa Lumme-kirjastoista, tehdä varauksia, uusia lainojasi sekä tehdä hankintaehdotuksia.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 346,
+    "URL": "http://kirjasto.mikkeli.fi/palaute",
+    "name": "Palaute kirjastolle",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Palautteen antamista varten sinun ei tarvitse tunnistautua järjestelmään. Lähettäjän nimi ja sähköposti ovat pakollisia tietoja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Voit antaa palautetta kirjastolle sähköisellä lomakkeella haluamastasi aiheesta.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 348,
+    "URL": "http://kirjasto.mikkeli.fi/sisalto/osoitteenmuutoslomake",
+    "name": "Omien tietojen muuttaminen kirjaston asiakastietoihin",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Pääset muuttamaan kirjastolle antamiasi osoitetietoja tai muita tietojasi tunnistautumalla järjestelmään kirjastokortillasi.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Pääset muuttamaan kirjastolle antamiasi osoitetietoja tai muita tietojasi tunnistautumalla järjestelmään kirjastokortillasi.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 349,
+    "URL": "http://kirjasto.mikkeli.fi/hankintatoive",
+    "name": "Hankintatoive kirjastolle",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit esittää toiveen kirjastoon hankittavasta aineistosta sähköisellä lomakkeella. Hankintatoiveen lähettäminen ei vaadi tunnistautumista. Lähettäjän nimi ja sähköpostiosoite ovat pakollisia tietoja. Jos teos hankitaan kirjastoon ja haluat varata sen, anna tunnistamista varten kirjastokorttisi numero.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Voit esittää toiveen kirjastoon hankittavasta aineistosta sähköisellä lomakkeella.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 350,
+    "URL": "http://kirjasto.mikkeli.fi/sisalto/mikkeli-salin-varauslomake-tilaisuuksille",
+    "name": "Mikkeli-salin varaus",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit varata pääkirjastossa sijaitsevan Mikkeli-Salin sähköisesti erilaisia tilaisuuksia varten. Varauslomakkeen pakollisia tietoja ovat muun muassa tapahtuman tarkka aika, tapahtuman järjestäjän yhteystiedot, tapahtuman maksullisuus/maksuttomuus sekä laskutusosoite. Voit tarvittaessa antaa lomakkeella myös muita tapahtumaan liittyviä tietoja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Voit varata pääkirjastossa sijaitsevan Mikkeli-salin sähköisesti erilaisia tilaisuuksia varten.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 351,
+    "URL": "http://kirjasto.mikkeli.fi/sisalto/esiintymisajan-varaus",
+    "name": "Avoimen esiintymislavan varaus",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelin pääkirjaston avoimen esiintymislavan voit varata sähköisesti käyttöösi omalla nimelläsi ja sähköpostillasi. Lisäksi sinun on annettava esiintyjän nimi ja lyhyt kuvaus järjestettävästä esityksestä. Lomakkeeseen on merkitty selkeästi pakolliset tiedot.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "shortDescription": "Mikkelin pääkirjastossa on avoin esiintymislava, jonka voit varata käyttöösi.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 405,
+    "URL": "http://www.lausuntopalvelu.fi",
+    "name": "Lausuntopalvelu.fi",
+    "email": "lausuntopalvelu.om@om.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Lausuntopalvelu.fi tarjoaa mahdollisuuden pyytää ja antaa lausuntoja sähköisesti. Kaikki julkishallinnon viranomaiset voivat julkaista lausuntopyyntöjä palvelussa. Lausuntoja saavat antaa kaikki organisaatiot ja kansalaiset.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 402,
+    "shortDescription": "Lausuntopalvelu.fi tarjoaa mahdollisuuden pyytää ja antaa lausuntoja sähköisesti.",
+    "requiresSignature": false,
+    "requiresAuthentication": true
+  },
+  {
+    "id": 406,
+    "URL": "http://www.otakantaa.fi",
+    "name": "Otakantaa.fi",
+    "email": "otakantaa.om@om.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Otakantaa.fi on kansalaisten, järjestöjen ja viranomaisten keskinäistä vuoropuhelua ja osallistumista tehostava verkkopalvelu. Palvelu helpottaa kansalaisvaikuttamista ja tiedonsaantia sekä lisää päätösten valmistelun ja päätöksenteon läpinäkyvyyttä ja parantaa niiden laatua.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 402,
+    "shortDescription": "Otakantaa.fi on kansalaisten, järjestöjen ja viranomaisten keskinäistä vuoropuhelua ja osallistumista tehostava verkkopalvelu.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 407,
+    "URL": "http://eperusteet.opintopolku.fi",
+    "name": "ePerusteet",
+    "email": "eperusteet@opintopolku.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "ePerusteet-palvelu\n• on opetussuunnitelmien perusteiden katselu-, valmistelu-, työskentely- ja julkaisualusta\n• sisältää opetussuunnitelmien ja tutkintojen/koulutusten perusteiden julkisen haun ja selauksen\n• tarjoaa opetuksen ja koulutuksen järjestäjille myös kirjautumista vaativia työkaluja opetussuunnitelmatyön tueksi (Ops-työkalu)\n\nPalvelun käyttö on täysin vapaaehtoista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 396,
+    "shortDescription": "ePerusteet-palvelu on opetussuunnitelmien perusteiden katselu-, valmistelu-, työskentely- ja julkaisualusta.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 408,
+    "URL": "http://verkkokauppa.oph.fi/",
+    "name": "Opetushallituksen verkkokauppa",
+    "email": "tilaukset@kirjakeskus.fi",
+    "phone": "02016 62222",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Verkkokaupassa esitellään Opetushallituksen maksulliset oppimateriaalit ja julkaisut. Myynnissä on noin 700 nimikettä.\n\nTuotteet voi tilata verkkokaupasta tai sähköpostitse.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 396,
+    "shortDescription": "Verkkokaupassa esitellään Opetushallituksen maksulliset oppimateriaalit ja julkaisut.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 411,
+    "URL": "http://www.nuortenideat.fi",
+    "name": "Nuortenideat.fi",
+    "email": "tuki@nuortenideat.fi",
+    "phone": "",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Valtakunnallinen Nuortenideat.fi on osa oikeusministeriön verkossa toimivia demokratiapalveluita. Kehittämistyössä on ollut mukana sekä nuoria että nuorisoalan toimijoita. Vaikuttamispalvelua voivat käyttää nuoret ja nuorten kanssa toimivat tahot. Palvelun voivat ottaa käyttöönsä kunnat, oppilaitokset, järjestöt ja nuorten toimijaryhmät. \n\nNuortenideat.fi tarjoaa nuorille helpon tavan osallistua, vaikuttaa sekä kertoa omat mielipiteensä toiminnan ja palveluiden kehittämiseksi. Nuortenideat.fi-palvelussa nuori voi luoda omia ideoitaan sekä kannattaa ja kommentoida muiden ideoita. Nuori voi seurata ehdotuksensa käsittelyä ja saada vastauksen sekä päätöksen ideaansa.\n\nVerkkopalvelun käyttöönoton koordinoinnista ja tukipalveluista vastaa Koordinaatti - Nuorten tieto- ja neuvontatyön kehittämiskeskus.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 402,
+    "shortDescription": "Nuortenideat.fi on vaikuttamispalvelu kaikille nuorille Suomessa.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": ""
+  },
+  {
+    "id": 414,
+    "URL": "http://virkailija.opintopolku.fi",
+    "name": "Virkailijan ePerusteet",
+    "email": "eperusteet@opintopolku.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "ePerusteet-palvelu\n• on opetussuunnitelmien perusteiden katselu, valmistelu-, työskentely- ja julkaisualusta\n• sisältää opetussuunnitelmien ja tutkintojen/koulutusten perusteiden julkisen haun ja selauksen\n• tarjoaa opetuksen ja koulutuksen järjestäjille myös kirjautumista vaativia työkaluja opetussuunnitelmatyön tueksi (Ops-työkalu)\n\nPalvelun käyttö on täysin vapaaehtoista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 396,
+    "shortDescription": "ePerusteet-palvelu tarjoaa opetuksen ja koulutuksen järjestäjille työkaluja opetussuunnitelmatyön tueksi.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 416,
+    "URL": "https://esuomi.fi/palveluntarjoajille/palveluvayla/liittyminen/palveluvaylaan-liittyminen/",
+    "name": "Rekisteröintipyyntö Suomi.fi-palveluväylään liittämisestä",
+    "email": "kapa-asiakaspalvelu@vrk.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Rekisteröi Palveluväylän liityntäpalvelin Palveluväylään toimittamalla tällä lomakkeella rekisteröintipyyntö tarvittavine liitteineen Palveluväylän palvelupisteeseen.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 398,
+    "shortDescription": "Rekisteröi Palveluväylän liityntäpalvelin Palveluväylään rekisteröintipyynnön avulla.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 424,
+    "URL": "https://ssl.agenteq.fi/mikalo/asuntohakemus/hakemus/hakulomake/hakulomake.aspx",
+    "name": "Vuokra-asuntohakemus Mikalo Oy:n hallinnoimiin asuntoihin",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikalo Oy hallinnoi Mikkelin kaupungin omistamia vuokra-asuntoja. Asuntoihin haetaan Mikalo Oy:n verkkoasiointikanavassa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 422,
+    "shortDescription": "Asuntoihin haetaan Mikalo Oy:n verkkoasiointikanavassa.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 462,
+    "URL": "https://kuti.kkv.fi/Kutiweb/kuluttajat/etusivuneuvonta.aspx",
+    "name": "Sähköinen yhteydenotto kuluttajaneuvontaan",
+    "phone": "0295 536 901",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Voit asioida kuluttajaneuvonnan kanssa sähköisellä yhteydenottolomakkeella. Neuvoja vastaa sähköiseen yhteydenottoon noin viiden työpäivän kuluessa. Vastauksen saat pääsääntöisesti puhelimitse. Soittajana saattaa näkyä ”tuntematon numero”.\nTäytä lomakkeeseen omat yhteystietosi, reklamaation osapuolena olevan yrityksen yhteystiedot sekä lyhyt kuvaus ongelmasta / viasta.",
+    "targetGroup": [
+      "kansalaiset"
+    ],
+    "ontologyTerm": [],
+    "organization": 459,
+    "shortDescription": "Voit asioida kuluttajaneuvonnan kanssa sähköisellä yhteydenottolomakkeella.",
+    "requiresSignature": false,
+    "requiresAuthentication": false
+  },
+  {
+    "id": 1306,
+    "URL": "https://kuti.kkv.fi/Kutiweb/kuluttajat/etusivuneuvonta.aspx",
+    "name": "Sähköinen yhteydenotto kuluttajaneuvontaan",
+    "phone": "0295 536 901",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit asioida kuluttajaneuvonnan kanssa sähköisellä yhteydenottolomakkeella. Neuvoja vastaa sähköiseen yhteydenottoon noin viiden työpäivän kuluessa. Vastauksen saat pääsääntöisesti puhelimitse. Soittajana saattaa näkyä ”tuntematon numero”.\nTäytä lomakkeeseen omat yhteystietosi, reklamaation osapuolena olevan yrityksen yhteystiedot sekä lyhyt kuvaus ongelmasta / viasta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 1303,
+    "shortDescription": "Voit asioida kuluttajaneuvonnan kanssa sähköisellä yhteydenottolomakkeella.",
+    "requiresSignature": false,
+    "requiresAuthentication": false,
+    "phoneServiceChargeInformation": "paikallisverkkomaksu / paikallispuhelumaksu."
+  }
+]

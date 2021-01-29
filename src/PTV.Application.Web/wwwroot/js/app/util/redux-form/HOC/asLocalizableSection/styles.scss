@@ -1,0 +1,45 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.compareWrap {
+  display: flex;
+}
+
+.compareSide {
+  flex: 0 0 50%;
+  margin: 0;
+  max-width: 50%;
+}
+
+// .sideOne {
+//   padding-right: 20px;
+// }
+// .sideTwo {
+//   padding-left: 20px;
+// }
+
+.isLocalized {
+  .sideOne {
+    padding-right: 20px;
+  }
+  .sideTwo {
+    padding-left: 20px;
+  }
+}
+
+:global {
+  [class*='styles__withCollection'] {
+    [class*='styles__compareSide'] {
+      padding: 0;
+    }
+    &[class*='styles__isReadOnly'] {
+      [class*='styles__isLocalized'] {
+        [class*='styles__sideOne'] {
+          padding-right: 20px;
+        }
+        [class*='styles__sideTwo'] {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
