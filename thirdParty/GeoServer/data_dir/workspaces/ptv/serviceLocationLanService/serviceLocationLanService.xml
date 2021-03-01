@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocationLan.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_serviceLocationLanService</sourceType>
+			<targetElement>ptv:serviceLan</targetElement>
+			<attributeMappings>
+			
+				<!-- id -->
+				<AttributeMapping>
+					<targetAttribute>ptv:serviceLan</targetAttribute>
+					<idExpression><OCQL>ServiceId</OCQL></idExpression>
+				</AttributeMapping>
+			
+				<!-- service name FI -->
+				<AttributeMapping>
+					<targetAttribute>ptv:name_FI</targetAttribute>
+					<sourceExpression>
+						<OCQL>FI</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- service name SV -->
+				<AttributeMapping>
+					<targetAttribute>ptv:name_SV</targetAttribute>
+					<sourceExpression>
+						<OCQL>SV</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- service name EN -->
+				<AttributeMapping>
+					<targetAttribute>ptv:name_EN</targetAttribute>
+					<sourceExpression>
+						<OCQL>EN</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- FEATURE_LINK mapping -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>ChannelId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

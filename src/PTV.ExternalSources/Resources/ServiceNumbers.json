@@ -1,0 +1,545 @@
+{
+  "@odata.context": "https://opendata.traficom.fi/OpenData/api/v6/$metadata#ValtakunnallisetPalvelunumerot",
+  "value": [
+    {
+      "ID": 117171826,
+      "Number": "02020",
+      "Company": "020202 Palvelut Oy",
+      "Granted": "2018-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117171827,
+      "Number": "02022",
+      "Company": "020202 Palvelut Oy",
+      "Granted": "2018-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117171828,
+      "Number": "02023",
+      "Company": "020202 Palvelut Oy",
+      "Granted": "2018-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117065933,
+      "Number": "06000",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117063265,
+      "Number": "06001",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117069583,
+      "Number": "060030",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117170261,
+      "Number": "060031",
+      "Company": "Line Carrier Oy",
+      "Granted": "2013-11-26T00:00:00+02:00"
+    },
+    {
+      "ID": 117070078,
+      "Number": "060032",
+      "Company": "Elisa Oyj",
+      "Granted": "2012-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117069579,
+      "Number": "060033",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117069584,
+      "Number": "060039",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117170586,
+      "Number": "060041",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069753,
+      "Number": "060046",
+      "Company": "DNA Oyj",
+      "Granted": "2010-10-15T00:00:00+03:00"
+    },
+    {
+      "ID": 117065916,
+      "Number": "060050",
+      "Company": "Elisa Oyj",
+      "Granted": "2006-02-10T00:00:00+02:00"
+    },
+    {
+      "ID": 117172221,
+      "Number": "060055",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2020-02-19T00:00:00+02:00"
+    },
+    {
+      "ID": 117063266,
+      "Number": "06008",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117065934,
+      "Number": "06009",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117069903,
+      "Number": "060100",
+      "Company": "Line Carrier Oy",
+      "Granted": "2011-08-16T00:00:00+03:00"
+    },
+    {
+      "ID": 117069913,
+      "Number": "060110",
+      "Company": "DNA Oyj",
+      "Granted": "2011-09-20T00:00:00+03:00"
+    },
+    {
+      "ID": 117069744,
+      "Number": "060600",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069735,
+      "Number": "060601",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117069895,
+      "Number": "060602",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2011-07-04T00:00:00+03:00"
+    },
+    {
+      "ID": 117170707,
+      "Number": "060604",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069745,
+      "Number": "060606",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069738,
+      "Number": "060611",
+      "Company": "DNA Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117170552,
+      "Number": "060633",
+      "Company": "Line Carrier Oy",
+      "Granted": "2014-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117065935,
+      "Number": "07000",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117063267,
+      "Number": "07001",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117069585,
+      "Number": "070030",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117069586,
+      "Number": "070039",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117170587,
+      "Number": "070041",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069765,
+      "Number": "070044",
+      "Company": "Setera Oy",
+      "Granted": "2011-01-17T00:00:00+02:00"
+    },
+    {
+      "ID": 117065917,
+      "Number": "070046",
+      "Company": "Elisa Oyj",
+      "Granted": "2006-02-10T00:00:00+02:00"
+    },
+    {
+      "ID": 117065918,
+      "Number": "070050",
+      "Company": "Elisa Oyj",
+      "Granted": "2006-02-10T00:00:00+02:00"
+    },
+    {
+      "ID": 117170588,
+      "Number": "070051",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117172222,
+      "Number": "070057",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2020-02-19T00:00:00+02:00"
+    },
+    {
+      "ID": 117069597,
+      "Number": "070070",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117063271,
+      "Number": "070071",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117170589,
+      "Number": "070074",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117065939,
+      "Number": "070079",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117063268,
+      "Number": "07008",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117065936,
+      "Number": "07009",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117067767,
+      "Number": "07020",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067768,
+      "Number": "07021",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067769,
+      "Number": "07022",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067770,
+      "Number": "07023",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067771,
+      "Number": "07024",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067772,
+      "Number": "07025",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117171829,
+      "Number": "07026",
+      "Company": "020202 Palvelut Oy",
+      "Granted": "2018-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117067773,
+      "Number": "07027",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067774,
+      "Number": "07028",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067775,
+      "Number": "07029",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067776,
+      "Number": "07030",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067777,
+      "Number": "07031",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067778,
+      "Number": "07032",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067779,
+      "Number": "07033",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067780,
+      "Number": "07034",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067781,
+      "Number": "07035",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117171830,
+      "Number": "07036",
+      "Company": "020202 Palvelut Oy",
+      "Granted": "2018-06-27T00:00:00+03:00"
+    },
+    {
+      "ID": 117067782,
+      "Number": "07037",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067783,
+      "Number": "07038",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117067784,
+      "Number": "07039",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117170706,
+      "Number": "07044",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069746,
+      "Number": "070700",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069736,
+      "Number": "070701",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117069896,
+      "Number": "070702",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2011-07-04T00:00:00+03:00"
+    },
+    {
+      "ID": 117170708,
+      "Number": "070707",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069739,
+      "Number": "070711",
+      "Company": "DNA Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117069747,
+      "Number": "070800",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069737,
+      "Number": "070801",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117069897,
+      "Number": "070802",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2011-07-04T00:00:00+03:00"
+    },
+    {
+      "ID": 117170709,
+      "Number": "070807",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117069748,
+      "Number": "070808",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069749,
+      "Number": "070809",
+      "Company": "Elisa Oyj",
+      "Granted": "2010-10-05T00:00:00+03:00"
+    },
+    {
+      "ID": 117069740,
+      "Number": "070811",
+      "Company": "DNA Oyj",
+      "Granted": "2010-10-01T00:00:00+03:00"
+    },
+    {
+      "ID": 117067907,
+      "Number": "07099",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117065937,
+      "Number": "08000",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117063269,
+      "Number": "08001",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117069587,
+      "Number": "080030",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117069784,
+      "Number": "080033",
+      "Company": "Elisa Oyj",
+      "Granted": "2011-03-24T00:00:00+02:00"
+    },
+    {
+      "ID": 117069588,
+      "Number": "080039",
+      "Company": "DNA Oyj",
+      "Granted": "2009-07-03T00:00:00+03:00"
+    },
+    {
+      "ID": 117170590,
+      "Number": "080041",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117170248,
+      "Number": "080044",
+      "Company": "Setera Oy",
+      "Granted": "2013-09-11T00:00:00+03:00"
+    },
+    {
+      "ID": 117065919,
+      "Number": "080046",
+      "Company": "Elisa Oyj",
+      "Granted": "2006-02-10T00:00:00+02:00"
+    },
+    {
+      "ID": 117069714,
+      "Number": "080048",
+      "Company": "Voxbone S.A.",
+      "Granted": "2010-08-04T00:00:00+03:00"
+    },
+    {
+      "ID": 117170867,
+      "Number": "080050",
+      "Company": "Lounea Palvelut Oy",
+      "Granted": "2015-04-30T00:00:00+03:00"
+    },
+    {
+      "ID": 117065940,
+      "Number": "080052",
+      "Company": "Orange Business Finland Oy",
+      "Granted": "1997-04-09T00:00:00+03:00"
+    },
+    {
+      "ID": 117172223,
+      "Number": "080055",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2020-02-19T00:00:00+02:00"
+    },
+    {
+      "ID": 117170674,
+      "Number": "080077",
+      "Company": "DNA Oyj",
+      "Granted": "2014-12-31T00:00:00+02:00"
+    },
+    {
+      "ID": 117063270,
+      "Number": "08008",
+      "Company": "Telia Finland Oyj",
+      "Granted": "2007-01-02T00:00:00+02:00"
+    },
+    {
+      "ID": 117065938,
+      "Number": "08009",
+      "Company": "Elisa Oyj",
+      "Granted": "2004-04-30T00:00:00+03:00"
+    }
+  ]
+}

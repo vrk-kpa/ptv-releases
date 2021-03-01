@@ -1,0 +1,10 @@
+<#+
+    public enum BuildAction
+    {
+        None,
+        Compile,
+        Content,
+        EmbeddedResource,
+        EntityDeploy
+    }
+#>

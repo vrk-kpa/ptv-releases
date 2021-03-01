@@ -1,0 +1,332 @@
+﻿@import 'GlobalVariables.scss';
+@import '../lib/bootstrap/scss/bootstrap.scss';
+
+/* FONTs */
+@font-face {
+    font-family: icomoon;
+    src: url(../font/icomoon.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../font/RobotoBlack.woff2) format("woff2"), url(../font/RobotoBlack.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SourceSansProRegular;
+    src: url(../font/SourceSansProRegular.woff2) format("woff2"), url(../font/SourceSansProRegular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@include media-breakpoint-up(xl) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+body {
+    font-family: SourceSansProRegular, 'Helvetica Neue', Arial, sans-serif;
+
+    ol, ul {
+        list-style: outside none none;
+    }
+
+    .navbar.ptv-navbar {
+        padding: 0;
+        background-color: $main-header-background-color;
+
+        > .nav-main {
+
+            .navbar-collapse {
+                display: inline-block;
+            }
+
+            .divider-vertical {
+                height: 17px;
+                margin: 3px 9px;
+                float: left;
+                border-left: 1px solid $navigation-divider-color;
+                border-right: 1px solid $navigation-divider-color;
+            }
+
+            .logo-placeholder {
+                float: left;
+                padding-bottom: 10px;
+            }
+        }
+
+        .site-navigation {
+            background-color: $site-navigation-background-color;
+            height: 4rem;
+        }
+    }
+}
+
+.header-languages {
+    float: right;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.header-center {
+    text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.header-center-text {
+    display: inline-block;
+    color: $app-env-color;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    //font-family: SourceSansProSemibold;
+    background-color: $app-env-bg-color;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: 0 auto;
+    padding: 2px 30px;
+}
+
+.login-label {
+  margin: 0.5rem 0;
+}
+
+.newpass {
+    display: inline-block;
+    background-color: palegoldenrod;
+    padding: 0 0.4rem;
+    letter-spacing: 0.05rem;
+}
+
+/* GENERAL CSS */
+a[target="_blank"]::after {
+    display: inline-block;
+    content: "\e9cb";
+    margin: 0 5px;
+    vertical-align: middle;
+    font-family: icomoon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+ul {
+    padding: 0;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.link-list {
+    p {
+        margin: 0.2rem 0 0.8rem;
+    }
+    li {
+        margin-bottom: 0.625rem;
+    }
+}
+
+/* STiCKY FOOTER via FLEXBOX */
+#login-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    > .container {
+        flex: 1 0 auto;
+        width: 100%;
+    }
+}
+
+#login-header, #login-footer {
+    flex-shrink: 0;
+}
+
+/* HEADER CSS */
+#login-header {
+    border-radius: 0;
+    margin-bottom: 30px;
+
+    .header-languages {
+        li {
+            display: inline-block;
+
+            &:first-child {
+                margin-right: 5px;
+            }
+
+            ~ li {
+                &::before {
+                    content: '|';
+                    margin-right: 5px;
+                    color: $header-link-color;
+                }
+            }
+        }
+
+        a {
+            color: $header-link-color;
+            border-top: 3px solid transparent;
+            padding: 3px 0;
+            font-size: 14px;
+
+            &.active {
+                border-color: $navigation-top-border-color;
+            }
+
+            &:hover {
+                color: $header-link-hover-color;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* FOOTER CSS */
+#login-footer {
+    padding: 30px 0;
+    margin-top: 30px;
+    color: $footer-color;
+    background-color: $footer-bg-color;
+    font-size: 16px;
+    font-size: 1rem;
+    border-radius: 0;
+
+    a {
+        color: $footer-link-color;
+        text-decoration: underline;
+
+        &:hover {
+            color: $footer-link-hover-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.user-list-body {
+    table {
+        tr:nth-child(even) {
+          background-color: $footer-link-hover-color;
+        }
+        td,th {
+            padding: 0 5px;
+        }
+    }
+}
+
+.user-select {
+  select {
+    width: 100%;
+  }
+}
+
+.user-select {
+    .lbjs {
+        width: 100%;
+    }
+}
+.organization-list-helper {
+    margin-bottom: 10px;
+    .lbjs {
+        width: 100%;
+    }
+
+    ul {
+        li {
+            background: #b3b7ba;
+        }
+
+        li:nth-child(odd) {
+            background: #e9edf0;
+        }
+
+        li {
+            .cross {
+                cursor: pointer;
+                padding: 0 10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.organization-list-selected {
+    overflow: auto;
+    max-height: 300px;
+}
+
+.role-mapping-role-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  ~ role-mapping-role-list {
+    margin-top: 5px;
+  }
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.role-mapping-roles {
+    display: inline-flex;
+
+    label.disabled {
+        cursor: not-allowed;
+    }
+}
+
+.role-mapping-organization {
+  margin-left: 10px;
+}
+
+.role-mapping-role {
+  margin-left: 10px;
+  label {
+    margin-bottom: 0;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
+
+.user-list-body {
+    .users {
+        table {
+            table-layout: fixed;
+            width: 100%;
+            margin-bottom: 20px;
+
+            td, th {
+                border: 1px solid $navigation-divider-color;
+            }
+
+            th {
+                background-color: $header-link-color;
+            }
+
+            tr:nth-child(even) {
+                background: white;
+            }
+
+            tr:nth-child(odd) {
+                background: $site-navigation-background-color;
+            }
+        }
+    }
+}

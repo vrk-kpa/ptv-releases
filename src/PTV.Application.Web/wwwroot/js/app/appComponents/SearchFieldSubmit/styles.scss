@@ -1,0 +1,27 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.searchFieldSubmit {
+  display: flex;
+  align-items: center;
+  > div:first-child {
+    flex: 1 0 auto;
+    i {
+      display: none;
+    }
+  }
+  input {
+    padding-right: 10px;
+  }
+  [class*='styles__searchContainer'] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.searchButton {
+  align-self: stretch;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

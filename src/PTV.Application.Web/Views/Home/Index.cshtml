@@ -1,0 +1,100 @@
+﻿@using Newtonsoft.Json
+
+
+@model UiAppSettings
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section scripts {
+
+<script>
+        @*
+        don't use @Model.something_here to render values for javascript because it will HTML encode the values
+        that's why @Html.Raw(...) is used so that the original string is printed as it was
+    *@
+
+    function getAccessToken() {
+             return '@Html.Raw(Model.AccessToken)';
+    }
+
+@*    function getUserFirstNameSurname() {*@
+@*        return '@Html.Raw(Model.UserInfo.Name)';*@
+@*    }*@
+@**@
+@*    function getUserRole() {*@
+@*        return '@Html.Raw(Model.UserInfo.Role)';*@
+@*    }*@
+
+    const g_mapDNSnames = @Html.Raw(JsonConvert.SerializeObject(Model.MapDNSNames));
+    function getApiUrl() {
+            return '@Html.Raw(Model.CustomApiUrl)';
+    }
+
+    function getEnvironmentType() {
+        return '@Html.Raw(Model.EnvironmentTypeText)';
+    }
+
+    function isBugReportAvailable() {
+        return @Html.Raw(Model.IsBugReportAvailable.ToString().ToLower());
+    }
+
+    function isPAHALoginEnabled() {
+        return @Html.Raw(Model.IsPAHALoginEnabled.ToString().ToLower());
+    }
+
+    function isFakeAuthenticationAvailable() {
+        return @Html.Raw(Model.IsFakeAuthenticationEnabled.ToString().ToLower());
+    }
+
+    function getStsUrl() {
+        return '@Html.Raw(Model.StsUrl)';
+    }
+
+    function getLogoUrl() {
+        return '@Html.Raw(Model.LogoUrl)';
+    }
+
+    function getMenuLinks() {
+        return JSON.parse('@Html.Raw(Json.Serialize(Model.MenuLinks))');
+    }
+
+    function getAppVersion() {
+        return '@Model.ReleaseNumber' || '@Model.VersionPrefix@Model.Version';
+    }
+
+</script>
+
+    <environment names="Development">
+
+    @if (Model.IsWebpackDisabled)
+    {
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/build/ptv.bundle.js?v=@Model.VersionPrefix@Model.Version"></script>
+    }
+    else
+    {
+        <script>
+            const isDevelopment = true;
+        </script>
+        <script src="http://localhost:4000/ptv.bundle.js"></script>
+    }
+    </environment>
+    <environment names="Staging,Production,test,dev,qa,trn,prod">
+        <script>
+            const isDevelopment = false;
+        </script>
+        <script src="~/js/build/ptv.bundle.js?v=@Model.VersionPrefix@Model.Version"></script>
+    </environment>
+
+}
+
+<div id="page-wrapper">
+</div>
+<div id="portal-root">
+</div>
+
+

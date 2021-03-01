@@ -1,0 +1,89 @@
+﻿[
+  {
+    "Code": "Charged",
+    "Names": [
+      {
+        "Name": "Maksullinen",
+        "Language": "fi"
+      },
+      {
+        "Name": "Chargeable",
+        "Language": "en"
+      },
+      {
+        "Name": "Avgiftsbelagd",
+        "Language": "sv"
+      },
+      {
+        "Name": "Mávssu vuollásaš",
+        "Language": "se"
+      },
+      {
+        "Name": "Mávsulâš",
+        "Language": "smn"
+      },
+      {
+        "Name": "Määuslaž",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Free",
+    "Names": [
+      {
+        "Name": "Maksuton",
+        "Language": "fi"
+      },
+      {
+        "Name": "Free of charge",
+        "Language": "en"
+      },
+      {
+        "Name": "Avgiftsfri",
+        "Language": "sv"
+      },
+      {
+        "Name": "Nuvttá",
+        "Language": "se"
+      },
+      {
+        "Name": "Nuuvtá",
+        "Language": "smn"
+      },
+      {
+        "Name": "Määuʹsteʹm",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Other",
+    "Names": [
+      {
+        "Name": "Muu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Other",
+        "Language": "en"
+      },
+      {
+        "Name": "Annan",
+        "Language": "sv"
+      },
+      {
+        "Name": "Eará",
+        "Language": "se"
+      },
+      {
+        "Name": "Eres",
+        "Language": "smn"
+      },
+      {
+        "Name": "Jeeʹres",
+        "Language": "sms"
+      }
+    ]
+  }
+]

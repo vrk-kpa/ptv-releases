@@ -1,0 +1,45 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.chip {
+  padding: 1px 10px 3px;
+  background-color: secondary-color(jarvi);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  cursor: default;
+  &:hover, &:focus {
+    background-color: #2e78cc;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    background-color: #235a9a;
+  }
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.icon {
+  margin-left: 10px;
+  padding-top: 1px;
+  svg {
+    fill: #fff;
+    transform: scale(0.67);
+  }
+}
+
+.small {
+  padding: 0 10px;
+  .text {
+    font-size: 0.875rem;
+  }
+  .icon {
+    padding-top: 0;
+    margin-left: 5px;
+  }
+}

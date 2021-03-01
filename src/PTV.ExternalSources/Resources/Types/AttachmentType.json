@@ -1,0 +1,40 @@
+﻿[
+    {
+        "code": "Form",
+        "names": [
+            {
+                "Name": "Lomake",
+                "language": "fi"
+            },
+            {
+                "Name": "Form",
+                "language": "en"
+            },
+            {
+                "Name": "Blankett",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Attachment",
+        "names": [
+            {
+                "Name": "Liite",
+                "language": "fi"
+            },
+            {
+                "Name": "Attachment",
+                "language": "en"
+            },
+            {
+                "Name": "Bilaga",
+                "language": "sv"
+            }
+        ]
+
+
+    }
+]

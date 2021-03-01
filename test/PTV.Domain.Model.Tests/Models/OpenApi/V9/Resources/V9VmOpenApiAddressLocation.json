@@ -1,0 +1,127 @@
+{
+  "type": "string",
+  "subType": "string",
+  "postOfficeBoxAddress": {
+    "postOfficeBox": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "postalCode": "string",
+    "postOffice": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "municipality": {
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    },
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "streetAddress": {
+    "street": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "streetNumber": "string",
+    "postalCode": "string",
+    "postOffice": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "municipality": {
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    },
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "latitude": "string",
+    "longitude": "string",
+    "coordinateState": "string"
+  },
+  "otherAddress": {
+    "latitude": "string",
+    "longitude": "string",
+    "postalCode": "string",
+    "postOffice": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ],
+    "additionalInformation": [
+      {
+        "value": "string",
+        "language": "string"
+      }
+    ]
+  },
+  "locationAbroad": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "entrances": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "isMainEntrance": true,
+      "coordinates": {
+        "latitude": "string",
+        "longitude": "string"
+      },
+      "accessibilitySentences": [
+        {
+          "sentenceGroup": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "sentences": [
+            {
+              "sentence": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "country": "string"
+}

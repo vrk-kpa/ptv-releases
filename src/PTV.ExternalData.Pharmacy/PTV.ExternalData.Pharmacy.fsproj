@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Types.fs" />
+        <Compile Include="Defaults.fs" />
+        <Compile Include="Utils.fs" />
+        <Compile Include="OpenApiClient.fs" />
+        <Compile Include="CommonParser.fs" />
+        <Compile Include="AddressParser.fs" />
+        <Compile Include="OpeningHoursParser.fs" />
+        <Compile Include="ServiceLocationParser.fs" />
+        <Compile Include="EChannelParser.fs" />
+        <Compile Include="Importer.fs" />
+        <Content Include="Resources\ArchiveJson.json" />
+        <Content Include="Resources\Pharmacies.xml" />
+        <Content Include="Resources\ServiceLocationV11Put.json" />
+        <Content Include="Resources\EChannelV11Put.json" />
+        <Content Include="Resources\LoginRequest.json" />
+        <Content Include="Resources\OrganizationServiceChannel.json" />
+        <Content Include="Resources\LoginResponse.json" />
+        <Content Include="Resources\ConnectionV11Post.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="FSharp.Data" Version="3.3.3" />
+        <PackageReference Include="AWSSDK.S3" Version="3.3.110.34" />
+        <PackageReference Include="AWSSDK.SecretsManager.Caching" Version="1.0.3" />
+    </ItemGroup>
+
+</Project>

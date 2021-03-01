@@ -1,0 +1,59 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$base-line-height: 20px;
+$white2: rgb(13,146,255);
+$off-white2: rgba($white2, 0.2);
+$spin-duration: 1s;
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: calc(50% - #{$base-line-height / 2});
+  right: 10px;
+  border-radius: 50%;
+  width: $base-line-height;
+  height: $base-line-height;
+  border: .25rem solid $off-white2;
+  border-top-color: $white2;
+  animation: spin $spin-duration infinite linear;
+  &--double {
+    border-style: double;
+    border-width: .5rem;
+  }
+}
+
+.partOfTree {
+  > div {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.searchField {
+  position: relative;
+  input {
+    line-height: inherit;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  top: calc(50% - #{$base-line-height / 2});
+  right: 10px;
+  line-height: $base-line-height;
+  svg {
+    fill: icon-color(secondary);
+  }
+}
+
+.withSearchFilter {
+  position: relative;
+}

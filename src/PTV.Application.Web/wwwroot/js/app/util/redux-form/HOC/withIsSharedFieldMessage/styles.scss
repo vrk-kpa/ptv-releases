@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.warning {
+  padding: 10px 40px 10px 20px;
+  background-color: bg-color(content);
+  border: 1px solid border-color(border);
+  border-left: 3px solid status-color(danger);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.withinGroup {
+  margin-top: .5rem;
+}

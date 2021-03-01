@@ -1,0 +1,17 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.previewHead {
+  margin-left: 50px;
+}
+
+.tabTitle {
+  font: 2.375rem/1.06 'Roboto', sans-serif;
+  color: text-color(primary);
+  margin: 20px 0;
+}
+
+.tabDescription {
+  font: 1.25rem/1.5 'Source Sans Pro', sans-serif;
+  color: text-color(secondary);
+  margin: 0 0 40px;
+}

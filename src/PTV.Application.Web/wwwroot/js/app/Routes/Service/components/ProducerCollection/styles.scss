@@ -1,0 +1,62 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.preview {
+  padding: 20px 30px;
+  border: 1px solid border-color(border);
+  position: relative;
+  @media #{bp('<=desktop')} {
+    margin-top: 20px;
+  }
+}
+
+.previewBox {
+  @media #{bp('>desktop')} {
+    @include tooltip-box;
+  }
+  @media #{bp('<=desktop')} {
+    @include tooltip-box($arrow-position: 'up');
+  }
+}
+
+.compare {
+  &.preview {
+    margin-top: 20px;
+  }
+  .previewBox {
+    @include tooltip-box($arrow-position: 'up');
+  }
+}
+
+.preview {
+  label {
+    font-size: 13px;
+    margin: 0;
+  }
+}
+
+.title {
+  label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
+
+.subTitle {
+  label {
+    margin-bottom: 10px;
+  }
+}
+
+.isReadOnly {
+  &.preview {
+    padding: 0;
+    border: none;
+    label {
+      font-size: 1rem;
+    }
+  }
+  .previewBox {
+    display: none;
+  }
+}

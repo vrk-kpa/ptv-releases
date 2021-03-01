@@ -1,0 +1,89 @@
+﻿[
+  {
+    "Code": "SelfProduced",
+    "Names": [
+      {
+        "Name": "Itse tuotetut palvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Self produced services",
+        "Language": "en"
+      },
+      {
+        "Name": "Självproducerade tjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Ieš buvttaduvvon bálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Jieš pyevtittum palvâlusah",
+        "Language": "smn"
+      },
+      {
+        "Name": "Jiõčč puuʹtʼtem kääzzkõõzz",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "PurchaseServices",
+    "Names": [
+      {
+        "Name": "Ostopalvelut",
+        "Language": "fi"
+      },
+      {
+        "Name": "Procured services",
+        "Language": "en"
+      },
+      {
+        "Name": "Köpta tjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Oastobálvalusat",
+        "Language": "se"
+      },
+      {
+        "Name": "Uástupalvâlusah",
+        "Language": "smn"
+      },
+      {
+        "Name": "Vuäʹsttemkääzzkõõzz",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Other",
+    "Names": [
+      {
+        "Name": "Muu",
+        "Language": "fi"
+      },
+      {
+        "Name": "Other",
+        "Language": "en"
+      },
+      {
+        "Name": "Annan",
+        "Language": "sv"
+      },
+      {
+        "Name": "Eará",
+        "Language": "se"
+      },
+      {
+        "Name": "Eres",
+        "Language": "smn"
+      },
+      {
+        "Name": "Jeeʹres",
+        "Language": "sms"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2104 @@
+[{
+  "InputIds": {
+    "ServiceId": "6ec14f98-12ab-410a-8815-f4e36091aab5",
+    "GeneralServiceDescriptionId": ""
+  },
+  "AdditionalInfo": {
+    "Method": "qualitycheck",
+    "Language": "sv",
+    "Domain": "NER"
+  },
+  "Results": [
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää kokonaisen URL-osoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää kokonaisen URL-osoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää kokonaisen URL-osoitteen.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää kokonaisen URL-osoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä  sisältää sähköpostiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä  sisältää sähköpostiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä  sisältää sähköpostiosoitteen.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä  sisältää sähköpostiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "5",
+      "Rule": "Tiivistelmä ja palvelukuvaus",
+      "Explanation": "Tiivistelmä on käsitteistöltään olennaisesti toinen kuin saman palvelun kuvaus.",
+      "Processed": {
+        "data": {
+          "Compare1": {
+            "data": "kulikon juhoals",
+            "path": [
+              "serviceDescriptions",
+              "type = Summary",
+              "language = sv"
+            ]
+          },
+          "Compare2": {
+            "data": "tjadunist kolstun",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = sv"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": false,
+        "Info": {
+          "Similarity": 0.0
+        },
+        "AdditionalInfo": [
+          {
+            "Name": "CR5",
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvauksessa toistetaan samat asiat kuin pohjakuvaustekstissä",
+      "Explanation": "",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "tjadunist kolstun\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = sv",
+              "+",
+              "requirements",
+              "language = sv",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = sv"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvauksessa toistetaan samat asiat kuin pohjakuvaustekstissä",
+      "Explanation": "",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "tjadunist kolstun\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = sv",
+              "+",
+              "requirements",
+              "language = sv",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = sv"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvauksessa toistetaan samat asiat kuin pohjakuvaustekstissä",
+      "Explanation": "",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "tjadunist kolstun\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = sv",
+              "+",
+              "requirements",
+              "language = sv",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = sv"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Liian pitkiä virkkeitä.",
+      "Explanation": "Palvelukuvauksessa on runsaasti pitkiä virkkeitä, mikä voi olla merkki tekstin vaikeaselkoisuudesta tai virkakielisyydestä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Liian pitkiä virkkeitä.",
+      "Explanation": "Palvelukuvauksessa on runsaasti pitkiä virkkeitä, mikä voi olla merkki tekstin vaikeaselkoisuudesta tai virkakielisyydestä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Liian pitkiä virkkeitä.",
+      "Explanation": "Palvelukuvauksessa on runsaasti pitkiä virkkeitä, mikä voi olla merkki tekstin vaikeaselkoisuudesta tai virkakielisyydestä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittauksia lakipykäliin tai artikloihin.",
+      "Explanation": "Palvelukuvaus sisältää viittauksia lakipykäliin ja/tai artikloihin, mikä voi olla merkki siitä, että palvelua ei kuvata käyttäjän vaan palveluntuottajan lakisääteisten velvollisuuksien näkökulmasta.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittauksia lakipykäliin tai artikloihin.",
+      "Explanation": "Palvelukuvaus sisältää viittauksia lakipykäliin ja/tai artikloihin, mikä voi olla merkki siitä, että palvelua ei kuvata käyttäjän vaan palveluntuottajan lakisääteisten velvollisuuksien näkökulmasta.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "nfo": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittauksia lakipykäliin tai artikloihin.",
+      "Explanation": "Palvelukuvaus sisältää viittauksia lakipykäliin ja/tai artikloihin, mikä voi olla merkki siitä, että palvelua ei kuvata käyttäjän vaan palveluntuottajan lakisääteisten velvollisuuksien näkökulmasta.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "nfo": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": false,
+        "Info": {
+          "Matches": [
+            {
+              "Start": 0,
+              "Length": 9,
+              "Token": "tjadunist",
+              "Title": "Okänt ord",
+              "Explanation": "Ordet tjadunist känns inte igen av stavningskontrollen. Kontrollera att\nordet är stavat rätt.",
+              "Status": "UnknownWord",
+              "Suggestions": []
+            },
+            {
+              "Start": 10,
+              "Length": 7,
+              "Token": "kolstun",
+              "Title": "Okänt ord",
+              "Explanation": "Ordet kolstun känns inte igen av stavningskontrollen. Kontrollera att\nordet är stavat rätt.",
+              "Status": "UnknownWord",
+              "Suggestions": [
+                "kols tun",
+                "kols TUN",
+                "köls tun",
+                "köls TUN"
+              ]
+            }
+          ]
+        },
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          },
+          {
+            "Name": "CR11",
+            "Value": 2
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": false,
+        "Info": {
+          "Matches": [
+            {
+              "Start": 8,
+              "Length": 7,
+              "Token": "juhoals",
+              "Title": "Okänt ord",
+              "Explanation": "Ordet juhoals känns inte igen av stavningskontrollen. Kontrollera att\nordet är stavat rätt.",
+              "Status": "UnknownWord",
+              "Suggestions": [
+                "Juholas"
+              ]
+            }
+          ]
+        },
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          },
+          {
+            "Name": "CR11",
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = sv"
+        ],
+        "data": "servido"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 2
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää käyntiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää käyntiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää käyntiosoitteen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää käyntiosoitteen.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää puhelinnumeron.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää puhelinnumeron.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää puhelinnumeron.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää puhelinnumeron.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää henkilönimen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää henkilönimen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää henkilönimen.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää henkilönimen.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää henkilönimen.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = sv"
+        ],
+        "data": "servido"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää aukioloajan.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = sv"
+        ],
+        "data": "tjadunist kolstun"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 17
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää aukioloajan.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = sv"
+        ],
+        "data": "kulikon juhoals"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 15
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää aukioloajan.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = sv"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Palvelukuvaus tai tiivistelmä sisältää aukioloajan.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = sv"
+        ],
+        "data": "servido"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 2
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    }
+  ]
+},
+
+{
+  "InputIds": {
+    "ServiceId": "6ec14f98-12ab-410a-8815-f4e36091aab5",
+    "GeneralServiceDescriptionId": ""
+  },
+  "AdditionalInfo": {
+    "Method": "qualitycheck",
+    "Language": "fi",
+    "Domain": "NER"
+  },
+  "Results": [
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan verkko-osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan verkko-osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan verkko-osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "1",
+      "Rule": "URL-osoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan verkko-osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Kirjoita sähköpostiosoite tähän kenttään ainoastaan jos se on palvelun ainoa asiointikanava.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Kirjoita sähköpostiosoite tähän kenttään ainoastaan jos se on palvelun ainoa asiointikanava.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Kirjoita sähköpostiosoite tähän kenttään ainoastaan jos se on palvelun ainoa asiointikanava.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "2",
+      "Rule": "Sähköpostiosoite",
+      "Explanation": "Kirjoita sähköpostiosoite tähän kenttään ainoastaan jos se on palvelun ainoa asiointikanava.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "3",
+      "Rule": "Passiivmuotoiset verbit",
+      "Explanation": "Vältä passiivin käyttöä. Passiivi voi tehdä tekstistä vaikeaselkoista.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "3",
+      "Rule": "Passiivmuotoiset verbit",
+      "Explanation": "Vältä passiivin käyttöä. Passiivi voi tehdä tekstistä vaikeaselkoista.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "3",
+      "Rule": "Passiivmuotoiset verbit",
+      "Explanation": "Vältä passiivin käyttöä. Passiivi voi tehdä tekstistä vaikeaselkoista.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "4",
+      "Rule": "Lauseenvastikkeet",
+      "Explanation": "Vältä lauseenvastikkeita. Kirjoita esimerkiksi \"kun saavut\" mieluummin kuin \"saapuessasi\".",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "4",
+      "Rule": "Lauseenvastikkeet",
+      "Explanation": "Vältä lauseenvastikkeita. Kirjoita esimerkiksi \"kun saavut\" mieluummin kuin \"saapuessasi\".",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "4",
+      "Rule": "Lauseenvastikkeet",
+      "Explanation": "Vältä lauseenvastikkeita. Kirjoita esimerkiksi \"kun saavut\" mieluummin kuin \"saapuessasi\".",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "5",
+      "Rule": "Tiivistelmä eroaa kanavan tai palvelun kuvauksesta ja pohjakuvauksesta",
+      "Explanation": "Tarkista, että tiivistelmässä mainitut asiat kerrotaan myös kuvaus-kentässä.",
+      "Processed": {
+        "data": {
+          "Compare1": {
+            "data": "sdf dsf",
+            "path": [
+              "serviceDescriptions",
+              "type = Summary",
+              "language = fi"
+            ]
+          },
+          "Compare2": {
+            "data": "",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = fi"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": false,
+        "Info": {
+          "Similarity": 0.0
+        },
+        "AdditionalInfo": [
+          {
+            "Name": "CR5",
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvaus toistaa pohjakuvaustekstin",
+      "Explanation": "Älä toista pohjakuvauksen tekstiä muissa kentissä.",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = fi",
+              "+",
+              "requirements",
+              "language = fi",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = fi"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvaus toistaa pohjakuvaustekstin",
+      "Explanation": "Älä toista pohjakuvauksen tekstiä muissa kentissä.",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = fi",
+              "+",
+              "requirements",
+              "language = fi",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = fi"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "6",
+      "Rule": "Palvelukuvaus toistaa pohjakuvaustekstin",
+      "Explanation": "Älä toista pohjakuvauksen tekstiä muissa kentissä.",
+      "Processed": {
+        "data": {
+          "Compare2": {
+            "data": "\n\n\n\n",
+            "path": [
+              "serviceDescriptions",
+              "type = Description",
+              "language = fi",
+              "+",
+              "requirements",
+              "language = fi",
+              "+",
+              "serviceDescriptions",
+              "type = UserInstruction",
+              "language = fi"
+            ]
+          }
+        }
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Pitkät virkkeet",
+      "Explanation": "Pyri lyhentämään pitkät virkkeet alle 25 sanaan.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Pitkät virkkeet",
+      "Explanation": "Pyri lyhentämään pitkät virkkeet alle 25 sanaan.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "7",
+      "Rule": "Pitkät virkkeet",
+      "Explanation": "Pyri lyhentämään pitkät virkkeet alle 25 sanaan.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittaukset lakipykäliin ja/tai artikloihin.",
+      "Explanation": "Vältä lakipykälien ja artiklojen mainitsemista. Ne eivät yleensä ole oleellisia lukijalle.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "nfo": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittaukset lakipykäliin ja/tai artikloihin.",
+      "Explanation": "Vältä lakipykälien ja artiklojen mainitsemista. Ne eivät yleensä ole oleellisia lukijalle.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "nfo": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "8",
+      "Rule": "Viittaukset lakipykäliin ja/tai artikloihin.",
+      "Explanation": "Vältä lakipykälien ja artiklojen mainitsemista. Ne eivät yleensä ole oleellisia lukijalle.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "nfo": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "9",
+      "Rule": "Kielioppivirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kielioppivirheitä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": false,
+        "Info": {
+          "Matches": [
+            {
+              "Start": 0,
+              "Length": 3,
+              "Token": "sdf",
+              "Title": "Tuntematon sana",
+              "Explanation": "Sana sdf on korjausluvulle tuntematon. Tarkista, että sana on\nkirjoitettu oikein.",
+              "Status": "UnknownWord",
+              "Suggestions": [
+                "SD",
+                "SDR",
+                "SF",
+                "sf",
+                "sd",
+                "Sdp",
+                "SDS",
+                "sdp",
+                "sdi",
+                "SDH",
+                "SDI",
+                "SDK",
+                "SDP",
+                "pdf"
+              ]
+            },
+            {
+              "Start": 4,
+              "Length": 3,
+              "Token": "dsf",
+              "Title": "Tuntematon sana",
+              "Explanation": "Sana dsf on korjausluvulle tuntematon. Tarkista, että sana on\nkirjoitettu oikein.",
+              "Status": "UnknownWord",
+              "Suggestions": [
+                "DS",
+                "SF",
+                "sf",
+                "DSM",
+                "DSA",
+                "USF"
+              ]
+            }
+          ]
+        },
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          },
+          {
+            "Name": "CR11",
+            "Value": 2
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "10",
+      "Rule": "Kirjoitusvirheitä",
+      "Explanation": "Tekstissä on mahdollisesti kirjoitusvirheitä.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = fi"
+        ],
+        "data": "kukin"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 2
+          },
+          {
+            "Name": "CChrs",
+            "Value": 5
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "11",
+      "Rule": "Käyntiosoite",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan osoitetta tähän kenttään.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan puhelinnumeroa tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan puhelinnumeroa tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan puhelinnumeroa tähän kenttään.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "12",
+      "Rule": "Puhelinnumero",
+      "Explanation": "Älä kirjoita palveluun liitetyn asiointikanavan puhelinnumeroa tähän kenttään.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Vältä henkilöiden nimien mainitsemista tekstissä. Käytä mieluummin työ- tai virkanimikettä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Vältä henkilöiden nimien mainitsemista tekstissä. Käytä mieluummin työ- tai virkanimikettä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = UserInstruction",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Vältä henkilöiden nimien mainitsemista tekstissä. Käytä mieluummin työ- tai virkanimikettä.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Vältä henkilöiden nimien mainitsemista tekstissä. Käytä mieluummin työ- tai virkanimikettä.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "13",
+      "Rule": "Henkilönimi",
+      "Explanation": "Vältä henkilöiden nimien mainitsemista tekstissä. Käytä mieluummin työ- tai virkanimikettä.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = fi"
+        ],
+        "data": "kukin"
+      },
+      "Result": {
+        "Passed": true
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Ilmoita palveluajat asiointikanavan tiedoissa ja tarvittaessa palvelun toimintaohjeissa.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Description",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Ilmoita palveluajat asiointikanavan tiedoissa ja tarvittaessa palvelun toimintaohjeissa.",
+      "Processed": {
+        "path": [
+          "serviceDescriptions",
+          "type = Summary",
+          "language = fi"
+        ],
+        "data": "sdf dsf"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 4
+          },
+          {
+            "Name": "CChrs",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Ilmoita palveluajat asiointikanavan tiedoissa ja tarvittaessa palvelun toimintaohjeissa.",
+      "Processed": {
+        "path": [
+          "requirements",
+          "language = fi"
+        ],
+        "data": null
+      },
+      "Result": {
+        "Passed": true,
+        "Info": {
+          "Message": "No data"
+        }
+      }
+    },
+    {
+      "RuleId": "14",
+      "Rule": "Aukioloajat",
+      "Explanation": "Ilmoita palveluajat asiointikanavan tiedoissa ja tarvittaessa palvelun toimintaohjeissa.",
+      "Processed": {
+        "path": [
+          "serviceNames",
+          "type = Name",
+          "language = fi"
+        ],
+        "data": "kukin"
+      },
+      "Result": {
+        "Passed": true,
+        "AdditionalInfo": [
+          {
+            "Name": "CTokens",
+            "Value": 2
+          },
+          {
+            "Name": "CChrs",
+            "Value": 5
+          }
+        ]
+      }
+    }
+  ]
+}
+]

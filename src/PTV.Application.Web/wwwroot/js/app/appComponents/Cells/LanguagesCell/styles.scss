@@ -1,0 +1,15 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+$iconSize: 20px;
+$indent: 10px;
+
+.cellName {
+  width: 200px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.languages {
+  white-space:normal;
+}
+

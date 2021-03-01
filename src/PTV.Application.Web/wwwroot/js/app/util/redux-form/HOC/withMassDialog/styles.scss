@@ -1,0 +1,32 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px, $margin: 0);
+}
+
+.content {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.publish, .archive {
+  width: 90%;
+  @media only screen and (min-width: 1280px) {
+    width: 1180px;
+  }
+}
+
+.publish {
+  [class*='styles__modalContent'] {
+    min-height: 450px;
+  }
+}
+
+// to be changed by adding support for custom class in SEMA UI components
+.massDialog {
+  div[class*='styles__modalActions'] {
+    margin-top: 0;
+  }
+}

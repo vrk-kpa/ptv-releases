@@ -1,0 +1,25 @@
+
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.subEntityWrap {
+  border: 1px solid border-color(border);
+  ~ .subEntityWrap {
+    border-top: none;
+  }
+}
+
+.disabled {
+  > div {
+    cursor: not-allowed;
+  }
+  h5 {
+    color: interaction-color(disabled);
+  }
+  span {
+    display: none;
+  }
+}
+
+.children {
+  margin-top: 10px;
+}

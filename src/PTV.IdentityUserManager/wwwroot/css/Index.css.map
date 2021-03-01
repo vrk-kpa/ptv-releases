@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "Index.css",
+	"sources": [
+		"Index.scss"
+	],
+	"mappings": "AAAA,AAEQ,aAFK,CACT,YAAY,CACR,GAAG,AAAC,CACA,KAAK,CAAE,IAAK,CACf",
+	"names": []
+}

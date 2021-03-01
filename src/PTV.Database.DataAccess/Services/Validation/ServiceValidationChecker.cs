@@ -1,0 +1,296 @@
+﻿﻿/**
+* The MIT License
+* Copyright (c) 2020 Finnish Digital Agency (DVV)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.C:\Projects\PTV_TEST\src\PTV.Database.DataAccess\Services\Security\
+*/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using PTV.Database.DataAccess.Caches;
+using PTV.Database.DataAccess.Interfaces.DbContext;
+using PTV.Database.DataAccess.Interfaces.Services.Validation;
+using PTV.Database.Model.Models;
+using PTV.Domain.Model.Enums;
+using PTV.Framework;
+using PTV.Framework.Interfaces;
+using PTV.Database.DataAccess.Interfaces;
+using PTV.Database.DataAccess.Interfaces.Repositories;
+using PTV.Database.DataAccess.Interfaces.Services;
+using PTV.Database.DataAccess.Utils;
+
+ namespace PTV.Database.DataAccess.Services.Validation
+{
+    [RegisterService(typeof(ILoadingValidationChecker<ServiceVersioned>), RegisterType.Transient)]
+    internal class ServiceValidationChecker : BaseLoadingValidationChecker<ServiceVersioned>
+    {
+        private readonly ITypesCache typesCache;
+        private readonly IVersioningManager versioningManager;
+        private readonly ICommonService commonService;
+        private IUnitOfWork unitOfWork;
+        private ITextManager textManager;
+
+        public ServiceValidationChecker(ICacheManager cacheManager, IResolveManager resolveManager) : base(cacheManager, resolveManager)
+        {
+            typesCache = cacheManager.TypesCache;
+            this.versioningManager = resolveManager.Resolve<IVersioningManager>();
+            this.textManager = resolveManager.Resolve<ITextManager>();
+            this.commonService = resolveManager.Resolve<ICommonService>();
+        }
+
+        protected override ServiceVersioned FetchEntity(Guid id, IUnitOfWork unitOfWork)
+        {
+            this.unitOfWork = unitOfWork;
+            var resEntity = GetEntity<ServiceVersioned>(id, unitOfWork,
+                q => q.Include(i => i.ServiceNames)
+                        .Include(i => i.OrganizationServices)
+                        .Include(i => i.ServiceDescriptions)
+                        .Include(i => i.ServiceLanguages)
+                        .Include(i => i.LanguageAvailabilities)
+                        .Include(x => x.ServiceWebPages).ThenInclude(x => x.WebPage)
+                        .Include(x => x.Areas)
+                        .Include(x => x.AreaMunicipalities)
+                );
+
+            IncludeClassification(unitOfWork, resEntity);
+            return resEntity;
+        }
+
+        private void IncludeClassification(IUnitOfWork unitOfWork, ServiceVersioned entity)
+        {
+            if (unitOfWork == null || entity == null)
+            {
+                return;
+            }
+
+            var serviceClassRepo = unitOfWork.CreateRepository<IServiceServiceClassRepository>();
+            var ontologyRepo = unitOfWork.CreateRepository<IServiceOntologyTermRepository>();
+            var targetGroupRepo = unitOfWork.CreateRepository<IServiceTargetGroupRepository>();
+            var serviceProducersRepo = unitOfWork.CreateRepository<IServiceProducerRepository>();
+
+            var targetGroups = targetGroupRepo.All()
+                .Include(x => x.TargetGroup)
+                .Where(x => x.ServiceVersionedId == entity.Id)
+                .ToList();
+            var serviceClasses = serviceClassRepo.All()
+                .Where(x => x.ServiceVersionedId == entity.Id)
+                .ToList();
+            var ontologies = ontologyRepo.All()
+                .Include(x => x.OntologyTerm)
+                .Where(x => x.ServiceVersionedId == entity.Id)
+                .ToList();
+            var serviceProducers = serviceProducersRepo.All()
+                .Where(x => x.ServiceVersionedId == entity.Id)
+                .ToList();
+
+            entity.ServiceServiceClasses = serviceClasses;
+            entity.ServiceOntologyTerms = ontologies;
+            entity.ServiceTargetGroups = targetGroups;
+            entity.ServiceProducers = serviceProducers;
+        }
+
+        private string GetName(ServiceVersioned entity, Guid entitylanguageId)
+        {
+            return entity.ServiceNames
+                .Where(y => y.TypeId == typesCache.Get<NameType>(NameTypeEnum.Name.ToString()) &&
+                            y.LocalizationId == entitylanguageId)
+                .Select(y => y.Name)
+                .FirstOrDefault();
+        }
+
+        private string GetShortDescription(ServiceVersioned entity, Guid entitylanguageId)
+        {
+            return entity.ServiceDescriptions
+                .Where(y => y.TypeId == typesCache.Get<DescriptionType>(DescriptionTypeEnum.ShortDescription.ToString()) && y.LocalizationId == entitylanguageId)
+                .Select(y => y.Description)
+                .FirstOrDefault();
+        }
+
+        protected override void ValidateEntityInternal(Guid? language)
+        {
+            var generalDescriptionId = entity.StatutoryServiceGeneralDescriptionId;
+
+            foreach (var entitylanguageId in entityOrPublishedLanguagesAvailabilityIds)
+            {
+                SetValidationLanguage(entitylanguageId);
+
+                CheckEntityWithMergeResult<Organization>(entity.OrganizationId, unitOfWork);
+
+                // Funding type
+                NotEmptyGuid("fundingType", x => x.FundingTypeId);
+                var organizationVersionId = versioningManager.GetLastPublishedDraftVersion<OrganizationVersioned>(
+                    unitOfWork, entity.OrganizationId);
+                var orgRepo = unitOfWork.CreateRepository<IOrganizationVersionedRepository>();
+                var org = orgRepo.All().FirstOrDefault(x => x.Id == organizationVersionId.EntityId);
+                if (org?.TypeId != null && entity.FundingTypeId.HasValue)
+                {
+                    var organizationType = typesCache.GetByValue<OrganizationType>(org.TypeId.Value);
+                    var fundingType = typesCache.GetByValue<ServiceFundingType>(entity.FundingTypeId.Value);
+                    NotBeTrue("fundingType",
+                        x => !OrganizationFundingTypeChecker.IsAllowed(organizationType, fundingType),
+                        ValidationErrorTypeEnum.InvalidValue);
+                }
+                
+                bool nameOrShortDescriptionEmpty = NotEmptyString("name", x => GetName(x, entitylanguageId));
+                NotBeTrue("name", x => commonService.CheckExistsServiceNameWithinOrganization(GetName(x, entitylanguageId), entity.OrganizationId, entity.UnificRootId), ValidationErrorTypeEnum.IsDuplicate);
+                NotEmptyList("languages", x => x.ServiceLanguages);
+
+                nameOrShortDescriptionEmpty |= NotEmptyString("shortDescription", x => GetShortDescription(x, entitylanguageId));
+
+                if(!nameOrShortDescriptionEmpty)
+                {
+                    NotBeTrue
+                    (
+                        "shortDescription",
+                        x => GetName(x, entitylanguageId) == GetShortDescription(x, entitylanguageId),
+                        ValidationErrorTypeEnum.ValueIsSame
+                    );
+                }
+
+
+                if (!generalDescriptionId.IsAssigned())
+                {
+                    NotEmptyGuid("serviceType", x => x.TypeId);
+                    NotEmptyTextEditorString("description",
+                        x => x.ServiceDescriptions
+                            .Where(y => y.TypeId == typesCache.Get<DescriptionType>(DescriptionTypeEnum.Description.ToString()) && y.LocalizationId == entitylanguageId)
+                            .Select(y => y.Description)
+                            .FirstOrDefault());
+                    NotEmptyList("targetGroups", x => x.ServiceTargetGroups.Where(y => y.TargetGroup.ParentId == null));
+                    CheckTargetGroups(entity.ServiceTargetGroups.ToList());
+                    bool emptySc = NotEmptyList("serviceClasses", x => x.ServiceServiceClasses);
+                    if (!emptySc)
+                    {
+                        NotBeTrue("serviceClasses", x => x.ServiceServiceClasses.Count > 4,
+                            ValidationErrorTypeEnum.MaxLimit);
+                    }
+                    bool emptyOt = NotEmptyList("ontologyTerms", x => x.ServiceOntologyTerms.Where(y=>y.OntologyTerm.IsValid));
+                    if (!emptyOt)
+                    {
+                        NotBeTrue("ontologyTerms", x => x.ServiceOntologyTerms.Count > 10, ValidationErrorTypeEnum.MaxLimit);
+                    }
+                }
+                else
+                {
+                    var gdRep = unitOfWork.CreateRepository<IStatutoryServiceGeneralDescriptionVersionedRepository>();
+                    var gd = gdRep.All().Where(x => x.UnificRootId == entity.StatutoryServiceGeneralDescriptionId)
+                        .Include(x => x.TargetGroups).ThenInclude(x => x.TargetGroup)
+                        .Include(x => x.Descriptions)
+                        .Include(x => x.ServiceClasses)
+                        .Include(x => x.OntologyTerms).ThenInclude(x=>x.OntologyTerm);
+                    var publishedGd = versioningManager.ApplyPublishingStatusFilterFallback(gd);
+                    var gdTargetGroup = publishedGd.TargetGroups.Where(x=>x.TargetGroup.ParentId == null);
+                    var serviceOverrideTargetGroup = entity.ServiceTargetGroups.Where(y => y.Override && y.TargetGroup.ParentId == null);
+                    var gdTargetGroupsChecked = gdTargetGroup.Where(x => serviceOverrideTargetGroup.All(y => y.TargetGroupId != x.TargetGroupId));
+                    var serviceTargetGroupsChecked = entity.ServiceTargetGroups.Where(y => !y.Override && y.TargetGroup.ParentId == null);
+                    NotBeTrue("targetGroups", z => !gdTargetGroupsChecked.Any() && !serviceTargetGroupsChecked.Any());
+                    CheckTargetGroups(
+                        entity.ServiceTargetGroups.ToList(),
+                        publishedGd.TargetGroups.ToList());
+
+                    var gdDescriptionProperty = publishedGd.Descriptions.Where(y => y.TypeId == typesCache.Get<DescriptionType>(DescriptionTypeEnum.Description.ToString()) && y.LocalizationId == entitylanguageId)
+                        .Select(y => y.Description)
+                        .FirstOrDefault();
+                    if (string.IsNullOrEmpty(textManager.ConvertToPureText(gdDescriptionProperty)))
+                    {
+                        NotEmptyTextEditorString("description",
+                            x => x.ServiceDescriptions
+                                .Where(y => y.TypeId == typesCache.Get<DescriptionType>(DescriptionTypeEnum.Description.ToString()) && y.LocalizationId == entitylanguageId)
+                                .Select(y => y.Description)
+                                .FirstOrDefault());
+                    }
+                    NotBeTrue("serviceClasses", x => x.ServiceServiceClasses.Select(sc => sc.ServiceClassId).Concat(publishedGd.ServiceClasses.Select(sc => sc.ServiceClassId)).Distinct().Count() > 4, ValidationErrorTypeEnum.MaxLimit);
+                    NotBeTrue("ontologyTerms", x => x.ServiceOntologyTerms.Select(ot => ot.OntologyTermId).Concat(publishedGd.OntologyTerms.Select(ot => ot.OntologyTermId)).Distinct().Count() > 10, ValidationErrorTypeEnum.MaxLimit);
+                    NotEmptyList("ontologyTerms", x => x.ServiceOntologyTerms.Where(y=>y.OntologyTerm.IsValid).Select(ot=>ot.OntologyTerm).Concat(publishedGd.OntologyTerms.Where(y=>y.OntologyTerm.IsValid).Select(ot=>ot.OntologyTerm)));
+                }
+
+                // validate published Organization language
+                var publishedOrganizationLanguageExists = false;
+                var publishedOrgInfo = versioningManager.GetLastPublishedVersion<OrganizationVersioned>(unitOfWork, entity.OrganizationId);
+                if (publishedOrgInfo != null)
+                {
+                    var orgRep = unitOfWork.CreateRepository<IOrganizationLanguageAvailabilityRepository>();
+                    publishedOrganizationLanguageExists = orgRep.All()
+                        .Any(x => x.OrganizationVersionedId == publishedOrgInfo.EntityId
+                                  && x.StatusId ==
+                                  typesCache.Get<PublishingStatusType>(PublishingStatus.Published.ToString())
+                                  && x.LanguageId == entitylanguageId);
+                    NotBeTrue("organization", x => !publishedOrganizationLanguageExists, ValidationErrorTypeEnum.PublishedOrganizationLanguageMandatoryField);
+                }
+
+                //Organization services
+                foreach (var organizationService in entity.OrganizationServices)
+                {
+                    var result = CheckEntity<Organization>(organizationService.OrganizationId, unitOfWork);
+                    NotBeTrue("responsibleOrganizations", x => result.Count > 0, ValidationErrorTypeEnum.PublishedMandatoryField);
+                }
+
+                NotBeTrue("responsibleOrganizations",
+                    x => x.OrganizationServices.Any(y => y.OrganizationId == x.OrganizationId),
+                    ValidationErrorTypeEnum.DuplicateOrganization);
+
+                //Service producers
+                if (!NotEmptyList("serviceProducers", x => x.ServiceProducers))
+                {
+                    foreach (var serviceProducer in entity.ServiceProducers)
+                    {
+                        CheckEntityWithMergeResult<ServiceProducer>(serviceProducer.Id, unitOfWork);
+                    }
+                }
+
+                //Service vouchers
+                foreach (var serviceWebPage in entity.ServiceWebPages.Where(x => x.LocalizationId == entitylanguageId))
+                {
+                    if (!string.IsNullOrEmpty(serviceWebPage.Name))
+                    {
+                        CheckEntityWithMergeResult(serviceWebPage);
+                    }
+                }
+
+                if (!NotEmptyGuid("areaInformationType", x => x.AreaInformationTypeId))
+                {
+                    if (entity.AreaInformationTypeId ==
+                        typesCache.Get<AreaInformationType>(AreaInformationTypeEnum.AreaType.ToString()))
+                    {
+                        NotBeTrue("areaType", x => !(x.Areas.Any() || x.AreaMunicipalities.Any()));
+                    }
+                }
+            }
+        }
+
+        private const string TgKr2 = "KR2";
+
+        private void CheckTargetGroups(List<ServiceTargetGroup> serviceTargetGroups,
+            List<StatutoryServiceTargetGroup> generalTargetGroups = null)
+        {
+            var serviceTg = serviceTargetGroups.Where(x => !x.Override).Select(x => x.TargetGroup).ToList();
+            var overServiceTg = serviceTargetGroups.Where(x => x.Override).Select(x => x.TargetGroupId);
+            if (generalTargetGroups != null && generalTargetGroups.Any())
+            {
+                serviceTg.AddRange(generalTargetGroups.Where(x => !overServiceTg.Contains(x.TargetGroupId))
+                    .Select(x => x.TargetGroup));
+            }
+
+            var parents = serviceTg.Where(x => x.Code== TgKr2).Select(x => x.Id);
+            var subParents = serviceTg.Where(x => x.ParentId.HasValue).Select(x => x.ParentId).Distinct();
+            NotBeTrue("targetGroups", z => parents.Any(pId => !subParents.Contains(pId)));
+        }
+    }
+}

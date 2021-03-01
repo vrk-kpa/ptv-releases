@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:AppSchemaDataAccess 
+	xmlns:as="http://www.geotools.org/app-schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.geotools.org/app-schema AppSchemaDataAccess.xsd">
+	<namespaces>
+		<Namespace>
+			<prefix>ptv</prefix>
+			<uri>${ptv.namespace}</uri>
+		</Namespace>
+	</namespaces>
+	<sourceDataStores>
+		<DataStore>
+			<id>datastore</id>
+			<parameters>
+				${ptv.datastore.namespace}
+				${ptv.datastore.dbtype}
+				${ptv.datastore.schema}
+				${ptv.datastore.database}
+				${ptv.datastore.host}
+				${ptv.datastore.port}
+				${ptv.datastore.user}
+				${ptv.datastore.password}
+				${ptv.datastore.exposePrimaryKeys}
+				${ptv.datastore.validateConnections}
+				${ptv.datastore.supportOnTheFlyGeometrySimplification}
+				${ptv.datastore.connectionTimeout}
+			</parameters>
+		</DataStore>
+	</sourceDataStores>
+	<targetTypes>
+		<FeatureType>
+			<schemaUri>${ptv.baseSchemaUri}/serviceLocation.xsd</schemaUri>
+		</FeatureType>
+	</targetTypes>
+	<typeMappings>
+		<FeatureTypeMapping>
+			<sourceDataStore>datastore</sourceDataStore>
+			<sourceType>mv_dataStore_specialServiceHours</sourceType>
+			<targetElement>ptv:serviceLocationOvermidnightOpeningHours</targetElement>
+			<isDenormalised>true</isDenormalised>
+			<attributeMappings>
+				
+				<!-- service hours id --> 
+				<AttributeMapping>
+					<targetAttribute>ptv:serviceLocationOvermidnightOpeningHours</targetAttribute>
+					<idExpression>
+						<OCQL>ServiceHoursId</OCQL>
+					</idExpression>
+				</AttributeMapping>
+
+				<!-- additional information -->
+				<AttributeMapping>
+					<targetAttribute>ptv:additionalInformation</targetAttribute>
+					<sourceExpression>
+						<OCQL>ServiceHoursId</OCQL>
+						<linkElement>ptv:serviceLocationServiceHoursAdditionalInformation</linkElement>
+						<linkField>FEATURE_LINK</linkField>
+					</sourceExpression>
+					<isMultiple>true</isMultiple>
+				</AttributeMapping>
+
+				<!-- valid from -->
+				<AttributeMapping>
+					<targetAttribute>ptv:validFrom</targetAttribute>
+					<sourceExpression>
+						<OCQL>From</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+
+				<!-- valid to -->
+				<AttributeMapping>
+					<targetAttribute>ptv:validTo</targetAttribute>
+					<sourceExpression>
+						<OCQL>To</OCQL>
+					</sourceExpression>
+					<encodeIfEmpty>true</encodeIfEmpty>
+				</AttributeMapping>
+				
+				<!-- feature link -->
+				<AttributeMapping>
+					<targetAttribute>FEATURE_LINK</targetAttribute>
+					<sourceExpression>
+						<OCQL>ServiceHoursId</OCQL>
+					</sourceExpression>
+				</AttributeMapping>
+				
+			</attributeMappings>
+		</FeatureTypeMapping>
+	</typeMappings>
+</as:AppSchemaDataAccess>

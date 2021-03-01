@@ -1,0 +1,36 @@
+﻿
+.swagger-section #header
+{
+    border-bottom: 1px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    background-color: black;
+}
+
+.swagger-section #header h1
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.swagger-ui-wrap .endpoints .parameters textarea{
+    display: none;
+}
+
+.swagger-ui-wrap .endpoints .parameters input{
+    display: none;
+}
+
+.swagger-ui-wrap .endpoints .parameters .parameter-content-type{
+    display: none;
+}
+
+.swagger-ui-wrap .endpoints .response-content-type{
+    display: none;
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.sandbox_header{
+    display: none;
+}

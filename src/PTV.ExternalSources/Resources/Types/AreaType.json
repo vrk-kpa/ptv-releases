@@ -1,0 +1,118 @@
+﻿[
+  {
+    "Code": "Municipality",
+    "Names": [
+      {
+        "Name": "Kunta",
+        "Language": "fi"
+      },
+      {
+        "Name": "Municipality",
+        "Language": "en"
+      },
+      {
+        "Name": "Kommun",
+        "Language": "sv"
+      },
+      {
+        "Name": "Gielda",
+        "Language": "se"
+      },
+      {
+        "Name": "Kieldâ",
+        "Language": "smn"
+      },
+      {
+        "Name": "Kåʹdd",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "Province",
+    "Names": [
+      {
+        "Name": "Maakunta",
+        "Language": "fi"
+      },
+      {
+        "Name": "Region",
+        "Language": "en"
+      },
+      {
+        "Name": "Landskap",
+        "Language": "sv"
+      },
+      {
+        "Name": "Eanagoddi",
+        "Language": "se"
+      },
+      {
+        "Name": "Eennâmkodde",
+        "Language": "smn"
+      },
+      {
+        "Name": "Mäddkåʹdd",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "BusinessRegions",
+    "Names": [
+      {
+        "Name": "Yrityspalvelujen seutualue",
+        "Language": "fi"
+      },
+      {
+        "Name": "Business sub-region",
+        "Language": "en"
+      },
+      {
+        "Name": "Företagstjänster delregion",
+        "Language": "sv"
+      },
+      {
+        "Name": "Fitnodatbálvalusaid guovloviidodat",
+        "Language": "se"
+      },
+      {
+        "Name": "Irâttâspalvâlusâi kuávluvijđodâh",
+        "Language": "smn"
+      },
+      {
+        "Name": "Põrggâmkääzzkõõzzi vuʹvdd",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "HospitalRegions",
+    "Names": [
+      {
+        "Name": "Sairaanhoitopiiri",
+        "Language": "fi"
+      },
+      {
+        "Name": "Hospital district",
+        "Language": "en"
+      },
+      {
+        "Name": "Sjukvårdsdistrikt",
+        "Language": "sv"
+      },
+      {
+        "Name": "Buohccedikšunbiire",
+        "Language": "se"
+      },
+      {
+        "Name": "Pyecceitipšompirrâdâh",
+        "Language": "smn"
+      },
+      {
+        "Name": "Puõccihåiddamvuʹvdd",
+        "Language": "sms"
+      }
+    ]
+  }
+]
