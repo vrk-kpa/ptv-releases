@@ -1,0 +1,111 @@
+/**
+* The MIT License
+* Copyright (c) 2020 Finnish Digital Agency (DVV)
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+import React from 'react'
+import PropTypes from 'prop-types'
+import { compose } from 'redux'
+import { connect } from 'react-redux'
+import ConnectionsSearchTable from './ConnectionsSearchTable'
+import ConnectionsForm, { ServiceCollectionConnectionsForm } from './ConnectionsForm'
+import { mergeInUIState } from 'reducers/ui'
+import { createGetEntityAction } from 'actions'
+import { getKey, formAllTypes, entityTypesEnum } from 'enums'
+import { Label } from 'sema-ui-components'
+import { injectIntl, intlShape } from 'util/react-intl'
+import { isConnectionsReadOnly } from 'appComponents/ConnectionsStep/selectors'
+import withFormStates from 'util/redux-form/HOC/withFormStates'
+import { messages } from './messages'
+
+const ConnectionsStep = ({
+  searchMode,
+  mergeInUIState,
+  loadPreviewEntity,
+  notificationForm,
+  isConnectionsReadOnly,
+  inTranslation,
+  intl: { formatMessage }
+}) => {
+  const handlePreviewOnClick = (id, entityType) => {
+    const formName = entityType && getKey(formAllTypes, entityType.toLowerCase())
+    mergeInUIState({
+      key: 'entityPreviewDialog',
+      value: {
+        sourceForm: formName,
+        isOpen: true,
+        entityId: null
+      }
+    })
+    loadPreviewEntity(id, formName)
+  }
+  const type = {
+    channels: 'services',
+    services: 'channels',
+    generalDescriptions: 'gd',
+    serviceCollections: 'serviceCollections'
+  }[searchMode]
+  return (
+    <div>
+      {!isConnectionsReadOnly && !inTranslation &&
+      <div className='form-row'>
+        <Label
+          labelPosition='top'
+          labelText={formatMessage(messages[`${type}AvailableTitle`])}
+        />
+        <ConnectionsSearchTable
+          searchMode={searchMode}
+          previewOnClick={handlePreviewOnClick}
+        />
+      </div>}
+      <div className='form-row'>
+        {searchMode === entityTypesEnum.SERVICECOLLECTIONS
+          ? <ServiceCollectionConnectionsForm
+            notificationForm={notificationForm}
+          />
+          : <ConnectionsForm
+            searchMode={searchMode}
+            notificationForm={notificationForm}
+            label={messages[`${type}ConnectedTitle`]}
+          />}
+      </div>
+    </div>
+  )
+}
+ConnectionsStep.propTypes = {
+  searchMode: PropTypes.oneOf(['channels', 'services', 'generalDescriptions', 'serviceCollections']),
+  loadPreviewEntity: PropTypes.func,
+  mergeInUIState: PropTypes.func,
+  intl: intlShape,
+  isConnectionsReadOnly: PropTypes.bool,
+  inTranslation: PropTypes.bool,
+  notificationForm: PropTypes.string
+}
+
+export default compose(
+  injectIntl,
+  connect((state, ownProps) => ({
+    isConnectionsReadOnly: isConnectionsReadOnly(state)
+  }), {
+    mergeInUIState,
+    loadPreviewEntity: createGetEntityAction
+  }),
+  withFormStates
+)(ConnectionsStep)

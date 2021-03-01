@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="https://llso-test.lingsoft.fi/api/v1/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="https://llso-test.lingsoft.fi/api/v1/">
+  <types>
+    <xsd:schema targetNamespace="https://llso-test.lingsoft.fi/api/v1/">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" schemaLocation="http://schemas.xmlsoap.org/soap/encoding/"/>
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" schemaLocation="http://schemas.xmlsoap.org/wsdl/"/>
+      <xsd:complexType name="ArrayofStrings">
+        <xsd:complexContent>
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute ref="SOAP-ENC:arrayType" wsdl:arrayType="xsd:string[]"/>
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="OrderData">
+        <xsd:all>
+          <xsd:element name="orderID" type="xsd:string"/>
+          <xsd:element name="endCustomer" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="name" type="xsd:string"/>
+          <xsd:element name="ordererAccount" type="xsd:string"/>
+          <xsd:element name="email" type="xsd:string"/>
+          <xsd:element name="pm" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="srcLang" type="xsd:string"/>
+          <xsd:element name="trgLangList" type="tns:ArrayofStrings"/>
+          <xsd:element name="deadline" type="xsd:dateTime" minOccurs="0"/>
+          <xsd:element name="clientRef" type="xsd:string"/>
+          <xsd:element name="clientInfo" type="xsd:string"/>
+          <xsd:element name="vendorInstructions" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="workType" type="xsd:int"/>
+          <xsd:element name="docType" type="xsd:int" minOccurs="0"/>
+          <xsd:element name="orderType" type="tns:OrderType"/>
+          <xsd:element name="filesUrl" type="xsd:string"/>
+          <xsd:element name="downloadedUrl" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="analysis" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="projectReadyCallbackUrl" type="xsd:string" minOccurs="0"/>
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="Status">
+        <xsd:all>
+          <xsd:element name="orderID" type="xsd:string"/>
+          <xsd:element name="state" type="tns:OrderState"/>
+          <xsd:element name="contact" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="phoneNumber" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="validationResult" type="tns:ArrayofStrings" minOccurs="0"/>
+          <xsd:element name="quote" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="fileUrl" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="deadline" type="xsd:deadline" minOccurs="0"/>
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfStatuses">
+        <xsd:complexContent>
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute ref="SOAP-ENC:arrayType" wsdl:arrayType="tns:Status[]"/>
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:simpleType name="OrderState">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Quote"/>
+          <xsd:enumeration value="File_error"/>
+          <xsd:enumeration value="In_progress"/>
+          <xsd:enumeration value="Cancelled"/>
+          <xsd:enumeration value="Delivered"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="OrderType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="ORDER"/>
+          <xsd:enumeration value="QUOTE"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:schema>
+  </types>
+  <message name="NewOrderRequest">
+    <part name="order" type="tns:OrderData"/>
+  </message>
+  <message name="NewOrderResponse">
+    <part name="llsoWorkID" type="xsd:string"/>
+  </message>
+  <message name="UpdateOrderRequest">
+    <part name="llsoWorkID" type="xsd:string"/>
+    <part name="order" type="tns:OrderData"/>
+  </message>
+  <message name="UpdateOrderResponse">
+    <part name="updated" type="xsd:boolean"/>
+  </message>
+  <message name="CancelOrderRequest">
+    <part name="llsoWorkID" type="xsd:string"/>
+  </message>
+  <message name="CancelOrderResponse">
+    <part name="status" type="xsd:boolean"/>
+  </message>
+  <message name="ApproveQuoteRequest">
+    <part name="llsoWorkID" type="xsd:string"/>
+  </message>
+  <message name="ApproveQuoteResponse">
+    <part name="status" type="xsd:boolean"/>
+  </message>
+  <message name="RejectQuoteRequest">
+    <part name="llsoWorkID" type="xsd:string"/>
+  </message>
+  <message name="RejectQuoteResponse">
+    <part name="status" type="xsd:boolean"/>
+  </message>
+  <message name="OrderStatusRequest">
+    <part name="llsoWorkIDs" type="SOAP-ENC:Array"/>
+  </message>
+  <message name="OrderStatusResponse">
+    <part name="statuses" type="tns:ArrayOfStatuses"/>
+  </message>
+  <message name="QueryWorkIdRequest">
+    <part name="orderID" type="xsd:string"/>
+  </message>
+  <message name="QueryWorkIdResponse">
+    <part name="llsoWorkID" type="xsd:string"/>
+  </message>
+  <portType name="LLSOrdersPortType">
+    <operation name="NewOrder">
+      <documentation>Client calls this method when creating new order.</documentation>
+      <input message="tns:NewOrderRequest"/>
+      <output message="tns:NewOrderResponse"/>
+    </operation>
+    <operation name="UpdateOrder">
+      <documentation>Client calls this method when updating an order.</documentation>
+      <input message="tns:UpdateOrderRequest"/>
+      <output message="tns:UpdateOrderResponse"/>
+    </operation>
+    <operation name="CancelOrder">
+      <documentation>Client calls this method when an order, already sent, is being canceled. Changes work status to â€œCanceledâ€ when effective.</documentation>
+      <input message="tns:CancelOrderRequest"/>
+      <output message="tns:CancelOrderResponse"/>
+    </operation>
+    <operation name="ApproveQuote">
+      <documentation>Accepts the quote from Lingsoft. Implicitly changes order request type from QUOTE to ORDER and starts the work order.</documentation>
+      <input message="tns:ApproveQuoteRequest"/>
+      <output message="tns:ApproveQuoteResponse"/>
+    </operation>
+    <operation name="RejectQuote">
+      <documentation>Rejects the quote from Lingsoft. Work status changes to WorkState.rejected when effective.</documentation>
+      <input message="tns:RejectQuoteRequest"/>
+      <output message="tns:RejectQuoteResponse"/>
+    </operation>
+    <operation name="OrderStatus">
+      <documentation>Can be used for checking the status of the given order or request.</documentation>
+      <input message="tns:OrderStatusRequest"/>
+      <output message="tns:OrderStatusResponse"/>
+    </operation>
+    <operation name="QueryWorkId">
+      <documentation>Can be used for checking the submission and getting the llsoWorkID with clientâ€™s own id (used when submitting the order) if the return value had problems.</documentation>
+      <input message="tns:QueryWorkIdRequest"/>
+      <output message="tns:QueryWorkIdResponse"/>
+    </operation>
+  </portType>
+  <binding name="LLSOrdersBinding" type="tns:LLSOrdersPortType">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="NewOrder">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#NewOrder" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="UpdateOrder">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#NewOrder" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="CancelOrder">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#CancelOrder" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="ApproveQuote">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#ApproveQuote" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="RejectQuote">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#RejectQuote" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="OrderStatus">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#OrderStatus" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+    <operation name="QueryWorkId">
+      <soap:operation soapAction="https://llso-test.lingsoft.fi/api/v1/#OrderStatus" style="rpc"/>
+      <input>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="https://llso-test.lingsoft.fi/api/v1/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="LLSOrders">
+    <port name="LLSOrdersPort" binding="tns:LLSOrdersBinding">
+      <soap:address location="https://llso-test.lingsoft.fi/api/v1/"/>
+    </port>
+  </service>
+</definitions>

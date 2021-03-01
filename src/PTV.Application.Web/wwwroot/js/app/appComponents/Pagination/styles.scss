@@ -1,0 +1,42 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.pagination {
+  display: flex;
+
+  li.paginationItem {
+    flex: 0 0 38px;
+    button, button[disabled] {
+      border: 1px solid border-color(border);
+      border-radius: 0;
+      font-size: 16px;
+    }
+    ~ li {
+      button, button[disabled] {
+        border-left: none;
+      }
+    }
+    &.active {
+      button {
+        border: 1px solid interaction-color(primary);
+        cursor: default;
+        &[disabled] {
+          border-color: border-color(border);
+        }
+      }
+    }
+  }
+
+  button {
+    padding: 8px;
+    min-width: 38px;
+    height: 38px;
+    &[disabled] {
+      span {
+        cursor: not-allowed;
+      }
+      svg {
+        fill: interaction-color(disabled);
+      }
+    }
+  }
+}

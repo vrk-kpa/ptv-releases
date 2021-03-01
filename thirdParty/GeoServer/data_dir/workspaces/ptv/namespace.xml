@@ -1,0 +1,6 @@
+<namespace>
+  <id>ptv_namespace</id>
+  <prefix>ptv</prefix>
+  <uri>http://palvelutietovaranto.suomi.fi/ptv</uri>
+  <isolated>false</isolated>
+</namespace>

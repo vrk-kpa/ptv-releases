@@ -1,0 +1,251 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\OpenApi\Resources\VmOpenApiServiceCollectionService.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiElectronicChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiElectronicChannelInBase.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiGeneralDescription.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiGeneralDescriptionInBase.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiOrganization.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiOrganizationService.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiPhoneChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiPrintableFormChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiPrintableFormChannelInBase.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiService.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiServiceChannelService.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiServiceLocationChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiServiceServiceChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiWebPageChannel.json" />
+    <None Remove="Models\OpenApi\V10\Resources\V10VmOpenApiWebPageChannelInBase.json" />
+    <None Remove="Models\OpenApi\V10\Resources\VmOpenApiAccessibilityClassification.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiElectronicChannel.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiElectronicChannelInBase.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiPhoneChannel.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiPhoneChannelInBase.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiPrintableFormChannel.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiService.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceChannelService.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceCollection.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceCollectionInBase.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceHour.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceLocationChannel.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceLocationChannelInBase.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiServiceServiceChannel.json" />
+    <None Remove="Models\OpenApi\V11\Resources\V11VmOpenApiWebPageChannel.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V2VmOpenApiDailyOpeningTime.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiEmail.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiLaw.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiPhone.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiPhoneSimple.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiPhoneWithType.json" />
+    <None Remove="Models\OpenApi\V4\Resources\V4VmOpenApiServiceHour.json" />
+    <None Remove="Models\OpenApi\V5\Resources\V5VmOpenApiOrganizationService.json" />
+    <None Remove="Models\OpenApi\V6\Resources\V6VmOpenApiServiceOrganization.json" />
+    <None Remove="Models\OpenApi\V6\Resources\V6VmOpenApiServiceServiceChannel.json" />
+    <None Remove="Models\OpenApi\V7\Resources\V7VmOpenApiAddress.json" />
+    <None Remove="Models\OpenApi\V7\Resources\V7VmOpenApiAddressContact.json" />
+    <None Remove="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithForeignIn.json" />
+    <None Remove="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithMoving.json" />
+    <None Remove="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithMovingIn.json" />
+    <None Remove="Models\OpenApi\V7\Resources\VmOpenApiExtraType.json" />
+    <None Remove="Models\OpenApi\V7\Resources\VmOpenApiServiceChannelService.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiAddressDelivery.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiAddressDeliveryIn.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiAddressWithMoving.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiContactDetails.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiDailyOpeningTime.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannelIn.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannelInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiGeneralDescriptionInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiOrganization.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiOrganizationIn.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiOrganizationInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiPhoneChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiPhoneChannelInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiPrintableFormChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiPrintableFormChannelInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiService.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceChannelService.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceHour.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannelIn.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannelInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiServiceServiceChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiWebPageChannel.json" />
+    <None Remove="Models\OpenApi\V8\Resources\V8VmOpenApiWebPageChannelInBase.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiAttachment.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiAttachmentWithType.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiLanguageItem.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiLocalizedListItem.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiServiceProducerIn.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiServiceVoucher.json" />
+    <None Remove="Models\OpenApi\V8\Resources\VmOpenApiWebPageWithOrderNumber.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiAddress.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiAddressIn.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiAddressLocation.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiAddressLocationIn.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiElectronicChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiElectronicChannelInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiGeneralDescription.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiGeneralDescriptionInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiOrganization.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiOrganizationInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiPhoneChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiPhoneChannelInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiPrintableFormChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiPrintableFormChannelInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiService.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceChannelService.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceLocationChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceLocationChannelInBase.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceProducerIn.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceServiceChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiServiceVoucher.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiWebPage.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiWebPageChannel.json" />
+    <None Remove="Models\OpenApi\V9\Resources\V9VmOpenApiWebPageChannelInBase.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiServiceCollectionService.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiServiceCollectionChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiElectronicChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiElectronicChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiGeneralDescription.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiGeneralDescriptionInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiOrganization.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiOrganizationService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiPhoneChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiPrintableFormChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiPrintableFormChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiServiceChannelService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiServiceLocationChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiServiceServiceChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiWebPageChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V10\Resources\V10VmOpenApiWebPageChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiAccessibilityClassification.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiElectronicChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiElectronicChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiPhoneChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiPhoneChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiPrintableFormChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceChannelService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceCollection.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceCollectionInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceHour.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceLocationChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceLocationChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiServiceServiceChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\V11VmOpenApiWebPageChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V11\Resources\VmOpenApiServiceServiceCollection.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V2VmOpenApiDailyOpeningTime.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiEmail.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiLaw.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiPhone.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiPhoneSimple.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiPhoneWithType.json" />
+    <EmbeddedResource Include="Models\OpenApi\V4\Resources\V4VmOpenApiServiceHour.json" />
+    <EmbeddedResource Include="Models\OpenApi\V5\Resources\V5VmOpenApiOrganizationService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V6\Resources\V6VmOpenApiServiceOrganization.json" />
+    <EmbeddedResource Include="Models\OpenApi\V6\Resources\V6VmOpenApiServiceServiceChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V7\Resources\V7VmOpenApiAddress.json" />
+    <EmbeddedResource Include="Models\OpenApi\V7\Resources\V7VmOpenApiAddressContact.json" />
+    <EmbeddedResource Include="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithForeignIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithMoving.json" />
+    <EmbeddedResource Include="Models\OpenApi\V7\Resources\V7VmOpenApiAddressWithMovingIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiExtraType.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiServiceChannelService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiAddressDelivery.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiAddressDeliveryIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiAddressWithMoving.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiContactDetails.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiDailyOpeningTime.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannelIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiElectronicChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiGeneralDescriptionInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiOrganization.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiOrganizationIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiOrganizationInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiPhoneChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiPhoneChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiPrintableFormChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiPrintableFormChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceChannelService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceHour.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannelIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceLocationChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiServiceServiceChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiWebPageChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V8\Resources\V8VmOpenApiWebPageChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiAttachment.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiAttachmentWithType.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiLanguageItem.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiLocalizedListItem.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiServiceProducerIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiServiceVoucher.json" />
+    <EmbeddedResource Include="Models\OpenApi\Resources\VmOpenApiWebPageWithOrderNumber.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiAddress.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiAddressIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiAddressLocation.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiAddressLocationIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiElectronicChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiElectronicChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiGeneralDescription.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiGeneralDescriptionInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiOrganization.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiOrganizationInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiPhoneChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiPhoneChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiPrintableFormChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiPrintableFormChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceChannelService.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceLocationChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceLocationChannelInBase.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceProducerIn.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceServiceChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiServiceVoucher.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiWebPage.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiWebPageChannel.json" />
+    <EmbeddedResource Include="Models\OpenApi\V9\Resources\V9VmOpenApiWebPageChannelInBase.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

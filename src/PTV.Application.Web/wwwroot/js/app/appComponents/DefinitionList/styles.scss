@@ -1,0 +1,21 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.alterBg {
+  padding: 10px;
+  &:nth-child(odd) {
+    background-color: bg-color(light);
+  }
+}
+
+.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  dt {
+    flex: 0 0 30%;
+  }
+  dd {
+    flex: 0 0 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

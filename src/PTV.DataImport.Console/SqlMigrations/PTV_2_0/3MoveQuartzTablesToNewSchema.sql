@@ -1,0 +1,12 @@
+CREATE SCHEMA IF NOT EXISTS "quartz";
+ALTER TABLE IF EXISTS "qrtz_blob_triggers" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_calendars" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_cron_triggers" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_fired_triggers" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_job_details" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_locks" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_paused_trigger_grps" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_scheduler_state" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_simple_triggers" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_simprop_triggers" SET SCHEMA "quartz";
+ALTER TABLE IF EXISTS "qrtz_triggers" SET SCHEMA "quartz";

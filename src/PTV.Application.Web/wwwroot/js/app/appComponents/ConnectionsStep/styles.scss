@@ -1,0 +1,125 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.spinner {
+  @include spinner-basic();
+}
+
+@include fake-table();
+.buttonGroup {
+  @include arrange-items();
+}
+
+.isOpen {
+  > div {
+    background-color: $gray-light;
+  }
+}
+
+.connectionDetail {
+  background-color: $gray-light;
+  padding: 10px 20px 20px;
+  border-top: 1px solid border-color(border);
+  h1, p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.connectionDetailTab {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div > div {
+    display: block;
+  }
+}
+
+.connectionDetailBody {
+  padding: 10px;
+  border: 1px solid border-color(border);
+  background-color: #FFFFFF;
+}
+
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+}
+
+.notificationAboutOrder {
+  h6 {
+    margin: 0;
+  }
+  [class*='styles__boxContent'] {
+    [class*='styles__description'] {
+      margin: 0;
+    }
+    .inlineLink {
+      display: inline;
+      margin: 0 4px;
+      font-weight: 600;
+    }
+  }
+}
+
+.formHead {
+  border: 1px solid border-color(border);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  thead {
+    background-color: bg-color(dark);
+  }
+}
+
+.topBorder {
+  border-top: 1px solid border-color(border);
+}
+
+.modal {
+  [class*='styles__name___'] {
+    font-weight: 600;
+  }
+  .tableCell {
+    padding-left: 0;
+  }
+  .name {
+    padding-left: 20px;
+  }
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 0;
+  > * {
+    margin-top: 0;
+  }
+}
+
+.headerCell {
+  display: flex;
+  align-items: center;
+}
+
+.tableRow {
+  .hasValueLabel {
+    width: auto;
+  }
+}
+
+.wrapAnywhere {
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,16 @@
+<layer>
+  <name>locationCoordinateWGS84</name>
+  <id>ptv_simpleLayer_locationCoordinateWGS84</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv_simpleFeature_locationCoordinateWGS84</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateModified>2020-09-04 11:26:06.982 UTC</dateModified>
+</layer>

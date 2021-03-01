@@ -1,0 +1,772 @@
+[
+  {
+    "id": 87,
+    "URL": "http://www.kansalaisneuvonta.fi/",
+    "name": "Kansalaisneuvonnan verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Kansalaisneuvonnan verkkosivuilla tarjotaan lisätietoa palvelusta ja linkit suurimpien valtion virastojen sivuille. Verkkosivujen kautta voit myös ottaa yhteyden Kansalaisneuvonnan palveluneuvojaan eri palvelukanavien kautta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "alternateName": [],
+    "shortDescription": "Kansalaisneuvonnan verkkosivuilla tarjotaan lisätietoa palvelusta ja linkit suurimpien valtion virastojen sivuille."
+  },
+  {
+    "id": 95,
+    "URL": "http://www.vero.fi/fi-FI/Henkiloasiakkaat/Verokortti",
+    "name": "Verokortti-verkkosivu",
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Lisätietoja verokortista Verohallinnon verkkosivuilla.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "shortDescription": "Lisätietoja verokortista Verohallinnon verkkosivuilla.",
+    "chargeDescription": "",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu / paikallispuhelumaksu"
+  },
+  {
+    "id": 96,
+    "URL": "http://www.vero.fi/verolaskuri",
+    "name": "Veroprosenttilaskuri",
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Veroprosenttilaskurilla voit arvioida, tarvitsetko muutoksen verokortissasi näkyvään ennakonpidätysprosenttiin. Käytä palvelua silloin kun tulosi tai vähennyksesi ovat oleellisesti muuttuneet esimerkiksi työstä pois jäännin tai työhön menon vuoksi. Laskurilla voit arvioida veron tarpeen tavallisimmissa tapauksissa, esimerkiksi kun saat palkkaa, erilaisia Kelan ja työttömyyskassojen maksamia etuuksia, opintorahaa, merityötuloa tai eläkettä.\nLaskuri soveltuu myös yrittäjien (YEL) ja maatalousyrittäjien (MYEL) eläkelakien mukaan vakuutetuille henkilöille, joiden sairausvakuutusmaksu on laskettu vuodesta 2003 alkaen eri tulojen perusteella, kuin muilla tulonsaajilla. Näillä henkilöillä YEL-/MYEL-työtulo korvaa yritystoiminnasta saadut ansiotulot. Sairausvakuutusmaksu lasketaan työtulon ja niiden ansiotulojen perusteella, joita ei ole korvattu.\nLaskuri soveltuu myös tilanteisiin, joissa tuloista ei makseta Suomeen sairausvakuutusmaksuja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "shortDescription": "Veroprosenttilaskurilla voit arvioida, tarvitsetko muutoksen verokortissasi näkyvään ennakonpidätysprosenttiin.",
+    "chargeDescription": "",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu / paikallispuhelumaksu"
+  },
+  {
+    "id": 97,
+    "URL": "http://portal.vero.fi/Demo_VKV2015/Sivut/Login.aspx?demoasiakas=d1b73ac40dc9436a86f4b0683cd30d24&culture=fi-FI",
+    "name": "Verokortti-demo",
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit tutustua Verokortti verkossa -palveluun demoympäristössä. Demossa on kuvitteellisen Paula Palkansaajan verokorttitiedot aivan kuin oikeillakin asiakkailla on Verokortti verkossa -palvelussa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "shortDescription": "Tutustu Verokortti verkossa -palveluun demoympäristössä.",
+    "chargeDescription": "",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu / paikallispuhelumaksu"
+  },
+  {
+    "id": 98,
+    "URL": "http://www.vero.fi/verokortti#",
+    "name": "Verokortti-chat",
+    "phone": "020 697 000",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Verokortti-chatissa saat ohjeita Verokortti verkossa -palvelun käyttämiseen. Tietosuojasyistä Verokortti-chatissa ei voida antaa tai jakaa henkilätietoja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "shortDescription": "Verokortti-chatissa saat ohjeita Verokortti verkossa -palvelun käyttämiseen.",
+    "chargeDescription": "",
+    "phoneServiceChargeInformation": "paikallisverkkomaksu / paikallispuhelumaksu"
+  },
+  {
+    "id": 99,
+    "URL": "https://vero24.vero.fi/vastauspankki/",
+    "name": "Verohallinnon vastauspankki",
+    "phone": "",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Hae Vastauspankista annettuja vastauksia tai tee oma veroasioihin liittyv kysymys. Verohallinnon asiantuntijat vastaavat kysymyksiin.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 82,
+    "alternateName": [],
+    "shortDescription": "Hae Vastauspankista annettuja vastauksia tai tee oma veroasioihin liittyvä kysymys. Verohallinnon asiantuntijat vastaavat kysymyksiin.",
+    "chargeDescription": ""
+  },
+  {
+    "id": 113,
+    "URL": "http://www.netra.fi",
+    "name": "Netra.fi-verkkopalvelu",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Valtion raportointipalvelu Netra.fi on julkinen verkkopalvelu, joka sisältää ajankohtaista tietoa valtion toiminnasta, resursseista ja tuloksellisuudesta. Netra-palveluun on koottu valtion ohjauksen kannalta keskeinen informaatio.\n\nTuloksellisuutta, taloutta ja henkilöstöä koskevat tiedot ovat tarkasteltavissa valmiiden raporttien muodossa. Talous- ja henkilöstötietojen osalta on mahdollistettu myös syvällisempi analysointi moniulotteisiin raportointikuutioihin perustuen.\n\nValtion raportointipalvelu Netraa ylläpitää ja kehittää Valtiokonttori. Netra-palvelun tavoitteena on tukea johtamista ja tulosohjausta, edistää tulosvastuun ja tilivelvollisuuden toteutumista ja hallinnon avoimuutta sekä täydentää hallinnon sisäistä raportointia.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "alternateName": [
+      "Netra.fi"
+    ],
+    "shortDescription": "Netra.fi-verkkopalvelu sisältää ajankohtaista tietoa valtion toiminnasta, resursseista ja tuloksellisuudesta."
+  },
+  {
+    "id": 118,
+    "URL": "http://www.maistraatti.fi/fi/maistraatit/",
+    "name": "Maistraattien yhteystiedot",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Sivulla esitetään maistraattien toimipisteiden yhteystiedot. Suomessa on 9 maistraattia ja niillä toimipisteitä yhteensä 39. Ahvenanmaalla tehtäviä hoitaa Ahvenanmaan valtionvirasto.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 79,
+    "alternateName": [],
+    "shortDescription": "Maistraattien yhteystiedot alueittain. Suomessa on 9 maistraattia ja niillä yhteensä 39 toimipistettä."
+  },
+  {
+    "id": 122,
+    "URL": "http://www.valtiokonttori.fi/fi-FI/Kansalaisille_ja_yhteisoille/Korvaukset_ja_etuisuudet/Sotilastapaturmat_varusmiespalveluksessa",
+    "name": "Tapaturmat varusmies- tai siviilipalveluksessa",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Valtiokonttorin verkkosivuilta saat lisätietoa varusmiesten ja siviilipalvelusmiesten palvelustapaturmien ja -sairauksien hoidon korvauksista. Sivujen kautta voit myös lähettää tietoturvallisesti suojatun yhteyden kautta sähköpostia Valtiokonttoriin.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "alternateName": [],
+    "shortDescription": "Valtiokonttorin verkkosivuilta saat lisätietoa palvelustapaturmien ja -sairauksien hoidon korvauksista."
+  },
+  {
+    "id": 125,
+    "URL": "http://verkkopalvelu.vrk.fi/Nimipalvelu/default.asp?L=1",
+    "name": "Nimipalvelu",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Nimipalvelun kautta voit hakea väestötietojärjestelmään tallennettujen etu- ja sukunimien lukumääriä Suomessa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 77,
+    "alternateName": [],
+    "shortDescription": "Nimipalvelun kautta voit hakea väestötietojärjestelmään tallennettujen etu- ja sukunimien lukumääriä Suomessa."
+  },
+  {
+    "id": 128,
+    "URL": "http://www.valtiokonttori.fi/fi-FI/Kansalaisille_ja_yhteisoille/Korvaukset_ja_etuisuudet/Rikosvahingot",
+    "name": "Rikoksesta aiheutuneiden vahinkojen korvaukset",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Sivulla ja sen alasivuilla tarjotaan tietoa, missä tapauksissa Valtiokonttori maksaa rikoksen uhrille vahingonkorvauksia ja miten korvauksia haetaan. Sivuilla on myös luettelo hakemukseen tarvittavista liitteistä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 81,
+    "alternateName": [],
+    "shortDescription": "Tietoa rikosvahinkojen uhrien korvauksista ja niiden hakemisesta."
+  },
+  {
+    "id": 223,
+    "URL": "http://www.mikkeli.fi/palvelut/rakennusvalvonnan-luvat",
+    "name": "Rakennusvalvonnan luvat",
+    "email": "rakennusvalvonta@mikkeli.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelin kaupungin rakennusvalvonnan sivuilta löydät tietoa ja ohjeita rakennusvalonnan lupa-asioista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Tietoa luvista, joita rakennuslupaprosessiin tarvitaan."
+  },
+  {
+    "id": 224,
+    "URL": "http://www.mikkeli.fi/palvelut/rakennusvalvonnan-lomakkeet",
+    "name": "Rakennusvalvonnan lomakkeet",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Voit hoitaa kaikki rakennuslupaprosessiin liittyvät asioinnit sähköisesti Lupapiste.fi-palvelussa. Jos kuitenkin tarvitset hakemusten tekoon tulostettavia lomakkeita, löydät ne Mikkelin kaupungin rakennusvalvonnan verkkosivulta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Kooste rakennuslupaan tarvittavista lomakkeista."
+  },
+  {
+    "id": 225,
+    "URL": "http://www.mikkeli.fi/palvelut/rakennusvalvonnan-ohjeet",
+    "name": "Rakennusvalvonnan ohjeet",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Ohjeita Rakennusvalvonnan hallinnoimien lupien hakemiseen.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Rakennusvalvonnan ohjeet"
+  },
+  {
+    "id": 262,
+    "URL": "http://www.metsasairila.fi/metsasairila/fi/lajittelun-abc/",
+    "name": "Lajittelun ABC",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Tietoa lajittelusta löydät Metsäsairila Oy:n Lajittelun ABC:stä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 169,
+    "alternateName": [],
+    "shortDescription": "Metsäsairila Oy:n lajitteluohje Lajittelun ABC"
+  },
+  {
+    "id": 263,
+    "URL": "http://www.metsasairila.fi/metsasairila/fi/tietopankki/lajittelu/index.php",
+    "name": "Metsäsairila Oy:n verkkosivut lajittelusta",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Metsäsairila Oy:n lajittelun tietopankista saat neuvontaa jätehuollon järjestämiseen, kompostointiin, lajitteluun sekä lietteen, vaarallisten jätteiden ja sähkölaitteiden käsittelyyn.\n\nTietopankista löydät myös esitteitä eri aihepiireistä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 169,
+    "alternateName": [],
+    "shortDescription": "Tietoa jätteiden lajittelusta"
+  },
+  {
+    "id": 276,
+    "URL": "http://www.mikkeli.fi/palvelutyyppi/perhepalvelut",
+    "name": "Mikkelin kaupungin verkkosivut - Perhepalvelut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelin kaupungin verkkosivujen palveluoppaassa kerrotaan varhaiskasvatuksen palveluista. Alle kouluikäisten lasten vanhemmilla on mahdollisuus valita erilaisia varhaiskasvatus- ja päivähoitopalveluita: lapsen hoitaminen kotona ja kotihoidontuki, kun perheessä on alle 3-vuotias lapsi, kunnallinen päivähoito tai päivähoidon järjestäminen yksityisessä päivähoidossa. Kunnallista päivähoitoa järjestetään päiväkodeissa, ryhmäperhepäiväkodeissa ja perhepäivähoidossa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Verkkosivuilta löydät perustietoa lasten päivähoito- ja varhaiskasvatuspalveluista."
+  },
+  {
+    "id": 280,
+    "URL": "http://www.mikkeli.fi/palvelut/jatehuolto",
+    "name": "Mikkelin kaupungin jätehuollon verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [
+      {
+        "URL": "http://www.mikkeli.fi/files/atoms/files/tyhjennysvalin_pidennys.pdf",
+        "name": "Tyhjennysvälin pidennyshakemus",
+        "identifier": "268ad783-c3de-4717-bf1e-dacf4761f387",
+        "description": "Jäteastian tyhjennysvälin muuttaminen."
+      }
+    ],
+    "description": "Mikkelin kaupungin jätehuollon verkkosivuilta löydät tietoa jätehuollon neuvonnasta, maksuista, jäteasemista ja viranomaistoiminnoista.\n\nJätehuollon viranhaltijatehtäviä hoitaa jäteasiain tarkastaja, joka päättää kiinteistökohtaisen jätteenkeräyksen tyhjennysvälin pidennyksistä sekä jätemaksujen vapautuksesta ja kohtuullistamisesta. Jätehuolto kuuluu rakennuslautakunnan alaisuuteen ja sitä valvoo Mikkelin kaupungin Ympäristöpalvelut.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupungin jätehuollon verkkosivuilta löydät tietoa jätehuollon neuvonnasta, maksuista, jäteasemista ja viranomaistoiminnoista."
+  },
+  {
+    "id": 319,
+    "URL": "http://kansalaisopisto.mikkeli.fi/",
+    "name": "Mikkelin kansalaisopiston verkkosivut",
+    "email": "kansalaisopisto@mikkeli.fi",
+    "phone": "015 194 2929",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kansalaisopiston sivuilta löydät perustietoja kurssitoiminnasta, kansalaisopiston tapahtumista,  muista ajankohtaisista palveluista, yhteystiedot sekä linkit esitteisiin ja sähköiseen ilmottautumisjärjestelmään.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Kansalaisopiston sivuilta löydät perustietoja kurssitoiminnasta, muista palveluista ja yhteystiedot."
+  },
+  {
+    "id": 320,
+    "URL": "https://fi-fi.facebook.com/Mikkelin-kansalaisopisto-149624898432465/",
+    "name": "Mikkelin kansalaisopiston Facebook-sivut",
+    "email": "",
+    "phone": "",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en"
+    ],
+    "attachments": [],
+    "description": "Sosiaalisessa mediassa on mahdollista kommentoida ja kysyä kansalaisopiston toiminnasta ja kursseista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Facebook-sivuille päivitetään Mikkelin kansalaisopiston kurssiesittelyjä ja ajankohtaisia tapahtumia.",
+    "phoneServiceChargeInformation": ""
+  },
+  {
+    "id": 338,
+    "URL": "http://kirjasto.mikkeli.fi/",
+    "name": "Mikkelin kaupunginkirjaston kotisivu",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelin kaupunginkirjaston verkkosivuilta löydät tietoa kirjaston palveluista, aukioloajoista ja tapahtumista. Löydät lisäksi hyödyllisiä linkkejä erilaisiin tietokantoihin sekä sähköisiin sisältöihin ja palveluihin. Kotisivun kautta pääset myös Lumme-verkkokirjastoon. Verkkolomakkeiden avulla voit olla yhteydessä kirjastoon.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupunginkirjaston verkkosivut"
+  },
+  {
+    "id": 339,
+    "URL": "https://twitter.com/mikkelikirjasto",
+    "name": "Mikkelin kaupunginkirjaston Twitter-tili",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kirjaston Twitter-tilin kautta saat aineistovinkkejä sekä tietoa kirjaston tapahtumista, palveluista. Sivuilla voi kommentoida julkaisuja.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupunginkirjaston Twitter-tili"
+  },
+  {
+    "id": 340,
+    "URL": "https://www.facebook.com/mikkelin.taidemuseo/?fref=ts",
+    "name": "Mikkelin taidemuseon / Etelä-Savon aluetaidemuseon Facebook-sivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Museon facebook-sivuilla on ajankohtaista tietoa vaihtuvista näyttelyistä ja museoiden aukioloajoista. Sivuilla kerrotaan myös kulttuuri- ja  taidetapahtumista, joissa museo on mukana joko järjestäjänä tai muuten osallistuvana tahona.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Mikkelin taidemuseon / Etelä-Savon aluetaidemuseon Facebook-sivuilla on ajankohtaista asiaa näyttelyistä ja tapahtumista."
+  },
+  {
+    "id": 341,
+    "URL": "https://www.facebook.com/?q=#!/paamajamuseo/?fref=ts",
+    "name": "Päämajamuseon Facebook-sivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Museon facebook-sivuilla kerrotaan myös Päämajamuseoon kuuluvista Viestikeskus Lokista ja Mannerheimin salonkivaunusta. Facebookista löytyvät kohteiden sijaintitiedot Mikkelissä sekä kohteiden aukioloajat. Sivuilla on kuvia museoassa vierailleista merkittävistä henkilöistä sekä museokaupan oheistuotteista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Päämajamuseon Facebook-sivuilla on ajankohtaista tietoa ja kuvia museosta."
+  },
+  {
+    "id": 342,
+    "URL": "https://www.facebook.com/#!/suursavon.museo/?fref=ts",
+    "name": "Suur-Savon museon Facebook-sivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Museon Facebook-sivuilla on ajankohtaista tietoa vaihtuvista näyttelyistä ja museon aukioloajoista. Sivuilla on kuvia museon mielenkiintoisista esineistä ja esittelytietoa muun muassa vaihtuvasta kuukauden esineestä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Suur-Savon museon Facebook-sivuilta löytyy ajankohtaisia kuvia ja tapahtumia."
+  },
+  {
+    "id": 343,
+    "URL": "http://www.mikkeli.fi/museot",
+    "name": "Mikkelin kaupungin museoiden verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikkelin kaupungin museoiden verkkosivuilta löydät museokohtaiset esittelyt, aukioloajat ja muut ajankohtaiset tapahtumat. \n\nMikkelin kaupungin museoihin kuuluvat Mikkelin taidemuseo, Päämajamuseo, Viestikeskus Lokki, Suur-Savon museo, Kivisakasti, Harjukosken mylly, Pien-Toijolan talonpoikaismuseo sekä Nikkisen torppa.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupungin museoiden verkkosivuilta löydät museokohtaiset esittelyt, aukioloajat ja muut ajankohtaiset tapahtumat."
+  },
+  {
+    "id": 352,
+    "URL": "https://www.facebook.com/mikkelin.kirjasto",
+    "name": "Mikkelin kaupunginkirjaston Facebook-sivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kirjaston Facebook-sivulta löydät tietoa kirjaston tapahtumista ja palveluista sekä aineistovinkkejä. Voit kommentoida julkaisuja, antaa palautetta ja lähettää kirjastolle viestejä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupunginkirjaston Facebook-sivut"
+  },
+  {
+    "id": 353,
+    "URL": "https://www.instagram.com/mikkelinkirjasto/",
+    "name": "Mikkelin kaupunginkirjaston Instagram-tili",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kirjaston Instagram-tilillä julkaistaan kirjaston tapahtumiin ja palveluihin liittyvää tietoa. Sivuilla voit myös kommentoida julkaisuja. Julkaisukanavan erityisenä kohderyhmänä ovat nuoret.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupunginkirjaston Instagram-tili"
+  },
+  {
+    "id": 354,
+    "URL": "https://lumpeenlehtia.wordpress.com/",
+    "name": "Mikkelin kaupunginkirjaston blogi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Lumpeenlehtiä-blogista löydät aineistovinkkejä sekä tietoa kirjaston tapahtumista ja palveluista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 314,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupunginkirjaston Lumpeenlehtiä-blogi"
+  },
+  {
+    "id": 376,
+    "URL": "http://www.mikkeli.fi/palvelut/kaupunginarkiston-tietopalvelu",
+    "name": "Mikkelin kaupunginarkiston tietopalvelun verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kaupunginarkiston tietopalvelusivuilta saat tietoa Mikkelin kaupunginarkiston tietopalvelusta ja yhteystiedoista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Kaupunginarkiston tietopalvelusivuilta saat tietoa kaupunginarkiston tietopalvelusta ja yhteystiedoista."
+  },
+  {
+    "id": 387,
+    "URL": "http://www.mikkeli.fi/palvelut/kaupunginarkiston-tietopalvelu",
+    "name": "Mikkelin kaupungin verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kaupunginarkiston tietopalvelusivuilta saat tietoa kaupunginarkiston tietopalvelusta ja yhteystiedoista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Kaupunginarkiston tietopalvelusivut"
+  },
+  {
+    "id": 391,
+    "URL": "http://www.mikkeli.fi/palvelut/asumisoikeusasunnot",
+    "name": "Mikkelin kaupungin verkkosivut, asumisoikeusasunnot",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Asumisoikeusasunnon saamiseksi hakijan on ensin jätettävä järjestysnumerohakemus Mikkelin kaupungille. Verkkosivuilla on linkki tulostettavaan hakemukseen palautusohjeineen. \nSivustolla on ohjeet ilmoittautumisesta Asumisoikeus Oy:lle asunnon hakijaksi. Tämän lisäksi verkkosivuilla on tietoa sopimuksen teosta, asumisoikeusmaksun maksamisesta ja vakuusmaksusta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 105,
+    "alternateName": [],
+    "shortDescription": "Mikkelin kaupungin sivuilla kerrotaan alueen asumisoikeusasunnoista ja järjestysnumeron hakumenettelystä."
+  },
+  {
+    "id": 393,
+    "URL": "http://www.ymparisto.fi/fi-FI/Asuminen/Asumisoikeusasuminen",
+    "name": "Ympäristöministeriön verkkosivut, asumisoikeusasuminen",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Ympäristöministeriön sivuilla on kattavasti tietoa muun muassa siitä, mitä asumisoikeusasuminen tarkoittaa ja kuka voi saada asumisoikeusasunnon. \nSivustolla kerrotaan myös hakumenettelystä, asumiskustannuksista ja asumisoikeudesta luopumisesta.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 392,
+    "alternateName": [],
+    "shortDescription": "Ympäristöministeriön verkkosivuilla kerrotaan asumisoikeusasumisen perusperiaatteet ja opastetaan hakemuksissa."
+  },
+  {
+    "id": 395,
+    "URL": "http://www.ara.fi/fi-FI/Ohjaus_ja_valvonta/ARAasuntokannan_ohjaus_ja_valvonta/Asumisoikeusasunnot",
+    "name": "Asumisen rahoitus- ja kehittämiskeskus ARAn verkkosivut, asumisoikeusasunnot",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "ARAn verkkosivuilta löydät hyödyllistä tietoa muun muassa asukasvalinnasta, asukasdemokratiasta ja käyttövastikkeen muodostumisesta. \nSivustolla kerrotaan asumisoikeustalon omistajan tiedonantovelvollisuudesta ja sieltä löytyy myös linkki asumisoikeusasumisen lainsäädäntöön.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 394,
+    "alternateName": [],
+    "shortDescription": "ARAn sivuilla kerrotaan asumisoikeusasumisen perusperiaatteista ja opastetaan hakemuksen tekemisessä."
+  },
+  {
+    "id": 400,
+    "URL": "http://esuomi.fi/",
+    "name": "eSuomi.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "eSuomi.fi on Kansallisen palveluarkkitehtuurin viestintäkanava.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 398,
+    "alternateName": [],
+    "shortDescription": "eSuomi.fi on Kansallisen palveluarkkitehtuurin viestintäkanava."
+  },
+  {
+    "id": 412,
+    "URL": "http://www.oph.fi/saadokset_ja_ohjeet/opetussuunnitelmien_ja_tutkintojen_perusteet",
+    "name": "Opetussuunnitelmien ja tutkintojen perusteet",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Opetushallituksen sivuilla voit tutustua voimassa oleviin opetussuunnitelmien ja tutkintojen perusteisiin ja tarkistettavien tutkintojen perusteiden valmisteluun. Osiot on jaoteltu kouluasteittain.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 396,
+    "alternateName": [],
+    "shortDescription": "Opetushallituksen sivuilla voit tutustua opetussuunnitelmien ja tutkintojen perusteisiin ja tarkistettavien tutkintojen perusteiden valmisteluun."
+  },
+  {
+    "id": 415,
+    "URL": "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/",
+    "name": "Palvelutietovarannon esittely eSuomi.fi-sivustolla",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "PTV-sivut Kansallisen palveluarkkitehtuurin viestintäkanavassa eSuomi.fissä.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 398,
+    "alternateName": [],
+    "shortDescription": "PTV-sivut eSuomi.fissä"
+  },
+  {
+    "id": 418,
+    "URL": "http://www.trafi.fi/tietopalvelut/vaaralliset_aineet/vak_tiekuljetukset/reittirajoitukset",
+    "name": "Kuvaus vaarallisten aineiden kuljetusten reittirajoituksista",
+    "email": "viestinta@trafi.fi",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kuvaus vaarallisten aineiden kuljetusten reittirajoituksista",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 240,
+    "alternateName": [],
+    "shortDescription": "Kuvaus vaarallisten aineiden kuljetusten reittirajoituksista"
+  },
+  {
+    "id": 425,
+    "URL": "http://www.mikalo.fi/",
+    "name": "Mikkelin vuokra-asunnot",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Mikalo Oy:n sivuilta löydät kartan Mikkelin vuokra-asunnoista. Sivuilla esitellään Mikalo Oy:n isännöimät vuokra-asunnot ja niiden sijainnit, asukasvalinnan peusteet sekä asunnon hakemisen ohjeet.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 422,
+    "alternateName": [],
+    "shortDescription": "Mikalo Oy:n vuokra-asuntojen esittely ja sijaintitiedot."
+  },
+  {
+    "id": 429,
+    "URL": "https://www.facebook.com/mikalomikkeli/?fref=ts",
+    "name": "Mikalo Oy:n Facebook-sivu",
+    "charge": false,
+    "keyword": [],
+    "language": [],
+    "attachments": [],
+    "description": "Facebook-sivuilla Mikalo tiedottaa muun muassa toimiston poikkeavista aukioloajoista ja tapahtumista, joihin yhtiö osallistuu.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 422,
+    "alternateName": [],
+    "shortDescription": "Mikalo Oy:n Facebook-sivuilla on ajankohtaisia ilmoituksia."
+  },
+  {
+    "id": 447,
+    "URL": "http://www.mikkeli.fi/palvelut/elainlaakari",
+    "name": "Mikkelin seudun eläinlääkintähuollon verkkosivut",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Sivuilta löydät eläinlääkärien tarkat yhteystiedot ja päivystysajat sekä tietoa eläinlääkinnästä ja lemmikkieläinten hautapaikoista.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 443,
+    "alternateName": [],
+    "shortDescription": "Sivuilta löydät eläinlääkärien yhteystiedot ja tietoa eläinlääkinnästä ja eläinten hautapaikoista."
+  },
+  {
+    "id": 461,
+    "URL": "https://www.facebook.com/kuluttajaneuvonta.fi/",
+    "name": "Kuluttajaneuvonta Facebookissa",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi",
+      "en",
+      "sv"
+    ],
+    "attachments": [],
+    "description": "Kuluttajaneuvonnan Facebook-sivulla jaetaan ajankohtaista tietoa kuluttajan oikeuksista ja velvollisuuksista sekä annamme yleisiä ohjeita kuluttajan ja yrityksen välisten ongelmien selvittämiseen. Voit esittää kysymyksiä ja kommentoida. Ethän julkaise luottamuksellisia tai yksityisyyden suojan piiriin kuuluvia tietoja tai mainoksia. Lainvastaiset ja loukkaavat kirjoitukset poistamme.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 459,
+    "alternateName": [],
+    "shortDescription": "Ajankohtaista tietoa kuluttajan oikeuksista ja velvollisuuksista."
+  },
+  {
+    "id": 1307,
+    "URL": "https://www.facebook.com/kuluttajaneuvonta.fi/",
+    "name": "Kuluttajaneuvonta Facebookissa",
+    "charge": false,
+    "keyword": [],
+    "language": [
+      "fi"
+    ],
+    "attachments": [],
+    "description": "Kuluttajaneuvonnan Facebook-sivulla jaetaan ajankohtaista tietoa kuluttajan oikeuksista ja velvollisuuksista sekä annamme yleisiä ohjeita kuluttajan ja yrityksen välisten ongelmien selvittämiseen. Voit esittää kysymyksiä ja kommentoida. Ethän julkaise luottamuksellisia tai yksityisyyden suojan piiriin kuuluvia tietoja tai mainoksia. Lainvastaiset ja loukkaavat kirjoitukset poistamme.",
+    "targetGroup": [],
+    "ontologyTerm": [],
+    "organization": 1303,
+    "alternateName": [],
+    "shortDescription": "Ajankohtaista tietoa kuluttajan oikeuksista ja velvollisuuksista."
+  }
+]

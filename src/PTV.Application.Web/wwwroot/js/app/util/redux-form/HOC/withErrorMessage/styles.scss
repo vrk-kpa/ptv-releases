@@ -1,0 +1,33 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.warningList {
+  color: text-color(primary);
+  h6 {
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+  }
+  li {
+    position: relative;
+    padding-left: 10px;
+    &::after {
+      @include pseudo-bullet($color: status-color(notification), $top: 8px);
+    }
+  }
+}
+
+.otherWarnings {
+  ul {
+    margin-left: 10px;
+    li {
+      padding-left: 0;
+      &::after {
+        display: none;
+      }
+      &::before {
+        content: '-';
+        margin-right: 5px;
+      }
+    }
+  }
+}

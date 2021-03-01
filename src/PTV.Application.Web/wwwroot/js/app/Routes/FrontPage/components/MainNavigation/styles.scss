@@ -1,0 +1,31 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.labelWrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+.labelCounter {
+  margin-left: 5px;
+  background-color: status-color(notification);
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.loadCounter {
+  position: relative;
+  line-height: 20px;
+}
+
+.compact {
+  margin: 10px 0;
+}
+
+.optionCounter {
+  margin-left: 4px;
+}
+
+.option {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

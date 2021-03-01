@@ -1,0 +1,16 @@
+<dataStore>
+  <id>datastore_serviceLocationStandardServiceHours</id>
+  <name>serviceLocationStandardServiceHours</name>
+  <description>Service Location Standard Service Hours</description>
+  <enabled>true</enabled>
+  <workspace>
+    <id>ptv_workspace</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://palvelutietovaranto.suomi.fi/ptv</entry>
+    <entry key="dbtype">app-schema</entry>
+    <entry key="url">file:workspaces/ptv/serviceLocationStandardServiceHours/serviceLocationStandardServiceHours.xml</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateModified>2020-09-02 08:30:16.793 UTC</dateModified>
+</dataStore>

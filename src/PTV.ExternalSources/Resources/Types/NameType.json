@@ -1,0 +1,36 @@
+﻿[
+    {
+        "code": "Name",
+        "names": [
+            {
+                "Name": "Nimi",
+                "language": "fi"
+            },
+            {
+                "Name": "Name",
+                "language": "en"
+            },
+            {
+                "Name": "Namn",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "AlternateName",
+        "names": [
+            {
+                "Name": "Vaihtoehtoinen nimi",
+                "language": "fi"
+            },
+            {
+                "Name": "Alternative name",
+                "language": "en"
+            },
+            {
+                "Name": "Alternativt namn",
+                "language": "sv"
+            }
+        ]
+    }
+]
