@@ -1,0 +1,33 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.targetGroupNodeLabel {
+  flex-wrap: wrap;
+  > label {
+    flex: 0 0 100%;
+    > span[class*='styles__requiredStar'] {
+      width: auto;
+    }
+  }
+}
+
+.container {
+  width: 33.3%;
+  display: inline-flex;
+  &:first-child {
+    padding-top: 0;
+  }
+}
+
+.wrap {
+  flex: 0 0 100%;
+}
+
+@media #{bp('<=desktop')} {
+  .container {
+    width: auto;
+    display: block;
+    ~ .container {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+Row|<tr><td width="30" class="bullet">&bull;</td><td>$INSERT$</td></tr>
+TasksEmpty|Sinulla ei ole tehtäviä.
+NotificationsEmpty|Sinulla ei ole ilmoituksia.
+ServiceChannelInCommonUse|Palvelut, joiden liitos yhteiskäyttöiseen kanavaan on poistettu omistajaorganisaation toimesta
+ContentUpdated|Palvelut ja asiointikanavat, joiden metatietoja Väestörekisterikeskus on muuttanut
+ContentArchived|Automaattisesti arkistoituneet sisällöt ($INSERT$)
+GeneralDescriptionCreated|Uudet pohjakuvaukset
+GeneralDescriptionUpdated|Muuttuneet pohjakuvaukset
+ConnectionChanges|Liitoksissa tapahtuneet muutokset
+OutdatedPublishedChannels|Organisaatiosi vanhentuvat julkaistut palvelupaikat ja puhelinasiointikanavat ($INSERT$)
+NotUpdatedDraftServices|Organisaatiosi päivittämättömät luonnostilaiset palvelut ($INSERT$)
+NotUpdatedPublishedServices|Organisaatiosi päivittämättömät julkaistut palvelut ($INSERT$)
+NotUpdatedDraftChannels|Organisaatiosi päivittämättömät luonnostilaiset asiointikanavat ($INSERT$)
+NotUpdatedPublishedChannels|Organisaatiosi päivittämättömät julkaistut asiointikanavat ($INSERT$)
+ServicesWithoutChannels|Organisaatiosi palvelut, joihin ei ole liitetty yhtään asiointikanavaa ($INSERT$)
+ChannelsWithoutServices|Organisaatiosi asiointikanavat, joihin ei ole liitetty yhtään palvelua ($INSERT$)
+TranslationArrived|Saapuneet käännöstilaukset ($INSERT$)
+TranslationInProgress|Keskeneräiset käännöstilaukset ($INSERT$)
+MissingLanguageOrganizations|Organisaatiotietojen kieliversioita puuttuu ($INSERT$)
+TimedPublishFailed|Ajastettu julkaisu, epäonnistui, koska pakollisia tietoja puuttuu ($INSERT$)
+UnstableLinks|Organisaatiosi rikkinäiset linkit ($INSERT$)

@@ -1,0 +1,29 @@
+﻿{
+  "serviceChannel": {
+    "id": "string",
+    "name": "string"
+  },
+  "serviceChargeType": "string",
+  "description": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "digitalAuthorizations": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "string",
+      "parentUri": "string"
+    }
+  ]
+}

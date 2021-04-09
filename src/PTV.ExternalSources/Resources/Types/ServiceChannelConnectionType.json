@@ -1,0 +1,89 @@
+﻿[
+  {
+    "Code": "NotCommon",
+    "Names": [
+      {
+        "Name": "Asiointikanava on liitettävissä vain oman organisaation palveluihin",
+        "Language": "fi"
+      },
+      {
+        "Name": "Service channel can be connected only to your organization's services",
+        "Language": "en"
+      },
+      {
+        "Name": "Servicekanalen kan kopplas endast till egen organisations tjänster",
+        "Language": "sv"
+      },
+      {
+        "Name": "Áššiiddikšunkanála sáhttá laktit dušše iežas organisašuvnna bálvalusaide",
+        "Language": "se"
+      },
+      {
+        "Name": "Ášástâllâmkaanaal puáhtá lahteđ tuše tuu jieijâd organisaatio palvâlussáid",
+        "Language": "smn"
+      },
+      {
+        "Name": "Äʹššeemkanaal lij õhtteemnalla pâi jiijjâs organisaatioi kääzzkõõzzid",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "CommonForAll",
+    "Names": [
+      {
+        "Name": "Asiointikanava on liitettävissä kaikkien organisaatioiden palveluihin",
+        "Language": "fi"
+      },
+      {
+        "Name": "Service channel can be connected to all organizations",
+        "Language": "en"
+      },
+      {
+        "Name": "Servicekanalen kan kopplas till tjänster av alla organisationer",
+        "Language": "sv"
+      },
+      {
+        "Name": "Áššiiddikšunkanála sáhttá laktit buot organisašuvnnaid bálvalusaide",
+        "Language": "se"
+      },
+      {
+        "Name": "Ášástâllâmkaanaal puáhtá lahteđ puoh organisaatioi palvâlussáid",
+        "Language": "smn"
+      },
+      {
+        "Name": "Äʹššeemkanaal lij õhtteemnalla puki organisaatioi kääzzkõõzzid",
+        "Language": "sms"
+      }
+    ]
+  },
+  {
+    "Code": "CommonFor",
+    "Names": [
+      {
+        "Name": "Asiointikanava on liitettävissä seuraavien organisaatioiden palveluihin",
+        "Language": "fi"
+      },
+      {
+        "Name": "Service channel can be connected to the following organizations",
+        "Language": "en"
+      },
+      {
+        "Name": "Servicekanalen kan kopplas till tjänster av följande organisationer",
+        "Language": "sv"
+      },
+      {
+        "Name": "Áššiiddikšunkanála sáhttá laktit čuovvovaš organisašuvnnaid bálvalusaide",
+        "Language": "se"
+      },
+      {
+        "Name": "Ášástâllâmkaanaal puáhtá lahteđ čuávuvái organisaatioi palvâlussáid",
+        "Language": "smn"
+      },
+      {
+        "Name": "Äʹššeemkanaal lij õhtteemnalla puõʹtti organisaatioi kääzzkõõzzid",
+        "Language": "sms"
+      }
+    ]
+  }
+]

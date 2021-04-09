@@ -1,0 +1,15 @@
+<layer>
+  <name>serviceLocation</name>
+  <id>layer_serviceLocation</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>featureType_serviceLocation</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

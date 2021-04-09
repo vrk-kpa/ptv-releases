@@ -1,0 +1,106 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+
+.searchForm {
+  background-color: bg-color(dark);
+  border: 1px solid border-color(border);
+  border-bottom-color: transparent;
+  padding-top: 20px;
+}
+
+.searchFormEmpty {
+  background-color: bg-color(dark);
+  border: 1px solid border-color(border);
+  padding-top: 20px;
+}
+
+.searchFormRow {
+  padding: 0 20px;
+  background-color: bg-color(dark);
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.gdHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attachedGD {
+  line-height: 40px;
+}
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px);
+}
+
+.spinner {
+  @include spinner-basic();
+}
+
+.previewIcon {
+  margin-right: 5px;
+}
+
+.searchResult {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  &.top {
+    border-top: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.showMore {
+  text-align: center;
+  padding: 15px 0;
+  border: 1px solid border-color(border);
+  border-top: none;
+}
+
+.searchButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: stretch;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  .searchSpinner {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.searchSpinner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.streetSearchWrap {
+  display: flex;
+  flex-direction: column;
+  :global {
+    [class*='styles__streetWrapper'][class*='styles__isOpen'] [class*='styles__streetMenu'] {
+      top: 37px;
+    }
+    [class*='styles__streetWrapper'] {
+      [class*='styles__streetCross'], [class*='styles__spinner'], [class*='styles__searchIcon'] {
+        top: 10px;
+      }
+    }
+  }
+}
+
+.streetSearch {
+  display: flex;
+  align-items: center;
+  > div:first-child {
+    flex: 1 0 auto;
+  }
+}

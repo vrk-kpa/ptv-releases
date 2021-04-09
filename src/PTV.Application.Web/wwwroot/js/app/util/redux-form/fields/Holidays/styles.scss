@@ -1,0 +1,28 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.holidayWrap .holidayInfoTitle {
+  margin: 0 0 15px;
+}
+
+.holidayInfoDescription {
+  margin: 0 0 20px;
+}
+
+.holidayType {
+  margin-right: -40px;
+}
+
+.holidayInterval {
+  margin-left: 30px;
+}
+
+.holidayWrap {
+  padding: 10px 30px 0 30px;
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.selected {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.bullet {
+  &::before {
+    content: '\2022';
+    margin-right: 10px;
+  }
+}
+
+.list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

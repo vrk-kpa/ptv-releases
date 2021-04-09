@@ -1,0 +1,609 @@
+[
+  {
+    "id": 126,
+    "law": "",
+    "name": "Tontin lohkominen",
+    "lifeEvent": [
+      "Talon rakentaminen"
+    ],
+    "statutory": false,
+    "description": "Tontin lohkomisen edellytyksenä on voimassa oleva tonttijako. Lohkomistoimituksessa tarkistetaan vanhat rajat ja rakennetaan uudet rajamerkit. Näin muodostuva tontti merkitään kiinteistörekisteriin.\n\nAsemakaavoitetun alueen lohkomisesta ja paikallisen kiinteistörekisterin ylläpidosta vastaa kunta. Alueilla, joilla ei ole asemakaavaa, lohkomisesta vastaa Maanmittauslaitos.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "tontin lohkominen",
+      "kiinteistötoimitus",
+      "tontit",
+      "maanmittaus"
+    ],
+    "serviceClass": [
+      "Kiinteistöt"
+    ],
+    "shortDescription": "Tontin lohkomisen edellytyksenä on voimassa oleva tonttijako."
+  },
+  {
+    "id": 127,
+    "name": "Tontin korkeuden näyttö ja rakennuksen sijainnin merkitseminen ja katselmoiminen",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Tontin korkeuden näytön voi pyytää kunnan kiinteistötoimelta. Tontin korkeuden näyttö on mittaustoimenpide, jolla osoitetaan rakennuspaikan korkeusasema. \n\nRakennuksen sijainnin merkitsemisellä osoitetaan rakennuksen suunnitelmien mukainen paikka. Sijaintikatselmuksella todetaan rakennuksen sijainti. Siitä annetaan tarvittaessa lausunto.\n\nTyöstä voidaan periä palkkio.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "tontit",
+      "sijaintikatselmukset"
+    ],
+    "serviceClass": [
+      "Maankäyttö, kaavoitus ja tontit"
+    ],
+    "shortDescription": "Tontin korkeuden näyttö on mittaustoimenpide, jolla osoitetaan rakennuspaikan korkeusasema."
+  },
+  {
+    "id": 141,
+    "law": "",
+    "name": "Perusopetuksen erityisopetus ja erityinen tuki",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Perusopetuksen oppilailla on oikeus erityisopetukseen tai muuhun tukeen, mikäli oppimis- tai sopeutumisvaikeus, vamma, sairaus tai muu syy sitä edellyttää. Tuki voi olla yleistä, tehostettua tai erityistä. Oppilaan tulee tarvittaessa saada tukea viivytyksettä. Erityinen tuki edellyttää hallintopäätöstä.\n\nJos oppilas on jäänyt jälkeen tilapäisesti tai muutoin tarvitsee lyhytaikaista tukea, hänellä on oikeus tukiopetukseen. \n\nOppimis- tai koulunkäyntivaikeuksien takia oppilas voi saada erityisopetusta, joka voidaan järjestää muun koulutyön ohessa tai esimerkiksi erityisluokalla. Perusopetuksen tavoitteita ja sisältöjä voidaan mukauttaa, jos oppilas vammaisuuden, sairauden, kehityksen viivästymisen, tunne-elämän häiriön tai muun vastaavan syyn takia ei suoriudu perusopetuksen oppimäärästä.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "perusopetus",
+      "erityisopetus",
+      "erityinen tuki",
+      "peruskoulu"
+    ],
+    "serviceClass": [
+      "Perusopetus"
+    ],
+    "shortDescription": "Perusopetuslain mukaan perusopetuksen opiskelijat ovat oikeutettuja saamaan erityisopetusta tai muuta tukea tarvittaessa."
+  },
+  {
+    "id": 145,
+    "law": "Oppilas- ja opiskelijahuoltolaki",
+    "name": "Perusopetuksen oppilashuolto",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Oppilas- ja opiskelijahuoltolain mukaiseen perusopetuksen oppilashuoltoon kuuluu oppilaiden fyysisestä, psyykkisestä ja sosiaalisesta hyvinvoinnista huolehtiminen. Oppilashuollolla edistetään oppilaiden tasapainoista kasvua ja kehitystä sekä varmistetaan kaikille tasavertainen oppimisen mahdollisuus.\n\nOppilashuoltopalveluihin kuuluvat muun muassa kouluterveydenhuolto, koulukuraattori- ja koulupsykologitoiminta. Oppilashuoltoa tekevät myös opettajat ja koulun muu henkilöstö. Tavoitteena on, että oppilaiden ongelmat havaitaan ja niihin puututaan mahdollisimman varhaisessa vaiheessa.\n\nKaikissa kouluissa toimii säännöllisesti toimiva oppilashuoltoryhmä, jonka muodostavat koulun rehtori, erityisopettaja, opinto-ohjaaja, koulukuraattori tai koulupsykologi, kouluterveydenhoitaja sekä tarvittaessa muut asiantuntijat.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset"
+    ],
+    "ontologyTerm": [
+      "perusopetus",
+      "oppilashuolto"
+    ],
+    "serviceClass": [
+      "Oppilas- ja opiskelijahuolto"
+    ],
+    "shortDescription": "Oppilashuollolla edistetään oppilaiden tasapainoista kasvua ja kehitystä."
+  },
+  {
+    "id": 148,
+    "law": "",
+    "name": "Perusopetus",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Perusopetus on opetussuunnitelman mukaista maksutonta yleisopetusta, joka tukee oppilaiden kasvua ihmisinä ja yhteiskunnan jäseninä sekä opettaa tarpeellisia tietoja ja taitoja. Se tuottaa kaikille saman jatko-opintokelpoisuuden toisen asteen koulutukseen.\n\nOppivelvollisia ovat Suomessa vakinaisesti asuvat lapset sinä vuonna, jona he täyttävät seitsemän vuotta. Oppivelvollisuus päättyy, kun he ovat suorittaneet perusopetuksen oppimäärän tai oppivelvollisuuden alusta on kulunut kymmenen vuotta. Vamman tai sairauden takia oppivelvollisuus voi olla pidennetty. Aikuiset voivat suorittaa perusopetuksen oppimäärän esimerkiksi aikuislukioissa tai kansan- ja työväenopistoissa.\n\nKoululaisilla on koulupäivänsä aikana oikeus maksuttomaan ruokailuun ja oppilashuoltoon. Vammaisilla ja erityistä tukea tarvitsevilla on oikeus saada maksutta tarvitsemansa apuvälineet sekä tulkitsemis- ja avustajapalvelut.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "perusopetus",
+      "oppivelvollisuus",
+      "peruskoulu"
+    ],
+    "serviceClass": [
+      "Perusopetus"
+    ],
+    "shortDescription": "Perusopetus on perusopetuslain säätelemää opetussuunnitelman mukaista yleisopetusta."
+  },
+  {
+    "id": 150,
+    "law": "Perusopetuslaki",
+    "name": "Koulukuljetus",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Perusopetuslain mukaan kunnilla on velvollisuus järjestää esi-, perus- tai lisäopetuksen oppilaalle maksuton koulukuljetus, jos koulumatka on yli viisi kilometriä yhteen suuntaan tai jos se muutoin on oppilaan ikään tai olosuhteisiin nähden liian vaikea, rasittava tai vaarallinen. Päivittäinen edestakainen koulumatka saa odotuksineen kestää enintään kaksi ja puoli tuntia, 13 vuotta täyttäneillä kolme tuntia.\n\nMaksuttoman kuljetuksen vaihtoehtona on oppilaan kuljettamista ja saattamista varten vanhemmille myönnettävä avustus. \n\nLaissa määrätyn lisäksi kunta voi järjestää kuljetuksia oman harkintansa ja mahdollisuuksiensa mukaan.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset"
+    ],
+    "ontologyTerm": [
+      "koulukuljetus",
+      "perusopetus",
+      "esiopetus"
+    ],
+    "serviceClass": [
+      "Perusopetus"
+    ],
+    "shortDescription": "Kunnilla on velvollisuus järjestää maksuton koulukuljetus, jos koulumatka on yli viisi kilometriä."
+  },
+  {
+    "id": 193,
+    "law": "Varhaiskasvatuslaki",
+    "name": "Kunnallinen päiväkotihoito",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Alle 7-vuotiaat lapset voivat saada päivähoitoa kunnan järjestämänä. Käytännössä päivähoitoa järjestävät kunnat yksin tai yhdessä, yksityiset toimijat, järjestöt ja muut yhteisöt, joilta kunta ostaa palvelun. \n\nVarhaiskasvatuksen tavoitteena on tukea lapsen kasvua, kehitystä ja oppimista sekä edistää tämän hyvinvointia. Jokainen lapsi saa päivähoidossa varhaiskasvatussuunnitelman. \n\nKunnallinen päiväkotihoito voi olla joko kokopäiväistä (enintään 10h/vrk) tai osapäiväistä. Vanhempien tulee hakea päiväkotipaikkaa lapselle viimeistään neljä kuukautta ennen päivähoidossa aloittamista. Päivähoito on maksullista. Maksun suuruuteen vaikuttavat perheen koko, tulot ja hoitopäivien pituus.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "päiväkodit",
+      "lasten päivähoito"
+    ],
+    "serviceClass": [
+      "Perheiden palvelut",
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Varhaiskasvatuslain mukaan alle 7-vuotiaiden päiväkotihoidosta vastaavat kunnat."
+  },
+  {
+    "id": 194,
+    "law": "Varhaiskasvatuslaki",
+    "name": "Ryhmäperhepäivähoito",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Ryhmäperhepäivähoito on kunnan järjestämää, varhaiskasvatuslain mukaista lasten varhaiskasvatusta. Ryhmässä on tavallisesti kaksi työntekijää. Lapsia voi olla enimmillään kahdeksan kokopäiväisesti ja kaksi osapäiväisesti. \nRyhmäperhepäivähoidossa voidaan järjestää myös ilta- ja viikonloppuhoitoa. Hoidon ei tule kestää yhtäjaksoisesti yli kymmentä tuntia.\nRyhmäperhepäivähoito toimii tarkoitukseen erikseen varatussa tilassa. Jokaiselle lapselle valmistellaan varhaiskasvatussuunnitelma. Ryhmäperhepäivähoitopaikkoja voi tiedustella kunnan viranomaisilta.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "ryhmäperhepäivähoito",
+      "ryhmäperhepäiväkodit"
+    ],
+    "serviceClass": [
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Ryhmäperhepäivähoito on kunnan järjestämää, varhaiskasvatuslain mukaista lasten varhaiskasvatusta."
+  },
+  {
+    "id": 195,
+    "name": "Jätehuolto",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Jokaisella jätettä tuottavalla on jätelain mukaan velvollisuus huolehtia jätteistään asianmukaisesti. Jos asukas laiminlyö jätehuoltovelvoitteensa, vastuu siirtyy tietyin edellytyksin kiinteistön haltijalle.\n\nKunta vastaa jätehuollon järjestämisestä alueellaan. Kunta voi hoitaa tehtävän yksin tai yhteistyössä muiden kuntien kanssa. Kunnan jätehuoltovelvollisuus koskee sekä asumis- että yhdyskuntajätettä. Kunnan on järjestettävä myös vaarallisen jätteen vastaanotto ja käsittely. Maa- ja metsätaloudessa syntyvän vaarallisen jätteen vastaanotto kuuluu kohtuullisessa määrin kunnan tehtäväksi. Jätehuoltovastuita voi olla myös eräiden tuotteiden valmistajilla ja maahantuojilla.\n\nMahdollisimman suuri osa jätteestä tulee lain mukaan lajitella ja kierrättää tai käyttää muutoin hyödyksi.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "jätehuolto",
+      "jätteet"
+    ],
+    "serviceClass": [
+      "Jätehuolto"
+    ],
+    "shortDescription": "Jokaisella jätettä tuottavalla on jätelain mukaan velvollisuus huolehtia jätteistään asianmukaisesti. Jos asukas laiminlyö jätehuoltovelvoitteensa,"
+  },
+  {
+    "id": 197,
+    "law": "",
+    "name": "Kunnallinen perhepäivähoito",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Vanhemmat voivat hakea lapselleen hoivapaikkaa päiväkotien ohella kunnallisesta perhepäivähoidosta. Perhepäivähoito on hoitajan tai lapsen kodissa järjestettävää varhaiskasvatusta. Perhe ja hoitaja sopivat, miten hoitajan noin kahdeksan tunnin päivittäinen työaika ajoittuu.\n\nKunnallisella perhepäivähoitajalla saa olla korkeintaan neljä kokopäivähoidossa olevaa eri-ikäistä lasta ja yksi osapäivähoidossa oleva esiopetusikäinen tai koululainen. Perhepäivähoitajan omat alle kouluikäiset lapset lasketaan mukaan. Hoitaja valmistaa lapsille ruoan, ja lapset voivat osallistua kodin pieniin työtehtäviin. Jokainen lapsi saa perhepäivähoidossa varhaiskasvatussuunnitelman. \n\nPäivähoitomaksut määräytyvät samalla tavalla kuin kunnan päiväkodeissa. Vanhemmat maksavat hoidosta kunnalle, ja hoitaja on työsuhteessa kuntaan.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "perhepäivähoito",
+      "perhepäivähoitajat"
+    ],
+    "serviceClass": [
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Vanhemmat voivat hakea lapselleen hoivapaikkaa päiväkotien ohella kunnallisesta perhepäivähoidosta."
+  },
+  {
+    "id": 198,
+    "name": "Jätteenkuljetus",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Kaikkien jätettä tuottavien on liityttävä järjestetyn jätteenkuljetuksen piiriin. Kunnalla on velvollisuus järjestää asumisjätteen käsittely. Kunta voi hoitaa jätteenkuljetuksen itse, hankkia sen ostopalveluna yrityksiltä tai antaa sen esimerkiksi kuntien yhdessä omistaman yhtiön tehtäväksi. Kunta voi myös päättää, että kiinteistöjen haltijoiden on tehtävä sopimus suoraan jätteen kuljetusta tarjoavan toimijan kanssa. Kunnalta saa jätehuollon opastusta ja neuvontaa.\n\nKiinteistön haltijan on järjestettävä paikka, josta jätteenkuljettajat voivat noutaa jätteen. Paikka voi olla myös useamman kiinteistön yhteinen.\n\nJos jätettä syntyy hyvin vähän, tyhjennysväliä harvennetaan. Jätteen kuljettajan on annettava kunnalle tieto siitä, kuinka paljon jätettä kiinteistöiltä on kerätty ja minne se on kuljetettu.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "jätehuolto",
+      "jätteet",
+      "jätteenkuljetus"
+    ],
+    "serviceClass": [
+      "Jätehuolto"
+    ],
+    "shortDescription": "Kaikkien jätettä tuottavien on jätelain mukaan liityttävä järjestetyn jätteenkuljetuksen piiriin."
+  },
+  {
+    "id": 199,
+    "name": "Jätehuollon neuvonta",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Kunnan on jätelain mukaan annettava kuntalaisille neuvontaa asumis- ja yhdyskuntajätteiden ja vaarallisten aineiden käsittelyssä. Tarkoitus on vähentää yhdyskuntajätteen määrää ja haitallisuutta ja varmistaa asianmukainen jätehuolto.\n\nKunta voi tarjota jätehuollon neuvontaa esimerkiksi verkossa, painetuissa julkaisuissa ja tiedotustilaisuuksissa. Kunta voi järjestää neuvonnan itse tai järjestää sen muulla tavoin.\n\nKuntalaisille tarjotaan tietoa kuntalaisten oman toiminnan ympäristövaikutuksista, kierrätyksestä ja jätteiden käsittelystä.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "jätehuolto",
+      "jätteet",
+      "jäteneuvonta"
+    ],
+    "serviceClass": [
+      "Jätehuolto"
+    ],
+    "shortDescription": "Kunnan on jätelain mukaan annettava kuntalaisille neuvontaa asumis- ja yhdyskuntajätteiden ja vaarallisten aineiden käsittelyssä. Tarkoitus on vähentä"
+  },
+  {
+    "id": 204,
+    "law": "",
+    "name": "Rakennuslupapalvelut",
+    "lifeEvent": [
+      "Talon rakentaminen"
+    ],
+    "statutory": false,
+    "description": "Lähes kaikkeen rakentamiseen tarvitaan rakennuslupa tai muu viranomaisen hyväksyntä. Myös rakennuksen laajennus sekä merkittävät korjaus- ja muutostyöt tai käyttötarkoituksen muutos edellyttävät rakennus- tai toimenpidelupaa. Asiasta säädetään maankäyttö- ja rakennuslaissa. Kunta voi myös rakennusjärjestyksessään määritellä toimenpiteiden luvan- tai ilmoituksenvaraisuutta.\nRakennuslupaa haetaan kunnan rakennusvalvontaviranomaiselta, joka antaa asiassa myös neuvontaa. Monessa kunnassa on käytössä sähköinen asiointi, useimmissa näistä Lupapiste.fi.\nTietyissä tilanteissa luvan saaminen edellyttää ensin poikkeuksen hakemista maankäyttö- ja rakennuslain säännöksistä. \nRakennushankkeen suunnittelijoiden kelpoisuudesta on määrätty laissa. Lupamenettelyyn liittyy myös naapureille tiedottaminen ja/tai näiden suostumuksen hankkiminen. Rakentamaan saa ryhtyä vasta, kun lupapäätös on lainvoimainen.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "rakennus- ja toimenpideluvat",
+      "rakennusvalvonta"
+    ],
+    "serviceClass": [
+      "Rakentaminen"
+    ],
+    "shortDescription": "Lähes kaikkeen rakentamiseen tarvitaan rakennuslupa tai muu viranomaisen hyväksyntä."
+  },
+  {
+    "id": 227,
+    "law": "Perusopetuslaki",
+    "name": "Esiopetus",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Kunta järjestää päiväkotien ja alakoulujen yhteydessä kouluun valmistavaa opetusta esiopetusikäisille eli 6-vuotiaille. Se voi hankkia perusopetuslain mukaisen palvelun myös muulta palveluntuottajalta. Esiopetukseen osallistuvat myös ne 7-vuotiaat, joiden koulunkäynnin aloittamista on lykätty, ja siihen voivat osallistua ne 5-vuotiaat, joille on tehty päätös pidennetystä oppivelvollisuudesta. \nEsiopetusta annetaan aamupäivisin neljä tuntia päivässä. Lapset saavat tänä aikana myös lounaan. Esiopetus on maksutonta.\nEsiopetukseen osallistuminen on perusopetuslain mukaan velvoittavaa. Lapsen huoltaja on vastuussa siitä, että lapsi osallistuu esiopetukseen tai sen tavoitteet saavuttavaan toimintaan oppivelvollisuuden alkamista edeltävänä lukuvuotena.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset"
+    ],
+    "ontologyTerm": [
+      "esiopetus"
+    ],
+    "serviceClass": [
+      "Esiopetus"
+    ],
+    "shortDescription": "Kunta järjestää päiväkotien ja alakoulujen yhteydessä kouluun valmistavaa opetusta esiopetusikäisille eli 6-vuotiaille."
+  },
+  {
+    "id": 235,
+    "name": "Tilojen vuokrauspalvelut",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Kunta voi harkintansa mukaan toimia vuokratilojen etsijänä ja välittäjänä alueellaan toimiville yrityksille ja yhteisöille. Palvelu ei ole lakisääteinen, ja sen tarjonta vaihtelee kunnittain. Kunnan kiinteistötoimesta voi tiedustella kunnan tiedossa olevia, yksityisten omistamia vuokratiloja.",
+    "targetGroup": [
+      "kansalaiset",
+      "yritykset"
+    ],
+    "ontologyTerm": [
+      "toimitilat",
+      "liikehuoneistot"
+    ],
+    "serviceClass": [
+      "Toimitilat"
+    ],
+    "shortDescription": "Kunta voi harkintansa mukaan toimia vuokratilojen etsijänä ja välittäjänä alueellaan toimiville yrityksille ja yhteisöille."
+  },
+  {
+    "id": 260,
+    "name": "Päiväkotihoito esiopetusikäisille",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Esiopetusta annetaan aamupäivisin neljä tuntia päivässä. Jos lapsi osallistuu esiopetukseen päiväkodissa, opetuksen jälkeinen iltapäivä on normaalia päiväkotitoimintaa. Alakoulussa järjestettävän esiopetuksen jälkeen lapset joko haetaan kotiin tai he siirtyvät saatettuina päiväkotiin tai esimerkiksi kerhoihin. \n\nLapsen huoltaja on vastuussa siitä, että lapsi osallistuu esiopetukseen tai sen tavoitteet saavuttavaan toimintaan oppivelvollisuuden alkamista edeltävänä lukuvuotena.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset ja lapsiperheet"
+    ],
+    "ontologyTerm": [
+      "esiopetus",
+      "lasten päivähoito"
+    ],
+    "serviceClass": [
+      "Esiopetus",
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Kunnat järjestävät päiväkotien ja alakoulujen yhteydessä kouluun valmistavaa opetusta esiopetusikäisille eli 6-vuotiaille."
+  },
+  {
+    "id": 305,
+    "name": "Avoin varhaiskasvatuspalvelu",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Lapsen ja perheen hyvinvointia tuetaan kunnan varhaiskasvatuspalveluilla. Avoimet päiväkodit, leikkipuistot ja kerhot tarjoavat monenlaista toimintaa. Myös pitkäaikaissairaille tai sairaalahoidossa oleville alle kouluikäisille järjestetään varhaiskasvatuslain määrittämää virikkeellistä varhaiskasvatusta.\n\nKunnat voivat määritellä, kenelle ne tarjoavat avoimia varhaiskasvatuspalveluita. Etusijalla ovat yleensä lapset, jotka eivät ole kokopäiväisessä hoidossa. Osa toiminnasta on suunnattu koko perheelle. \n\nKerhotoiminta on ohjattua ja tavoitteellista. Se voi olla maksutonta tai maksullista. Avoimen varhaiskasvatuksen palveluihin ei yleensä sisälly ruokailua, vaan lapset tuovat omat eväät mukanaan. Osallistuminen ei vaikuta Kelan maksamaan kotihoidon tukeen. Kuntien lisäksi muun muassa seurakunnat ja järjestöt järjestävät kerhoja, leirejä ja muita aktiviteetteja lapsille ja heidän vanhemmilleen.",
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "ontologyTerm": [
+      "avoin varhaiskasvatus",
+      "avoin päivähoito",
+      "leikkipuistot",
+      "leikkitoiminta"
+    ],
+    "serviceClass": [
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Lapsen ja perheen hyvinvointia tuetaan kunnan varhaiskasvatuspalveluilla. Avoimet päiväkodit, leikkipuistot ja kerhot tarjoavat monenlaista toimintaa."
+  },
+  {
+    "id": 316,
+    "name": "Kansalaisopisto",
+    "lifeEvent": [],
+    "statutory": false,
+    "description": "Kansalaisopistot ovat kaikille avoimia oppilaitoksia, jotka tarjoavat mahdollisuuksia omaehtoiselle oppimiselle ja kansalaisvalmiuksien kehittämiselle. Laki vapaasta sivistystyöstä määrittää, että opiskelu kansalaisopistossa ei tähtää tutkinnon suorittamiseen, vaan opiskelijan monipuoliseen kehittymiseen, elinikäiseen oppimiseen, hyvinvointiin ja aktiiviseen kansalaisuuteen.\n \nKansalaisopistoja ylläpitävät kunnat, kuntayhtymät, yhdistykset, säätiöt tai yhteisöt opetus- ja kulttuuriministeriön luvalla. Ylläpitäjät päättävät opetuksen sisällöstä itsenäisesti. Usein opetus keskittyy kädentaitoihin ja harrastuksiin, kieliin ja taideaineisiin. Opetus on tyypillisesti ryhmäopetusta iltaisin tai viikonloppuna.",
+    "targetGroup": [
+      "kansalaiset"
+    ],
+    "ontologyTerm": [
+      "kansalaisopistot",
+      "vapaa sivistystyö"
+    ],
+    "serviceClass": [
+      "Vapaa sivistystyö ja taidekasvatus"
+    ],
+    "shortDescription": "Kansalaisopistot ovat kaikille avoimia oppilaitoksia, jotka tarjoavat mahdollisuuksia omaehtoiselle oppimiselle."
+  },
+  {
+    "id": 326,
+    "name": "Kirjasto- ja tietopalvelut",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Kirjasto- ja tietopalvelut ovat avoimia kaikille. Suomen kirjastoverkostoon kuuluvat yleiset eli kuntien ylläpitämät kirjastot, tieteelliset ja ammattikorkeakoulujen kirjastot, erikoiskirjastot, oppilaitoskirjastot ja Kansalliskirjasto. Kirjastot tekevät laajaa yhteistyötä ja tarjoavat kaikille monipuolisen mahdollisuuden tiedonhankintaan, oppimiseen, viihtymiseen ja itsensä kehittämiseen. \n \nKirjastolain mukaan kunnan tehtävänä on järjestää kirjasto- ja tietopalvelut. Perinteisten kirjojen, lehtien ja audiovisuaalisten tallenteiden rinnalle ovat nousseet sähköiset tiedonhakupalvelut ja sisältöjen jakelun uudet muodot.",
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "ontologyTerm": [
+      "kirjastopalvelut"
+    ],
+    "serviceClass": [
+      "Kulttuuri > Kirjastot ja tietopalvelut"
+    ],
+    "shortDescription": "Kirjasto- ja tietopalvelut ovat avoimia kaikille. Suomen kirjastoverkostoon kuuluvat yleiset eli kuntien ylläpitämät kirjastot, tieteelliset ja ammatt"
+  },
+  {
+    "id": 370,
+    "law": "Varhaiskasvatuslaki",
+    "name": "Erityisvarhaiskasvatus",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Varhaiskasvatuslain mukaan kunta pyrkii löytämään lapselle sopivan hoitopaikan tilanteessa, jossa lapsi tarvitsee erityistä hoitoa ja kasvatusta fyysisen syyn tai tietoihin, taitoihin, tunne-elämään tai sosiaaliseen kehitykseen liittyvän syyn takia. \nLapsen mahdollinen tuen tarve selvitetään varhaiskasvatussuunnitelmaa laadittaessa. Työhön voi vanhempien ja henkilöstön lisäksi osallistua esim. psykologi, puheterapeutti tai toimintaterapeutti.  \nErityisvarhaiskasvatuksessa on usein mukana erityislastentarhanopettaja.\nKunta voi järjestää erityisvarhaiskasvatuksen eri tavoin. Se voi olla eriytettyä pienryhmätoimintaa tai osa muuta päiväkoti- ja varhaiskasvatustoimintaa.\"",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset"
+    ],
+    "ontologyTerm": [
+      "erityispäivähoito",
+      "varhaiserityiskasvatus",
+      "erityinen tuki"
+    ],
+    "serviceClass": [
+      "Perheiden palvelut",
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Varhaiskasvatuksessa tapahtuva erityinen tuki pyritään toteuttamaan siinä päivähoitoryhmässä, jossa lapsi on hoidossa."
+  },
+  {
+    "id": 374,
+    "name": "Aineisto- ja tietopalvelu",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Viranomaistoiminta asiakirjoineen on lähtökohtaisesti julkista. Laki viranomaistoiminnan julkisuudesta määrää viranomaisen järjestämään asiakirjahallinnon siten, että kansalaiset halutessaan saavat asiakirjat ja niihin sisältyvät tiedot vaivattomasti käyttöönsä. Aineisto- ja tietopalvelussa kunnan asiakirjahallinto pitää asiakirjat yleisön saatavilla ja avustaa arkistojen käytössä.\n\nJokaisella on oikeus saada tieto häntä itseään koskevista asiakirjoista, vaikka ne olisi laissa määrätty yleisöltä salassa pidettäviksi.\n\nArkistolain mukaan arkistotoimen tehtävänä on varmistaa asiakirjojen käytettävyys ja säilyminen, huolehtia asiakirjoihin liittyvästä tietopalvelusta, määritellä asiakirjojen säilytysarvo ja hävittää tarpeeton aineisto. Kunnan arkistotoimi antaa neuvontaa myös kuntaliitoksissa lakkautettujen kuntien arkistojen käytössä.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset",
+      "Viranomaiset"
+    ],
+    "ontologyTerm": [
+      "asiakirjahallinto",
+      "arkistointi",
+      "arkistotoimi",
+      "tietopalvelu"
+    ],
+    "serviceClass": [
+      "Arkistot",
+      "Virastopalvelut"
+    ],
+    "shortDescription": "Viranomaistoiminta asiakirjoineen on julkista. Laki määrää järjestämään asiakirjahallinnon siten, että kansalaiset saavat asiakirjat käyttöönsä."
+  },
+  {
+    "id": 378,
+    "law": "Varhaiskasvatuslaki",
+    "name": "Tilapäinen päivähoito",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Tilapäinen päivähoito on tarkoitettu perheille, jotka tarvitsevat lapselleen hoivaa silloin tällöin. Sekä kunnat että yksityiset päiväkodit tarjoavat mahdollisuuden tilapäiseen päivähoitoon. Jos perhe saa lapsen kotihoidon tukea, se voi käyttää kunnan järjestämää tilapäistä päivähoitoa enintään 24 tuntia kuukaudessa. Yksityisen tilapäisen hoidon ostaminen ei vaikuta kotihoidon tukeen.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Lapset"
+    ],
+    "ontologyTerm": [
+      "lasten päivähoito"
+    ],
+    "serviceClass": [
+      "Perheiden palvelut",
+      "Lasten päivähoito"
+    ],
+    "shortDescription": "Perheille, jotka eivät tarvitse säännöllistä päivähoitopaikkaa, voidaan tarjota tilapäistä päivähoitoa yllättävissä tilanteissa."
+  },
+  {
+    "id": 385,
+    "law": "Arkistolaki",
+    "name": "Aineisto- ja tietopalvelu",
+    "lifeEvent": [],
+    "statutory": true,
+    "description": "Viranomaistoiminta asiakirjoineen on lähtökohtaisesti julkista. Laki viranomaistoiminnan julkisuudesta määrää viranomaisen järjestämään asiakirjahallinnon siten, että kansalaiset halutessaan saavat asiakirjat ja niihin sisältyvät tiedot vaivattomasti käyttöönsä. Aineisto- ja tietopalvelussa kunnan asiakirjahallinto pitää asiakirjat yleisön saatavilla ja avustaa arkistojen käytössä.\n\nJokaisella on oikeus saada tieto häntä itseään koskevista asiakirjoista, vaikka ne olisi laissa määrätty yleisöltä salassa pidettäviksi.\n\nArkistolain mukaan arkistotoimen tehtävänä on varmistaa asiakirjojen käytettävyys ja säilyminen, huolehtia asiakirjoihin liittyvästä tietopalvelusta, määritellä asiakirjojen säilytysarvo ja hävittää tarpeeton aineisto. Kunnan arkistotoimi antaa neuvontaa myös kuntaliitoksissa lakkautettujen kuntien arkistojen käytössä.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset",
+      "Viranomaiset"
+    ],
+    "ontologyTerm": [
+      "klkl"
+    ],
+    "serviceClass": [
+      "klkl"
+    ],
+    "shortDescription": "Aineisto- ja tietopalvelussa kunnan asiakirjahallinto pitää asiakirjat yleisön saatavilla ja avustaa arkistojen käytössä."
+  },
+  {
+    "id": 420,
+    "name": "Kunnan vuokra-asunnot",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Vuokra-asuntoa etsivä voi tiedustella vuokra-asuntoa kunnalta. Kunnan omistamat vuokra-asunnot ovat useimmiten valtion tukemia vuokra-asuntoja, joihin sovelletaan laissa säädettyjä asukasvalintakriteerejä. Asukasvalinnassa etusijalle asetetaan kiireellisimmässä asunnontarpeessa olevat, vähävaraisimmat ja pienituloisimmat hakijat. \n\nKunnilla ei ole lakisääteistä velvollisuutta tarjota kuntalaisilleen vuokra-asuntoja, mutta kunnan tehtäviin kuuluu asunto-olojen kehittäminen alueellaan. Useimmat kunnat rakennuttavat vuokra-asuntoja ja tarjoavat niitä vuokrattaviksi joko suoraan kuntalaisilleen tai perustamansa vuokrataloyhtiön kautta.",
+    "targetGroup": [
+      null
+    ],
+    "ontologyTerm": [
+      "kunnalliset vuokra-asunnot"
+    ],
+    "serviceClass": [
+      "Vuokra-asuminen"
+    ],
+    "shortDescription": "Vuokra-asuntoa etsivä voi tiedustella vuokra-asuntoa kunnalta."
+  },
+  {
+    "id": 432,
+    "name": "Eläinlääkäripalvelut",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Peruseläinlääkäripalvelua saa kunnalta arkipäivisin virka-aikana ja kiireellistä eläinlääkäriapua kaikkina vuorokaudenaikoina. Kunnassa voi olla kunnaneläinlääkäreitä, tai kunta voi tehdä palveluista sopimuksen yksityisen eläinlääkäripalvelun tarjoajan kanssa.\n\nEläinlääkäripalveluihin kuuluvat eläimen terveydentilan ja sairauksien toteaminen ja hoito sekä eläinlääkinnällisten todistusten antaminen. Palveluihin kuuluu myös eläinten terveyden ja hyvinvoinnin ylläpito, ennaltaehkäisevä terveydenhuolto ja tarvittaessa eläimen lopetus.\n\nPeruseläinlääkäripalvelu muille kuin hyötyeläimille on kunnan vastuulla vain, jos palvelua ei muuten ole yhteistoiminta-alueella saatavilla.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "eläinlääkintä",
+      "eläinlääkäripalvelut"
+    ],
+    "serviceClass": [
+      "Eläinlääkäripalvelut",
+      "Elinkeinot"
+    ],
+    "shortDescription": "Peruseläinlääkäripalvelua saa kunnalta arkipäivisin virka-aikana ja kiireellistä eläinlääkäriapua kaikkina vuorokaudenaikoina."
+  },
+  {
+    "id": 434,
+    "name": "Eläinlääkäripäivystys",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Virka-ajan ulkopuolella tarvittavaa kiireellistä eläinlääkintäapua saa kunnan eläinlääkäripäivystyksestä. Eläinlääkäripäivystystä saatetaan tarjota yhteistoiminnassa useiden kuntien kesken.\n\nPienikokoiset kotieläimet täytyy yleensä kuljettaa vastaanotolle, mutta suurikokoisia eläinlääkäri tulee hoitamaan niiden pitopaikkaan.\n\nKunta voi tuottaa päivystyspalvelut itse tai hankkia ne yksityiseltä eläinlääkäripalvelun tuottajalta.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "eläinlääkintä",
+      "eläinlääkäripalvelut"
+    ],
+    "serviceClass": [
+      "Eläinlääkäripalvelut",
+      "Elinkeinot"
+    ],
+    "shortDescription": "Virka-ajan ulkopuolella tarvittavaa kiireellistä eläinlääkintäapua saa kunnan eläinlääkäripäivystyksestä."
+  },
+  {
+    "id": 436,
+    "name": "Eläinsuojelu",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Kaltoinkohdellusta eläimestä voi ilmoittaa kunnaneläinlääkärille tai kunnan terveydensuojeluvalvontaa hoitavalle viranhaltijalle. Eläimiä on suojeltava parhaalla mahdollisella tavalla kärsimykseltä, kivulta ja tuskalta ja eläinten hyvinvointia ja hyvää kohtelua on edistettävä. Eläinsuojelulaissa säädetään muun muassa eläimen pitopaikasta, ravinnosta, hoivasta, kohtelusta ja jalostuksesta.\n\nEläinsuojelulain valvontaan osallistuvat kunta sekä valtion viranomaiset, kuten poliisi.",
+    "targetGroup": [
+      "Kansalaiset",
+      "Yritykset"
+    ],
+    "ontologyTerm": [
+      "eläinsuojelu"
+    ],
+    "serviceClass": [
+      "Luonnonvaraiset kasvit ja eläimet",
+      "Tuotantoeläimet",
+      "Kotieläimet",
+      "Toimialakohtaiset luvat ja ilmoitukset"
+    ],
+    "shortDescription": "Kaltoinkohdellusta eläimestä voi ilmoittaa kunnaneläinlääkärille tai kunnan terveydensuojeluvalvontaa hoitavalle viranhaltijalle."
+  },
+  {
+    "id": 448,
+    "name": "Löytöeläinpalvelut",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Irrallaan tavatun ja talteen otetun koiran, kissan tai muun pienikokoisen seura- ja harrastuseläimen voi toimittaa kunnalle tilapäiseen hoitoon. Kunta säilyttää talteen otettua eläintä vähintään 15 päivää. Sen jälkeen kunnalla on oikeus myydä, luovuttaa tai lopettaa eläin. \n\nEläimen omistaja tai haltija voi joutua maksamaan kunnalle korvauksen eläimen talteenotosta, hoidosta ja mahdollisesta lopettamisesta aiheutuneista kustannuksista.\n\nSairauden tai vamman vuoksi hoitoon otettu luonnonvarainen eläin on vapautettava, jos on oletettavissa, että se vaikeuksitta sopeutuu luonnonvaraiseen elämään. Jollei eläintä voida vapauttaa eikä sen hoitoa järjestää, eläin on lopetettava.",
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "ontologyTerm": [
+      "eläinsuojelu",
+      "löytöeläimet",
+      "luonnonvaraiset eläimet"
+    ],
+    "serviceClass": [
+      "Luonnonvaraiset kasvit ja eläimet",
+      "Tuotantoeläimet",
+      "Kotieläimet"
+    ],
+    "shortDescription": "Irrallaan tavatun ja talteen otetun koiran, kissan tai muun pienikokoisen seura- ja harrastuseläimen voi toimittaa kunnalle tilapäiseen hoitoon."
+  },
+  {
+    "id": 456,
+    "name": "Asumisoikeusasunnot",
+    "lifeEvent": [
+      null
+    ],
+    "statutory": false,
+    "description": "Asumisoikeusasunto on asunto, jota asukas hallitsee mutta ei omista. Hän maksaa asumisestaan kuukausikulujen lisäksi maksun, joka palautetaan hänelle poismuuton yhteydessä. \n\nAsumisoikeusasunnon hakijan tulee olla täysi-ikäinen henkilö, joka ei omista hakualueella omistusasuntoa. Hänellä ei myöskään saa olla varallisuutta siinä määrin, että hän voisi rahoittaa vähintään puolet hakemansa tai vastaavan asunnon käyvästä hinnasta.\n\nAsumisoikeutta hakevan on ilmoittauduttava kunnalle, jonka alueelta hän hakee asumisoikeutta. Kunnat voivat muodostaan myös yhteisen hakualueen. Hakija saa kunnalta asumisoikeusasunnon hakemiseksi järjestysnumeron.",
+    "targetGroup": [
+      "Kansalaiset"
+    ],
+    "ontologyTerm": [
+      "asumisoikeusasunnot"
+    ],
+    "serviceClass": [
+      "Osaomistus- ja asumisoikeusasuminen"
+    ],
+    "shortDescription": "Asumisoikeusasunto on asunto, jota asukas hallitsee mutta ei omista."
+  }
+]

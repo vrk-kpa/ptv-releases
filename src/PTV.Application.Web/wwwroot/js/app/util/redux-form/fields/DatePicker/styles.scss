@@ -1,0 +1,11 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.datePicker {
+  input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+    border-color: border-color(border);
+    font-size: 15px;
+    height: 30px;
+  }
+}

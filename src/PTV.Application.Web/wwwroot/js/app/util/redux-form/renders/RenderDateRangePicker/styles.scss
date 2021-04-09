@@ -1,0 +1,29 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.dateRange {
+  margin-left: 30px;
+}
+
+.splitView {
+  flex-direction: column;
+  > div ~ div {
+    margin-top: 10px;
+  }
+}
+
+.inline, .column {
+  &.dateRange {
+    display: flex;
+  }
+}
+
+.inline {
+  .field {
+    display: flex;
+  }
+  .input {
+    flex: 0 0 120px;
+  }
+}
+

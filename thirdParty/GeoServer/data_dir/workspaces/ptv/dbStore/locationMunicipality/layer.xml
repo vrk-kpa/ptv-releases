@@ -1,0 +1,16 @@
+<layer>
+  <name>locationMunicipality</name>
+  <id>ptv_simpleLayer_locationMunicipality</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>ptv_style_point</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>ptv_simpleFeature_locationMunicipality</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateModified>2020-09-04 11:26:15.227 UTC</dateModified>
+</layer>

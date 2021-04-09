@@ -1,0 +1,542 @@
+﻿{
+    "PostiPostalCodesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of postal codes from Posti system."
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 13 ? 1/1 MON#1 *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 13 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "http://www.posti.fi/webpcode/"
+        },
+        "AllowForDisplaying": true
+    },
+    "PharmacyImportJob": {
+        "JobInfo": {
+            "Description": "Task for updating pharmacies."
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 14 ? * MON *",
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0 14 ? * TUE *"
+        },
+        "AllowForDisplaying": false
+    },
+    "MunicipalityCodesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of municipality codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 12 ? JAN MON#1",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 30 12 ? JAN TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/jhs/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "ProvinceCodesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of province (region) codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 14 ? JAN MON#1", 
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 14 ? JAN TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/jhs/codeschemes/{2}",
+            "MunicipalityUrl": "{0}/{1}/coderegistries/jhs/codeschemes/{2}/extensions/{3}/members/?expand=code"
+        },
+        "AllowForDisplaying": true
+    },
+    "HospitalRegionCodesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of hospital region codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 7 ? MAR,SEP MON#1",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 7 ? MAR,SEP TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/jhs/codeschemes/{2}",
+            "MunicipalityUrl": "{0}/{1}/coderegistries/jhs/codeschemes/{2}/extensions/{3}/members/?expand=code"
+        },
+        "AllowForDisplaying": true
+    },
+    "LifeEventsJob": {
+        "JobInfo": {
+            "Description": "Task for updating of life event codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 40 7 ? MAR,SEP MON#1", 
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 40 7 ? MAR,SEP TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/ptv/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "ServiceClassesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of service class codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 7 ? MAR,SEP MON#1",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 30 7 ? MAR,SEP TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/ptv/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "IndustrialClassesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of service class codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 50 7 ? MAR,SEP MON#1", 
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 50 7 ? MAR,SEP TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/jhs/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "TargetGroupsJob": {
+        "JobInfo": {
+            "Description": "Task for updating of target group codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 35 8 ? MAR,SEP MON#1",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 35 8 ? MAR,SEP TUE#1"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/ptv/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "ProvisionTypesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of provision type codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 8 28 2 ? 2099",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 8 28 2 ? 2099"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/ptv/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "OrganizationTypesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of organization type codes"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 8 28 2 ? 2099",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 8 28 2 ? 2099"
+        },
+        "JobData": {
+            "Url": "{0}/{1}/coderegistries/ptv/codeschemes/{2}"
+        },
+        "AllowForDisplaying": true
+    },
+    "OntologyTermsFintoJob": {
+        "JobInfo": {
+            "Description": "Task for updating of finto data - ontology terms"
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 9 ? MAR,JUN,SEP,DEC MON#1",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 30 9 ? MAR,JUN,SEP,DEC TUE#1",
+            "Timeout": 3600
+        },
+        "JobData": {
+            "DownloadType": "ontologyTermsKoko"
+        },
+        "AllowForDisplaying": true
+    },
+    "DigitalAuthorizationCodesJob": {
+        "JobInfo": {
+            "Description": "Task for updating of digital authorizations"
+        },
+        "Scheduling": {
+            "Scheduler": "0 10 9 1/1 * ? *",
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 10 9 1/1 * ? *"
+        },
+        "JobData": {
+            "Url": "{0}/rest/ontology/concept/all"
+        },
+        "AllowForDisplaying": true
+    },
+    "TranslationOrderSendNewJob": {
+        "JobInfo": {
+            "Description": "Task for sending new orders to translation company"
+        },
+        "Scheduling": {
+            "Scheduler": "0 3/15 * * * ?", //Every 15minute - 3min after deploy
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/4 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "TranslationOrderProcessingDataByStateJob": {
+        "JobInfo": {
+            "Description": "Task for updating states of orders."
+        },
+        "Scheduling": {
+            "Scheduler": "0 17 0/1 * * ?", //Every 1hour - 17min after deploy
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/2 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "TranslationOrderSendAgainJob": {
+        "JobInfo": {
+            "Description": "Task for sending translation order with error again"
+        },
+        "Scheduling": {
+            "Scheduler": "0 9 0/6 * * ?", //Every 6hours + 9min after deploy
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/2 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "TranslationOrderHandlingJob": {
+        "JobInfo": {
+            "Description": "Task for handling orders to repetition and canceling."
+        },
+        "Scheduling": {
+            "Scheduler": "0 7/15 * * * ?", //Every 15minute - 7min after deploy
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 0/2 * * * ?"
+        },
+        "JobData": {
+            "Url": "{0}",
+            "FileUrl": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "ArchiveEntitiesByExpirationDateJob": {
+        "JobInfo": {
+            "Description": "Task for archiving entities after expiration date"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 10 * * ?", //Every 1am
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0/15 * * * ?"
+        },
+        "JobData": {
+            "Url": "",
+            "FileUrl": ""
+        },
+        "AllowForDisplaying": true
+    },    
+    "RestoreCleanDatabaseJob": {
+        "JobInfo": {
+            "Description": "Task for restoring clean database"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 12 1 JAN,APR,JUL,SEP ?", //every 1.1. 2am of spec month
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0/20 * * * ?"
+        },
+        "JobData": {
+        },
+        "AllowForDisplaying": false
+    },
+//SFIPTV-1148 - do not run soteJob till 2019-03-20    
+//    "Sote": {
+//        "JobInfo": {
+//            "Description": "Task for downloading of SOTE centers"
+//        },
+//        "Scheduling": {
+//            "Scheduler": "0 30 1 1/1 * ? *", // 01:30 AM every day
+//            "RetriesOnFail": 5,
+//            "SchedulerOnFail": "0 5/20 0 ? * * *" // every 20 minutes
+//        },
+//        "JobData": {
+//            "PalvelunTuottajatUrl": "{0}/palvelut/{1}?palvelutyyppi=SOTE",
+//            "PalvelunJarjestajatUrl": "{0}/palvelunjarjestajat"
+//        },
+//        "AllowForDisplaying": true
+//    },
+    "ClearNotificationsJob": {
+        "JobInfo": {
+            "Description": "Task for removing notification after expiration date"
+        },
+        "Scheduling": {
+            "Scheduler": "0 35 12 * * ?", //Every 1am
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0/15 * * * ?"
+        },
+        "JobData": {
+            "Url": "",
+            "FileUrl": ""
+        },
+        "AllowForDisplaying": true
+    },
+    "MassJob": {
+        "JobInfo": {
+            "Description": "Task for scheduled publishing and archiving"
+        },
+        "Scheduling": {
+            "Scheduler": "0 35 11 ? * * *", // 01:35 each day
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": {},
+        "AllowForDisplaying": true
+    },
+    "GeoServerJob": {
+        "JobInfo": {
+            "Description": "Task for updating of database for GeoServer"
+        },
+        "Scheduling": {
+            "Scheduler": "0 5/20 0/1 * * ?", // every 20 minutes, starting at minute 05 (runs: 05, 25, 45)
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "* 5/10 * * * ?" // every 10 minutes starting at :05 minutes after the hour
+        },
+        "JobData": {
+            "MaterializedViewRefreshCommand": "refresh materialized view concurrently public.\"{0}\"",
+            "MaterializedViewNames": ["geoCoordinate"],
+            "UpdateScripts": ["geo.\"RefreshMaterializedViews\""]
+        },
+        "AllowForDisplaying": true
+    },
+    "StreetDataJob": {
+        "JobInfo": {
+            "Description": "Downloads geodata from CLS API."
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 11 ? * 7", // 1:00 AM every Saturday
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0 11 ? * 1"
+        },
+        "JobData": {
+            "Folder": "c:\\logs\\PTV\\PostiStreetLoader\\"
+        },
+        "AllowForDisplaying": true
+    },
+    "PostiStreetLoaderJob": {
+        "JobInfo": {
+            "Description": "Downloads street data from Posti system."
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 11 ? * 6", // 1:00 AM every Friday
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 23 13 ? * 6"
+        },
+        "JobData": {
+            "Url": "http://www.posti.fi/webpcode/",
+            "Folder": "c:\\logs\\PTV\\PostiStreetLoader\\"
+        },
+        "AllowForDisplaying": true
+    },
+    "PostalCodeCoordinatesJob": {
+        "JobInfo": {
+            "Description": "Download coordinates from geo.stat.fi"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 12 1 JAN,APR,JUL,OCT ?", //every 1.1. 2am of spec month
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0/20 * * * ?"
+        },
+        "JobData": {
+            "BatchUrl": "{0}maxFeatures={1}&startIndex={2}",
+            "SingleUrl": "{0}CQL_FILTER=posti_alue='{1}'",
+            "BatchSize": 100,
+            "DownloadOneByOne": false
+        },
+        "AllowForDisplaying": true
+    },
+    "EmailNotifyJob": {
+        "JobInfo": {
+            "Description": "Task for generating notification and task number for all main organizations"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 7 1 * ?", // 6:00 AM every first day of month
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 0 9/6 1 * ?"
+        },
+        "JobData": {
+            "UrlBase": "",
+            "AuthenticationUrl": "",
+            "Username": "",
+            "Password": "",
+            "EmailSubject" : "Tehtävät ja ajankohtaiset muutokset Palvelutietovarannossa, $DATE$"
+        },
+        "AllowForDisplaying": true
+    },
+    "OldArchivedAncientJob": {
+        "JobInfo": {
+            "Description": "Task for marking old archived content"
+        },
+        "Scheduling": {
+            "Scheduler": "0 35 6 ? * * *", // 00:35 each day
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": { 
+            "RemoveOldContentOlderThan" : 15, // months
+            "MarkAsRemovedMoreThan" : 10 // instances of old archived versions
+        },
+        "AllowForDisplaying": true
+    },
+    "PermanentDeleteJob": {
+        "JobInfo": {
+            "Description": "Task for physically removing content after specific time"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 10 ? * 7", // 1:00 AM every Saturday
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0 10 ? * 1"
+        },
+        "JobData": {            
+            "PhysicallyDropContentOlderThan": 3, // months,
+            "MaxExecutionTimeInHours": 6 //hours 
+        },
+        "AllowForDisplaying": true
+    },
+    "AccessibilityRegisterJob": {
+        "JobInfo": {
+            "Description": "Task for downloading and importing of accessibility register info"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 11 ? * SUN *", // every sunday at 22:00:00
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "0 0 0/1 * * ?" // every hour
+        },
+        "JobData": {
+            "UrlServicePoints": "{0}/api/v1/servicepoints/{1}",
+            "UrlSentences": "api/v1/accessibility/servicepoints/{0}/{1}/sentences",
+            "UrlEntrances": "api/v1/servicepoints/{0}/{1}/entrances"
+        },
+        "AllowForDisplaying": true
+    },
+    "BrokenLinkJob": {
+        "JobInfo": {
+            "Description": "Checks whether links to external webpages are OK."
+        },
+        "Scheduling": {
+            "Scheduler": "0 30 13 ? * * *", // 22:30 each day
+            "RetriesOnFail": 0,
+            "SchedulerOnFail": "0 30 13 ? * * *"
+        },
+        "JobData": {
+            "UrlBase": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "LocalizationJob": {
+        "JobInfo": {
+            "Description": "Task for downloading localization messages from transifex service"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 10 ? * MON *",
+            "RetriesOnFail": 1,
+            "SchedulerOnFail": "0 0 0/1 * * ?"
+        },
+        "JobData": {
+            "url": "https://www.transifex.com/api/2/",
+            "params": {
+                "translation": [
+                    "project",
+                    "{project}",
+                    "resource",
+                    "{resource}",
+                    "translation",
+                    "{localization}",
+                    "?mode=onlytranslated"
+                ],
+                "content": ["project",
+                    "{project}",
+                    "resource",
+                    "{resource}",
+                    "content"
+                ]
+            },
+            "projects": {
+                "dev": {
+                    "name": "fsc-dev",
+                    "resource": "fijson"
+                },
+                "prod": {
+                    "name": "fsc-prod",
+                    "resource": "notranslationjson"
+                },
+                "sandbox": {
+                    "name": "fsc-sandbox",
+                    "resource": "fi_downloadedjson"
+                }
+            }
+        },
+        "AllowForDisplaying": true
+    },
+    "HolidayJob": {
+        "JobInfo": {
+            "Description": "Task for scheduled generating of holiday dates for next years"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 11 31 12 ?", //every 31.12. 4am of every year
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": {},
+        "AllowForDisplaying": true
+    },
+    "ServiceNumberJob": {
+        "JobInfo": {
+            "Description": "Task for downloading last of service numbers"
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 5 31 12 ?", //every 31.12. 5am of every year
+            "RetriesOnFail": 3,
+            "SchedulerOnFail": "* * 0/1 * * ?"
+        },
+        "JobData": {
+            "Url": "{0}"
+        },
+        "AllowForDisplaying": true
+    },
+    "DatabaseBackupJob": {
+        "JobInfo": {
+            "Description": "Task for database backup."
+        },
+        "Scheduling": {
+            "Scheduler": "0 0 12 ? * SUN *", // every sunday at 23:00
+            "RetriesOnFail": 5,
+            "SchedulerOnFail": "0 30 0/1 ? * * *"
+        },
+        "JobData": {
+            "Folder": "DatabaseBackup",
+            "DatabaseConnection": "postgresql://{0}:{1}@{2}:{3}/{4}",
+            "Arguments": "--schema=public --schema=geo --schema=quartz --clean --format=custom --dbname={0} --file=\"{1}\""
+        },
+        "AllowForDisplaying": false
+    }
+}

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PTV.Domain.Model\PTV.Domain.Model.csproj" />
+    <ProjectReference Include="..\PTV.Framework\PTV.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="3.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\NotUsed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\ServiceServiceChannelDescription2.cs" />
+  </ItemGroup>
+</Project>
