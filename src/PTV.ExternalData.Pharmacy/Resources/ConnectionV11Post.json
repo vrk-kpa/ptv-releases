@@ -1,0 +1,19 @@
+﻿[
+  {
+    "serviceId": "string",
+    "serviceChannelId": "string",
+    "contactDetails": {
+      "webPages": [
+        {
+          "url": "string",
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  },
+  {
+    "serviceId": "string",
+    "serviceChannelId": "string"
+  }
+]

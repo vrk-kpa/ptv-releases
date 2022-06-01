@@ -1,0 +1,18 @@
+[main]
+host = https://www.transifex.com
+
+[o:population-register-center:p:fsc-dev:r:newuijson]
+file_filter  = public/locales/<lang>.json
+source_file  = public/locales/af.json
+source_lang  = af
+type         = KEYVALUEJSON
+minimum_perc = 0
+lang_map     = fi_FI:fi,en_GB:en,sv_SE:sv
+
+[o:population-register-center:p:fsc-prod:r:newuijson]
+file_filter  = public/locales/<lang>.json
+source_file  = public/locales/af.json
+source_lang  = af
+type         = KEYVALUEJSON
+minimum_perc = 0
+lang_map     = fi_FI:fi,en_GB:en,sv_SE:sv

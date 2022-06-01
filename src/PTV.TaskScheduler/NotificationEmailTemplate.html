@@ -1,0 +1,506 @@
+<!doctype html>
+
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+
+  <title>Email template</title>
+  <meta name="description" content="PAHA email template">
+  <meta name="ptv_dev_team" content="PAHA">
+
+  <style>
+    /****** EMAIL CLIENT BUG FIXES - BEST NOT TO CHANGE THESE ********/
+
+    .ExternalClass {width:100%;} /* Forces Outlook.com to display emails at full width */
+
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+          line-height: 100%;
+          }  /* Forces Outlook.com to display normal line spacing, here is more on that:
+          https://www.emailonacid.com/forum/viewthread/43/
+          */
+
+      body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;} /* Prevents Webkit and Windows Mobile
+      platforms from changing default font sizes. */
+
+      body {margin:0; padding:0;} /* Resets all body margins and padding to 0 for good measure */
+
+      table td {border-collapse:collapse;}
+      /*This resolves the Outlook 07, 10, and Gmail td padding issue.  Heres more info:
+              http://www.ianhoar.com/2008/04/29/outlook-2007-borders-and-1px-padding-on-table-cells
+              http://www.campaignmonitor.com/blog/post/3392/1px-borders-padding-on-table-cells-in-outlook-07
+              */
+
+    /****** END BUG FIXES ********/
+
+    /****** RESETTING DEFAULTS, IT IS BEST TO OVERWRITE THESE STYLES INLINE ********/
+
+            p {margin:0; padding:0; margin-bottom:0;}
+                    /* Be sure to stick to margins because paragraph padding is not supported by Outlook 2007/2010
+                  Remember: Outlook.com does not support "margin" nor the "margin-top" properties.
+                  Stick to "margin-bottom", "margin-left", "margin-right" in order to control spacing
+                  It also doesnt hurt to set the inline top-margin to "0" for consistancy in Gmail for every instance of a
+                  paragraph tag */
+
+          h1, h2, h3, h4, h5, h6 {
+              color: black;
+              line-height: 100%;
+              }
+
+          a, a:link {
+              color:#2A6EBB;
+              text-decoration: underline;
+              }
+
+  /****** END RESETTING DEFAULTS ********/
+
+    /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+    body{
+        margin:0;
+        padding:0;
+    }
+    ul {
+      margin: 0;
+    }
+    img{
+        border:0 none;
+        height:auto;
+        line-height:100%;
+        outline:none;
+        text-decoration:none;
+    }
+
+    a img{
+        border:0 none;
+    }
+
+    .imageFix{
+        display:block;
+    }
+
+    table, td{
+        border-collapse:collapse;
+    }
+
+    #bodyTable{
+        height:100% !important;
+        margin:0;
+        padding:0;
+        width:100% !important;
+    }
+    #bodyTableSV{
+      height:100% !important;
+      margin:0;
+      padding:0;
+      width:100% !important;
+    }
+
+    /* /\/\/\/\/\/\/\/\/ CUSTOM STYLES /\/\/\/\/\/\/\/\/ */
+    body {
+      background-color: #FAFAFA;
+    }
+    p, li, td {
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-family:Helvetica, Arial, sans-serif;
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+    p {
+      margin: 0;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    ul {
+      margin-bottom: 20px;
+      padding-left: 0;
+      list-style-position: inside;
+    }
+    #emailHeader, #emailBody, #emailFooter {
+      background-color: #FFFFFF;
+    }
+    #emailHeaderSV, #emailBodySV, #emailFooterSV {
+      background-color: #FFFFFF;
+    }
+    .footerImgWrap {
+      padding: 30px 20px 0;
+    }
+    .footerImg {
+      border-top: 5px solid #26baf2;
+      padding-top: 30px;
+    }
+    .lineSeparatorImg {
+      border-top: 5px solid #26baf2;
+      padding-top: 30px;
+    }
+    .footerLink {
+      padding: 0 20px;
+    }
+    .address {
+      padding: 30px 20px;
+    }
+    .dateCellWrap {
+      padding-top: 20px;
+    }
+    .dateCell {
+      background-color: #003479;
+      color: #FFFFFF;
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      height: 20px;
+    }
+    .logo {
+      height: 50px;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    .translationNote {
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .link {
+      padding-bottom: 10px;
+    }
+    .lastLink {
+      padding-bottom: 30px;
+    }
+    .bold {
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .fakeListLastItem {
+      padding-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+    <tr>
+      <td align="center" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainer">        
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBody">
+                <tr>
+                  <td>
+                    <table>                     
+                      <tr>
+                        <td valign="top">
+                          <p class="translationNote">Se nedan på svenska</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <h1>
+                            Ajankohtaiset tehtävät ja muutokset<br />
+                            Palvelutietovarannossa, $DATE$
+                          </h1>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            Tähän kuukausittaiseen koosteeseen on koottu kaikki organisaatiosi $ORGFI$ sisältöjä koskevat keskeneräiset tehtävät ja ajankohtaiset muutokset Suomi.fi-palvelutietovarannossa.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            Tämä on Palvelutietovarannon lähettämä automaattiviesti, joka toimitetaan kaikille organisaatiosi pääkäyttäjille ja ylläpitäjille. Et voi vastata viestiin.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Tehtävät, jotka vaativat toimenpiteitä
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fakeListLastItem">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            $TASKS_FI$
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Ajankohtaiset muutokset, jotka saattavat kiinnostaa sinua
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fakeListLastItem">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                           $NOTIFICATIONS_FI$
+                          </table>
+                        </td>
+                      </tr>                     
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            HUOM. Tehtävien lukumäärä tässä viestissä ja PTV-käyttöliittymässä saattavat poiketa toisistaan. Ilmoitusten tarkkaa lukumäärää ei kerrota, koska tieto voi muuttua nopeasti.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            Tarkastellaksesi Tehtäviä ja ajankohtaisia muutoksia kirjaudu Palvelutietovarantoon.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/fi" target="_blank">
+                            Kirjaudu Suomi.fi-palvelutietovarantoon
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://www.eoppiva.fi/koulutukset/PTV-ajokortti" target="_blank">
+                            Suorita PTV-ajokortti
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/fi/tuki/artikkelit/5b6ab6b99ef01764b2dbd296" target="_blank">
+                            Kysy ja keskustele PTV-foorumilla
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/fi/tuki/artikkelit/5aabe9e32503b4004f2bc0f1" target="_blank">
+                            Osallistu PTV-koulutuksiin
+                          </a>
+                        </td>
+                      </tr>                     
+                      <tr>
+                        <td valign="top" class="lastLink">
+                          <a href="https://palveluhallinta.suomi.fi/fi/tuki/artikkelit/5c1a44687474c0004cb7ae15" target="_blank">
+                            Liity PTV-kehittäjäyhteisöön
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Ystävällisin terveisin
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          Digi- ja väestötietovirasto
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
+                <tr>
+                  <td align="center" valign="top" class="footerImgWrap">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td align="center" valign="top" class="footerImg">
+                   <!--       <img src="mailbox.png" alt="mailbox with a letter" width="93" height="80" /></td> -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr> 
+                <tr>
+                  <td align="center" valign="top" class="footerLink">
+                    <!--    <a href="mailto:ptv-tuki@vrk.fi" target="_blank">
+                          Palaute ja yhetydenotot
+                        </a> -->
+                    <a href="mailto:ptv-tuki@dvv.fi">
+                      Palaute ja yhteydenotot: ptv-tuki@dvv.fi
+                    </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top" class="address">
+                        Digi- ja väestötietovirasto
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+
+
+  <!-- ----------------- SWEDISH ------------------------------------------- -->
+  
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTableSV">
+      <tr>
+        <td align="center" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainerSV" class="lineSeparatorImg">
+           <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBodySV">
+                <tr>
+                  <td>
+                    <table>                     
+                      <tr>
+                        <td valign="top">
+                          <h1>
+                            Uppgifter och aktuella ändringar<br />
+                            i Servicedatalagret, $DATE$
+                          </h1>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            I denna månatliga sammanställning finns sammanställt alla oavslutade uppgifter om din organisations $ORGSW$ innehåll och aktuella ändringar i Suomi.fi-servicedatalagret.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            Detta är ett automatiskt meddelande som skickas av Servicedatalagret till din organisations alla huvudanvändaren och användaren. Du kan inte besvara meddelandet.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Uppgifter som kräver åtgärder
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fakeListLastItem">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            $TASKS_SV$
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Aktuella ändringar som kan intressera dig
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fakeListLastItem">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            $NOTIFICATIONS_SV$
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            OBS! Uppgifternas antal i detta meddelande och i SDL-användargränssnittet kan variera. Det exakta antalet aktuella ändringar anges inte, eftersom informationen kan snabbt förändras.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            För att kunna granska Uppgifter och aktuella ändringar, logga in i Servicedatalagret.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/sv" target="_blank">
+                            Logga in i Suomi.fi-servicedatalagret
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://www.eoppiva.fi/koulutukset/SDL-korkort" target="_blank">
+                            Avlägg SDL-körkort
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/sv/tuki/artikkelit/5b6ab6b99ef01764b2dbd296" target="_blank">
+                            Fråga och diskutera i SDL-forumet
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="link">
+                          <a href="https://palveluhallinta.suomi.fi/sv/tuki/artikkelit/5aabe9e32503b4004f2bc0f1" target="_blank">
+                            Delta i SDL-utbildningar
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="lastLink">
+                          <a href="https://palveluhallinta.suomi.fi/sv/tuki/artikkelit/5c1a44687474c0004cb7ae15" target="_blank">
+                            Gå med i SDL-utvecklargemenskapen
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Med vänlig hälsning
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          Myndigheten för digitalisering och befolkningsdat
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooterSV">
+                <tr>
+                  <td align="center" valign="top" class="footerImgWrap">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td align="center" valign="top" class="footerImg">
+                          <!--       <img src="mailbox.png" alt="mailbox with a letter" width="93" height="80" /></td> -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" class="footerLink">                  
+                    <a href="mailto:ptv-tuki@dvv.fi">
+                      Respons och kontakt: ptv-tuki@dvv.fi
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" class="address">
+                    Myndigheten för digitalisering och befolkningsdat
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+    </body>
+    </html>

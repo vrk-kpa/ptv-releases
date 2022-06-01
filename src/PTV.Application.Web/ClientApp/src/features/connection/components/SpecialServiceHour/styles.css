@@ -1,0 +1,20 @@
+/* Temporary fix for dropdown: prevent reach popover vertical overflow */
+[data-reach-listbox-list] {
+  max-height: 20vh;
+  overflow-y: auto;
+}
+
+/* Temporary fix for dropdown: prevent reach popover horizontal overflow */
+[data-reach-listbox-option] {
+  white-space: normal !important;
+}
+/* Temporary fix for dropdown: override min-width */
+.dropdown-custom {
+  min-width: 150px;
+}
+
+/* Temporary fix for dropdown: override min-width */
+.fi-dropdown.dropdown-custom .fi-dropdown_button.fi-dropdown_button {
+  width: 100%;
+  min-width: 150px;
+}

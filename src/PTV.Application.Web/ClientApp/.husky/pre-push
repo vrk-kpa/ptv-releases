@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+cd src/PTV.Application.Web/ClientApp && npm run test && npm run lint-prod

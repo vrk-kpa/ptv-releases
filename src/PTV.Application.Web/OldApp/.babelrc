@@ -1,0 +1,20 @@
+﻿{
+    "presets": [
+      ["env", { "modules": false }],
+      "react"
+    ],
+    "plugins": [
+      "syntax-dynamic-import",
+      ["react-intl",
+        { "messagesDir": "./build/messages/",
+          "moduleSourceName": "util/react-intl" }]
+    ],
+    "env": {
+      "development": {
+        "plugins": [
+          "react-hot-loader/babel",
+          "transform-react-jsx-source"
+        ]
+      }
+    }
+}

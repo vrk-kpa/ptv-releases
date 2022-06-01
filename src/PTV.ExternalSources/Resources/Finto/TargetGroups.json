@@ -1,0 +1,301 @@
+[
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.8",
+    "Notation": "KR2.8",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Yrityksen perustajat kotimaassa",
+      "Sv": "Inhemska företagsgrundare",
+      "En": "Finnish startups"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2016"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.4",
+    "Notation": "KR2.4",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Suomeen ulkomailta tulevat yrittäjät",
+      "Sv": "Utländska entreprenörer i Finland",
+      "En": "Foreign entrepreneurs in Finland"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2012"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.3",
+    "Notation": "KR2.3",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Kotimarkkinoilla toimivat yritykset",
+      "Sv": "Företag på den inhemska marknaden",
+      "En": "Businesses operating in the domestic (Finnish) market"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2011"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.2",
+    "Notation": "KR2.2",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Keksijät",
+      "Sv": "Uppfinnare",
+      "En": "Inventors"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2010"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.7",
+    "Notation": "KR2.7",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Yhdistykset ja järjestöt",
+      "Sv": "Föreningar och organisationer",
+      "En": "Non-government organizations"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2015"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.1",
+    "Notation": "KR2.1",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Kansainvälistyvät yritykset",
+      "Sv": "Internationalisering av företag",
+      "En": "Businesses going international"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2009"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.5",
+    "Notation": "KR2.5",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Suuryritykset",
+      "Sv": "Storföretag",
+      "En": "Large companies"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2013"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.6",
+    "Notation": "KR2.6",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Työnantajat",
+      "Sv": "Arbetsgivare",
+      "En": "Employers"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2014"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.3",
+    "Notation": "KR1.3",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Nuoret",
+      "Sv": "De unga",
+      "En": "Young people"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2004"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.6",
+    "Notation": "KR1.6",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Vammaiset",
+      "Sv": "Handikappade",
+      "En": "Disabled people"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2007"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.1",
+    "Notation": "KR1.1",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Ikäihmiset",
+      "Sv": "De äldre",
+      "En": "Seniors"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2002"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.5",
+    "Notation": "KR1.5",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Ulkosuomalaiset",
+      "Sv": "Utlandsfinländare",
+      "En": "Expatriate Finns"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2006"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.2",
+    "Notation": "KR1.2",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Lapset ja lapsiperheet",
+      "Sv": "Barn och barnfamiljer",
+      "En": "Children and families with children"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2003"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.4",
+    "Notation": "KR1.4",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1"
+    ],
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Pitkäaikaissairaat",
+      "Sv": "Långtidssjuka",
+      "En": "People with long-term illnesses"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2005"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2",
+    "Notation": "KR2",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": null,
+    "NarrowerUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.8",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.4",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.3",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.2",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.7",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.1",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.5",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR2.6"
+    ],
+    "Label": {
+      "Fi": "Yritykset ja yhteisöt",
+      "Sv": "Företag och samfund",
+      "En": "Businesses and non-government organizations"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2008"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR3",
+    "Notation": "KR3",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": null,
+    "NarrowerUris": null,
+    "Label": {
+      "Fi": "Viranomaiset",
+      "Sv": "Myndigheter",
+      "En": "Authorities"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2017"
+  },
+  {
+    "Id": "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1",
+    "Notation": "KR1",
+    "ConceptType": "ptvkohderyhmat",
+    "BroaderUris": null,
+    "NarrowerUris": [
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.3",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.6",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.1",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.5",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.2",
+      "http://uri.suomi.fi/codelist/ptv/ptvkohderyhmat/code/KR1.4"
+    ],
+    "Label": {
+      "Fi": "Kansalaiset",
+      "Sv": "Medborgare",
+      "En": "Citizens"
+    },
+    "ExactMatchUris": null,
+    "Notes": null,
+    "OldUri": "http://urn.fi/URN:NBN:fi:au:ptvl:v2001"
+  }
+]

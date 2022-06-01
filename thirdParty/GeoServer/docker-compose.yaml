@@ -1,0 +1,6 @@
+services:
+  geoserver:
+    build: .
+    env_file: .env-local
+    ports:
+      - "8080:8080"

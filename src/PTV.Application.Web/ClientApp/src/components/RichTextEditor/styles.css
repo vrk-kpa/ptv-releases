@@ -1,0 +1,46 @@
+/* Without !important part draft-js editor draws on top of everything:
+  https://github.com/facebook/draft-js/issues/2378
+  */
+.DraftEditor-root {
+  z-index: 0 !important;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.public-DraftStyleDefault-block {
+  margin-bottom: 2px;
+}
+
+.public-DraftEditor-content {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.public-DraftStyleDefault-ol {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 2px;
+}
+
+.public-DraftStyleDefault-ul {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 2px;
+}
+
+.DraftEditor-root h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.Editor-hide-placeholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}

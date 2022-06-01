@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[o:population-register-center:p:fsc-dev:r:fijson]
+file_filter  = localization/<lang>.json
+source_file  = localization/noTranslation.json
+source_lang  = af
+type         = KEYVALUEJSON
+minimum_perc = 0
+lang_map     = fi_FI:Fi,en_GB:En,sv_SE:Sv

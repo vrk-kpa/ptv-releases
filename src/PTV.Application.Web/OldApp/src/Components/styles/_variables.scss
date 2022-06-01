@@ -1,0 +1,252 @@
+// Grid breakpoints
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 544px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 1024px,
+  // Extra large screen / wide desktop
+  xl: 1280px
+);
+
+$named-grid-breakpoints: (
+  mobile: map-get($grid-breakpoints, sm),
+  tablet: map-get($grid-breakpoints, md),
+  desktop: map-get($grid-breakpoints, lg),
+  desktop-large: map-get($grid-breakpoints, xl)
+);
+
+// Grid containers
+$container-max-widths: (
+  sm: 576px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+$grid-gutter-width: 1.25rem;
+
+// Fonts
+$font-default: SourceSansProRegular, "Helvetica Neue", Arial, helvetica, sans-serif, clean;
+$font-headline: RobotoBold, Arial, helvetica, sans-serif, clean;
+
+// Shortcuts for @media usage
+$mobile: "only screen and (max-width: #{map-get($grid-breakpoints, sm)})";
+$tablet: "only screen and (max-width: #{map-get($grid-breakpoints, md)})";
+$desktop: "only screen and (max-width: #{map-get($grid-breakpoints, lg)})";
+$desktop-large: "only screen and (max-width: #{map-get($grid-breakpoints, xl)})";
+
+$breakpoints: map-merge($grid-breakpoints, $named-grid-breakpoints);
+//@import '~include-media/dist/include-media';
+@import '../../../node_modules/include-media/dist/include-media';
+@function bp($conditions...) {
+  @if (length($conditions) > 0) {
+    $stuff: '';
+    @each $cond in $conditions {
+      @if (str-length($stuff) > 0) {
+        $stuff: $stuff + ' and ' + parse-expression($cond);
+      } @else {
+        $stuff: parse-expression($cond);
+      }
+    }
+    @return $stuff;
+  }
+}
+
+/* ------------- */
+// DEVICE WIDTHS
+/* ------------- */
+$iphone6-portrait: "only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)";
+$iphone6p-portrait: "only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)";
+$android360x640-portrait: "only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)";
+$android411-portrait: "only screen
+  and (min-device-width: 411px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)";
+$android435-portrait: "only screen
+  and (min-device-width: 435px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)";
+
+/* ------------- */
+// COLOURS
+/* ------------- */
+$black:                     #000000;
+$gray-dark:                 #2C2C2C;
+$gray:                      #6B6B6B;
+$gray-alt:                  #AAAAAA;
+$gray-mid:                  #CCCCCC;
+$gray-light:                #F1F1F1;
+$gray-lighter:              #F8F8F8;
+$gray-lightest:             #FAFAFA;
+$white:                     #FFFFFF;
+
+$blue-lightest:             #F0F8FF;
+$blue-lightgrad:            #0C8AF2;
+$blue-darkgrad:             #259DFF;
+$blue-dark:                 #092240;
+$blue-link:                 #0376CD;
+$blue-icon:                 #4D8CBF;
+$brand-blue:                #0D92FF;
+$brand-blue-alt:            #66B7FF;
+$brand-purple:              #A35896;
+$brand-success:             #22B78F;
+$brand-info:                #F18653;
+$brand-warning:             #BF3939;
+$brand-danger:              #BF3939;
+
+$brand-success-alt:         #67DD78;
+$brand-warning-alt:         #DD7667;
+$brand-purple-alt:          #C685FF;
+$brand-info-alt:            #FE9A63;
+
+/* ------------- */
+// COLOURS
+/* ------------- */
+
+// Identity colors
+$brand-color: #003479;
+
+$identity_colors: (
+  primary: (
+    brand: $brand-color,
+    interaction: (
+      primary: #2A6EBB,
+      dark: #2562A7,
+      light: #3F7CC1,
+      disabled: #C9CDCF,
+      secondary-disabled: #F6F6F7,
+      secondary-highlight: #F6F6F7
+    ),
+    icon: (
+      accent: #EA7125,
+      primary: #A5ACB0,
+      secondary: #84898C
+    ),
+    text: (
+      primary: #282828,
+      secondary: #636769,
+      disabled: #EDEEEF,
+      secondary-disabled: #A5ACB0,
+      placeholder: #84898C
+    ),
+    bgborder: (
+      site-bg: #F6F6F7,
+      content-bg: #FFFFFF,
+      border: #C9CDCF,
+      input-border: #A5ACB0,
+      input-border-disabled: #C9CDCF,
+      light: #FAFAFA,
+      dark: #EDEEEF,
+      darker-bg: #A5ACB0
+    ),
+    border: (
+      border: #C9CDCF,
+      input: #A5ACB0,
+      input-disabled: #C9CDCF
+    ),
+    bg: (
+      site: #F6F6F7,
+      content: #FFFFFF,
+      light: #FAFAFA,
+      dark: #EDEEEF,
+      darker: #C9CDCF
+    ),
+    status: (
+      success: #00B38A,
+      notification: #F4AA00,
+      danger: #C13832,
+    )
+  ),
+  secondary: (
+    kaamos: #002E5F,
+    jarvi: #2A6EBB,
+    taivas: #34B6E4,
+    revontuli: #60CDCB,
+    havumetsa: #007770,
+    koivu: #B9CF96,
+    lakka: #EA7125,
+    mustikka: #8B2346,
+    marjapuuro: #E30450,
+    kanerva: #9F60B5
+  )
+);
+
+@function primary-color($name) {
+  @return map-get(map-get($identity_colors, "primary"), $name);
+}
+
+@function secondary-color($name) {
+  @return map-get(map-get($identity_colors, "secondary"), $name);
+}
+
+@function brand-color() {
+  @return primary-color("brand");
+}
+
+@function interaction-color($name) {
+  @return map-get(primary-color("interaction"), $name)
+}
+
+@function icon-color($name) {
+  @return map-get(primary-color("icon"), $name)
+}
+
+@function text-color($name) {
+  @return map-get(primary-color("text"), $name)
+}
+
+@function bg-border-color($name) {
+  @return map-get(primary-color("bgborder"), $name)
+}
+
+@function border-color($name) {
+  @return map-get(primary-color("border"), $name)
+}
+
+@function bg-color($name) {
+  @return map-get(primary-color("bg"), $name)
+}
+
+
+@function status-color($name) {
+  @return map-get(primary-color("status"), $name)
+}
+
+/* ------------- */
+// ChECKBOXES
+/* ------------- */
+$checkbox-color: $gray-alt;
+$checkbox-checked-color: $gray-dark;
+$checkbox-disabled-color: rgba($gray-dark, 0.26);
+$checkbox-field-margin-bottom: 14px;
+$checkbox-field-margin-bottom-small: 10px;
+$checkbox-focus-checked-color: rgba($brand-blue, 0.26);
+$checkbox-size: 28px;
+$checkbox-size-small: 18px;
+$checkbox-focus-color: rgba($gray-dark, 0.1);
+$checkbox-focus-size: $checkbox-size * 2.3;
+$checkbox-text-color: $gray-dark;
+$checkbox-text-font-size: 15px;
+$checkbox-text-font-size-small: 13px;
+$checkbox-total-height: 28px;
+$checkbox-transition-duration: 0.2s;
+$checkbox-horizontal-indent: 14px;
+$checkbox-horizontal-indent-small: 10px;
+$checkbox-vertical-indent: 7px;
+$checkbox-vertical-indent-small: 5px;

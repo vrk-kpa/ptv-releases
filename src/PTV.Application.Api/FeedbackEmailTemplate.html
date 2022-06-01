@@ -1,0 +1,386 @@
+<!doctype html>
+
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+
+  <title>Palautetta organisaatiosi sisällöstä Suomi.fi-verkkopalvelusta.</title>
+  <meta name="description" content="PAHA email template">
+  <meta name="ptv_dev_team" content="PAHA">
+
+  <style>
+    /****** EMAIL CLIENT BUG FIXES - BEST NOT TO CHANGE THESE ********/
+
+    .ExternalClass {width:100%;} /* Forces Outlook.com to display emails at full width */
+
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+          line-height: 100%;
+          }  /* Forces Outlook.com to display normal line spacing, here is more on that:
+          https://www.emailonacid.com/forum/viewthread/43/
+          */
+
+      body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;} /* Prevents Webkit and Windows Mobile
+      platforms from changing default font sizes. */
+
+      body {margin:0; padding:0;} /* Resets all body margins and padding to 0 for good measure */
+
+      table td {border-collapse:collapse;}
+      /*This resolves the Outlook 07, 10, and Gmail td padding issue.  Heres more info:
+              http://www.ianhoar.com/2008/04/29/outlook-2007-borders-and-1px-padding-on-table-cells
+              http://www.campaignmonitor.com/blog/post/3392/1px-borders-padding-on-table-cells-in-outlook-07
+              */
+
+    /****** END BUG FIXES ********/
+
+    /****** RESETTING DEFAULTS, IT IS BEST TO OVERWRITE THESE STYLES INLINE ********/
+
+            p {margin:0; padding:0; margin-bottom:0;}
+                    /* Be sure to stick to margins because paragraph padding is not supported by Outlook 2007/2010
+                  Remember: Outlook.com does not support "margin" nor the "margin-top" properties.
+                  Stick to "margin-bottom", "margin-left", "margin-right" in order to control spacing
+                  It also doesnt hurt to set the inline top-margin to "0" for consistancy in Gmail for every instance of a
+                  paragraph tag */
+
+          h1, h2, h3, h4, h5, h6 {
+              color: black;
+              line-height: 100%;
+              }
+
+          a, a:link {
+              color:#2A6EBB;
+              text-decoration: underline;
+              }
+
+  /****** END RESETTING DEFAULTS ********/
+
+    /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+    body{
+        margin:0;
+        padding:0;
+    }
+    ul {
+      margin: 0;
+    }
+    img{
+        border:0 none;
+        height:auto;
+        line-height:100%;
+        outline:none;
+        text-decoration:none;
+    }
+
+    a img{
+        border:0 none;
+    }
+
+    .imageFix{
+        display:block;
+    }
+
+    table, td{
+        border-collapse:collapse;
+    }
+
+    #bodyTable{
+        height:100% !important;
+        margin:0;
+        padding:0;
+        width:100% !important;
+    }
+    #bodyTableSV{
+      height:100% !important;
+      margin:0;
+      padding:0;
+      width:100% !important;
+    }
+
+    /* /\/\/\/\/\/\/\/\/ CUSTOM STYLES /\/\/\/\/\/\/\/\/ */
+    body {
+      background-color: #FAFAFA;
+    }
+    p, li, td {
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-family:Helvetica, Arial, sans-serif;
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+    p {
+      margin: 0;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    ul {
+      margin-bottom: 20px;
+      padding-left: 0;
+      list-style-position: inside;
+    }
+    #emailHeader, #emailBody, #emailFooter {
+      background-color: #FFFFFF;
+    }
+    #emailHeaderSV, #emailBodySV, #emailFooterSV {
+      background-color: #FFFFFF;
+    }
+    .footerImgWrap {
+      padding: 30px 20px 0;
+    }
+    .footerImg {
+      border-top: 5px solid #26baf2;
+      padding-top: 30px;
+    }
+    .lineSeparatorImg {
+      border-top: 5px solid #26baf2;
+      padding-top: 30px;
+    }
+    .footerLink {
+      padding: 0 20px;
+    }
+    .address {
+      padding: 30px 20px;
+    }
+    .dateCellWrap {
+      padding-top: 20px;
+    }
+    .dateCell {
+      background-color: #003479;
+      color: #FFFFFF;
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      height: 20px;
+    }
+    .logo {
+      height: 50px;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    .translationNote {
+      font-family:Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .link {
+      padding-bottom: 10px;
+    }
+    .lastLink {
+      padding-bottom: 30px;
+    }
+    .bold {
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .fakeListLastItem {
+      padding-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+    <tr>
+      <td align="center" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainer">        
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBody">
+                <tr>
+                  <td>
+                    <table>                     
+                      <tr>
+                        <td valign="top">
+                          <p class="translationNote">Se nedan på svenska</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            Käyttäjä on lähettänyt palautetta Suomi.fi-verkkopalvelusta koskien organisaatiosi tuottamaa sisältöä sivulla <a href="$LINK$" target="_blank">$LINK$</a>. 
+                          </p>
+                          <p>
+                            Tämä viesti on lähetetty kaikille organisaatiosi PTV-käyttäjille.
+                          </p>
+                          <p>
+                            Teettehän  sisältöön tarvittavat muutokset <a href="https://palveluhallinta.suomi.fi/" target="_blank">Palvelutietovarannossa</a>.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                            Palaute:
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            $MESSAGE$
+                          </p>
+                        </td>
+                      </tr> 
+                      <tr>
+                        <td valign="top" class="bold">
+                          Ystävällisin terveisin
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>Digi- ja väestötietovirasto</p>
+                        </td>
+                      </tr>
+                      <tr style="display: $SHOWSENDER$">
+                        <td>
+                          <p>
+                            <strong>Palautteen lähettäjä: </strong> $SENDEREMAIL$
+                          </p>
+                          <p>
+                            Vastaattehan tarvittaessa asiakkaalle palautteeseen.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
+                <tr>
+                  <td align="center" valign="top" class="footerImgWrap">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td align="center" valign="top" class="footerImg">
+                   <!--       <img src="mailbox.png" alt="mailbox with a letter" width="93" height="80" /></td> -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr> 
+                <tr>
+                  <td align="center" valign="top" class="footerLink">
+                    <!--    <a href="mailto:ptv-tuki@vrk.fi" target="_blank">
+                          Palaute ja yhetydenotot
+                        </a> -->
+                    <a href="https://palveluhallinta.suomi.fi/fi/tuki/yhteydenotto/palvelutietovaranto" target="_blank">
+                      Palaute ja yhteydenotot
+                    </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top" class="address">
+                        Digi- ja väestötietovirasto
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+
+
+  <!-- ----------------- SWEDISH ------------------------------------------- -->
+  
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTableSV">
+      <tr>
+        <td align="center" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainerSV" class="lineSeparatorImg">
+           <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBodySV">
+                <tr>
+                  <td>
+                    <table>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            En användare har skickat respons från Suomi.fi-webbtjänsten gällande din organisations innehåll på sidan <a href="$LINK$" target="_blank">$LINK$</a>.
+                          </p>
+                          <p>
+                            Detta meddelande har skickats till din organisations alla SDL-användaren.
+                          </p>
+                          <p>
+                            Vänligen gör de behövliga förändringarna till innehållet i <a href="https://palveluhallinta.suomi.fi/" target="_blank">Servicedatalagret</a>.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Respons:
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>
+                            $MESSAGE$
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="bold">
+                          Med vänlig hälsning
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <p>Myndigheten för digitalisering och befolkningsdata</p>
+                        </td>
+                      </tr>
+                      <tr style="display: $SHOWSENDER$">
+                        <td>
+                          <p>
+                            <strong>Avsändare av responsen: </strong> $SENDEREMAIL$
+                          </p>
+                          <p>
+                            Svara på kundens respons vid behov.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top">
+              <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooterSV">
+                <tr>
+                  <td align="center" valign="top" class="footerImgWrap">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td align="center" valign="top" class="footerImg">
+                          <!--       <img src="mailbox.png" alt="mailbox with a letter" width="93" height="80" /></td> -->
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" class="footerLink">                  
+                    <a href="https://palveluhallinta.suomi.fi/sv/tuki/yhteydenotto/palvelutietovaranto" target="_blank">
+                      Respons och kontakt
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" class="address">
+                    Myndigheten för digitalisering och befolkningsdata
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+    </body>
+    </html>

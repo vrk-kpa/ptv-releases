@@ -1,0 +1,43 @@
+﻿namespace PTV.ExternalData.Pharmacy
+
+module Defaults =  
+  let locationIdPrefix = "pharma-"
+  let eChannelIdPrefix = "epharma-"
+  let language = "fi"
+  let languageName = "Suomi"
+  let description = @"myy sekä reseptilääkkeitä että itsehoitolääkkeitä, joiden ostamiseen et tarvitse lääkärin lääkemääräystä. Lisäksi apteekki myy lääkkeiden käyttöön tarvittavia välineitä, sidetarpeita, lääkinnällisiä laitteita, ravintolisiä ja kosmetiikkaa. Saat apteekista myös lääkeneuvontaa sekä opastusta lääkkeiden ja muiden apteekissa myytävien tuotteiden käytössä. Lisäksi saat neuvontaa sairauksien lääkkeettömään hoitoon ja terveyden edistämiseen. Apteekkiin voit palauttaa käyttämättömäksi jääneet ja vanhentuneet lääkkeet."
+  let summary = "myy reseptilääkkeitä, itsehoitolääkkeitä, lääkkeiden käyttöön tarvittavia välineitä ja sidetarpeita."
+  let areaType = "Nationwide"
+  let limitedAreaType = "LimitedType"
+  let areaTypeMunicipality = "Municipality"
+  let addressShopNames = [ "prisma"; "kauppakeskus" ]
+  let swedishStreetNames = [ "vägen"; "landen" ]
+  let addressType = "Location"
+  let addressSubtype = "Single"
+  let phonePrefix = "+358"
+  let phoneFree = "FreeOfCharge"
+  let phoneCharged = "Chargeable"
+  let serviceHoursType = "DaysOfTheWeek"
+  let exceptionalHoursType = "Exceptional"
+  let overMidnightHoursType = "OverMidnight"
+  let publishingStatus = "Published"
+  let accessibilityClassificationLevel = "Unknown"
+  let pharmaciesHomePage = "https://www.apteekki.fi/"
+  let pharmaciesHomePageText = "Tiedot apteekin aukioloajoista sekä kattavan kuvauksen apteekin tarjoamista palveluista"
+  let closed = "suljettu"
+  let eChannelSuffix = "-verkkoapteekki"
+  let eChannelSummary = " on apteekin etäasiointikanava, jossa voi mm. ostaa lääkkeitä ja tutustua lääketietoon."
+  let eChannelShortSummary = " on apteekin etäasiointikanava."
+  let eChannelDescription = "on apteekin etäasiointikanava, josta voi ostaa lääkkeitä, apteekkituotteita ja muita palveluita sekä tutustua tuotteisiin ja lääketietoon. Verkkoapteekin kautta voi ottaa yhteyttä apteekin henkilökuntaan ja saada lääkeneuvontaa sekä muuta opastusta."
+  let textLengths =
+    {
+      Name = 100
+      Summary = 150
+      Description = 2500
+      AdditionalInfo = 100
+      StreetName = 100
+      StreetAdditionalInfo = 150
+      WebPage = 500
+      ChargeInfoMin = 5
+    }
+  

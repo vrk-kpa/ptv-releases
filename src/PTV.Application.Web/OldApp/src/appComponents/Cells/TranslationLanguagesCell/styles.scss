@@ -1,0 +1,8 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+
+.translationLanguages {
+  display: flex;
+  * ~ * {
+    margin-left: 5px;
+  }
+}

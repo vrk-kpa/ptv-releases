@@ -1,0 +1,28 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+}
+
+/* This is where app is injected */
+#root {
+  flex: 1;
+  display: flex;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}

@@ -1,0 +1,404 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "sourceId": "string",
+  "serviceChannelType": "string",
+  "organizationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "serviceChannelNames": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "serviceChannelDescriptions": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "areaType": "string",
+  "areas": [
+    {
+      "type": "string",
+      "code": "string",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "municipalities": [
+        {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formIdentifier": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "deliveryAddresses": [
+    {
+      "subType": "string",
+      "postOfficeBoxAddress": {
+        "postOfficeBox": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "postalCode": "string",
+        "postOffice": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "municipality": {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "streetAddress": {
+        "street": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "streetNumber": "string",
+        "postalCode": "string",
+        "postOffice": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "municipality": {
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        },
+        "additionalInformation": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ]
+      },
+      "deliveryAddressInText": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "receiver": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "channelUrls": [
+    {
+      "language": "string",
+      "value": "string",
+      "type": "string"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "string",
+      "name": "string",
+      "description": "string",
+      "url": "string",
+      "language": "string"
+    }
+  ],
+  "supportPhones": [
+    {
+      "additionalInformation": "string",
+      "serviceChargeType": "string",
+      "chargeDescription": "string",
+      "prefixNumber": "string",
+      "isFinnishServiceNumber": true,
+      "number": "string",
+      "language": "string"
+    }
+  ],
+  "supportEmails": [
+    {
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "languages": [
+    "string"
+  ],
+  "webPages": [
+    {
+      "url": "string",
+      "value": "string",
+      "language": "string"
+    }
+  ],
+  "serviceHours": [
+    {
+      "serviceHourType": "string",
+      "validFrom": "2020-02-06T10:50:22.273Z",
+      "validTo": "2020-02-06T10:50:22.273Z",
+      "isClosed": true,
+      "validForNow": true,
+      "isAlwaysOpen": true,
+      "isReservation": true,
+      "additionalInformation": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "openingHour": [
+        {
+          "dayFrom": "string",
+          "dayTo": "string",
+          "from": "string",
+          "to": "string"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "service": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "string"
+      },
+      "serviceChargeType": "string",
+      "description": [
+        {
+          "language": "string",
+          "value": "string",
+          "type": "string"
+        }
+      ],
+      "extraTypes": [
+        {
+          "type": "string",
+          "code": "string",
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "description": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ]
+        }
+      ],
+      "serviceHours": [
+        {
+          "serviceHourType": "string",
+          "validFrom": "2020-02-06T10:50:22.273Z",
+          "validTo": "2020-02-06T10:50:22.273Z",
+          "isClosed": true,
+          "validForNow": true,
+          "isAlwaysOpen": true,
+          "isReservation": true,
+          "additionalInformation": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "openingHour": [
+            {
+              "dayFrom": "string",
+              "dayTo": "string",
+              "from": "string",
+              "to": "string"
+            }
+          ]
+        }
+      ],
+      "contactDetails": {
+        "emails": [
+          {
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "phoneNumbers": [
+          {
+            "type": "string",
+            "additionalInformation": "string",
+            "serviceChargeType": "string",
+            "chargeDescription": "string",
+            "prefixNumber": "string",
+            "isFinnishServiceNumber": true,
+            "number": "string",
+            "language": "string"
+          }
+        ],
+        "webPages": [
+          {
+            "url": "string",
+            "value": "string",
+            "language": "string"
+          }
+        ],
+        "addresses": [
+          {
+            "type": "string",
+            "subType": "string",
+            "postOfficeBoxAddress": {
+              "postOfficeBox": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ]
+            },
+            "streetAddress": {
+              "street": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "streetNumber": "string",
+              "postalCode": "string",
+              "postOffice": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "municipality": {
+                "code": "string",
+                "name": [
+                  {
+                    "value": "string",
+                    "language": "string"
+                  }
+                ]
+              },
+              "additionalInformation": [
+                {
+                  "value": "string",
+                  "language": "string"
+                }
+              ],
+              "latitude": "string",
+              "longitude": "string",
+              "coordinateState": "string"
+            },
+            "locationAbroad": [
+              {
+                "value": "string",
+                "language": "string"
+              }
+            ],
+            "country": "string"
+          }
+        ]
+      },
+      "digitalAuthorizations": [
+        {
+          "name": [
+            {
+              "value": "string",
+              "language": "string"
+            }
+          ],
+          "code": "string",
+          "ontologyType": "string",
+          "uri": "string",
+          "parentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "parentUri": "string"
+        }
+      ],
+      "modified": "2020-02-06T10:50:22.273Z"
+    }
+  ],
+  "serviceCollections": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ]
+    }
+  ],
+  "publishingStatus": "string",
+  "modified": "2020-02-06T10:50:22.273Z",
+  "responsibleSoteOrganization": "string",
+  "ontologyTerms": [
+    {
+      "name": [
+        {
+          "value": "string",
+          "language": "string"
+        }
+      ],
+      "code": "string",
+      "ontologyType": "string",
+      "uri": "string",
+      "parentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "parentUri": "string"
+    }
+  ]
+}

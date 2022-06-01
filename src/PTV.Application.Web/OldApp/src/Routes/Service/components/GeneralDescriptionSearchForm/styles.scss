@@ -1,0 +1,68 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+@import '../../../../styles/_mixins.scss';
+
+.nestedForm {
+  background-color: bg-color(dark);
+  border: 1px solid border-color(border);
+  margin-bottom: 30px;
+}
+
+.nestedFormRow {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  background-color: bg-color(dark);
+}
+
+.gdHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attachedGD {
+  line-height: 40px;
+}
+
+.buttonGroup {
+  @include arrange-items($spacing: 20px);
+}
+
+.spinner {
+  @include spinner-basic();
+}
+
+.previewIcon {
+  margin-right: 5px;
+}
+
+// override default table padding
+:global {
+  #generalDescriptionId table th,
+  #generalDescriptionId table td {
+    padding-left: 10px;
+    padding-right: 10px;
+    &:first-child {
+      padding-left: 20px;
+    }
+    &:last-child {
+      padding-right: 20px;
+    }
+  }
+}
+
+.useOfGD {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+  label {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+.attachedGDLabel {
+  margin-top: -10px;
+}

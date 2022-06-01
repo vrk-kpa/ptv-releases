@@ -1,0 +1,162 @@
+<#+/** 
+ * Copyright (c) 2009-2011 Novell, Inc. (http://www.novell.com)
+ * Copyright (c) 2011-2016 Xamarin Inc. (http://www.xamarin.com)
+ * Copyright (c) 2016-2017 Microsoft Corp. (http://www.microsoft.com)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+#><#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#+
+    /// <summary>
+    /// Reponsible for abstracting the use of Host between times
+    /// when it is available and not
+    /// </summary>
+    public interface IDynamicHost
+    {
+        /// <summary>
+        /// An abstracted call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolveParameterValue
+        /// </summary>
+        string ResolveParameterValue(string id, string name, string otherName);
+
+        /// <summary>
+        /// An abstracted call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolvePath
+        /// </summary>
+        string ResolvePath(string path);
+
+        /// <summary>
+        /// An abstracted call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost TemplateFile
+        /// </summary>
+        string TemplateFile { get; }
+
+        /// <summary>
+        /// Returns the Host instance cast as an IServiceProvider
+        /// </summary>
+        IServiceProvider AsIServiceProvider();
+    }
+
+    /// <inheritdoc />
+    /// <summary>
+    /// Reponsible for implementing the IDynamicHost as a dynamic
+    /// shape wrapper over the Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost interface
+    /// rather than type dependent wrapper.  We don't use the
+    /// interface type so that the code can be run in preprocessed mode
+    /// on a .net framework only installed machine.
+    /// </summary>
+    public class DynamicHost : IDynamicHost
+    {
+        private readonly object _instance;
+        private readonly MethodInfo _resolveParameterValue;
+        private readonly MethodInfo _resolvePath;
+        private readonly PropertyInfo _templateFile;
+
+        /// <summary>
+        /// Creates an instance of the DynamicHost class around the passed in
+        /// Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost shapped instance passed in.
+        /// </summary>
+        public DynamicHost(object instance)
+        {
+            _instance = instance;
+            var type = _instance.GetType();
+            _resolveParameterValue = type.GetMethod("ResolveParameterValue",
+                new Type[] {typeof(string), typeof(string), typeof(string)});
+            _resolvePath = type.GetMethod("ResolvePath", new Type[] {typeof(string)});
+            _templateFile = type.GetProperty("TemplateFile");
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// A call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolveParameterValue
+        /// </summary>
+        public string ResolveParameterValue(string id, string name, string otherName)
+        {
+            return (string) _resolveParameterValue.Invoke(_instance, new object[] {id, name, otherName});
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// A call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolvePath
+        /// </summary>
+        public string ResolvePath(string path)
+        {
+            return (string) _resolvePath.Invoke(_instance, new object[] {path});
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// A call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost TemplateFile
+        /// </summary>
+        public string TemplateFile => (string) _templateFile.GetValue(_instance, null);
+
+        /// <inheritdoc />
+        /// <summary>
+        /// Returns the Host instance cast as an IServiceProvider
+        /// </summary>
+        public IServiceProvider AsIServiceProvider()
+        {
+            return _instance as IServiceProvider;
+        }
+    }
+
+    /// <inheritdoc />
+    /// <summary>
+    /// Reponsible for implementing the IDynamicHost when the
+    /// Host property is not available on the TextTemplating type. The Host
+    /// property only exists when the hostspecific attribute of the template
+    /// directive is set to true.
+    /// </summary>
+    public class NullHost : IDynamicHost
+    {
+        /// <inheritdoc />
+        /// <summary>
+        /// An abstraction of the call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolveParameterValue
+        /// that simply retuns null.
+        /// </summary>
+        public string ResolveParameterValue(string id, string name, string otherName)
+        {
+            return null;
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// An abstraction of the call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost ResolvePath
+        /// that simply retuns the path passed in.
+        /// </summary>
+        public string ResolvePath(string path)
+        {
+            return path;
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// An abstraction of the call to Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost TemplateFile
+        /// that returns null.
+        /// </summary>
+        public string TemplateFile => null;
+
+        /// <inheritdoc />
+        /// <summary>
+        /// Returns null.
+        /// </summary>
+        public IServiceProvider AsIServiceProvider()
+        {
+            return null;
+        }
+    }
+#>

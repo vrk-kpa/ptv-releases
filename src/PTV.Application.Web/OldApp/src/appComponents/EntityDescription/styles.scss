@@ -1,0 +1,27 @@
+@import '~sema-ui-components/src/components/styles/_variables.scss';
+$iconSize: 20px;
+$indent: 10px;
+
+.previewIcon {
+  margin-right: $indent;
+}
+
+.content {
+  width: calc(200px - #{$iconSize} - #{$indent});
+}
+
+.entityDescription {
+  display: flex;
+  align-items: center;
+  :global{
+    .cell {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .content {
+    width: calc(300px - #{$iconSize} - #{$indent});
+  }
+}

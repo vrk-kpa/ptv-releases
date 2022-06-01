@@ -1,0 +1,10 @@
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+  <g id="suomifi_symbol" stroke="none" fill="none" fill-rule="evenodd">
+    <path d="M31,32 L1,32 C0.45,32 0,31.55 0,31 L0,1 C0,0.45 0.45,0 1,0 L31,0 C31.55,0 32,0.45 32,1 L32,31 C32,31.55 31.55,32 31,32 Z" id="Fill-1" fill="#003479"></path>
+    <path d="M8.0008,12.0004 L8.0008,9.1434 C8.0008,8.5144 8.5148,8.0004 9.1438,8.0004 L12.0008,8.0004 L12.0008,12.0004" id="Fill-3" fill="#FFFFFF"></path>
+    <path d="M8,15.9996 L12,15.9996 L12,23.4666 C12,23.7596 11.743,23.9996 11.429,23.9996 L8.571,23.9996 C8.257,23.9996 8,23.7596 8,23.4666" id="Fill-5" fill="#FFFFFF"></path>
+    <path d="M16,8.0004 L23.429,8.0004 C23.743,8.0004 24,8.2574 24,8.5714 L24,12.0004 L16,12.0004" id="Fill-7" fill="#FFFFFF"></path>
+    <path d="M23.4286,19.9996 L15.9996,19.9996 L15.9996,15.9996 L23.9996,15.9996 L23.9996,19.4286 C23.9996,19.7436 23.7446,19.9996 23.4286,19.9996" id="Fill-9" fill="#FFFFFF"></path>
+  </g>
+</svg>

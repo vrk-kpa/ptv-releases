@@ -1,0 +1,89 @@
+﻿[
+    {
+        "code": "State",
+        "names": [
+            {
+                "Name": "Valtio",
+                "language": "fi"
+            },
+            {
+                "Name": "State",
+                "language": "en"
+            },
+            {
+                "Name": "Staten",
+                "language": "sv"
+            }
+        ]
+
+
+    },
+    {
+        "code": "Municipality",
+        "names": [
+            {
+                "Name": "Kunta",
+                "language": "fi"
+            },
+            {
+                "Name": "Municipality",
+                "language": "en"
+            },
+            {
+                "Name": "Kommun",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "RegionalOrganization",
+        "names": [
+            {
+                "Name": "Alueellinen yhteistoimintaorganisaatio",
+                "language": "fi"
+            },
+            {
+                "Name": "Regional organization",
+                "language": "en"
+            },
+            {
+                "Name": "Regionalt samarbetsorgan",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Organization",
+        "names": [
+            {
+                "Name": "Järjestöt ja yhteisöt",
+                "language": "fi"
+            },
+            {
+                "Name": "Organization",
+                "language": "en"
+            },
+            {
+                "Name": "Föreningar och organisationer",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Company",
+        "names": [
+            {
+                "Name": "Yritykset",
+                "language": "fi"
+            },
+            {
+                "Name": "Company",
+                "language": "en"
+            },
+            {
+                "Name": "Företag",
+                "language": "sv"
+            }
+        ]
+    }
+]

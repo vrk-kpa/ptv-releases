@@ -1,0 +1,53 @@
+﻿[
+    {
+        "code": "NotUsed",
+        "names": [
+            {
+                "Name": "Palveluseteli ei ole käytössä, tai tietoa ei ole annettu",
+                "language": "fi"
+            },
+            {
+                "Name": "The service voucher is not in use or information has not been issued",
+                "language": "en"
+            },
+            {
+                "Name": "Servicesedeln är inte i bruk eller information har inte utfärdats",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "NoUrl",
+        "names": [
+            {
+                "Name": "Palveluseteli on käytössä palvelussa, mutta siitä ei ole tietoa verkkosivulla",
+                "language": "fi"
+            },
+            {
+                "Name": "The service voucher is available, but there is no information on a website",
+                "language": "en"
+            },
+            {
+                "Name": "Servicesedeln är i bruk men det finns ingen information på en webbplats",
+                "language": "sv"
+            }
+        ]
+    },
+    {
+        "code": "Url",
+        "names": [
+            {
+                "Name": "Palveluseteli on käytössä palvelussa ja siitä on tietoa verkkosivulla",
+                "language": "fi"
+            },
+            {
+                "Name": "The service voucher is available, and there is information on a website",
+                "language": "en"
+            },
+            {
+                "Name": "Servicesedeln är i bruk och det finns information på en webbplats",
+                "language": "sv"
+            }
+        ]
+    }
+]
